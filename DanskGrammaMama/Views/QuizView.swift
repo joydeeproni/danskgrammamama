@@ -24,7 +24,10 @@ func resolveInputMode(_ mode: InputMode, for question: Question) -> InputMode {
 
 /// A practice/review/drill session with immediate feedback after every gap.
 struct QuizView: View {
-    let questions: [Question]
+    /// Held in state on purpose: the caller builds a freshly shuffled list inside a
+    /// NavigationLink destination, which SwiftUI re-evaluates whenever the parent
+    /// re-renders. Owning the list here keeps the session stable while it runs.
+    @State private var questions: [Question]
     let title: String
 
     @Environment(ProgressStore.self) private var progress
@@ -32,6 +35,11 @@ struct QuizView: View {
     @State private var index = 0
     @State private var answered: [AnsweredItem] = []
     @State private var finished = false
+
+    init(questions: [Question], title: String) {
+        _questions = State(initialValue: questions)
+        self.title = title
+    }
 
     var body: some View {
         Group {

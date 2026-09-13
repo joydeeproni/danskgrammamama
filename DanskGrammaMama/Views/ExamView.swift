@@ -49,7 +49,7 @@ struct ExamView: View {
 }
 
 struct ExamRunView: View {
-    let questions: [Question]
+    @State private var questions: [Question]   // see QuizView for why this is state
     let minutes: Int
 
     @Environment(ProgressStore.self) private var progress
@@ -62,7 +62,7 @@ struct ExamRunView: View {
     private let ticker = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     init(questions: [Question], minutes: Int) {
-        self.questions = questions
+        _questions = State(initialValue: questions)
         self.minutes = minutes
         _remaining = State(initialValue: minutes * 60)
     }

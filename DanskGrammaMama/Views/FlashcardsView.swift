@@ -75,7 +75,11 @@ struct FlashcardsView: View {
 
 /// Tap to flip, then say whether you knew it.
 struct FlashcardReviewView: View {
-    let cards: [Flashcard]
+    @State private var cards: [Flashcard]
+
+    init(cards: [Flashcard]) {
+        _cards = State(initialValue: cards)
+    }
 
     @Environment(FlashcardStore.self) private var flashcards
     @Environment(ProgressStore.self) private var progress
