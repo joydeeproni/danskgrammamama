@@ -1,0 +1,711 @@
+{
+  "topic": "adjectives",
+  "questions": [
+    {
+      "id": "adjectives-001",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Kommunen har bygget et ___ plejehjem, hvor beboerne kan bo tæt på deres familier og det lokale foreningsliv.",
+      "options": [
+        "ny",
+        "nyt",
+        "nye",
+        "nyeste"
+      ],
+      "answer": "nyt",
+      "explanation": {
+        "en": "'Plejehjem' is an et-word (intetkøn), and after the indefinite article 'et' the adjective takes -t: et nyt plejehjem. 'Ny' is the fælleskøn form (en ny skole), and 'nye' is only used in flertal or in bestemt form.",
+        "da": "'Plejehjem' er intetkøn, og efter den ubestemte artikel 'et' får adjektivet endelsen -t: et nyt plejehjem. 'Ny' er fælleskønsformen (en ny skole), og 'nye' bruges kun i flertal eller i bestemt form."
+      },
+      "tags": [
+        "ubestemt",
+        "intetkøn",
+        "-t"
+      ]
+    },
+    {
+      "id": "adjectives-002",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Mange unge flytter til en ___ by, fordi de vil studere og arbejde tæt på andre i samme situation.",
+      "hint": "(stor)",
+      "answer": "stor",
+      "explanation": {
+        "en": "'By' is an en-word (fælleskøn), so in ubestemt ental the adjective keeps its base form without an ending: en stor by. Adding -t (stort) is only correct with et-words, and -e (store) with flertal or bestemt form.",
+        "da": "'By' er fælleskøn, så i ubestemt ental står adjektivet i grundformen uden endelse: en stor by. Endelsen -t (stort) bruges kun ved intetkøn, og -e (store) ved flertal eller bestemt form."
+      },
+      "tags": [
+        "ubestemt",
+        "fælleskøn",
+        "grundform"
+      ]
+    },
+    {
+      "id": "adjectives-003",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Regeringen har lovet ___ investeringer i den grønne omstilling i løbet af de næste ti år.",
+      "options": [
+        "stor",
+        "stort",
+        "store",
+        "større"
+      ],
+      "answer": "store",
+      "explanation": {
+        "en": "'Investeringer' is flertal, and an adjective before a plural noun always takes -e, whether the noun is bestemt or ubestemt: store investeringer. 'Stor' and 'stort' are ental forms, and 'større' is a komparativ that changes the meaning.",
+        "da": "'Investeringer' er flertal, og et adjektiv foran et substantiv i flertal får altid -e, uanset om substantivet er bestemt eller ubestemt: store investeringer. 'Stor' og 'stort' er entalsformer, og 'større' er komparativ og ændrer betydningen."
+      },
+      "tags": [
+        "ubestemt",
+        "flertal",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-004",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Alle nyansatte i afdelingen skal deltage i et ___ møde, hvor lederen gennemgår ugens vigtigste opgaver.",
+      "hint": "(ugentlig)",
+      "answer": "ugentligt",
+      "explanation": {
+        "en": "'Møde' is an et-word, so after 'et' the adjective takes -t even when it ends in -lig: et ugentligt møde. Adjectives in -ig/-lig follow the main rule and do take -t; do not confuse them with adjectives in -sk or -e, which take no -t.",
+        "da": "'Møde' er intetkøn, så efter 'et' får adjektivet -t, også når det ender på -lig: et ugentligt møde. Adjektiver på -ig/-lig følger hovedreglen og får -t; forveksl dem ikke med adjektiver på -sk eller -e, som ikke får -t."
+      },
+      "tags": [
+        "ubestemt",
+        "intetkøn",
+        "-lig"
+      ]
+    },
+    {
+      "id": "adjectives-005",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Forskerne mener, at stress er blevet et ___ problem på mange danske arbejdspladser, især i den offentlige sektor.",
+      "options": [
+        "alvorlig",
+        "alvorligt",
+        "alvorlige",
+        "alvorligste"
+      ],
+      "answer": "alvorligt",
+      "explanation": {
+        "en": "'Problem' is an et-word (et problem), which many learners get wrong, so the adjective takes -t in ubestemt ental: et alvorligt problem. 'Alvorlig' would only be right with an en-word, and 'alvorlige' requires flertal or bestemt form.",
+        "da": "'Problem' er intetkøn (et problem), hvilket mange kursister tager fejl af, så adjektivet får -t i ubestemt ental: et alvorligt problem. 'Alvorlig' er kun rigtig ved fælleskøn, og 'alvorlige' kræver flertal eller bestemt form."
+      },
+      "tags": [
+        "ubestemt",
+        "intetkøn",
+        "køn"
+      ]
+    },
+    {
+      "id": "adjectives-006",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Flere og flere ___ familier vælger at bosætte sig uden for de store byer, fordi huspriserne er lavere der.",
+      "hint": "(ung)",
+      "answer": "unge",
+      "explanation": {
+        "en": "'Familier' is flertal, so the adjective takes -e: unge familier. This applies even when there is no article or determiner in front; only in ental would 'ung' (en ung familie) or 'ungt' (et ungt par) be possible.",
+        "da": "'Familier' er flertal, så adjektivet får -e: unge familier. Det gælder også, når der ikke står en artikel eller et bestemmerord foran; kun i ental ville 'ung' (en ung familie) eller 'ungt' (et ungt par) være muligt."
+      },
+      "tags": [
+        "ubestemt",
+        "flertal",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-007",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Den ___ regering har lovet at sænke skatten på arbejde, inden der skal være valg igen.",
+      "options": [
+        "ny",
+        "nyt",
+        "nye",
+        "nyeste"
+      ],
+      "answer": "nye",
+      "explanation": {
+        "en": "After the bestemt article 'den' the adjective always takes -e, regardless of gender: den nye regering. 'Ny' is tempting because 'regering' is an en-word, but the base form is only used in ubestemt ental (en ny regering).",
+        "da": "Efter den bestemte artikel 'den' får adjektivet altid -e, uanset køn: den nye regering. 'Ny' er fristende, fordi 'regering' er fælleskøn, men grundformen bruges kun i ubestemt ental (en ny regering)."
+      },
+      "tags": [
+        "bestemt",
+        "-e",
+        "den"
+      ]
+    },
+    {
+      "id": "adjectives-008",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Det ___ hospital i Aarhus har fået kritik for lange ventetider, selv om det først åbnede for to år siden.",
+      "hint": "(ny)",
+      "answer": "nye",
+      "explanation": {
+        "en": "In bestemt form the adjective always ends in -e, so after 'det' we say det nye hospital, even though 'hospital' is an et-word. The -t form (et nyt hospital) belongs only to ubestemt ental.",
+        "da": "I bestemt form ender adjektivet altid på -e, så efter 'det' hedder det det nye hospital, selv om 'hospital' er intetkøn. Formen med -t (et nyt hospital) hører kun til ubestemt ental."
+      },
+      "tags": [
+        "bestemt",
+        "-e",
+        "det"
+      ]
+    },
+    {
+      "id": "adjectives-009",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Danmarks ___ skattetryk bliver ofte forklaret med, at både sundhedsvæsenet og uddannelserne er gratis for alle borgere.",
+      "options": [
+        "høj",
+        "højt",
+        "høje",
+        "højere"
+      ],
+      "answer": "høje",
+      "explanation": {
+        "en": "A genitiv (Danmarks) makes the noun phrase bestemt, so the adjective takes -e exactly as after 'det': Danmarks høje skattetryk. 'Højt' is the trap, because 'skattetryk' is an et-word, but the -t form is only used in ubestemt form (et højt skattetryk).",
+        "da": "En genitiv (Danmarks) gør substantivet bestemt, så adjektivet får -e, præcis som efter 'det': Danmarks høje skattetryk. 'Højt' er fælden, fordi 'skattetryk' er intetkøn, men formen med -t bruges kun i ubestemt form (et højt skattetryk)."
+      },
+      "tags": [
+        "bestemt",
+        "genitiv",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-010",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Min ___ arbejdsplads blev lukket sidste år, fordi produktionen blev flyttet til Polen.",
+      "options": [
+        "gammel",
+        "gammelt",
+        "gamle",
+        "ældre"
+      ],
+      "answer": "gamle",
+      "explanation": {
+        "en": "A possessive pronoun (min, din, hans, vores ...) makes the phrase bestemt, so the adjective takes -e: min gamle arbejdsplads. 'Gammel' is the classic error, because 'arbejdsplads' is an en-word, but the base form is only used after 'en'. Note the spelling change gammel → gamle.",
+        "da": "Et ejestedord (min, din, hans, vores ...) gør udtrykket bestemt, så adjektivet får -e: min gamle arbejdsplads. 'Gammel' er den klassiske fejl, fordi 'arbejdsplads' er fælleskøn, men grundformen bruges kun efter 'en'. Bemærk stavemåden gammel → gamle."
+      },
+      "tags": [
+        "bestemt",
+        "ejestedord",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-011",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Naboens ___ hus skal energirenoveres i år, så det kan leve op til de nye krav til isolering.",
+      "hint": "(stor)",
+      "answer": "store",
+      "explanation": {
+        "en": "A genitiv (naboens) works like 'det' and makes the noun phrase bestemt, so the adjective takes -e: naboens store hus. 'Stort' is wrong here even though 'hus' is an et-word, because the -t form is reserved for ubestemt ental (et stort hus).",
+        "da": "En genitiv (naboens) fungerer som 'det' og gør udtrykket bestemt, så adjektivet får -e: naboens store hus. 'Stort' er forkert her, selv om 'hus' er intetkøn, fordi formen med -t er forbeholdt ubestemt ental (et stort hus)."
+      },
+      "tags": [
+        "bestemt",
+        "genitiv",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-012",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Dette ___ initiativ skal få flere ældre til at blive på arbejdsmarkedet, efter at de har nået pensionsalderen.",
+      "hint": "(vigtig)",
+      "answer": "vigtige",
+      "explanation": {
+        "en": "The demonstrative 'dette' makes the phrase bestemt, so the adjective takes -e: dette vigtige initiativ. 'Vigtigt' is tempting because 'initiativ' is an et-word, but only 'et vigtigt initiativ' (ubestemt) takes -t.",
+        "da": "Det demonstrative pronomen 'dette' gør udtrykket bestemt, så adjektivet får -e: dette vigtige initiativ. 'Vigtigt' er fristende, fordi 'initiativ' er intetkøn, men kun 'et vigtigt initiativ' (ubestemt) får -t."
+      },
+      "tags": [
+        "bestemt",
+        "demonstrativ",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-013",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Mange lejere oplever, at huslejen i København er blevet alt for ___ i forhold til boligernes standard.",
+      "options": [
+        "høj",
+        "højt",
+        "høje",
+        "højst"
+      ],
+      "answer": "høj",
+      "explanation": {
+        "en": "When the adjective stands after 'er/bliver' (prædikativ), it agrees with the subject: 'huslejen' is fælleskøn ental, so no ending: huslejen er høj. 'Højt' is the trap, since learners often treat the form after 'er' as an adverb, but it is only correct with et-words (huset er højt).",
+        "da": "Når adjektivet står efter 'er/bliver' (prædikativ), bøjes det efter subjektet: 'huslejen' er fælleskøn ental, så ingen endelse: huslejen er høj. 'Højt' er fælden, fordi mange opfatter formen efter 'er' som et adverbium, men den er kun rigtig ved intetkøn (huset er højt)."
+      },
+      "tags": [
+        "prædikativ",
+        "fælleskøn",
+        "grundform"
+      ]
+    },
+    {
+      "id": "adjectives-014",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Selv om lokalet er ___ om vinteren, bruger foreningen det hver uge til danskundervisning for nye borgere.",
+      "hint": "(mørk)",
+      "answer": "mørkt",
+      "explanation": {
+        "en": "In prædikativ position the adjective agrees with the subject: 'lokalet' is an et-word in ental, so the adjective takes -t: lokalet er mørkt. The bestemt form of the noun (lokalet) does not trigger -e; that only happens when the adjective stands before the noun (det mørke lokale).",
+        "da": "I prædikativ stilling bøjes adjektivet efter subjektet: 'lokalet' er intetkøn ental, så adjektivet får -t: lokalet er mørkt. Substantivets bestemte form (lokalet) udløser ikke -e; det sker kun, når adjektivet står foran substantivet (det mørke lokale)."
+      },
+      "tags": [
+        "prædikativ",
+        "intetkøn",
+        "-t"
+      ]
+    },
+    {
+      "id": "adjectives-015",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Mange studerende mener, at lejlighederne tæt på universitetet er alt for ___ for folk, der lever af SU.",
+      "options": [
+        "dyr",
+        "dyrt",
+        "dyre",
+        "dyrest"
+      ],
+      "answer": "dyre",
+      "explanation": {
+        "en": "After 'er' the adjective agrees with the subject 'lejlighederne', which is flertal, so it takes -e: lejlighederne er dyre. 'Dyrt' is the classic error, because 'det er dyrt' is so common, but that only works when the subject is 'det' or an et-word.",
+        "da": "Efter 'er' bøjes adjektivet efter subjektet 'lejlighederne', som er flertal, så det får -e: lejlighederne er dyre. 'Dyrt' er den klassiske fejl, fordi 'det er dyrt' er så almindeligt, men det gælder kun, når subjektet er 'det' eller et intetkønsord."
+      },
+      "tags": [
+        "prædikativ",
+        "flertal",
+        "-e"
+      ]
+    },
+    {
+      "id": "adjectives-016",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Ifølge undersøgelsen føler mange nyuddannede sig ___, når de for første gang skal forhandle løn med en arbejdsgiver.",
+      "hint": "(usikker)",
+      "answer": "usikre",
+      "explanation": {
+        "en": "Adjectives after 'føler sig' behave like prædikativ and agree with the subject: 'mange nyuddannede' is flertal, so -e: føler sig usikre. Note the spelling: usikker drops the -e- before the ending (usikker → usikre), and the ental form 'usikker' would only fit a singular subject.",
+        "da": "Adjektiver efter 'føler sig' fungerer som prædikativ og bøjes efter subjektet: 'mange nyuddannede' er flertal, så -e: føler sig usikre. Bemærk stavemåden: usikker mister -e- foran endelsen (usikker → usikre), og entalsformen 'usikker' passer kun til et subjekt i ental."
+      },
+      "tags": [
+        "prædikativ",
+        "flertal",
+        "stavning"
+      ]
+    },
+    {
+      "id": "adjectives-017",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Mange ___ virksomheder har svært ved at overholde de nye miljøkrav, fordi de ikke har råd til at ansætte specialister.",
+      "options": [
+        "små",
+        "lille",
+        "smalle",
+        "lidt"
+      ],
+      "answer": "små",
+      "explanation": {
+        "en": "'Lille' is irregular: it is only used in ental (en lille virksomhed, det lille firma), while flertal always uses 'små': mange små virksomheder. 'Smalle' means narrow, and 'lidt' is a quantity word, not an adjective form.",
+        "da": "'Lille' er uregelmæssigt: det bruges kun i ental (en lille virksomhed, det lille firma), mens flertal altid hedder 'små': mange små virksomheder. 'Smalle' betyder 'ikke brede', og 'lidt' er et mængdeord, ikke en adjektivform."
+      },
+      "tags": [
+        "uregelmæssig",
+        "lille/små",
+        "flertal"
+      ]
+    },
+    {
+      "id": "adjectives-018",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "I et ___ samfund forventes det, at borgerne selv kan finde oplysninger om deres rettigheder på nettet.",
+      "hint": "(moderne)",
+      "answer": "moderne",
+      "explanation": {
+        "en": "Adjectives that already end in -e, such as 'moderne', never change: et moderne samfund, en moderne by, moderne byer. The trap is to add -t after 'et' by analogy with 'et stort samfund', but 'modernt' does not exist.",
+        "da": "Adjektiver, der allerede ender på -e, som 'moderne', bøjes aldrig: et moderne samfund, en moderne by, moderne byer. Fælden er at tilføje -t efter 'et' i analogi med 'et stort samfund', men 'modernt' findes ikke."
+      },
+      "tags": [
+        "ubøjeligt",
+        "-e",
+        "intetkøn"
+      ]
+    },
+    {
+      "id": "adjectives-019",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Efter ti år som ansat besluttede hun at starte sit ___ firma med fokus på bæredygtigt byggeri.",
+      "options": [
+        "egen",
+        "eget",
+        "egne",
+        "ejet"
+      ],
+      "answer": "eget",
+      "explanation": {
+        "en": "'Egen' is an exception to the bestemt rule: even after a possessive it agrees like an ubestemt adjective: sin egen bil (fælleskøn), sit eget firma (intetkøn), sine egne penge (flertal). 'Egne' is the classic error, because a possessive normally triggers -e; 'ejet' is a participle of 'eje', not the pronoun.",
+        "da": "'Egen' er en undtagelse fra reglen om bestemt form: også efter et ejestedord bøjes det som et ubestemt adjektiv: sin egen bil (fælleskøn), sit eget firma (intetkøn), sine egne penge (flertal). 'Egne' er den klassiske fejl, fordi et ejestedord normalt udløser -e; 'ejet' er et participium af 'eje', ikke pronomenet."
+      },
+      "tags": [
+        "egen/eget/egne",
+        "intetkøn",
+        "undtagelse"
+      ]
+    },
+    {
+      "id": "adjectives-020",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Hvis medicinen ikke virker efter en måned, må lægen forsøge med et ___ præparat, før patienten henvises til en specialist.",
+      "hint": "(anden)",
+      "answer": "andet",
+      "explanation": {
+        "en": "'Anden' has three forms and agrees with the noun: en anden læge (fælleskøn), et andet præparat (intetkøn), andre patienter (flertal). 'Præparat' is an et-word, so 'andet' is required; 'anden' after 'et' is the typical error.",
+        "da": "'Anden' har tre former og bøjes efter substantivet: en anden læge (fælleskøn), et andet præparat (intetkøn), andre patienter (flertal). 'Præparat' er intetkøn, så det skal være 'andet'; 'anden' efter 'et' er den typiske fejl."
+      },
+      "tags": [
+        "anden/andet/andre",
+        "intetkøn"
+      ]
+    },
+    {
+      "id": "adjectives-021",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Det er ikke altid ___ at arbejde hjemmefra, når man har små børn, der leger i stuen ved siden af.",
+      "options": [
+        "praktisk",
+        "praktiskt",
+        "praktiske",
+        "praksis"
+      ],
+      "answer": "praktisk",
+      "explanation": {
+        "en": "Adjectives ending in -sk (praktisk, dansk, politisk) take no -t in intetkøn, so after 'det er' the form stays 'praktisk': det er praktisk. 'Praktiskt' is the tempting but non-existent form; 'praktiske' is only for flertal or bestemt form, and 'praksis' is a noun.",
+        "da": "Adjektiver på -sk (praktisk, dansk, politisk) får ikke -t i intetkøn, så efter 'det er' bliver formen 'praktisk': det er praktisk. 'Praktiskt' er den fristende, men ikke-eksisterende form; 'praktiske' bruges kun i flertal eller bestemt form, og 'praksis' er et substantiv."
+      },
+      "tags": [
+        "-sk",
+        "intetkøn",
+        "ingen -t"
+      ]
+    },
+    {
+      "id": "adjectives-022",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Direktøren meddelte, at hun ville forlade ___ stilling ved årets udgang for at bruge mere tid på familien.",
+      "options": [
+        "sin",
+        "sit",
+        "sine",
+        "hendes"
+      ],
+      "answer": "sin",
+      "explanation": {
+        "en": "The reflexive possessive sin/sit/sine is used when the owner is the subject of the same clause: 'hun' leaves her own position, so 'sin stilling' ('stilling' is an en-word). 'Hendes' would mean another woman's position, and 'sit' is wrong because 'stilling' is fælleskøn.",
+        "da": "Det refleksive ejestedord sin/sit/sine bruges, når ejeren er subjekt i samme sætning: 'hun' forlader sin egen stilling, derfor 'sin stilling' ('stilling' er fælleskøn). 'Hendes' ville betyde en anden kvindes stilling, og 'sit' er forkert, fordi 'stilling' er fælleskøn."
+      },
+      "tags": [
+        "sin/sit/sine",
+        "refleksiv",
+        "fælleskøn"
+      ]
+    },
+    {
+      "id": "adjectives-023",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Sygeplejersken gav den ældre mand ___ medicin, inden hun gik videre til den næste patient.",
+      "options": [
+        "hans",
+        "sin",
+        "sit",
+        "hendes"
+      ],
+      "answer": "hans",
+      "explanation": {
+        "en": "The subject of the clause is 'sygeplejersken', so 'sin' would mean the nurse's own medicine. The medicine belongs to the man, who is the object, so the ordinary possessive 'hans' is needed. Rule: sin/sit/sine point back to the subject of the same clause; everything else takes hans/hendes/deres.",
+        "da": "Subjektet i sætningen er 'sygeplejersken', så 'sin' ville betyde sygeplejerskens egen medicin. Medicinen tilhører manden, som er objekt, og derfor skal der bruges det almindelige ejestedord 'hans'. Regel: sin/sit/sine peger tilbage på subjektet i samme sætning; alt andet får hans/hendes/deres."
+      },
+      "tags": [
+        "hans/hendes",
+        "refleksiv",
+        "objekt"
+      ]
+    },
+    {
+      "id": "adjectives-024",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Efter mødet samlede projektlederen ___ noter og lagde dem i den fælles mappe, så hele teamet kunne læse dem.",
+      "hint": "(sin / hans)",
+      "answer": "sine",
+      "explanation": {
+        "en": "The notes belong to 'projektlederen', who is the subject of the clause, so the reflexive possessive is required, and 'noter' is flertal: sine noter. 'Hans' would point to a different man, and 'sin' would only fit an en-word in ental.",
+        "da": "Noterne tilhører 'projektlederen', som er subjekt i sætningen, så det refleksive ejestedord skal bruges, og 'noter' er flertal: sine noter. 'Hans' ville pege på en anden mand, og 'sin' passer kun til et fælleskønsord i ental."
+      },
+      "tags": [
+        "sin/sit/sine",
+        "refleksiv",
+        "flertal"
+      ]
+    },
+    {
+      "id": "adjectives-025",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Hver medarbejder fik lov til at tage ___ børn med på arbejde den dag, hvor lærerne strejkede.",
+      "options": [
+        "sine",
+        "deres",
+        "sin",
+        "sit"
+      ],
+      "answer": "sine",
+      "explanation": {
+        "en": "'Hver medarbejder' is the subject and the children are the subject's own, so the reflexive possessive is required. 'Børn' is plural, which gives 'sine'. 'Deres' is the trap: it would point to some other people's children, and 'hver medarbejder' is singular anyway.",
+        "da": "'Hver medarbejder' er subjekt, og børnene er subjektets egne, så der skal bruges refleksivt ejestedord. 'Børn' er flertal, og det giver 'sine'. 'Deres' er fælden: det ville pege på nogle andres børn, og 'hver medarbejder' er desuden ental."
+      },
+      "tags": [
+        "sin/sit/sine",
+        "refleksiv",
+        "flertal"
+      ]
+    },
+    {
+      "id": "adjectives-026",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Kommunen kontaktede kvindens familie, fordi lægerne på plejehjemmet var bekymrede for ___ tilstand.",
+      "hint": "(sin / hendes)",
+      "answer": "hendes",
+      "explanation": {
+        "en": "The owner of 'tilstand' is 'kvinden', but the subject of the ledsætning is 'lægerne'. The reflexive 'sin' would mean the doctors' own condition, which makes no sense here, so the non-reflexive 'hendes' is required.",
+        "da": "Ejeren af 'tilstand' er 'kvinden', men subjektet i ledsætningen er 'lægerne'. Det refleksive 'sin' ville betyde lægernes egen tilstand, hvilket ikke giver mening her, så det ikke-refleksive 'hendes' skal bruges."
+      },
+      "tags": [
+        "hans/hendes",
+        "refleksiv",
+        "ledsætning"
+      ]
+    },
+    {
+      "id": "adjectives-027",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Den nye minister understregede, at hun ville besøge ___ departement, før hun udtalte sig om de planlagte nedskæringer.",
+      "options": [
+        "sit",
+        "sin",
+        "sine",
+        "hendes"
+      ],
+      "answer": "sit",
+      "explanation": {
+        "en": "In the ledsætning the subject is 'hun', and the ministry is her own, so the reflexive possessive is needed. 'Departement' is an et-word, hence 'sit'. 'Hendes' would refer to a different woman, and 'sin' is the fælleskøn form.",
+        "da": "I ledsætningen er subjektet 'hun', og departementet er hendes eget, så det refleksive ejestedord skal bruges. 'Departement' er intetkøn, derfor 'sit'. 'Hendes' ville henvise til en anden kvinde, og 'sin' er fælleskønsformen."
+      },
+      "tags": [
+        "sin/sit/sine",
+        "intetkøn",
+        "ledsætning"
+      ]
+    },
+    {
+      "id": "adjectives-028",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Peter fortalte kollegerne, at chefen havde afvist ___ ansøgning om orlov uden at give nogen begrundelse.",
+      "options": [
+        "hans",
+        "sin",
+        "sit",
+        "hendes"
+      ],
+      "answer": "hans",
+      "explanation": {
+        "en": "The reflexive possessive refers to the subject of its own clause. In the ledsætning the subject is 'chefen', so 'sin ansøgning' would mean the boss's own application. Since the application is Peter's, and Peter is not the subject of that clause, 'hans' is correct.",
+        "da": "Det refleksive ejestedord henviser til subjektet i sin egen sætning. I ledsætningen er subjektet 'chefen', så 'sin ansøgning' ville betyde chefens egen ansøgning. Da ansøgningen er Peters, og Peter ikke er subjekt i den sætning, er 'hans' korrekt."
+      },
+      "tags": [
+        "hans/hendes",
+        "refleksiv",
+        "ledsætning"
+      ]
+    },
+    {
+      "id": "adjectives-029",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Undersøgelsen viser, at den typiske pensionist helst vil blive boende i ___ eget hjem, så længe helbredet tillader det.",
+      "hint": "(sin / hans)",
+      "answer": "sit",
+      "explanation": {
+        "en": "The owner (den typiske pensionist) is the subject of the ledsætning, so the reflexive possessive is required, and 'hjem' is an et-word: sit eget hjem. 'Hans' would point to another person, and 'sin' is the fælleskøn form (sin egen bolig).",
+        "da": "Ejeren (den typiske pensionist) er subjekt i ledsætningen, så det refleksive ejestedord skal bruges, og 'hjem' er intetkøn: sit eget hjem. 'Hans' ville pege på en anden person, og 'sin' er fælleskønsformen (sin egen bolig)."
+      },
+      "tags": [
+        "sin/sit/sine",
+        "intetkøn",
+        "refleksiv"
+      ]
+    },
+    {
+      "id": "adjectives-030",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Da Anne blev indlagt, lovede naboen at hente ___ børn fra skole hver dag, indtil hun var rask igen.",
+      "hint": "(sin / hendes)",
+      "answer": "hendes",
+      "explanation": {
+        "en": "The subject of the clause is 'naboen', but the children are Anne's, so the reflexive cannot be used: 'sine børn' would mean the neighbour's own children. 'Hendes' points back to Anne, who is not the subject.",
+        "da": "Subjektet i sætningen er 'naboen', men børnene er Annes, så det refleksive kan ikke bruges: 'sine børn' ville betyde naboens egne børn. 'Hendes' peger tilbage på Anne, som ikke er subjekt."
+      },
+      "tags": [
+        "hans/hendes",
+        "refleksiv",
+        "flertal"
+      ]
+    },
+    {
+      "id": "adjectives-031",
+      "topic": "adjectives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Forældrene var glade for, at klasselæreren tog ___ bekymringer om mobning alvorligt.",
+      "options": [
+        "deres",
+        "sine",
+        "sin",
+        "hans"
+      ],
+      "answer": "deres",
+      "explanation": {
+        "en": "In the ledsætning the subject is 'klasselæreren', while the worries belong to 'forældrene'. Because the owner is not the subject of the same clause, the reflexive 'sine' would wrongly mean the teacher's own worries; 'deres' is correct.",
+        "da": "I ledsætningen er subjektet 'klasselæreren', mens bekymringerne tilhører 'forældrene'. Da ejeren ikke er subjekt i samme sætning, ville det refleksive 'sine' fejlagtigt betyde lærerens egne bekymringer; 'deres' er korrekt."
+      },
+      "tags": [
+        "deres",
+        "refleksiv",
+        "ledsætning"
+      ]
+    },
+    {
+      "id": "adjectives-032",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Overlæge Peter Madsen forklarede, at ___ patienter ofte venter for længe med at søge hjælp, når symptomerne er uklare.",
+      "options": [
+        "hans",
+        "sine",
+        "sin",
+        "sit"
+      ],
+      "answer": "hans",
+      "explanation": {
+        "en": "Sin/sit/sine can never be part of the subject of a clause, because it has to refer back to that very subject. Here 'patienter' is the subject of the ledsætning, so 'sine patienter' is impossible; use 'hans' even though the patients are his own.",
+        "da": "Sin/sit/sine kan aldrig være en del af subjektet i en sætning, fordi det skal henvise tilbage til netop dette subjekt. Her er 'patienter' subjekt i ledsætningen, så 'sine patienter' er umuligt; brug 'hans', selv om patienterne er hans egne."
+      },
+      "tags": [
+        "sin som subjekt",
+        "hans/hendes",
+        "ledsætning"
+      ]
+    },
+    {
+      "id": "adjectives-033",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Louise fortæller, at ___ mand altid henter børnene, fordi han har kortere arbejdsdage end hende.",
+      "hint": "(sin / hendes)",
+      "answer": "hendes",
+      "explanation": {
+        "en": "Although the husband is Louise's own, 'mand' is the subject of the ledsætning ('___ mand henter'), and the reflexive sin/sit/sine can never stand in the subject. The trap is to think 'her own → sin'; the rule about the subject overrides that.",
+        "da": "Selv om manden er Louises egen, er 'mand' subjekt i ledsætningen ('___ mand henter'), og det refleksive sin/sit/sine kan aldrig stå i subjektet. Fælden er at tænke 'hendes egen → sin'; reglen om subjektet vejer tungere."
+      },
+      "tags": [
+        "sin som subjekt",
+        "hans/hendes",
+        "ledsætning"
+      ]
+    },
+    {
+      "id": "adjectives-034",
+      "topic": "adjectives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "I debatten om pensionsalderen glemmer man ofte, at ___ ikke er én samlet gruppe med de samme behov og ønsker.",
+      "options": [
+        "de ældre",
+        "den ældre",
+        "det ældre",
+        "ældrene"
+      ],
+      "answer": "de ældre",
+      "explanation": {
+        "en": "An adjective can be used as a noun after den/det/de: 'de ældre' (older people), 'de unge', 'det vigtigste'. For a group of people you use 'de' + adjective in -e; the adjective never takes a noun ending, so 'ældrene' is wrong, and 'den/det ældre' would refer to one person or thing.",
+        "da": "Et adjektiv kan bruges som substantiv efter den/det/de: 'de ældre', 'de unge', 'det vigtigste'. Om en gruppe mennesker bruger man 'de' + adjektiv på -e; adjektivet får aldrig substantivets endelse, så 'ældrene' er forkert, og 'den/det ældre' ville henvise til én person eller ting."
+      },
+      "tags": [
+        "adjektiv som substantiv",
+        "de ældre",
+        "bestemt"
+      ]
+    }
+  ]
+}

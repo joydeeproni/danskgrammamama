@@ -1,0 +1,459 @@
+{
+  "topic": "relatives",
+  "questions": [
+    {
+      "id": "relatives-001",
+      "topic": "relatives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Medarbejdere, ___ arbejder hjemmefra flere dage om ugen, oplever ofte en bedre balance mellem arbejde og privatliv.",
+      "hint": "(der / som)",
+      "answer": "der",
+      "accepted": ["som"],
+      "explanation": {
+        "en": "The relative pronoun is the subject of the relative clause (it is the one who 'arbejder'), so both 'der' and 'som' are correct; 'der' is the most common choice for a subject. The trap is thinking 'der' is wrong just because 'som' is also possible.",
+        "da": "Det relative pronomen er subjekt i relativsætningen (det er det, der 'arbejder'), så både 'der' og 'som' er korrekte; 'der' er det mest almindelige valg ved subjekt. Fælden er at tro, at 'der' er forkert, blot fordi 'som' også kan bruges."
+      },
+      "tags": ["der", "som", "subjekt"]
+    },
+    {
+      "id": "relatives-002",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Den nye klimalov, ___ Folketinget vedtog i foråret, stiller langt skrappere krav til landbruget end den gamle.",
+      "options": ["der", "som", "hvad", "hvilket"],
+      "answer": "som",
+      "explanation": {
+        "en": "In the relative clause 'Folketinget' is the subject and the law is the object of 'vedtog', so only 'som' can be used; 'der' is a subject-only pronoun and is the classic error here. 'Hvad' and 'hvilket' refer to a whole clause, not to a noun like 'klimalov'.",
+        "da": "I relativsætningen er 'Folketinget' subjekt, og loven er objekt for 'vedtog', så kun 'som' kan bruges; 'der' kan kun være subjekt og er den klassiske fejl her. 'Hvad' og 'hvilket' henviser til en hel sætning, ikke til et substantiv som 'klimalov'."
+      },
+      "tags": ["som", "objekt"]
+    },
+    {
+      "id": "relatives-003",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Kommunen har ansat flere sygeplejersker, ___ skal aflaste de pressede plejehjem i løbet af vinteren.",
+      "options": ["der", "hvor", "hvad", "hvilket"],
+      "answer": "der",
+      "explanation": {
+        "en": "The pronoun is the subject of 'skal aflaste', so the subject pronoun 'der' fits (in this position 'som' would also be correct). 'Hvor' is only used for places and times, and 'hvad'/'hvilket' refer to a whole preceding clause, not to the nurses.",
+        "da": "Pronomenet er subjekt for 'skal aflaste', så subjektspronomenet 'der' passer (her ville 'som' også være korrekt). 'Hvor' bruges kun om sted og tid, og 'hvad'/'hvilket' henviser til en hel foregående sætning, ikke til sygeplejerskerne."
+      },
+      "tags": ["der", "subjekt"]
+    },
+    {
+      "id": "relatives-004",
+      "topic": "relatives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "De besparelser, ___ regionen har gennemført på sygehusene, får nu mærkbare konsekvenser for ventetiderne.",
+      "hint": "(der / som)",
+      "answer": "som",
+      "explanation": {
+        "en": "Ask who does the action in the relative clause: 'regionen har gennemført' – the region is the subject, so the pronoun is the object and must be 'som'. 'Der' can never stand for the object of a relative clause.",
+        "da": "Spørg, hvem der udfører handlingen i relativsætningen: 'regionen har gennemført' – regionen er subjekt, så pronomenet er objekt og skal være 'som'. 'Der' kan aldrig stå som objekt i en relativsætning."
+      },
+      "tags": ["som", "objekt"]
+    },
+    {
+      "id": "relatives-005",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Rapporten peger på en række strukturelle problemer, ___ politikerne i årevis har forsøgt at ignorere.",
+      "options": ["der", "som", "hvad", "hvilket"],
+      "answer": "som",
+      "explanation": {
+        "en": "The relative clause already has a subject ('politikerne'), so the pronoun is the object of 'ignorere' and must be 'som'. The long adverbial 'i årevis' hides the structure and tempts the learner to pick 'der', which is subject-only.",
+        "da": "Relativsætningen har allerede et subjekt ('politikerne'), så pronomenet er objekt for 'ignorere' og skal være 'som'. Det lange adverbial 'i årevis' skjuler strukturen og lokker til at vælge 'der', som kun kan være subjekt."
+      },
+      "tags": ["som", "objekt"]
+    },
+    {
+      "id": "relatives-006",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Regeringen vil belønne de virksomheder, ___ frivilligt nedbringer deres CO2-udledning hurtigere, end loven kræver.",
+      "hint": "(der / som)",
+      "answer": "der",
+      "accepted": ["som"],
+      "explanation": {
+        "en": "There is no other subject in the relative clause – the companies themselves 'nedbringer' – so the pronoun is the subject and both 'der' and 'som' are correct. The adverb 'frivilligt' between pronoun and verb is the trap: it does not change the pronoun's role as subject.",
+        "da": "Der er ikke noget andet subjekt i relativsætningen – det er virksomhederne selv, der 'nedbringer' – så pronomenet er subjekt, og både 'der' og 'som' er korrekte. Adverbiet 'frivilligt' mellem pronomen og verbum er fælden: det ændrer ikke pronomenets rolle som subjekt."
+      },
+      "tags": ["der", "som", "subjekt"]
+    },
+    {
+      "id": "relatives-007",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Det er en udvikling, ___ mange økonomer allerede for ti år siden forudså i deres analyser.",
+      "options": ["der", "som", "hvad", "hvilket"],
+      "answer": "som",
+      "explanation": {
+        "en": "'Mange økonomer' is the subject of 'forudså', so the relative pronoun is the object and only 'som' works. 'Der' is wrong because it can only be subject; 'hvad'/'hvilket' would need a whole clause as antecedent, not the noun 'udvikling'.",
+        "da": "'Mange økonomer' er subjekt for 'forudså', så det relative pronomen er objekt, og kun 'som' fungerer. 'Der' er forkert, fordi det kun kan være subjekt; 'hvad'/'hvilket' kræver en hel sætning som korrelat, ikke substantivet 'udvikling'."
+      },
+      "tags": ["som", "objekt"]
+    },
+    {
+      "id": "relatives-008",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Sundhedsstyrelsen anbefaler nu de vacciner, ___ flere europæiske lande allerede har gjort obligatoriske for skolebørn.",
+      "hint": "(der / som)",
+      "answer": "som",
+      "explanation": {
+        "en": "The relative clause has its own subject, 'flere europæiske lande', so the pronoun standing for 'vacciner' is the object of 'har gjort' and must be 'som'. Learners often write 'der' because the pronoun stands first in the clause, but first position does not make it the subject.",
+        "da": "Relativsætningen har sit eget subjekt, 'flere europæiske lande', så pronomenet, der står for 'vacciner', er objekt for 'har gjort' og skal være 'som'. Mange skriver 'der', fordi pronomenet står først i sætningen, men forfeltet gør det ikke til subjekt."
+      },
+      "tags": ["som", "objekt"]
+    },
+    {
+      "id": "relatives-009",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Mange af de unge, ___ flytter til København for at studere, har svært ved at finde en bolig, de kan betale.",
+      "options": ["der", "(intet ord)", "hvad", "hvilket"],
+      "answer": "der",
+      "explanation": {
+        "en": "When the relative pronoun is the subject, it can never be left out, so 'der' (or 'som') is obligatory. Only an object pronoun 'som' may be omitted – as in 'en bolig, (som) de kan betale' at the end of the same sentence.",
+        "da": "Når det relative pronomen er subjekt, kan det aldrig udelades, så 'der' (eller 'som') er obligatorisk. Kun objektspronomenet 'som' kan udelades – som i 'en bolig, (som) de kan betale' sidst i samme sætning."
+      },
+      "tags": ["der", "udeladelse", "subjekt"]
+    },
+    {
+      "id": "relatives-010",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Det forslag, ___ oppositionen fremsatte i går, blev afvist af et stort flertal i Folketinget.",
+      "hint": "(der / som)",
+      "answer": "som",
+      "explanation": {
+        "en": "The proposal is the object of 'fremsatte' (the opposition is the subject), so 'som' is the only correct pronoun. As an object, 'som' could even be left out entirely ('Det forslag, oppositionen fremsatte …'), whereas 'der' can neither be object nor be omitted.",
+        "da": "Forslaget er objekt for 'fremsatte' (oppositionen er subjekt), så 'som' er det eneste korrekte pronomen. Som objekt kunne 'som' endda udelades helt ('Det forslag, oppositionen fremsatte …'), mens 'der' hverken kan være objekt eller udelades."
+      },
+      "tags": ["som", "objekt", "udeladelse"]
+    },
+    {
+      "id": "relatives-011",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Antallet af cyklister i de store byer er steget markant, ___ betyder mindre trængsel og renere luft for alle.",
+      "options": ["der", "som", "hvad", "hvilket"],
+      "answer": "hvilket",
+      "explanation": {
+        "en": "The pronoun refers to the whole preceding clause (the fact that the number has risen), not to a single noun, so 'hvilket' is required; 'hvad der betyder' would also be possible. 'Der' and 'som' are tempting but need a noun as antecedent, and 'hvad' alone cannot be subject here.",
+        "da": "Pronomenet henviser til hele den foregående sætning (at antallet er steget), ikke til et enkelt substantiv, så 'hvilket' er nødvendigt; 'hvad der betyder' ville også være muligt. 'Der' og 'som' lokker, men kræver et substantiv som korrelat, og 'hvad' alene kan ikke være subjekt her."
+      },
+      "tags": ["hvilket", "helsætning"]
+    },
+    {
+      "id": "relatives-012",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Flere store virksomheder flytter nu produktionen hjem fra Asien til Danmark, ___ der overraskede mange økonomer.",
+      "options": ["hvad", "hvilket", "som", "der"],
+      "answer": "hvad",
+      "explanation": {
+        "en": "When a relative pronoun referring to a whole clause is the subject, Danish uses the combination 'hvad der'; 'hvilket der' does not exist, so 'hvilket' is the trap (it would have to stand alone: '…, hvilket overraskede…'). 'Som'/'der' need a noun antecedent.",
+        "da": "Når et relativt pronomen, der henviser til en hel sætning, er subjekt, bruger dansk kombinationen 'hvad der'; 'hvilket der' findes ikke, så 'hvilket' er fælden (det skulle stå alene: '…, hvilket overraskede…'). 'Som'/'der' kræver et substantiv som korrelat."
+      },
+      "tags": ["hvad der", "helsætning", "subjekt"]
+    },
+    {
+      "id": "relatives-013",
+      "topic": "relatives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Regeringen har afsat flere milliarder til den grønne omstilling, ___ ifølge eksperterne dog langtfra er nok.",
+      "hint": "(hvad der / hvilket)",
+      "answer": "hvilket",
+      "accepted": ["hvad der"],
+      "explanation": {
+        "en": "The pronoun refers to the whole statement (that billions have been set aside) and is the subject of 'er', so both 'hvilket' and 'hvad der' are correct. Plain 'hvad' would be wrong as subject, and 'som'/'der' cannot refer to a whole clause.",
+        "da": "Pronomenet henviser til hele udsagnet (at der er afsat milliarder) og er subjekt for 'er', så både 'hvilket' og 'hvad der' er korrekte. 'Hvad' alene ville være forkert som subjekt, og 'som'/'der' kan ikke henvise til en hel sætning."
+      },
+      "tags": ["hvilket", "hvad der", "helsætning"]
+    },
+    {
+      "id": "relatives-014",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Kommunen lukkede tre små landsbyskoler på én gang, ___ forældrene slet ikke havde forventet.",
+      "hint": "(hvad / hvilket)",
+      "answer": "hvilket",
+      "accepted": ["hvad"],
+      "explanation": {
+        "en": "The pronoun refers to the whole event (closing three schools at once) and is the object of 'havde forventet' – the parents are the subject – so 'hvilket' or plain 'hvad' is correct. Do not write 'hvad der' here: 'der' is only added when the pronoun is the subject.",
+        "da": "Pronomenet henviser til hele begivenheden (at tre skoler blev lukket på én gang) og er objekt for 'havde forventet' – forældrene er subjekt – så 'hvilket' eller 'hvad' alene er korrekt. Skriv ikke 'hvad der' her: 'der' tilføjes kun, når pronomenet er subjekt."
+      },
+      "tags": ["hvilket", "hvad", "objekt"]
+    },
+    {
+      "id": "relatives-015",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Ingen ved endnu, ___ kommer til at betale for oprensningen af den forurenede grund ved havnen.",
+      "options": ["hvem der", "hvem", "hvad", "som"],
+      "answer": "hvem der",
+      "explanation": {
+        "en": "In an indirect question the question word needs 'der' after it when it is the subject of the ledsætning: 'hvem der kommer til at betale'. Plain 'hvem' is the classic error – it is only correct as object ('hvem de vælger').",
+        "da": "I et indirekte spørgsmål skal spørgeordet have 'der' efter sig, når det er subjekt i ledsætningen: 'hvem der kommer til at betale'. 'Hvem' alene er den klassiske fejl – det er kun korrekt som objekt ('hvem de vælger')."
+      },
+      "tags": ["hvem der", "indirekte spørgsmål", "subjekt"]
+    },
+    {
+      "id": "relatives-016",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Undersøgelsen skal afklare, ___ de unge selv mener om de nye regler for SU.",
+      "options": ["hvad", "hvad der", "hvilket", "som"],
+      "answer": "hvad",
+      "explanation": {
+        "en": "Here 'de unge' is the subject of 'mener', so the question word is the object and stands alone: 'hvad de unge mener'. 'Hvad der' is the trap – 'der' is only inserted when there is no other subject in the ledsætning.",
+        "da": "Her er 'de unge' subjekt for 'mener', så spørgeordet er objekt og står alene: 'hvad de unge mener'. 'Hvad der' er fælden – 'der' indsættes kun, når der ikke er et andet subjekt i ledsætningen."
+      },
+      "tags": ["hvad", "indirekte spørgsmål", "objekt"]
+    },
+    {
+      "id": "relatives-017",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Det er stadig uklart, ___ afgør, om en patient skal tilbydes behandling på et privathospital.",
+      "hint": "(hvad / hvad der)",
+      "answer": "hvad der",
+      "explanation": {
+        "en": "The ledsætning 'afgør, om …' has no other subject, so the question word must be the subject and needs 'der': 'hvad der afgør'. Writing plain 'hvad' before a verb with no subject is a very common B2 error.",
+        "da": "Ledsætningen 'afgør, om …' har ikke noget andet subjekt, så spørgeordet skal være subjekt og kræver 'der': 'hvad der afgør'. At skrive 'hvad' alene foran et verbum uden subjekt er en meget almindelig fejl på B2-niveau."
+      },
+      "tags": ["hvad der", "indirekte spørgsmål", "subjekt"]
+    },
+    {
+      "id": "relatives-018",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Eleverne blev bedt om at beskrive, ___ de oplevede som det største problem i deres hverdag på skolen.",
+      "hint": "(hvad / hvad der)",
+      "answer": "hvad",
+      "explanation": {
+        "en": "The subject of the indirect question is 'de', so the question word is the object of 'oplevede' and stands alone: 'hvad de oplevede'. 'Hvad der' would wrongly add a second subject; 'der' belongs only in subject questions like 'hvad der skete'.",
+        "da": "Subjektet i det indirekte spørgsmål er 'de', så spørgeordet er objekt for 'oplevede' og står alene: 'hvad de oplevede'. 'Hvad der' ville fejlagtigt tilføje et andet subjekt; 'der' hører kun til i subjektspørgsmål som 'hvad der skete'."
+      },
+      "tags": ["hvad", "indirekte spørgsmål", "objekt"]
+    },
+    {
+      "id": "relatives-019",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Den bydel, ___ familien har boet i over tyve år, står nu over for en omfattende renovering af alle boligblokkene.",
+      "options": ["hvor", "som", "der", "hvilken"],
+      "answer": "hvor",
+      "explanation": {
+        "en": "For a place (or a time) the relative adverb 'hvor' replaces 'preposition + som': 'hvor familien har boet' = 'som familien har boet i'. Plain 'som' without the preposition 'i' is the trap; 'der' is impossible because 'familien' is already the subject.",
+        "da": "Ved sted (eller tid) erstatter det relative adverbium 'hvor' 'præposition + som': 'hvor familien har boet' = 'som familien har boet i'. 'Som' uden præpositionen 'i' er fælden; 'der' er umuligt, fordi 'familien' allerede er subjekt."
+      },
+      "tags": ["hvor", "sted", "præposition"]
+    },
+    {
+      "id": "relatives-020",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Forældre, ___ børn går i privatskole, betaler i gennemsnit over 2.000 kroner om måneden i skolepenge.",
+      "options": ["hvis", "hvem", "som", "der"],
+      "answer": "hvis",
+      "explanation": {
+        "en": "'Hvis' is the relative possessive pronoun ('whose'): the children belong to the parents. 'Som'/'der' would make the parents the subject of 'går i privatskole', which is nonsense, and 'hvem' cannot express possession in a relative clause.",
+        "da": "'Hvis' er det relative ejestedord ('whose'): børnene tilhører forældrene. 'Som'/'der' ville gøre forældrene til subjekt for 'går i privatskole', hvilket giver nonsens, og 'hvem' kan ikke udtrykke ejerskab i en relativsætning."
+      },
+      "tags": ["hvis", "ejefald"]
+    },
+    {
+      "id": "relatives-021",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Det projekt, ___ kommunen har bevilget penge til, skal hjælpe langtidsledige tilbage på arbejdsmarkedet.",
+      "hint": "(der / som)",
+      "answer": "som",
+      "explanation": {
+        "en": "The pronoun is the object of the stranded preposition 'til' ('bevilget penge til projektet'), and an object must be 'som'. The preposition stays at the end of the relative clause in Danish; 'der' is wrong because the clause already has the subject 'kommunen'.",
+        "da": "Pronomenet er styrelse for den efterstillede præposition 'til' ('bevilget penge til projektet'), og et objekt skal være 'som'. Præpositionen bliver stående sidst i relativsætningen på dansk; 'der' er forkert, fordi sætningen allerede har subjektet 'kommunen'."
+      },
+      "tags": ["som", "præposition", "objekt"]
+    },
+    {
+      "id": "relatives-022",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "I 1990'erne, ___ arbejdsløsheden var høj, blev mange ufaglærte skubbet permanent ud af arbejdsmarkedet.",
+      "options": ["hvor", "som", "der", "hvilken"],
+      "answer": "hvor",
+      "explanation": {
+        "en": "After a time expression ('i 1990'erne', 'en periode', 'dengang') the relative clause is introduced by 'hvor', just as with places. 'Der' is the trap because the relative clause is a ledsætning where 'arbejdsløsheden' is already the subject; 'da' would be a conjunction, not a relative.",
+        "da": "Efter et tidsudtryk ('i 1990'erne', 'en periode', 'dengang') indledes relativsætningen med 'hvor', ligesom ved sted. 'Der' er fælden, fordi relativsætningen er en ledsætning, hvor 'arbejdsløsheden' allerede er subjekt; 'da' ville være en konjunktion, ikke et relativ."
+      },
+      "tags": ["hvor", "tid"]
+    },
+    {
+      "id": "relatives-023",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Mange pendlere kom for sent på arbejde i går ___ et omfattende signalnedbrud på S-togsnettet omkring København.",
+      "options": ["på grund af", "på trods af", "i forhold til", "med henblik på"],
+      "answer": "på grund af",
+      "explanation": {
+        "en": "The breakdown is the cause of being late, so the causal phrase 'på grund af' (because of) is required. 'På trods af' (despite) reverses the logic, 'i forhold til' (in relation to) is the overused all-purpose phrase that PD3 examiners mark down, and 'med henblik på' expresses purpose.",
+        "da": "Nedbruddet er årsagen til forsinkelsen, så det kausale udtryk 'på grund af' er nødvendigt. 'På trods af' vender logikken om, 'i forhold til' er det overbrugte alt-mulig-udtryk, som PD3-bedømmerne trækker ned for, og 'med henblik på' udtrykker formål."
+      },
+      "tags": ["formelt sprog", "årsag", "på grund af"]
+    },
+    {
+      "id": "relatives-024",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "___ massive investeringer i cykelstier vælger flertallet i forstæderne stadig bilen, når de skal på arbejde.",
+      "options": ["På trods af", "På grund af", "Som følge af", "I løbet af"],
+      "answer": "På trods af",
+      "explanation": {
+        "en": "The main clause contradicts what one would expect from the investments, so the concessive phrase 'på trods af' (despite) is right. 'På grund af' and 'som følge af' would claim that the investments cause people to drive, and 'i løbet af' only expresses time.",
+        "da": "Hovedsætningen strider mod det, man ville forvente efter investeringerne, så det koncessive udtryk 'på trods af' er rigtigt. 'På grund af' og 'som følge af' ville hævde, at investeringerne får folk til at køre bil, og 'i løbet af' udtrykker kun tid."
+      },
+      "tags": ["formelt sprog", "modsætning", "på trods af"]
+    },
+    {
+      "id": "relatives-025",
+      "topic": "relatives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "Antallet af elbiler på de danske veje er mere end tredoblet ___ de seneste fem år.",
+      "hint": "(fast udtryk: during / in the course of)",
+      "answer": "i løbet af",
+      "explanation": {
+        "en": "'I løbet af' + a period of time means 'during / in the course of' and is the standard formal way to frame a development over time. Learners often write 'i' or 'under' alone; 'under' is used for events ('under krigen'), not for a stretch of years like this.",
+        "da": "'I løbet af' + et tidsrum betyder 'i løbet af / inden for' og er den faste formelle måde at ramme en udvikling over tid ind. Mange skriver blot 'i' eller 'under'; 'under' bruges om begivenheder ('under krigen'), ikke om et antal år som her."
+      },
+      "tags": ["formelt sprog", "tid", "i løbet af"]
+    },
+    {
+      "id": "relatives-026",
+      "topic": "relatives",
+      "level": 1,
+      "type": "typed",
+      "prompt": "___ svenskerne, der næsten kun betaler med kort og mobil, holder mange danskere stadig fast i kontanterne.",
+      "hint": "(fast udtryk: in contrast to / unlike)",
+      "answer": "I modsætning til",
+      "accepted": ["i modsætning til"],
+      "explanation": {
+        "en": "'I modsætning til' marks a direct contrast between two groups that behave in opposite ways. The trap is 'i forhold til', which only means 'compared with / in relation to' and does not signal opposition – in PD3 writing it is often overused where 'i modsætning til' is meant.",
+        "da": "'I modsætning til' markerer en direkte modsætning mellem to grupper, der handler modsat. Fælden er 'i forhold til', som kun betyder 'sammenlignet med / i relation til' og ikke signalerer modsætning – i PD3-skriftlig bliver det ofte overbrugt, hvor 'i modsætning til' er meningen."
+      },
+      "tags": ["formelt sprog", "modsætning", "i modsætning til"]
+    },
+    {
+      "id": "relatives-027",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "Danske lønmodtagere arbejder færre timer om ugen ___ gennemsnittet i EU, men produktiviteten er blandt de højeste.",
+      "options": ["i forhold til", "i modsætning til", "på trods af", "med henblik på"],
+      "answer": "i forhold til",
+      "explanation": {
+        "en": "A comparison with a reference value ('færre timer … end') calls for 'i forhold til' (relative to / compared with). 'I modsætning til' expresses an opposition between two actors and cannot follow a comparative like 'færre'; 'på trods af' and 'med henblik på' give the wrong logic.",
+        "da": "En sammenligning med en referenceværdi ('færre timer … end') kræver 'i forhold til' (sammenlignet med). 'I modsætning til' udtrykker en modsætning mellem to aktører og kan ikke følge en komparativ som 'færre'; 'på trods af' og 'med henblik på' giver den forkerte logik."
+      },
+      "tags": ["formelt sprog", "sammenligning", "i forhold til"]
+    },
+    {
+      "id": "relatives-028",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Jobcentret har indkaldt alle ledige under 30 år til en samtale ___ at få dem i gang med en erhvervsuddannelse.",
+      "options": ["med henblik på", "med hensyn til", "i forbindelse med", "som følge af"],
+      "answer": "med henblik på",
+      "explanation": {
+        "en": "'Med henblik på at + infinitiv' expresses purpose ('with a view to / in order to'). The trap is the look-alike 'med hensyn til' (with regard to), which introduces a topic, not a goal; 'i forbindelse med' and 'som følge af' cannot be followed by 'at + infinitiv' in this sense.",
+        "da": "'Med henblik på at + infinitiv' udtrykker formål. Fælden er det lignende 'med hensyn til', som indleder et emne, ikke et mål; 'i forbindelse med' og 'som følge af' kan ikke følges af 'at + infinitiv' i denne betydning."
+      },
+      "tags": ["formelt sprog", "formål", "med henblik på"]
+    },
+    {
+      "id": "relatives-029",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Flere mindre landbrug har måttet lukke ___ de kraftigt stigende priser på foder og energi.",
+      "hint": "(fast udtryk med 'følge': as a result of)",
+      "answer": "som følge af",
+      "explanation": {
+        "en": "'Som følge af' (as a result of) presents the closures as a consequence of the price rises; it is the formal alternative to 'på grund af' that PD3 rewards for variation. Learners often produce 'som følge på' or 'til følge af' – the fixed form is 'som følge af'.",
+        "da": "'Som følge af' fremstiller lukningerne som en konsekvens af prisstigningerne; det er det formelle alternativ til 'på grund af', som PD3 belønner for variation. Mange skriver 'som følge på' eller 'til følge af' – den faste form er 'som følge af'."
+      },
+      "tags": ["formelt sprog", "årsag", "som følge af"]
+    },
+    {
+      "id": "relatives-030",
+      "topic": "relatives",
+      "level": 2,
+      "type": "typed",
+      "prompt": "Arbejdstilsynet har skærpet kravene ___ sikkerhed på byggepladser efter flere alvorlige ulykker i år.",
+      "hint": "(fast udtryk: with regard to / concerning)",
+      "answer": "med hensyn til",
+      "accepted": ["vedrørende", "angående"],
+      "explanation": {
+        "en": "'Med hensyn til' (with regard to) introduces the area the requirements concern; the formal single words 'vedrørende' and 'angående' work the same way. The trap is 'med henblik på', which means 'with a view to' (purpose) and would say the requirements aim at safety rather than concern it.",
+        "da": "'Med hensyn til' indleder det område, kravene vedrører; de formelle enkeltord 'vedrørende' og 'angående' fungerer på samme måde. Fælden er 'med henblik på', som betyder 'med det formål' og ville sige, at kravene sigter mod sikkerhed i stedet for at handle om den."
+      },
+      "tags": ["formelt sprog", "emne", "med hensyn til"]
+    },
+    {
+      "id": "relatives-031",
+      "topic": "relatives",
+      "level": 1,
+      "type": "choice",
+      "prompt": "___ en ny rapport fra Sundhedsstyrelsen oplever hver femte dansker over 65 år jævnligt ensomhed.",
+      "options": ["Ifølge", "Vedrørende", "I forbindelse med", "Med hensyn til"],
+      "answer": "Ifølge",
+      "explanation": {
+        "en": "'Ifølge' (according to) names the source of a claim and is the standard way to cite a report or study in PD3 writing. 'Vedrørende' and 'med hensyn til' (concerning / with regard to) introduce a topic, not a source, and 'i forbindelse med' only links two events.",
+        "da": "'Ifølge' angiver kilden til et udsagn og er den faste måde at henvise til en rapport eller undersøgelse på i PD3-skriftlig. 'Vedrørende' og 'med hensyn til' indleder et emne, ikke en kilde, og 'i forbindelse med' forbinder blot to begivenheder."
+      },
+      "tags": ["formelt sprog", "kilde", "ifølge"]
+    },
+    {
+      "id": "relatives-032",
+      "topic": "relatives",
+      "level": 2,
+      "type": "choice",
+      "prompt": "Borgere kan nu klage direkte til Ankestyrelsen over kommunens afgørelser ___ sygedagpenge og kontanthjælp.",
+      "options": ["vedrørende", "ifølge", "i løbet af", "på trods af"],
+      "answer": "vedrørende",
+      "explanation": {
+        "en": "'Vedrørende' (concerning) attaches a topic to a noun like 'afgørelser' and is typical of administrative Danish. 'Ifølge' is the trap: it would make the benefits the source of the decisions, which makes no sense; 'i løbet af' and 'på trods af' express time and concession.",
+        "da": "'Vedrørende' knytter et emne til et substantiv som 'afgørelser' og er typisk for forvaltningssprog. 'Ifølge' er fælden: det ville gøre ydelserne til kilden for afgørelserne, hvilket ikke giver mening; 'i løbet af' og 'på trods af' udtrykker tid og indrømmelse."
+      },
+      "tags": ["formelt sprog", "emne", "vedrørende"]
+    }
+  ]
+}

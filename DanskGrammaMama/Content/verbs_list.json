@@ -1,0 +1,4092 @@
+{
+ "verbs": [
+  {
+   "infinitive": "acceptere",
+   "present": "accepterer",
+   "past": "accepterede",
+   "auxiliary": "har",
+   "participle": "accepteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "adskille",
+   "present": "adskiller",
+   "past": "adskilte",
+   "auxiliary": "har",
+   "participle": "adskilt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "advare",
+   "present": "advarer",
+   "past": "advarede",
+   "auxiliary": "har",
+   "participle": "advaret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "afbryde",
+   "present": "afbryder",
+   "past": "afbrød",
+   "auxiliary": "har",
+   "participle": "afbrudt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "afgive",
+   "present": "afgiver",
+   "past": "afgav",
+   "auxiliary": "har",
+   "participle": "afgivet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "afgøre",
+   "present": "afgør",
+   "past": "afgjorde",
+   "auxiliary": "har",
+   "participle": "afgjort",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "aflevere",
+   "present": "afleverer",
+   "past": "afleverede",
+   "auxiliary": "har",
+   "participle": "afleveret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "aflyse",
+   "present": "aflyser",
+   "past": "aflyste",
+   "auxiliary": "har",
+   "participle": "aflyst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "afløse",
+   "present": "afløser",
+   "past": "afløste",
+   "auxiliary": "har",
+   "participle": "afløst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "afskaffe",
+   "present": "afskaffer",
+   "past": "afskaffede",
+   "auxiliary": "har",
+   "participle": "afskaffet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "afslutte",
+   "present": "afslutter",
+   "past": "afsluttede",
+   "auxiliary": "har",
+   "participle": "afsluttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "afvise",
+   "present": "afviser",
+   "past": "afviste",
+   "auxiliary": "har",
+   "participle": "afvist",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "anbefale",
+   "present": "anbefaler",
+   "past": "anbefalede",
+   "auxiliary": "har",
+   "participle": "anbefalet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "anbringe",
+   "present": "anbringer",
+   "past": "anbragte",
+   "auxiliary": "har",
+   "participle": "anbragt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ane",
+   "present": "aner",
+   "past": "anede",
+   "auxiliary": "har",
+   "participle": "anet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "anerkende",
+   "present": "anerkender",
+   "past": "anerkendte",
+   "auxiliary": "har",
+   "participle": "anerkendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "angive",
+   "present": "angiver",
+   "past": "angav",
+   "auxiliary": "har",
+   "participle": "angivet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "angå",
+   "present": "angår",
+   "past": "angik",
+   "auxiliary": "har",
+   "participle": "angået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "anholde",
+   "present": "anholder",
+   "past": "anholdt",
+   "auxiliary": "har",
+   "participle": "anholdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ankomme",
+   "present": "ankommer",
+   "past": "ankom",
+   "auxiliary": "er",
+   "participle": "ankommet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "anmelde",
+   "present": "anmelder",
+   "past": "anmeldte",
+   "auxiliary": "har",
+   "participle": "anmeldt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "anse",
+   "present": "anser",
+   "past": "anså",
+   "auxiliary": "har",
+   "participle": "anset",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ansætte",
+   "present": "ansætter",
+   "past": "ansatte",
+   "auxiliary": "har",
+   "participle": "ansat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "anvende",
+   "present": "anvender",
+   "past": "anvendte",
+   "auxiliary": "har",
+   "participle": "anvendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "arbejde",
+   "present": "arbejder",
+   "past": "arbejdede",
+   "auxiliary": "har",
+   "participle": "arbejdet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "arrangere",
+   "present": "arrangerer",
+   "past": "arrangerede",
+   "auxiliary": "har",
+   "participle": "arrangeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "arrestere",
+   "present": "arresterer",
+   "past": "arresterede",
+   "auxiliary": "har",
+   "participle": "arresteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bage",
+   "present": "bager",
+   "past": "bagte",
+   "auxiliary": "har",
+   "participle": "bagt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "banke",
+   "present": "banker",
+   "past": "bankede",
+   "auxiliary": "har",
+   "participle": "banket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bede",
+   "present": "beder",
+   "past": "bad",
+   "auxiliary": "har",
+   "participle": "bedt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "befinde sig",
+   "present": "befinder sig",
+   "past": "befandt sig",
+   "auxiliary": "har",
+   "participle": "befundet sig",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "begrave",
+   "present": "begraver",
+   "past": "begravede",
+   "auxiliary": "har",
+   "participle": "begravet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "begrænse",
+   "present": "begrænser",
+   "past": "begrænsede",
+   "auxiliary": "har",
+   "participle": "begrænset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "begynde",
+   "present": "begynder",
+   "past": "begyndte",
+   "auxiliary": "er",
+   "participle": "begyndt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "begå",
+   "present": "begår",
+   "past": "begik",
+   "auxiliary": "har",
+   "participle": "begået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "behandle",
+   "present": "behandler",
+   "past": "behandlede",
+   "auxiliary": "har",
+   "participle": "behandlet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "beholde",
+   "present": "beholder",
+   "past": "beholdt",
+   "auxiliary": "har",
+   "participle": "beholdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "behøve",
+   "present": "behøver",
+   "past": "behøvede",
+   "auxiliary": "har",
+   "participle": "behøvet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "beklage",
+   "present": "beklager",
+   "past": "beklagede",
+   "auxiliary": "har",
+   "participle": "beklaget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bekræfte",
+   "present": "bekræfter",
+   "past": "bekræftede",
+   "auxiliary": "har",
+   "participle": "bekræftet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bemærke",
+   "present": "bemærker",
+   "past": "bemærkede",
+   "auxiliary": "har",
+   "participle": "bemærket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "benytte",
+   "present": "benytter",
+   "past": "benyttede",
+   "auxiliary": "har",
+   "participle": "benyttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "beskrive",
+   "present": "beskriver",
+   "past": "beskrev",
+   "auxiliary": "har",
+   "participle": "beskrevet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "beskytte",
+   "present": "beskytter",
+   "past": "beskyttede",
+   "auxiliary": "har",
+   "participle": "beskyttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "beslutte",
+   "present": "beslutter",
+   "past": "besluttede",
+   "auxiliary": "har",
+   "participle": "besluttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bestemme",
+   "present": "bestemmer",
+   "past": "bestemte",
+   "auxiliary": "har",
+   "participle": "bestemt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "bestille",
+   "present": "bestiller",
+   "past": "bestilte",
+   "auxiliary": "har",
+   "participle": "bestilt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "bestå",
+   "present": "består",
+   "past": "bestod",
+   "auxiliary": "har",
+   "participle": "bestået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "besætte",
+   "present": "besætter",
+   "past": "besatte",
+   "auxiliary": "har",
+   "participle": "besat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "besøge",
+   "present": "besøger",
+   "past": "besøgte",
+   "auxiliary": "har",
+   "participle": "besøgt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "betale",
+   "present": "betaler",
+   "past": "betalte",
+   "auxiliary": "har",
+   "participle": "betalt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "betyde",
+   "present": "betyder",
+   "past": "betød",
+   "auxiliary": "har",
+   "participle": "betydet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "bevare",
+   "present": "bevarer",
+   "past": "bevarede",
+   "auxiliary": "har",
+   "participle": "bevaret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bevise",
+   "present": "beviser",
+   "past": "beviste",
+   "auxiliary": "har",
+   "participle": "bevist",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "bevæge sig",
+   "present": "bevæger sig",
+   "past": "bevægede sig",
+   "auxiliary": "har",
+   "participle": "bevæget sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bide",
+   "present": "bider",
+   "past": "bed",
+   "auxiliary": "har",
+   "participle": "bidt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "bidrage",
+   "present": "bidrager",
+   "past": "bidrog",
+   "auxiliary": "har",
+   "participle": "bidraget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "binde",
+   "present": "binder",
+   "past": "bandt",
+   "auxiliary": "har",
+   "participle": "bundet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "blande",
+   "present": "blander",
+   "past": "blandede",
+   "auxiliary": "har",
+   "participle": "blandet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "blive",
+   "present": "bliver",
+   "past": "blev",
+   "auxiliary": "er",
+   "participle": "blevet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "blæse",
+   "present": "blæser",
+   "past": "blæste",
+   "auxiliary": "har",
+   "participle": "blæst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "bo",
+   "present": "bor",
+   "past": "boede",
+   "auxiliary": "har",
+   "participle": "boet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "brede sig",
+   "present": "breder sig",
+   "past": "bredte sig",
+   "auxiliary": "har",
+   "participle": "bredt sig",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "bringe",
+   "present": "bringer",
+   "past": "bragte",
+   "auxiliary": "har",
+   "participle": "bragt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "bruge",
+   "present": "bruger",
+   "past": "brugte",
+   "auxiliary": "har",
+   "participle": "brugt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "bryde",
+   "present": "bryder",
+   "past": "brød",
+   "auxiliary": "har",
+   "participle": "brudt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "bygge",
+   "present": "bygger",
+   "past": "byggede",
+   "auxiliary": "har",
+   "participle": "bygget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bytte",
+   "present": "bytter",
+   "past": "byttede",
+   "auxiliary": "har",
+   "participle": "byttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "bære",
+   "present": "bærer",
+   "past": "bar",
+   "auxiliary": "har",
+   "participle": "båret",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "citere",
+   "present": "citerer",
+   "past": "citerede",
+   "auxiliary": "har",
+   "participle": "citeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "danne",
+   "present": "danner",
+   "past": "dannede",
+   "auxiliary": "har",
+   "participle": "dannet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "danse",
+   "present": "danser",
+   "past": "dansede",
+   "auxiliary": "har",
+   "participle": "danset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "dele",
+   "present": "deler",
+   "past": "delte",
+   "auxiliary": "har",
+   "participle": "delt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "deltage",
+   "present": "deltager",
+   "past": "deltog",
+   "auxiliary": "har",
+   "participle": "deltaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "diskutere",
+   "present": "diskuterer",
+   "past": "diskuterede",
+   "auxiliary": "har",
+   "participle": "diskuteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "dominere",
+   "present": "dominerer",
+   "past": "dominerede",
+   "auxiliary": "har",
+   "participle": "domineret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "drage",
+   "present": "drager",
+   "past": "drog",
+   "auxiliary": "har",
+   "participle": "draget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "dreje",
+   "present": "drejer",
+   "past": "drejede",
+   "auxiliary": "har",
+   "participle": "drejet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "drikke",
+   "present": "drikker",
+   "past": "drak",
+   "auxiliary": "har",
+   "participle": "drukket",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "drive",
+   "present": "driver",
+   "past": "drev",
+   "auxiliary": "har",
+   "participle": "drevet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "dræbe",
+   "present": "dræber",
+   "past": "dræbte",
+   "auxiliary": "har",
+   "participle": "dræbt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "drøfte",
+   "present": "drøfter",
+   "past": "drøftede",
+   "auxiliary": "har",
+   "participle": "drøftet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "drømme",
+   "present": "drømmer",
+   "past": "drømte",
+   "auxiliary": "har",
+   "participle": "drømt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "dukke op",
+   "present": "dukker op",
+   "past": "dukkede op",
+   "auxiliary": "er",
+   "participle": "dukket op",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "dække",
+   "present": "dækker",
+   "past": "dækkede",
+   "auxiliary": "har",
+   "participle": "dækket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "dø",
+   "present": "dør",
+   "past": "døde",
+   "auxiliary": "er",
+   "participle": "død",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "dømme",
+   "present": "dømmer",
+   "past": "dømte",
+   "auxiliary": "har",
+   "participle": "dømt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "efterlade",
+   "present": "efterlader",
+   "past": "efterlod",
+   "auxiliary": "har",
+   "participle": "efterladt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "eje",
+   "present": "ejer",
+   "past": "ejede",
+   "auxiliary": "har",
+   "participle": "ejet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "eksistere",
+   "present": "eksisterer",
+   "past": "eksisterede",
+   "auxiliary": "har",
+   "participle": "eksisteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "elske",
+   "present": "elsker",
+   "past": "elskede",
+   "auxiliary": "har",
+   "participle": "elsket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ende",
+   "present": "ender",
+   "past": "endte",
+   "auxiliary": "er",
+   "participle": "endt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "erkende",
+   "present": "erkender",
+   "past": "erkendte",
+   "auxiliary": "har",
+   "participle": "erkendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "erstatte",
+   "present": "erstatter",
+   "past": "erstattede",
+   "auxiliary": "har",
+   "participle": "erstattet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "falde",
+   "present": "falder",
+   "past": "faldt",
+   "auxiliary": "er",
+   "participle": "faldet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fange",
+   "present": "fanger",
+   "past": "fangede",
+   "auxiliary": "har",
+   "participle": "fanget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fastholde",
+   "present": "fastholder",
+   "past": "fastholdt",
+   "auxiliary": "har",
+   "participle": "fastholdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fastslå",
+   "present": "fastslår",
+   "past": "fastslog",
+   "auxiliary": "har",
+   "participle": "fastslået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fastsætte",
+   "present": "fastsætter",
+   "past": "fastsatte",
+   "auxiliary": "har",
+   "participle": "fastsat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fatte",
+   "present": "fatter",
+   "past": "fattede",
+   "auxiliary": "har",
+   "participle": "fattet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fejre",
+   "present": "fejrer",
+   "past": "fejrede",
+   "auxiliary": "har",
+   "participle": "fejret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "finde",
+   "present": "finder",
+   "past": "fandt",
+   "auxiliary": "har",
+   "participle": "fundet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fjerne",
+   "present": "fjerner",
+   "past": "fjernede",
+   "auxiliary": "har",
+   "participle": "fjernet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "flygte",
+   "present": "flygter",
+   "past": "flygtede",
+   "auxiliary": "er",
+   "participle": "flygtet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "flytte",
+   "present": "flytter",
+   "past": "flyttede",
+   "auxiliary": "er",
+   "participle": "flyttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "flyve",
+   "present": "flyver",
+   "past": "fløj",
+   "auxiliary": "har/er",
+   "participle": "fløjet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fodre",
+   "present": "fodrer",
+   "past": "fodrede",
+   "auxiliary": "har",
+   "participle": "fodret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forbedre",
+   "present": "forbedrer",
+   "past": "forbedrede",
+   "auxiliary": "har",
+   "participle": "forbedret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forberede",
+   "present": "forbereder",
+   "past": "forberedte",
+   "auxiliary": "har",
+   "participle": "forberedt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "forbinde",
+   "present": "forbinder",
+   "past": "forbandt",
+   "auxiliary": "har",
+   "participle": "forbundet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forblive",
+   "present": "forbliver",
+   "past": "forblev",
+   "auxiliary": "er",
+   "participle": "forblevet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fordele",
+   "present": "fordeler",
+   "past": "fordelte",
+   "auxiliary": "har",
+   "participle": "fordelt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "foregå",
+   "present": "foregår",
+   "past": "foregik",
+   "auxiliary": "er",
+   "participle": "foregået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forekomme",
+   "present": "forekommer",
+   "past": "forekom",
+   "auxiliary": "er",
+   "participle": "forekommet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forelske sig",
+   "present": "forelsker sig",
+   "past": "forelskede sig",
+   "auxiliary": "har",
+   "participle": "forelsket sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forene",
+   "present": "forener",
+   "past": "forenede",
+   "auxiliary": "har",
+   "participle": "forenet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "foreslå",
+   "present": "foreslår",
+   "past": "foreslog",
+   "auxiliary": "har",
+   "participle": "foreslået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forestille sig",
+   "present": "forestiller sig",
+   "past": "forestillede sig",
+   "auxiliary": "har",
+   "participle": "forestillet sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "foretage sig",
+   "present": "foretager sig",
+   "past": "foretog sig",
+   "auxiliary": "har",
+   "participle": "foretaget sig",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "foretrække",
+   "present": "foretrækker",
+   "past": "foretrak",
+   "auxiliary": "har",
+   "participle": "foretrukket",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forhandle",
+   "present": "forhandler",
+   "past": "forhandlede",
+   "auxiliary": "har",
+   "participle": "forhandlet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forhindre",
+   "present": "forhindrer",
+   "past": "forhindrede",
+   "auxiliary": "har",
+   "participle": "forhindret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forholde sig",
+   "present": "forholder sig",
+   "past": "forholdt sig",
+   "auxiliary": "har",
+   "participle": "forholdt sig",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forklare",
+   "present": "forklarer",
+   "past": "forklarede",
+   "auxiliary": "har",
+   "participle": "forklaret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forlade",
+   "present": "forlader",
+   "past": "forlod",
+   "auxiliary": "har",
+   "participle": "forladt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forlange",
+   "present": "forlanger",
+   "past": "forlangte",
+   "auxiliary": "har",
+   "participle": "forlangt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "formulere",
+   "present": "formulerer",
+   "past": "formulerede",
+   "auxiliary": "har",
+   "participle": "formuleret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "formå",
+   "present": "formår",
+   "past": "formåede",
+   "auxiliary": "har",
+   "participle": "formået",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forsinke",
+   "present": "forsinker",
+   "past": "forsinkede",
+   "auxiliary": "har",
+   "participle": "forsinket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forstå",
+   "present": "forstår",
+   "past": "forstod",
+   "auxiliary": "har",
+   "participle": "forstået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forsvare",
+   "present": "forsvarer",
+   "past": "forsvarede",
+   "auxiliary": "har",
+   "participle": "forsvaret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forsvinde",
+   "present": "forsvinder",
+   "past": "forsvandt",
+   "auxiliary": "er",
+   "participle": "forsvundet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forsøge",
+   "present": "forsøger",
+   "past": "forsøgte",
+   "auxiliary": "har",
+   "participle": "forsøgt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "fortjene",
+   "present": "fortjener",
+   "past": "fortjente",
+   "auxiliary": "har",
+   "participle": "fortjent",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "fortsætte",
+   "present": "fortsætter",
+   "past": "fortsatte",
+   "auxiliary": "har/er",
+   "participle": "fortsat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fortælle",
+   "present": "fortæller",
+   "past": "fortalte",
+   "auxiliary": "har",
+   "participle": "fortalt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forudsætte",
+   "present": "forudsætter",
+   "past": "forudsatte",
+   "auxiliary": "har",
+   "participle": "forudsat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "forvandle",
+   "present": "forvandler",
+   "past": "forvandlede",
+   "auxiliary": "har",
+   "participle": "forvandlet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "forvente",
+   "present": "forventer",
+   "past": "forventede",
+   "auxiliary": "har",
+   "participle": "forventet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fremgå",
+   "present": "fremgår",
+   "past": "fremgik",
+   "auxiliary": "er",
+   "participle": "fremgået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fremhæve",
+   "present": "fremhæver",
+   "past": "fremhævede",
+   "auxiliary": "har",
+   "participle": "fremhævet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fremlægge",
+   "present": "fremlægger",
+   "past": "fremlagde",
+   "auxiliary": "har",
+   "participle": "fremlagt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "fremstille",
+   "present": "fremstiller",
+   "past": "fremstillede",
+   "auxiliary": "har",
+   "participle": "fremstillet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fremsætte",
+   "present": "fremsætter",
+   "past": "fremsatte",
+   "auxiliary": "har",
+   "participle": "fremsat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "friste",
+   "present": "frister",
+   "past": "fristede",
+   "auxiliary": "har",
+   "participle": "fristet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "frygte",
+   "present": "frygter",
+   "past": "frygtede",
+   "auxiliary": "har",
+   "participle": "frygtet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fungere",
+   "present": "fungerer",
+   "past": "fungerede",
+   "auxiliary": "har",
+   "participle": "fungeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "fylde",
+   "present": "fylder",
+   "past": "fyldte",
+   "auxiliary": "har",
+   "participle": "fyldt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "fyre",
+   "present": "fyrer",
+   "past": "fyrede",
+   "auxiliary": "har",
+   "participle": "fyret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "føde",
+   "present": "føder",
+   "past": "fødte",
+   "auxiliary": "har",
+   "participle": "født",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "føle",
+   "present": "føler",
+   "past": "følte",
+   "auxiliary": "har",
+   "participle": "følt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "følge",
+   "present": "følger",
+   "past": "fulgte",
+   "auxiliary": "har",
+   "participle": "fulgt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "føre",
+   "present": "fører",
+   "past": "førte",
+   "auxiliary": "har",
+   "participle": "ført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "få",
+   "present": "får",
+   "past": "fik",
+   "auxiliary": "har",
+   "participle": "fået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "gemme",
+   "present": "gemmer",
+   "past": "gemte",
+   "auxiliary": "har",
+   "participle": "gemt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "genere",
+   "present": "generer",
+   "past": "generede",
+   "auxiliary": "har",
+   "participle": "generet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "gennemføre",
+   "present": "gennemfører",
+   "past": "gennemførte",
+   "auxiliary": "har",
+   "participle": "gennemført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "gennemgå",
+   "present": "gennemgår",
+   "past": "gennemgik",
+   "auxiliary": "har",
+   "participle": "gennemgået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "gentage",
+   "present": "gentager",
+   "past": "gentog",
+   "auxiliary": "har",
+   "participle": "gentaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "gide",
+   "present": "gider",
+   "past": "gad",
+   "auxiliary": "har",
+   "participle": "gidet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "gifte sig",
+   "present": "gifter sig",
+   "past": "giftede sig",
+   "auxiliary": "har",
+   "participle": "giftet sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "give",
+   "present": "giver",
+   "past": "gav",
+   "auxiliary": "har",
+   "participle": "givet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "glemme",
+   "present": "glemmer",
+   "past": "glemte",
+   "auxiliary": "har",
+   "participle": "glemt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "glide",
+   "present": "glider",
+   "past": "gled",
+   "auxiliary": "er",
+   "participle": "gledet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "glæde sig",
+   "present": "glæder sig",
+   "past": "glædede sig",
+   "auxiliary": "har",
+   "participle": "glædet sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "godkende",
+   "present": "godkender",
+   "past": "godkendte",
+   "auxiliary": "har",
+   "participle": "godkendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "gribe",
+   "present": "griber",
+   "past": "greb",
+   "auxiliary": "har",
+   "participle": "grebet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "grine",
+   "present": "griner",
+   "past": "grinede",
+   "auxiliary": "har",
+   "participle": "grinet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "græde",
+   "present": "græder",
+   "past": "græd",
+   "auxiliary": "har",
+   "participle": "grædt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "gøre",
+   "present": "gør",
+   "past": "gjorde",
+   "auxiliary": "har",
+   "participle": "gjort",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "gå",
+   "present": "går",
+   "past": "gik",
+   "auxiliary": "har/er",
+   "participle": "gået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "hade",
+   "present": "hader",
+   "past": "hadede",
+   "auxiliary": "har",
+   "participle": "hadet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "handle",
+   "present": "handler",
+   "past": "handlede",
+   "auxiliary": "har",
+   "participle": "handlet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "have",
+   "present": "har",
+   "past": "havde",
+   "auxiliary": "har",
+   "participle": "haft",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "hedde",
+   "present": "hedder",
+   "past": "hed",
+   "auxiliary": "har",
+   "participle": "heddet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "hente",
+   "present": "henter",
+   "past": "hentede",
+   "auxiliary": "har",
+   "participle": "hentet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "henvende sig",
+   "present": "henvender sig",
+   "past": "henvendte sig",
+   "auxiliary": "har",
+   "participle": "henvendt sig",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "henvise",
+   "present": "henviser",
+   "past": "henviste",
+   "auxiliary": "har",
+   "participle": "henvist",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "herske",
+   "present": "hersker",
+   "past": "herskede",
+   "auxiliary": "har",
+   "participle": "hersket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "hilse",
+   "present": "hilser",
+   "past": "hilste",
+   "auxiliary": "har",
+   "participle": "hilst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "hindre",
+   "present": "hindrer",
+   "past": "hindrede",
+   "auxiliary": "har",
+   "participle": "hindret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "hjælpe",
+   "present": "hjælper",
+   "past": "hjalp",
+   "auxiliary": "har",
+   "participle": "hjulpet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "holde",
+   "present": "holder",
+   "past": "holdt",
+   "auxiliary": "har",
+   "participle": "holdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "hoppe",
+   "present": "hopper",
+   "past": "hoppede",
+   "auxiliary": "har/er",
+   "participle": "hoppet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "huske",
+   "present": "husker",
+   "past": "huskede",
+   "auxiliary": "har",
+   "participle": "husket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "hvile sig",
+   "present": "hviler sig",
+   "past": "hvilede sig",
+   "auxiliary": "har",
+   "participle": "hvilet sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "hviske",
+   "present": "hvisker",
+   "past": "hviskede",
+   "auxiliary": "har",
+   "participle": "hvisket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "hælde",
+   "present": "hælder",
+   "past": "hældte",
+   "auxiliary": "har",
+   "participle": "hældt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "hænge (noget op)",
+   "present": "hænger",
+   "past": "hængte",
+   "auxiliary": "har",
+   "participle": "hængt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "hænge (på væggen)",
+   "present": "hænger",
+   "past": "hang",
+   "auxiliary": "har",
+   "participle": "hængt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "hævde",
+   "present": "hævder",
+   "past": "hævdede",
+   "auxiliary": "har",
+   "participle": "hævdet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "hæve",
+   "present": "hæver",
+   "past": "hævede",
+   "auxiliary": "har",
+   "participle": "hævet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "høre",
+   "present": "hører",
+   "past": "hørte",
+   "auxiliary": "har",
+   "participle": "hørt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "håbe",
+   "present": "håber",
+   "past": "håbede",
+   "auxiliary": "har",
+   "participle": "håbet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "inddrage",
+   "present": "inddrager",
+   "past": "inddrog",
+   "auxiliary": "har",
+   "participle": "inddraget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "indebære",
+   "present": "indebærer",
+   "past": "indebar",
+   "auxiliary": "har",
+   "participle": "indebåret",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "indeholde",
+   "present": "indeholder",
+   "past": "indeholdt",
+   "auxiliary": "har",
+   "participle": "indeholdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "indføre",
+   "present": "indfører",
+   "past": "indførte",
+   "auxiliary": "har",
+   "participle": "indført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "indgå",
+   "present": "indgår",
+   "past": "indgik",
+   "auxiliary": "har",
+   "participle": "indgået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "indlede",
+   "present": "indleder",
+   "past": "indledte",
+   "auxiliary": "har",
+   "participle": "indledt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "indrette",
+   "present": "indretter",
+   "past": "indrettede",
+   "auxiliary": "har",
+   "participle": "indrettet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "indrømme",
+   "present": "indrømmer",
+   "past": "indrømmede",
+   "auxiliary": "har",
+   "participle": "indrømmet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "indstille",
+   "present": "indstiller",
+   "past": "indstillede",
+   "auxiliary": "har",
+   "participle": "indstillet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "indtage",
+   "present": "indtager",
+   "past": "indtog",
+   "auxiliary": "har",
+   "participle": "indtaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "installere",
+   "present": "installerer",
+   "past": "installerede",
+   "auxiliary": "har",
+   "participle": "installeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "inspirere",
+   "present": "inspirerer",
+   "past": "inspirerede",
+   "auxiliary": "har",
+   "participle": "inspireret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "interessere",
+   "present": "interesserer",
+   "past": "interesserede",
+   "auxiliary": "har",
+   "participle": "interesseret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "investere",
+   "present": "investerer",
+   "past": "investerede",
+   "auxiliary": "har",
+   "participle": "investeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "invitere",
+   "present": "inviterer",
+   "past": "inviterede",
+   "auxiliary": "har",
+   "participle": "inviteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "irritere",
+   "present": "irriterer",
+   "past": "irriterede",
+   "auxiliary": "har",
+   "participle": "irriteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kalde",
+   "present": "kalder",
+   "past": "kaldte",
+   "auxiliary": "har",
+   "participle": "kaldt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "kaste",
+   "present": "kaster",
+   "past": "kastede",
+   "auxiliary": "har",
+   "participle": "kastet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kende",
+   "present": "kender",
+   "past": "kendte",
+   "auxiliary": "har",
+   "participle": "kendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "kigge",
+   "present": "kigger",
+   "past": "kiggede",
+   "auxiliary": "har",
+   "participle": "kigget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "klare",
+   "present": "klarer",
+   "past": "klarede",
+   "auxiliary": "har",
+   "participle": "klaret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "klippe",
+   "present": "klipper",
+   "past": "klippede",
+   "auxiliary": "har",
+   "participle": "klippet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "klæde",
+   "present": "klæder",
+   "past": "klædte",
+   "auxiliary": "har",
+   "participle": "klædt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "knuse",
+   "present": "knuser",
+   "past": "knuste",
+   "auxiliary": "har",
+   "participle": "knust",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "knytte",
+   "present": "knytter",
+   "past": "knyttede",
+   "auxiliary": "har",
+   "participle": "knyttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "koge",
+   "present": "koger",
+   "past": "kogte",
+   "auxiliary": "har",
+   "participle": "kogt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "kombinere",
+   "present": "kombinerer",
+   "past": "kombinerede",
+   "auxiliary": "har",
+   "participle": "kombineret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "komme",
+   "present": "kommer",
+   "past": "kom",
+   "auxiliary": "er",
+   "participle": "kommet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "kommentere",
+   "present": "kommenterer",
+   "past": "kommenterede",
+   "auxiliary": "har",
+   "participle": "kommenteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "koncentrere sig",
+   "present": "koncentrerer sig",
+   "past": "koncentrerede sig",
+   "auxiliary": "har",
+   "participle": "koncentreret sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "konstatere",
+   "present": "konstaterer",
+   "past": "konstaterede",
+   "auxiliary": "har",
+   "participle": "konstateret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kontakte",
+   "present": "kontakter",
+   "past": "kontaktede",
+   "auxiliary": "har",
+   "participle": "kontaktet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kontrollere",
+   "present": "kontrollerer",
+   "past": "kontrollerede",
+   "auxiliary": "har",
+   "participle": "kontrolleret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "koste",
+   "present": "koster",
+   "past": "kostede",
+   "auxiliary": "har",
+   "participle": "kostet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kritisere",
+   "present": "kritiserer",
+   "past": "kritiserede",
+   "auxiliary": "har",
+   "participle": "kritiseret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kræve",
+   "present": "kræver",
+   "past": "krævede",
+   "auxiliary": "har",
+   "participle": "krævet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kunne",
+   "present": "kan",
+   "past": "kunne",
+   "auxiliary": "har",
+   "participle": "kunnet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "kysse",
+   "present": "kysser",
+   "past": "kyssede",
+   "auxiliary": "har",
+   "participle": "kysset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "kæmpe",
+   "present": "kæmper",
+   "past": "kæmpede",
+   "auxiliary": "har",
+   "participle": "kæmpet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "købe",
+   "present": "køber",
+   "past": "købte",
+   "auxiliary": "har",
+   "participle": "købt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "køre",
+   "present": "kører",
+   "past": "kørte",
+   "auxiliary": "har/er",
+   "participle": "kørt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "lade",
+   "present": "lader",
+   "past": "lod",
+   "auxiliary": "har",
+   "participle": "ladet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "lande",
+   "present": "lander",
+   "past": "landede",
+   "auxiliary": "er",
+   "participle": "landet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lave",
+   "present": "laver",
+   "past": "lavede",
+   "auxiliary": "har",
+   "participle": "lavet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "le",
+   "present": "ler",
+   "past": "lo",
+   "auxiliary": "har",
+   "participle": "leet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "lede",
+   "present": "leder",
+   "past": "ledte",
+   "auxiliary": "har",
+   "participle": "ledt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "lege",
+   "present": "leger",
+   "past": "legede",
+   "auxiliary": "har",
+   "participle": "leget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "leje",
+   "present": "lejer",
+   "past": "lejede",
+   "auxiliary": "har",
+   "participle": "lejet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lette",
+   "present": "letter",
+   "past": "lettede",
+   "auxiliary": "har/er",
+   "participle": "lettet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "leve",
+   "present": "lever",
+   "past": "levede",
+   "auxiliary": "har",
+   "participle": "levet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "levere",
+   "present": "leverer",
+   "past": "leverede",
+   "auxiliary": "har",
+   "participle": "leveret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lide",
+   "present": "lider",
+   "past": "led",
+   "auxiliary": "har",
+   "participle": "lidt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ligge",
+   "present": "ligger",
+   "past": "lå",
+   "auxiliary": "har",
+   "participle": "ligget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ligne",
+   "present": "ligner",
+   "past": "lignede",
+   "auxiliary": "har",
+   "participle": "lignet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lokke",
+   "present": "lokker",
+   "past": "lokkede",
+   "auxiliary": "har",
+   "participle": "lokket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "love",
+   "present": "lover",
+   "past": "lovede",
+   "auxiliary": "har",
+   "participle": "lovet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lukke",
+   "present": "lukker",
+   "past": "lukkede",
+   "auxiliary": "har",
+   "participle": "lukket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lyde",
+   "present": "lyder",
+   "past": "lød",
+   "auxiliary": "har",
+   "participle": "lydt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "lykkes",
+   "present": "lykkes",
+   "past": "lykkedes",
+   "auxiliary": "er",
+   "participle": "lykkedes",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "lyse",
+   "present": "lyser",
+   "past": "lyste",
+   "auxiliary": "har",
+   "participle": "lyst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "lytte",
+   "present": "lytter",
+   "past": "lyttede",
+   "auxiliary": "har",
+   "participle": "lyttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "lægge",
+   "present": "lægger",
+   "past": "lagde",
+   "auxiliary": "har",
+   "participle": "lagt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "lære",
+   "present": "lærer",
+   "past": "lærte",
+   "auxiliary": "har",
+   "participle": "lært",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "læse",
+   "present": "læser",
+   "past": "læste",
+   "auxiliary": "har",
+   "participle": "læst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "løbe",
+   "present": "løber",
+   "past": "løb",
+   "auxiliary": "har/er",
+   "participle": "løbet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "løfte",
+   "present": "løfter",
+   "past": "løftede",
+   "auxiliary": "har",
+   "participle": "løftet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "løse",
+   "present": "løser",
+   "past": "løste",
+   "auxiliary": "har",
+   "participle": "løst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "låne",
+   "present": "låner",
+   "past": "lånte",
+   "auxiliary": "har",
+   "participle": "lånt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "male",
+   "present": "maler",
+   "past": "malede",
+   "auxiliary": "har",
+   "participle": "malet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "mangle",
+   "present": "mangler",
+   "past": "manglede",
+   "auxiliary": "har",
+   "participle": "manglet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "meddele",
+   "present": "meddeler",
+   "past": "meddelte",
+   "auxiliary": "har",
+   "participle": "meddelt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "medføre",
+   "present": "medfører",
+   "past": "medførte",
+   "auxiliary": "har",
+   "participle": "medført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "medvirke",
+   "present": "medvirker",
+   "past": "medvirkede",
+   "auxiliary": "har",
+   "participle": "medvirket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "melde",
+   "present": "melder",
+   "past": "meldte",
+   "auxiliary": "har",
+   "participle": "meldt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "mene",
+   "present": "mener",
+   "past": "mente",
+   "auxiliary": "har",
+   "participle": "ment",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "minde",
+   "present": "minder",
+   "past": "mindede",
+   "auxiliary": "har",
+   "participle": "mindet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "miste",
+   "present": "mister",
+   "past": "mistede",
+   "auxiliary": "har",
+   "participle": "mistet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "modtage",
+   "present": "modtager",
+   "past": "modtog",
+   "auxiliary": "har",
+   "participle": "modtaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "myrde",
+   "present": "myrder",
+   "past": "myrdede",
+   "auxiliary": "har",
+   "participle": "myrdet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "mærke",
+   "present": "mærker",
+   "past": "mærkede",
+   "auxiliary": "har",
+   "participle": "mærket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "møde",
+   "present": "møder",
+   "past": "mødte",
+   "auxiliary": "har",
+   "participle": "mødt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "mødes",
+   "present": "mødes",
+   "past": "mødtes",
+   "auxiliary": "har",
+   "participle": "mødtes",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "måle",
+   "present": "måler",
+   "past": "målte",
+   "auxiliary": "har",
+   "participle": "målt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "måtte",
+   "present": "må",
+   "past": "måtte",
+   "auxiliary": "har",
+   "participle": "måttet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "nedlægge",
+   "present": "nedlægger",
+   "past": "nedlagde",
+   "auxiliary": "har",
+   "participle": "nedlagt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "nedsætte",
+   "present": "nedsætter",
+   "past": "nedsatte",
+   "auxiliary": "har",
+   "participle": "nedsat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "nikke",
+   "present": "nikker",
+   "past": "nikkede",
+   "auxiliary": "har",
+   "participle": "nikket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "notere",
+   "present": "noterer",
+   "past": "noterede",
+   "auxiliary": "har",
+   "participle": "noteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "nyde",
+   "present": "nyder",
+   "past": "nød",
+   "auxiliary": "har",
+   "participle": "nydt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "nægte",
+   "present": "nægter",
+   "past": "nægtede",
+   "auxiliary": "har",
+   "participle": "nægtet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "nærme sig",
+   "present": "nærmer sig",
+   "past": "nærmede sig",
+   "auxiliary": "har",
+   "participle": "nærmet sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "nøjes med",
+   "present": "nøjes med",
+   "past": "nøjedes med",
+   "auxiliary": "har",
+   "participle": "nøjedes med",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "nå",
+   "present": "når",
+   "past": "nåede",
+   "auxiliary": "har",
+   "participle": "nået",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "offentliggøre",
+   "present": "offentliggør",
+   "past": "offentliggjorde",
+   "auxiliary": "har",
+   "participle": "offentliggjort",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "omfatte",
+   "present": "omfatter",
+   "past": "omfattede",
+   "auxiliary": "har",
+   "participle": "omfattet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "omgive",
+   "present": "omgiver",
+   "past": "omgav",
+   "auxiliary": "har",
+   "participle": "omgivet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "opbygge",
+   "present": "opbygger",
+   "past": "opbyggede",
+   "auxiliary": "har",
+   "participle": "opbygget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opdage",
+   "present": "opdager",
+   "past": "opdagede",
+   "auxiliary": "har",
+   "participle": "opdaget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "operere",
+   "present": "opererer",
+   "past": "opererede",
+   "auxiliary": "har",
+   "participle": "opereret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opfatte",
+   "present": "opfatter",
+   "past": "opfattede",
+   "auxiliary": "har",
+   "participle": "opfattet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opfinde",
+   "present": "opfinder",
+   "past": "opfandt",
+   "auxiliary": "har",
+   "participle": "opfundet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "opfordre",
+   "present": "opfordrer",
+   "past": "opfordrede",
+   "auxiliary": "har",
+   "participle": "opfordret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opfylde",
+   "present": "opfylder",
+   "past": "opfyldte",
+   "auxiliary": "har",
+   "participle": "opfyldt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "opføre",
+   "present": "opfører",
+   "past": "opførte",
+   "auxiliary": "har",
+   "participle": "opført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "opgive",
+   "present": "opgiver",
+   "past": "opgav",
+   "auxiliary": "har",
+   "participle": "opgivet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ophæve",
+   "present": "ophæver",
+   "past": "ophævede",
+   "auxiliary": "har",
+   "participle": "ophævet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opleve",
+   "present": "oplever",
+   "past": "oplevede",
+   "auxiliary": "har",
+   "participle": "oplevet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "oplyse",
+   "present": "oplyser",
+   "past": "oplyste",
+   "auxiliary": "har",
+   "participle": "oplyst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "opnå",
+   "present": "opnår",
+   "past": "opnåede",
+   "auxiliary": "har",
+   "participle": "opnået",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "oprette",
+   "present": "opretter",
+   "past": "oprettede",
+   "auxiliary": "har",
+   "participle": "oprettet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opstille",
+   "present": "opstiller",
+   "past": "opstillede",
+   "auxiliary": "har",
+   "participle": "opstillet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "opstå",
+   "present": "opstår",
+   "past": "opstod",
+   "auxiliary": "er",
+   "participle": "opstået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "optage",
+   "present": "optager",
+   "past": "optog",
+   "auxiliary": "har",
+   "participle": "optaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "optræde",
+   "present": "optræder",
+   "past": "optrådte",
+   "auxiliary": "har",
+   "participle": "optrådt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "orientere",
+   "present": "orienterer",
+   "past": "orienterede",
+   "auxiliary": "har",
+   "participle": "orienteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "overbevise",
+   "present": "overbeviser",
+   "past": "overbeviste",
+   "auxiliary": "har",
+   "participle": "overbevist",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "overføre",
+   "present": "overfører",
+   "past": "overførte",
+   "auxiliary": "har",
+   "participle": "overført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "overholde",
+   "present": "overholder",
+   "past": "overholdt",
+   "auxiliary": "har",
+   "participle": "overholdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "overlade",
+   "present": "overlader",
+   "past": "overlod",
+   "auxiliary": "har",
+   "participle": "overladt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "overleve",
+   "present": "overlever",
+   "past": "overlevede",
+   "auxiliary": "har",
+   "participle": "overlevet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "overraske",
+   "present": "overrasker",
+   "past": "overraskede",
+   "auxiliary": "har",
+   "participle": "overrasket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "overtage",
+   "present": "overtager",
+   "past": "overtog",
+   "auxiliary": "har",
+   "participle": "overtaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "overveje",
+   "present": "overvejer",
+   "past": "overvejede",
+   "auxiliary": "har",
+   "participle": "overvejet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "pakke",
+   "present": "pakker",
+   "past": "pakkede",
+   "auxiliary": "har",
+   "participle": "pakket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "passe",
+   "present": "passer",
+   "past": "passede",
+   "auxiliary": "har",
+   "participle": "passet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "pege",
+   "present": "peger",
+   "past": "pegede",
+   "auxiliary": "har",
+   "participle": "peget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "placere",
+   "present": "placerer",
+   "past": "placerede",
+   "auxiliary": "har",
+   "participle": "placeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "planlægge",
+   "present": "planlægger",
+   "past": "planlagde",
+   "auxiliary": "har",
+   "participle": "planlagt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "pleje",
+   "present": "plejer",
+   "past": "plejede",
+   "auxiliary": "har",
+   "participle": "plejet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "presse",
+   "present": "presser",
+   "past": "pressede",
+   "auxiliary": "har",
+   "participle": "presset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "producere",
+   "present": "producerer",
+   "past": "producerede",
+   "auxiliary": "har",
+   "participle": "produceret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "præge",
+   "present": "præger",
+   "past": "prægede",
+   "auxiliary": "har",
+   "participle": "præget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "præsentere",
+   "present": "præsenterer",
+   "past": "præsenterede",
+   "auxiliary": "har",
+   "participle": "præsenteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "prøve",
+   "present": "prøver",
+   "past": "prøvede",
+   "auxiliary": "har",
+   "participle": "prøvet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "pudse",
+   "present": "pudser",
+   "past": "pudsede",
+   "auxiliary": "har",
+   "participle": "pudset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "påvirke",
+   "present": "påvirker",
+   "past": "påvirkede",
+   "auxiliary": "har",
+   "participle": "påvirket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ramme",
+   "present": "rammer",
+   "past": "ramte",
+   "auxiliary": "har",
+   "participle": "ramt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "reagere",
+   "present": "reagerer",
+   "past": "reagerede",
+   "auxiliary": "har",
+   "participle": "reageret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "redde",
+   "present": "redder",
+   "past": "reddede",
+   "auxiliary": "har",
+   "participle": "reddet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "reducere",
+   "present": "reducerer",
+   "past": "reducerede",
+   "auxiliary": "har",
+   "participle": "reduceret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "registrere",
+   "present": "registrerer",
+   "past": "registrerede",
+   "auxiliary": "har",
+   "participle": "registreret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "regne",
+   "present": "regner",
+   "past": "regnede",
+   "auxiliary": "har",
+   "participle": "regnet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "rejse",
+   "present": "rejser",
+   "past": "rejste",
+   "auxiliary": "har/er",
+   "participle": "rejst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "rense",
+   "present": "renser",
+   "past": "rensede",
+   "auxiliary": "har",
+   "participle": "renset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "repræsentere",
+   "present": "repræsenterer",
+   "past": "repræsenterede",
+   "auxiliary": "har",
+   "participle": "repræsenteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "respektere",
+   "present": "respekterer",
+   "past": "respekterede",
+   "auxiliary": "har",
+   "participle": "respekteret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "rette",
+   "present": "retter",
+   "past": "rettede",
+   "auxiliary": "har",
+   "participle": "rettet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ride",
+   "present": "rider",
+   "past": "red",
+   "auxiliary": "har",
+   "participle": "redet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ringe",
+   "present": "ringer",
+   "past": "ringede",
+   "auxiliary": "har",
+   "participle": "ringet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "risikere",
+   "present": "risikerer",
+   "past": "risikerede",
+   "auxiliary": "har",
+   "participle": "risikeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "rive",
+   "present": "river",
+   "past": "rev",
+   "auxiliary": "har",
+   "participle": "revet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "rose",
+   "present": "roser",
+   "past": "roste",
+   "auxiliary": "har",
+   "participle": "rost",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "rulle",
+   "present": "ruller",
+   "past": "rullede",
+   "auxiliary": "har/er",
+   "participle": "rullet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "rumme",
+   "present": "rummer",
+   "past": "rummede",
+   "auxiliary": "har",
+   "participle": "rummet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "rydde",
+   "present": "rydder",
+   "past": "ryddede",
+   "auxiliary": "har",
+   "participle": "ryddet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ryge",
+   "present": "ryger",
+   "past": "røg",
+   "auxiliary": "har",
+   "participle": "røget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "rykke",
+   "present": "rykker",
+   "past": "rykkede",
+   "auxiliary": "har",
+   "participle": "rykket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ryste",
+   "present": "ryster",
+   "past": "rystede",
+   "auxiliary": "har",
+   "participle": "rystet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "række",
+   "present": "rækker",
+   "past": "rakte",
+   "auxiliary": "har",
+   "participle": "rakt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "røre",
+   "present": "rører",
+   "past": "rørte",
+   "auxiliary": "har",
+   "participle": "rørt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "råbe",
+   "present": "råber",
+   "past": "råbte",
+   "auxiliary": "har",
+   "participle": "råbt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "råde",
+   "present": "råder",
+   "past": "rådede",
+   "auxiliary": "har",
+   "participle": "rådet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "samle",
+   "present": "samler",
+   "past": "samlede",
+   "auxiliary": "har",
+   "participle": "samlet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "sammenligne",
+   "present": "sammenligner",
+   "past": "sammenlignede",
+   "auxiliary": "har",
+   "participle": "sammenlignet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "satse",
+   "present": "satser",
+   "past": "satsede",
+   "auxiliary": "har",
+   "participle": "satset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "savne",
+   "present": "savner",
+   "past": "savnede",
+   "auxiliary": "har",
+   "participle": "savnet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "se",
+   "present": "ser",
+   "past": "så",
+   "auxiliary": "har",
+   "participle": "set",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "sejle",
+   "present": "sejler",
+   "past": "sejlede",
+   "auxiliary": "har",
+   "participle": "sejlet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "sende",
+   "present": "sender",
+   "past": "sendte",
+   "auxiliary": "har",
+   "participle": "sendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "servere",
+   "present": "serverer",
+   "past": "serverede",
+   "auxiliary": "har",
+   "participle": "serveret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ses",
+   "present": "ses",
+   "past": "sås",
+   "auxiliary": "har",
+   "participle": "set hinanden",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "sidde",
+   "present": "sidder",
+   "past": "sad",
+   "auxiliary": "har",
+   "participle": "siddet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "sige",
+   "present": "siger",
+   "past": "sagde",
+   "auxiliary": "har",
+   "participle": "sagt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "sikre",
+   "present": "sikrer",
+   "past": "sikrede",
+   "auxiliary": "har",
+   "participle": "sikret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "skabe",
+   "present": "skaber",
+   "past": "skabte",
+   "auxiliary": "har",
+   "participle": "skabt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "skade",
+   "present": "skader",
+   "past": "skadede",
+   "auxiliary": "har",
+   "participle": "skadet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "skaffe",
+   "present": "skaffer",
+   "past": "skaffede",
+   "auxiliary": "har",
+   "participle": "skaffet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ske",
+   "present": "sker",
+   "past": "skete",
+   "auxiliary": "er",
+   "participle": "sket",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "skifte",
+   "present": "skifter",
+   "past": "skiftede",
+   "auxiliary": "har",
+   "participle": "skiftet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "skinne",
+   "present": "skinner",
+   "past": "skinnede",
+   "auxiliary": "har",
+   "participle": "skinnet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "skjule",
+   "present": "skjuler",
+   "past": "skjulte",
+   "auxiliary": "har",
+   "participle": "skjult",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "skrige",
+   "present": "skriger",
+   "past": "skreg",
+   "auxiliary": "har",
+   "participle": "skreget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "skrive",
+   "present": "skriver",
+   "past": "skrev",
+   "auxiliary": "har",
+   "participle": "skrevet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "skræmme",
+   "present": "skræmmer",
+   "past": "skræmte",
+   "auxiliary": "har",
+   "participle": "skræmt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "skubbe",
+   "present": "skubber",
+   "past": "skubbede",
+   "auxiliary": "har",
+   "participle": "skubbet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "skuffe",
+   "present": "skuffer",
+   "past": "skuffede",
+   "auxiliary": "har",
+   "participle": "skuffet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "skulle",
+   "present": "skal",
+   "past": "skulle",
+   "auxiliary": "har",
+   "participle": "skullet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "skyde",
+   "present": "skyder",
+   "past": "skød",
+   "auxiliary": "har",
+   "participle": "skudt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "skyldes",
+   "present": "skyldes",
+   "past": "skyldtes",
+   "auxiliary": "har",
+   "participle": "skyldtes",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "skære",
+   "present": "skærer",
+   "past": "skar",
+   "auxiliary": "har",
+   "participle": "skåret",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "slippe",
+   "present": "slipper",
+   "past": "slap",
+   "auxiliary": "har/er",
+   "participle": "sluppet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "slukke",
+   "present": "slukker",
+   "past": "slukkede",
+   "auxiliary": "har",
+   "participle": "slukket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "slutte",
+   "present": "slutter",
+   "past": "sluttede",
+   "auxiliary": "er",
+   "participle": "sluttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "slå",
+   "present": "slår",
+   "past": "slog",
+   "auxiliary": "har",
+   "participle": "slået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "slås",
+   "present": "slås",
+   "past": "sloges",
+   "auxiliary": "har",
+   "participle": "sloges",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "smage",
+   "present": "smager",
+   "past": "smagte",
+   "auxiliary": "har",
+   "participle": "smagt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "smide",
+   "present": "smider",
+   "past": "smed",
+   "auxiliary": "har",
+   "participle": "smidt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "smile",
+   "present": "smiler",
+   "past": "smilede",
+   "auxiliary": "har",
+   "participle": "smilet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "smitte",
+   "present": "smitter",
+   "past": "smittede",
+   "auxiliary": "har",
+   "participle": "smittet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "snakke",
+   "present": "snakker",
+   "past": "snakkede",
+   "auxiliary": "har",
+   "participle": "snakket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "sove",
+   "present": "sover",
+   "past": "sov",
+   "auxiliary": "har",
+   "participle": "sovet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "spare",
+   "present": "sparer",
+   "past": "sparede",
+   "auxiliary": "har",
+   "participle": "sparet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "spille",
+   "present": "spiller",
+   "past": "spillede",
+   "auxiliary": "har",
+   "participle": "spillet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "spise",
+   "present": "spiser",
+   "past": "spiste",
+   "auxiliary": "har",
+   "participle": "spist",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "sprede",
+   "present": "spreder",
+   "past": "spredte",
+   "auxiliary": "har",
+   "participle": "spredt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "springe",
+   "present": "springer",
+   "past": "sprang",
+   "auxiliary": "har/er",
+   "participle": "sprunget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "spørge",
+   "present": "spørger",
+   "past": "spurgte",
+   "auxiliary": "har",
+   "participle": "spurgt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stamme",
+   "present": "stammer",
+   "past": "stammede",
+   "auxiliary": "har",
+   "participle": "stammet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "standse",
+   "present": "standser",
+   "past": "standsede",
+   "auxiliary": "har/er",
+   "participle": "standset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "starte",
+   "present": "starter",
+   "past": "startede",
+   "auxiliary": "har/er",
+   "participle": "startet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "stemme",
+   "present": "stemmer",
+   "past": "stemte",
+   "auxiliary": "har",
+   "participle": "stemt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "stege",
+   "present": "steger",
+   "past": "stegte",
+   "auxiliary": "har",
+   "participle": "stegt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stige",
+   "present": "stiger",
+   "past": "steg",
+   "auxiliary": "er",
+   "participle": "steget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stikke",
+   "present": "stikker",
+   "past": "stak",
+   "auxiliary": "har",
+   "participle": "stukket",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stikke af",
+   "present": "stikker af",
+   "past": "stak af",
+   "auxiliary": "er",
+   "participle": "stukket af",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stille",
+   "present": "stiller",
+   "past": "stillede",
+   "auxiliary": "har",
+   "participle": "stillet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "stjæle",
+   "present": "stjæler",
+   "past": "stjal",
+   "auxiliary": "har",
+   "participle": "stjålet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stole på",
+   "present": "stoler på",
+   "past": "stolede på",
+   "auxiliary": "har",
+   "participle": "stolet på",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "stoppe",
+   "present": "stopper",
+   "past": "stoppede",
+   "auxiliary": "har/er",
+   "participle": "stoppet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "straffe",
+   "present": "straffer",
+   "past": "straffede",
+   "auxiliary": "har",
+   "participle": "straffet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "stramme",
+   "present": "strammer",
+   "past": "strammede",
+   "auxiliary": "har",
+   "participle": "strammet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "strække",
+   "present": "strækker",
+   "past": "strakte",
+   "auxiliary": "har",
+   "participle": "strakt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "studere",
+   "present": "studerer",
+   "past": "studerede",
+   "auxiliary": "har",
+   "participle": "studeret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "styre",
+   "present": "styrer",
+   "past": "styrede",
+   "auxiliary": "har",
+   "participle": "styret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "styrke",
+   "present": "styrker",
+   "past": "styrkede",
+   "auxiliary": "har",
+   "participle": "styrket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "støde",
+   "present": "støder",
+   "past": "stødte",
+   "auxiliary": "har",
+   "participle": "stødt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "støde på",
+   "present": "støder på",
+   "past": "stødte på",
+   "auxiliary": "er",
+   "participle": "stødt på",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "støtte",
+   "present": "støtter",
+   "past": "støttede",
+   "auxiliary": "har",
+   "participle": "støttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "stå",
+   "present": "står",
+   "past": "stod",
+   "auxiliary": "har",
+   "participle": "stået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "stå op",
+   "present": "står op",
+   "past": "stod op",
+   "auxiliary": "er",
+   "participle": "stået op",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "svare",
+   "present": "svarer",
+   "past": "svarede",
+   "auxiliary": "har",
+   "participle": "svaret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "svigte",
+   "present": "svigter",
+   "past": "svigtede",
+   "auxiliary": "har",
+   "participle": "svigtet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "svinge",
+   "present": "svinger",
+   "past": "svingede",
+   "auxiliary": "har",
+   "participle": "svinget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "sy",
+   "present": "syr",
+   "past": "syede",
+   "auxiliary": "har",
+   "participle": "syet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "synes",
+   "present": "synes",
+   "past": "syntes",
+   "auxiliary": "har",
+   "participle": "syntes",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "synge",
+   "present": "synger",
+   "past": "sang",
+   "auxiliary": "har",
+   "participle": "sunget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "synke",
+   "present": "synker",
+   "past": "sank",
+   "auxiliary": "er",
+   "participle": "sunket",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "sælge",
+   "present": "sælger",
+   "past": "solgte",
+   "auxiliary": "har",
+   "participle": "solgt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "sænke",
+   "present": "sænker",
+   "past": "sænkede",
+   "auxiliary": "har",
+   "participle": "sænket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "sætte",
+   "present": "sætter",
+   "past": "satte",
+   "auxiliary": "har",
+   "participle": "sat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "søge",
+   "present": "søger",
+   "past": "søgte",
+   "auxiliary": "har",
+   "participle": "søgt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "sørge for",
+   "present": "sørger for",
+   "past": "sørgede for",
+   "auxiliary": "har",
+   "participle": "sørget for",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "tabe",
+   "present": "taber",
+   "past": "tabte",
+   "auxiliary": "har",
+   "participle": "tabt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tage",
+   "present": "tager",
+   "past": "tog",
+   "auxiliary": "har",
+   "participle": "taget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "takke",
+   "present": "takker",
+   "past": "takkede",
+   "auxiliary": "har",
+   "participle": "takket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "tale",
+   "present": "taler",
+   "past": "talte",
+   "auxiliary": "har",
+   "participle": "talt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tegne",
+   "present": "tegner",
+   "past": "tegnede",
+   "auxiliary": "har",
+   "participle": "tegnet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "tilbringe",
+   "present": "tilbringer",
+   "past": "tilbragte",
+   "auxiliary": "har",
+   "participle": "tilbragt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "tilbyde",
+   "present": "tilbyder",
+   "past": "tilbød",
+   "auxiliary": "har",
+   "participle": "tilbudt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "tilføje",
+   "present": "tilføjer",
+   "past": "tilføjede",
+   "auxiliary": "har",
+   "participle": "tilføjet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "tilhøre",
+   "present": "tilhører",
+   "past": "tilhørte",
+   "auxiliary": "har",
+   "participle": "tilhørt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tillade",
+   "present": "tillader",
+   "past": "tillod",
+   "auxiliary": "har",
+   "participle": "tilladt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "tjene",
+   "present": "tjener",
+   "past": "tjente",
+   "auxiliary": "har",
+   "participle": "tjent",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tro",
+   "present": "tror",
+   "past": "troede",
+   "auxiliary": "har",
+   "participle": "troet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "true",
+   "present": "truer",
+   "past": "truede",
+   "auxiliary": "har",
+   "participle": "truet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "trykke",
+   "present": "trykker",
+   "past": "trykkede",
+   "auxiliary": "har",
+   "participle": "trykket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "træde",
+   "present": "træder",
+   "past": "trådte",
+   "auxiliary": "har",
+   "participle": "trådt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "træffe",
+   "present": "træffer",
+   "past": "traf",
+   "auxiliary": "har",
+   "participle": "truffet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "trække",
+   "present": "trækker",
+   "past": "trak",
+   "auxiliary": "har",
+   "participle": "trukket",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "trænge",
+   "present": "trænger",
+   "past": "trængte",
+   "auxiliary": "har",
+   "participle": "trængt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "turde",
+   "present": "tør",
+   "past": "turde",
+   "auxiliary": "har",
+   "participle": "turdet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "tvinge",
+   "present": "tvinger",
+   "past": "tvang",
+   "auxiliary": "har",
+   "participle": "tvunget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "tyde",
+   "present": "tyder",
+   "past": "tydede",
+   "auxiliary": "har",
+   "participle": "tydet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "tælle",
+   "present": "tæller",
+   "past": "talte",
+   "auxiliary": "har",
+   "participle": "talt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "tænde",
+   "present": "tænder",
+   "past": "tændte",
+   "auxiliary": "har",
+   "participle": "tændt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tænke",
+   "present": "tænker",
+   "past": "tænkte",
+   "auxiliary": "har",
+   "participle": "tænkt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tømme",
+   "present": "tømmer",
+   "past": "tømte",
+   "auxiliary": "har",
+   "participle": "tømt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "tørre",
+   "present": "tørrer",
+   "past": "tørrede",
+   "auxiliary": "har",
+   "participle": "tørret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "tåle",
+   "present": "tåler",
+   "past": "tålte",
+   "auxiliary": "har",
+   "participle": "tålt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "udarbejde",
+   "present": "udarbejder",
+   "past": "udarbejdede",
+   "auxiliary": "har",
+   "participle": "udarbejdet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udbrede",
+   "present": "udbreder",
+   "past": "udbredte",
+   "auxiliary": "har",
+   "participle": "udbredt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "uddanne",
+   "present": "uddanner",
+   "past": "uddannede",
+   "auxiliary": "har",
+   "participle": "uddannet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udelukke",
+   "present": "udelukker",
+   "past": "udelukkede",
+   "auxiliary": "har",
+   "participle": "udelukket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udføre",
+   "present": "udfører",
+   "past": "udførte",
+   "auxiliary": "har",
+   "participle": "udført",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "udgive",
+   "present": "udgiver",
+   "past": "udgav",
+   "auxiliary": "har",
+   "participle": "udgivet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "udgøre",
+   "present": "udgør",
+   "past": "udgjorde",
+   "auxiliary": "har",
+   "participle": "udgjort",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "udkomme",
+   "present": "udkommer",
+   "past": "udkom",
+   "auxiliary": "er",
+   "participle": "udkommet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "udlevere",
+   "present": "udleverer",
+   "past": "udleverede",
+   "auxiliary": "har",
+   "participle": "udleveret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udløse",
+   "present": "udløser",
+   "past": "udløste",
+   "auxiliary": "har",
+   "participle": "udløst",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "udnytte",
+   "present": "udnytter",
+   "past": "udnyttede",
+   "auxiliary": "har",
+   "participle": "udnyttet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udstyre",
+   "present": "udstyrer",
+   "past": "udstyrede",
+   "auxiliary": "har",
+   "participle": "udstyret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udsætte",
+   "present": "udsætter",
+   "past": "udsatte",
+   "auxiliary": "har",
+   "participle": "udsat",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "udtale",
+   "present": "udtaler",
+   "past": "udtalte",
+   "auxiliary": "har",
+   "participle": "udtalt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "udtrykke",
+   "present": "udtrykker",
+   "past": "udtrykte",
+   "auxiliary": "har",
+   "participle": "udtrykt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "udvide",
+   "present": "udvider",
+   "past": "udvidede",
+   "auxiliary": "har",
+   "participle": "udvidet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "udvikle",
+   "present": "udvikler",
+   "past": "udviklede",
+   "auxiliary": "har",
+   "participle": "udviklet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "underholde",
+   "present": "underholder",
+   "past": "underholdt",
+   "auxiliary": "har",
+   "participle": "underholdt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "understrege",
+   "present": "understreger",
+   "past": "understregede",
+   "auxiliary": "har",
+   "participle": "understreget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "undersøge",
+   "present": "undersøger",
+   "past": "undersøgte",
+   "auxiliary": "har",
+   "participle": "undersøgt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "undgå",
+   "present": "undgår",
+   "past": "undgik",
+   "auxiliary": "har",
+   "participle": "undgået",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "undre sig",
+   "present": "undrer sig",
+   "past": "undrede sig",
+   "auxiliary": "har",
+   "participle": "undret sig",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vaccinere",
+   "present": "vaccinerer",
+   "past": "vaccinerede",
+   "auxiliary": "har",
+   "participle": "vaccineret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vare",
+   "present": "varer",
+   "past": "varede",
+   "auxiliary": "har",
+   "participle": "varet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "variere",
+   "present": "varierer",
+   "past": "varierede",
+   "auxiliary": "har",
+   "participle": "varieret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vaske",
+   "present": "vasker",
+   "past": "vaskede",
+   "auxiliary": "har",
+   "participle": "vasket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vedtage",
+   "present": "vedtager",
+   "past": "vedtog",
+   "auxiliary": "har",
+   "participle": "vedtaget",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "veje",
+   "present": "vejer",
+   "past": "vejede",
+   "auxiliary": "har",
+   "participle": "vejet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vende",
+   "present": "vender",
+   "past": "vendte",
+   "auxiliary": "har",
+   "participle": "vendt",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "vente",
+   "present": "venter",
+   "past": "ventede",
+   "auxiliary": "har",
+   "participle": "ventet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vide",
+   "present": "ved",
+   "past": "vidste",
+   "auxiliary": "har",
+   "participle": "vidst",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "ville",
+   "present": "vil",
+   "past": "ville",
+   "auxiliary": "har",
+   "participle": "villet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "vinde",
+   "present": "vinder",
+   "past": "vandt",
+   "auxiliary": "har",
+   "participle": "vundet",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "virke",
+   "present": "virker",
+   "past": "virkede",
+   "auxiliary": "har",
+   "participle": "virket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vise",
+   "present": "viser",
+   "past": "viste",
+   "auxiliary": "har",
+   "participle": "vist",
+   "group": "gruppe 2 (-te)"
+  },
+  {
+   "infinitive": "vokse",
+   "present": "vokser",
+   "past": "voksede",
+   "auxiliary": "er",
+   "participle": "vokset",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vurdere",
+   "present": "vurderer",
+   "past": "vurderede",
+   "auxiliary": "har",
+   "participle": "vurderet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vække",
+   "present": "vækker",
+   "past": "vækkede",
+   "auxiliary": "har",
+   "participle": "vækket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "vælge",
+   "present": "vælger",
+   "past": "valgte",
+   "auxiliary": "har",
+   "participle": "valgt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "vælte",
+   "present": "vælter",
+   "past": "væltede",
+   "auxiliary": "har",
+   "participle": "væltet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "være",
+   "present": "er",
+   "past": "var",
+   "auxiliary": "har",
+   "participle": "været",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "vågne",
+   "present": "vågner",
+   "past": "vågnede",
+   "auxiliary": "er",
+   "participle": "vågnet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "yde",
+   "present": "yder",
+   "past": "ydede",
+   "auxiliary": "har",
+   "participle": "ydet",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ændre",
+   "present": "ændrer",
+   "past": "ændrede",
+   "auxiliary": "har",
+   "participle": "ændret",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ødelægge",
+   "present": "ødelægger",
+   "past": "ødelagde",
+   "auxiliary": "har",
+   "participle": "ødelagt",
+   "group": "uregelmæssig"
+  },
+  {
+   "infinitive": "øge",
+   "present": "øger",
+   "past": "øgede",
+   "auxiliary": "har",
+   "participle": "øget",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "ønske",
+   "present": "ønsker",
+   "past": "ønskede",
+   "auxiliary": "har",
+   "participle": "ønsket",
+   "group": "gruppe 1 (-ede)"
+  },
+  {
+   "infinitive": "åbne",
+   "present": "åbner",
+   "past": "åbnede",
+   "auxiliary": "har",
+   "participle": "åbnet",
+   "group": "gruppe 1 (-ede)"
+  }
+ ]
+}
