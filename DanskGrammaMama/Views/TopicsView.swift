@@ -53,7 +53,6 @@ struct TopicDetailView: View {
 
     private var language: ExplanationLanguage { progress.settings.explanationLanguage }
     private var pool: [Question] { content.byTopic[topic.id] ?? [] }
-    private var builder: SessionBuilder { SessionBuilder(content: content, progress: progress) }
 
     var body: some View {
         ScrollView {
@@ -76,9 +75,7 @@ struct TopicDetailView: View {
                 .card()
 
                 if let guide = content.guide(for: topic.id) {
-                    NavigationLink {
-                        TopicGuideView(topic: topic, guide: guide)
-                    } label: {
+                    NavigationLink(value: QuizRoute.guide(topic.id)) {
                         HStack {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(language == .danish ? "Sådan knækker du emnet" : "How to crack this topic")
@@ -103,29 +100,21 @@ struct TopicDetailView: View {
                 }
                 .pickerStyle(.segmented)
 
-                NavigationLink {
-                    QuizView(questions: builder.practice(topic: topic.id, level: level, count: progress.settings.sessionLength),
-                             title: topic.title(in: language))
-                } label: {
+                NavigationLink(value: QuizRoute.practice(topic: topic.id, level: level, count: progress.settings.sessionLength)) {
                     Text(language == .danish ? "Øv dette emne" : "Practise this topic")
                 }
                 .buttonStyle(PrimaryButtonStyle())
 
                 let due = progress.dueQuestions(from: pool)
                 if !due.isEmpty {
-                    NavigationLink {
-                        QuizView(questions: due.shuffled(), title: topic.title(in: language))
-                    } label: {
+                    NavigationLink(value: QuizRoute.review(topic: topic.id, count: 20)) {
                         Text(language == .danish ? "Gennemgå \(due.count) fejl" : "Review \(due.count) due")
                     }
                     .buttonStyle(SecondaryButtonStyle())
                 }
 
                 if topic.id == "verbs" {
-                    NavigationLink {
-                        QuizView(questions: builder.verbDrill(count: progress.settings.sessionLength, irregularOnly: true),
-                                 title: language == .danish ? "Uregelmæssige verber" : "Irregular verbs")
-                    } label: {
+                    NavigationLink(value: QuizRoute.verbDrill(irregularOnly: true, count: progress.settings.sessionLength)) {
                         Text(language == .danish ? "Bøj uregelmæssige verber" : "Drill irregular verb forms")
                     }
                     .buttonStyle(SecondaryButtonStyle())

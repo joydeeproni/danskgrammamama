@@ -20,10 +20,7 @@ struct ExamView: View {
                 }
                 .card()
 
-                NavigationLink {
-                    ExamRunView(questions: SessionBuilder(content: content, progress: progress).exam(count: 20),
-                                minutes: progress.settings.examMinutes)
-                } label: {
+                NavigationLink(value: QuizRoute.exam(minutes: progress.settings.examMinutes)) {
                     Text(language == .danish ? "Start prøve" : "Start exam")
                 }
                 .buttonStyle(PrimaryButtonStyle())

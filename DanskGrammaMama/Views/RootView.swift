@@ -6,13 +6,13 @@ struct RootView: View {
 
     var body: some View {
         TabView {
-            NavigationStack { HomeView() }
+            NavigationStack { HomeView().quizRouteDestinations() }
                 .tabItem { Label(language == .danish ? "Øv" : "Practice", systemImage: "square.and.pencil") }
-            NavigationStack { TopicsView() }
+            NavigationStack { TopicsView().quizRouteDestinations() }
                 .tabItem { Label(language == .danish ? "Emner" : "Topics", systemImage: "list.bullet") }
-            NavigationStack { FlashcardsView() }
+            NavigationStack { FlashcardsView().quizRouteDestinations() }
                 .tabItem { Label(language == .danish ? "Ord" : "Words", systemImage: "character.book.closed") }
-            NavigationStack { ExamView() }
+            NavigationStack { ExamView().quizRouteDestinations() }
                 .tabItem { Label(language == .danish ? "Prøve" : "Exam", systemImage: "timer") }
             NavigationStack { WriteView() }
                 .tabItem { Label(language == .danish ? "Skriv" : "Write", systemImage: "text.alignleft") }

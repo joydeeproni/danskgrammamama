@@ -5,7 +5,6 @@ struct HomeView: View {
     @Environment(ProgressStore.self) private var progress
     @Environment(FlashcardStore.self) private var flashcards
 
-    private var builder: SessionBuilder { SessionBuilder(content: content, progress: progress) }
     private var dueCount: Int { progress.dueCount(in: content.questions) }
     private var level: Int { progress.settings.preferredLevel }
     private var length: Int { progress.settings.sessionLength }
@@ -74,19 +73,13 @@ struct HomeView: View {
 
     private var practiceButtons: some View {
         VStack(spacing: 10) {
-            NavigationLink {
-                QuizView(questions: builder.practice(topic: nil, level: level, count: length),
-                         title: language == .danish ? "Øvelse" : "Practice")
-            } label: {
+            NavigationLink(value: QuizRoute.practice(topic: nil, level: level, count: length)) {
                 Text(language == .danish ? "Øv \(length) spørgsmål" : "Practise \(length) questions")
             }
             .buttonStyle(PrimaryButtonStyle())
 
             if dueCount > 0 {
-                NavigationLink {
-                    QuizView(questions: builder.review(count: max(length, min(dueCount, 20))),
-                             title: language == .danish ? "Gennemgang" : "Review")
-                } label: {
+                NavigationLink(value: QuizRoute.review(topic: nil, count: max(length, min(dueCount, 20)))) {
                     HStack {
                         Image(systemName: "arrow.counterclockwise")
                         Text(language == .danish ? "Gennemgå \(dueCount) fejl" : "Review \(dueCount) missed")
@@ -96,27 +89,19 @@ struct HomeView: View {
             }
 
             HStack(spacing: 10) {
-                NavigationLink {
-                    QuizView(questions: builder.verbDrill(count: length, irregularOnly: false),
-                             title: language == .danish ? "Verber" : "Verb drill")
-                } label: {
+                NavigationLink(value: QuizRoute.verbDrill(irregularOnly: false, count: length)) {
                     compactLabel(language == .danish ? "Verber" : "Verbs", "arrow.triangle.2.circlepath")
                 }
                 .buttonStyle(SecondaryButtonStyle())
 
-                NavigationLink {
-                    QuizView(questions: builder.verbDrill(count: length, irregularOnly: true),
-                             title: language == .danish ? "Uregelmæssige" : "Irregulars")
-                } label: {
+                NavigationLink(value: QuizRoute.verbDrill(irregularOnly: true, count: length)) {
                     compactLabel(language == .danish ? "Uregelmæssige" : "Irregulars", "exclamationmark.triangle")
                 }
                 .buttonStyle(SecondaryButtonStyle())
             }
 
             if !flashcards.cards.isEmpty {
-                NavigationLink {
-                    FlashcardReviewView(cards: flashcards.reviewOrder)
-                } label: {
+                NavigationLink(value: QuizRoute.flashcards) {
                     HStack {
                         Image(systemName: "rectangle.on.rectangle.angled")
                         Text(language == .danish ? "Gennemgå \(flashcards.cards.count) ord" : "Review \(flashcards.cards.count) words")
@@ -142,9 +127,7 @@ struct HomeView: View {
             .filter { progress.seenCount(of: $0.1) >= 3 }
             .sorted { progress.mastery(of: $0.1) < progress.mastery(of: $1.1) }
         if let (topic, pool) = ranked.first {
-            NavigationLink {
-                TopicDetailView(topic: topic)
-            } label: {
+            NavigationLink(value: QuizRoute.topic(topic.id)) {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(language == .danish ? "Svageste emne" : "Weakest topic")
                         .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
