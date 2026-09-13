@@ -317,7 +317,8 @@ struct QuestionView: View {
         given[current] = answer.trimmingCharacters(in: .whitespacesAndNewlines)
         withAnimation(.snappy(duration: 0.2)) { verdicts[current] = v }
         fieldFocused = false
-        Haptics.verdict(correct: v == .correct)
+        // Exam mode withholds the verdict, so it must not leak through the haptic either.
+        if immediateFeedback { Haptics.verdict(correct: v == .correct) } else { Haptics.tap() }
         if verdicts.allSatisfy({ $0 != nil }) {
             onAnswered(verdicts.allSatisfy { $0 == .correct }, given)
         }
