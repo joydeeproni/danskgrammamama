@@ -23,6 +23,7 @@ struct AppSettings: Codable, Hashable {
     var useAI: Bool = true
     var examMinutes: Int = 15
     var sessionLength: Int = 10
+    var inputMode: InputMode = .choice
 }
 
 struct ExamResult: Codable, Identifiable, Hashable {

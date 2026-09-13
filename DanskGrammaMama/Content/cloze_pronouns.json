@@ -1,0 +1,362 @@
+{
+  "topic": "pronouns",
+  "questions": [
+    {
+      "id": "pronouns-c01",
+      "topic": "pronouns",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Regeringen har præsenteret en ny boligaftale, men {1} møder hård kritik fra {2}, der bor til leje i de store byer.",
+      "blanks": [
+        {
+          "options": [
+            "den",
+            "det",
+            "de",
+            "dem"
+          ],
+          "answer": "den",
+          "explanation": {
+            "en": "\"Boligaftale\" is fælleskøn (en boligaftale), so the subject pronoun that refers back to it is \"den\". \"Det\" is the trap: it stands for an intetkøn noun (et …) or for a whole clause, and \"de/dem\" are plural.",
+            "da": "\"Boligaftale\" er fælleskøn (en boligaftale), så det pronomen, der henviser tilbage som subjekt, skal være \"den\". \"Det\" er fælden: det står for et intetkønsord (et …) eller for en hel sætning, og \"de/dem\" er flertal."
+          }
+        },
+        {
+          "options": [
+            "dem",
+            "de",
+            "disse",
+            "sig"
+          ],
+          "answer": "dem",
+          "explanation": {
+            "en": "After a preposition (\"fra\") the pronoun is in object form, so it must be \"dem, der …\" even though a relative clause follows. \"De, der\" is the classic error: \"de\" is only used when the group is the subject of the main clause.",
+            "da": "Efter en præposition (\"fra\") står pronomenet i objektsform, så det skal være \"dem, der …\", selvom der følger en relativsætning. \"De, der\" er den klassiske fejl: \"de\" bruges kun, når gruppen er subjekt i hovedsætningen."
+          }
+        }
+      ],
+      "tags": [
+        "den-det",
+        "dem der",
+        "præposition"
+      ]
+    },
+    {
+      "id": "pronouns-c02",
+      "topic": "pronouns",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "{1} er efter ministerens opfattelse nødvendigt at hæve pensionsalderen, men {2} beslutning har mødt stor modstand blandt de fagforbund, der organiserer ufaglærte.",
+      "blanks": [
+        {
+          "options": [
+            "Det",
+            "Der",
+            "Den",
+            "Man"
+          ],
+          "answer": "Det",
+          "explanation": {
+            "en": "Before \"er + adjective + at-infinitive\" Danish needs the formal subject \"det\" (det er nødvendigt at …). \"Der\" is the trap: \"der\" is the formal subject only in existential sentences (der er mange …), never before an adjective like \"nødvendigt\".",
+            "da": "Foran \"er + adjektiv + at-infinitiv\" kræver dansk det formelle subjekt \"det\" (det er nødvendigt at …). \"Der\" er fælden: \"der\" er kun formelt subjekt i eksistenssætninger (der er mange …), aldrig foran et adjektiv som \"nødvendigt\"."
+          }
+        },
+        {
+          "options": [
+            "denne",
+            "dette",
+            "disse",
+            "det"
+          ],
+          "answer": "denne",
+          "explanation": {
+            "en": "\"Beslutning\" is fælleskøn singular (en beslutning), so the demonstrative is \"denne\". \"Dette\" is the trap, chosen because the previous sentence was about an idea, but the demonstrative agrees with the noun it stands in front of, not with the idea.",
+            "da": "\"Beslutning\" er fælleskøn ental (en beslutning), så det påpegende pronomen er \"denne\". \"Dette\" er fælden, som mange vælger, fordi den forrige sætning handlede om en idé, men pronomenet retter sig efter det substantiv, det står foran, ikke efter idéen."
+          }
+        }
+      ],
+      "tags": [
+        "det formelt subjekt",
+        "denne-dette-disse",
+        "formelt sprog"
+      ]
+    },
+    {
+      "id": "pronouns-c03",
+      "topic": "pronouns",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Hvis {1} arbejder på skiftende tidspunkter, bliver det hurtigt svært at passe ordentligt på {2} selv og få nok søvn mellem vagterne.",
+      "blanks": [
+        {
+          "options": [
+            "man",
+            "en",
+            "ens",
+            "én"
+          ],
+          "answer": "man",
+          "explanation": {
+            "en": "The generic pronoun is \"man\" when it is the subject of the clause (\"hvis man arbejder\"). \"En\" is the trap: \"en\" is only the object form (det påvirker en), and \"ens\" is the possessive (ens arbejde).",
+            "da": "Det generelle pronomen hedder \"man\", når det er subjekt i sætningen (\"hvis man arbejder\"). \"En\" er fælden: \"en\" er kun objektsformen (det påvirker en), og \"ens\" er ejefald (ens arbejde)."
+          }
+        },
+        {
+          "options": [
+            "sig",
+            "en",
+            "ham",
+            "dem"
+          ],
+          "answer": "sig",
+          "explanation": {
+            "en": "\"At passe på sig selv\" is reflexive: the person looked after is the same as the one doing it, so the pronoun is \"sig\". \"En\" is the trap: \"en selv\" is only used when the subject is someone or something else (stress påvirker en selv).",
+            "da": "\"At passe på sig selv\" er refleksivt: den, der passes på, er den samme, som gør det, så pronomenet skal være \"sig\". \"En\" er fælden: \"en selv\" bruges kun, når subjektet er en anden eller noget andet (stress påvirker en selv)."
+          }
+        }
+      ],
+      "tags": [
+        "man-en-ens",
+        "sig",
+        "refleksiv"
+      ]
+    },
+    {
+      "id": "pronouns-c04",
+      "topic": "pronouns",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Mange unge har svært ved at finde en betalelig bolig i København, og {1} skyldes ikke mindst de stigende huslejer. Kommunen har derfor lanceret en ny boligstrategi, men {2} får ifølge eksperterne først effekt om flere år. {3}, der allerede står på venteliste, må altså vente længe endnu. Samtidig frygter mange boligforeninger, at {4} ikke kan bygge hurtigt nok, og {5} udfordring bliver kun større, jo flere der flytter til byen.",
+      "blanks": [
+        {
+          "options": [
+            "det",
+            "den",
+            "de",
+            "dem"
+          ],
+          "answer": "det",
+          "explanation": {
+            "en": "\"Det\" refers back to the whole preceding clause (that young people struggle to find housing), and a clause is always picked up by \"det\". \"Den\" is the trap: learners see the en-word \"bolig\" just before, but it is not the apartment that is caused by the rents.",
+            "da": "\"Det\" henviser til hele den foregående sætning (at unge har svært ved at finde bolig), og en hel sætning henvises altid til med \"det\". \"Den\" er fælden: man ser en-ordet \"bolig\" lige før, men det er ikke boligen, der skyldes huslejerne."
+          }
+        },
+        {
+          "options": [
+            "den",
+            "det",
+            "de",
+            "dem"
+          ],
+          "answer": "den",
+          "explanation": {
+            "en": "\"Boligstrategi\" is fælleskøn (en strategi), and it is the subject of \"får effekt\", so the pronoun is \"den\". \"Det\" is the trap; it would only be right for an intetkøn noun or a whole clause.",
+            "da": "\"Boligstrategi\" er fælleskøn (en strategi) og subjekt for \"får effekt\", så pronomenet skal være \"den\". \"Det\" er fælden; det ville kun være rigtigt for et intetkønsord eller en hel sætning."
+          }
+        },
+        {
+          "options": [
+            "De",
+            "Dem",
+            "Det",
+            "Den"
+          ],
+          "answer": "De",
+          "explanation": {
+            "en": "\"De, der …\" is the subject of \"må vente\", so the subject form \"de\" is required. \"Dem, der\" is the classic spoken-language error: \"dem\" is only correct when the group is an object or follows a preposition (for dem, der …).",
+            "da": "\"De, der …\" er subjekt for \"må vente\", så subjektsformen \"de\" er påkrævet. \"Dem, der\" er den klassiske talesprogsfejl: \"dem\" er kun rigtigt, når gruppen er objekt eller står efter en præposition (for dem, der …)."
+          }
+        },
+        {
+          "options": [
+            "de",
+            "dem",
+            "den",
+            "det"
+          ],
+          "answer": "de",
+          "explanation": {
+            "en": "The pronoun refers to \"mange boligforeninger\" (plural) and is the subject of \"kan bygge\" inside the at-ledsætning, so it must be \"de\". \"Dem\" is the trap: the object form is never the subject of a clause, even a subordinate one.",
+            "da": "Pronomenet henviser til \"mange boligforeninger\" (flertal) og er subjekt for \"kan bygge\" i at-ledsætningen, så det skal være \"de\". \"Dem\" er fælden: objektsformen kan aldrig være subjekt i en sætning, heller ikke i en ledsætning."
+          }
+        },
+        {
+          "options": [
+            "denne",
+            "dette",
+            "disse",
+            "det"
+          ],
+          "answer": "denne",
+          "explanation": {
+            "en": "\"Udfordring\" is fælleskøn (en udfordring), so the demonstrative is \"denne\". \"Dette\" is the trap: it sounds formal and is common in exam texts, but it only goes with intetkøn nouns (dette problem).",
+            "da": "\"Udfordring\" er fælleskøn (en udfordring), så det påpegende pronomen er \"denne\". \"Dette\" er fælden: det lyder formelt og er almindeligt i prøvetekster, men det bruges kun ved intetkønsord (dette problem)."
+          }
+        }
+      ],
+      "tags": [
+        "den-det",
+        "de-dem",
+        "denne-dette-disse"
+      ]
+    },
+    {
+      "id": "pronouns-c05",
+      "topic": "pronouns",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Stress er blevet en af de mest udbredte årsager til sygemelding på danske arbejdspladser. Ifølge Arbejdstilsynet tager {1} ofte flere måneder, før en stressramt medarbejder er tilbage på fuld tid. Hvis man mærker de første tegn, bør man derfor tale med sin leder, inden problemerne vokser {2} over hovedet. Mange ledere er dog usikre på, hvordan de bedst hjælper {3}, der er ramt. {4} problem er ifølge fagforeningerne særlig udbredt i små virksomheder, hvor {5} sjældent er en HR-afdeling til at tage over.",
+      "blanks": [
+        {
+          "options": [
+            "det",
+            "den",
+            "der",
+            "man"
+          ],
+          "answer": "det",
+          "explanation": {
+            "en": "\"Det tager (tid)\" uses the formal subject \"det\", and after the fronted adverbial \"Ifølge Arbejdstilsynet\" it simply moves behind the verb (inversion). \"Der\" is the trap: \"der\" is only used as formal subject in existential sentences (der er …), not with \"tage tid\".",
+            "da": "\"Det tager (tid)\" har det formelle subjekt \"det\", og efter det fremrykkede adverbial \"Ifølge Arbejdstilsynet\" flytter det bare om bag verbet (inversion). \"Der\" er fælden: \"der\" bruges kun som formelt subjekt i eksistenssætninger (der er …), ikke ved \"tage tid\"."
+          }
+        },
+        {
+          "options": [
+            "en",
+            "man",
+            "sig",
+            "ens"
+          ],
+          "answer": "en",
+          "explanation": {
+            "en": "The object form of \"man\" is \"en\": the problems grow over the person's head, so \"vokser en over hovedet\". \"Sig\" is the trap: it would require \"man\" to be the subject of \"vokser\", but the subject here is \"problemerne\".",
+            "da": "Objektsformen af \"man\" er \"en\": problemerne vokser personen over hovedet, altså \"vokser en over hovedet\". \"Sig\" er fælden: det ville kræve, at \"man\" var subjekt for \"vokser\", men subjektet her er \"problemerne\"."
+          }
+        },
+        {
+          "options": [
+            "dem",
+            "de",
+            "sig",
+            "den"
+          ],
+          "answer": "dem",
+          "explanation": {
+            "en": "The group is the object of \"hjælper\", so the object form \"dem, der er ramt\" is required. \"De, der\" is the trap: \"de\" is only used when the group is the subject (de, der er ramt, har brug for hjælp).",
+            "da": "Gruppen er objekt for \"hjælper\", så objektsformen \"dem, der er ramt\" er påkrævet. \"De, der\" er fælden: \"de\" bruges kun, når gruppen er subjekt (de, der er ramt, har brug for hjælp)."
+          }
+        },
+        {
+          "options": [
+            "Dette",
+            "Denne",
+            "Disse",
+            "De"
+          ],
+          "answer": "Dette",
+          "explanation": {
+            "en": "\"Problem\" is intetkøn (et problem), so the demonstrative is \"dette\". \"Denne\" is the classic error, picked because the previous sentences were about \"stress\" (en stress), but the demonstrative agrees with the noun it stands in front of.",
+            "da": "\"Problem\" er intetkøn (et problem), så det påpegende pronomen er \"dette\". \"Denne\" er den klassiske fejl, som man vælger, fordi de foregående sætninger handlede om \"stress\" (en stress), men pronomenet retter sig efter det substantiv, det står foran."
+          }
+        },
+        {
+          "options": [
+            "der",
+            "det",
+            "den",
+            "man"
+          ],
+          "answer": "der",
+          "explanation": {
+            "en": "\"Der er en HR-afdeling\" is an existential sentence (there is …), and in existential sentences the formal subject is \"der\". \"Det\" is the trap: \"det\" is used before adjectives and with weather and time verbs (det er svært, det regner, det tager tid), not to say that something exists.",
+            "da": "\"Der er en HR-afdeling\" er en eksistenssætning (der findes …), og i eksistenssætninger er det formelle subjekt \"der\". \"Det\" er fælden: \"det\" bruges foran adjektiver og ved vejr- og tidsverber (det er svært, det regner, det tager tid), ikke for at sige, at noget findes."
+          }
+        }
+      ],
+      "tags": [
+        "det formelt subjekt",
+        "man-en-ens",
+        "dem der"
+      ]
+    },
+    {
+      "id": "pronouns-c06",
+      "topic": "pronouns",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Siden 2023 har alle danske kommuner indført en fælles ordning for affaldssortering, og {1} skal sikre, at langt mere plastik og metal bliver genanvendt. Mange borgere var i starten skeptiske, fordi {2} pludselig skulle vænne sig til ti forskellige beholdere. Kommunerne har siden indsamlet tal for, hvor meget der sorteres korrekt, og {3} tal viser, at de fleste husstande nu klarer opgaven uden problemer. {4} betyder, at Danmark i dag ligger blandt de bedste lande i Europa. Alligevel mener miljøorganisationerne, at {5} stadig kan blive langt bedre til at begrænse mængden af affald i første omgang.",
+      "blanks": [
+        {
+          "options": [
+            "den",
+            "det",
+            "de",
+            "dem"
+          ],
+          "answer": "den",
+          "explanation": {
+            "en": "\"Ordning\" is fælleskøn (en ordning) and is the subject of \"skal sikre\", so the pronoun is \"den\". \"Det\" is the trap: it would point to an intetkøn noun or a whole clause, and here the thing that must ensure recycling is the scheme itself.",
+            "da": "\"Ordning\" er fælleskøn (en ordning) og subjekt for \"skal sikre\", så pronomenet skal være \"den\". \"Det\" er fælden: det ville pege på et intetkønsord eller en hel sætning, og her er det selve ordningen, der skal sikre genanvendelsen."
+          }
+        },
+        {
+          "options": [
+            "de",
+            "dem",
+            "den",
+            "det"
+          ],
+          "answer": "de",
+          "explanation": {
+            "en": "The pronoun stands for \"mange borgere\" (plural) and is the subject of \"skulle vænne sig\" in the fordi-ledsætning, so it must be \"de\". \"Dem\" is the trap: the object form can never be the subject, and the reflexive \"sig\" after the verb does not change that.",
+            "da": "Pronomenet står for \"mange borgere\" (flertal) og er subjekt for \"skulle vænne sig\" i fordi-ledsætningen, så det skal være \"de\". \"Dem\" er fælden: objektsformen kan aldrig være subjekt, og det refleksive \"sig\" efter verbet ændrer ikke på det."
+          }
+        },
+        {
+          "options": [
+            "disse",
+            "dette",
+            "denne",
+            "dem"
+          ],
+          "answer": "disse",
+          "explanation": {
+            "en": "\"Tal\" is plural here (the figures just mentioned), so the demonstrative is \"disse tal\". \"Dette\" is the trap: \"tal\" looks like an intetkøn singular (et tal), but the text has just spoken of figures in the plural, and a demonstrative before a plural noun is always \"disse\".",
+            "da": "\"Tal\" er flertal her (de tal, der lige er nævnt), så det påpegende pronomen er \"disse tal\". \"Dette\" er fælden: \"tal\" ligner intetkøn ental (et tal), men teksten har netop talt om tal i flertal, og et påpegende pronomen foran et flertalsord er altid \"disse\"."
+          }
+        },
+        {
+          "options": [
+            "Det",
+            "Den",
+            "De",
+            "Der"
+          ],
+          "answer": "Det",
+          "explanation": {
+            "en": "\"Det\" here picks up the whole previous statement (that most households now sort correctly); a clause or fact is always referred to with \"det\". \"De\" is the trap because \"husstande\" is plural, but households cannot \"mean\" anything — the fact does.",
+            "da": "\"Det\" henviser her til hele det foregående udsagn (at de fleste husstande nu sorterer korrekt); en hel sætning eller et faktum henvises altid til med \"det\". \"De\" er fælden, fordi \"husstande\" er flertal, men husstande kan ikke \"betyde\" noget – det kan faktummet."
+          }
+        },
+        {
+          "options": [
+            "man",
+            "en",
+            "ens",
+            "sig"
+          ],
+          "answer": "man",
+          "explanation": {
+            "en": "The generic subject \"people in general\" is \"man\", also inside an at-ledsætning. \"En\" is the trap: it is the object form (det gavner en), and it cannot be the subject of \"kan blive\" in standard written Danish.",
+            "da": "Det generelle subjekt \"folk i almindelighed\" hedder \"man\", også inde i en at-ledsætning. \"En\" er fælden: det er objektsformen (det gavner en), og det kan ikke være subjekt for \"kan blive\" i korrekt skriftsprog."
+          }
+        }
+      ],
+      "tags": [
+        "den-det",
+        "disse",
+        "man-en-ens"
+      ]
+    }
+  ]
+}

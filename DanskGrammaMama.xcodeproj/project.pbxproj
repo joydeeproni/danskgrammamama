@@ -6,7 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DA000000000000000000010B /* DanskOrdWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DA0000000000000000000101 /* DanskOrdWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA000000000000000000010D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA000000000000000000000A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0000000000000000000103;
+			remoteInfo = DanskOrdWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA000000000000000000010A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA000000000000000000010B /* DanskOrdWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DA0000000000000000000101 /* DanskOrdWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DanskOrdWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0000000000000000000001 /* DanskGrammaMama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanskGrammaMama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -16,10 +45,22 @@
 			path = DanskGrammaMama;
 			sourceTree = "<group>";
 		};
+		DA0000000000000000000102 /* DanskOrdWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DanskOrdWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DA0000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0000000000000000000105 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				DA0000000000000000000002 /* DanskGrammaMama */,
+				DA0000000000000000000102 /* DanskOrdWidget */,
 				DA0000000000000000000005 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				DA0000000000000000000001 /* DanskGrammaMama.app */,
+				DA0000000000000000000101 /* DanskOrdWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +98,12 @@
 				DA0000000000000000000008 /* Sources */,
 				DA0000000000000000000003 /* Frameworks */,
 				DA0000000000000000000009 /* Resources */,
+				DA000000000000000000010A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DA000000000000000000010C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				DA0000000000000000000002 /* DanskGrammaMama */,
@@ -70,7 +115,37 @@
 			productReference = DA0000000000000000000001 /* DanskGrammaMama.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DA0000000000000000000103 /* DanskOrdWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0000000000000000000107 /* Build configuration list for PBXNativeTarget "DanskOrdWidgetExtension" */;
+			buildPhases = (
+				DA0000000000000000000104 /* Sources */,
+				DA0000000000000000000105 /* Frameworks */,
+				DA0000000000000000000106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA0000000000000000000102 /* DanskOrdWidget */,
+			);
+			name = DanskOrdWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DanskOrdWidgetExtension;
+			productReference = DA0000000000000000000101 /* DanskOrdWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
+
+/* Begin PBXTargetDependency section */
+		DA000000000000000000010C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0000000000000000000103 /* DanskOrdWidgetExtension */;
+			targetProxy = DA000000000000000000010D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXProject section */
 		DA000000000000000000000A /* Project object */ = {
@@ -100,6 +175,7 @@
 			projectRoot = "";
 			targets = (
 				DA0000000000000000000006 /* DanskGrammaMama */,
+				DA0000000000000000000103 /* DanskOrdWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -112,10 +188,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA0000000000000000000106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA0000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0000000000000000000104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,6 +398,60 @@
 			};
 			name = Release;
 		};
+		DA0000000000000000000108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DanskOrdWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dagens ord";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.joydeep.danskgrammamama.DanskOrdWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA0000000000000000000109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DanskOrdWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dagens ord";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.joydeep.danskgrammamama.DanskOrdWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -325,6 +469,15 @@
 			buildConfigurations = (
 				DA000000000000000000000E /* Debug */,
 				DA000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0000000000000000000107 /* Build configuration list for PBXNativeTarget "DanskOrdWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0000000000000000000108 /* Debug */,
+				DA0000000000000000000109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

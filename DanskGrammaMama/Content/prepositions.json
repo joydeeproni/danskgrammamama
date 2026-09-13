@@ -27,9 +27,14 @@
       "id": "prepositions-002",
       "topic": "prepositions",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Regeringen fremlagde ___ sidste uge en ny klimaplan, som skal nedbringe landbrugets udledning af drivhusgasser.",
-      "hint": "(præposition)",
+      "options": [
+        "på",
+        "om",
+        "for",
+        "i"
+      ],
       "answer": "i",
       "explanation": {
         "en": "With sidste, næste or forrige plus a period (uge, måned, år) the preposition is i: i sidste uge, i næste måned, i forrige år. Learners often write på sidste uge by analogy with på mandag, or try to squeeze in for … siden, which only works with a number of units (for en uge siden).",
@@ -90,9 +95,14 @@
       "id": "prepositions-005",
       "topic": "prepositions",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Kommunen lukkede den lokale skole ___ tre år siden, og siden da har børnene måttet tage bussen til nabobyen.",
-      "hint": "(præposition)",
+      "options": [
+        "for",
+        "før",
+        "om",
+        "i"
+      ],
       "answer": "for",
       "explanation": {
         "en": "A point in the past measured from now is for + period + siden: for tre år siden. The two-part frame is compulsory; siden alone (siden tre år) or før tre år are not Danish. Do not confuse it with i tre år, which is a duration.",
@@ -107,9 +117,14 @@
       "id": "prepositions-006",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Hun har arbejdet som sygeplejerske på Rigshospitalet ___ tolv år og kender derfor afdelingens rutiner bedre end nogen anden.",
-      "hint": "(i / for / siden / om)",
+      "options": [
+        "siden",
+        "i",
+        "for",
+        "om"
+      ],
       "answer": "i",
       "explanation": {
         "en": "A duration that continues up to now is i + period with førnutid: har arbejdet i tolv år. For tolv år is English interference and not Danish; siden needs a point in time (siden 2014), not a length; and om tolv år would place the event in the future.",
@@ -147,13 +162,15 @@
       "id": "prepositions-008",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "___ løbet af de seneste ti år er andelen af unge, der vælger en erhvervsuddannelse, faldet markant.",
-      "hint": "(præposition)",
-      "answer": "I",
-      "accepted": [
-        "i"
+      "options": [
+        "Ved",
+        "I",
+        "Under",
+        "På"
       ],
+      "answer": "I",
       "explanation": {
         "en": "I løbet af is a fixed formal phrase meaning during or in the course of, and only i is possible before løbet. Learners produce under løbet af, because under alone can mean during (under krigen), or på løbet af; neither exists.",
         "da": "I løbet af er et fast, formelt udtryk, der betyder mens noget varer, og kun i kan stå foran løbet. Mange skriver under løbet af, fordi under alene kan betyde i tidsrummet (under krigen), eller på løbet af; ingen af delene findes."
@@ -191,9 +208,14 @@
       "id": "prepositions-010",
       "topic": "prepositions",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Flere og flere ansatte vælger at spise frokost ___ arbejde i stedet for at gå ud, fordi det er billigere.",
-      "hint": "(i / på)",
+      "options": [
+        "til",
+        "på",
+        "ved",
+        "i"
+      ],
       "answer": "på",
       "explanation": {
         "en": "As a place, work takes på: være på arbejde, spise frokost på arbejde. I arbejde exists but means being employed (komme i arbejde, være i arbejde), so i changes the meaning instead of describing where lunch is eaten.",
@@ -232,9 +254,14 @@
       "id": "prepositions-012",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Mange ældre foretrækker at blive boende ___ landet, selvom afstanden til læge og indkøb bliver et problem med alderen.",
-      "hint": "(præposition)",
+      "options": [
+        "til",
+        "ved",
+        "i",
+        "på"
+      ],
       "answer": "på",
       "explanation": {
         "en": "På landet is the fixed expression for in the countryside, as opposed to i byen. I landet is grammatical but means in the country as a nation (alle i landet), so i silently changes the meaning of the sentence.",
@@ -295,9 +322,14 @@
       "id": "prepositions-015",
       "topic": "prepositions",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Mange medarbejdere glæder sig ___ den nye ordning med fire arbejdsdage om ugen, som indføres efter sommerferien.",
-      "hint": "(til / over / for / på)",
+      "options": [
+        "til",
+        "for",
+        "på",
+        "over"
+      ],
       "answer": "til",
       "explanation": {
         "en": "Glæde sig til is used about something in the future you look forward to; here the scheme is introduced efter sommerferien, so til is right. Glæde sig over is the trap: it means to be pleased about something that already exists or has happened.",
@@ -336,9 +368,14 @@
       "id": "prepositions-017",
       "topic": "prepositions",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Når kommunen planlægger nye boligområder, skal den tage hensyn ___ både naturen og de beboere, der allerede bor i området.",
-      "hint": "(præposition)",
+      "options": [
+        "for",
+        "på",
+        "til",
+        "med"
+      ],
       "answer": "til",
       "explanation": {
         "en": "Tage hensyn til is a fixed collocation; the noun hensyn is always followed by til (af hensyn til, med hensyn til). På and for are the usual wrong guesses, but neither ever combines with hensyn.",
@@ -375,9 +412,14 @@
       "id": "prepositions-019",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Frivillige foreninger bidrager ___, at nye borgere hurtigere lærer sproget og får et netværk i deres lokalområde.",
-      "hint": "(præposition)",
+      "options": [
+        "i",
+        "med",
+        "for",
+        "til"
+      ],
       "answer": "til",
       "explanation": {
         "en": "Bidrage til introduces the result or goal one contributes to, and til stands directly before the at-ledsætning. The trap is bidrage med, which is also correct Danish but means to contribute something concrete (bidrage med penge, med en idé), not to contribute to an outcome.",
@@ -416,9 +458,14 @@
       "id": "prepositions-021",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Fagforeningen er enig ___ arbejdsgiverne om, at der skal gøres langt mere for at forebygge stress på de danske arbejdspladser.",
-      "hint": "(i / med / om / til)",
+      "options": [
+        "i",
+        "med",
+        "til",
+        "om"
+      ],
       "answer": "med",
       "explanation": {
         "en": "Enig takes three different prepositions: enig med + the person you agree with, enig i + the statement or proposal you agree to, and enig om + the topic agreed on. Here arbejdsgiverne are people, so med is right; i is the trap and only fits before an opinion (enig i forslaget).",
@@ -456,9 +503,14 @@
       "id": "prepositions-023",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Ved ansættelsessamtaler lægger danske arbejdsgivere ofte stor vægt ___, om ansøgeren kan samarbejde og passe ind i teamet.",
-      "hint": "(præposition)",
+      "options": [
+        "til",
+        "i",
+        "på",
+        "for"
+      ],
       "answer": "på",
       "explanation": {
         "en": "Lægge vægt på is a fixed collocation, and på stands directly before the om-ledsætning. The same på pattern covers fokusere på, satse på, stole på and tro på. Til and i are the usual wrong guesses, but vægt never combines with them in this meaning.",
@@ -473,9 +525,14 @@
       "id": "prepositions-024",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Ifølge rapporten har sundhedsvæsenet brug ___ mindst fem tusind flere sygeplejersker inden 2030, hvis kvaliteten skal fastholdes.",
-      "hint": "(til / for / på / af)",
+      "options": [
+        "for",
+        "af",
+        "til",
+        "på"
+      ],
       "answer": "for",
       "explanation": {
         "en": "Have brug for and the noun phrase have behov for both take for. Til is the trap because the verb bruge takes til (bruge pengene til uddannelse), but in the fixed expression have brug for only for is possible.",
@@ -535,9 +592,14 @@
       "id": "prepositions-027",
       "topic": "prepositions",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Skolen skal sørge ___, at alle elever får et sundt måltid i løbet af dagen, uanset hvordan forældrenes økonomi ser ud.",
-      "hint": "(præposition)",
+      "options": [
+        "for",
+        "til",
+        "over",
+        "på"
+      ],
       "answer": "for",
       "explanation": {
         "en": "Sørge for means to make sure or take care of and stands directly before an at-ledsætning (sørge for, at …). The trap is sørge over, which is a different verb meaning to grieve over; the synonym sikre takes no preposition (sikre, at …).",
@@ -575,9 +637,14 @@
       "id": "prepositions-029",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Regeringen satser ___ havvind som den vigtigste energikilde, når de sidste kulkraftværker lukker i de kommende år.",
-      "hint": "(præposition)",
+      "options": [
+        "for",
+        "i",
+        "til",
+        "på"
+      ],
       "answer": "på",
       "explanation": {
         "en": "Satse på means to bet on or prioritise and always takes på, like fokusere på, stole på and tro på. For and til are the usual wrong guesses, often because the noun indsats takes for (en indsats for klimaet), but the verb satse only combines with på.",
@@ -636,9 +703,14 @@
       "id": "prepositions-032",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Forældrebestyrelsen har reel indflydelse ___, hvordan daginstitutionen bruger sine penge og tilrettelægger børnenes hverdag.",
-      "hint": "(præposition)",
+      "options": [
+        "over",
+        "på",
+        "i",
+        "til"
+      ],
       "answer": "på",
       "explanation": {
         "en": "Indflydelse på is fixed, and på stands directly before the hvordan-ledsætning. Over is the trap because related nouns of power take over (magt over, kontrol over), and til is a common guess, but indflydelse combines only with på.",
@@ -720,9 +792,14 @@
       "id": "prepositions-036",
       "topic": "prepositions",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Rapporten er udarbejdet ___ en gruppe forskere fra Aarhus Universitet, som Sundhedsstyrelsen har bedt om at undersøge unges trivsel.",
-      "hint": "(af / fra / hos / ved)",
+      "options": [
+        "hos",
+        "af",
+        "fra",
+        "ved"
+      ],
       "answer": "af",
       "explanation": {
         "en": "In the passive, the agent (the one who does the action) is introduced by af: udarbejdet af forskere, skrevet af en journalist. Fra is the trap because it marks origin or sender (forskere fra Aarhus, en mail fra chefen), and hos marks a place or company (ansat hos Novo), not the doer of a passive verb.",

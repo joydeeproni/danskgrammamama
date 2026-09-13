@@ -1,0 +1,361 @@
+adj|alene|alone, on one's own
+adj|almen|general, public (almene boliger = social housing)
+adj|almindelig|ordinary, common
+adj|alvorlig|serious
+adj|anden|other, second (andet, andre)
+adj|betalelig|affordable
+adj|betydelig|considerable, significant
+adj|bedre|better
+adj|bedst|best
+adj|billig|cheap
+adj|dansk|Danish
+adj|daglig|daily
+adj|dyr|expensive
+adj|egen|own (eget, egne)
+adj|eneste|only, sole
+adj|enig|in agreement
+adj|enkel|simple
+adj|ensom|lonely
+adj|faglig|professional, subject-related
+adj|fast|fixed, permanent
+adj|fleksibel|flexible
+adj|flere|several, more
+adj|fri|free
+adj|frivillig|voluntary
+adj|fuld|full
+adj|fysisk|physical
+adj|fælles|shared, common
+adj|færre|fewer
+adj|få|few
+adj|gammel|old (gammelt, gamle)
+adj|god|good (godt, gode)
+adj|gratis|free of charge
+adj|grøn|green
+adj|halv|half
+adj|hel|whole, entire
+adj|høj|high, tall, loud
+adj|hurtig|fast, quick
+adj|hård|hard, tough
+adj|kort|short
+adj|kraftig|strong, sharp
+adj|kritisk|critical
+adj|lang|long
+adj|lav|low
+adj|ledig|vacant, unemployed
+adj|let|easy, light
+adj|lille|small (plural små)
+adj|lokal|local
+adj|markant|marked, significant
+adj|mindre|smaller, less
+adj|mindst|smallest, at least
+adj|moderne|modern
+adj|mulig|possible
+adj|mørk|dark
+adj|naturlig|natural
+adj|nem|easy
+adj|nødvendig|necessary
+adj|ny|new (nyt, nye)
+adj|nyansat|newly employed
+adj|nyuddannet|newly qualified
+adj|offentlig|public
+adj|omfattende|extensive, comprehensive
+adj|praktisk|practical
+adj|presset|under pressure
+adj|rask|healthy, well
+adj|rigtig|correct, right
+adj|samlet|combined, total
+adj|samme|same
+adj|sidste|last
+adj|skeptisk|sceptical
+adj|social|social
+adj|stigende|rising, increasing
+adj|stor|big, large (stort, store)
+adj|større|bigger, larger
+adj|størst|biggest
+adj|svær|difficult
+adj|sund|healthy
+adj|sundere|healthier
+adj|sikker|safe, certain
+adj|tidligere|earlier, former
+adj|travl|busy
+adj|træt|tired
+adj|tung|heavy
+adj|tydelig|clear, obvious
+adj|tæt|close, dense
+adj|uddannet|qualified, trained
+adj|udsat|vulnerable, exposed
+adj|ufaglært|unskilled
+adj|uklar|unclear
+adj|ung|young
+adj|usikker|uncertain, insecure
+adj|vanskelig|difficult
+adj|vigtig|important
+adj|voldsom|violent, dramatic
+adj|ældre|older, elderly
+adv|aldrig|never
+adv|alligevel|even so, nevertheless
+adv|allerede|already
+adv|altid|always
+adv|altså|so, therefore, that is
+adv|bagefter|afterwards
+adv|blandt|among
+adv|dengang|back then
+adv|derefter|after that
+adv|derfor|therefore, that is why
+adv|derimod|by contrast, on the other hand
+adv|dermed|thereby, thus
+adv|desuden|moreover, besides
+adv|dog|however, though
+adv|egentlig|actually, really
+adv|ellers|otherwise
+adv|endelig|finally; lastly in a list
+adv|endnu|still, yet
+adv|endvidere|furthermore (formal)
+adv|først|first
+adv|gerne|gladly, willingly
+adv|godt|well
+adv|helst|preferably
+adv|helt|completely
+adv|her|here
+adv|hjemme|at home
+adv|hjemmefra|from home
+adv|hurtigt|quickly
+adv|igen|again
+adv|imens|meanwhile
+adv|imidlertid|however (formal)
+adv|indtil|until
+adv|især|especially
+adv|langt|far
+adv|langsomt|slowly
+adv|langtfra|far from
+adv|ligeledes|likewise
+adv|meget|very, much
+adv|mest|most
+adv|mindst|at least
+adv|måske|maybe, perhaps
+adv|naturligvis|of course
+adv|nemlig|namely; the reason is that
+adv|netop|precisely, just
+adv|nok|probably; enough
+adv|nu|now
+adv|ofte|often
+adv|oftere|more often
+adv|omkring|around, about
+adv|omvendt|conversely, the other way round
+adv|overhovedet|at all
+adv|samtidig|at the same time
+adv|senere|later
+adv|sjældent|rarely, seldom
+adv|slet|at all (slet ikke = not at all)
+adv|snart|soon
+adv|stadig|still
+adv|straks|immediately
+adv|således|thus, in this way
+adv|tilbage|back
+adv|tilmed|even, on top of that
+adv|udelukkende|exclusively
+adv|ydermere|furthermore (formal)
+prep|af|of, by, from
+prep|blandt|among
+prep|efter|after
+prep|for|for
+prep|fra|from
+prep|gennem|through
+prep|hos|at (someone's place), with
+prep|i|in
+prep|ifølge|according to
+prep|indenfor|within
+prep|med|with
+prep|mellem|between
+prep|mod|towards, against
+prep|om|about; in (future time)
+prep|over|over, above
+prep|på|on, at
+prep|siden|since
+prep|til|to, for
+prep|trods|despite (på trods af)
+prep|uden|without
+prep|under|under, during
+prep|ved|by, at, near
+pron|alle|everyone, all
+pron|anden|another, other
+pron|begge|both
+pron|de|they (subject)
+pron|dem|them (object)
+pron|den|it (common gender)
+pron|denne|this (common gender)
+pron|der|there; who, which (subject)
+pron|deres|their, theirs
+pron|det|it, that (neuter)
+pron|dette|this (neuter)
+pron|disse|these
+pron|du|you (singular)
+pron|en|one (object form of man)
+pron|ens|one's (possessive of man)
+pron|han|he
+pron|hans|his
+pron|hende|her (object)
+pron|hendes|her, hers
+pron|hinanden|each other
+pron|hun|she
+pron|hver|each, every (hvert)
+pron|hvem|who
+pron|hvad|what
+pron|hvilken|which (hvilket, hvilke)
+pron|hvis|whose; if
+pron|ingen|no one, none, no (ingen/intet)
+pron|intet|nothing, no (neuter)
+pron|jeg|I
+pron|man|one, you (people in general)
+pron|min|my, mine (mit, mine)
+pron|nogen|anyone, any, some
+pron|nogle|some (plural)
+pron|noget|something, some, somewhat
+pron|selv|self, oneself
+pron|sig|himself, herself, itself, themselves
+pron|sin|his, her, its own (sit, sine)
+pron|som|who, which, that; as
+pron|vi|we
+pron|vores|our, ours
+conj|at|that
+conj|eller|or
+conj|efterhånden|gradually
+conj|fordi|because
+conj|hvis|if
+conj|hvorimod|whereas
+conj|men|but
+conj|mens|while
+conj|når|when (repeated or future)
+conj|og|and
+conj|selvom|although
+conj|så|so, then
+conj|end|than
+conj|inden|before
+conj|siden|since
+num|én|one
+num|to|two
+num|tre|three
+num|fire|four
+num|fem|five
+num|seks|six
+num|syv|seven
+num|otte|eight
+num|ni|nine
+num|ti|ten
+num|tolv|twelve
+num|tyve|twenty
+num|hundrede|hundred
+num|tusind|thousand
+num|første|first
+num|tredje|third
+num|femte|fifth
+other|Danmark|Denmark
+other|København|Copenhagen
+other|Aarhus|Aarhus, Denmark's second city
+other|Fyn|Funen, the island between Zealand and Jutland
+other|Sønderjylland|Southern Jutland
+other|Europa|Europe
+other|hverken|neither (hverken … eller)
+other|jo|as you know (softening particle)
+other|kun|only
+other|næsten|almost
+other|nødt|obliged (være nødt til = have to)
+other|selvfølgelig|of course
+other|udover|besides, apart from
+adv|også|also, too
+adv|både|both (både … og)
+adv|ind|in, inwards
+adv|ned|down
+adv|op|up
+adv|ud|out
+adv|hen|over, along
+adv|væk|away
+adv|fremad|forward
+adv|hjemad|homewards
+adv|sammen|together
+adv|hvornår|when (question)
+adv|hvorfor|why
+adv|hvordan|how
+adv|hvor|where; how (hvor mange)
+adv|derudover|in addition
+adv|dernæst|next
+adv|efterfølgende|subsequently
+adv|foreløbig|for the time being
+adv|generelt|generally
+adv|hovedsagelig|mainly
+adv|ligeså|equally
+adv|løbende|on an ongoing basis
+adv|primært|primarily
+adv|relativt|relatively
+adv|typisk|typically
+adv|væsentligt|substantially
+adv|årligt|annually
+adv|dagligt|daily
+adv|ugentligt|weekly
+adv|månedligt|monthly
+adv|fortsat|still, continuing
+adv|længe|for a long time
+adv|længere|longer, any longer
+adv|senest|at the latest
+pron|mange|many
+pron|meget|much
+pron|alt|everything
+pron|andet|other, else (neuter)
+pron|andre|others
+pron|eget|own (neuter of egen)
+pron|egne|own (plural of egen)
+pron|hvert|each, every (neuter)
+pron|sit|his, her, its own (neuter)
+pron|sine|his, her, its own (plural)
+pron|mit|my, mine (neuter)
+pron|mine|my, mine (plural)
+pron|dit|your, yours (neuter)
+pron|din|your, yours
+pron|ham|him
+pron|jer|you (plural, object)
+pron|os|us
+pron|nogensinde|ever
+other|ikke|not
+other|nej|no
+other|ja|yes
+other|tak|thank you
+other|vel|surely, I suppose
+other|bare|just, only
+other|lige|just; equal, straight
+other|slags|kind, sort
+other|par|couple, pair
+other|slet|at all (slet ikke)
+adj|sen|late (senere, seneste)
+adj|kommende|coming, upcoming
+adj|planlagt|planned
+adj|skiftende|changing, shifting
+adj|særlig|special, particular
+adj|uanset|regardless of
+adj|grøn|green
+adj|boende|living, resident (blive boende)
+adj|afsat|allocated, set aside
+adj|nyankommen|newly arrived
+adj|væsentlig|essential, substantial
+adj|tilstrækkelig|sufficient
+adj|tydelig|clear
+adj|synlig|visible
+adj|rimelig|reasonable
+adj|urimelig|unreasonable
+adj|bæredygtig|sustainable
+adj|effektiv|efficient, effective
+adj|konkret|concrete, specific
+adj|generel|general
+adj|typisk|typical
+adj|relevant|relevant
+adj|tilfreds|satisfied
+adj|bekymret|worried
+adj|glad|happy
+adj|vred|angry
+adj|bange|afraid
+adj|klar|ready; clear
+adj|forskellig|different, various
+other|modsætning|contrast (i modsætning til = unlike)
+other|henblik|view (med henblik på = with a view to)
+other|vedrørende|concerning, regarding
+other|ifølge|according to
+other|grundet|due to

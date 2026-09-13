@@ -1,6 +1,6 @@
 import Foundation
 
-/// Generates typed verb-form questions from the learner's 500-verb list.
+/// Generates verb-form questions (with 4 options) from the learner's 500-verb list.
 struct VerbDrill {
     enum Form: CaseIterable {
         case present, past, perfect
@@ -10,13 +10,6 @@ struct VerbDrill {
             case .present: return "nutid"
             case .past: return "datid"
             case .perfect: return "førnutid"
-            }
-        }
-        var en: String {
-            switch self {
-            case .present: return "present"
-            case .past: return "past"
-            case .perfect: return "perfect (har/er + participle)"
             }
         }
     }
@@ -53,7 +46,7 @@ struct VerbDrill {
 
         let slug = verb.infinitive.replacingOccurrences(of: " ", with: "_")
         let id = "verbdrill-\(slug)-\(form.da)"
-        let prompt = "\(verb.infinitive)  →  \(form.da): ___"
+        let prompt = "\(verb.infinitive)  →  \(form.da): {1}"
 
         let paradigm = "\(verb.infinitive) – \(verb.present) – \(verb.past) – \(verb.perfect)"
         var en = "\(verb.infinitive) is \(verb.isIrregular ? "irregular (uregelmæssigt)" : verb.group.hasPrefix("gruppe 1") ? "a group 1 verb (-ede / -et)" : "a group 2 verb (-te / -t)"): \(paradigm). Learn the four forms as one unit."
@@ -68,18 +61,59 @@ struct VerbDrill {
             }
         }
 
+        let blank = Blank(options: options(for: verb, form: form, answer: answer, excluding: accepted),
+                          answer: answer,
+                          accepted: accepted.isEmpty ? nil : accepted,
+                          explanation: Explanation(en: en, da: da))
         return Question(
             id: id,
             topic: "verbs",
             level: verb.isIrregular ? 2 : 1,
-            type: .typed,
+            type: .choice,
             prompt: prompt,
-            hint: form == .perfect ? "(skriv med har/er)" : "(skriv formen)",
-            options: nil,
-            answer: answer,
-            accepted: accepted.isEmpty ? nil : accepted,
-            explanation: Explanation(en: en, da: da),
+            hint: form == .perfect ? "(med har/er)" : nil,
+            blanks: [blank],
             tags: ["verbdrill", form.da, verb.isIrregular ? "uregelmæssig" : "regelmæssig"]
         )
+    }
+
+    /// Distractors: the verb's other forms, the wrong auxiliary, and a regularised error form.
+    private static func options(for verb: Verb, form: Form, answer: String, excluding: [String]) -> [String] {
+        var pool: [String] = []
+        let stem = verb.infinitive.split(separator: " ").first.map(String.init) ?? verb.infinitive
+        let base = stem.hasSuffix("e") ? String(stem.dropLast()) : stem
+        let wrongAux = verb.auxiliaries[0] == "er" ? "har" : "er"
+
+        switch form {
+        case .present:
+            pool = [verb.infinitive, verb.past, verb.participle, base + "r", base + "es"]
+        case .past:
+            pool = [verb.present, verb.participle, verb.infinitive,
+                    verb.isIrregular ? base + "ede" : base + "te",
+                    verb.isIrregular ? base + "te" : base + "ede",
+                    verb.perfect]
+        case .perfect:
+            pool = ["\(wrongAux) \(verb.participle)",
+                    "\(verb.auxiliaries[0]) \(verb.past)",
+                    "\(verb.auxiliaries[0]) \(verb.infinitive)",
+                    "\(verb.auxiliaries[0]) \(base)\(verb.isIrregular ? "et" : "t")",
+                    verb.past]
+        }
+
+        var result: [String] = [answer]
+        var banned = Set([answer] + excluding)
+        for candidate in pool where !banned.contains(candidate) {
+            result.append(candidate)
+            banned.insert(candidate)
+            if result.count == 4 { break }
+        }
+        // Pad if the verb's forms coincide (e.g. synes/synes).
+        var pad = 1
+        while result.count < 4 {
+            let filler = base + ["ede", "te", "er", "t", "et"][pad % 5] + (pad > 4 ? "\(pad)" : "")
+            if !banned.contains(filler) { result.append(filler); banned.insert(filler) }
+            pad += 1
+        }
+        return result.shuffled()
     }
 }

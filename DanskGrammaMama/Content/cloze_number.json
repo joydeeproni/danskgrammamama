@@ -1,0 +1,233 @@
+{
+  "topic": "number",
+  "questions": [
+    {
+      "id": "number-c01",
+      "topic": "number",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Da regeringen fremlagde sin klimaplan, kritiserede flere {1}, at der kun blev afsat {2} midler til den kollektive trafik i de mindre byer.",
+      "blanks": [
+        {
+          "options": ["fagforeningerne", "fagforeninger", "fagforening", "fagforeninge"],
+          "answer": "fagforeninger",
+          "explanation": {
+            "en": "A compound is inflected on its last element, and nouns ending in -ing take -er: en forening → foreninger, so fagforeninger. After the quantifier flere the noun stands in ubestemt flertal, which rules out fagforeningerne; fagforeninge uses a wrong ending.",
+            "da": "Et sammensat ord bøjes efter sidste led, og substantiver på -ing får -er: en forening → foreninger, altså fagforeninger. Efter mængdeordet flere står substantivet i ubestemt flertal, hvilket udelukker fagforeningerne; fagforeninge har en forkert endelse."
+          }
+        },
+        {
+          "options": ["lidt", "få", "meget", "lille"],
+          "answer": "få",
+          "explanation": {
+            "en": "Midler is a countable plural noun, so the quantifier is få: kun få midler. Lidt belongs with uncountable nouns (lidt tid, lidt hjælp) and is the classic error; meget cannot stand before a plural, and lille is an adjective, not a quantifier.",
+            "da": "Midler er et tælleligt flertalsord, så mængdeordet er få: kun få midler. Lidt hører til utællelige substantiver (lidt tid, lidt hjælp) og er den klassiske fejl; meget kan ikke stå foran flertal, og lille er et adjektiv, ikke et mængdeord."
+          }
+        }
+      ],
+      "tags": ["flertal", "-er", "få/lidt"]
+    },
+    {
+      "id": "number-c02",
+      "topic": "number",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Mange danske {1} arbejder over 50 timer om ugen, og de bruger {2} tid på administration og kontrol end på selve arbejdet i marken, viser en ny undersøgelse.",
+      "blanks": [
+        {
+          "options": ["landmænd", "landmande", "landmændene", "landmand"],
+          "answer": "landmænd",
+          "explanation": {
+            "en": "A compound is inflected on its last element, and mand is irregular: vokalskifte a → æ with no ending, en landmand → landmænd. Landmande regularises the word wrongly, and landmændene (bestemt flertal) cannot follow mange.",
+            "da": "Et sammensat ord bøjes efter sidste led, og mand er uregelmæssigt: vokalskifte a → æ uden endelse, en landmand → landmænd. Landmande er en forkert regelmæssiggørelse, og landmændene (bestemt flertal) kan ikke stå efter mange."
+          }
+        },
+        {
+          "options": ["flere", "mange", "mere", "meget"],
+          "answer": "mere",
+          "explanation": {
+            "en": "Tid is uncountable (utælleligt), so the comparative is mere: mere tid … end. Flere is the comparative for countable plurals (flere timer) and is the classic mix-up; meget and mange are not comparatives and do not fit with end.",
+            "da": "Tid er utælleligt, så komparativen er mere: mere tid … end. Flere er komparativ ved tællelige flertalsord (flere timer) og er den klassiske forveksling; meget og mange er ikke komparativer og passer ikke sammen med end."
+          }
+        }
+      ],
+      "tags": ["vokalskifte", "flere/mere", "sammensat ord"]
+    },
+    {
+      "id": "number-c03",
+      "topic": "number",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Efter at boligselskabet havde renoveret de gamle {1} i området, steg huslejen så meget, at mange af {2} ikke længere kunne betale den.",
+      "blanks": [
+        {
+          "options": ["boligblokker", "boligblokkene", "boligblokke", "boligblok"],
+          "answer": "boligblokke",
+          "explanation": {
+            "en": "After de + adjective the noun stands in ubestemt flertal: de gamle boligblokke, never de gamle boligblokkene. The last element decides the ending, and blok takes -e (blokke) with doubled k, so boligblokker is the classic wrong ending.",
+            "da": "Efter de + adjektiv står substantivet i ubestemt flertal: de gamle boligblokke, aldrig de gamle boligblokkene. Sidste led bestemmer endelsen, og blok får -e (blokke) med dobbelt k, så boligblokker er den klassiske forkerte endelse."
+          }
+        },
+        {
+          "options": ["beboere", "beboerne", "beboerene", "beboer"],
+          "answer": "beboerne",
+          "explanation": {
+            "en": "Mange af points to a defined group and therefore requires bestemt flertal: mange af beboerne. Beboer → beboere → beboerne: the plural -e is dropped before -ne, so beboerene is wrong, and beboere (ubestemt) cannot follow af here.",
+            "da": "Mange af peger på en afgrænset gruppe og kræver derfor bestemt flertal: mange af beboerne. Beboer → beboere → beboerne: flertals-e'et falder væk foran -ne, så beboerene er forkert, og beboere (ubestemt) kan ikke stå efter af her."
+          }
+        }
+      ],
+      "tags": ["flertal", "bestemt flertal", "-erne"]
+    },
+    {
+      "id": "number-c04",
+      "topic": "number",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Sundhedsstyrelsen anbefaler, at {1} og unge bevæger sig mindst en time om dagen, men {2} af elever, der lever op til rådet, er faldet markant. Mange bruger i stedet {3} af deres fritid foran en skærm, og forskerne peger på, at skolernes {4} er blevet for korte til, at eleverne kan nå at lege udenfor. Derfor har flere kommuner besluttet at indføre bevægelse i {5} skoletime, så alle elever får pulsen op i løbet af dagen.",
+      "blanks": [
+        {
+          "options": ["børnene", "barn", "børn", "barne"],
+          "answer": "børn",
+          "explanation": {
+            "en": "Barn forms its plural by vokalskifte alone: et barn → børn. The fixed phrase børn og unge is a general statement, so ubestemt flertal is required; børnene would point to specific children, and barne does not exist.",
+            "da": "Barn danner flertal alene ved vokalskifte: et barn → børn. Det faste udtryk børn og unge er en generel udtalelse, så der kræves ubestemt flertal; børnene ville pege på bestemte børn, og barne findes ikke."
+          }
+        },
+        {
+          "options": ["mængden", "antallet", "antal", "mængde"],
+          "answer": "antallet",
+          "explanation": {
+            "en": "Elever are countable units, so they are counted with antal, not mængde, which is for uncountable amounts (mængden af affald). As the subject of er faldet the noun needs bestemt form: antallet af elever, not antal af elever.",
+            "da": "Elever er tællelige enheder, så de tælles med antal, ikke mængde, som bruges om utællelige mængder (mængden af affald). Som subjekt for er faldet skal ordet stå i bestemt form: antallet af elever, ikke antal af elever."
+          }
+        },
+        {
+          "options": ["de fleste", "det meste", "den meste", "mest"],
+          "answer": "det meste",
+          "explanation": {
+            "en": "Fritid is an uncountable noun, so the quantifier is the fixed neuter form det meste af: det meste af deres fritid, exactly like det meste af tiden. De fleste is used only with countable plurals (de fleste elever) and is the classic error; den meste and mest cannot stand before af here.",
+            "da": "Fritid er et utælleligt substantiv, så mængdeordet er den faste intetkønsform det meste af: det meste af deres fritid, præcis som det meste af tiden. De fleste bruges kun ved tællelige flertalsord (de fleste elever) og er den klassiske fejl; den meste og mest kan ikke stå foran af her."
+          }
+        },
+        {
+          "options": ["frikvarter", "frikvartererne", "frikvartere", "frikvarterer"],
+          "answer": "frikvarterer",
+          "explanation": {
+            "en": "Et frikvarter takes -er in the plural, unlike år or dyr: frikvarterer. The adjective korte shows that the subject is plural, so the singular frikvarter is wrong, and after the genitive skolernes the noun is ubestemt, which rules out frikvartererne.",
+            "da": "Et frikvarter får -er i flertal, i modsætning til år og dyr: frikvarterer. Adjektivet korte viser, at subjektet er flertal, så entalsformen frikvarter er forkert, og efter ejefaldet skolernes står substantivet i ubestemt form, hvilket udelukker frikvartererne."
+          }
+        },
+        {
+          "options": ["hvert", "alle", "hver", "hele"],
+          "answer": "hver",
+          "explanation": {
+            "en": "Skoletime is fælleskøn (en time), so the distributive quantifier is hver skoletime. Hvert is the intetkøn form and the classic error; alle would need the plural (alle skoletimer), and hele means the whole of one unit (hele skoledagen).",
+            "da": "Skoletime er fælleskøn (en time), så det distributive mængdeord er hver skoletime. Hvert er intetkønsformen og den klassiske fejl; alle ville kræve flertal (alle skoletimer), og hele betyder én samlet enhed (hele skoledagen)."
+          }
+        }
+      ],
+      "tags": ["vokalskifte", "antal/mængde", "hver/hvert"]
+    },
+    {
+      "id": "number-c05",
+      "topic": "number",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "I de store {1} er det blevet svært for unge at finde en bolig, de kan betale. En lejlighed med to {2} koster i dag ofte over 10.000 kroner om måneden, og {3} unge end nogensinde bor derfor stadig hos deres forældre, når de begynder på en uddannelse. Boligforskerne foreslår, at halvdelen af lejlighederne i nye byggerier skal være {4}, og at kommunerne stiller klare {5} til udlejernes prisniveau.",
+      "blanks": [
+        {
+          "options": ["byerne", "byer", "by", "byene"],
+          "answer": "byer",
+          "explanation": {
+            "en": "By takes -er in the plural: en by → byer. After de + adjective the noun is ubestemt, so de store byerne is a double definite and wrong; byene skips the plural marker -er, and by is singular.",
+            "da": "By får -er i flertal: en by → byer. Efter de + adjektiv står substantivet i ubestemt form, så de store byerne er dobbelt bestemthed og forkert; byene springer flertalsmærket -er over, og by er ental."
+          }
+        },
+        {
+          "options": ["værelse", "værelserne", "værelser", "værelsen"],
+          "answer": "værelser",
+          "explanation": {
+            "en": "Nouns ending in -e take only -r in the plural: et værelse → værelser. After the numeral to the noun is ubestemt flertal, so værelserne is wrong, and værelsen is singular bestemt form.",
+            "da": "Substantiver på -e får kun -r i flertal: et værelse → værelser. Efter talordet to står substantivet i ubestemt flertal, så værelserne er forkert, og værelsen er bestemt form i ental."
+          }
+        },
+        {
+          "options": ["mere", "flere", "mange", "meget"],
+          "answer": "flere",
+          "explanation": {
+            "en": "Unge is a countable plural, so the comparative before end is flere: flere unge end nogensinde. Mere is used with uncountables (mere tid) and is the classic error; mange and meget are not comparatives and cannot be followed by end.",
+            "da": "Unge er tælleligt flertal, så komparativen foran end er flere: flere unge end nogensinde. Mere bruges ved utællelige ord (mere tid) og er den klassiske fejl; mange og meget er ikke komparativer og kan ikke følges af end."
+          }
+        },
+        {
+          "options": ["lille", "små", "småe", "lilles"],
+          "answer": "små",
+          "explanation": {
+            "en": "Lille has an irregular plural: the adjective becomes små when it describes a plural noun, and lejlighederne is plural, so skal være små. Lille is the classic error (that form exists only in the singular), and småe adds an ending små never takes.",
+            "da": "Lille har uregelmæssig flertal: adjektivet bliver til små, når det beskriver et flertalsord, og lejlighederne er flertal, så skal være små. Lille er den klassiske fejl (formen findes kun i ental), og småe tilføjer en endelse, som små aldrig får."
+          }
+        },
+        {
+          "options": ["kraver", "kravene", "krav", "krave"],
+          "answer": "krav",
+          "explanation": {
+            "en": "Et krav belongs to the neuter nouns with zero plural (nul-endelse): et krav → klare krav. Kraver is the regularised error, kravene is bestemt flertal and cannot follow the adjective klare without de, and krave is a different word (a collar).",
+            "da": "Et krav hører til intetkønsordene med nul-endelse i flertal: et krav → klare krav. Kraver er den regelmæssiggjorte fejl, kravene er bestemt flertal og kan ikke stå efter adjektivet klare uden de, og krave er et andet ord (en krave på en jakke)."
+          }
+        }
+      ],
+      "tags": ["flertal", "nul-endelse", "kongruens"]
+    },
+    {
+      "id": "number-c06",
+      "topic": "number",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Antallet af ældre over 80 år vil næsten fordobles i løbet af de næste tyve år, og det lægger pres på {1} kommuner. Allerede i dag mangler der personale på mange {2}, og de ansatte oplever, at de har for {3} tid til den enkelte borger. Samtidig ønsker de fleste ældre at blive boende i eget hjem, hvilket kræver, at der er hjælp til rådighed på {4} tidspunkt af døgnet. Regeringen har derfor afsat penge til at uddanne flere {5}, men det tager år, før de er færdige.",
+      "blanks": [
+        {
+          "options": ["hele", "alle", "hver", "al"],
+          "answer": "alle",
+          "explanation": {
+            "en": "Kommuner is a countable plural, so the quantifier is alle: alle kommuner. Hele refers to one whole unit in bestemt form (hele landet) and is the classic error; hver takes the singular (hver kommune), and al is used with uncountables (al hjælp).",
+            "da": "Kommuner er tælleligt flertal, så mængdeordet er alle: alle kommuner. Hele betegner én samlet enhed i bestemt form (hele landet) og er den klassiske fejl; hver kræver ental (hver kommune), og al bruges ved utællelige ord (al hjælp)."
+          }
+        },
+        {
+          "options": ["plejecentrer", "plejecentre", "plejecentrene", "plejecentere"],
+          "answer": "plejecentre",
+          "explanation": {
+            "en": "Center is irregular: -er is replaced by -re in the plural, et center → centre, and the compound follows its last element: plejecentre. Plejecentrer and plejecentere are regularised errors, and plejecentrene (bestemt flertal) cannot follow mange.",
+            "da": "Center er uregelmæssigt: -er erstattes af -re i flertal, et center → centre, og det sammensatte ord følger sidste led: plejecentre. Plejecentrer og plejecentere er regelmæssiggjorte fejl, og plejecentrene (bestemt flertal) kan ikke stå efter mange."
+          }
+        },
+        {
+          "options": ["få", "lidt", "lille", "mindre"],
+          "answer": "lidt",
+          "explanation": {
+            "en": "Tid is uncountable (utælleligt), so the quantifier is lidt: for lidt tid. Få only goes with countable plurals (få timer) and is the classic error; lille is an adjective, and mindre is a comparative that cannot follow for in this sense.",
+            "da": "Tid er utælleligt, så mængdeordet er lidt: for lidt tid. Få bruges kun ved tællelige flertalsord (få timer) og er den klassiske fejl; lille er et adjektiv, og mindre er en komparativ, som ikke kan stå efter for i denne betydning."
+          }
+        },
+        {
+          "options": ["enhver", "alle", "ethvert", "hele"],
+          "answer": "ethvert",
+          "explanation": {
+            "en": "Tidspunkt is intetkøn (et tidspunkt), so the form is ethvert tidspunkt. Enhver is the fælleskøn form (enhver borger) and the classic error; alle would need the plural (alle tidspunkter), and hele needs bestemt form (hele døgnet).",
+            "da": "Tidspunkt er intetkøn (et tidspunkt), så formen er ethvert tidspunkt. Enhver er fælleskønsformen (enhver borger) og den klassiske fejl; alle ville kræve flertal (alle tidspunkter), og hele kræver bestemt form (hele døgnet)."
+          }
+        },
+        {
+          "options": ["sosu-hjælperne", "sosu-hjælpere", "sosu-hjælper", "sosu-hjælperer"],
+          "answer": "sosu-hjælpere",
+          "explanation": {
+            "en": "Person nouns ending in -er take -e in the plural: en sosu-hjælper → sosu-hjælpere, and after flere the noun is ubestemt. Sosu-hjælperer doubles the ending, sosu-hjælperne is bestemt flertal, and sosu-hjælper is singular.",
+            "da": "Personbetegnelser på -er får -e i flertal: en sosu-hjælper → sosu-hjælpere, og efter flere står substantivet i ubestemt form. Sosu-hjælperer fordobler endelsen, sosu-hjælperne er bestemt flertal, og sosu-hjælper er ental."
+          }
+        }
+      ],
+      "tags": ["kongruens", "uregelmæssig", "-e"]
+    }
+  ]
+}

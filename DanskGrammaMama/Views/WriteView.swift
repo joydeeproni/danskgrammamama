@@ -1,16 +1,24 @@
 import SwiftUI
 
-/// Free writing checked by the on-device model. Mirrors PD3 skriftlig fremstilling in miniature.
+/// Free writing, checked offline by rules and, where available, by the on-device model.
 struct WriteView: View {
     @Environment(ProgressStore.self) private var progress
+    @Environment(ContentStore.self) private var content
+    @Environment(Glossary.self) private var glossary
+
     @State private var taskIndex = 0
     @State private var text = ""
-    @State private var feedback: WritingFeedback?
+    @State private var ruleIssues: [WritingIssue] = []
+    @State private var aiFeedback: WritingFeedback?
+    @State private var checked = false
     @State private var loading = false
     @State private var errorText: String?
+    @State private var tappedWord: String?
+    @FocusState private var editorFocused: Bool
 
     private var language: ExplanationLanguage { progress.settings.explanationLanguage }
     private var availability: TutorAvailability { DanishTutor.shared.availability }
+    private var aiUsable: Bool { progress.settings.useAI && availability.isAvailable }
 
     static let tasks: [(da: String, en: String)] = [
         ("Skriv 3–5 sætninger: Hvilke fordele og ulemper er der ved at arbejde hjemmefra?",
@@ -33,110 +41,180 @@ struct WriteView: View {
 
     private var task: (da: String, en: String) { WriteView.tasks[taskIndex] }
     private var wordCount: Int { text.split { $0.isWhitespace || $0.isNewline }.count }
+    private var allIssues: [WritingIssue] { (aiFeedback?.issues ?? []) + ruleIssues }
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack {
-                        Text(language == .danish ? "Opgave" : "Task").font(.subheadline.weight(.semibold))
-                        Spacer()
-                        Button(language == .danish ? "Ny opgave" : "New task") {
-                            taskIndex = (taskIndex + 1) % WriteView.tasks.count
-                            feedback = nil
-                        }
-                        .font(.subheadline)
-                    }
-                    Text(task.da).font(.system(.body, design: .serif)).fixedSize(horizontal: false, vertical: true)
-                    if language == .english {
-                        Text(task.en).font(.footnote).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
-                    }
-                }
-                .card()
-
-                VStack(alignment: .trailing, spacing: 6) {
-                    TextEditor(text: $text)
-                        .frame(minHeight: 160)
-                        .font(.body)
-                        .autocorrectionDisabled()
-                        .textInputAutocapitalization(.sentences)
-                        .scrollContentBackground(.hidden)
-                        .padding(8)
-                        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: Style.corner))
-                    Text("\(wordCount) \(language == .danish ? "ord" : "words")").font(.caption).foregroundStyle(.secondary)
-                }
-
-                if availability.isAvailable {
-                    Button {
-                        check()
-                    } label: {
-                        if loading {
-                            HStack(spacing: 8) { ProgressView().tint(.white); Text(language == .danish ? "Retter …" : "Checking …") }
-                        } else {
-                            Label(language == .danish ? "Ret min dansk" : "Check my Danish", systemImage: "sparkles")
-                        }
-                    }
-                    .buttonStyle(PrimaryButtonStyle())
-                    .disabled(loading || wordCount < 5)
-                    .opacity(wordCount < 5 ? 0.5 : 1)
-                } else {
-                    Text(availability.message).font(.footnote).foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-
+            VStack(alignment: .leading, spacing: 18) {
+                taskCard
+                editor
                 if let errorText {
                     Text(errorText).font(.footnote).foregroundStyle(Style.wrong)
                 }
-
-                if let fb = feedback { result(fb) }
+                if checked { results }
             }
-            .padding()
+            .padding(20)
+            .padding(.bottom, 90)
         }
         .scrollDismissesKeyboard(.interactively)
         .background(Color(.systemGroupedBackground))
         .navigationTitle(language == .danish ? "Skriv" : "Write")
+        .safeAreaInset(edge: .bottom) { checkBar }
+        .sheet(item: Binding(get: { tappedWord.map(IdentifiableWord.init) },
+                             set: { tappedWord = $0?.value })) { item in
+            WordSheet(word: item.value, context: text)
+        }
     }
 
-    private func result(_ fb: WritingFeedback) -> some View {
-        VStack(alignment: .leading, spacing: 16) {
-            if fb.issues.isEmpty {
-                Label(language == .danish ? "Ingen fejl fundet" : "No errors found", systemImage: "checkmark.circle.fill")
-                    .foregroundStyle(Style.correct).font(.headline)
-            } else {
-                Text(language == .danish ? "\(fb.issues.count) ting at rette" : "\(fb.issues.count) things to fix").font(.headline)
-                ForEach(fb.issues) { issue in
-                    VStack(alignment: .leading, spacing: 4) {
-                        HStack(alignment: .firstTextBaseline, spacing: 6) {
-                            Text(issue.original).strikethrough().foregroundStyle(Style.wrong)
-                            Image(systemName: "arrow.right").font(.caption).foregroundStyle(.secondary)
-                            Text(issue.correction).bold().foregroundStyle(Style.correct)
-                        }
-                        .font(.subheadline)
-                        Text(issue.rule).font(.subheadline).foregroundStyle(.secondary)
-                    }
-                    .fixedSize(horizontal: false, vertical: true)
-                    Divider()
+    private var taskCard: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack {
+                Text(language == .danish ? "Opgave" : "Task")
+                    .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                Spacer()
+                Button(language == .danish ? "Ny opgave" : "New task") {
+                    taskIndex = (taskIndex + 1) % WriteView.tasks.count
+                    reset()
                 }
+                .font(.subheadline)
             }
-            VStack(alignment: .leading, spacing: 6) {
-                Text(language == .danish ? "Rettet tekst" : "Corrected text").font(.subheadline.weight(.semibold))
-                Text(fb.correctedText).font(.system(.body, design: .serif)).fixedSize(horizontal: false, vertical: true)
+            Text(task.da).font(.system(.body, design: .serif)).fixedSize(horizontal: false, vertical: true)
+            if language == .english {
+                Text(task.en).font(.footnote).foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            Text(fb.comment).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .card()
     }
 
-    private func check() {
-        loading = true
+    private var editor: some View {
+        VStack(alignment: .trailing, spacing: 6) {
+            TextEditor(text: $text)
+                .frame(minHeight: 180)
+                .font(.body)
+                .autocorrectionDisabled()
+                .textInputAutocapitalization(.sentences)
+                .focused($editorFocused)
+                .scrollContentBackground(.hidden)
+                .padding(10)
+                .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: Style.corner))
+                .onChange(of: text) { _, _ in if checked { checked = false } }
+            HStack(spacing: 10) {
+                Text("\(wordCount) \(language == .danish ? "ord" : "words")")
+                    .font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                if wordCount < 5 {
+                    Text(language == .danish ? "Skriv mindst fem ord" : "Write at least five words")
+                        .font(.caption).foregroundStyle(.tertiary)
+                }
+            }
+        }
+    }
+
+    private var checkBar: some View {
+        VStack(spacing: 6) {
+            Button {
+                editorFocused = false
+                check()
+            } label: {
+                if loading {
+                    HStack(spacing: 8) { ProgressView().tint(.white); Text(language == .danish ? "Retter …" : "Checking …") }
+                } else {
+                    Label(language == .danish ? "Ret min dansk" : "Check my Danish", systemImage: "checkmark.circle")
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle())
+            .disabled(loading || wordCount < 5)
+            .opacity(wordCount < 5 ? 0.5 : 1)
+
+            if !aiUsable {
+                Text(language == .danish
+                     ? "Retter med grammatikregler på enheden. AI-feedback kræver Apple Intelligence."
+                     : "Checking with on-device grammar rules. AI feedback needs Apple Intelligence.")
+                    .font(.caption2).foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+        }
+        .padding(.horizontal, 20).padding(.bottom, 8).padding(.top, 8)
+        .background(.bar)
+    }
+
+    @ViewBuilder
+    private var results: some View {
+        if allIssues.isEmpty {
+            VStack(alignment: .leading, spacing: 6) {
+                Label(language == .danish ? "Ingen fejl fundet" : "No errors found", systemImage: "checkmark.circle.fill")
+                    .font(.headline).foregroundStyle(Style.correct)
+                Text(language == .danish
+                     ? aiUsable ? "Hverken reglerne eller modellen fandt noget at rette." : "Reglerne på enheden fandt ikke noget. Slå Apple Intelligence til for en grundigere kontrol."
+                     : aiUsable ? "Neither the rules nor the model found anything to correct." : "The on-device rules found nothing. Turn on Apple Intelligence for a deeper check.")
+                    .font(.subheadline).foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .card()
+        } else {
+            VStack(alignment: .leading, spacing: 14) {
+                Text(language == .danish ? "\(allIssues.count) ting at rette" : "\(allIssues.count) things to fix")
+                    .font(.headline)
+                ForEach(allIssues) { issue in
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack(alignment: .firstTextBaseline, spacing: 6) {
+                            Text(issue.original).strikethrough().foregroundStyle(Style.wrong)
+                            Image(systemName: "arrow.right").font(.caption2).foregroundStyle(.secondary)
+                            Text(issue.correction).bold().foregroundStyle(Style.correct)
+                        }
+                        .font(.system(.subheadline, design: .serif))
+                        Text(issue.rule).font(.subheadline).foregroundStyle(.secondary)
+                    }
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .card()
+        }
+
+        if let fb = aiFeedback {
+            VStack(alignment: .leading, spacing: 8) {
+                Text(language == .danish ? "Rettet tekst" : "Corrected text")
+                    .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                SentenceView(segments: [.text(fb.correctedText)],
+                             gapState: { _ in .pending }, gapNumber: { _ in nil },
+                             font: .system(.body, design: .serif),
+                             onWordTap: { tappedWord = $0 })
+                if !fb.comment.isEmpty {
+                    Divider()
+                    Text(fb.comment).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .card()
+        }
+    }
+
+    private func reset() {
+        text = ""
+        ruleIssues = []
+        aiFeedback = nil
+        checked = false
         errorText = nil
-        feedback = nil
+    }
+
+    private func check() {
+        errorText = nil
+        aiFeedback = nil
+        ruleIssues = WritingChecker(glossary: glossary, verbs: content.verbs).check(text)
+        checked = true
+        guard aiUsable else { return }
+        loading = true
         let t = text, taskText = task.da, lang = language
         Task {
             do {
-                feedback = try await DanishTutor.shared.reviewWriting(t, task: taskText, language: lang)
+                aiFeedback = try await DanishTutor.shared.reviewWriting(t, task: taskText, language: lang)
             } catch {
-                errorText = error.localizedDescription
+                errorText = (lang == .danish ? "AI-kontrollen fejlede: " : "The AI check failed: ")
+                    + error.localizedDescription
             }
             loading = false
         }

@@ -58,6 +58,21 @@ struct GeneratedMistakeFeedback {
 
 @available(iOS 26.0, *)
 @Generable
+struct GeneratedWordLookup {
+    @Guide(description: "The dictionary form of the Danish word: infinitive for a verb, singular indefinite for a noun, base form for an adjective.")
+    var lemma: String
+    @Guide(description: "The word class in Danish: substantiv, verbum, adjektiv, adverbium, præposition, pronomen, konjunktion or talord.")
+    var wordClass: String
+    @Guide(description: "For a noun, en or et. Empty for every other word class.")
+    var article: String
+    @Guide(description: "A short English meaning, at most eight words. No full sentence.")
+    var meaning: String
+    @Guide(description: "For a verb, the paradigm 'infinitive - present - past - har/er participle'. For a noun, 'singular - definite - plural'. Empty otherwise.")
+    var forms: String
+}
+
+@available(iOS 26.0, *)
+@Generable
 struct GeneratedWritingIssue {
     @Guide(description: "The exact words from the learner's text that contain the error.")
     var original: String
@@ -113,21 +128,43 @@ final class DanishTutor {
 
     // MARK: Explain a wrong answer
 
-    func explainMistake(question: Question, learnerAnswer: String, language: ExplanationLanguage) async throws -> MistakeFeedback {
+    func explainMistake(question: Question, blankIndex: Int, learnerAnswer: String, language: ExplanationLanguage) async throws -> MistakeFeedback {
         #if canImport(FoundationModels)
         if #available(iOS 26.0, *), availability.isAvailable {
+            let blank = question.blanks[min(blankIndex, question.blanks.count - 1)]
             let session = LanguageModelSession(instructions: Self.mistakeInstructions(language: language))
             let prompt = """
-            Quiz sentence (blank marked ___): \(question.prompt)
-            Correct answer: \(question.answer)
-            Learner wrote: \(learnerAnswer)
+            Text with gaps marked {1}, {2}, …: \(question.prompt)
+            The gap in question: {\(blankIndex + 1)}
+            Correct answer for that gap: \(blank.answer)
+            Learner chose or wrote: \(learnerAnswer)
             Topic: \(Topic.byID(question.topic)?.titleEn ?? question.topic)
-            Rule already shown to the learner: \(question.explanation.en)
-            Explain specifically what is wrong with "\(learnerAnswer)" in this sentence. Do not repeat the rule text verbatim.
+            Rule already shown to the learner: \(blank.explanation.en)
+            Explain specifically what is wrong with "\(learnerAnswer)" in this gap. Do not repeat the rule text verbatim.
             """
             let response = try await session.respond(to: prompt, generating: GeneratedMistakeFeedback.self)
             let c = response.content
             return MistakeFeedback(whyWrong: c.whyWrong, tip: c.tip, example: c.example)
+        }
+        #endif
+        throw TutorError.unavailable
+    }
+
+    // MARK: Look up a word
+
+    func lookupWord(_ word: String, context: String) async throws -> GlossaryEntry {
+        #if canImport(FoundationModels)
+        if #available(iOS 26.0, *), availability.isAvailable {
+            let session = LanguageModelSession(instructions: Self.lookupInstructions)
+            let prompt = """
+            Danish word as it appears in the text: \(word)
+            The sentence it appears in: \(context)
+            Give the dictionary form and a short English meaning that fits this sentence.
+            """
+            let c = try await session.respond(to: prompt, generating: GeneratedWordLookup.self).content
+            return GlossaryEntry(word: c.lemma.isEmpty ? word : c.lemma,
+                                 wordClass: c.wordClass, article: c.article,
+                                 en: c.meaning, forms: c.forms.isEmpty ? nil : c.forms)
         }
         #endif
         throw TutorError.unavailable
@@ -163,6 +200,13 @@ final class DanishTutor {
             ? "Write all explanations in clear, simple Danish."
             : "Write all explanations in English, but keep Danish grammar terms in Danish (ledsætning, datid, bestemt form) and quote Danish words as they are."
     }
+
+    private static let lookupInstructions = """
+    You are a Danish-English dictionary for an adult learner at CEFR B2. \
+    Given a Danish word and the sentence it appears in, return its dictionary form, word class, \
+    and a short English meaning that fits that sentence. Be accurate and terse. \
+    If the word is a compound, give the meaning of the whole compound.
+    """
 
     private static func mistakeInstructions(language: ExplanationLanguage) -> String {
         """

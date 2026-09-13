@@ -15,14 +15,19 @@ struct AnswerChecker {
         return t
     }
 
-    static func check(_ input: String, for question: Question) -> AnswerVerdict {
+    /// Typed answers: case-insensitive, trailing punctuation ignored, alternatives accepted.
+    static func checkTyped(_ input: String, for blank: Blank) -> AnswerVerdict {
         let given = normalize(input)
         guard !given.isEmpty else { return .wrong }
-        let accepted = question.allAccepted.map(normalize)
-        if accepted.contains(given) { return .correct }
-        let canonical = normalize(question.answer)
+        if blank.allAccepted.map(normalize).contains(given) { return .correct }
+        let canonical = normalize(blank.answer)
         if canonical.count >= 4, levenshtein(given, canonical) <= 1 { return .nearMiss }
         return .wrong
+    }
+
+    /// Chosen option: exact match only.
+    static func checkChoice(_ option: String, for blank: Blank) -> AnswerVerdict {
+        option == blank.answer ? .correct : .wrong
     }
 
     static func levenshtein(_ a: String, _ b: String) -> Int {

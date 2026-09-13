@@ -1,0 +1,333 @@
+afdeling|en|department, ward
+afdelingsleder|en|head of department
+affald|et|waste, rubbish
+affaldssortering|en|waste sorting
+afgift|en|duty, tax, levy
+afgørelse|en|decision, ruling
+aftale|en|agreement, appointment
+alder|en|age
+alkohol|en|alcohol
+andel|en|share, proportion
+ansatte|—|employees (plural of den ansatte)
+ansøger|en|applicant
+ansøgning|en|application
+antal|et|number, count
+arbejde|et|work, job
+arbejdsdag|en|working day
+arbejdsgiver|en|employer
+arbejdskraft|en|labour, workforce
+arbejdsliv|et|working life
+arbejdsmarked|et|labour market
+arbejdsmiljø|et|working environment
+arbejdsplads|en|workplace
+arbejdstid|en|working hours
+arbejdstilsyn|et|the Danish Working Environment Authority
+arbejdsuge|en|working week
+barn|et|child (plural børn)
+barsel|en|parental leave
+befolkning|en|population
+behandling|en|treatment
+behov|et|need, requirement
+beslutning|en|decision
+bestyrelse|en|board of directors
+betingelse|en|condition
+beboer|en|resident
+bibliotek|et|library
+bil|en|car
+billede|et|picture, image
+blod|et|blood
+blodtryk|et|blood pressure
+bolig|en|home, dwelling
+boligmangel|en|housing shortage
+boligmarked|et|housing market
+boligområde|et|residential area
+boligpris|en|house price
+boligselskab|et|housing association
+borger|en|citizen
+borgmester|en|mayor
+branche|en|industry, sector
+brug|et|use
+bus|en|bus
+by|en|town, city
+byggeri|et|construction
+byråd|et|city council, municipal council
+cykel|en|bicycle
+cykelsti|en|cycle path
+cyklist|en|cyclist
+dag|en|day
+dansker|en|Dane
+del|en|part
+deltager|en|participant
+diabetes|en|diabetes
+direktør|en|director, CEO
+drivhusgas|en|greenhouse gas
+dyr|et|animal
+effekt|en|effect
+efteruddannelse|en|further training
+ejendom|en|property
+elbil|en|electric car
+elev|en|pupil, student
+energi|en|energy
+erfaring|en|experience
+erhvervsuddannelse|en|vocational education
+eksempel|et|example
+ekspert|en|expert
+familie|en|family
+fagforening|en|trade union
+fagbevægelse|en|the trade union movement
+fejl|en|mistake, error
+ferie|en|holiday, vacation
+flertal|et|majority; plural
+folk|et|people
+folkeskole|en|Danish state primary and lower secondary school
+Folketinget|—|the Danish parliament
+forbrug|et|consumption
+fordel|en|advantage
+forening|en|association, club
+forhold|et|relationship, conditions, ratio
+forhandling|en|negotiation
+forskel|en|difference
+forsker|en|researcher
+forslag|et|proposal, bill
+forstad|en|suburb
+forælder|en|parent (plural forældre)
+fremtid|en|future
+fritid|en|free time, leisure
+frivillig|en|volunteer
+fødsel|en|birth
+gang|en|time, occasion; corridor
+gennemsnit|et|average
+gruppe|en|group
+grund|en|reason; plot of land
+handicap|et|disability
+havn|en|harbour, port
+helbred|et|health
+hensyn|et|consideration, regard
+hjem|et|home
+hjælp|en|help, assistance
+hjemmeplejen|—|home care service
+hovedstad|en|capital city
+hus|et|house
+husholdning|en|household
+husleje|en|rent
+husstand|en|household
+hverdag|en|everyday life, weekday
+idræt|en|sport, physical education
+indflydelse|en|influence
+indkomst|en|income
+indkøb|et|shopping, purchase
+indsats|en|effort, initiative
+industri|en|industry
+integration|en|integration
+investering|en|investment
+job|et|job
+kampagne|en|campaign
+klage|en|complaint
+klasse|en|class, year group
+klima|et|climate
+klimaplan|en|climate plan
+kollega|en|colleague (plural kolleger)
+kommune|en|municipality, local authority
+kontakt|en|contact
+kontor|et|office
+kontrol|en|check, control
+kost|en|diet
+krav|et|requirement, demand
+krise|en|crisis
+krone|en|krone (Danish currency)
+kursus|et|course (plural kurser)
+kvinde|en|woman
+kvalitet|en|quality
+kyst|en|coast
+land|et|country; countryside
+landbrug|et|agriculture, farming
+ledelse|en|management
+leder|en|manager, leader
+lejer|en|tenant
+lejlighed|en|flat, apartment
+liv|et|life
+livsstil|en|lifestyle
+lov|en|law, act
+luft|en|air
+læge|en|doctor
+lærer|en|teacher
+løn|en|pay, salary
+lønmodtager|en|wage earner, employee
+løsning|en|solution
+mad|en|food
+mand|en|man (plural mænd)
+mangel|en|shortage, lack
+medarbejder|en|employee, member of staff
+medicin|en|medicine
+menneske|et|human being, person
+million|en|million
+milliard|en|billion
+minister|en|minister
+minut|et|minute
+mulighed|en|possibility, opportunity
+motion|en|exercise
+måde|en|way, manner
+måltid|et|meal
+måned|en|month
+mål|et|goal, target
+nabo|en|neighbour
+natur|en|nature
+nat|en|night (plural nætter)
+niveau|et|level
+nyhed|en|piece of news
+område|et|area, field
+omstilling|en|transition, changeover
+opgave|en|task, assignment
+ord|et|word
+ordning|en|scheme, arrangement
+overenskomst|en|collective agreement
+overvægt|en|overweight, obesity
+pandemi|en|pandemic
+parti|et|political party
+part|en|party (to an agreement)
+patient|en|patient
+pendler|en|commuter
+penge|—|money (always plural)
+pension|en|pension
+pensionsalder|en|retirement age
+periode|en|period
+personale|et|staff, personnel
+plads|en|space, seat, square
+plan|en|plan
+plejehjem|et|nursing home
+politiker|en|politician
+pris|en|price
+problem|et|problem
+procent|en|per cent
+produktion|en|production
+produktivitet|en|productivity
+pres|et|pressure
+psykiatri|en|psychiatry, mental health services
+rapport|en|report
+region|en|region
+regering|en|government
+regel|en|rule (plural regler)
+resultat|et|result
+ret|en|right; dish
+rettighed|en|right, entitlement
+råd|et|advice; council
+samarbejde|et|cooperation
+samfund|et|society
+samtale|en|conversation, interview
+sektor|en|sector
+side|en|side, page
+situation|en|situation
+skat|en|tax
+skema|et|timetable, schedule
+skole|en|school
+skoledag|en|school day
+skærmtid|en|screen time
+sprog|et|language
+stat|en|state
+statistik|en|statistics
+sted|et|place
+stilling|en|position, job vacancy
+strategi|en|strategy
+stress|en|stress
+studerende|en|student
+støtte|en|support, subsidy
+sundhed|en|health
+Sundhedsstyrelsen|—|the Danish Health Authority
+sundhedsvæsen|et|health service
+svar|et|answer
+sygdom|en|illness, disease
+sygefravær|et|sickness absence
+sygehus|et|hospital
+sygeplejerske|en|nurse
+symptom|et|symptom
+system|et|system
+søvn|en|sleep
+tal|et|number, figure
+team|et|team
+telefon|en|telephone
+tid|en|time
+tidspunkt|et|point in time
+tilbud|et|offer, service
+tillidsrepræsentant|en|union representative, shop steward
+time|en|hour; lesson
+tilskud|et|subsidy, grant
+trafik|en|traffic
+trivsel|en|wellbeing
+tusind|et|thousand
+uddannelse|en|education, training
+udbud|et|supply, range on offer
+udfordring|en|challenge
+udgift|en|expense, cost
+udlejer|en|landlord
+udledning|en|emission
+udland|et|abroad, foreign countries
+udvikling|en|development
+uge|en|week
+ulempe|en|disadvantage
+ulighed|en|inequality
+undersøgelse|en|survey, study
+undervisning|en|teaching, tuition
+universitet|et|university
+vand|et|water
+varmepumpe|en|heat pump
+vej|en|road, way
+vejr|et|weather
+ven|en|friend
+venteliste|en|waiting list
+ventetid|en|waiting time
+verden|en|world
+vindmølle|en|wind turbine
+vindue|et|window
+virksomhed|en|company, business
+voksen|en|adult
+vægt|en|weight; emphasis
+værdi|en|value
+ældre|—|the elderly (used as a noun with de)
+år|et|year (plural år)
+årsag|en|cause, reason
+økonomi|en|economy, finances
+økonom|en|economist
+åbningstid|en|opening hours
+chef|en|boss, manager
+husstand|en|household
+kritiker|en|critic
+type|en|type, kind
+start|en|start, beginning
+spørgsmål|et|question
+storby|en|large city
+sommerferie|en|summer holiday
+ungdomsbolig|en|housing for young people
+motionstilbud|et|exercise scheme, fitness offer
+gengæld|en|return (til gengæld = in return, on the other hand)
+årevis|—|for years (i årevis)
+tusindvis|—|thousands (tusindvis af)
+sundhedsmyndighed|en|health authority
+skoledag|en|school day
+sag|en|case, matter
+myndighed|en|authority
+adgang|en|access
+begrundelse|en|justification, reason
+betydning|en|meaning, importance
+bidrag|et|contribution
+erstatning|en|compensation
+fokus|et|focus
+funktion|en|function
+holdning|en|attitude, opinion
+initiativ|et|initiative
+kilde|en|source
+konsekvens|en|consequence
+mængde|en|amount, quantity
+overskud|et|surplus, energy to spare
+oplevelse|en|experience
+opmærksomhed|en|attention
+prioritet|en|priority
+proces|en|process
+sammenhæng|en|context, connection
+skridt|et|step
+synspunkt|et|point of view
+tendens|en|trend, tendency
+tilknytning|en|attachment, connection
+udbytte|et|benefit, yield
+vilkår|et|condition, term
+væsen|et|nature; service (sundhedsvæsen)
+ændring|en|change

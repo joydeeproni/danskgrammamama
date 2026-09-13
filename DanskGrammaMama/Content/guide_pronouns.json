@@ -1,0 +1,120 @@
+{
+  "topic": "pronouns",
+  "intro": {
+    "en": "PD3 punishes two things here: picking den where the noun is intetkøn, and using de where the grammar needs dem. Both are decided by mechanical tests you can run in two seconds, so this topic is pure points once the tests are automatic.",
+    "da": "PD3 straffer især to ting her: at vælge den, når ordet er intetkøn, og at bruge de, hvor grammatikken kræver dem. Begge dele afgøres af mekaniske tests, der tager to sekunder, så dette emne er rene point, når testene sidder på rygraden."
+  },
+  "sections": [
+    {
+      "title": {"en": "den or det: let the article decide", "da": "den eller det: lad artiklen bestemme"},
+      "rules": [
+        {"en": "A noun that takes en (fælleskøn) is replaced by den. A noun that takes et (intetkøn) is replaced by det.", "da": "Et ord, der hedder en (fælleskøn), erstattes af den. Et ord, der hedder et (intetkøn), erstattes af det."},
+        {"en": "The gender belongs to the word, not to the thing. En plan, en aftale, en lov, en strategi are all den, even though they are abstract.", "da": "Kønnet hører til ordet, ikke til tingen. En plan, en aftale, en lov, en strategi er alle den, selvom de er abstrakte."},
+        {"en": "When the pronoun refers back to a whole sentence rather than one noun, it is always det.", "da": "Når pronomenet henviser til en hel sætning og ikke til ét substantiv, er det altid det."}
+      ],
+      "hack": {
+        "en": "Say the noun with its indefinite article under your breath: en lov → den, et forslag → det. If you cannot hear the article, the definite ending tells you: -en → den, -et → det.",
+        "da": "Sig substantivet med ubestemt artikel inde i hovedet: en lov → den, et forslag → det. Kan du ikke høre artiklen, så se på endelsen i bestemt form: -en → den, -et → det."
+      },
+      "examples": [
+        {"da": "Kommunen har vedtaget en klimaplan, men **den** træder først i kraft næste år.", "en": "en klimaplan → den"},
+        {"da": "Folketinget behandler et nyt forslag, og **det** bliver vedtaget i næste uge.", "en": "et forslag → det"},
+        {"da": "Huslejen er steget kraftigt, og **det** rammer især de unge.", "en": "det refers to the whole preceding statement"}
+      ]
+    },
+    {
+      "title": {"en": "de or dem: the han/ham swap", "da": "de eller dem: byt med han/ham"},
+      "rules": [
+        {"en": "De is the subject form: it does the verb. Dem is the object form: it receives the verb or follows a preposition.", "da": "De er subjektsform: det udfører verbet. Dem er objektsform: det modtager verbet eller står efter en præposition."},
+        {"en": "After every preposition (til, for, af, med, hos, blandt, om) the form is dem, never de.", "da": "Efter enhver præposition (til, for, af, med, hos, blandt, om) hedder det dem, aldrig de."},
+        {"en": "In de, der … / dem, der … the choice is decided by the main clause, not by der: de, der klager (subject) but hjælper dem, der klager (object).", "da": "I de, der … / dem, der … afgøres valget af hovedsætningen, ikke af der: de, der klager (subjekt), men hjælper dem, der klager (objekt)."}
+      ],
+      "hack": {
+        "en": "Swap in the singular han/ham. If han sounds right, write de. If ham sounds right, write dem. English they/them works the same way, so trust that instinct here.",
+        "da": "Byt til ental han/ham. Lyder han rigtigt, skal du skrive de. Lyder ham rigtigt, skal du skrive dem. Engelsk they/them fungerer på samme måde, så stol på fornemmelsen her."
+      },
+      "examples": [
+        {"da": "**De**, der arbejder om natten, sover dårligere. (han arbejder → de)", "en": "subject of the sentence"},
+        {"da": "Reformen ramte især **dem**, der havde hårdt fysisk arbejde. (ramte ham → dem)", "en": "object of ramte"},
+        {"da": "Politikerne lytter sjældent til **dem**. (til ham → dem)", "en": "after a preposition"}
+      ]
+    },
+    {
+      "title": {"en": "denne, dette, disse in written Danish", "da": "denne, dette, disse i skriftsprog"},
+      "rules": [
+        {"en": "Denne + fælleskøn, dette + intetkøn, disse + flertal. The noun stays in the indefinite form: denne rapport, not denne rapporten.", "da": "Denne + fælleskøn, dette + intetkøn, disse + flertal. Substantivet står i ubestemt form: denne rapport, ikke denne rapporten."},
+        {"en": "Spoken Danish says den her / det her / de her. In a PD3 written answer, prefer denne / dette / disse.", "da": "I talesprog siger man den her / det her / de her. I en skriftlig PD3-besvarelse er denne / dette / disse at foretrække."},
+        {"en": "Dette also refers back to something just said: Dette betyder, at …", "da": "Dette henviser også tilbage til noget netop sagt: Dette betyder, at …"}
+      ],
+      "hack": {
+        "en": "Same gender test as den/det, one letter longer: den → denne, det → dette, de → disse. If you know the article, you know the demonstrative.",
+        "da": "Samme kønstest som den/det, blot ét bogstav længere: den → denne, det → dette, de → disse. Kender du artiklen, kender du det påpegende pronomen."
+      },
+      "examples": [
+        {"da": "**Denne** undersøgelse bygger på svar fra 2.000 borgere.", "en": "en undersøgelse → denne"},
+        {"da": "**Dette** initiativ skal få flere ældre til at blive længere på arbejdsmarkedet.", "en": "et initiativ → dette"},
+        {"da": "**Disse** tal viser en klar tendens.", "en": "plural → disse"}
+      ]
+    },
+    {
+      "title": {"en": "det as the placeholder subject", "da": "det som formelt subjekt"},
+      "rules": [
+        {"en": "Danish sentences need a subject. When the real content comes later as an at-clause or infinitive, det holds the seat: Det er vigtigt at møde til tiden.", "da": "Danske sætninger skal have et subjekt. Når det egentlige indhold kommer senere som en at-sætning eller infinitiv, holder det pladsen: Det er vigtigt at møde til tiden."},
+        {"en": "Weather, time and duration take det: det regner, det er sent, det tager tre måneder.", "da": "Vejr, tid og varighed tager det: det regner, det er sent, det tager tre måneder."},
+        {"en": "Der is different: it introduces something that exists. Der er mange ansøgere, but Det er svært at vælge.", "da": "Der er noget andet: det indfører noget, der findes. Der er mange ansøgere, men Det er svært at vælge."}
+      ],
+      "hack": {
+        "en": "Ask what follows. A noun that exists somewhere → der er. An adjective plus at or a whole clause → det er. Der er mange problemer / Det er et problem, at …",
+        "da": "Se på, hvad der følger. Et substantiv, der findes et sted → der er. Et adjektiv plus at eller en hel sætning → det er. Der er mange problemer / Det er et problem, at …"
+      },
+      "examples": [
+        {"da": "**Det** er afgørende, at nyankomne hurtigt får kontakt til arbejdsmarkedet.", "en": "placeholder for the at-clause"},
+        {"da": "**Det** lykkedes parterne at nå til enighed.", "en": "fixed with lykkes"},
+        {"da": "**Der** er stadig lange ventelister i psykiatrien.", "en": "existential der, not det"}
+      ]
+    },
+    {
+      "title": {"en": "man, en, ens: people in general", "da": "man, en, ens: folk i almindelighed"},
+      "rules": [
+        {"en": "Man is the subject form only: Man skal huske at melde flytning.", "da": "Man er kun subjektsform: Man skal huske at melde flytning."},
+        {"en": "As an object or after a preposition, man becomes en: Stress påvirker ikke kun en selv.", "da": "Som objekt eller efter en præposition bliver man til en: Stress påvirker ikke kun en selv."},
+        {"en": "The possessive is ens: hvis ens egen læge ikke lytter.", "da": "Ejeformen er ens: hvis ens egen læge ikke lytter."},
+        {"en": "Never mix man with du or vi inside the same passage: pick one and stay with it.", "da": "Bland aldrig man med du eller vi i samme afsnit: vælg ét og bliv ved det."}
+      ],
+      "hack": {
+        "en": "Man works exactly like han: han/ham/hans becomes man/en/ens in the same three slots. If you would write ham, write en; if hans, write ens.",
+        "da": "Man opfører sig præcis som han: han/ham/hans bliver til man/en/ens i de samme tre positioner. Ville du skrive ham, så skriv en; ville du skrive hans, så skriv ens."
+      },
+      "examples": [
+        {"da": "**Man** skal ansøge om boligstøtte digitalt.", "en": "subject"},
+        {"da": "Et dårligt arbejdsmiljø går ud over **en** selv og familien.", "en": "object form"},
+        {"da": "Det betyder meget for **ens** trivsel at have kolleger, man kan tale med.", "en": "possessive"}
+      ]
+    },
+    {
+      "title": {"en": "sig or ham/hende/dem", "da": "sig eller ham/hende/dem"},
+      "rules": [
+        {"en": "Sig points back to the subject of the same clause: Hun tager sig af patienterne (herself).", "da": "Sig peger tilbage på subjektet i samme sætning: Hun tager sig af patienterne (sig selv)."},
+        {"en": "Ham, hende, dem point to somebody else: Hun tager sig af dem (other people).", "da": "Ham, hende, dem peger på en anden: Hun tager sig af dem (andre)."},
+        {"en": "Many everyday verbs simply include sig and must be learned whole: glæde sig, forestille sig, koncentrere sig, henvende sig, bevæge sig, undre sig.", "da": "Mange almindelige verber indeholder simpelthen sig og skal læres som en helhed: glæde sig, forestille sig, koncentrere sig, henvende sig, bevæge sig, undre sig."}
+      ],
+      "hack": {
+        "en": "Point a finger at the subject of the clause. If the pronoun means that same person, it is sig. If it means anyone else, it is ham, hende or dem.",
+        "da": "Peg på sætningens subjekt. Betyder pronomenet den samme person, skal der stå sig. Betyder det en anden, skal der stå ham, hende eller dem."
+      },
+      "examples": [
+        {"da": "Sygeplejersken tager **sig** af de ældste beboere.", "en": "the nurse herself acts"},
+        {"da": "Pædagogerne lovede at tage **dem** med til stranden.", "en": "them = the children, not the staff"},
+        {"da": "Mange nyansatte glæder **sig** til den første arbejdsdag.", "en": "glæde sig is a fixed reflexive verb"}
+      ]
+    }
+  ],
+  "traps": [
+    {"en": "✗ Regeringen fremlagde et forslag, og den blev vedtaget → ✓ og **det** blev vedtaget (et forslag is intetkøn)", "da": "✗ Regeringen fremlagde et forslag, og den blev vedtaget → ✓ og **det** blev vedtaget (et forslag er intetkøn)"},
+    {"en": "✗ Kommunen hjælper de, der har mistet jobbet → ✓ hjælper **dem**, der … (object of hjælper)", "da": "✗ Kommunen hjælper de, der har mistet jobbet → ✓ hjælper **dem**, der … (objekt for hjælper)"},
+    {"en": "✗ Dem, der arbejder om natten, sover dårligere → ✓ **De**, der arbejder … (subject of the sentence)", "da": "✗ Dem, der arbejder om natten, sover dårligere → ✓ **De**, der arbejder … (sætningens subjekt)"},
+    {"en": "✗ denne rapporten viser → ✓ **denne rapport** viser (the noun stays indefinite after denne)", "da": "✗ denne rapporten viser → ✓ **denne rapport** viser (substantivet står i ubestemt form efter denne)"},
+    {"en": "✗ Der er vigtigt at møde til tiden → ✓ **Det** er vigtigt at møde til tiden", "da": "✗ Der er vigtigt at møde til tiden → ✓ **Det** er vigtigt at møde til tiden"},
+    {"en": "✗ Man skal passe på din sundhed → ✓ Man skal passe på **sin** sundhed (do not switch from man to du)", "da": "✗ Man skal passe på din sundhed → ✓ Man skal passe på **sin** sundhed (skift ikke fra man til du)"}
+  ]
+}

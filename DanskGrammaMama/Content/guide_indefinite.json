@@ -1,0 +1,283 @@
+{
+  "topic": "indefinite",
+  "intro": {
+    "en": "PD3 asks you to fill in noget, nogen or nogle, and the choice depends on three things at once: the gender of the noun, its number, and whether the sentence is a statement, a question or a negation. Learners lose points because spoken Danish pronounces nogen and nogle the same, so the written distinction has to be learned as a rule.",
+    "da": "I PD3 skal du sætte noget, nogen eller nogle ind, og valget afhænger af tre ting på én gang: substantivets køn, dets tal, og om sætningen er fremsættende, spørgende eller nægtende. Man taber point, fordi nogen og nogle udtales ens i talesprog, så den skriftlige forskel skal læres som en regel."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "The decision table: gender? number? question or negation?",
+        "da": "Beslutningstabellen: køn? tal? spørgsmål eller nægtelse?"
+      },
+      "rules": [
+        {
+          "en": "Step 1 – amount or intetkøn ental: an uncountable amount (noget hjælp, noget erfaring, noget vand) or an intetkøn noun in the singular (noget udstyr, noget svar) → noget. Sentence type does not matter.",
+          "da": "Trin 1 – mængde eller intetkøn ental: en utællelig mængde (noget hjælp, noget erfaring, noget vand) eller et intetkønsord i ental (noget udstyr, noget svar) → noget. Sætningstypen er ligegyldig."
+        },
+        {
+          "en": "Step 2 – flertal: in a plain statement → nogle (nogle forældre, nogle undersøgelser). In a question, a negation or a hvis-clause → nogen (har du nogen spørgsmål? ikke nogen klager).",
+          "da": "Trin 2 – flertal: i en fremsættende sætning → nogle (nogle forældre, nogle undersøgelser). I et spørgsmål, en nægtelse eller en hvis-ledsætning → nogen (har du nogen spørgsmål? ikke nogen klager)."
+        },
+        {
+          "en": "Step 3 – fælleskøn ental, countable (en bil, en plan, en grund): → nogen, and it appears almost only in questions, negations and conditions: har du nogen bil? ikke nogen plan.",
+          "da": "Trin 3 – fælleskøn ental, tælleligt (en bil, en plan, en grund): → nogen, og det optræder næsten kun i spørgsmål, nægtelser og betingelser: har du nogen bil? ikke nogen plan."
+        },
+        {
+          "en": "Question, negation and hvis behave the same way: Har du nogen …? / Hun har ikke nogen … / Hvis der er nogen … all mean 'any'.",
+          "da": "Spørgsmål, nægtelse og hvis opfører sig ens: Har du nogen …? / Hun har ikke nogen … / Hvis der er nogen … betyder alle 'any'."
+        }
+      ],
+      "hack": {
+        "en": "Put en/et in front of the noun. Works with et (et svar, et udstyr) or with no article at all (hjælp, vand, erfaring) → noget. Works with en (en plan, en grund) → nogen. Needs a plural (forældre, klager) → nogle in a statement, nogen if anyone is asking or denying.",
+        "da": "Sæt en/et foran substantivet. Passer et (et svar, et udstyr) eller slet ingen artikel (hjælp, vand, erfaring) → noget. Passer en (en plan, en grund) → nogen. Kræver flertal (forældre, klager) → nogle i en fremsættende sætning, nogen hvis nogen spørger eller nægter."
+      },
+      "examples": [
+        {
+          "da": "Selv om den nye affaldssortering er indført, kræver det **noget** arbejde, før alle har vænnet sig til spandene.",
+          "en": "Even though the new waste sorting has been introduced, it takes some work before everyone gets used to the bins."
+        },
+        {
+          "da": "På forældremødet foreslog **nogle** forældre, at skolen indfører mobilfri undervisning.",
+          "en": "At the parents' meeting some parents suggested that the school introduce phone-free lessons."
+        },
+        {
+          "da": "Har du **nogen** idé om, hvorfor så mange unge dropper ud af erhvervsuddannelserne?",
+          "en": "Do you have any idea why so many young people drop out of vocational education?"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Noget: amount, intetkøn and 'somewhat'",
+        "da": "Noget: mængde, intetkøn og 'lidt'"
+      },
+      "rules": [
+        {
+          "en": "Noget before an intetkøn noun in the singular: noget udstyr, noget vand, noget svar, noget bevis.",
+          "da": "Noget foran et intetkønsord i ental: noget udstyr, noget vand, noget svar, noget bevis."
+        },
+        {
+          "en": "Noget before uncountable nouns even when they are fælleskøn: noget hjælp, noget erfaring, noget støtte, noget tid, noget mad. (Written Danish also allows nogen erfaring = 'a certain amount of'.)",
+          "da": "Noget foran utællelige ord, også når de er fælleskøn: noget hjælp, noget erfaring, noget støtte, noget tid, noget mad. (Skriftsproget tillader også nogen erfaring = 'en vis'.)"
+        },
+        {
+          "en": "Noget before a comparative is an adverb meaning 'a little, to some degree' and never changes: noget dyrere, noget kortere, noget længere – regardless of the subject's number.",
+          "da": "Noget foran en komparativ er et adverbium med betydningen 'lidt, til en vis grad' og bøjes aldrig: noget dyrere, noget kortere, noget længere – uanset subjektets tal."
+        },
+        {
+          "en": "Standing alone, noget = 'something/anything' (a thing): Er der noget, jeg kan gøre?",
+          "da": "Alene betyder noget 'something/anything' (en ting): Er der noget, jeg kan gøre?"
+        }
+      ],
+      "hack": {
+        "en": "Ask 'how much?'. If that question makes sense (how much water, how much help, how much more expensive?) the answer is noget. If you would have to ask 'how many?', it is nogen/nogle.",
+        "da": "Spørg 'hvor meget?'. Giver spørgsmålet mening (hvor meget vand, hvor meget hjælp, hvor meget dyrere?), er svaret noget. Skal du spørge 'hvor mange?', er det nogen/nogle."
+      },
+      "examples": [
+        {
+          "da": "Efter stormen manglede skolen **noget** udstyr til naturfagsundervisningen.",
+          "en": "After the storm the school lacked some equipment for science lessons."
+        },
+        {
+          "da": "Mange ældre har brug for **noget** hjælp til de praktiske opgaver, hvis de skal blive boende hjemme.",
+          "en": "Many elderly people need some help with practical tasks if they are to stay in their own homes."
+        },
+        {
+          "da": "Økologiske varer er stadig **noget** dyrere end de konventionelle, men flere vælger dem alligevel.",
+          "en": "Organic goods are still somewhat more expensive than conventional ones, but more people choose them anyway."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Nogen: fælleskøn ental – and plural in questions and negations",
+        "da": "Nogen: fælleskøn ental – og flertal i spørgsmål og nægtelser"
+      },
+      "rules": [
+        {
+          "en": "Fælleskøn ental, countable: nogen bil, nogen grund, nogen plan, nogen konflikt – in questions, negations and hvis-clauses.",
+          "da": "Fælleskøn ental, tælleligt: nogen bil, nogen grund, nogen plan, nogen konflikt – i spørgsmål, nægtelser og hvis-ledsætninger."
+        },
+        {
+          "en": "In questions, negations and conditions nogen is also used before flertal: har du nogen spørgsmål? – ikke nogen klager – findes der nogen beviser? (Retskrivningsordbogen also allows nogle in a plural question, but nogen is always safe.)",
+          "da": "I spørgsmål, nægtelser og betingelser bruges nogen også foran flertal: har du nogen spørgsmål? – ikke nogen klager – findes der nogen beviser? (Retskrivningsordbogen tillader også nogle i et flertalsspørgsmål, men nogen er altid sikkert.)"
+        },
+        {
+          "en": "Overhovedet, nogensinde and som helst signal 'any at all' and pull nogen/noget: overhovedet nogen beviser, ikke nogen som helst grund, ikke noget som helst bevis.",
+          "da": "Overhovedet, nogensinde og som helst signalerer 'nogen som helst' og trækker nogen/noget: overhovedet nogen beviser, ikke nogen som helst grund, ikke noget som helst bevis."
+        },
+        {
+          "en": "Standing alone, nogen = 'somebody/anybody' (one person): Der er nogen, der har glemt sin taske. Hvis nogen føler sig krænket, skal vedkommende …",
+          "da": "Alene betyder nogen 'somebody/anybody' (én person): Der er nogen, der har glemt sin taske. Hvis nogen føler sig krænket, skal vedkommende …"
+        }
+      ],
+      "hack": {
+        "en": "Translate the word to English in your head. 'Any' (because the sentence asks, denies or says hvis) → nogen, whether the noun is singular or plural. 'Some' before a plural in a plain statement → nogle. 'Some' before an amount → noget.",
+        "da": "Oversæt ordet til engelsk i hovedet. 'Any' (fordi sætningen spørger, nægter eller siger hvis) → nogen, uanset om substantivet er ental eller flertal. 'Some' foran flertal i en fremsættende sætning → nogle. 'Some' foran en mængde → noget."
+      },
+      "examples": [
+        {
+          "da": "Familien har ikke **nogen** bil, så de cykler til arbejde og tager toget til bedsteforældrene.",
+          "en": "The family does not have a car, so they cycle to work and take the train to the grandparents."
+        },
+        {
+          "da": "Kommunen har ikke modtaget **nogen** klager over den nye cykelsti.",
+          "en": "The municipality has not received any complaints about the new cycle path."
+        },
+        {
+          "da": "Hvis der opstår **nogen** konflikt mellem lederen og tillidsrepræsentanten, skal den løses i samarbejdsudvalget.",
+          "en": "If any conflict arises between the manager and the union representative, it must be resolved in the cooperation committee."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Nogle: plural in statements",
+        "da": "Nogle: flertal i fremsættende sætninger"
+      },
+      "rules": [
+        {
+          "en": "Nogle = 'some' before a plural noun in a statement: nogle undersøgelser, nogle eksperter, nogle enkle tiltag.",
+          "da": "Nogle = 'some' foran et flertalsord i en fremsættende sætning: nogle undersøgelser, nogle eksperter, nogle enkle tiltag."
+        },
+        {
+          "en": "Nogle af + bestemt flertal = a part of a group: nogle af de mindste biblioteker, nogle af medarbejderne.",
+          "da": "Nogle af + bestemt flertal = en del af en gruppe: nogle af de mindste biblioteker, nogle af medarbejderne."
+        },
+        {
+          "en": "Inversion after a fronted adverbial (I nogle brancher er …) or a ledsætning (selv om …, mener nogle eksperter …) changes nothing: it is still a statement, so still nogle.",
+          "da": "Inversion efter et fremrykket adverbial (I nogle brancher er …) eller en ledsætning (selv om …, mener nogle eksperter …) ændrer intet: det er stadig en fremsættende sætning, så stadig nogle."
+        },
+        {
+          "en": "Spoken Danish says nogen here (nogen forældre). In writing it is a mistake and costs points in PD3.",
+          "da": "I talesprog siger man nogen her (nogen forældre). På skrift er det en fejl og koster point i PD3."
+        }
+      ],
+      "hack": {
+        "en": "Find the plural signal: a noun ending in -er/-e or a plural adjective in -e (enkle, konkrete, mindste). Then ask: is anyone asking (?) or denying (ikke, aldrig, uden)? No → nogle. Yes → nogen.",
+        "da": "Find flertalssignalet: et substantiv på -er/-e eller et adjektiv i flertal på -e (enkle, konkrete, mindste). Spørg så: er der nogen, der spørger (?) eller nægter (ikke, aldrig, uden)? Nej → nogle. Ja → nogen."
+      },
+      "examples": [
+        {
+          "da": "**Nogle** undersøgelser viser, at medarbejdere med fleksible arbejdstider sjældnere melder sig syge.",
+          "en": "Some studies show that employees with flexible working hours call in sick less often."
+        },
+        {
+          "da": "Kommunen har besluttet at lukke **nogle** af de mindste biblioteker, fordi besparelserne ikke kan undgås.",
+          "en": "The municipality has decided to close some of the smallest libraries because the savings cannot be avoided."
+        },
+        {
+          "da": "I **nogle** brancher er sygefraværet steget markant, siden pandemien ændrede vores måde at arbejde på.",
+          "en": "In some sectors sickness absence has risen markedly since the pandemic changed the way we work."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Ikke nogen/noget versus ingen/intet",
+        "da": "Ikke nogen/noget eller ingen/intet"
+      },
+      "rules": [
+        {
+          "en": "Ingen goes with fælleskøn ental and with flertal (ingen løsning, ingen klager); intet only with intetkøn ental (intet håb, intet svar).",
+          "da": "Ingen hører til fælleskøn ental og til flertal (ingen løsning, ingen klager); intet kun til intetkøn ental (intet håb, intet svar)."
+        },
+        {
+          "en": "Ikke nogen = ingen and ikke noget = intet in meaning: ingen bil = ikke nogen bil; intet svar = ikke noget svar.",
+          "da": "Ikke nogen = ingen og ikke noget = intet i betydning: ingen bil = ikke nogen bil; intet svar = ikke noget svar."
+        },
+        {
+          "en": "Ingen/intet cannot stand after the participle of a compound verb: ✗ har modtaget intet svar. Split the negation instead: har ikke modtaget noget svar.",
+          "da": "Ingen/intet kan ikke stå efter tillægsformen i et sammensat verbal: ✗ har modtaget intet svar. Del nægtelsen i stedet: har ikke modtaget noget svar."
+        },
+        {
+          "en": "As the subject of the sentence use ingen/intet, never ikke nogen: Ingen af de adspurgte mente …",
+          "da": "Som subjekt i sætningen bruges ingen/intet, aldrig ikke nogen: Ingen af de adspurgte mente …"
+        }
+      ],
+      "hack": {
+        "en": "Count the verb parts. One verb (er, har, findes, kender) → ingen/intet works and sounds formal: der findes ingen løsning. Two parts (har modtaget, kan finde, vil give) → split it: ikke … nogen/noget. And ingen/intet still follow gender: et håb → intet håb.",
+        "da": "Tæl verbaldelene. Ét verbum (er, har, findes, kender) → ingen/intet passer og lyder formelt: der findes ingen løsning. To dele (har modtaget, kan finde, vil give) → del det: ikke … nogen/noget. Og ingen/intet følger stadig køn: et håb → intet håb."
+      },
+      "examples": [
+        {
+          "da": "Der findes **ingen** enkel løsning på manglen på sygeplejersker, selv om politikerne ofte lover det modsatte.",
+          "en": "There is no simple solution to the shortage of nurses, even though politicians often promise the opposite."
+        },
+        {
+          "da": "Efter tre ugers forhandlinger var der stadig **intet** håb om, at parterne kunne enes.",
+          "en": "After three weeks of negotiations there was still no hope that the parties could agree."
+        },
+        {
+          "da": "Kommunen oplyser, at den endnu ikke har modtaget **noget** svar fra ministeriet om finansieringen.",
+          "en": "The municipality states that it has not yet received any answer from the ministry about the funding."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Fixed expressions: nogensinde, som helst and the standalone forms",
+        "da": "Faste udtryk: nogensinde, som helst og de selvstændige former"
+      },
+      "rules": [
+        {
+          "en": "Nogensinde = 'ever': in questions, after a negation and after a superlative: Har du nogensinde overvejet …? aldrig nogensinde; den bedste chef, jeg nogensinde har haft.",
+          "da": "Nogensinde = 'ever': i spørgsmål, efter nægtelse og efter superlativ: Har du nogensinde overvejet …? aldrig nogensinde; den bedste chef, jeg nogensinde har haft."
+        },
+        {
+          "en": "Som helst strengthens the indefinite word, which still follows the noun's gender: noget som helst bevis (et bevis), nogen som helst grund (en grund), hvem/hvad som helst.",
+          "da": "Som helst forstærker det ubestemte ord, som stadig følger substantivets køn: noget som helst bevis (et bevis), nogen som helst grund (en grund), hvem/hvad som helst."
+        },
+        {
+          "en": "Standalone: nogen = a person, noget = a thing, nogle = several people or things (Nogle mener, at …).",
+          "da": "Selvstændigt: nogen = en person, noget = en ting, nogle = flere personer eller ting (Nogle mener, at …)."
+        }
+      ],
+      "hack": {
+        "en": "For a standalone word, look at what refers back to it later in the sentence: sin/han/hun/vedkommende → nogen (a person); det → noget (a thing); de/deres → nogle (several).",
+        "da": "Ved et selvstændigt ord: se på, hvad der peger tilbage på det senere i sætningen: sin/han/hun/vedkommende → nogen (en person); det → noget (en ting); de/deres → nogle (flere)."
+      },
+      "examples": [
+        {
+          "da": "Har du **nogensinde** overvejet at skifte branche, selv om du har arbejdet samme sted i tyve år?",
+          "en": "Have you ever considered changing sector, even though you have worked in the same place for twenty years?"
+        },
+        {
+          "da": "Der er **nogen**, der har glemt sin taske i mødelokalet, og receptionen vil gerne vide, hvem den tilhører.",
+          "en": "Someone has left their bag in the meeting room, and reception would like to know whose it is."
+        },
+        {
+          "da": "Efter ulykken kunne ledelsen ikke fremlægge **noget** som helst bevis for, at sikkerhedsreglerne var overholdt.",
+          "en": "After the accident, management could not present any evidence whatsoever that the safety rules had been followed."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ nogen forældre foreslog → ✓ nogle forældre foreslog (plural in a statement)",
+      "da": "✗ nogen forældre foreslog → ✓ nogle forældre foreslog (flertal i fremsættende sætning)"
+    },
+    {
+      "en": "✗ har ikke modtaget nogle klager → ✓ har ikke modtaget nogen klager (negation → nogen, also before plural)",
+      "da": "✗ har ikke modtaget nogle klager → ✓ har ikke modtaget nogen klager (nægtelse → nogen, også foran flertal)"
+    },
+    {
+      "en": "✗ er der noget grund til …? → ✓ er der nogen grund til …? (en grund, fælleskøn)",
+      "da": "✗ er der noget grund til …? → ✓ er der nogen grund til …? (en grund, fælleskøn)"
+    },
+    {
+      "en": "✗ nogle vand / nogle udstyr → ✓ noget vand / noget udstyr (uncountable or intetkøn → noget)",
+      "da": "✗ nogle vand / nogle udstyr → ✓ noget vand / noget udstyr (utælleligt eller intetkøn → noget)"
+    },
+    {
+      "en": "✗ nogen dyrere / nogle kortere → ✓ noget dyrere / noget kortere (adverb before a comparative never changes)",
+      "da": "✗ nogen dyrere / nogle kortere → ✓ noget dyrere / noget kortere (adverbium foran komparativ bøjes ikke)"
+    },
+    {
+      "en": "✗ har modtaget intet svar / intet løsning → ✓ har ikke modtaget noget svar / ingen løsning",
+      "da": "✗ har modtaget intet svar / intet løsning → ✓ har ikke modtaget noget svar / ingen løsning"
+    }
+  ]
+}

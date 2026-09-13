@@ -74,6 +74,7 @@ struct ExamRunView: View {
             } else {
                 let q = questions[index]
                 QuestionView(question: q, number: index + 1, total: questions.count, immediateFeedback: false,
+                             inputMode: resolveInputMode(progress.settings.inputMode, for: q),
                              onAnswered: { correct, given in
                                  progress.record(question: q, correct: correct)
                                  answered.append(AnsweredItem(question: q, given: given, correct: correct))
@@ -133,32 +134,7 @@ struct ExamResultView: View {
                 .card()
 
                 ForEach(Array(items.enumerated()), id: \.element.id) { i, item in
-                    VStack(alignment: .leading, spacing: 8) {
-                        HStack(alignment: .firstTextBaseline) {
-                            Text("\(i + 1).").font(.footnote.monospacedDigit()).foregroundStyle(.secondary)
-                            Text(item.question.filledPrompt)
-                                .font(.system(.body, design: .serif))
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        HStack(spacing: 6) {
-                            Image(systemName: item.correct ? "checkmark.circle.fill" : "xmark.circle.fill")
-                                .foregroundStyle(item.correct ? Style.correct : Style.wrong)
-                            if item.correct {
-                                Text(item.question.answer).bold()
-                            } else {
-                                Text(item.given.isEmpty ? "—" : item.given).strikethrough().foregroundStyle(Style.wrong)
-                                Image(systemName: "arrow.right").font(.caption).foregroundStyle(.secondary)
-                                Text(item.question.answer).bold().foregroundStyle(Style.correct)
-                            }
-                        }
-                        .font(.subheadline)
-                        if !item.correct {
-                            Text(item.question.explanation.text(in: language))
-                                .font(.subheadline).foregroundStyle(.secondary)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                    }
-                    .card()
+                    AnsweredItemRow(item: item, language: language, showNumber: i + 1)
                 }
 
                 Button("Done") { onDone() }.buttonStyle(PrimaryButtonStyle())

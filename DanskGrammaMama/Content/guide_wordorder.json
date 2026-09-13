@@ -1,0 +1,271 @@
+{
+  "topic": "wordorder",
+  "intro": {
+    "en": "Prøve i Dansk 3 tests two word-order systems: the hovedsætning, where the finite verb always stands in second position, and the ledsætning, where the subject comes first and adverbials like ikke stand before the verb. Learners lose points by copying English order after a fronted element and by using hovedsætning order after fordi, at and som.",
+    "da": "Prøve i Dansk 3 tester to ordstillingssystemer: hovedsætningen, hvor det finitte verbum altid står på anden plads, og ledsætningen, hvor subjektet kommer først, og adverbialer som ikke står før verbet. Kursister taber point, når de kopierer engelsk ordstilling efter et fremrykket led, og når de bruger hovedsætningsordstilling efter fordi, at og som."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "V2: the verb is always second in a hovedsætning",
+        "da": "V2: verbet står altid på anden plads i en hovedsætning"
+      },
+      "rules": [
+        {
+          "en": "A Danish hovedsætning allows exactly one element before the finite verb. Whatever comes first – subject, time, place, object or a whole ledsætning – the verb comes right after it.",
+          "da": "En dansk hovedsætning tillader kun ét led foran det finitte verbum. Uanset om det første led er subjekt, tid, sted, objekt eller en hel ledsætning, kommer verbet lige efter."
+        },
+        {
+          "en": "If the first element is not the subject, the subject moves to the slot right after the verb (inversion): I dag tager jeg bussen.",
+          "da": "Hvis det første led ikke er subjektet, rykker subjektet hen på pladsen lige efter verbet (inversion): I dag tager jeg bussen."
+        },
+        {
+          "en": "A fronted ledsætning counts as one element, so the verb follows straight after the comma: Når det regner, tager jeg bussen.",
+          "da": "En fremrykket ledsætning tæller som ét led, så verbet kommer lige efter kommaet: Når det regner, tager jeg bussen."
+        },
+        {
+          "en": "Central adverbials (ikke, ofte, aldrig, også, stadig, endelig) stand right after the subject in inverted order: I dag tager jeg ikke bussen.",
+          "da": "Centrale adverbialer (ikke, ofte, aldrig, også, stadig, endelig) står lige efter subjektet ved inversion: I dag tager jeg ikke bussen."
+        }
+      ],
+      "hack": {
+        "en": "Count the elements in front of the verb. Put your finger on the finite verb: if two things stand before it (e.g. 'I dag' + 'jeg'), you have an error – move the subject to after the verb. One element in front, then the verb, then the subject.",
+        "da": "Tæl leddene foran verbet. Sæt fingeren på det finitte verbum: hvis der står to ting foran det (fx 'I dag' + 'jeg'), er der en fejl – flyt subjektet hen efter verbet. Ét led foran, så verbet, så subjektet."
+      },
+      "examples": [
+        {
+          "da": "Efter arbejde **går vi** ofte en tur langs havnen for at få frisk luft.",
+          "en": "After work we often go for a walk along the harbour to get some fresh air."
+        },
+        {
+          "da": "Hvis afgiften ikke sænkes, **fortsætter mange husejere** med at fyre med gas.",
+          "en": "If the tax is not lowered, many homeowners will keep heating with gas."
+        },
+        {
+          "da": "På mange arbejdspladser **har medarbejderne** ret til en halv times frokostpause.",
+          "en": "In many workplaces the employees have the right to a half-hour lunch break."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Ledsætning: subject – adverbial – verb",
+        "da": "Ledsætning: subjekt – adverbial – verbum"
+      },
+      "rules": [
+        {
+          "en": "In a ledsætning there is no inversion. The order is always: subordinator – subject – central adverbial – finite verb: …fordi han ikke kommer.",
+          "da": "I en ledsætning er der ingen inversion. Rækkefølgen er altid: konjunktion – subjekt – centralt adverbial – finit verbum: …fordi han ikke kommer."
+        },
+        {
+          "en": "All central adverbials follow the pattern, not only ikke: aldrig, altid, ofte, sjældent, stadig, også, endnu, allerede, gerne, længe.",
+          "da": "Alle centrale adverbialer følger mønstret, ikke kun ikke: aldrig, altid, ofte, sjældent, stadig, også, endnu, allerede, gerne, længe."
+        },
+        {
+          "en": "With compound tenses the adverbial stands before the whole verb chain: …at han endnu ikke er blevet indkaldt.",
+          "da": "Ved sammensatte tider står adverbialet før hele verbalkæden: …at han endnu ikke er blevet indkaldt."
+        },
+        {
+          "en": "The formal subject der behaves like any other subject: …fordi der ikke er penge nok.",
+          "da": "Det formelle subjekt der opfører sig som ethvert andet subjekt: …fordi der ikke er penge nok."
+        }
+      ],
+      "hack": {
+        "en": "The ikke test: drop ikke into the clause. If ikke lands BEFORE the verb (fordi han ikke kommer), you are in a ledsætning; if it lands AFTER the verb (han kommer ikke), you are in a hovedsætning. Every other adverbial goes in exactly the slot where ikke would go.",
+        "da": "Ikke-testen: sæt ikke ind i sætningen. Hvis ikke lander FØR verbet (fordi han ikke kommer), er du i en ledsætning; hvis det lander EFTER verbet (han kommer ikke), er du i en hovedsætning. Alle andre adverbialer skal stå præcis på den plads, hvor ikke ville stå."
+      },
+      "examples": [
+        {
+          "da": "Kommunen skærer ned, fordi der **ikke er** penge nok til at holde åbent om aftenen.",
+          "en": "The municipality is cutting back because there is not enough money to stay open in the evening."
+        },
+        {
+          "da": "Vi har en kollega, som **aldrig kommer** til tiden til møderne.",
+          "en": "We have a colleague who never arrives on time for the meetings."
+        },
+        {
+          "da": "Han er skuffet over, at han **endnu ikke er** blevet indkaldt til samtale.",
+          "en": "He is disappointed that he has not yet been called for an interview."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Which words start a ledsætning?",
+        "da": "Hvilke ord indleder en ledsætning?"
+      },
+      "rules": [
+        {
+          "en": "Subordinators: fordi, at, som, der, når, hvis, selvom, mens, efter at, før, indtil, om – and every question word used inside a sentence (hvad der, hvem der, hvordan, hvorfor, hvornår).",
+          "da": "Underordnende konjunktioner: fordi, at, som, der, når, hvis, selvom, mens, efter at, før, indtil, om – og alle spørgeord, der bruges inde i en sætning (hvad der, hvem der, hvordan, hvorfor, hvornår)."
+        },
+        {
+          "en": "After all of these the order is subject – adverbial – verb, however long the clause is.",
+          "da": "Efter alle disse ord er rækkefølgen subjekt – adverbial – verbum, uanset hvor lang sætningen er."
+        },
+        {
+          "en": "og, men, for and så (= therefore) are coordinating: they join two hovedsætninger, so hovedsætning order (verb second, ikke after the verb) continues after them.",
+          "da": "Og, men, for og så (= derfor) er sideordnende: de forbinder to hovedsætninger, så hovedsætningsordstillingen (verbet på anden plads, ikke efter verbet) fortsætter efter dem."
+        }
+      ],
+      "hack": {
+        "en": "Learn the short list by heart and treat each word as a warning sign: fordi – at – som – når – hvis – selvom – mens – om. When you see one, say 'subject first, then ikke, then verb' before you write. men and og are not on the list – they change nothing.",
+        "da": "Lær den korte liste udenad, og se hvert ord som et advarselsskilt: fordi – at – som – når – hvis – selvom – mens – om. Når du ser et af ordene, så sig 'subjekt først, så ikke, så verbum', før du skriver. Men og og står ikke på listen – de ændrer ingenting."
+      },
+      "examples": [
+        {
+          "da": "Hun er glad for sit arbejde, selvom hun **ikke får** særlig meget i løn.",
+          "en": "She likes her job even though she does not earn very much."
+        },
+        {
+          "da": "Skolen indførte mobilfri undervisning, efter at flere lærere **længe havde klaget** over uroen.",
+          "en": "The school introduced phone-free lessons after several teachers had complained about the disruption for a long time."
+        },
+        {
+          "da": "Huslejen stiger hvert år, men mange familier **flytter ikke** fra København.",
+          "en": "Rents rise every year, but many families do not move away from Copenhagen."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "fordi vs derfor",
+        "da": "Fordi eller derfor"
+      },
+      "rules": [
+        {
+          "en": "fordi gives the reason and starts a ledsætning: effect, fordi + subject + (ikke) + verb: …fordi det er svært at finde en parkeringsplads.",
+          "da": "Fordi angiver årsagen og indleder en ledsætning: virkning, fordi + subjekt + (ikke) + verbum: …fordi det er svært at finde en parkeringsplads."
+        },
+        {
+          "en": "derfor gives the consequence and is an adverbial in a hovedsætning. When it is fronted, the verb follows directly and the subject comes after: cause, og derfor måtte den lukke.",
+          "da": "Derfor angiver følgen og er et adverbial i en hovedsætning. Når det står først, kommer verbet lige efter, og subjektet bagefter: årsag, og derfor måtte den lukke."
+        },
+        {
+          "en": "The two words therefore demand opposite word order: fordi + subject + verb, but derfor + verb + subject.",
+          "da": "De to ord kræver altså modsat ordstilling: fordi + subjekt + verbum, men derfor + verbum + subjekt."
+        }
+      ],
+      "hack": {
+        "en": "Ask 'why?' or 'so what?'. The clause that answers WHY gets fordi and subject-first order; the clause that answers SO WHAT gets derfor and verb-first order (inversion). Never write fordi + verb or derfor + subject.",
+        "da": "Spørg 'hvorfor?' eller 'og hvad så?'. Den sætning, der svarer på HVORFOR, får fordi og subjektet først; den sætning, der svarer på OG HVAD SÅ, får derfor og verbet først (inversion). Skriv aldrig fordi + verbum eller derfor + subjekt."
+      },
+      "examples": [
+        {
+          "da": "Han tager ofte bussen, **fordi det er** svært at finde en parkeringsplads i centrum.",
+          "en": "He often takes the bus because it is hard to find a parking space in the centre."
+        },
+        {
+          "da": "Skolen fik færre elever end ventet, og **derfor måtte den** lukke en klasse.",
+          "en": "The school got fewer pupils than expected, and therefore it had to close a class."
+        },
+        {
+          "da": "Mange ældre føler sig ensomme, og **derfor uddanner kommunerne** frivillige besøgsvenner.",
+          "en": "Many elderly people feel lonely, and so the municipalities train volunteer visitors."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Indirect questions: om, hvad der, hvem der",
+        "da": "Indirekte spørgsmål: om, hvad der, hvem der"
+      },
+      "rules": [
+        {
+          "en": "A reported yes/no question starts with om and has ledsætning order: Hun spurgte, om jeg stadig var interesseret (not: om var jeg).",
+          "da": "Et gengivet ja/nej-spørgsmål indledes med om og har ledsætningsordstilling: Hun spurgte, om jeg stadig var interesseret (ikke: om var jeg)."
+        },
+        {
+          "en": "A reported wh-question keeps the question word but loses the inversion: Politikerne diskuterer, hvordan man bedst kan tiltrække sygeplejersker.",
+          "da": "Et gengivet hv-spørgsmål beholder spørgeordet, men mister inversionen: Politikerne diskuterer, hvordan man bedst kan tiltrække sygeplejersker."
+        },
+        {
+          "en": "If the question word is itself the subject, Danish inserts der: Ingen ved, hvad der sker; Bestyrelsen beslutter, hvem der skal overtage. Never hvem som here.",
+          "da": "Hvis spørgeordet selv er subjekt, indsætter dansk der: Ingen ved, hvad der sker; Bestyrelsen beslutter, hvem der skal overtage. Aldrig hvem som her."
+        }
+      ],
+      "hack": {
+        "en": "Turn the clause back into a direct question. If the direct question has no subject after the verb (Hvad sker? Hvem kommer?), the question word IS the subject and needs der: hvad der sker, hvem der kommer. If there is a subject (Hvad mener de?), no der: hvad de mener.",
+        "da": "Lav ledsætningen om til et direkte spørgsmål. Hvis det direkte spørgsmål ikke har et subjekt efter verbet (Hvad sker? Hvem kommer?), ER spørgeordet subjekt og skal have der: hvad der sker, hvem der kommer. Hvis der er et subjekt (Hvad mener de?), skal der ikke stå der: hvad de mener."
+      },
+      "examples": [
+        {
+          "da": "Personalechefen spurgte, **om jeg stadig var** interesseret i at gå ned i tid.",
+          "en": "The HR manager asked whether I was still interested in reducing my hours."
+        },
+        {
+          "da": "Ingen ved endnu, **hvad der bliver afsat** til folkeskolen i næste års finanslov.",
+          "en": "Nobody knows yet what will be allocated to primary schools in next year's budget."
+        },
+        {
+          "da": "Bestyrelsen har endnu ikke besluttet, **hvem der skal** overtage ledelsen.",
+          "en": "The board has not yet decided who is to take over the management."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "ikke with modal verbs and compound tenses",
+        "da": "Ikke ved modalverber og sammensatte tider"
+      },
+      "rules": [
+        {
+          "en": "In a hovedsætning ikke stands after the FIRST (finite) verb and before all infinitives and participles: kan ikke nå, har ikke kunnet gennemføre.",
+          "da": "I en hovedsætning står ikke efter det FØRSTE (finitte) verbum og før alle infinitiver og participier: kan ikke nå, har ikke kunnet gennemføre."
+        },
+        {
+          "en": "Never split the non-finite chain (har kunnet ikke gennemføre) and never put ikke after the infinitive (kan nå ikke).",
+          "da": "Del aldrig den infinitte kæde (har kunnet ikke gennemføre), og sæt aldrig ikke efter infinitiven (kan nå ikke)."
+        },
+        {
+          "en": "In a ledsætning the whole verb chain moves behind ikke: …fordi de ikke har kunnet fokusere.",
+          "da": "I en ledsætning rykker hele verbalkæden hen bag ikke: …fordi de ikke har kunnet fokusere."
+        }
+      ],
+      "hack": {
+        "en": "Find the verb that carries the tense (kan/kunne, har/havde, vil, skal, må). In a hovedsætning that is the only verb ikke may stand directly after. The rest of the chain stays glued together behind it: har | ikke | kunnet gennemføre.",
+        "da": "Find det verbum, der bærer tiden (kan/kunne, har/havde, vil, skal, må). I en hovedsætning er det det eneste verbum, ikke må stå lige efter. Resten af kæden bliver stående samlet bagefter: har | ikke | kunnet gennemføre."
+      },
+      "examples": [
+        {
+          "da": "Mange pendlere **kan ikke nå** deres tog, når der er sporarbejde på strækningen.",
+          "en": "Many commuters cannot catch their train when there is track work on the line."
+        },
+        {
+          "da": "Sygehuset **har ikke kunnet gennemføre** alle planlagte operationer til tiden.",
+          "en": "The hospital has not been able to carry out all scheduled operations on time."
+        },
+        {
+          "da": "Mange studerende klager over, at de **ikke har kunnet fokusere** fuldt ud på studiet.",
+          "en": "Many students complain that they have not been able to focus fully on their studies."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ I dag jeg tager bussen → ✓ I dag tager jeg bussen (V2: only one element before the verb)",
+      "da": "✗ I dag jeg tager bussen → ✓ I dag tager jeg bussen (V2: kun ét led foran verbet)"
+    },
+    {
+      "en": "✗ …fordi han kommer ikke → ✓ …fordi han ikke kommer (ledsætning: ikke before the verb)",
+      "da": "✗ …fordi han kommer ikke → ✓ …fordi han ikke kommer (ledsætning: ikke før verbet)"
+    },
+    {
+      "en": "✗ …og derfor den måtte lukke → ✓ …og derfor måtte den lukke (derfor triggers inversion)",
+      "da": "✗ …og derfor den måtte lukke → ✓ …og derfor måtte den lukke (derfor udløser inversion)"
+    },
+    {
+      "en": "✗ Hun spurgte, om var jeg interesseret → ✓ Hun spurgte, om jeg var interesseret (no inversion after om)",
+      "da": "✗ Hun spurgte, om var jeg interesseret → ✓ Hun spurgte, om jeg var interesseret (ingen inversion efter om)"
+    },
+    {
+      "en": "✗ Ingen ved, hvad sker → ✓ Ingen ved, hvad der sker (question word as subject needs der)",
+      "da": "✗ Ingen ved, hvad sker → ✓ Ingen ved, hvad der sker (spørgeord som subjekt kræver der)"
+    },
+    {
+      "en": "✗ Sygehuset har kunnet ikke gennemføre → ✓ Sygehuset har ikke kunnet gennemføre (ikke right after the finite verb)",
+      "da": "✗ Sygehuset har kunnet ikke gennemføre → ✓ Sygehuset har ikke kunnet gennemføre (ikke lige efter det finitte verbum)"
+    }
+  ]
+}

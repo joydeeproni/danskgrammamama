@@ -1,0 +1,370 @@
+{
+  "topic": "prepositions",
+  "questions": [
+    {
+      "id": "prepositions-c01",
+      "topic": "prepositions",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Efter at hun {1} to år siden fik konstateret diabetes, skal hun hver tredje måned til kontrol {2} sin egen læge, som følger behandlingen tæt.",
+      "blanks": [
+        {
+          "options": [
+            "for",
+            "i",
+            "om",
+            "på"
+          ],
+          "answer": "for",
+          "explanation": {
+            "en": "A point in the past measured from now is expressed with for … siden: for to år siden. I to år would mean a duration (for two years), and om to år points to the future (in two years).",
+            "da": "Et tidspunkt i fortiden målt fra nu udtrykkes med for … siden: for to år siden. I to år betyder en varighed (i to år), og om to år peger fremad i tiden (om to år)."
+          }
+        },
+        {
+          "options": [
+            "hos",
+            "ved",
+            "på",
+            "til"
+          ],
+          "answer": "hos",
+          "explanation": {
+            "en": "When you are at a person's place or practice (a doctor, hairdresser, dentist), Danish uses hos: hos lægen, hos frisøren. På is for institutions and buildings (på hospitalet), and ved is a place preposition (ved bordet), so til kontrol ved sin læge is not idiomatic.",
+            "da": "Når man er hos en person eller i dennes praksis (læge, frisør, tandlæge), bruger dansk hos: hos lægen, hos frisøren. På bruges om institutioner og bygninger (på hospitalet), og ved er en stedspræposition (ved bordet), så til kontrol ved sin læge er ikke idiomatisk dansk."
+          }
+        }
+      ],
+      "tags": [
+        "tid",
+        "for siden",
+        "hos"
+      ]
+    },
+    {
+      "id": "prepositions-c02",
+      "topic": "prepositions",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Mange unge fra Bornholm flytter til hovedstaden og bor de første år {1} Nørrebro, men når de får børn, drømmer flere {2} at vende tilbage til øen.",
+      "blanks": [
+        {
+          "options": [
+            "på",
+            "i",
+            "ved",
+            "til"
+          ],
+          "answer": "på",
+          "explanation": {
+            "en": "Copenhagen's districts take på: på Nørrebro, på Vesterbro, på Amager, på Frederiksberg. Learners transfer i from i København or i byen, but i Nørrebro is the classic error; ved would only mean near the district.",
+            "da": "Københavns bydele står med på: på Nørrebro, på Vesterbro, på Amager, på Frederiksberg. Mange overfører i fra i København eller i byen, men i Nørrebro er den klassiske fejl, og ved ville kun betyde i nærheden af bydelen."
+          }
+        },
+        {
+          "options": [
+            "om",
+            "på",
+            "for",
+            "til"
+          ],
+          "answer": "om",
+          "explanation": {
+            "en": "The fixed verb + preposition is drømme om (noget / at gøre noget), in the same family as tale om and tænke over. Håbe på and glæde sig til pull learners towards på and til, but drømme always takes om.",
+            "da": "Det faste udtryk er verbum + præposition drømme om (noget / at gøre noget), i samme familie som tale om og tænke over. Håbe på og glæde sig til får mange til at vælge på eller til, men drømme tager altid om."
+          }
+        }
+      ],
+      "tags": [
+        "sted",
+        "bydel",
+        "verbum+præp",
+        "drømme om"
+      ]
+    },
+    {
+      "id": "prepositions-c03",
+      "topic": "prepositions",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Mange sygeplejersker med skiftende arbejdstider føler sig udkørte, fordi de ofte arbejder {1} natten og bagefter har svært {2} at falde i søvn, når de kommer hjem.",
+      "blanks": [
+        {
+          "options": [
+            "om",
+            "i",
+            "på",
+            "ved"
+          ],
+          "answer": "om",
+          "explanation": {
+            "en": "Recurring parts of the day take om + definite form: om natten, om morgenen, om aftenen. I natten is the classic error; i nat means tonight / last night, a single occasion, and på natten does not exist in this meaning.",
+            "da": "Gentagne tidspunkter på døgnet står med om + bestemt form: om natten, om morgenen, om aftenen. I natten er den klassiske fejl; i nat betyder én bestemt nat (i nat = denne nat), og på natten findes ikke i denne betydning."
+          }
+        },
+        {
+          "options": [
+            "ved",
+            "med",
+            "til",
+            "for"
+          ],
+          "answer": "ved",
+          "explanation": {
+            "en": "The fixed expression is have svært ved (at gøre noget) / have let ved. Have svært med is the very common learner error; til belongs to a different pattern (være god til, have råd til).",
+            "da": "Det faste udtryk er have svært ved (at gøre noget) / have let ved. Have svært med er den meget almindelige fejl; til hører til et andet mønster (være god til, have råd til)."
+          }
+        }
+      ],
+      "tags": [
+        "tid",
+        "om natten",
+        "fast udtryk",
+        "svært ved"
+      ]
+    },
+    {
+      "id": "prepositions-c04",
+      "topic": "prepositions",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Flere og flere danske virksomheder eksperimenterer {1} en firedages arbejdsuge. Idéen er, at medarbejderne arbejder lidt længere mandag til torsdag og holder fri {2} fredagen, uden at lønnen bliver lavere. Fortalerne fremhæver, at ordningen fører {3} mindre stress og færre sygedage, mens kritikerne tvivler {4}, om produktiviteten kan holdes oppe. En rapport fra Beskæftigelsesministeriet forventes at komme med en samlet vurdering {5} løbet af efteråret.",
+      "blanks": [
+        {
+          "options": [
+            "med",
+            "på",
+            "om",
+            "i"
+          ],
+          "answer": "med",
+          "explanation": {
+            "en": "Eksperimentere med is the fixed verb + preposition, like arbejde med and beskæftige sig med. På is tempting because of satse på and fokusere på, but it does not combine with eksperimentere.",
+            "da": "Eksperimentere med er det faste udtryk verbum + præposition, ligesom arbejde med og beskæftige sig med. På er fristende på grund af satse på og fokusere på, men det kan ikke stå sammen med eksperimentere."
+          }
+        },
+        {
+          "options": [
+            "om",
+            "på",
+            "i",
+            "ved"
+          ],
+          "answer": "om",
+          "explanation": {
+            "en": "A weekday as a regular habit takes om + definite form: om fredagen = every Friday. På fredag (indefinite) means this coming Friday, a single occasion, so på fredagen does not fit a rule that applies every week.",
+            "da": "En ugedag som gentagen vane står med om + bestemt form: om fredagen = hver fredag. På fredag (ubestemt form) betyder den kommende fredag, én bestemt gang, så på fredagen passer ikke til en ordning, der gælder hver uge."
+          }
+        },
+        {
+          "options": [
+            "til",
+            "på",
+            "med",
+            "for"
+          ],
+          "answer": "til",
+          "explanation": {
+            "en": "Føre til expresses cause and result: noget fører til noget. Learners mix in med from medføre or bidrage med, but the verb føre in this meaning only takes til, just as årsag til and grund til.",
+            "da": "Føre til udtrykker årsag og virkning: noget fører til noget. Mange blander med ind fra medføre eller bidrage med, men verbet føre i denne betydning tager kun til, ligesom årsag til og grund til."
+          }
+        },
+        {
+          "options": [
+            "på",
+            "om",
+            "over",
+            "i"
+          ],
+          "answer": "på",
+          "explanation": {
+            "en": "Tvivle på is fixed, in the same family as tro på, stole på and regne med. Om is the trap here because the following clause begins with om, but the preposition belongs to the verb, not to the clause: tvivle på, om …",
+            "da": "Tvivle på er fast, i samme familie som tro på, stole på og regne med. Om er fælden her, fordi den følgende ledsætning begynder med om, men præpositionen hører til verbet og ikke til ledsætningen: tvivle på, om …"
+          }
+        },
+        {
+          "options": [
+            "i",
+            "på",
+            "om",
+            "ved"
+          ],
+          "answer": "i",
+          "explanation": {
+            "en": "The formal time expression is i løbet af (in the course of / during): i løbet af efteråret. Learners write på or om by analogy with på et år or om efteråret, but the phrase is fixed with i.",
+            "da": "Det formelle tidsudtryk er i løbet af: i løbet af efteråret. Mange skriver på eller om efter mønsteret på et år eller om efteråret, men udtrykket er fast med i."
+          }
+        }
+      ],
+      "tags": [
+        "arbejde",
+        "verbum+præp",
+        "tid",
+        "ugedag",
+        "i løbet af"
+      ]
+    },
+    {
+      "id": "prepositions-c05",
+      "topic": "prepositions",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Boligpriserne {1} de store byer er steget så meget, at mange unge familier ikke længere har mulighed {2} at købe en lejlighed. Nogle vælger derfor at bosætte sig {3} landet, hvor huse er billigere, men hvor afstanden til arbejdspladsen bliver længere. Eksperter er dog uenige {4}, hvorvidt udviklingen fortsætter, når renten stiger. Flere kommuner satser i mellemtiden på almene boliger, som skal sikre, at også mennesker {5} lave indkomster kan blive boende i byen.",
+      "blanks": [
+        {
+          "options": [
+            "i",
+            "på",
+            "ved",
+            "for"
+          ],
+          "answer": "i",
+          "explanation": {
+            "en": "Cities, towns and countries take i: i de store byer, i København, i Danmark. På is reserved for islands, districts and certain institutions (på Fyn, på Nørrebro, på hospitalet), so på de store byer is the classic wrong choice.",
+            "da": "Byer og lande står med i: i de store byer, i København, i Danmark. På bruges om øer, bydele og visse institutioner (på Fyn, på Nørrebro, på hospitalet), så på de store byer er den klassiske fejl."
+          }
+        },
+        {
+          "options": [
+            "for",
+            "til",
+            "på",
+            "om"
+          ],
+          "answer": "for",
+          "explanation": {
+            "en": "The noun mulighed takes for: mulighed for at gøre noget. Til is tempting from have råd til and adgang til, but mulighed, behov and brug all go with for.",
+            "da": "Substantivet mulighed tager for: mulighed for at gøre noget. Til er fristende fra have råd til og adgang til, men mulighed, behov og brug står alle med for."
+          }
+        },
+        {
+          "options": [
+            "på",
+            "i",
+            "til",
+            "ved"
+          ],
+          "answer": "på",
+          "explanation": {
+            "en": "Landet in the sense the countryside always takes på: bo på landet, bosætte sig på landet. I landet means inside the country (the nation), so it changes the meaning and is the classic trap.",
+            "da": "Landet i betydningen landområdet uden for byerne står altid med på: bo på landet, bosætte sig på landet. I landet betyder inde i landet (nationen), så det ændrer betydningen og er den klassiske fælde."
+          }
+        },
+        {
+          "options": [
+            "om",
+            "i",
+            "med",
+            "på"
+          ],
+          "answer": "om",
+          "explanation": {
+            "en": "When people disagree about a question or topic, the preposition is om: være enig / uenig om, hvorvidt … Uenig i is used about a specific statement or decision (uenig i beslutningen), and uenig med takes the person you disagree with.",
+            "da": "Når man er uenige om et spørgsmål eller emne, er præpositionen om: være enig / uenig om, hvorvidt … Uenig i bruges om et konkret udsagn eller en beslutning (uenig i beslutningen), og uenig med tager den person, man er uenig med."
+          }
+        },
+        {
+          "options": [
+            "med",
+            "på",
+            "af",
+            "til"
+          ],
+          "answer": "med",
+          "explanation": {
+            "en": "A characteristic someone has is expressed with med: mennesker med lave indkomster, familier med børn. På is a direct transfer from English on low incomes and is wrong in Danish; af would mark a part or origin.",
+            "da": "En egenskab, nogen har, udtrykkes med med: mennesker med lave indkomster, familier med børn. På er en direkte overførsel fra engelsk on low incomes og er forkert på dansk; af ville markere en del eller en oprindelse."
+          }
+        }
+      ],
+      "tags": [
+        "bolig",
+        "sted",
+        "i/på",
+        "substantiv+præp",
+        "uenig om"
+      ]
+    },
+    {
+      "id": "prepositions-c06",
+      "topic": "prepositions",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Sundhedsstyrelsen har {1} flere år advaret om, at danske unge sover for lidt. Mange elever sidder med telefonen til langt ud på natten og har derfor problemer med at koncentrere sig {2} undervisningen næste dag. Flere skoler har nu indført regler, som forbyder mobiltelefoner {3} skoletiden, og lærerne har allerede mærket en positiv effekt {4} elevernes opmærksomhed. Om reglerne også hjælper på søvnen, beror ifølge forskerne {5} forældrene, der i sidste ende bestemmer, hvornår telefonen skal slukkes.",
+      "blanks": [
+        {
+          "options": [
+            "i",
+            "for",
+            "om",
+            "siden"
+          ],
+          "answer": "i",
+          "explanation": {
+            "en": "A duration that is still ongoing takes i together with førnutid: har i flere år advaret. For flere år is the classic error (English for years); for needs siden to work (for flere år siden), and siden alone would need a starting point (siden 2019).",
+            "da": "En varighed, der stadig er i gang, står med i sammen med førnutid: har i flere år advaret. For flere år er den klassiske fejl (engelsk for years); for kræver siden (for flere år siden), og siden alene kræver et starttidspunkt (siden 2019)."
+          }
+        },
+        {
+          "options": [
+            "om",
+            "på",
+            "i",
+            "til"
+          ],
+          "answer": "om",
+          "explanation": {
+            "en": "The reflexive verb koncentrere sig takes om: koncentrere sig om undervisningen. På is the direct transfer from English concentrate on and is the classic error; fokusere på is the verb that takes på.",
+            "da": "Det refleksive verbum koncentrere sig tager om: koncentrere sig om undervisningen. På er en direkte overførsel fra engelsk concentrate on og er den klassiske fejl; fokusere på er det verbum, der tager på."
+          }
+        },
+        {
+          "options": [
+            "i",
+            "på",
+            "om",
+            "ved"
+          ],
+          "answer": "i",
+          "explanation": {
+            "en": "A bounded period such as skoletiden, arbejdstiden or ferien takes i: i skoletiden, i arbejdstiden. På belongs to points in time (på det tidspunkt) and om to recurring times (om formiddagen), so neither fits a whole period.",
+            "da": "En afgrænset periode som skoletiden, arbejdstiden eller ferien står med i: i skoletiden, i arbejdstiden. På hører til tidspunkter (på det tidspunkt) og om til gentagne tidspunkter (om formiddagen), så ingen af dem passer til en hel periode."
+          }
+        },
+        {
+          "options": [
+            "på",
+            "for",
+            "af",
+            "til"
+          ],
+          "answer": "på",
+          "explanation": {
+            "en": "Nouns that express an effect or impact take på: effekt på, indflydelse på, virkning på. For is tempting from betydning for and konsekvenser for, but effekt always combines with på.",
+            "da": "Substantiver, der udtrykker en virkning, tager på: effekt på, indflydelse på, virkning på. For er fristende fra betydning for og konsekvenser for, men effekt står altid med på."
+          }
+        },
+        {
+          "options": [
+            "på",
+            "af",
+            "til",
+            "om"
+          ],
+          "answer": "på",
+          "explanation": {
+            "en": "Bero på is the formal equivalent of afhænge af and is fixed with på: det beror på forældrene. Af is the classic mix-up, transferred from afhænge af, but the two verbs take different prepositions.",
+            "da": "Bero på er den formelle pendant til afhænge af og står fast med på: det beror på forældrene. Af er den klassiske forveksling, overført fra afhænge af, men de to verber tager forskellige præpositioner."
+          }
+        }
+      ],
+      "tags": [
+        "sundhed",
+        "uddannelse",
+        "tid",
+        "verbum+præp",
+        "substantiv+præp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "topic": "verbs",
+  "intro": {
+    "en": "PD3 tests whether you can read the time marker in a sentence and pick the right tense, choose har or er before the kort tillægsform, and produce the irregular forms of everyday verbs. Most points are lost on datid vs. førnutid and on strong verbs written as if they were regular (hjælpede, tvingede).",
+    "da": "PD3 tester, om du kan læse sætningens tidsudtryk og vælge den rigtige tid, vælge har eller er foran kort tillægsform og danne de uregelmæssige former af almindelige verber. De fleste point tabes på datid vs. førnutid og på stærke verber, der bøjes som svage (hjælpede, tvingede)."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "The four tenses",
+        "da": "De fire tider"
+      },
+      "rules": [
+        {
+          "en": "Nutid (stem + -r): what is true now, habits, general facts and the near future: antallet stiger, loven gælder.",
+          "da": "Nutid (stamme + -r): det, der gælder nu, vaner, generelle fakta og nær fremtid: antallet stiger, loven gælder."
+        },
+        {
+          "en": "Datid (-ede / -te / vowel change): a finished action at a stated or implied time in the past: i 2019 vedtog Folketinget.",
+          "da": "Datid (-ede / -te / vokalskifte): en afsluttet handling på et angivet eller underforstået tidspunkt i fortiden: i 2019 vedtog Folketinget."
+        },
+        {
+          "en": "Førnutid (har/er + kort tillægsform): a past action whose period or result reaches into now: har boet her i syv år, er steget markant.",
+          "da": "Førnutid (har/er + kort tillægsform): en fortidig handling, hvis periode eller resultat rækker frem til nu: har boet her i syv år, er steget markant."
+        },
+        {
+          "en": "Førdatid (havde/var + kort tillægsform): something that had already happened before another past event: da hun kom, havde symptomerne varet i uger.",
+          "da": "Førdatid (havde/var + kort tillægsform): noget, der allerede var sket før en anden fortidig hændelse: da hun kom, havde symptomerne varet i uger."
+        }
+      ],
+      "hack": {
+        "en": "Ask two questions. 1) Is there a second past event in the sentence (da …, inden …, først da …)? If mine happened before it → førdatid. 2) If not: is the time closed (over and done) → datid; still open or felt now → førnutid.",
+        "da": "Stil to spørgsmål. 1) Er der en anden fortidig hændelse i sætningen (da …, inden …, først da …)? Skete min handling før den → førdatid. 2) Hvis ikke: er tiden afsluttet → datid; er den stadig åben eller mærkes nu → førnutid."
+      },
+      "examples": [
+        {
+          "da": "Undersøgelsen viser, at antallet af studerende på erhvervsuddannelserne **stiger** kun langsomt.",
+          "en": "The survey shows that the number of students in vocational education is rising only slowly. (nutid)"
+        },
+        {
+          "da": "Ledelsen **har gennemført** tre omstruktureringer inden for det seneste år.",
+          "en": "Management has carried out three restructurings within the last year. (førnutid)"
+        },
+        {
+          "da": "Da patienten endelig kom til lægen, **havde** symptomerne allerede **varet** i flere uger.",
+          "en": "When the patient finally saw the doctor, the symptoms had already lasted for several weeks. (førdatid)"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Datid or førnutid? Read the time marker",
+        "da": "Datid eller førnutid? Læs tidsudtrykket"
+      },
+      "rules": [
+        {
+          "en": "Datid with a closed time: i går, i 2019, sidste år, i sidste uge, for tre år siden, da jeg var barn, dengang, and after hvornår …?",
+          "da": "Datid ved en afsluttet tid: i går, i 2019, sidste år, i sidste uge, for tre år siden, da jeg var barn, dengang, og efter hvornår …?"
+        },
+        {
+          "en": "Førnutid with an open period or a result that counts now: siden 2014, i de seneste år, inden for det seneste år, nogensinde, allerede, endnu ikke, lige, indtil nu.",
+          "da": "Førnutid ved en åben periode eller et resultat, der tæller nu: siden 2014, i de seneste år, inden for det seneste år, nogensinde, allerede, endnu ikke, lige, indtil nu."
+        },
+        {
+          "en": "A da-ledsætning about the past always takes datid, and so does everything anchored in one past year, even repeated habits (da jeg var barn, kørte vi hvert år …).",
+          "da": "En da-ledsætning om fortiden står altid i datid, og det samme gør alt, der er forankret i ét fortidigt år, også gentagne vaner (da jeg var barn, kørte vi hvert år …)."
+        },
+        {
+          "en": "Duration changes meaning: hun har boet i Danmark i syv år = she still lives there; hun boede i Danmark i syv år = she has left.",
+          "da": "Varighed skifter betydning: hun har boet i Danmark i syv år = hun bor der stadig; hun boede i Danmark i syv år = hun er rejst igen."
+        }
+      ],
+      "hack": {
+        "en": "Cover the verb and ask 'when?'. If the answer is a point or closed period you could circle on a calendar (i 2019, sidste uge, for tre år siden) → datid. If the answer is 'from then until now' or 'at some time before now' (siden, i de seneste år, nogensinde, allerede) → førnutid.",
+        "da": "Dæk verbet og spørg 'hvornår?'. Er svaret et tidspunkt eller en afsluttet periode, du kunne sætte ring om i en kalender (i 2019, sidste uge, for tre år siden) → datid. Er svaret 'fra dengang til nu' eller 'på et tidspunkt før nu' (siden, i de seneste år, nogensinde, allerede) → førnutid."
+      },
+      "examples": [
+        {
+          "da": "I 2019 **vedtog** Folketinget en lov om røgfri skoletid, som stadig gælder.",
+          "en": "In 2019 the Folketing passed a law on smoke-free school hours, which still applies."
+        },
+        {
+          "da": "Mange kommuner **har indført** nye principper for undervisningen siden reformen i 2014.",
+          "en": "Many municipalities have introduced new teaching principles since the 2014 reform."
+        },
+        {
+          "da": "Hvornår **fandt** du egentlig ud af, at du havde brug for en ny uddannelse?",
+          "en": "When did you actually find out that you needed a new education?"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Har or er + kort tillægsform",
+        "da": "Har eller er + kort tillægsform"
+      },
+      "rules": [
+        {
+          "en": "Most verbs take har: har arbejdet, har boet, har set, har drøftet.",
+          "da": "De fleste verber tager har: har arbejdet, har boet, har set, har drøftet."
+        },
+        {
+          "en": "Er is used with verbs of movement without an object (er kommet, er gået, er rejst, er flyttet, er faldet) and with verbs of change of state (er blevet, er begyndt, er steget, er sket, er død, er forsvundet).",
+          "da": "Er bruges ved bevægelsesverber uden objekt (er kommet, er gået, er rejst, er flyttet, er faldet) og ved overgangsverber (er blevet, er begyndt, er steget, er sket, er død, er forsvundet)."
+        },
+        {
+          "en": "The same verb can take both: bussen er kørt (moved away, no object) but hun har kørt bil i tyve år (activity with an object). Vi har begyndt arbejdet, but semestret er begyndt.",
+          "da": "Samme verbum kan tage begge: bussen er kørt (bevægelse væk, intet objekt), men hun har kørt bil i tyve år (aktivitet med objekt). Vi har begyndt arbejdet, men semestret er begyndt."
+        },
+        {
+          "en": "Deponent verbs keep their -s in every form and take er: det er lykkedes, planen er mislykkedes.",
+          "da": "Deponente verber beholder -s i alle former og tager er: det er lykkedes, planen er mislykkedes."
+        }
+      ],
+      "hack": {
+        "en": "Try to add an object after the participle. If you can (har kørt bil, har begyndt arbejdet, har gennemført planen) → har. If the verb only tells where the subject went or what it turned into and nothing can follow → er.",
+        "da": "Prøv at sætte et objekt efter tillægsformen. Kan du det (har kørt bil, har begyndt arbejdet, har gennemført planen) → har. Fortæller verbet kun, hvor subjektet er kommet hen, eller hvad det er blevet til, og intet kan følge → er."
+      },
+      "examples": [
+        {
+          "da": "Mange nye borgere **er kommet** til Danmark i de seneste år, og en stor del af dem er i arbejde.",
+          "en": "Many new citizens have come to Denmark in recent years, and a large share of them are employed."
+        },
+        {
+          "da": "Arbejdsmarkedet **er blevet** langt mere fleksibelt, siden mange begyndte at arbejde hjemmefra.",
+          "en": "The labour market has become far more flexible since many started working from home."
+        },
+        {
+          "da": "Min kollega **har kørt** bil i mere end tyve år, men hun har aldrig fået en bøde.",
+          "en": "My colleague has driven a car for more than twenty years, but she has never had a fine."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Infinitive after modal verbs and after at",
+        "da": "Infinitiv efter modalverber og efter at"
+      },
+      "rules": [
+        {
+          "en": "After vil, kan, skal, må, bør, tør the next verb is in the infinitive without at: vil nedsætte, kan skyldes, skal afgøres.",
+          "da": "Efter vil, kan, skal, må, bør, tør står det næste verbum i infinitiv uden at: vil nedsætte, kan skyldes, skal afgøres."
+        },
+        {
+          "en": "After at as infinitive marker (overvejer at, begynder at, for at, uden at, i stedet for at) the verb is also in the infinitive: overvejer at indføre.",
+          "da": "Efter at som infinitivmærke (overvejer at, begynder at, for at, uden at, i stedet for at) står verbet også i infinitiv: overvejer at indføre."
+        },
+        {
+          "en": "But at can also be the conjunction that opens a ledsætning (viser, at …; mener, at …). Then the clause has its own subject and a finite verb: viser, at antallet stiger.",
+          "da": "Men at kan også være den konjunktion, der indleder en ledsætning (viser, at …; mener, at …). Så har ledsætningen sit eget subjekt og et finit verbum: viser, at antallet stiger."
+        },
+        {
+          "en": "Imperativ (bydeform) is the infinitive without its final -e: overveje → Overvej altid flere tilbud!",
+          "da": "Imperativ (bydeform) er infinitiven uden det sidste -e: overveje → Overvej altid flere tilbud!"
+        }
+      ],
+      "hack": {
+        "en": "Look at the word right after at. A verb → at is the infinitive marker, so the verb takes no -r (at indføre). A noun or pronoun (at antallet, at han) → it is a ledsætning, so the verb must be finite (stiger, kommer).",
+        "da": "Se på ordet lige efter at. Et verbum → at er infinitivmærke, og verbet får ikke -r (at indføre). Et substantiv eller pronomen (at antallet, at han) → det er en ledsætning, og verbet skal være finit (stiger, kommer)."
+      },
+      "examples": [
+        {
+          "da": "Regeringen vil **nedsætte** afgiften på elbiler for at fremme den grønne omstilling.",
+          "en": "The government wants to lower the tax on electric cars to promote the green transition."
+        },
+        {
+          "da": "Flere kommuner overvejer at **indføre** en arbejdsuge på fire dage for at fastholde medarbejderne.",
+          "en": "Several municipalities are considering introducing a four-day working week to retain staff."
+        },
+        {
+          "da": "Den stigende ulighed kan **skyldes** flere faktorer, blandt andet ændringer i skattesystemet.",
+          "en": "The growing inequality may be due to several factors, including changes in the tax system."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "S-passiv or blive-passiv",
+        "da": "S-passiv eller blive-passiv"
+      },
+      "rules": [
+        {
+          "en": "S-passiv (infinitive + s: kræves, afgøres, forventes) is used for general rules, routines and formal text in nutid, and after modal verbs: skal afgøres, kan ses.",
+          "da": "S-passiv (infinitiv + s: kræves, afgøres, forventes) bruges om generelle regler, rutiner og formel tekst i nutid og efter modalverber: skal afgøres, kan ses."
+        },
+        {
+          "en": "Blive-passiv (blive + kort tillægsform) is used for single, concrete events, especially in datid: blev vedtaget, blev ansat i 2022.",
+          "da": "Blive-passiv (blive + kort tillægsform) bruges om enkelte, konkrete hændelser, især i datid: blev vedtaget, blev ansat i 2022."
+        },
+        {
+          "en": "Er + kort tillægsform describes a state now (hun er ansat = she is employed), not the event (hun blev ansat = she was hired). The agent is introduced with af: udarbejdet af forskere.",
+          "da": "Er + kort tillægsform beskriver en tilstand nu (hun er ansat), ikke hændelsen (hun blev ansat). Agens indledes med af: udarbejdet af forskere."
+        },
+        {
+          "en": "Deponent verbs look passive but are not: lykkes, findes, synes, skyldes, mindes. Their infinitive already ends in -s: kan skyldes, at.",
+          "da": "Deponente verber ligner passiv, men er det ikke: lykkes, findes, synes, skyldes, mindes. Deres infinitiv ender allerede på -s: kan skyldes, at."
+        }
+      ],
+      "hack": {
+        "en": "Ask 'a rule or an event?'. What normally/always happens → -s (der kræves, sager afgøres). Something that happened once at a time you can name → blev + kort tillægsform. In datid, always choose blev + participle; -s in datid (vedtoges) is rare and stiff.",
+        "da": "Spørg 'regel eller hændelse?'. Det, der normalt/altid sker → -s (der kræves, sager afgøres). Noget, der skete én gang på et tidspunkt, du kan nævne → blev + kort tillægsform. I datid: vælg altid blev + tillægsform; -s i datid (vedtoges) er sjældent og stift."
+      },
+      "examples": [
+        {
+          "da": "Der **kræves** i dag en godkendt pædagoguddannelse, hvis man vil arbejde fast i en daginstitution.",
+          "en": "Today an approved early-childhood degree is required if you want a permanent job in a daycare institution."
+        },
+        {
+          "da": "Forslaget om kortere skoledage **blev vedtaget** af et stort flertal i byrådet i sidste uge.",
+          "en": "The proposal for shorter school days was passed by a large majority in the city council last week."
+        },
+        {
+          "da": "Ifølge loven skal alle klager over kommunens afgørelser **afgøres** inden for tre måneder.",
+          "en": "According to the law, all complaints about the municipality's decisions must be decided within three months."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Irregular verbs: learn the families",
+        "da": "Uregelmæssige verber: lær familierne"
+      },
+      "rules": [
+        {
+          "en": "Weak verbs add an ending: -ede/-et (besluttede, besluttet) or -te/-t (indførte, indført). Strong verbs change the vowel and have no ending in datid: hjælpe – hjalp – hjulpet.",
+          "da": "Svage verber får en endelse: -ede/-et (besluttede, besluttet) eller -te/-t (indførte, indført). Stærke verber skifter vokal og har ingen endelse i datid: hjælpe – hjalp – hjulpet."
+        },
+        {
+          "en": "The i – a – u family: finde – fandt – fundet, forsvinde – forsvandt – forsvundet, vinde – vandt – vundet, binde – bandt – bundet, tvinge – tvang – tvunget, springe – sprang – sprunget, drikke – drak – drukket.",
+          "da": "i – a – u-familien: finde – fandt – fundet, forsvinde – forsvandt – forsvundet, vinde – vandt – vundet, binde – bandt – bundet, tvinge – tvang – tvunget, springe – sprang – sprunget, drikke – drak – drukket."
+        },
+        {
+          "en": "The æ – a – å/u family: bære – bar – båret, skære – skar – skåret, trække – trak – trukket, hjælpe – hjalp – hjulpet, træffe – traf – truffet.",
+          "da": "æ – a – å/u-familien: bære – bar – båret, skære – skar – skåret, trække – trak – trukket, hjælpe – hjalp – hjulpet, træffe – traf – truffet."
+        },
+        {
+          "en": "Frequent odd ones: sætte – satte – sat (ansætte, nedsætte, fortsætte), gøre – gjorde – gjort (afgøre), blive – blev – blevet, komme – kom – kommet, give – gav – givet, tage – tog – taget, få – fik – fået, gå – gik – gået, stå – stod – stået, se – så – set.",
+          "da": "Hyppige særtilfælde: sætte – satte – sat (ansætte, nedsætte, fortsætte), gøre – gjorde – gjort (afgøre), blive – blev – blevet, komme – kom – kommet, give – gav – givet, tage – tog – taget, få – fik – fået, gå – gik – gået, stå – stod – stået, se – så – set."
+        }
+      ],
+      "hack": {
+        "en": "Strip the prefix and conjugate the base: for-svinde like finde, an-sætte like sætte, af-gøre like gøre, ned-skære like skære. And if a one-syllable everyday verb 'wants' -ede, stop: most of them are strong. There is no hjælpede, tvingede, bæret or skært.",
+        "da": "Fjern forstavelsen og bøj grundverbet: for-svinde som finde, an-sætte som sætte, af-gøre som gøre, ned-skære som skære. Og hvis et enstavelses-hverdagsverbum 'vil have' -ede, så stop: de fleste af dem er stærke. Der findes ikke hjælpede, tvingede, bæret eller skært."
+      },
+      "examples": [
+        {
+          "da": "Sygeplejersken **hjalp** patienten med at komme op af sengen, selv om afdelingen var underbemandet.",
+          "en": "The nurse helped the patient get out of bed even though the ward was understaffed."
+        },
+        {
+          "da": "Kommunen har **skåret** kraftigt i budgettet til kultur og idræt.",
+          "en": "The municipality has cut heavily in the budget for culture and sport."
+        },
+        {
+          "da": "Sidste år **ansatte** virksomheden 40 nye medarbejdere, men i år har den måttet afskedige flere af dem.",
+          "en": "Last year the company hired 40 new employees, but this year it has had to lay several of them off."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ I 2019 har Folketinget vedtaget loven → ✓ I 2019 vedtog Folketinget loven (closed time marker → datid)",
+      "da": "✗ I 2019 har Folketinget vedtaget loven → ✓ I 2019 vedtog Folketinget loven (afsluttet tidsudtryk → datid)"
+    },
+    {
+      "en": "✗ har kommet / har blevet → ✓ er kommet / er blevet (movement and change of state take er)",
+      "da": "✗ har kommet / har blevet → ✓ er kommet / er blevet (bevægelse og overgang tager er)"
+    },
+    {
+      "en": "✗ det har lykkedes kommunen → ✓ det er lykkedes kommunen (deponent verb, keeps -s, takes er)",
+      "da": "✗ det har lykkedes kommunen → ✓ det er lykkedes kommunen (deponent verbum, beholder -s, tager er)"
+    },
+    {
+      "en": "✗ hjælpede, tvingede, bæret → ✓ hjalp, tvang, båret (strong verbs have no -ede)",
+      "da": "✗ hjælpede, tvingede, bæret → ✓ hjalp, tvang, båret (stærke verber får ikke -ede)"
+    },
+    {
+      "en": "✗ overvejer at indfører / vil nedsætter → ✓ overvejer at indføre / vil nedsætte (infinitive after at and modal verbs)",
+      "da": "✗ overvejer at indfører / vil nedsætter → ✓ overvejer at indføre / vil nedsætte (infinitiv efter at og modalverber)"
+    },
+    {
+      "en": "✗ hun boede i Danmark i syv år (and still lives there) → ✓ hun har boet i Danmark i syv år (open period → førnutid)",
+      "da": "✗ hun boede i Danmark i syv år (og bor der stadig) → ✓ hun har boet i Danmark i syv år (åben periode → førnutid)"
+    }
+  ]
+}

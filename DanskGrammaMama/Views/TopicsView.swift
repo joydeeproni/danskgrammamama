@@ -75,6 +75,27 @@ struct TopicDetailView: View {
                 }
                 .card()
 
+                if let guide = content.guide(for: topic.id) {
+                    NavigationLink {
+                        TopicGuideView(topic: topic, guide: guide)
+                    } label: {
+                        HStack {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(language == .danish ? "Sådan knækker du emnet" : "How to crack this topic")
+                                    .font(.body.weight(.semibold))
+                                Text(language == .danish
+                                     ? "\(guide.sections.count) regler med tricks, eksempler og klassiske fejl"
+                                     : "\(guide.sections.count) rules with hacks, examples and classic traps")
+                                    .font(.footnote).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(.tertiary)
+                        }
+                        .card()
+                    }
+                    .buttonStyle(.plain)
+                }
+
                 Picker("Level", selection: $level) {
                     Text(language == .danish ? "Blandet" : "Mixed").tag(0)
                     Text("Level 1").tag(1)

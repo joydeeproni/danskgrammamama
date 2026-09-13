@@ -1,0 +1,287 @@
+{
+  "topic": "prepositions",
+  "intro": {
+    "en": "PD3 tests prepositions in two places: time expressions (i 2020, om mandagen, for tre år siden, i tre år) and fixed verb or noun + preposition pairs (interessere sig for, tage hensyn til, afhænge af). Points are lost to English patterns (interested in, for three years, reason for) and to mixing up i and på.",
+    "da": "PD3 tester præpositioner to steder: i tidsudtryk (i 2020, om mandagen, for tre år siden, i tre år) og i faste forbindelser af verbum eller substantiv + præposition (interessere sig for, tage hensyn til, afhænge af). Point tabes på engelske mønstre (interested in, for three years, reason for) og på forveksling af i og på."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Time expressions: i, om, på, for … siden",
+        "da": "Tidsudtryk: i, om, på, for … siden"
+      },
+      "rules": [
+        {
+          "en": "i = a point in the calendar or a duration: years and decades (i 2020, i 1990'erne), months (i marts), sidste/næste/forrige + period (i sidste uge, i næste måned), and how long (i tre år, i to timer). Also i dag, i går, i år.",
+          "da": "i = et punkt i kalenderen eller en varighed: årstal og årtier (i 2020, i 1990'erne), måneder (i marts), sidste/næste/forrige + periode (i sidste uge, i næste måned) og hvor længe (i tre år, i to timer). Også i dag, i går, i år."
+        },
+        {
+          "en": "om = habit with bestemt form (om mandagen, om sommeren, om aftenen) and future counted from now (om tre uger, om et år).",
+          "da": "om = vane med bestemt form (om mandagen, om sommeren, om aftenen) og fremtid regnet fra nu (om tre uger, om et år)."
+        },
+        {
+          "en": "på = one specific day or date (på mandag, på fredag den 3. maj) and the time it takes to finish something (gøre det på to timer).",
+          "da": "på = én bestemt dag eller dato (på mandag, på fredag den 3. maj) og den tid, det tager at blive færdig (gøre det på to timer)."
+        },
+        {
+          "en": "for … siden = a point in the past measured from now (for tre år siden) – both parts are required. siden + starting point = from then until now (siden 2014, siden hun begyndte), used with førnutid. i løbet af = during (i løbet af de seneste ti år).",
+          "da": "for … siden = et tidspunkt i fortiden målt fra nu (for tre år siden) – begge dele skal med. siden + starttidspunkt = fra dengang til nu (siden 2014, siden hun begyndte), bruges med førnutid. i løbet af = mens noget varer (i løbet af de seneste ti år)."
+        }
+      ],
+      "hack": {
+        "en": "Sort the time word into a box by the question it answers. 'When in the calendar?' → i (i 2020, i marts, i sidste uge). 'How often?' → om + bestemt form (om mandagen). 'How far ahead?' → om + tidsrum (om tre uger). 'How far back?' → for … siden. 'How long?' → i + tidsrum – never for.",
+        "da": "Sortér tidsordet i en kasse efter det spørgsmål, det svarer på. 'Hvornår i kalenderen?' → i (i 2020, i marts, i sidste uge). 'Hvor tit?' → om + bestemt form (om mandagen). 'Hvor langt ude i fremtiden?' → om + tidsrum (om tre uger). 'Hvor langt tilbage?' → for … siden. 'Hvor længe?' → i + tidsrum – aldrig for."
+      },
+      "examples": [
+        {
+          "da": "**I** 2020 blev mange danske arbejdspladser tvunget til at indføre hjemmearbejde.",
+          "en": "In 2020 many Danish workplaces were forced to introduce working from home."
+        },
+        {
+          "da": "Kommunen lukkede den lokale skole **for** tre år siden, og siden da har børnene taget bussen til nabobyen.",
+          "en": "The municipality closed the local school three years ago, and since then the children have taken the bus to the neighbouring town."
+        },
+        {
+          "da": "Byrådet forventer, at den nye cykelsti står færdig **om** tre uger.",
+          "en": "The city council expects the new cycle path to be finished in three weeks."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Habit or one occasion: om mandagen vs. på mandag, i tre år vs. om tre år",
+        "da": "Vane eller ét tidspunkt: om mandagen vs. på mandag, i tre år vs. om tre år"
+      },
+      "rules": [
+        {
+          "en": "om + bestemt form = every: om lørdagen (every Saturday), om sommeren (every summer), om aftenen (in the evenings).",
+          "da": "om + bestemt form = hver: om lørdagen (hver lørdag), om sommeren (hver sommer), om aftenen."
+        },
+        {
+          "en": "på + ubestemt form = the coming one: på lørdag (this Saturday). For seasons: i sommer = this summer, til sommer = next summer.",
+          "da": "på + ubestemt form = den kommende: på lørdag (nu på lørdag). Ved årstider: i sommer = denne sommer, til sommer = næste sommer."
+        },
+        {
+          "en": "i + tidsrum = how long (varighed): har arbejdet der i tolv år, boede der i tre år. om + tidsrum = when, counted from now: om tolv år.",
+          "da": "i + tidsrum = hvor længe (varighed): har arbejdet der i tolv år, boede der i tre år. om + tidsrum = hvornår, regnet fra nu: om tolv år."
+        },
+        {
+          "en": "Never for tolv år for duration – that is English. And efter tre uger counts from a point in the past, not from now.",
+          "da": "Aldrig for tolv år om varighed – det er engelsk. Og efter tre uger regnes fra et tidspunkt i fortiden, ikke fra nu."
+        }
+      ],
+      "hack": {
+        "en": "Look at the ending of the time noun. Bestemt form (-en/-et: lørdagen, sommeren) = habit → om. Ubestemt form (lørdag, sommer) = one occasion → på for days, i/til for seasons. With a number + tidsrum, ask 'how long?' → i, or 'how long until?' → om.",
+        "da": "Se på tidsordets endelse. Bestemt form (-en/-et: lørdagen, sommeren) = vane → om. Ubestemt form (lørdag, sommer) = én gang → på ved dage, i/til ved årstider. Ved tal + tidsrum: spørg 'hvor længe?' → i, eller 'hvor længe til?' → om."
+      },
+      "examples": [
+        {
+          "da": "Mange børnefamilier handler ind **om** lørdagen, fordi der sjældent er tid i hverdagene.",
+          "en": "Many families with children shop on Saturdays because there is rarely time on weekdays."
+        },
+        {
+          "da": "Hun har arbejdet som sygeplejerske på Rigshospitalet **i** tolv år og kender afdelingens rutiner.",
+          "en": "She has worked as a nurse at Rigshospitalet for twelve years and knows the ward's routines."
+        },
+        {
+          "da": "**Om** sommeren bruger mange danskere ferien i sommerhuset, mens byerne bliver stille.",
+          "en": "In summer many Danes spend their holiday at the summer house, while the cities go quiet."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Place: i, på or hos?",
+        "da": "Sted: i, på eller hos?"
+      },
+      "rules": [
+        {
+          "en": "på: islands (på Fyn, på Bornholm, på Sjælland, på Island), institutions and places you go to for an activity (på arbejde, på biblioteket, på hospitalet, på rådhuset, på universitetet, på kontoret), and på landet (in the countryside).",
+          "da": "på: øer (på Fyn, på Bornholm, på Sjælland, på Island), institutioner og steder, man opsøger for en aktivitet (på arbejde, på biblioteket, på hospitalet, på rådhuset, på universitetet, på kontoret), og på landet."
+        },
+        {
+          "en": "i: countries and mainland regions (i Danmark, i Jylland), cities (i Aarhus), and the fixed activity phrases gå i skole, gå i børnehave, gå i kirke, sidde i fængsel, i byen.",
+          "da": "i: lande og landsdele på fastlandet (i Danmark, i Jylland), byer (i Aarhus) og de faste aktivitetsudtryk gå i skole, gå i børnehave, gå i kirke, sidde i fængsel, i byen."
+        },
+        {
+          "en": "Same noun, different meaning: på arbejde (physically at work) vs. i arbejde (employed); på landet (countryside) vs. i landet (in the nation).",
+          "da": "Samme ord, forskellig betydning: på arbejde (fysisk på arbejdspladsen) vs. i arbejde (i beskæftigelse); på landet (uden for byerne) vs. i landet (i nationen)."
+        },
+        {
+          "en": "hos = at a person's or company's place: bo hos sine forældre, arbejde hos Novo, være hos lægen. (bo med = share the home as equals.)",
+          "da": "hos = hjemme hos eller på en persons/virksomheds sted: bo hos sine forældre, arbejde hos Novo, være hos lægen. (bo med = dele boligen som ligestillede.)"
+        }
+      ],
+      "hack": {
+        "en": "Three checks: Is it a person (forældre, lægen, a company)? → hos. Is it an island, or a building you enter to 'get something done' (work, borrow, be treated, study)? → på. Is it a country, a city or one of the childhood routines skole/børnehave/kirke? → i.",
+        "da": "Tre tjek: Er det en person (forældre, lægen, en virksomhed)? → hos. Er det en ø eller en bygning, man går ind i for at 'få noget gjort' (arbejde, låne, blive behandlet, studere)? → på. Er det et land, en by eller en af de faste rutiner skole/børnehave/kirke? → i."
+      },
+      "examples": [
+        {
+          "da": "Selvom hun er født og opvokset **på** Fyn, har hun boet i København, siden hun begyndte på universitetet.",
+          "en": "Although she was born and raised on Funen, she has lived in Copenhagen since she started university."
+        },
+        {
+          "da": "Børn, der går **i** skole i mindre byer, cykler langt oftere end børn i hovedstadsområdet.",
+          "en": "Children who go to school in smaller towns cycle far more often than children in the capital area."
+        },
+        {
+          "da": "Hun bor stadig **hos** sine forældre, fordi hun ikke har kunnet finde en betalelig lejlighed.",
+          "en": "She still lives with her parents because she has not been able to find an affordable flat."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Verb + preposition: for, til, af",
+        "da": "Verbum + præposition: for, til, af"
+      },
+      "rules": [
+        {
+          "en": "for: interessere sig for, sørge for, have brug for, være bange for, stå for, betale for, takke for. Danish for is not English for.",
+          "da": "for: interessere sig for, sørge for, have brug for, være bange for, stå for, betale for, takke for. Dansk for er ikke engelsk for."
+        },
+        {
+          "en": "til: glæde sig til (something in the future), tage hensyn til, bidrage til, føre til, være vant til, vænne sig til, have råd til, have adgang til, høre til.",
+          "da": "til: glæde sig til (noget i fremtiden), tage hensyn til, bidrage til, føre til, være vant til, vænne sig til, have råd til, have adgang til, høre til."
+        },
+        {
+          "en": "af: afhænge af, være afhængig af, bestå af, være træt af, dø af, and af before the agent in a passive (udarbejdet af forskere). Note: bestå i = consist in (an activity), bestå af = be made up of (parts).",
+          "da": "af: afhænge af, være afhængig af, bestå af, være træt af, dø af, og af foran agens i passiv (udarbejdet af forskere). Bemærk: bestå i = gå ud på (en aktivitet), bestå af = være sammensat af (dele)."
+        },
+        {
+          "en": "The preposition stays in place before an at-ledsætning or an infinitive: afhænger af, hvilken støtte …; bidrager til, at …; sørger for, at …; har råd til at bo.",
+          "da": "Præpositionen bliver stående foran en at-ledsætning eller en infinitiv: afhænger af, hvilken støtte …; bidrager til, at …; sørger for, at …; har råd til at bo."
+        }
+      ],
+      "hack": {
+        "en": "Learn each verb as one word with its preposition glued on: interesseresigfor, tagehensyntil, afhængeaf, sørgefor. Then block the English: interested IN → for, depend ON → af, contribute TO → til, look forward TO → til, take care OF → for.",
+        "da": "Lær hvert verbum som ét ord med præpositionen klistret på: interesseresigfor, tagehensyntil, afhængeaf, sørgefor. Og bloker engelsk: interested IN → for, depend ON → af, contribute TO → til, look forward TO → til, take care OF → for."
+      },
+      "examples": [
+        {
+          "da": "Unge i dag interesserer sig langt mere **for** klimaet, end deres forældre gjorde i samme alder.",
+          "en": "Young people today are far more interested in the climate than their parents were at the same age."
+        },
+        {
+          "da": "Om de unge gennemfører deres uddannelse, afhænger i høj grad **af**, hvilken støtte de får hjemmefra.",
+          "en": "Whether young people complete their education depends to a great extent on the support they get from home."
+        },
+        {
+          "da": "Frivillige foreninger bidrager **til**, at nye borgere hurtigere lærer sproget og får et netværk.",
+          "en": "Voluntary associations contribute to new citizens learning the language faster and building a network."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Verb + preposition: på, i, over, med, om",
+        "da": "Verbum + præposition: på, i, over, med, om"
+      },
+      "rules": [
+        {
+          "en": "på: lægge vægt på, satse på, fokusere på, stole på, tro på, vente på, tænke på, passe på, have indflydelse på.",
+          "da": "på: lægge vægt på, satse på, fokusere på, stole på, tro på, vente på, tænke på, passe på, have indflydelse på."
+        },
+        {
+          "en": "i: deltage i, tage del i, være enig i (a statement or proposal), være interesseret i (the adjective – but the verb is interessere sig for), bestå i.",
+          "da": "i: deltage i, tage del i, være enig i (en påstand eller et forslag), være interesseret i (adjektivet – men verbet hedder interessere sig for), bestå i."
+        },
+        {
+          "en": "over: glæde sig over (something that is already true), klage over, undre sig over, være skuffet over, være bekymret over. med: være enig med (a person), hjælpe med, holde op med, sammenligne med, regne med. om: bede om, drømme om, tale om, handle om, være enig om (what is agreed).",
+          "da": "over: glæde sig over (noget, der allerede er en realitet), klage over, undre sig over, være skuffet over, være bekymret over. med: være enig med (en person), hjælpe med, holde op med, sammenligne med, regne med. om: bede om, drømme om, tale om, handle om, være enig om (det, man er blevet enige om)."
+        },
+        {
+          "en": "Enig takes three prepositions: enig med + the person, enig i + the claim you agree with, enig om + the thing you have agreed on.",
+          "da": "Enig tager tre præpositioner: enig med + personen, enig i + den påstand, man tilslutter sig, enig om + det, man er blevet enige om."
+        }
+      ],
+      "hack": {
+        "en": "Two mini-tests. Glæde sig: has it happened yet? Not yet → til; already → over (look for førnutid in the ledsætning: 'over, at sygefraværet er faldet'). Deltage: always i, even though the state is 'være på kursus' – the verb decides, not the noun.",
+        "da": "To minitests. Glæde sig: er det sket endnu? Ikke endnu → til; allerede → over (kig efter førnutid i ledsætningen: 'over, at sygefraværet er faldet'). Deltage: altid i, selv om tilstanden hedder 'være på kursus' – verbet bestemmer, ikke substantivet."
+      },
+      "examples": [
+        {
+          "da": "Ved ansættelsessamtaler lægger arbejdsgivere ofte stor vægt **på**, om ansøgeren kan samarbejde.",
+          "en": "At job interviews employers often place great weight on whether the applicant can cooperate."
+        },
+        {
+          "da": "Kun halvdelen af medarbejderne deltog **i** kurset om førstehjælp, selvom ledelsen havde gjort det obligatorisk.",
+          "en": "Only half of the employees took part in the first-aid course, even though management had made it compulsory."
+        },
+        {
+          "da": "Ledelsen glæder sig **over**, at sygefraværet er faldet med ti procent siden de fleksible mødetider.",
+          "en": "Management is pleased that sickness absence has fallen by ten percent since the flexible start times."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Noun + preposition and formal fixed phrases",
+        "da": "Substantiv + præposition og formelle faste udtryk"
+      },
+      "rules": [
+        {
+          "en": "for: behov for, brug for, respekt for, ansvar for, forudsætning for, interesse for.",
+          "da": "for: behov for, brug for, respekt for, ansvar for, forudsætning for, interesse for."
+        },
+        {
+          "en": "til: adgang til, årsag til, grund til, ret til, lyst til, tillid til, hensyn til, forhold til, bidrag til. English 'reason for' is årsag/grund TIL.",
+          "da": "til: adgang til, årsag til, grund til, ret til, lyst til, tillid til, hensyn til, forhold til, bidrag til. Engelsk 'reason for' hedder årsag/grund TIL."
+        },
+        {
+          "en": "på: forskel på, indflydelse på, mangel på, fokus på. af: kritik af, konsekvens af, følge af, del af, resultat af. Note krav til (a person or quality) but krav om (something demanded).",
+          "da": "på: forskel på, indflydelse på, mangel på, fokus på. af: kritik af, konsekvens af, følge af, del af, resultat af. Bemærk krav til (en person/kvalitet) og krav om (noget, man kræver)."
+        },
+        {
+          "en": "Formal multi-word prepositions PD3 rewards: på grund af, i forhold til, med henblik på, i løbet af, som følge af, med hensyn til, i modsætning til.",
+          "da": "Formelle flerordspræpositioner, som PD3 belønner: på grund af, i forhold til, med henblik på, i løbet af, som følge af, med hensyn til, i modsætning til."
+        }
+      ],
+      "hack": {
+        "en": "A noun usually inherits the preposition of its verb or adjective: bidrage til → bidrag til, afhænge af → afhængig af, mangle → mangel på, have behov for → behov for, være interesseret i → but interesse FOR. Know the verb, know the noun – and memorise the two English traps: reason for → årsag til, access to → adgang til (not for).",
+        "da": "Et substantiv arver som regel præpositionen fra sit verbum eller adjektiv: bidrage til → bidrag til, afhænge af → afhængig af, mangle → mangel på, have behov for → behov for. Kender du verbet, kender du substantivet – og lær de to engelske fælder udenad: reason for → årsag til, access to → adgang til (ikke for)."
+      },
+      "examples": [
+        {
+          "da": "Der er et stigende behov **for** boliger, som almindelige lønmodtagere kan betale, især i de største byer.",
+          "en": "There is a growing need for housing that ordinary wage earners can afford, especially in the largest cities."
+        },
+        {
+          "da": "Alle borgere med bopæl i Danmark har gratis adgang **til** lægehjælp, men ventetiden kan være lang.",
+          "en": "All residents of Denmark have free access to medical care, but waiting times can be long."
+        },
+        {
+          "da": "Den vigtigste årsag **til** den stigende ledighed blandt unge er manglen på lærepladser.",
+          "en": "The main reason for the rising unemployment among young people is the shortage of apprenticeships."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ på sidste uge / på 2020 → ✓ i sidste uge / i 2020 (calendar time → i)",
+      "da": "✗ på sidste uge / på 2020 → ✓ i sidste uge / i 2020 (kalendertid → i)"
+    },
+    {
+      "en": "✗ har boet her for tolv år → ✓ har boet her i tolv år (duration → i, never for)",
+      "da": "✗ har boet her for tolv år → ✓ har boet her i tolv år (varighed → i, aldrig for)"
+    },
+    {
+      "en": "✗ interesserer sig i / er interesseret for → ✓ interesserer sig for / er interesseret i (verb takes for, adjective takes i)",
+      "da": "✗ interesserer sig i / er interesseret for → ✓ interesserer sig for / er interesseret i (verbet tager for, adjektivet i)"
+    },
+    {
+      "en": "✗ afhænger på → ✓ afhænger af (and afhængig af)",
+      "da": "✗ afhænger på → ✓ afhænger af (og afhængig af)"
+    },
+    {
+      "en": "✗ deltage på kurset → ✓ deltage i kurset (but være på kursus)",
+      "da": "✗ deltage på kurset → ✓ deltage i kurset (men være på kursus)"
+    },
+    {
+      "en": "✗ årsagen for / adgang for → ✓ årsagen til / adgang til (English reason for, access for)",
+      "da": "✗ årsagen for / adgang for → ✓ årsagen til / adgang til (engelsk reason for, access for)"
+    }
+  ]
+}

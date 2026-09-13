@@ -49,3 +49,50 @@ Each topic is one JSON file in `DanskGrammaMama/Content/<topic>.json`:
 - Explanations teach a transferable rule, not just "because it is right". Mention the trap. English explanation and Danish explanation carry the same content.
 - Mix: ~55% choice, ~45% typed. ~50% level 1, ~50% level 2. Level 2 typed items are the hardest.
 - Vary sentence subjects and topics; do not start every sentence the same way.
+
+## Multi-blank items (cloze) — `Content/cloze_<topic>.json`
+
+Level-2 texts with several gaps, in the style of PD3 Læseforståelse Delprøve 3. Same file shape (`{"topic": ..., "questions": [...]}`), but each question has:
+
+| field | type | notes |
+|---|---|---|
+| `id` | string | `<topic>-c<2 digits>`, e.g. `connectors-c01` |
+| `topic`, `level`, `tags` | as above | `level` is always 2 |
+| `type` | `"cloze"` | |
+| `prompt` | string | The text. Each gap is written `{1}`, `{2}`, … in reading order, numbered from 1 with no gaps in numbering. Two kinds: a **two-blank sentence** (one complex sentence, 2 gaps, 18–30 words) or a **short paragraph** (3–5 sentences, 4–5 gaps, 60–100 words). |
+| `blanks` | [Blank] | One per gap, in order. |
+
+### Blank
+
+| field | type | notes |
+|---|---|---|
+| `options` | [string] | exactly 4, includes the answer, only one fits |
+| `answer` | string | |
+| `explanation` | `{"en","da"}` | 1–3 sentences each, rule + trap, as above |
+
+Rules: the paragraph must read as one coherent, original text on a Danish-society topic; gaps should test different sub-rules of the topic (not five identical tests); options for one gap must not be trivially resolvable by looking at another gap; no gap may have two defensible answers. Do not reuse published PD3 texts.
+
+## Topic guides — `Content/guide_<topic>.json`
+
+A compact "how to crack this topic" sheet shown on the topic page. Bilingual; the app shows one language at a time.
+
+```json
+{
+  "topic": "verbs",
+  "intro": {"en": "...", "da": "..."},
+  "sections": [
+    {
+      "title": {"en": "...", "da": "..."},
+      "rules": [ {"en": "...", "da": "..."} ],
+      "hack": {"en": "...", "da": "..."},
+      "examples": [ {"da": "Danish example sentence with the key word **bolded**", "en": "English gloss"} ]
+    }
+  ],
+  "traps": [ {"en": "...", "da": "..."} ]
+}
+```
+
+- `intro`: 1–2 sentences on what PD3 tests here and why learners lose points.
+- 4–7 `sections`, each one sub-rule. `rules`: 1–4 short bullet sentences. `hack`: one memorable trick or test the learner can apply in the exam (e.g. "Swap in *han/ham*: if *ham* fits, use *dem*"). `examples`: 2–3, the tested word wrapped in `**` for bolding.
+- `traps`: 3–6 one-line classic errors with the correction (e.g. "✗ fordi kommer han ikke → ✓ fordi han ikke kommer").
+- Plain, concrete language. Danish grammar terms in both languages (ledsætning, bestemt form …). No fluff.

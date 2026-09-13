@@ -1,0 +1,279 @@
+{
+  "topic": "number",
+  "intro": {
+    "en": "PD3 tests whether you can form the plural of a noun, add the bestemt flertal ending and pick the quantifier that fits a countable or uncountable noun. Points are lost on vowel-change nouns (mand → mænd), on double endings such as *lærerene* and on the English-style error *mere penge*.",
+    "da": "PD3 tester, om du kan danne flertal af et substantiv, sætte endelsen for bestemt flertal på og vælge det mængdeord, der passer til et tælleligt eller utælleligt substantiv. Man taber point på ord med vokalskifte (mand → mænd), på dobbelte endelser som *lærerene* og på den engelskprægede fejl *mere penge*."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Plural endings: -er, -e or nothing",
+        "da": "Flertalsendelser: -er, -e eller nul"
+      },
+      "rules": [
+        {
+          "en": "Most nouns take -er: en undersøgelse → undersøgelser, et problem → problemer. A noun that already ends in -e only adds -r: en kommune → kommuner, et vindue → vinduer.",
+          "da": "De fleste substantiver får -er: en undersøgelse → undersøgelser, et problem → problemer. Et ord, der allerede ender på -e, får kun -r: en kommune → kommuner, et vindue → vinduer."
+        },
+        {
+          "en": "Nouns for people ending in -er take -e: en lærer → lærere, en borger → borgere, en medarbejder → medarbejdere. Many short et-words also take -e: et hus → huse, et bord → borde.",
+          "da": "Personbetegnelser på -er får -e: en lærer → lærere, en borger → borgere, en medarbejder → medarbejdere. Mange korte intetkønsord får også -e: et hus → huse, et bord → borde."
+        },
+        {
+          "en": "Zero ending (plural = singular) for many one-syllable et-words: et år → år, et dyr → dyr, et sprog → sprog, et krav → krav, et tilbud → tilbud, et forhold → forhold.",
+          "da": "Nul-endelse (flertal = ental) hos mange enstavelses-intetkønsord: et år → år, et dyr → dyr, et sprog → sprog, et krav → krav, et tilbud → tilbud, et forhold → forhold."
+        },
+        {
+          "en": "A compound noun follows its last part: arbejdsplads → arbejdspladser (plads → pladser), sundhedstilbud → sundhedstilbud (tilbud → tilbud). The first part never changes.",
+          "da": "Et sammensat ord bøjes efter sit sidste led: arbejdsplads → arbejdspladser (plads → pladser), sundhedstilbud → sundhedstilbud (tilbud → tilbud). Første led ændres aldrig."
+        }
+      ],
+      "hack": {
+        "en": "If the singular already ends in -er (lærer, arbejder, borger), you may only add -e; a second -er (*lærerer*) does not exist in Danish. If the singular is a one-syllable et-word (år, dyr, krav, sprog), try the zero ending first: it is right far more often than -er.",
+        "da": "Hvis ental allerede ender på -er (lærer, arbejder, borger), må du kun tilføje -e; et ekstra -er (*lærerer*) findes ikke på dansk. Hvis ental er et enstavelses-intetkønsord (år, dyr, krav, sprog), så prøv nul-endelsen først: den er rigtig langt oftere end -er."
+      },
+      "examples": [
+        {
+          "da": "Mange **lærere** oplever, at arbejdspresset er vokset siden reformen.",
+          "en": "Many teachers feel that the workload has grown since the reform."
+        },
+        {
+          "da": "Unge, der har boet i udlandet i flere **år**, klarer sig godt på arbejdsmarkedet.",
+          "en": "Young people who have lived abroad for several years do well in the job market."
+        },
+        {
+          "da": "Efter strukturreformen blev antallet af **kommuner** reduceret til 98.",
+          "en": "After the structural reform the number of municipalities was reduced to 98."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Bestemt flertal: -ene, -erne, -ne",
+        "da": "Bestemt flertal: -ene, -erne, -ne"
+      },
+      "rules": [
+        {
+          "en": "Bestemt flertal is built on the plural form, never on the singular: børn → børnene, huse → husene, kommuner → kommunerne, år → årene.",
+          "da": "Bestemt flertal dannes af flertalsformen, aldrig af ental: børn → børnene, huse → husene, kommuner → kommunerne, år → årene."
+        },
+        {
+          "en": "A plural -e drops before -ne: lærere → lærerne (not *lærerene*), medarbejdere → medarbejderne, huse → husene.",
+          "da": "Flertals-e falder væk foran -ne: lærere → lærerne (ikke *lærerene*), medarbejdere → medarbejderne, huse → husene."
+        },
+        {
+          "en": "Short vowel + single consonant doubles the consonant: tilbud → tilbuddene, fod → fødderne, tal → tallene.",
+          "da": "Kort vokal + én konsonant fordobler konsonanten: tilbud → tilbuddene, fod → fødderne, tal → tallene."
+        },
+        {
+          "en": "Ubestemt flertal after quantifiers and numbers (mange, flere, få, antallet af, tusindvis af, seks millioner). Bestemt flertal after 'flere af', 'de fleste af', 'ejerne af', for body parts (huller i tænderne) and for a known, specific group (lærerne på skolen).",
+          "da": "Ubestemt flertal efter mængdeord og talord (mange, flere, få, antallet af, tusindvis af, seks millioner). Bestemt flertal efter 'flere af', 'de fleste af', 'ejerne af', ved kropsdele (huller i tænderne) og om en kendt, afgrænset gruppe (lærerne på skolen)."
+        }
+      ],
+      "hack": {
+        "en": "Write it in two steps: first the ubestemt flertal (lærer → lærere), then add -ne to exactly that form (lærerne). If your answer contains -erene, or -erne on a word that never took -er (*huserne*), you started from the wrong form. Then check the word in front: mange/flere/antallet af → ubestemt; flere af/de fleste af → bestemt.",
+        "da": "Skriv det i to trin: først ubestemt flertal (lærer → lærere), derefter -ne på netop den form (lærerne). Hvis dit svar indeholder -erene, eller -erne på et ord, der aldrig fik -er (*huserne*), er du gået ud fra den forkerte form. Tjek derefter ordet foran: mange/flere/antallet af → ubestemt; flere af/de fleste af → bestemt."
+      },
+      "examples": [
+        {
+          "da": "Ledelsen inddrog **medarbejderne** i planlægningen af de nye arbejdstider.",
+          "en": "Management involved the employees in planning the new working hours."
+        },
+        {
+          "da": "Da skoledagen blev kortere, blev **børnene** mindre trætte om eftermiddagen.",
+          "en": "When the school day got shorter, the children became less tired in the afternoon."
+        },
+        {
+          "da": "Kommunen udbetalte erstatning til ejerne af **husene** langs kysten.",
+          "en": "The municipality paid compensation to the owners of the houses along the coast."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Vowel change: the list to memorise",
+        "da": "Vokalskifte: listen, du skal kunne"
+      },
+      "rules": [
+        {
+          "en": "Vowel change without ending: en mand → mænd, et barn → børn, en gås → gæs. Bestemt flertal: mændene, børnene, gæssene.",
+          "da": "Vokalskifte uden endelse: en mand → mænd, et barn → børn, en gås → gæs. Bestemt flertal: mændene, børnene, gæssene."
+        },
+        {
+          "en": "Vowel change + -er: en bog → bøger, en tand → tænder, en fod → fødder, en hånd → hænder, en tå → tæer, en nat → nætter, en ko → køer, en bonde → bønder. Bestemt flertal: bøgerne, tænderne, fødderne, hænderne.",
+          "da": "Vokalskifte + -er: en bog → bøger, en tand → tænder, en fod → fødder, en hånd → hænder, en tå → tæer, en nat → nætter, en ko → køer, en bonde → bønder. Bestemt flertal: bøgerne, tænderne, fødderne, hænderne."
+        },
+        {
+          "en": "Family words: en far → fædre, en mor → mødre, en bror → brødre, en datter → døtre. Also: en sø → søer (no change) but en by → byer, en ø → øer.",
+          "da": "Familieord: en far → fædre, en mor → mødre, en bror → brødre, en datter → døtre. Bemærk også: en sø → søer (uden skifte), men en by → byer, en ø → øer."
+        },
+        {
+          "en": "Watch the double consonant after a short vowel: fod → fødder, nat → nætter, tand → tænder (already two consonants).",
+          "da": "Pas på dobbeltkonsonanten efter kort vokal: fod → fødder, nat → nætter, tand → tænder (har allerede to konsonanter)."
+        }
+      ],
+      "hack": {
+        "en": "The vowel-change nouns are a closed list of everyday words: body parts (tand, fod, hånd, tå), family (far, mor, bror, datter, barn, mand), farm (ko, gås, bonde) plus bog and nat. Learn them as pairs (mand-mænd, bog-bøger, fod-fødder) and treat every other noun as regular. In the exam, any option that keeps the singular vowel (*boger, tanderne, hånderne*) is wrong.",
+        "da": "Ordene med vokalskifte er en lukket liste af hverdagsord: kropsdele (tand, fod, hånd, tå), familie (far, mor, bror, datter, barn, mand), landbrug (ko, gås, bonde) samt bog og nat. Lær dem som par (mand-mænd, bog-bøger, fod-fødder), og behandl alle andre substantiver som regelmæssige. Til prøven er enhver svarmulighed, der beholder entalsvokalen (*boger, tanderne, hånderne*), forkert."
+      },
+      "examples": [
+        {
+          "da": "Statistikken viser, at **mænd** stadig tager langt mindre barsel end kvinder.",
+          "en": "Statistics show that men still take far less parental leave than women."
+        },
+        {
+          "da": "Bibliotekerne udlåner stadig flere digitale **bøger**.",
+          "en": "Libraries lend out more and more digital books."
+        },
+        {
+          "da": "Mange børn får huller i **tænderne**, fordi de drikker for meget sodavand.",
+          "en": "Many children get cavities in their teeth because they drink too much soda."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Countable or uncountable: mange/meget, få/lidt, flere/mere",
+        "da": "Tælleligt eller utælleligt: mange/meget, få/lidt, flere/mere"
+      },
+      "rules": [
+        {
+          "en": "Countable nouns in plural take mange, få, flere: mange unge, få virksomheder, flere undersøgelser.",
+          "da": "Tællelige substantiver i flertal tager mange, få, flere: mange unge, få virksomheder, flere undersøgelser."
+        },
+        {
+          "en": "Uncountable nouns (substances and abstract nouns: tid, motion, energi, information, hjælp, plads) take meget, lidt, mere: meget tid, for lidt motion, mere hjælp.",
+          "da": "Utællelige substantiver (stoffer og abstrakte ord: tid, motion, energi, information, hjælp, plads) tager meget, lidt, mere: meget tid, for lidt motion, mere hjælp."
+        },
+        {
+          "en": "Penge is grammatically plural in Danish (pengene), so it takes mange, få and flere: flere penge, never *mere penge*.",
+          "da": "Penge er grammatisk flertal på dansk (pengene), så det tager mange, få og flere: flere penge, aldrig *mere penge*."
+        },
+        {
+          "en": "The quantifier also agrees in number: de fleste danskere (plural), den største del af befolkningen (singular).",
+          "da": "Mængdeordet kongruerer også i tal: de fleste danskere (flertal), den største del af befolkningen (ental)."
+        }
+      ],
+      "hack": {
+        "en": "Put a number in front of the noun. 'Tre virksomheder' works → countable → mange/få/flere. 'Tre motion' does not → uncountable → meget/lidt/mere. Penge fails the number test but has a plural ending and the definite form pengene, so it goes with the plural set: flere penge.",
+        "da": "Sæt et tal foran substantivet. 'Tre virksomheder' fungerer → tælleligt → mange/få/flere. 'Tre motion' fungerer ikke → utælleligt → meget/lidt/mere. Penge består ikke tal-testen, men har flertalsendelse og bestemt form pengene, så det følger flertalsordene: flere penge."
+      },
+      "examples": [
+        {
+          "da": "Rapporten viser, at **mange** unge ikke har tid nok til deres venner i hverdagen.",
+          "en": "The report shows that many young people do not have enough time for their friends."
+        },
+        {
+          "da": "Mange ældre får for **lidt** motion, fordi de er bange for at falde.",
+          "en": "Many elderly people get too little exercise because they are afraid of falling."
+        },
+        {
+          "da": "Regeringen vil bruge **flere** penge på psykiatrien, fordi ventetiderne er for lange.",
+          "en": "The government wants to spend more money on psychiatry because waiting times are too long."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "antal or mængde",
+        "da": "antal eller mængde"
+      },
+      "rules": [
+        {
+          "en": "Et antal counts units of a countable noun: et antal borgere, antallet af ansøgninger. Antal is an et-word with zero plural.",
+          "da": "Et antal tæller enheder af et tælleligt substantiv: et antal borgere, antallet af ansøgninger. Antal er intetkøn med nul-endelse i flertal."
+        },
+        {
+          "en": "En mængde measures an uncountable substance: en mængde vand, store mængder CO2, en stor mængde affald. Plural: mængder.",
+          "da": "En mængde måler et utælleligt stof: en mængde vand, store mængder CO2, en stor mængde affald. Flertal: mængder."
+        },
+        {
+          "en": "After 'antallet af' and 'et stigende antal' the noun stands in ubestemt flertal: antallet af kommuner, not *kommunerne*.",
+          "da": "Efter 'antallet af' og 'et stigende antal' står substantivet i ubestemt flertal: antallet af kommuner, ikke *kommunerne*."
+        }
+      ],
+      "hack": {
+        "en": "antal = you could count them one by one (borgere, biler, ansøgninger). mængde = you would weigh or measure it (vand, CO2, affald, energi). Same split as before: a noun that takes mange takes antal; a noun that takes meget takes mængde.",
+        "da": "antal = man kunne tælle dem én for én (borgere, biler, ansøgninger). mængde = man ville veje eller måle det (vand, CO2, affald, energi). Samme skel som før: et ord, der tager mange, tager antal; et ord, der tager meget, tager mængde."
+      },
+      "examples": [
+        {
+          "da": "Kommunen har registreret et stigende **antal** borgere, der søger hjælp til huslejen.",
+          "en": "The municipality has registered a growing number of citizens seeking help with rent."
+        },
+        {
+          "da": "Landbruget udleder stadig betydelige **mængder** CO2.",
+          "en": "Agriculture still emits significant amounts of CO2."
+        },
+        {
+          "da": "**Antallet** af kommuner blev reduceret fra 271 til 98 i 2007.",
+          "en": "The number of municipalities was reduced from 271 to 98 in 2007."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "hver/hvert and alle/hele",
+        "da": "hver/hvert og alle/hele"
+      },
+      "rules": [
+        {
+          "en": "Hver/hvert always takes a singular noun and agrees in gender: hver kommune (en kommune), hvert barn (et barn).",
+          "da": "Hver/hvert står altid ved ental og kongruerer i køn: hver kommune (en kommune), hvert barn (et barn)."
+        },
+        {
+          "en": "Alle takes a countable plural: alle borgere, alle kommuner, alle børn.",
+          "da": "Alle tager tælleligt flertal: alle borgere, alle kommuner, alle børn."
+        },
+        {
+          "en": "Hele means 'the whole of one unit' and takes bestemt ental: hele befolkningen, hele landet, hele dagen. *Hele borgere* is impossible.",
+          "da": "Hele betyder 'hele enheden' og tager bestemt ental: hele befolkningen, hele landet, hele dagen. *Hele borgere* er umuligt."
+        }
+      ],
+      "hack": {
+        "en": "Can you say 'tre + noun'? Yes → alle (alle borgere). No, it is one single thing with -en/-et on it → hele (hele befolkningen). For hver/hvert, look up the article: en → hver, et → hvert; a possessive later in the sentence (*sit*, *dets*, *sin*, *dens*) often gives the gender away.",
+        "da": "Kan man sige 'tre + substantiv'? Ja → alle (alle borgere). Nej, det er én samlet enhed med -en/-et på → hele (hele befolkningen). Ved hver/hvert slår du artiklen op: en → hver, et → hvert; et ejestedord senere i sætningen (*sit*, *dets*, *sin*, *dens*) afslører ofte kønnet."
+      },
+      "examples": [
+        {
+          "da": "Loven fastslår, at **hvert** barn har ret til at blive hørt i sager om sin egen situation.",
+          "en": "The law states that every child has the right to be heard in cases about its own situation."
+        },
+        {
+          "da": "Regeringen understreger, at **alle** borgere over 18 år har ret til gratis gældsrådgivning.",
+          "en": "The government stresses that all citizens over 18 are entitled to free debt counselling."
+        },
+        {
+          "da": "**Hele** befolkningen blev tilbudt vaccinen i løbet af foråret.",
+          "en": "The whole population was offered the vaccine during the spring."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ mange lærerer → ✓ mange lærere (a noun ending in -er takes -e, never a second -er)",
+      "da": "✗ mange lærerer → ✓ mange lærere (et ord på -er får -e, aldrig et ekstra -er)"
+    },
+    {
+      "en": "✗ medarbejderene / huserne → ✓ medarbejderne / husene (bestemt flertal is built on the plural form, and -e drops before -ne)",
+      "da": "✗ medarbejderene / huserne → ✓ medarbejderne / husene (bestemt flertal dannes af flertalsformen, og -e falder væk foran -ne)"
+    },
+    {
+      "en": "✗ mande, boger, tanderne → ✓ mænd, bøger, tænderne (vowel change is compulsory)",
+      "da": "✗ mande, boger, tanderne → ✓ mænd, bøger, tænderne (vokalskiftet er obligatorisk)"
+    },
+    {
+      "en": "✗ mere penge / for få motion → ✓ flere penge / for lidt motion (penge is plural; motion is uncountable)",
+      "da": "✗ mere penge / for få motion → ✓ flere penge / for lidt motion (penge er flertal; motion er utælleligt)"
+    },
+    {
+      "en": "✗ hver barn / hele borgere → ✓ hvert barn / alle borgere (hvert with et-words; hele only with one definite unit)",
+      "da": "✗ hver barn / hele borgere → ✓ hvert barn / alle borgere (hvert ved et-ord; hele kun om én bestemt enhed)"
+    },
+    {
+      "en": "✗ antallet af kommunerne / flere undersøgelserne → ✓ antallet af kommuner / flere undersøgelser (ubestemt flertal after quantifiers)",
+      "da": "✗ antallet af kommunerne / flere undersøgelserne → ✓ antallet af kommuner / flere undersøgelser (ubestemt flertal efter mængdeord)"
+    }
+  ]
+}

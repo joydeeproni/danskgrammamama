@@ -1,0 +1,233 @@
+{
+  "topic": "wordorder",
+  "questions": [
+    {
+      "id": "wordorder-c01",
+      "topic": "wordorder",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Selvom mange pendlere er utilfredse med de hyppige forsinkelser, {1} bilen stå hjemme, fordi {2} betale de høje parkeringsafgifter i centrum.",
+      "blanks": [
+        {
+          "options": ["lader de fleste alligevel", "de fleste lader alligevel", "de fleste alligevel lader", "alligevel lader de fleste"],
+          "answer": "lader de fleste alligevel",
+          "explanation": {
+            "en": "The fronted selvom-clause is the first element of the hovedsætning, so the finite verb must come straight after the comma (V2), then the subject, then the central adverbial: 'lader de fleste alligevel'. 'De fleste lader alligevel' forgets the inversion, and 'alligevel lader de fleste' puts two elements in front of the verb.",
+            "da": "Den fremrykkede selvom-sætning er hovedsætningens første led, så det finitte verbum skal stå lige efter kommaet (V2), derefter subjektet og så det centrale adverbial: 'lader de fleste alligevel'. 'De fleste lader alligevel' glemmer inversionen, og 'alligevel lader de fleste' sætter to led foran verbet."
+          }
+        },
+        {
+          "options": ["de ikke vil", "de vil ikke", "vil de ikke", "ikke de vil"],
+          "answer": "de ikke vil",
+          "explanation": {
+            "en": "'Fordi' opens a ledsætning, and in a ledsætning the negation 'ikke' stands between the subject and the finite verb: 'fordi de ikke vil betale'. 'De vil ikke' is the hovedsætning order that learners carry into the ledsætning by habit; 'vil de ikke' is inversion, which never occurs after 'fordi'.",
+            "da": "'Fordi' indleder en ledsætning, og i en ledsætning står nægtelsen 'ikke' mellem subjektet og det finitte verbum: 'fordi de ikke vil betale'. 'De vil ikke' er hovedsætningsordstillingen, som man af vane tager med ind i ledsætningen; 'vil de ikke' er inversion, som aldrig forekommer efter 'fordi'."
+          }
+        }
+      ],
+      "tags": ["inversion", "fremrykket ledsætning", "ikke"]
+    },
+    {
+      "id": "wordorder-c02",
+      "topic": "wordorder",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Ledelsen har endnu ikke meldt ud, hvor mange stillinger {1} nedlægges i den kommende sparerunde, og {2} urolige for deres fremtid.",
+      "blanks": [
+        {
+          "options": ["der skal", "skal", "skal der", "som skal"],
+          "answer": "der skal",
+          "explanation": {
+            "en": "In an indirect question the question word is the subject of the clause ('hvor mange stillinger … nedlægges'), so Danish inserts 'der' before the verb: 'hvor mange stillinger der skal nedlægges'. Leaving 'der' out ('hvor mange stillinger skal') is the classic error, 'skal der' is direct-question order, and 'som' is not used here.",
+            "da": "I et indirekte spørgsmål er spørgeordet subjekt i sætningen ('hvor mange stillinger … nedlægges'), og så indsætter dansk 'der' før verbet: 'hvor mange stillinger der skal nedlægges'. At udelade 'der' ('hvor mange stillinger skal') er den klassiske fejl, 'skal der' er ordstillingen fra det direkte spørgsmål, og 'som' bruges ikke her."
+          }
+        },
+        {
+          "options": ["derfor er mange medarbejdere", "derfor mange medarbejdere er", "fordi mange medarbejdere er", "fordi er mange medarbejdere"],
+          "answer": "derfor er mange medarbejdere",
+          "explanation": {
+            "en": "The worry is a consequence of the missing announcement, so the connector is 'derfor'. 'Derfor' is an adverbial that fills the first position of a hovedsætning and therefore triggers inversion: 'derfor er mange medarbejdere urolige'. 'Derfor mange medarbejdere er' treats 'derfor' like the conjunction 'fordi', and the two 'fordi' options reverse the logic and leave a dangling ledsætning.",
+            "da": "Uroen er en følge af den manglende udmelding, så forbinderordet er 'derfor'. 'Derfor' er et adverbial, der fylder hovedsætningens første plads og derfor udløser inversion: 'derfor er mange medarbejdere urolige'. 'Derfor mange medarbejdere er' behandler 'derfor' som konjunktionen 'fordi', og de to muligheder med 'fordi' vender logikken om og efterlader en ledsætning uden hovedsætning."
+          }
+        }
+      ],
+      "tags": ["indirekte spørgsmål", "der", "fordi vs derfor"]
+    },
+    {
+      "id": "wordorder-c03",
+      "topic": "wordorder",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "I de senere år {1} en erhvervsuddannelse frem for gymnasiet, hvilket glæder de virksomheder, der {2} at finde faglærte medarbejdere.",
+      "blanks": [
+        {
+          "options": ["vælger flere unge igen", "flere unge vælger igen", "flere unge igen vælger", "igen vælger flere unge"],
+          "answer": "vælger flere unge igen",
+          "explanation": {
+            "en": "The sentence opens with the time adverbial 'I de senere år', so the finite verb takes second position (V2) and the subject follows it, then the central adverbial: 'vælger flere unge igen'. 'Flere unge vælger igen' is the neutral order and the trap: Danish allows only one element in front of the verb. 'Flere unge igen vælger' is ledsætning order.",
+            "da": "Sætningen begynder med tidsadverbialet 'I de senere år', så det finitte verbum står på anden plads (V2), og subjektet følger efter, dernæst det centrale adverbial: 'vælger flere unge igen'. 'Flere unge vælger igen' er den neutrale ordstilling og fælden: på dansk må der kun stå ét led foran verbet. 'Flere unge igen vælger' er ledsætningsordstilling."
+          }
+        },
+        {
+          "options": ["ellers har svært ved", "har ellers svært ved", "har svært ved ellers", "ellers svært ved har"],
+          "answer": "ellers har svært ved",
+          "explanation": {
+            "en": "A relative clause introduced by 'der' is a ledsætning, so the central adverbial 'ellers' goes before the finite verb: 'der ellers har svært ved at finde'. 'Har ellers svært ved' is the tempting hovedsætning order ('De har ellers svært ved …'), but inside a relative clause the adverbial must precede the verb.",
+            "da": "En relativsætning indledt med 'der' er en ledsætning, så det centrale adverbial 'ellers' står før det finitte verbum: 'der ellers har svært ved at finde'. 'Har ellers svært ved' er den fristende hovedsætningsordstilling ('De har ellers svært ved …'), men inde i en relativsætning skal adverbialet stå før verbet."
+          }
+        }
+      ],
+      "tags": ["inversion", "tidsadverbial", "relativsætning"]
+    },
+    {
+      "id": "wordorder-c04",
+      "topic": "wordorder",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Boligmanglen i de store byer er blevet et alvorligt problem for mange unge. Sidste år {1} i København med næsten ti procent, og mange studerende {2} en lejlighed tæt på deres uddannelse. Nogle vælger at blive boende hos forældrene, selvom {3} lang tid at pendle hver dag. Kommunen har lovet at bygge flere ungdomsboliger, og {4} nu grunde i udkanten af byen. Ingen ved dog endnu, {5} finansieres.",
+      "blanks": [
+        {
+          "options": ["steg huslejen igen", "huslejen steg igen", "huslejen igen steg", "igen steg huslejen"],
+          "answer": "steg huslejen igen",
+          "explanation": {
+            "en": "'Sidste år' is a fronted time adverbial, so the finite verb must follow immediately (V2) and the subject comes after it: 'steg huslejen igen'. 'Huslejen steg igen' keeps the subject first, which puts two elements before the verb and breaks the V2 rule of the hovedsætning.",
+            "da": "'Sidste år' er et fremrykket tidsadverbial, så det finitte verbum skal følge umiddelbart efter (V2), og subjektet kommer bagefter: 'steg huslejen igen'. 'Huslejen steg igen' beholder subjektet først, hvilket sætter to led foran verbet og bryder hovedsætningens V2-regel."
+          }
+        },
+        {
+          "options": ["kan ikke finde", "ikke kan finde", "kan finde ikke", "finde ikke kan"],
+          "answer": "kan ikke finde",
+          "explanation": {
+            "en": "After 'og' we are still in a hovedsætning, so 'ikke' comes after the finite verb 'kan' and before the infinitive: 'mange studerende kan ikke finde'. 'Ikke kan finde' is ledsætning order and the classic over-correction; 'kan finde ikke' wrongly puts the negation after the infinitive.",
+            "da": "Efter 'og' er vi stadig i en hovedsætning, så 'ikke' står efter det finitte verbum 'kan' og før infinitiven: 'mange studerende kan ikke finde'. 'Ikke kan finde' er ledsætningsordstilling og den klassiske overkorrektion; 'kan finde ikke' placerer fejlagtigt nægtelsen efter infinitiven."
+          }
+        },
+        {
+          "options": ["det ofte tager", "det tager ofte", "tager det ofte", "ofte det tager"],
+          "answer": "det ofte tager",
+          "explanation": {
+            "en": "'Selvom' introduces a ledsætning, where the order is subject – central adverbial – finite verb: 'selvom det ofte tager lang tid'. 'Det tager ofte' is the hovedsætning order and the trap; 'tager det ofte' is inversion, which never appears inside a ledsætning.",
+            "da": "'Selvom' indleder en ledsætning, hvor rækkefølgen er subjekt – centralt adverbial – finit verbum: 'selvom det ofte tager lang tid'. 'Det tager ofte' er hovedsætningsordstilling og fælden; 'tager det ofte' er inversion, som aldrig forekommer inde i en ledsætning."
+          }
+        },
+        {
+          "options": ["derfor opkøber den", "derfor den opkøber", "fordi den opkøber", "fordi opkøber den"],
+          "answer": "derfor opkøber den",
+          "explanation": {
+            "en": "Buying land is the consequence of the promise, so 'derfor' is the right connector, and as a fronted adverbial it forces inversion: 'derfor opkøber den'. 'Derfor den opkøber' treats 'derfor' like the conjunction 'fordi'; 'fordi den opkøber' has correct ledsætning order but turns the consequence into a cause and leaves the clause hanging.",
+            "da": "Opkøbet af grunde er en følge af løftet, så 'derfor' er det rigtige forbinderord, og som fremrykket adverbial kræver det inversion: 'derfor opkøber den'. 'Derfor den opkøber' behandler 'derfor' som konjunktionen 'fordi'; 'fordi den opkøber' har korrekt ledsætningsordstilling, men gør følgen til en årsag og efterlader sætningen uafsluttet."
+          }
+        },
+        {
+          "options": ["hvordan projektet egentlig skal", "hvordan skal projektet egentlig", "hvordan projektet skal egentlig", "hvordan egentlig projektet skal"],
+          "answer": "hvordan projektet egentlig skal",
+          "explanation": {
+            "en": "An indirect question with 'hvordan' is a ledsætning, so the order is subject – adverbial – finite verb: 'hvordan projektet egentlig skal finansieres'. 'Hvordan skal projektet egentlig' is the direct-question order ('Hvordan skal projektet egentlig finansieres?') and the classic error when a question is embedded in another sentence.",
+            "da": "Et indirekte spørgsmål med 'hvordan' er en ledsætning, så rækkefølgen er subjekt – adverbial – finit verbum: 'hvordan projektet egentlig skal finansieres'. 'Hvordan skal projektet egentlig' er ordstillingen fra det direkte spørgsmål ('Hvordan skal projektet egentlig finansieres?') og den klassiske fejl, når et spørgsmål indlejres i en anden sætning."
+          }
+        }
+      ],
+      "tags": ["inversion", "ikke", "indirekte spørgsmål", "fordi vs derfor"]
+    },
+    {
+      "id": "wordorder-c05",
+      "topic": "wordorder",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "Danskerne bevæger sig mindre end for tyve år siden, og det bekymrer sundhedsmyndighederne. Hvis udviklingen fortsætter, {1} langt flere patienter med livsstilssygdomme om ti år. Lægerne understreger, at {2} nødvendigt at løbe maraton for at holde sig sund, da en daglig gåtur på en halv time gør en stor forskel. Alligevel kender de fleste nogen, {3} tid til motion i en travl hverdag, og mange oplever, at motivationen forsvinder, når {4} hjem fra arbejde. Spørgsmålet er derfor, {5} for at få flere op af sofaen.",
+      "blanks": [
+        {
+          "options": ["skal sygehusene formentlig behandle", "sygehusene skal formentlig behandle", "sygehusene formentlig skal behandle", "formentlig skal sygehusene behandle"],
+          "answer": "skal sygehusene formentlig behandle",
+          "explanation": {
+            "en": "The whole hvis-clause is the first element of the hovedsætning, so the finite verb 'skal' comes right after the comma (V2), then the subject, the central adverbial and the infinitive: 'skal sygehusene formentlig behandle'. 'Sygehusene skal formentlig behandle' is the classic error of forgetting inversion after a fronted ledsætning; 'formentlig skal sygehusene' puts a second element in front of the verb.",
+            "da": "Hele hvis-sætningen er hovedsætningens første led, så det finitte verbum 'skal' står lige efter kommaet (V2), derefter subjektet, det centrale adverbial og infinitiven: 'skal sygehusene formentlig behandle'. 'Sygehusene skal formentlig behandle' er den klassiske fejl, hvor man glemmer inversion efter en fremrykket ledsætning; 'formentlig skal sygehusene' sætter endnu et led foran verbet."
+          }
+        },
+        {
+          "options": ["det ikke er", "det er ikke", "er det ikke", "ikke det er"],
+          "answer": "det ikke er",
+          "explanation": {
+            "en": "After 'at' the clause is a ledsætning, so 'ikke' must stand between the subject and the finite verb: 'at det ikke er nødvendigt'. 'Det er ikke' would be right in a hovedsætning ('Det er ikke nødvendigt'), and that is exactly the order learners wrongly keep after 'at'.",
+            "da": "Efter 'at' er sætningen en ledsætning, så 'ikke' skal stå mellem subjektet og det finitte verbum: 'at det ikke er nødvendigt'. 'Det er ikke' ville være rigtigt i en hovedsætning ('Det er ikke nødvendigt'), og det er netop den ordstilling, man fejlagtigt beholder efter 'at'."
+          }
+        },
+        {
+          "options": ["der aldrig finder", "der finder aldrig", "finder der aldrig", "aldrig der finder"],
+          "answer": "der aldrig finder",
+          "explanation": {
+            "en": "'Der' introduces a relative clause in which it is the subject, and a relative clause is a ledsætning, so the central adverbial 'aldrig' goes before the verb: 'nogen, der aldrig finder tid'. 'Der finder aldrig' is the hovedsætning pattern ('De finder aldrig tid') and the tempting error.",
+            "da": "'Der' indleder en relativsætning, hvor det er subjekt, og en relativsætning er en ledsætning, så det centrale adverbial 'aldrig' står før verbet: 'nogen, der aldrig finder tid'. 'Der finder aldrig' er hovedsætningsmønstret ('De finder aldrig tid') og den fristende fejl."
+          }
+        },
+        {
+          "options": ["de endelig kommer", "de kommer endelig", "kommer de endelig", "endelig de kommer"],
+          "answer": "de endelig kommer",
+          "explanation": {
+            "en": "'Når' opens a ledsætning, so the adverbial 'endelig' is placed before the finite verb: 'når de endelig kommer hjem'. 'De kommer endelig' is hovedsætning order and the classic mistake; 'kommer de endelig' is inversion, which does not occur after 'når'.",
+            "da": "'Når' indleder en ledsætning, så adverbialet 'endelig' placeres før det finitte verbum: 'når de endelig kommer hjem'. 'De kommer endelig' er hovedsætningsordstilling og den klassiske fejl; 'kommer de endelig' er inversion, som ikke forekommer efter 'når'."
+          }
+        },
+        {
+          "options": ["hvad der skal til", "hvad skal til", "hvad skal der til", "hvad som skal til"],
+          "answer": "hvad der skal til",
+          "explanation": {
+            "en": "When 'hvad' is the subject of an indirect question, Danish inserts 'der' before the verb: 'Spørgsmålet er, hvad der skal til'. 'Hvad skal til' is the classic omission of 'der', 'hvad skal der til' is the direct-question order ('Hvad skal der til?'), and 'hvad som' is not used in an indirect question.",
+            "da": "Når 'hvad' er subjekt i et indirekte spørgsmål, indsætter dansk 'der' før verbet: 'Spørgsmålet er, hvad der skal til'. 'Hvad skal til' er den klassiske udeladelse af 'der', 'hvad skal der til' er ordstillingen fra det direkte spørgsmål ('Hvad skal der til?'), og 'hvad som' bruges ikke i et indirekte spørgsmål."
+          }
+        }
+      ],
+      "tags": ["fremrykket ledsætning", "ledsætning", "relativsætning", "hvad der"]
+    },
+    {
+      "id": "wordorder-c06",
+      "topic": "wordorder",
+      "level": 2,
+      "type": "cloze",
+      "prompt": "I store dele af det danske erhvervsliv {1} efteruddannelse som en naturlig del af arbejdslivet. Det gælder især i industrien, {2} hurtigt, og medarbejdere uden nye kompetencer risikerer at blive overflødige. Mange ufaglærte tøver dog med at melde sig til kurser, når {3} i skole i tyve år. Arbejdsgiverne {4} betale for undervisning i arbejdstiden. Fagforeningerne diskuterer derfor med dem, {5} de ansatte til at tage imod tilbuddene.",
+      "blanks": [
+        {
+          "options": ["betragter man i dag", "man betragter i dag", "man i dag betragter", "i dag betragter man"],
+          "answer": "betragter man i dag",
+          "explanation": {
+            "en": "The place adverbial 'I store dele af det danske erhvervsliv' is fronted, so the finite verb 'betragter' takes second position and the subject 'man' follows (inversion, V2): 'betragter man i dag'. A long fronted phrase tempts learners to restart with 'man betragter', but its length changes nothing; 'i dag betragter man' adds a second element before the verb.",
+            "da": "Stedsadverbialet 'I store dele af det danske erhvervsliv' er fremrykket, så det finitte verbum 'betragter' står på anden plads, og subjektet 'man' følger efter (inversion, V2): 'betragter man i dag'. Et langt fremrykket led lokker til at begynde forfra med 'man betragter', men længden ændrer intet; 'i dag betragter man' sætter endnu et led foran verbet."
+          }
+        },
+        {
+          "options": ["fordi teknologien udvikler sig", "fordi udvikler teknologien sig", "derfor udvikler teknologien sig", "derfor teknologien udvikler sig"],
+          "answer": "fordi teknologien udvikler sig",
+          "explanation": {
+            "en": "The clause gives the reason why retraining matters in industry, so the conjunction 'fordi' is needed, and 'fordi' opens a ledsætning with normal subject–verb order: 'fordi teknologien udvikler sig'. 'Derfor udvikler teknologien sig' has correct inversion but reverses the logic (fast technology would be a result), and 'fordi udvikler teknologien sig' wrongly inverts inside a ledsætning.",
+            "da": "Sætningen angiver grunden til, at efteruddannelse er vigtig i industrien, så der skal stå konjunktionen 'fordi', og 'fordi' indleder en ledsætning med almindelig subjekt–verbum-rækkefølge: 'fordi teknologien udvikler sig'. 'Derfor udvikler teknologien sig' har korrekt inversion, men vender logikken om (den hurtige teknologi bliver en følge), og 'fordi udvikler teknologien sig' laver fejlagtigt inversion i en ledsætning."
+          }
+        },
+        {
+          "options": ["de ikke har været", "de har ikke været", "har de ikke været", "ikke de har været"],
+          "answer": "de ikke har været",
+          "explanation": {
+            "en": "'Når' introduces a ledsætning, so 'ikke' comes before the finite verb 'har': 'når de ikke har været i skole'. 'De har ikke været' is the hovedsætning order and the classic error; note that in a ledsætning 'ikke' precedes the whole verb group, not just the participle.",
+            "da": "'Når' indleder en ledsætning, så 'ikke' står før det finitte verbum 'har': 'når de ikke har været i skole'. 'De har ikke været' er hovedsætningsordstilling og den klassiske fejl; bemærk, at 'ikke' i en ledsætning står før hele verbalgruppen, ikke kun før participiet."
+          }
+        },
+        {
+          "options": ["har ikke altid villet", "ikke har altid villet", "har altid ikke villet", "har villet ikke altid"],
+          "answer": "har ikke altid villet",
+          "explanation": {
+            "en": "This is a hovedsætning, so the central adverbials come after the finite verb 'har' and before the participle: 'har ikke altid villet betale'. 'Ikke har altid villet' is ledsætning order, and 'har altid ikke villet' reverses the fixed order of 'ikke altid' (not always); 'ikke' must come before 'altid'.",
+            "da": "Dette er en hovedsætning, så de centrale adverbialer står efter det finitte verbum 'har' og før participiet: 'har ikke altid villet betale'. 'Ikke har altid villet' er ledsætningsordstilling, og 'har altid ikke villet' bytter om på den faste rækkefølge i 'ikke altid'; 'ikke' skal stå før 'altid'."
+          }
+        },
+        {
+          "options": ["hvordan man bedst motiverer", "hvordan motiverer man bedst", "hvordan man motiverer bedst", "hvordan bedst man motiverer"],
+          "answer": "hvordan man bedst motiverer",
+          "explanation": {
+            "en": "An indirect question with 'hvordan' is a ledsætning, so the order is subject – adverbial – finite verb: 'hvordan man bedst motiverer de ansatte'. 'Hvordan motiverer man bedst' is the direct-question order and the classic trap; 'hvordan man motiverer bedst' places the central adverbial after the verb as in a hovedsætning.",
+            "da": "Et indirekte spørgsmål med 'hvordan' er en ledsætning, så rækkefølgen er subjekt – adverbial – finit verbum: 'hvordan man bedst motiverer de ansatte'. 'Hvordan motiverer man bedst' er ordstillingen fra det direkte spørgsmål og den klassiske fælde; 'hvordan man motiverer bedst' placerer det centrale adverbial efter verbet som i en hovedsætning."
+          }
+        }
+      ],
+      "tags": ["inversion", "fordi vs derfor", "ikke", "indirekte spørgsmål"]
+    }
+  ]
+}

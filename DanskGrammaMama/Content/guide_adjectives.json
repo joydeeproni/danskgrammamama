@@ -1,0 +1,233 @@
+{
+  "topic": "adjectives",
+  "intro": {
+    "en": "PD3 checks that every adjective agrees with its noun (-0, -t or -e) and that you switch to the -e form whenever the noun phrase is in bestemt form. The other half of the topic is the choice between sin/sit/sine and hans/hendes/deres, which is decided by the subject of the clause – not by who the owner is.",
+    "da": "PD3 kontrollerer, at hvert adjektiv stemmer overens med sit substantiv (-0, -t eller -e), og at du skifter til -e-formen, hver gang substantivet står i bestemt form. Den anden halvdel af emnet er valget mellem sin/sit/sine og hans/hendes/deres, som afgøres af sætningens subjekt – ikke af, hvem ejeren er."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Ubestemt form: -0, -t or -e",
+        "da": "Ubestemt form: -0, -t eller -e"
+      },
+      "rules": [
+        {
+          "en": "With en-words (fælleskøn) in the singular the adjective has no ending: en stor by, en ny lov.",
+          "da": "Ved en-ord (fælleskøn) i ental får adjektivet ingen endelse: en stor by, en ny lov."
+        },
+        {
+          "en": "With et-words (intetkøn) in the singular add -t: et nyt plejehjem, et alvorligt problem, et ugentligt møde.",
+          "da": "Ved et-ord (intetkøn) i ental tilføjes -t: et nyt plejehjem, et alvorligt problem, et ugentligt møde."
+        },
+        {
+          "en": "In the plural add -e regardless of gender: store investeringer, unge familier, alvorlige problemer.",
+          "da": "I flertal tilføjes -e uanset køn: store investeringer, unge familier, alvorlige problemer."
+        }
+      ],
+      "hack": {
+        "en": "Say the noun with its article out loud: 'et ___' or 'en ___'? If you need et, the adjective needs -t. Learn the gender of the exam favourites: et problem, et møde, et samfund, et firma, et hus, et initiativ – but en regering, en by, en undersøgelse, en arbejdsplads.",
+        "da": "Sig substantivet med dets artikel højt: 'et ___' eller 'en ___'? Hvis du skal bruge et, skal adjektivet have -t. Lær kønnet på prøvens favoritter: et problem, et møde, et samfund, et firma, et hus, et initiativ – men en regering, en by, en undersøgelse, en arbejdsplads."
+      },
+      "examples": [
+        {
+          "da": "Kommunen har bygget et **nyt** plejehjem tæt på byens centrum.",
+          "en": "The municipality has built a new care home close to the town centre."
+        },
+        {
+          "da": "Mange unge flytter til en **stor** by, fordi de vil studere.",
+          "en": "Many young people move to a big city because they want to study."
+        },
+        {
+          "da": "Regeringen har lovet **store** investeringer i den grønne omstilling.",
+          "en": "The government has promised large investments in the green transition."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Bestemt form: always -e",
+        "da": "Bestemt form: altid -e"
+      },
+      "rules": [
+        {
+          "en": "When the noun phrase is definite, the adjective always ends in -e, whatever the gender or number: den nye regering, det nye hospital, de nye regler.",
+          "da": "Når substantivet står i bestemt form, ender adjektivet altid på -e, uanset køn og tal: den nye regering, det nye hospital, de nye regler."
+        },
+        {
+          "en": "The same applies after possessives (min gamle arbejdsplads, deres store hus), after a genitive (Danmarks høje skattetryk, naboens store hus) and after demonstratives (dette vigtige initiativ).",
+          "da": "Det samme gælder efter ejestedord (min gamle arbejdsplads, deres store hus), efter genitiv (Danmarks høje skattetryk, naboens store hus) og efter demonstrative pronominer (dette vigtige initiativ)."
+        },
+        {
+          "en": "Adjectives used as nouns are definite too: de ældre, de unge, de arbejdsløse.",
+          "da": "Adjektiver, der bruges som substantiver, står også i bestemt form: de ældre, de unge, de arbejdsløse."
+        }
+      ],
+      "hack": {
+        "en": "If anything stands in front of the adjective that tells you WHICH one – den/det/de, min/din/sin/hans/deres, an -s genitive, denne/dette/disse – write -e and forget about gender completely.",
+        "da": "Hvis der står noget foran adjektivet, der fortæller HVILKEN – den/det/de, min/din/sin/hans/deres, en s-genitiv, denne/dette/disse – så skriv -e, og glem alt om køn."
+      },
+      "examples": [
+        {
+          "da": "Det **nye** hospital i Aarhus har fået kritik for lange ventetider.",
+          "en": "The new hospital in Aarhus has been criticised for long waiting times."
+        },
+        {
+          "da": "Danmarks **høje** skattetryk forklares ofte med det gratis sundhedsvæsen.",
+          "en": "Denmark's high tax burden is often explained by the free health service."
+        },
+        {
+          "da": "Min **gamle** arbejdsplads blev lukket, fordi produktionen blev flyttet til Polen.",
+          "en": "My old workplace was closed because production was moved to Poland."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Predicative agreement: huset er stort",
+        "da": "Prædikativ: huset er stort"
+      },
+      "rules": [
+        {
+          "en": "After være, blive, synes, føle sig etc. the adjective agrees with the subject: huslejen er høj, lokalet er mørkt, lejlighederne er dyre.",
+          "da": "Efter være, blive, synes, føle sig osv. stemmer adjektivet overens med subjektet: huslejen er høj, lokalet er mørkt, lejlighederne er dyre."
+        },
+        {
+          "en": "The bestemt form rule does NOT apply here: huset er stort (not store), even though huset is definite.",
+          "da": "Reglen om bestemt form gælder IKKE her: huset er stort (ikke store), selvom huset står i bestemt form."
+        },
+        {
+          "en": "Plural subjects and plural pronouns take -e: de føler sig usikre; børnene er trætte.",
+          "da": "Subjekter i flertal og pronominer i flertal får -e: de føler sig usikre; børnene er trætte."
+        }
+      ],
+      "hack": {
+        "en": "Replace the subject with den, det or de. den → no ending, det → -t, de → -e. Huset (det) er stort; huslejen (den) er høj; lejlighederne (de) er dyre.",
+        "da": "Erstat subjektet med den, det eller de. den → ingen endelse, det → -t, de → -e. Huset (det) er stort; huslejen (den) er høj; lejlighederne (de) er dyre."
+      },
+      "examples": [
+        {
+          "da": "Mange lejere oplever, at huslejen er blevet alt for **høj** i forhold til standarden.",
+          "en": "Many tenants find that the rent has become far too high compared with the standard."
+        },
+        {
+          "da": "Selv om lokalet er **mørkt** om vinteren, bruger foreningen det hver uge.",
+          "en": "Even though the room is dark in winter, the association uses it every week."
+        },
+        {
+          "da": "Mange nyuddannede føler sig **usikre**, når de skal forhandle løn.",
+          "en": "Many new graduates feel insecure when they have to negotiate their salary."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Special adjectives: moderne, praktisk, lille/små, egen, anden",
+        "da": "Særlige adjektiver: moderne, praktisk, lille/små, egen, anden"
+      },
+      "rules": [
+        {
+          "en": "Adjectives ending in -e (moderne, stille, lille) and adjectives ending in -sk (praktisk, dansk, politisk) do not take -t: et moderne samfund, det er praktisk, et dansk firma.",
+          "da": "Adjektiver, der ender på -e (moderne, stille, lille), og adjektiver, der ender på -sk (praktisk, dansk, politisk), får ikke -t: et moderne samfund, det er praktisk, et dansk firma."
+        },
+        {
+          "en": "lille has the plural små: en lille virksomhed, et lille barn – but mange små virksomheder, de små børn.",
+          "da": "Lille har flertalsformen små: en lille virksomhed, et lille barn – men mange små virksomheder, de små børn."
+        },
+        {
+          "en": "egen/eget/egne agrees with the noun like an indefinite adjective, even after a possessive: sin egen bolig, sit eget firma, deres egne børn – never 'sit egne'.",
+          "da": "Egen/eget/egne bøjes efter substantivet som et ubestemt adjektiv, også efter et ejestedord: sin egen bolig, sit eget firma, deres egne børn – aldrig 'sit egne'."
+        },
+        {
+          "en": "anden/andet/andre: en anden bil, et andet præparat, andre lande. In bestemt form den/det anden means 'the second' or 'the other one'.",
+          "da": "Anden/andet/andre: en anden bil, et andet præparat, andre lande. I bestemt form betyder den/det anden 'nummer to' eller 'den anden af to'."
+        }
+      ],
+      "hack": {
+        "en": "Three 'no -t' checks before you add an ending: does the adjective already end in -e? does it end in -sk? is it lille (→ små in the plural)? For egen and anden, ignore the possessive in front and match the noun: firma is an et-word → sit eget firma, et andet firma.",
+        "da": "Tre 'intet -t'-tjek, før du tilføjer en endelse: ender adjektivet allerede på -e? ender det på -sk? er det lille (→ små i flertal)? Ved egen og anden skal du ignorere ejestedordet foran og bøje efter substantivet: firma er et et-ord → sit eget firma, et andet firma."
+      },
+      "examples": [
+        {
+          "da": "I et **moderne** samfund forventes det, at borgerne selv finder oplysninger på nettet.",
+          "en": "In a modern society citizens are expected to find information online themselves."
+        },
+        {
+          "da": "Mange **små** virksomheder har svært ved at overholde de nye miljøkrav.",
+          "en": "Many small businesses struggle to comply with the new environmental requirements."
+        },
+        {
+          "da": "Hun besluttede at starte sit **eget** firma med fokus på bæredygtigt byggeri.",
+          "en": "She decided to start her own company focusing on sustainable construction."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "sin/sit/sine vs hans/hendes/deres",
+        "da": "Sin/sit/sine eller hans/hendes/deres"
+      },
+      "rules": [
+        {
+          "en": "sin/sit/sine is reflexive: it points back to the subject of the same clause and agrees with the thing owned (sin stilling, sit firma, sine noter).",
+          "da": "Sin/sit/sine er refleksivt: det peger tilbage på subjektet i samme sætning og bøjes efter det, der ejes (sin stilling, sit firma, sine noter)."
+        },
+        {
+          "en": "hans/hendes/deres is used when the owner is NOT the subject of that clause: Sygeplejersken gav manden hans medicin (the nurse is the subject, the man owns the medicine).",
+          "da": "Hans/hendes/deres bruges, når ejeren IKKE er subjekt i den pågældende sætning: Sygeplejersken gav manden hans medicin (sygeplejersken er subjekt, manden ejer medicinen)."
+        },
+        {
+          "en": "In a ledsætning look at the subject of the ledsætning, not of the whole sentence: Kommunen kontaktede familien, fordi lægerne var bekymrede for hendes tilstand.",
+          "da": "I en ledsætning skal du se på ledsætningens subjekt, ikke på hele sætningens: Kommunen kontaktede familien, fordi lægerne var bekymrede for hendes tilstand."
+        },
+        {
+          "en": "sin/sit/sine can never be part of the subject itself: Louise fortæller, at hendes mand henter børnene – mand is the subject of the at-clause, so sin is impossible.",
+          "da": "Sin/sit/sine kan aldrig være en del af selve subjektet: Louise fortæller, at hendes mand henter børnene – mand er subjekt i at-sætningen, så sin er umuligt."
+        }
+      ],
+      "hack": {
+        "en": "Ask: 'Does it point back to the subject of THIS clause?' Find the verb nearest the gap, find that verb's subject, and check whether the subject owns the thing. Yes → sin/sit/sine. No – or the owned thing is itself the subject → hans/hendes/deres.",
+        "da": "Spørg: 'Peger det tilbage på subjektet i DENNE sætning?' Find det verbum, der står nærmest hullet, find verbets subjekt, og tjek, om subjektet ejer tingen. Ja → sin/sit/sine. Nej – eller det ejede er selv subjekt → hans/hendes/deres."
+      },
+      "examples": [
+        {
+          "da": "Direktøren meddelte, at hun ville forlade **sin** stilling ved årets udgang.",
+          "en": "The director announced that she would leave her position at the end of the year."
+        },
+        {
+          "da": "Sygeplejersken gav den ældre mand **hans** medicin, inden hun gik videre.",
+          "en": "The nurse gave the elderly man his medicine before she moved on."
+        },
+        {
+          "da": "Overlægen forklarede, at **hans** patienter ofte venter for længe med at søge hjælp.",
+          "en": "The consultant explained that his patients often wait too long before seeking help."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ et stor problem → ✓ et stort problem (et-word in ubestemt form takes -t)",
+      "da": "✗ et stor problem → ✓ et stort problem (et-ord i ubestemt form får -t)"
+    },
+    {
+      "en": "✗ det nyt hospital → ✓ det nye hospital (bestemt form is always -e)",
+      "da": "✗ det nyt hospital → ✓ det nye hospital (bestemt form er altid -e)"
+    },
+    {
+      "en": "✗ huset er store → ✓ huset er stort (predicative: agree with gender, not with definiteness)",
+      "da": "✗ huset er store → ✓ huset er stort (prædikativ: bøj efter køn, ikke efter bestemthed)"
+    },
+    {
+      "en": "✗ mange lille virksomheder → ✓ mange små virksomheder (lille has the plural små)",
+      "da": "✗ mange lille virksomheder → ✓ mange små virksomheder (lille har flertalsformen små)"
+    },
+    {
+      "en": "✗ sit egne firma → ✓ sit eget firma (egen agrees with the noun, not with the possessive)",
+      "da": "✗ sit egne firma → ✓ sit eget firma (egen bøjes efter substantivet, ikke efter ejestedordet)"
+    },
+    {
+      "en": "✗ Louise siger, at sin mand henter børnene → ✓ …at hendes mand henter børnene (sin can never stand in the subject)",
+      "da": "✗ Louise siger, at sin mand henter børnene → ✓ …at hendes mand henter børnene (sin kan aldrig stå i subjektet)"
+    }
+  ]
+}

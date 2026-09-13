@@ -1,0 +1,122 @@
+{
+  "topic": "connectors",
+  "intro": {
+    "en": "This is Delprøve 3 in a nutshell: a formal text with gaps, four real connectors per gap, only one that fits the logic. You are not choosing a word you like, you are naming the relation between two sentences. Do that first and the word follows.",
+    "da": "Det er Delprøve 3 i en nøddeskal: en formel tekst med huller, fire rigtige forbinderord per hul og kun ét, der passer til logikken. Du vælger ikke et ord, du kan lide; du navngiver relationen mellem to sætninger. Gør det først, så følger ordet af sig selv."
+  },
+  "sections": [
+    {
+      "title": {"en": "The method: name the relation before you look", "da": "Metoden: navngiv relationen, før du kigger"},
+      "rules": [
+        {"en": "Read the sentence before the gap and the sentence after it. Say in your own words how they relate: same direction, opposite direction, cause, result, or restatement.", "da": "Læs sætningen før hullet og sætningen efter. Sig med dine egne ord, hvordan de hænger sammen: samme retning, modsat retning, årsag, følge eller omformulering."},
+        {"en": "Only then look at the four options and keep the one that matches that relation.", "da": "Først derefter kigger du på de fire muligheder og beholder den, der matcher relationen."},
+        {"en": "There are only five relations worth memorising: modsætning, årsag, følge, tilføjelse, omformulering.", "da": "Der er kun fem relationer, det er værd at huske: modsætning, årsag, følge, tilføjelse, omformulering."}
+      ],
+      "hack": {
+        "en": "Cover the options with your finger and fill the gap with the plain English word first: but, because, so, also, that is. Then pick the Danish connector from that box.",
+        "da": "Dæk mulighederne med fingeren, og udfyld først hullet med et enkelt ord: men, fordi, så, også, altså. Vælg derefter det danske forbinderord fra den kasse."
+      },
+      "examples": [
+        {"da": "Investeringerne er steget. Antallet af cyklister er **imidlertid** ikke fulgt med.", "en": "but → contrast box"},
+        {"da": "Elpriserne steg voldsomt. Mange familier skruede **derfor** ned for varmen.", "en": "so → result box"},
+        {"da": "Danskerne cykler meget. Landet er **nemlig** fladt og tæt befolket.", "en": "because → reason box"}
+      ]
+    },
+    {
+      "title": {"en": "Contrast: imidlertid, dog, derimod, alligevel, omvendt", "da": "Modsætning: imidlertid, dog, derimod, alligevel, omvendt"},
+      "rules": [
+        {"en": "Imidlertid and dog are the neutral formal but. Dog is lighter and often sits mid-sentence.", "da": "Imidlertid og dog er det neutrale formelle men. Dog er lettere og står ofte inde i sætningen."},
+        {"en": "Derimod contrasts two different subjects: one does X, the other does Y.", "da": "Derimod stiller to forskellige subjekter over for hinanden: den ene gør X, den anden gør Y."},
+        {"en": "Alligevel means despite what you would expect from the previous sentence.", "da": "Alligevel betyder på trods af det, man ville forvente ud fra den forrige sætning."},
+        {"en": "Omvendt and til gengæld flip the picture around: the other side of the same coin.", "da": "Omvendt og til gengæld vender billedet om: den anden side af samme sag."}
+      ],
+      "hack": {
+        "en": "Ask which kind of but it is. Two different subjects → derimod. Contrary to expectation → alligevel. Plain neutral but → imidlertid or dog.",
+        "da": "Spørg, hvilken slags men det er. To forskellige subjekter → derimod. Mod forventning → alligevel. Almindeligt neutralt men → imidlertid eller dog."
+      },
+      "examples": [
+        {"da": "Rygningen falder blandt unge. Forbruget af snus stiger **derimod** kraftigt.", "en": "two different subjects contrasted"},
+        {"da": "De fleste kender klimaaftrykket fra flyrejser. Mange flyver **alligevel** flere gange om året.", "en": "against expectation"},
+        {"da": "Ansøgertallet er steget. Det er **imidlertid** stadig kun hver fjerde, der er kvinde.", "en": "neutral formal but"}
+      ]
+    },
+    {
+      "title": {"en": "Cause and result: derfor, dermed, således, nemlig, altså", "da": "Årsag og følge: derfor, dermed, således, nemlig, altså"},
+      "rules": [
+        {"en": "Derfor, dermed, således and som følge heraf all point forwards: cause first, then the result in the gap sentence.", "da": "Derfor, dermed, således og som følge heraf peger fremad: årsagen først, derefter følgen i sætningen med hullet."},
+        {"en": "Nemlig points backwards: the gap sentence explains why the previous one is true.", "da": "Nemlig peger bagud: sætningen med hullet forklarer, hvorfor den forrige er sand."},
+        {"en": "Altså draws a conclusion from what was just said, like therefore in a piece of reasoning.", "da": "Altså drager en konklusion af det netop sagte, som følgelig i en argumentation."}
+      ],
+      "hack": {
+        "en": "Check the arrow. If the gap sentence is the consequence, use derfor. If it is the explanation of what came before, use nemlig. Cause → derfor points down, nemlig points up.",
+        "da": "Tjek pilen. Er sætningen med hullet følgen, skal der stå derfor. Er den forklaringen på det foregående, skal der stå nemlig. Derfor peger ned, nemlig peger op."
+      },
+      "examples": [
+        {"da": "Mange ældre bor alene. Kommunen har **derfor** ansat besøgsvenner.", "en": "result follows the cause"},
+        {"da": "Forældrene henter sent. Mange arbejder **nemlig** på skiftende tidspunkter.", "en": "the gap sentence explains the previous one"},
+        {"da": "Priserne er fordoblet, mens lønnen kun steg en tredjedel. Boligkøb er **altså** blevet sværere.", "en": "conclusion drawn"}
+      ]
+    },
+    {
+      "title": {"en": "Addition and sequence", "da": "Tilføjelse og rækkefølge"},
+      "rules": [
+        {"en": "Desuden is the everyday moreover. Endvidere and ydermere are the formal register PD3 rewards.", "da": "Desuden er det almindelige desuden. Endvidere og ydermere hører til det formelle register, PD3 belønner."},
+        {"en": "Ligeledes means in the same way; tilmed adds something surprising on top.", "da": "Ligeledes betyder på samme måde; tilmed føjer noget overraskende til."},
+        {"en": "In a list use for det første, for det andet, endelig. Endelig closes the list, it does not mean at last in time.", "da": "I en opremsning bruges for det første, for det andet, endelig. Endelig afslutter listen og betyder ikke omsider."},
+        {"en": "Med andre ord and det vil sige restate the same content in clearer words.", "da": "Med andre ord og det vil sige gentager samme indhold med tydeligere ord."}
+      ],
+      "hack": {
+        "en": "If you can delete the connector and the two sentences still stack up happily, it is an addition word. If deleting it makes the text confusing, it is contrast or cause.",
+        "da": "Kan du slette forbinderordet, og de to sætninger stadig ligger fint i forlængelse af hinanden, er det et tilføjelsesord. Bliver teksten forvirrende uden, er det modsætning eller årsag."
+      },
+      "examples": [
+        {"da": "Rapporten kritiserer bemandingen. **Ydermere** påpeger den manglende efteruddannelse.", "en": "formal moreover"},
+        {"da": "Hun bestod alle delprøver. Hun fik **tilmed** topkarakter i den mundtlige del.", "en": "surprising extra"},
+        {"da": "Kravet er B2. **Med andre ord** skal man kunne læse en avisartikel.", "en": "restatement"}
+      ]
+    },
+    {
+      "title": {"en": "Adverb or conjunction: the word order trap", "da": "Adverbium eller konjunktion: ordstillingsfælden"},
+      "rules": [
+        {"en": "Derfor, dermed, imidlertid, alligevel, desuden are adverbs. First in the sentence they force inversion: Derfor uddanner kommunerne frivillige.", "da": "Derfor, dermed, imidlertid, alligevel, desuden er adverbier. Først i sætningen udløser de inversion: Derfor uddanner kommunerne frivillige."},
+        {"en": "Fordi, selvom, mens, hvorimod are conjunctions. They open a ledsætning with normal subject-first order and no inversion.", "da": "Fordi, selvom, mens, hvorimod er konjunktioner. De indleder en ledsætning med normal ordstilling, subjekt først og ingen inversion."},
+        {"en": "Nemlig can never start a sentence. It sits after the verb: Mange arbejder nemlig om natten.", "da": "Nemlig kan aldrig indlede en sætning. Det står efter verbet: Mange arbejder nemlig om natten."},
+        {"en": "Imens is an adverb, mens is the conjunction. Mens børnene sover, arbejder hun (conjunction) vs. Børnene sover imens (adverb).", "da": "Imens er adverbium, mens er konjunktionen. Mens børnene sover, arbejder hun (konjunktion) over for Børnene sover imens (adverbium)."}
+      ],
+      "hack": {
+        "en": "After choosing the word, test the order. Adverb first in the sentence → verb comes second, before the subject. If the option keeps subject before verb after a fronted derfor, it is wrong however good the logic looks.",
+        "da": "Når ordet er valgt, så test ordstillingen. Adverbium først i sætningen → verbet står på plads to, før subjektet. Beholder muligheden subjektet før verbet efter et fremrykket derfor, er den forkert, uanset hvor god logikken ser ud."
+      },
+      "examples": [
+        {"da": "**Derfor uddanner** kommunerne flere frivillige.", "en": "adverb first → inversion"},
+        {"da": "Landbruget betaler afgift, **fordi det står** for en stor del af udledningen.", "en": "conjunction → no inversion"},
+        {"da": "Danskerne cykler meget. Landet er **nemlig** fladt.", "en": "nemlig after the verb, never first"}
+      ]
+    },
+    {
+      "title": {"en": "Same logic, different weight", "da": "Samme logik, forskellig vægt"},
+      "rules": [
+        {"en": "Several connectors share a meaning but not a register. In writing, prefer imidlertid over men, endvidere over og også, som følge heraf over så.", "da": "Flere forbinderord deler betydning, men ikke stilleje. Skriftligt foretrækkes imidlertid frem for men, endvidere frem for og også, som følge heraf frem for så."},
+        {"en": "In an exam gap the four options usually come from different relation boxes, so register rarely decides. In your own writing it does.", "da": "I et eksamenshul kommer de fire muligheder som regel fra forskellige relationskasser, så stilleje afgør sjældent. I din egen skrivning gør det."},
+        {"en": "Do not open three sentences in a row with the same connector; vary derfor, således, som følge heraf.", "da": "Indled ikke tre sætninger i træk med samme forbinderord; variér mellem derfor, således og som følge heraf."}
+      ],
+      "hack": {
+        "en": "Keep a short shortlist for your own writing: imidlertid, derimod, alligevel, derfor, dermed, desuden, endvidere, med andre ord. Eight words cover almost every essay transition at B2.",
+        "da": "Hav en kort liste klar til din egen skrivning: imidlertid, derimod, alligevel, derfor, dermed, desuden, endvidere, med andre ord. Otte ord dækker næsten alle overgange i en B2-tekst."
+      },
+      "examples": [
+        {"da": "Tilbuddet er gratis. **Alligevel** benytter kun hver tiende sig af det.", "en": "against expectation, formal"},
+        {"da": "Ordningen sparer plads. Den sparer **endvidere** transportudgifter.", "en": "formal addition"},
+        {"da": "Ventetiden er lang. Patienterne søger **som følge heraf** mod privathospitaler.", "en": "formal result"}
+      ]
+    }
+  ],
+  "traps": [
+    {"en": "✗ Derfor kommunerne ansatte flere → ✓ **Derfor ansatte kommunerne** flere (adverb first forces inversion)", "da": "✗ Derfor kommunerne ansatte flere → ✓ **Derfor ansatte kommunerne** flere (adverbium først kræver inversion)"},
+    {"en": "✗ Nemlig er landet fladt → ✓ Landet er **nemlig** fladt (nemlig never opens a sentence)", "da": "✗ Nemlig er landet fladt → ✓ Landet er **nemlig** fladt (nemlig indleder aldrig en sætning)"},
+    {"en": "✗ Fordi kommer han ikke → ✓ **fordi han ikke kommer** (a conjunction keeps subject first)", "da": "✗ Fordi kommer han ikke → ✓ **fordi han ikke kommer** (en konjunktion beholder subjektet først)"},
+    {"en": "✗ Priserne steg, derfor mange flyttede → ✓ Priserne steg, og **derfor flyttede mange**", "da": "✗ Priserne steg, derfor mange flyttede → ✓ Priserne steg, og **derfor flyttede mange**"},
+    {"en": "Do not use derimod for a simple addition: it needs two contrasted subjects.", "da": "Brug ikke derimod ved en simpel tilføjelse: det kræver to modstillede subjekter."},
+    {"en": "Endelig closes a list. For at last, finally in time, use til sidst.", "da": "Endelig afslutter en opremsning. Om noget, der endelig skete, bruges til sidst."}
+  ]
+}

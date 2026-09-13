@@ -28,9 +28,15 @@
       "id": "adjectives-002",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Mange unge flytter til en ___ by, fordi de vil studere og arbejde tæt på andre i samme situation.",
       "hint": "(stor)",
+      "options": [
+        "stort",
+        "større",
+        "store",
+        "stor"
+      ],
       "answer": "stor",
       "explanation": {
         "en": "'By' is an en-word (fælleskøn), so in ubestemt ental the adjective keeps its base form without an ending: en stor by. Adding -t (stort) is only correct with et-words, and -e (store) with flertal or bestemt form.",
@@ -69,9 +75,15 @@
       "id": "adjectives-004",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Alle nyansatte i afdelingen skal deltage i et ___ møde, hvor lederen gennemgår ugens vigtigste opgaver.",
       "hint": "(ugentlig)",
+      "options": [
+        "ugentlig",
+        "ugentlige",
+        "ugentligste",
+        "ugentligt"
+      ],
       "answer": "ugentligt",
       "explanation": {
         "en": "'Møde' is an et-word, so after 'et' the adjective takes -t even when it ends in -lig: et ugentligt møde. Adjectives in -ig/-lig follow the main rule and do take -t; do not confuse them with adjectives in -sk or -e, which take no -t.",
@@ -110,9 +122,15 @@
       "id": "adjectives-006",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Flere og flere ___ familier vælger at bosætte sig uden for de store byer, fordi huspriserne er lavere der.",
       "hint": "(ung)",
+      "options": [
+        "unge",
+        "ung",
+        "ungt",
+        "yngre"
+      ],
       "answer": "unge",
       "explanation": {
         "en": "'Familier' is flertal, so the adjective takes -e: unge familier. This applies even when there is no article or determiner in front; only in ental would 'ung' (en ung familie) or 'ungt' (et ungt par) be possible.",
@@ -151,9 +169,15 @@
       "id": "adjectives-008",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Det ___ hospital i Aarhus har fået kritik for lange ventetider, selv om det først åbnede for to år siden.",
       "hint": "(ny)",
+      "options": [
+        "nyeste",
+        "ny",
+        "nyt",
+        "nye"
+      ],
       "answer": "nye",
       "explanation": {
         "en": "In bestemt form the adjective always ends in -e, so after 'det' we say det nye hospital, even though 'hospital' is an et-word. The -t form (et nyt hospital) belongs only to ubestemt ental.",
@@ -215,9 +239,15 @@
       "id": "adjectives-011",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Naboens ___ hus skal energirenoveres i år, så det kan leve op til de nye krav til isolering.",
       "hint": "(stor)",
+      "options": [
+        "større",
+        "stor",
+        "store",
+        "stort"
+      ],
       "answer": "store",
       "explanation": {
         "en": "A genitiv (naboens) works like 'det' and makes the noun phrase bestemt, so the adjective takes -e: naboens store hus. 'Stort' is wrong here even though 'hus' is an et-word, because the -t form is reserved for ubestemt ental (et stort hus).",
@@ -233,9 +263,15 @@
       "id": "adjectives-012",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Dette ___ initiativ skal få flere ældre til at blive på arbejdsmarkedet, efter at de har nået pensionsalderen.",
       "hint": "(vigtig)",
+      "options": [
+        "vigtigste",
+        "vigtige",
+        "vigtigt",
+        "vigtig"
+      ],
       "answer": "vigtige",
       "explanation": {
         "en": "The demonstrative 'dette' makes the phrase bestemt, so the adjective takes -e: dette vigtige initiativ. 'Vigtigt' is tempting because 'initiativ' is an et-word, but only 'et vigtigt initiativ' (ubestemt) takes -t.",
@@ -274,9 +310,15 @@
       "id": "adjectives-014",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Selv om lokalet er ___ om vinteren, bruger foreningen det hver uge til danskundervisning for nye borgere.",
       "hint": "(mørk)",
+      "options": [
+        "mørk",
+        "mørke",
+        "mørkere",
+        "mørkt"
+      ],
       "answer": "mørkt",
       "explanation": {
         "en": "In prædikativ position the adjective agrees with the subject: 'lokalet' is an et-word in ental, so the adjective takes -t: lokalet er mørkt. The bestemt form of the noun (lokalet) does not trigger -e; that only happens when the adjective stands before the noun (det mørke lokale).",
@@ -315,9 +357,15 @@
       "id": "adjectives-016",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Ifølge undersøgelsen føler mange nyuddannede sig ___, når de for første gang skal forhandle løn med en arbejdsgiver.",
       "hint": "(usikker)",
+      "options": [
+        "usikre",
+        "usikkert",
+        "usikker",
+        "usikkere"
+      ],
       "answer": "usikre",
       "explanation": {
         "en": "Adjectives after 'føler sig' behave like prædikativ and agree with the subject: 'mange nyuddannede' is flertal, so -e: føler sig usikre. Note the spelling: usikker drops the -e- before the ending (usikker → usikre), and the ental form 'usikker' would only fit a singular subject.",
@@ -356,9 +404,15 @@
       "id": "adjectives-018",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "I et ___ samfund forventes det, at borgerne selv kan finde oplysninger om deres rettigheder på nettet.",
       "hint": "(moderne)",
+      "options": [
+        "mere moderne",
+        "modernt",
+        "modern",
+        "moderne"
+      ],
       "answer": "moderne",
       "explanation": {
         "en": "Adjectives that already end in -e, such as 'moderne', never change: et moderne samfund, en moderne by, moderne byer. The trap is to add -t after 'et' by analogy with 'et stort samfund', but 'modernt' does not exist.",
@@ -397,9 +451,15 @@
       "id": "adjectives-020",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Hvis medicinen ikke virker efter en måned, må lægen forsøge med et ___ præparat, før patienten henvises til en specialist.",
       "hint": "(anden)",
+      "options": [
+        "andet",
+        "anden",
+        "andres",
+        "andre"
+      ],
       "answer": "andet",
       "explanation": {
         "en": "'Anden' has three forms and agrees with the noun: en anden læge (fælleskøn), et andet præparat (intetkøn), andre patienter (flertal). 'Præparat' is an et-word, so 'andet' is required; 'anden' after 'et' is the typical error.",
@@ -483,9 +543,14 @@
       "id": "adjectives-024",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Efter mødet samlede projektlederen ___ noter og lagde dem i den fælles mappe, så hele teamet kunne læse dem.",
-      "hint": "(sin / hans)",
+      "options": [
+        "sit",
+        "sine",
+        "sin",
+        "hans"
+      ],
       "answer": "sine",
       "explanation": {
         "en": "The notes belong to 'projektlederen', who is the subject of the clause, so the reflexive possessive is required, and 'noter' is flertal: sine noter. 'Hans' would point to a different man, and 'sin' would only fit an en-word in ental.",
@@ -524,9 +589,14 @@
       "id": "adjectives-026",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Kommunen kontaktede kvindens familie, fordi lægerne på plejehjemmet var bekymrede for ___ tilstand.",
-      "hint": "(sin / hendes)",
+      "options": [
+        "hendes",
+        "deres",
+        "sin",
+        "hans"
+      ],
       "answer": "hendes",
       "explanation": {
         "en": "The owner of 'tilstand' is 'kvinden', but the subject of the ledsætning is 'lægerne'. The reflexive 'sin' would mean the doctors' own condition, which makes no sense here, so the non-reflexive 'hendes' is required.",
@@ -588,9 +658,14 @@
       "id": "adjectives-029",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Undersøgelsen viser, at den typiske pensionist helst vil blive boende i ___ eget hjem, så længe helbredet tillader det.",
-      "hint": "(sin / hans)",
+      "options": [
+        "sin",
+        "sine",
+        "sit",
+        "hans"
+      ],
       "answer": "sit",
       "explanation": {
         "en": "The owner (den typiske pensionist) is the subject of the ledsætning, so the reflexive possessive is required, and 'hjem' is an et-word: sit eget hjem. 'Hans' would point to another person, and 'sin' is the fælleskøn form (sin egen bolig).",
@@ -606,9 +681,14 @@
       "id": "adjectives-030",
       "topic": "adjectives",
       "level": 1,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Da Anne blev indlagt, lovede naboen at hente ___ børn fra skole hver dag, indtil hun var rask igen.",
-      "hint": "(sin / hendes)",
+      "options": [
+        "sin",
+        "hans",
+        "hendes",
+        "sine"
+      ],
       "answer": "hendes",
       "explanation": {
         "en": "The subject of the clause is 'naboen', but the children are Anne's, so the reflexive cannot be used: 'sine børn' would mean the neighbour's own children. 'Hendes' points back to Anne, who is not the subject.",
@@ -670,9 +750,14 @@
       "id": "adjectives-033",
       "topic": "adjectives",
       "level": 2,
-      "type": "typed",
+      "type": "choice",
       "prompt": "Louise fortæller, at ___ mand altid henter børnene, fordi han har kortere arbejdsdage end hende.",
-      "hint": "(sin / hendes)",
+      "options": [
+        "sit",
+        "sin",
+        "hans",
+        "hendes"
+      ],
       "answer": "hendes",
       "explanation": {
         "en": "Although the husband is Louise's own, 'mand' is the subject of the ledsætning ('___ mand henter'), and the reflexive sin/sit/sine can never stand in the subject. The trap is to think 'her own → sin'; the rule about the subject overrides that.",

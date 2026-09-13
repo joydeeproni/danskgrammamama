@@ -1,10 +1,11 @@
 import Foundation
 import Observation
 
-/// Loads the bundled question bank and verb list once at launch.
+/// Loads the bundled question bank, cloze texts, topic guides and verb list once at launch.
 @Observable
 final class ContentStore {
     private(set) var questions: [Question] = []
+    private(set) var guides: [String: TopicGuide] = [:]
     private(set) var verbs: [Verb] = []
     private(set) var loadErrors: [String] = []
 
@@ -22,24 +23,30 @@ final class ContentStore {
         }
     }
 
-    func question(id: String) -> Question? {
-        questions.first { $0.id == id }
-    }
+    func guide(for topic: String) -> TopicGuide? { guides[topic] }
 
     private func load() {
         let decoder = JSONDecoder()
         var loaded: [Question] = []
         for topic in Topic.all {
-            guard let url = Bundle.main.url(forResource: topic.id, withExtension: "json") else {
-                loadErrors.append("Missing \(topic.id).json")
-                continue
+            for name in [topic.id, "cloze_\(topic.id)"] {
+                guard let url = Bundle.main.url(forResource: name, withExtension: "json") else {
+                    if name == topic.id { loadErrors.append("Missing \(name).json") }
+                    continue
+                }
+                do {
+                    let file = try decoder.decode(TopicFile.self, from: try Data(contentsOf: url))
+                    loaded.append(contentsOf: file.questions.filter { !$0.blanks.isEmpty })
+                } catch {
+                    loadErrors.append("\(name).json: \(error.localizedDescription)")
+                }
             }
-            do {
-                let data = try Data(contentsOf: url)
-                let file = try decoder.decode(TopicFile.self, from: data)
-                loaded.append(contentsOf: file.questions)
-            } catch {
-                loadErrors.append("\(topic.id).json: \(error.localizedDescription)")
+            if let url = Bundle.main.url(forResource: "guide_\(topic.id)", withExtension: "json") {
+                do {
+                    guides[topic.id] = try decoder.decode(TopicGuide.self, from: try Data(contentsOf: url))
+                } catch {
+                    loadErrors.append("guide_\(topic.id).json: \(error.localizedDescription)")
+                }
             }
         }
         questions = loaded

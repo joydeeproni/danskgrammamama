@@ -1,0 +1,307 @@
+acceptere|accept
+advare|warn
+afgøre|decide, determine
+aflevere|hand in, deliver
+aflyse|cancel
+afskaffe|abolish
+afslutte|finish, conclude
+afvise|reject, deny
+anbefale|recommend
+anerkende|recognise, acknowledge
+ankomme|arrive
+anmelde|report; review
+ansætte|employ, hire
+anvende|use, apply
+arbejde|work
+arrangere|arrange, organise
+bede|ask, request
+begrænse|limit, restrict
+begynde|begin, start
+behandle|treat, deal with
+beholde|keep
+behøve|need
+bekræfte|confirm
+bemærke|notice, remark
+benytte|use
+beskrive|describe
+beskytte|protect
+beslutte|decide
+bestemme|decide, determine
+bestille|order, book
+bestå|pass (an exam); consist (bestå af)
+besøge|visit
+betale|pay
+betyde|mean, signify
+bevare|preserve, keep
+bevise|prove
+bidrage|contribute
+blande|mix
+blive|become; stay; be (passive auxiliary)
+bo|live, reside
+bringe|bring
+bruge|use; spend
+bygge|build
+bære|carry, bear
+danne|form, create
+dele|share, divide
+deltage|take part, participate
+diskutere|discuss
+drikke|drink
+drøfte|discuss
+dø|die
+efterlade|leave behind
+eje|own
+eksistere|exist
+ende|end
+erkende|acknowledge, realise
+erstatte|replace, compensate
+falde|fall
+fastholde|maintain, retain
+finde|find
+fjerne|remove
+flytte|move, relocate
+forbedre|improve
+forberede|prepare
+forbinde|connect
+foregå|take place
+foreslå|suggest, propose
+forestille|imagine (forestille sig)
+foretrække|prefer
+forhindre|prevent
+forklare|explain
+forlade|leave
+forstå|understand
+forsvinde|disappear
+forsøge|try, attempt
+fortsætte|continue
+fortælle|tell
+forudsætte|presuppose, require
+forvente|expect
+fremgå|be evident, appear
+fremhæve|emphasise, highlight
+fremlægge|present, put forward
+fungere|work, function
+fylde|fill; turn (an age)
+føde|give birth
+føle|feel
+følge|follow
+føre|lead
+få|get, receive
+gemme|keep, hide
+gennemføre|carry out, complete
+gennemgå|go through, undergo
+gentage|repeat
+gifte|marry (gifte sig)
+give|give
+glemme|forget
+glæde|look forward (glæde sig til)
+godkende|approve
+gribe|grab, seize
+gøre|do, make
+gå|walk, go
+handle|act; shop; be about
+have|have
+hedde|be called
+hente|fetch, pick up
+henvende|contact (henvende sig til)
+henvise|refer
+hjælpe|help
+holde|hold, keep; stop
+huske|remember
+hæve|raise; withdraw
+hævde|claim, assert
+høre|hear
+håbe|hope
+inddrage|involve; withdraw
+indebære|entail, involve
+indeholde|contain
+indføre|introduce, import
+indgå|enter into, be part of
+indlede|begin, open
+indrette|arrange, furnish
+indrømme|admit
+indstille|adjust; nominate; discontinue
+installere|install
+interessere|interest (interessere sig for)
+investere|invest
+invitere|invite
+kalde|call
+kende|know (a person or thing)
+klage|complain
+klare|manage, cope
+komme|come
+kommentere|comment
+koncentrere|concentrate (koncentrere sig om)
+konstatere|establish, note
+kontakte|contact
+kontrollere|check, control
+koste|cost
+kritisere|criticise
+kræve|require, demand
+kunne|be able to, can
+kæmpe|fight, struggle
+købe|buy
+køre|drive, run
+lade|let, allow
+lave|make, do
+lede|lead; look for (lede efter)
+leve|live
+levere|deliver, supply
+ligge|lie, be situated
+ligne|resemble, look like
+love|promise
+lukke|close, shut down
+lyde|sound
+lykkes|succeed (det lykkedes ham)
+lytte|listen
+lægge|put, lay
+lære|learn; teach
+læse|read; study
+løbe|run
+løse|solve
+låne|borrow, lend
+mangle|lack, be missing
+meddele|announce, inform
+medføre|lead to, entail
+medvirke|contribute, take part
+mene|think, be of the opinion
+miste|lose
+modtage|receive
+mødes|meet (each other)
+møde|meet; turn up
+måtte|may; have to
+nedbringe|reduce, bring down
+nedlægge|close down, abolish
+nedsætte|reduce, lower; set up
+nævne|mention
+nægte|refuse, deny
+nå|reach, make it
+offentliggøre|publish, make public
+omfatte|comprise, include
+opbygge|build up
+opdage|discover
+opfatte|perceive, understand
+opfordre|urge, encourage
+opfylde|fulfil, meet
+opgive|give up; state
+opleve|experience
+oplyse|inform, state
+opnå|achieve, obtain
+oprette|set up, create
+opstå|arise, occur
+optage|record; occupy; admit
+orientere|inform, orientate
+overbevise|convince
+overholde|comply with, keep to
+overleve|survive
+overraske|surprise
+overtage|take over
+overveje|consider
+passe|look after; fit, suit
+pege|point
+placere|place
+planlægge|plan
+pleje|care for; usually do
+presse|press, pressure
+producere|produce
+prøve|try
+påvirke|affect, influence
+ramme|hit, affect
+reagere|react
+redde|save, rescue
+reducere|reduce
+regne|rain; calculate; expect (regne med)
+rejse|travel; raise
+rette|correct
+ringe|ring, call
+risikere|risk
+rose|praise
+række|reach, hand
+røre|touch, stir
+satse|invest in, bet on
+savne|miss
+se|see
+sende|send
+sidde|sit
+sige|say
+sikre|ensure, secure
+skabe|create
+skade|harm, damage
+skaffe|obtain, provide
+ske|happen
+skifte|change, switch
+skrive|write
+skulle|shall, must, be going to
+skyldes|be due to, be caused by
+skære|cut
+slippe|escape; let go
+slutte|end, finish
+slå|hit, strike
+smage|taste
+sortere|sort
+sove|sleep
+spare|save
+spille|play
+spise|eat
+sprede|spread
+spørge|ask
+starte|start
+stige|rise, increase
+stille|put, place; ask (stille spørgsmål)
+stole|trust (stole på)
+stoppe|stop
+studere|study
+styrke|strengthen
+støtte|support
+stå|stand
+svare|answer; correspond
+søge|seek, apply for
+sørge|make sure (sørge for); grieve
+tabe|lose
+tage|take
+tale|speak, talk
+tilbyde|offer
+tilføje|add
+tillade|allow, permit
+tjene|earn; serve
+tro|believe, think
+true|threaten
+trække|pull, withdraw
+trænge|need (trænge til)
+tvinge|force
+tælle|count
+tænke|think
+udarbejde|draw up, prepare
+udbrede|spread, disseminate
+uddanne|educate, train
+udelukke|exclude, rule out
+udføre|carry out, perform
+udgøre|constitute, make up
+udnytte|exploit, make use of
+udsætte|postpone; expose
+udtrykke|express
+udvide|expand, extend
+udvikle|develop
+understrege|emphasise, underline
+undersøge|examine, investigate
+undgå|avoid
+vare|last
+vaske|wash
+vedtage|pass, adopt (a law)
+vende|turn
+vente|wait; expect
+vide|know (a fact)
+ville|will, want to
+vinde|win
+virke|work, seem
+vise|show
+vokse|grow
+vurdere|assess, evaluate
+vælge|choose, elect
+vænne|get used to (vænne sig til)
+være|be
+ændre|change
+ødelægge|destroy, ruin
+øge|increase
+ønske|wish, want
+åbne|open

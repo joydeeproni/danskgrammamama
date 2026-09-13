@@ -1,0 +1,313 @@
+{
+  "topic": "relatives",
+  "intro": {
+    "en": "PD3 tests whether you can pick the right relative word – der, som, hvilket, hvad der, hvor, hvis – and whether you master the formal prepositional phrases the exam texts are full of. Points are lost by using der as an object, by forgetting der after hvad/hvem, and by mixing up på grund af, som følge af and med henblik på.",
+    "da": "PD3 tester, om du kan vælge det rigtige relative ord – der, som, hvilket, hvad der, hvor, hvis – og om du behersker de formelle præpositionsudtryk, som prøvens tekster er fulde af. Man taber point ved at bruge der som objekt, ved at glemme der efter hvad/hvem og ved at blande på grund af, som følge af og med henblik på sammen."
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "der vs som",
+        "da": "Der eller som"
+      },
+      "rules": [
+        {
+          "en": "der can only be the SUBJECT of the relative clause: Medarbejdere, der arbejder hjemmefra, … (der = the employees, who do the working).",
+          "da": "Der kan kun være SUBJEKT i relativsætningen: Medarbejdere, der arbejder hjemmefra, … (der = medarbejderne, som udfører handlingen)."
+        },
+        {
+          "en": "som can be subject or object. As object it is the only possibility: Den klimalov, som Folketinget vedtog, … (Folketinget is the subject).",
+          "da": "Som kan være subjekt eller objekt. Som objekt er det den eneste mulighed: Den klimalov, som Folketinget vedtog, … (Folketinget er subjekt)."
+        },
+        {
+          "en": "When the relative is the object, som may be left out entirely: Det forslag, oppositionen fremsatte, blev afvist. der can never be left out.",
+          "da": "Når det relative ord er objekt, kan som helt udelades: Det forslag, oppositionen fremsatte, blev afvist. Der kan aldrig udelades."
+        }
+      ],
+      "hack": {
+        "en": "Look at the word right after the gap. If it is a verb (…, ___ arbejder hjemmefra), the gap is the subject → der or som. If it is a noun or pronoun (…, ___ Folketinget vedtog), the clause already has a subject → som only (or nothing).",
+        "da": "Se på ordet lige efter hullet. Hvis det er et verbum (…, ___ arbejder hjemmefra), er hullet subjekt → der eller som. Hvis det er et substantiv eller pronomen (…, ___ Folketinget vedtog), har sætningen allerede et subjekt → kun som (eller intet)."
+      },
+      "examples": [
+        {
+          "da": "Medarbejdere, **der** arbejder hjemmefra flere dage om ugen, oplever ofte en bedre balance.",
+          "en": "Employees who work from home several days a week often experience a better balance."
+        },
+        {
+          "da": "Den nye klimalov, **som** Folketinget vedtog i foråret, stiller skrappere krav til landbruget.",
+          "en": "The new climate law, which Parliament passed in the spring, makes tougher demands on agriculture."
+        },
+        {
+          "da": "Det forslag, **(som)** oppositionen fremsatte i går, blev afvist af et stort flertal.",
+          "en": "The proposal (that) the opposition put forward yesterday was rejected by a large majority."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "hvilket / hvad der after a whole clause",
+        "da": "Hvilket / hvad der efter en hel sætning"
+      },
+      "rules": [
+        {
+          "en": "When the relative refers back to a whole clause rather than a noun, use hvilket: Antallet af cyklister er steget, hvilket betyder renere luft.",
+          "da": "Når det relative ord henviser til en hel sætning og ikke til et substantiv, bruges hvilket: Antallet af cyklister er steget, hvilket betyder renere luft."
+        },
+        {
+          "en": "hvad der is the alternative when the relative is the subject: …, hvad der overraskede mange. Never 'hvilket der'.",
+          "da": "Hvad der er alternativet, når det relative ord er subjekt: …, hvad der overraskede mange. Aldrig 'hvilket der'."
+        },
+        {
+          "en": "When it is the object, use hvilket or hvad alone: Kommunen lukkede tre skoler, hvilket/hvad forældrene ikke havde forventet.",
+          "da": "Når det er objekt, bruges hvilket eller hvad alene: Kommunen lukkede tre skoler, hvilket/hvad forældrene ikke havde forventet."
+        },
+        {
+          "en": "der and som are impossible here, because they need a noun as their antecedent (korrelat).",
+          "da": "Der og som er umulige her, fordi de kræver et substantiv som korrelat."
+        }
+      ],
+      "hack": {
+        "en": "Ask 'what surprised / meant / showed …?'. If the answer is 'the fact that …' (the whole first clause), you need hvilket or hvad (der). If the answer is one noun, use der/som. Then add der only if a verb follows directly.",
+        "da": "Spørg 'hvad overraskede / betød / viste …?'. Hvis svaret er 'det, at …' (hele den første sætning), skal du bruge hvilket eller hvad (der). Hvis svaret er ét substantiv, bruges der/som. Tilføj derefter kun der, hvis der kommer et verbum lige efter."
+      },
+      "examples": [
+        {
+          "da": "Antallet af cyklister er steget markant, **hvilket** betyder mindre trængsel og renere luft.",
+          "en": "The number of cyclists has risen markedly, which means less congestion and cleaner air."
+        },
+        {
+          "da": "Flere virksomheder flytter produktionen hjem til Danmark, **hvad der** overraskede mange økonomer.",
+          "en": "Several companies are moving production back to Denmark, which surprised many economists."
+        },
+        {
+          "da": "Kommunen lukkede tre landsbyskoler på én gang, **hvilket** forældrene slet ikke havde forventet.",
+          "en": "The municipality closed three village schools at once, which the parents had not expected at all."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "hvad der / hvem der in indirect questions",
+        "da": "Hvad der / hvem der i indirekte spørgsmål"
+      },
+      "rules": [
+        {
+          "en": "Inside a sentence a question word that is the subject must be followed by der: Ingen ved, hvem der kommer til at betale; Det er uklart, hvad der afgør sagen.",
+          "da": "Inde i en sætning skal et spørgeord, der er subjekt, følges af der: Ingen ved, hvem der kommer til at betale; Det er uklart, hvad der afgør sagen."
+        },
+        {
+          "en": "If the clause already has a subject, there is no der: Undersøgelsen skal afklare, hvad de unge mener.",
+          "da": "Hvis sætningen allerede har et subjekt, skal der ikke stå der: Undersøgelsen skal afklare, hvad de unge mener."
+        },
+        {
+          "en": "After the question word the order is ledsætning order: hvad de unge selv mener (not: hvad mener de unge).",
+          "da": "Efter spørgeordet gælder ledsætningsordstilling: hvad de unge selv mener (ikke: hvad mener de unge)."
+        }
+      ],
+      "hack": {
+        "en": "Cover the question word with your finger and look at the next word. Verb next (___ kommer, ___ afgør) → add der. Noun or pronoun next (___ de unge mener) → no der.",
+        "da": "Dæk spørgeordet med fingeren, og se på det næste ord. Verbum (___ kommer, ___ afgør) → tilføj der. Substantiv eller pronomen (___ de unge mener) → intet der."
+      },
+      "examples": [
+        {
+          "da": "Ingen ved endnu, **hvem der** kommer til at betale for oprensningen af grunden.",
+          "en": "Nobody knows yet who is going to pay for cleaning up the site."
+        },
+        {
+          "da": "Det er stadig uklart, **hvad der** afgør, om en patient tilbydes privat behandling.",
+          "en": "It is still unclear what decides whether a patient is offered private treatment."
+        },
+        {
+          "da": "Undersøgelsen skal afklare, **hvad** de unge selv mener om de nye SU-regler.",
+          "en": "The survey is to clarify what young people themselves think of the new student-grant rules."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "hvor, hvis and stranded prepositions",
+        "da": "Hvor, hvis og efterstillede præpositioner"
+      },
+      "rules": [
+        {
+          "en": "hvor replaces 'in which / at which' for places and times: den bydel, hvor familien bor; i 1990'erne, hvor arbejdsløsheden var høj.",
+          "da": "Hvor erstatter 'i hvilken / på hvilket' ved sted og tid: den bydel, hvor familien bor; i 1990'erne, hvor arbejdsløsheden var høj."
+        },
+        {
+          "en": "hvis is the possessive relative ('whose'): Forældre, hvis børn går i privatskole, … Do not confuse it with the conjunction hvis (if).",
+          "da": "Hvis er det relative ejefaldsord ('whose'): Forældre, hvis børn går i privatskole, … Forveksl det ikke med konjunktionen hvis (if)."
+        },
+        {
+          "en": "When a preposition governs the relative, Danish uses som (or nothing) and leaves the preposition at the end of the clause: Det projekt, som kommunen har bevilget penge til, … Never 'til som'.",
+          "da": "Når en præposition styrer det relative ord, bruger dansk som (eller intet) og lader præpositionen stå sidst i sætningen: Det projekt, som kommunen har bevilget penge til, … Aldrig 'til som'."
+        },
+        {
+          "en": "der is impossible as the object of a preposition: not 'det projekt, der kommunen har bevilget penge til'.",
+          "da": "Der er umuligt som styrelse for en præposition: ikke 'det projekt, der kommunen har bevilget penge til'."
+        }
+      ],
+      "hack": {
+        "en": "Rebuild the relative clause as a normal sentence. If it ends in a preposition with nothing after it (kommunen har bevilget penge til [projektet]), write som and leave the preposition where it is. If the missing word means 'in that place / at that time', write hvor. If it means 'their/his/her', write hvis.",
+        "da": "Byg relativsætningen om til en almindelig sætning. Hvis den ender på en præposition uden noget efter (kommunen har bevilget penge til [projektet]), så skriv som, og lad præpositionen blive stående. Hvis det manglende ord betyder 'på det sted / på det tidspunkt', så skriv hvor. Hvis det betyder 'deres/hans/hendes', så skriv hvis."
+      },
+      "examples": [
+        {
+          "da": "Den bydel, **hvor** familien har boet i over tyve år, står over for en stor renovering.",
+          "en": "The district where the family has lived for over twenty years is facing a major renovation."
+        },
+        {
+          "da": "Forældre, **hvis** børn går i privatskole, betaler over 2.000 kroner om måneden.",
+          "en": "Parents whose children attend private school pay over 2,000 kroner a month."
+        },
+        {
+          "da": "Det projekt, **som** kommunen har bevilget penge **til**, skal hjælpe langtidsledige.",
+          "en": "The project that the municipality has granted money to is meant to help the long-term unemployed."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formal phrases 1: cause and contrast",
+        "da": "Formelle udtryk 1: årsag og modsætning"
+      },
+      "rules": [
+        {
+          "en": "på grund af = because of (neutral cause, followed by a noun): Mange pendlere kom for sent på grund af et signalnedbrud.",
+          "da": "på grund af = som følge af noget, neutral årsag, efterfulgt af et substantiv: Mange pendlere kom for sent på grund af et signalnedbrud."
+        },
+        {
+          "en": "som følge af = as a result of (a cause that has produced a consequence; more formal): Flere landbrug har måttet lukke som følge af de stigende priser.",
+          "da": "som følge af = som resultat af (en årsag, der har medført en følge; mere formelt): Flere landbrug har måttet lukke som følge af de stigende priser."
+        },
+        {
+          "en": "på trods af = despite: På trods af store investeringer i cykelstier vælger flertallet stadig bilen.",
+          "da": "på trods af = selvom noget er tilfældet: På trods af store investeringer i cykelstier vælger flertallet stadig bilen."
+        },
+        {
+          "en": "i modsætning til = unlike / in contrast to (compares two parties): I modsætning til svenskerne bruger mange danskere stadig kontanter.",
+          "da": "i modsætning til = anderledes end (sammenligner to parter): I modsætning til svenskerne bruger mange danskere stadig kontanter."
+        }
+      ],
+      "hack": {
+        "en": "All of these are prepositions, so only a noun or pronoun can follow – never a clause with a verb. If you need a whole clause, switch to the conjunction: på grund af → fordi, på trods af → selvom, i modsætning til → mens. And remember: a fronted phrase like På trods af … counts as element one, so the verb comes next (V2).",
+        "da": "Alle disse udtryk er præpositioner, så der kan kun følge et substantiv eller pronomen – aldrig en sætning med et verbum. Har du brug for en hel sætning, så skift til konjunktionen: på grund af → fordi, på trods af → selvom, i modsætning til → mens. Og husk: et fremrykket udtryk som På trods af … tæller som første led, så verbet kommer lige efter (V2)."
+      },
+      "examples": [
+        {
+          "da": "Mange pendlere kom for sent på arbejde **på grund af** et omfattende signalnedbrud på S-togsnettet.",
+          "en": "Many commuters were late for work because of an extensive signal failure on the S-train network."
+        },
+        {
+          "da": "Flere mindre landbrug har måttet lukke **som følge af** de kraftigt stigende priser på foder og energi.",
+          "en": "Several smaller farms have had to close as a result of the sharply rising prices of feed and energy."
+        },
+        {
+          "da": "**I modsætning til** svenskerne holder mange danskere stadig fast i kontanterne.",
+          "en": "Unlike the Swedes, many Danes still hold on to cash."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formal phrases 2: purpose, comparison, topic",
+        "da": "Formelle udtryk 2: formål, sammenligning, emne"
+      },
+      "rules": [
+        {
+          "en": "med henblik på = with a view to / in order to (purpose; often + at + infinitive): Jobcentret har indkaldt de ledige med henblik på at få dem i uddannelse.",
+          "da": "med henblik på = med det formål at (formål; ofte + at + infinitiv): Jobcentret har indkaldt de ledige med henblik på at få dem i uddannelse."
+        },
+        {
+          "en": "i forhold til = compared with / in relation to: Danskerne arbejder færre timer i forhold til EU-gennemsnittet.",
+          "da": "i forhold til = sammenlignet med / i relation til: Danskerne arbejder færre timer i forhold til EU-gennemsnittet."
+        },
+        {
+          "en": "med hensyn til and vedrørende both mean 'with regard to / concerning' and introduce a topic: skærpede krav med hensyn til sikkerhed; klager vedrørende sygedagpenge.",
+          "da": "med hensyn til og vedrørende betyder begge 'angående' og indleder et emne: skærpede krav med hensyn til sikkerhed; klager vedrørende sygedagpenge."
+        },
+        {
+          "en": "i forbindelse med = in connection with (an event or process): Der opstod flere problemer i forbindelse med flytningen af afdelingen.",
+          "da": "i forbindelse med = i sammenhæng med (en begivenhed eller proces): Der opstod flere problemer i forbindelse med flytningen af afdelingen."
+        }
+      ],
+      "hack": {
+        "en": "i forhold til is the tempting all-purpose filler, but it only fits where 'sammenlignet med' (compared with) also fits. If the sentence means 'about', choose med hensyn til or vedrørende; if it means 'in order to', choose med henblik på.",
+        "da": "I forhold til er det fristende universalord, men det passer kun, hvor 'sammenlignet med' også passer. Hvis sætningen betyder 'angående', så vælg med hensyn til eller vedrørende; hvis den betyder 'for at', så vælg med henblik på."
+      },
+      "examples": [
+        {
+          "da": "Jobcentret har indkaldt alle ledige under 30 år til samtale **med henblik på** at få dem i gang med en uddannelse.",
+          "en": "The job centre has called in all unemployed people under 30 for an interview with a view to getting them started on an education."
+        },
+        {
+          "da": "Danske lønmodtagere arbejder færre timer om ugen **i forhold til** gennemsnittet i EU.",
+          "en": "Danish employees work fewer hours a week compared with the EU average."
+        },
+        {
+          "da": "Borgere kan klage til Ankestyrelsen over kommunens afgørelser **vedrørende** sygedagpenge.",
+          "en": "Citizens can complain to the Appeals Board about the municipality's decisions concerning sickness benefits."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formal phrases 3: time and source",
+        "da": "Formelle udtryk 3: tid og kilde"
+      },
+      "rules": [
+        {
+          "en": "i løbet af = during / within a period (something happens inside that time span): Antallet af elbiler er tredoblet i løbet af fem år.",
+          "da": "i løbet af = inden for en periode (noget sker inden for det tidsrum): Antallet af elbiler er tredoblet i løbet af fem år."
+        },
+        {
+          "en": "ifølge = according to (names the source of a claim): Ifølge en ny rapport oplever hver femte ældre ensomhed.",
+          "da": "ifølge = efter hvad en kilde siger (angiver kilden til en påstand): Ifølge en ny rapport oplever hver femte ældre ensomhed."
+        },
+        {
+          "en": "Do not confuse i løbet af (a period: i løbet af de seneste fem år) with for … siden (a point in the past: for fem år siden) or om (future: om fem år).",
+          "da": "Forveksl ikke i løbet af (en periode: i løbet af de seneste fem år) med for … siden (et tidspunkt i fortiden: for fem år siden) eller om (fremtid: om fem år)."
+        }
+      ],
+      "hack": {
+        "en": "Sort the four options by the question they answer: Why? → på grund af / som følge af. What for? → med henblik på. Compared with what? → i forhold til. About what? → med hensyn til / vedrørende / i forbindelse med. When? → i løbet af. Says who? → ifølge. Then check that the noun after the gap actually answers that question.",
+        "da": "Sortér de fire muligheder efter det spørgsmål, de svarer på: Hvorfor? → på grund af / som følge af. Med hvilket formål? → med henblik på. Sammenlignet med hvad? → i forhold til. Om hvad? → med hensyn til / vedrørende / i forbindelse med. Hvornår? → i løbet af. Ifølge hvem? → ifølge. Tjek så, at substantivet efter hullet faktisk svarer på det spørgsmål."
+      },
+      "examples": [
+        {
+          "da": "Antallet af elbiler på de danske veje er mere end tredoblet **i løbet af** de seneste fem år.",
+          "en": "The number of electric cars on Danish roads has more than tripled over the past five years."
+        },
+        {
+          "da": "**Ifølge** en ny rapport fra Sundhedsstyrelsen oplever hver femte dansker over 65 år jævnligt ensomhed.",
+          "en": "According to a new report from the Danish Health Authority, one in five Danes over 65 regularly experiences loneliness."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "en": "✗ den lov, der Folketinget vedtog → ✓ den lov, som Folketinget vedtog (der can only be subject)",
+      "da": "✗ den lov, der Folketinget vedtog → ✓ den lov, som Folketinget vedtog (der kan kun være subjekt)"
+    },
+    {
+      "en": "✗ Ingen ved, hvem skal betale → ✓ Ingen ved, hvem der skal betale (question word as subject needs der)",
+      "da": "✗ Ingen ved, hvem skal betale → ✓ Ingen ved, hvem der skal betale (spørgeord som subjekt kræver der)"
+    },
+    {
+      "en": "✗ Antallet er steget, som betyder renere luft → ✓ …, hvilket betyder renere luft (a whole clause needs hvilket)",
+      "da": "✗ Antallet er steget, som betyder renere luft → ✓ …, hvilket betyder renere luft (en hel sætning kræver hvilket)"
+    },
+    {
+      "en": "✗ …, hvilket der overraskede mange → ✓ …, hvilket overraskede mange / hvad der overraskede mange",
+      "da": "✗ …, hvilket der overraskede mange → ✓ …, hvilket overraskede mange / hvad der overraskede mange"
+    },
+    {
+      "en": "✗ det projekt, til som kommunen gav penge → ✓ det projekt, som kommunen gav penge til (preposition stays at the end)",
+      "da": "✗ det projekt, til som kommunen gav penge → ✓ det projekt, som kommunen gav penge til (præpositionen bliver stående sidst)"
+    },
+    {
+      "en": "✗ på grund af toget var forsinket → ✓ fordi toget var forsinket / på grund af forsinkelsen (på grund af + noun only)",
+      "da": "✗ på grund af toget var forsinket → ✓ fordi toget var forsinket / på grund af forsinkelsen (på grund af + kun substantiv)"
+    }
+  ]
+}

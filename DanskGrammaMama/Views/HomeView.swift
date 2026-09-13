@@ -3,109 +3,179 @@ import SwiftUI
 struct HomeView: View {
     @Environment(ContentStore.self) private var content
     @Environment(ProgressStore.self) private var progress
+    @Environment(FlashcardStore.self) private var flashcards
 
     private var builder: SessionBuilder { SessionBuilder(content: content, progress: progress) }
     private var dueCount: Int { progress.dueCount(in: content.questions) }
     private var level: Int { progress.settings.preferredLevel }
     private var length: Int { progress.settings.sessionLength }
+    private var language: ExplanationLanguage { progress.settings.explanationLanguage }
+    private var goalFraction: Double {
+        min(1, Double(progress.todayCount) / Double(max(1, progress.settings.dailyGoal)))
+    }
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                header
-                dailyProgress
-                actions
+            VStack(alignment: .leading, spacing: 14) {
+                todayCard
+                practiceButtons
+                weakestTopic
                 if !content.loadErrors.isEmpty {
                     Text(content.loadErrors.joined(separator: "\n"))
                         .font(.footnote).foregroundStyle(Style.wrong)
                 }
             }
-            .padding()
+            .padding(20)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle("Dansk grammatik")
+        .navigationTitle(language == .danish ? "Dansk grammatik" : "Danish grammar")
     }
 
-    private var header: some View {
-        HStack(alignment: .firstTextBaseline) {
-            VStack(alignment: .leading, spacing: 2) {
-                Text("\(progress.currentStreak)")
-                    .font(.system(size: 40, weight: .light, design: .serif))
-                Text("day streak")
-                    .font(.footnote).foregroundStyle(.secondary)
+    private var todayCard: some View {
+        HStack(spacing: 18) {
+            ZStack {
+                GoalRing(value: goalFraction, size: 78)
+                VStack(spacing: 0) {
+                    Text("\(progress.todayCount)")
+                        .font(.system(size: 26, weight: .semibold, design: .rounded))
+                        .contentTransition(.numericText())
+                    Text("/ \(progress.settings.dailyGoal)")
+                        .font(.caption2.monospacedDigit()).foregroundStyle(.secondary)
+                }
             }
-            Spacer()
-            VStack(alignment: .trailing, spacing: 2) {
-                Text("\(progress.data.totalCorrect)/\(progress.data.totalAnswered)")
-                    .font(.system(size: 22, weight: .light, design: .serif))
-                Text("correct overall").font(.footnote).foregroundStyle(.secondary)
+            VStack(alignment: .leading, spacing: 6) {
+                HStack(spacing: 6) {
+                    Image(systemName: "flame.fill")
+                        .foregroundStyle(progress.currentStreak > 0 ? .orange : .secondary)
+                    Text(progress.currentStreak == 1
+                         ? (language == .danish ? "1 dag i træk" : "1 day streak")
+                         : (language == .danish ? "\(progress.currentStreak) dage i træk" : "\(progress.currentStreak) day streak"))
+                        .font(.body.weight(.semibold))
+                }
+                Text(statusLine)
+                    .font(.subheadline).foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
+            Spacer(minLength: 0)
         }
         .card()
     }
 
-    private var dailyProgress: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack {
-                Text("Today").font(.subheadline.weight(.semibold))
-                Spacer()
-                Text("\(progress.todayCount) / \(progress.settings.dailyGoal)")
-                    .font(.subheadline.monospacedDigit()).foregroundStyle(.secondary)
-            }
-            MasteryBar(value: min(1, Double(progress.todayCount) / Double(max(1, progress.settings.dailyGoal))))
-            if progress.goalReachedToday {
-                Text("Goal reached. Anything more is a bonus.").font(.footnote).foregroundStyle(.secondary)
-            } else if !progress.practisedToday, progress.data.streak > 0 {
-                Text("Practise today to keep your streak.").font(.footnote).foregroundStyle(.secondary)
-            }
+    private var statusLine: String {
+        if progress.goalReachedToday {
+            return language == .danish ? "Dagens mål er nået. Alt herudover er bonus." : "Today's goal is done. Anything more is a bonus."
         }
-        .card()
+        if !progress.practisedToday && progress.currentStreak > 0 {
+            return language == .danish ? "Øv i dag for at holde din række." : "Practise today to keep your streak."
+        }
+        let left = progress.settings.dailyGoal - progress.todayCount
+        return language == .danish ? "\(left) spørgsmål tilbage i dag." : "\(left) questions left today."
     }
 
-    private var actions: some View {
-        VStack(spacing: 12) {
+    private var practiceButtons: some View {
+        VStack(spacing: 10) {
             NavigationLink {
-                QuizView(questions: builder.practice(topic: nil, level: level, count: length), title: "Practice")
+                QuizView(questions: builder.practice(topic: nil, level: level, count: length),
+                         title: language == .danish ? "Øvelse" : "Practice")
             } label: {
-                Text("Practice \(length) questions")
+                Text(language == .danish ? "Øv \(length) spørgsmål" : "Practise \(length) questions")
             }
             .buttonStyle(PrimaryButtonStyle())
 
             if dueCount > 0 {
                 NavigationLink {
-                    QuizView(questions: builder.review(count: max(length, min(dueCount, 20))), title: "Review")
+                    QuizView(questions: builder.review(count: max(length, min(dueCount, 20))),
+                             title: language == .danish ? "Gennemgang" : "Review")
                 } label: {
-                    Text("Review \(dueCount) due \(dueCount == 1 ? "mistake" : "mistakes")")
+                    HStack {
+                        Image(systemName: "arrow.counterclockwise")
+                        Text(language == .danish ? "Gennemgå \(dueCount) fejl" : "Review \(dueCount) missed")
+                    }
                 }
                 .buttonStyle(SecondaryButtonStyle())
             }
 
-            NavigationLink {
-                QuizView(questions: builder.verbDrill(count: length, irregularOnly: false), title: "Verb drill")
-            } label: {
-                Text("Verb drill from your 500-verb list")
-            }
-            .buttonStyle(SecondaryButtonStyle())
+            HStack(spacing: 10) {
+                NavigationLink {
+                    QuizView(questions: builder.verbDrill(count: length, irregularOnly: false),
+                             title: language == .danish ? "Verber" : "Verb drill")
+                } label: {
+                    compactLabel(language == .danish ? "Verber" : "Verbs", "arrow.triangle.2.circlepath")
+                }
+                .buttonStyle(SecondaryButtonStyle())
 
-            NavigationLink {
-                QuizView(questions: builder.verbDrill(count: length, irregularOnly: true), title: "Irregular verbs")
-            } label: {
-                Text("Irregular verbs only")
+                NavigationLink {
+                    QuizView(questions: builder.verbDrill(count: length, irregularOnly: true),
+                             title: language == .danish ? "Uregelmæssige" : "Irregulars")
+                } label: {
+                    compactLabel(language == .danish ? "Uregelmæssige" : "Irregulars", "exclamationmark.triangle")
+                }
+                .buttonStyle(SecondaryButtonStyle())
             }
-            .buttonStyle(SecondaryButtonStyle())
 
+            if !flashcards.cards.isEmpty {
+                NavigationLink {
+                    FlashcardReviewView(cards: flashcards.reviewOrder)
+                } label: {
+                    HStack {
+                        Image(systemName: "rectangle.on.rectangle.angled")
+                        Text(language == .danish ? "Gennemgå \(flashcards.cards.count) ord" : "Review \(flashcards.cards.count) words")
+                    }
+                }
+                .buttonStyle(SecondaryButtonStyle())
+            }
+        }
+    }
+
+    private func compactLabel(_ title: String, _ symbol: String) -> some View {
+        HStack(spacing: 6) {
+            Image(systemName: symbol).font(.footnote)
+            Text(title).font(.subheadline.weight(.medium)).lineLimit(1).minimumScaleFactor(0.8)
+        }
+    }
+
+    /// Points at the topic with the lowest mastery once there is data to judge by.
+    @ViewBuilder
+    private var weakestTopic: some View {
+        let ranked = Topic.all
+            .map { ($0, content.byTopic[$0.id] ?? []) }
+            .filter { progress.seenCount(of: $0.1) >= 3 }
+            .sorted { progress.mastery(of: $0.1) < progress.mastery(of: $1.1) }
+        if let (topic, pool) = ranked.first {
+            NavigationLink {
+                TopicDetailView(topic: topic)
+            } label: {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(language == .danish ? "Svageste emne" : "Weakest topic")
+                        .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                    HStack {
+                        Text(topic.title(in: language)).font(.body.weight(.medium))
+                        Spacer()
+                        Text("\(Int((progress.mastery(of: pool) * 100).rounded()))%")
+                            .font(.subheadline.monospacedDigit()).foregroundStyle(.secondary)
+                        Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(.tertiary)
+                    }
+                    MasteryBar(value: progress.mastery(of: pool))
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .card()
+            }
+            .buttonStyle(.plain)
+        } else {
             Text(levelDescription)
                 .font(.footnote).foregroundStyle(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.top, 4)
+                .padding(.top, 2)
         }
     }
 
     private var levelDescription: String {
         switch level {
-        case 1: return "Level 1 only. Change in Settings."
-        case 2: return "Level 2 only (hardest). Change in Settings."
-        default: return "Mixed levels. Sessions lean toward your weakest topics."
+        case 1: return language == .danish ? "Kun niveau 1. Skift i Indstillinger." : "Level 1 only. Change in Settings."
+        case 2: return language == .danish ? "Kun niveau 2. Skift i Indstillinger." : "Level 2 only. Change in Settings."
+        default: return language == .danish
+            ? "Blandede niveauer. Øvelserne vægter dine svageste emner."
+            : "Mixed levels. Sessions lean toward your weakest topics."
         }
     }
 }

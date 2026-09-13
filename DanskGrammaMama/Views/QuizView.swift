@@ -2,12 +2,27 @@ import SwiftUI
 
 struct AnsweredItem: Identifiable, Hashable {
     let question: Question
-    let given: String
+    let given: [String]
     let correct: Bool
     var id: String { question.id }
+
+    /// Indices of gaps answered wrongly.
+    var missedGaps: [Int] {
+        question.blanks.indices.filter { i in
+            i < given.count && AnswerChecker.checkTyped(given[i], for: question.blanks[i]) != .correct
+        }
+    }
 }
 
-/// A practice/review/drill session with immediate feedback after every question.
+/// Resolves the settings' input mode into a concrete mode for one question.
+func resolveInputMode(_ mode: InputMode, for question: Question) -> InputMode {
+    switch mode {
+    case .mixed: return question.id.hashValue & 1 == 0 ? .choice : .typed
+    default: return mode
+    }
+}
+
+/// A practice/review/drill session with immediate feedback after every gap.
 struct QuizView: View {
     let questions: [Question]
     let title: String
@@ -28,6 +43,7 @@ struct QuizView: View {
             } else {
                 let q = questions[index]
                 QuestionView(question: q, number: index + 1, total: questions.count, immediateFeedback: true,
+                             inputMode: resolveInputMode(progress.settings.inputMode, for: q),
                              onAnswered: { correct, given in
                                  progress.record(question: q, correct: correct)
                                  answered.append(AnsweredItem(question: q, given: given, correct: correct))
@@ -46,6 +62,55 @@ struct QuizView: View {
             withAnimation(.easeInOut(duration: 0.2)) { index += 1 }
         } else {
             finished = true
+        }
+    }
+}
+
+/// Lists one answered item: the filled text, then each missed gap with its explanation.
+struct AnsweredItemRow: View {
+    let item: AnsweredItem
+    let language: ExplanationLanguage
+    var showNumber: Int? = nil
+    @State private var tappedWord: String?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .top, spacing: 6) {
+                if let n = showNumber {
+                    Text("\(n).").font(.footnote.monospacedDigit()).foregroundStyle(.secondary)
+                }
+                SentenceView(segments: [.text(item.question.filledPrompt)],
+                             gapState: { _ in .pending }, gapNumber: { _ in nil },
+                             font: .system(.body, design: .serif),
+                             onWordTap: { tappedWord = $0 })
+            }
+            if item.correct {
+                Label(language == .danish ? "Rigtigt" : "Correct", systemImage: "checkmark.circle.fill")
+                    .font(.subheadline).foregroundStyle(Style.correct)
+            } else {
+                ForEach(item.missedGaps, id: \.self) { i in
+                    let b = item.question.blanks[i]
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack(spacing: 6) {
+                            if item.question.isCloze {
+                                Text("\(i + 1)").font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                            }
+                            Text(item.given[i].isEmpty ? "—" : item.given[i]).strikethrough().foregroundStyle(Style.wrong)
+                            Image(systemName: "arrow.right").font(.caption).foregroundStyle(.secondary)
+                            Text(b.answer).bold().foregroundStyle(Style.correct)
+                        }
+                        .font(.subheadline)
+                        Text(b.explanation.text(in: language))
+                            .font(.subheadline).foregroundStyle(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+            }
+        }
+        .card()
+        .sheet(item: Binding(get: { tappedWord.map(IdentifiableWord.init) },
+                             set: { tappedWord = $0?.value })) { item in
+            WordSheet(word: item.value, context: self.item.question.filledPrompt)
         }
     }
 }
@@ -80,25 +145,11 @@ struct SessionSummaryView: View {
                 if !missed.isEmpty {
                     Text(language == .danish ? "Gennemgå" : "Review").font(.headline)
                     ForEach(missed) { item in
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text(item.question.filledPrompt)
-                                .font(.system(.body, design: .serif))
-                                .fixedSize(horizontal: false, vertical: true)
-                            HStack(spacing: 6) {
-                                Text(item.given.isEmpty ? "—" : item.given).strikethrough().foregroundStyle(Style.wrong)
-                                Image(systemName: "arrow.right").font(.caption).foregroundStyle(.secondary)
-                                Text(item.question.answer).bold().foregroundStyle(Style.correct)
-                            }
-                            .font(.subheadline)
-                            Text(item.question.explanation.text(in: language))
-                                .font(.subheadline).foregroundStyle(.secondary)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        .card()
+                        AnsweredItemRow(item: item, language: language)
                     }
                 }
 
-                Button("Done") { onDone() }.buttonStyle(PrimaryButtonStyle())
+                Button(language == .danish ? "Færdig" : "Done") { onDone() }.buttonStyle(PrimaryButtonStyle())
             }
             .padding()
         }

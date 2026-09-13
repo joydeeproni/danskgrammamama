@@ -3,10 +3,20 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(ProgressStore.self) private var progress
     @Environment(ContentStore.self) private var content
+    @Environment(Glossary.self) private var glossary
+    @Environment(FlashcardStore.self) private var flashcards
     @State private var confirmReset = false
 
     private var settings: Binding<AppSettings> {
         Binding(get: { progress.settings }, set: { progress.settings = $0 })
+    }
+
+    private var inputModeDescription: String {
+        switch progress.settings.inputMode {
+        case .choice: return "Tap one of four options. The answer and explanation appear immediately."
+        case .typed: return "Type the answer yourself; the four options can be shown as a hint. Harder, closer to the written exam."
+        case .mixed: return "About half the questions are typed, half multiple choice."
+        }
     }
 
     var body: some View {
@@ -18,6 +28,16 @@ struct SettingsView: View {
                 .pickerStyle(.segmented)
                 Text("Grammar terms stay in Danish either way, so they match your teacher's vocabulary.")
                     .font(.footnote).foregroundStyle(.secondary)
+            }
+
+            Section {
+                Picker("Answer mode", selection: settings.inputMode) {
+                    ForEach(InputMode.allCases) { Text($0.label).tag($0) }
+                }
+                .pickerStyle(.segmented)
+                Text(inputModeDescription).font(.footnote).foregroundStyle(.secondary)
+            } header: {
+                Text("Answering")
             }
 
             Section("Practice") {
@@ -39,6 +59,15 @@ struct SettingsView: View {
                 Text("AI tutor")
             } footer: {
                 Text("Uses Apple's on-device model. Your text never leaves the phone. Explanations for every question are written by hand and work without it.")
+            }
+
+            Section {
+                LabeledContent("Saved words", value: "\(flashcards.cards.count)")
+                LabeledContent("Dictionary entries", value: "\(glossary.count)")
+            } header: {
+                Text("Words")
+            } footer: {
+                Text("Tap any underlined word in an exercise to see what it means and keep it. Saved words appear in the Words tab and in the home-screen widget, which shows a new one every hour. To let the widget read your own words, add the App Groups capability to both targets in Xcode; without it the widget shows a built-in starter deck.")
             }
 
             Section("Progress") {
