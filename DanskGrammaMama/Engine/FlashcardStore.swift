@@ -20,7 +20,21 @@ final class FlashcardStore {
 
     private var fileURL: URL { FlashcardStore.containerURL.appendingPathComponent(FlashcardStore.fileName) }
 
-    init() { reload() }
+    init() {
+        moveDiaryIntoAppGroup()
+        reload()
+    }
+
+    /// Builds made before the App Group was enabled kept the diary in the app's own
+    /// container. Move it across once so saved words are not lost.
+    private func moveDiaryIntoAppGroup() {
+        let fm = FileManager.default
+        guard fm.containerURL(forSecurityApplicationGroupIdentifier: FlashcardStore.appGroup) != nil else { return }
+        let old = fm.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
+            .appendingPathComponent(FlashcardStore.fileName)
+        guard fm.fileExists(atPath: old.path), !fm.fileExists(atPath: fileURL.path) else { return }
+        try? fm.moveItem(at: old, to: fileURL)
+    }
 
     func reload() {
         let decoder = JSONDecoder()
