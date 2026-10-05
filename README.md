@@ -40,28 +40,22 @@ Apple ID. The AI features additionally need iOS 26 and an iPhone that supports A
 Intelligence; everything else works without them.
 
 1. Open `DanskGrammaMama.xcodeproj` in Xcode.
-2. Select the `DanskGrammaMama` target → **Signing & Capabilities**, tick
-   **Automatically manage signing** and choose your team. Do the same for the
-   `DanskOrdWidgetExtension` target.
-   If Xcode says the bundle identifier is taken, change `PRODUCT_BUNDLE_IDENTIFIER`
-   on both targets, keeping the widget's id prefixed by the app's.
+2. Signing is set up for team `JQMKQ2K7JR` with automatic signing, and both targets
+   carry the `group.dk.joydeep.danskgrammamama` App Group, so the widget shows your
+   own saved words. To build under another team, change the team on both targets in
+   **Signing & Capabilities**; if the bundle identifier is taken, change
+   `PRODUCT_BUNDLE_IDENTIFIER` on both targets, keeping the widget's id prefixed by the app's.
 3. Plug in your iPhone, pick it as the run destination, and press **Run** (⌘R).
 4. On the phone: Settings → General → VPN & Device Management → trust your certificate.
 
 With a free Apple ID the app expires after 7 days; press Run again to reinstall.
 Progress is kept.
 
-### Making the widget show your own words
+### The widget and free Apple IDs
 
-The widget reads the word diary from an App Group. Free Apple IDs cannot use App
-Groups, so out of the box the widget shows a built-in starter deck of PD3 vocabulary.
-To switch it to your own saved words (needs a paid developer account):
-
-1. In **Signing & Capabilities**, add the **App Groups** capability to both targets
-   and enable `group.dk.joydeep.danskgrammamama` on each. `DanskGrammaMama.entitlements`
-   and `DanskOrdWidget.entitlements` in the repo already contain that group.
-2. If you changed the bundle identifier, change the group id to match in both
-   entitlements files, in `FlashcardStore.appGroup`, and in `SharedFlashcards.appGroup`.
+The widget reads the word diary through the App Group. Free Apple IDs cannot use App
+Groups: to build with one, remove the App Groups capability from both targets. The
+widget then shows a built-in starter deck of PD3 vocabulary instead of your own words.
 
 ## Project layout
 
