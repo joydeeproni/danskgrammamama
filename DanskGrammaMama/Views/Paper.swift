@@ -286,3 +286,34 @@ struct IdentifiableWord: Identifiable {
     let value: String
     var id: String { value }
 }
+
+// MARK: - Art
+
+/// One of the 3D icons in Assets/Art. Decorative: the text next to it carries the meaning.
+struct Art: View {
+    enum Name: String {
+        case set, exam, write, words, topics, calendar, flag, review, new
+    }
+
+    private let asset: String
+    var size: CGFloat
+
+    init(_ name: Name, size: CGFloat) {
+        asset = name.rawValue
+        self.size = size
+    }
+
+    init(topic id: String, size: CGFloat) {
+        asset = id
+        self.size = size
+    }
+
+    var body: some View {
+        Image("Art/\(asset)")
+            .resizable()
+            .interpolation(.high)
+            .scaledToFit()
+            .frame(width: size, height: size)
+            .accessibilityHidden(true)
+    }
+}

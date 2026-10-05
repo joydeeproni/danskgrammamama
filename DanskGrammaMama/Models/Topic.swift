@@ -58,3 +58,21 @@ struct Topic: Identifiable, Hashable {
         all.first { $0.id == id }
     }
 }
+
+extension Topic {
+    /// A name short enough for a tile or a chip.
+    var shortDa: String {
+        switch id {
+        case "verbs": return "Verber"
+        case "indefinite": return "noget/nogen"
+        case "prepositions": return "Præpositioner"
+        case "number": return "Ental/flertal"
+        case "pronouns": return "den/det/de"
+        case "connectors": return "Forbinderord"
+        case "wordorder": return "Ordstilling"
+        case "adjectives": return "Adjektiver"
+        case "relatives": return "der/som/hvad"
+        default: return titleDa
+        }
+    }
+}

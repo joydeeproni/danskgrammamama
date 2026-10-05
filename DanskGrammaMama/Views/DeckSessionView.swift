@@ -316,7 +316,8 @@ struct SessionResultView: View {
                     .padding(.bottom, 34)
 
                 PaperStack(sheets: min(max(tomorrow, 1), 6), seed: 5, step: 1.6, radius: 10) {
-                    HStack(alignment: .firstTextBaseline) {
+                    HStack(alignment: .center, spacing: 12) {
+                        Art(.review, size: 36)
                         Text("I morgen")
                             .font(.ui(16, .bold, relativeTo: .headline))
                         Spacer()
@@ -352,10 +353,18 @@ struct SessionResultView: View {
 
     private var resultCard: some View {
         VStack(alignment: .leading, spacing: 0) {
-            Text(isExam ? "Prøvesættet er afleveret" : "Sættet er klaret")
-                .font(.serif(30, .medium, relativeTo: .title))
-                .foregroundStyle(Theme.ink)
-                .padding(.bottom, 6)
+            HStack(alignment: .top) {
+                Text(isExam ? "Prøvesættet er afleveret" : "Sættet er klaret")
+                    .font(.serif(30, .medium, relativeTo: .title))
+                    .foregroundStyle(Theme.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Spacer(minLength: 8)
+                Art(isExam ? .exam : .flag, size: 84)
+                    .scaleEffect(showAfter ? 1 : 0.6)
+                    .opacity(showAfter ? 1 : 0)
+                    .padding(.top, -6)
+            }
+            .padding(.bottom, 6)
             HStack(alignment: .firstTextBaseline, spacing: 8) {
                 Text("\(correct)")
                     .font(.ui(64, .bold, relativeTo: .largeTitle).monospacedDigit())
@@ -408,7 +417,7 @@ struct SessionResultView: View {
                     .foregroundStyle(Theme.ink)
                     .padding(.top, 22)
                     .padding(.bottom, 2)
-                Text("De kommer igen i morgen, og igen efter tre dage.")
+                Text("Kommer igen i morgen.")
                     .font(.ui(14))
                     .foregroundStyle(Theme.pencil)
                     .padding(.bottom, 8)
@@ -438,8 +447,9 @@ struct SessionResultView: View {
     private func changeRow(_ topic: Topic, _ from: Int, _ to: Int) -> some View {
         let delta = to - from
         return VStack(spacing: 0) {
-            HStack(spacing: 12) {
-                Text(topic.titleDa)
+            HStack(spacing: 10) {
+                Art(topic: topic.id, size: 30)
+                Text(topic.shortDa)
                     .font(.ui(15, relativeTo: .body))
                     .foregroundStyle(Theme.ink)
                     .lineLimit(1)

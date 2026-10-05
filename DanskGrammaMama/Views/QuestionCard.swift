@@ -50,7 +50,7 @@ struct QuestionCard: View {
     private var typing: Bool { inputMode == .typed }
     private var allAnswered: Bool { verdicts.allSatisfy { $0 != nil } }
     private var allCorrect: Bool { verdicts.allSatisfy { $0 == .correct } }
-    private var topicTitle: String { Topic.byID(question.topic)?.titleDa ?? question.topic }
+    private var topicTitle: String { Topic.byID(question.topic)?.shortDa ?? question.topic }
 
     var body: some View {
         FlipCard(flipped: flipped) {
@@ -84,7 +84,7 @@ struct QuestionCard: View {
     private var front: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack(spacing: 8) {
-                Circle().fill(Theme.red).frame(width: 7, height: 7)
+                Art(topic: question.topic, size: 30)
                 Text(topicTitle)
                     .font(.ui(14, .semibold, relativeTo: .subheadline))
                     .foregroundStyle(Theme.ink)
@@ -133,7 +133,7 @@ struct QuestionCard: View {
 
     private var instruction: String {
         if question.isCloze {
-            return "Hul \(current + 1) af \(question.blanks.count). Vælg det ord, der passer."
+            return "Hul \(current + 1) af \(question.blanks.count)"
         }
         return typing ? "Skriv det ord, der mangler." : "Vælg det ord, der passer."
     }

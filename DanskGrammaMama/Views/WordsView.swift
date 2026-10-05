@@ -24,15 +24,19 @@ struct WordsView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                Text("Ord")
-                    .font(.serif(38, .semibold, relativeTo: .largeTitle))
-                    .foregroundStyle(Theme.ink)
-                    .padding(.bottom, 4)
-                Text(flashcards.cards.isEmpty ? "Ord, du gemmer, lander her og i widgetten."
-                                              : "\(flashcards.cards.count) gemte ord. Vend kortet, og sig, om du kunne det.")
-                    .font(.ui(15, relativeTo: .subheadline))
-                    .foregroundStyle(Theme.pencil)
-                    .padding(.bottom, 22)
+                HStack(alignment: .center) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Ord")
+                            .font(.serif(38, .semibold, relativeTo: .largeTitle))
+                            .foregroundStyle(Theme.ink)
+                        Text("\(flashcards.cards.count) gemt")
+                            .font(.ui(15, relativeTo: .subheadline))
+                            .foregroundStyle(Theme.pencil)
+                    }
+                    Spacer()
+                    Art(.words, size: 72)
+                }
+                .padding(.bottom, 18)
 
                 if flashcards.cards.isEmpty {
                     emptyCard
@@ -53,10 +57,11 @@ struct WordsView: View {
 
     private var emptyCard: some View {
         VStack(alignment: .leading, spacing: 10) {
+            Art(.words, size: 80)
             Text("Ingen ord endnu")
                 .font(.serif(24, .semibold, relativeTo: .title2))
                 .foregroundStyle(Theme.ink)
-            Text("Tryk på et understreget ord i en øvelse for at se, hvad det betyder. Gem det, så kommer det her som et kort.")
+            Text("Tryk på et understreget ord i en øvelse, og gem det.")
                 .font(.ui(16))
                 .foregroundStyle(Theme.pencil)
                 .fixedSize(horizontal: false, vertical: true)

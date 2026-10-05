@@ -15,22 +15,22 @@ struct WeekView: View {
                 Text("Denne uge")
                     .font(.serif(38, .semibold, relativeTo: .largeTitle))
                     .foregroundStyle(Theme.ink)
-                    .padding(.bottom, 4)
-                Text("Et prøvesæt og en skriveopgave om ugen giver prøvens rytme.")
-                    .font(.ui(15, relativeTo: .subheadline))
-                    .foregroundStyle(Theme.pencil)
-                    .padding(.bottom, 22)
+                    .padding(.bottom, 18)
 
                 PaperStack(sheets: 4, seed: 41) {
                     VStack(alignment: .leading, spacing: 0) {
-                        Text("Prøvesæt")
-                            .font(.serif(26, .semibold, relativeTo: .title))
-                            .padding(.bottom, 6)
-                        Text("20 spørgsmål fra alle emner, mest niveau 2. \(progress.settings.examMinutes) minutter. Ingen svar før til sidst, som til prøven.")
-                            .font(.ui(15.5))
-                            .foregroundStyle(Theme.pencil)
-                            .fixedSize(horizontal: false, vertical: true)
-                            .padding(.bottom, 18)
+                        HStack(alignment: .center) {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text("Prøvesæt")
+                                    .font(.serif(26, .semibold, relativeTo: .title))
+                                Text("20 spørgsmål · \(progress.settings.examMinutes) min")
+                                    .font(.ui(15).monospacedDigit())
+                                    .foregroundStyle(Theme.pencil)
+                            }
+                            Spacer()
+                            Art(.exam, size: 76)
+                        }
+                        .padding(.bottom, 18)
                         if !progress.data.examHistory.isEmpty {
                             history.padding(.bottom, 18)
                         }
@@ -48,9 +48,13 @@ struct WeekView: View {
 
                 PaperStack(sheets: 2, seed: 43) {
                     VStack(alignment: .leading, spacing: 0) {
-                        Text("Skriveopgave")
-                            .font(.serif(26, .semibold, relativeTo: .title))
-                            .padding(.bottom, 10)
+                        HStack(alignment: .center) {
+                            Text("Skriveopgave")
+                                .font(.serif(26, .semibold, relativeTo: .title))
+                            Spacer()
+                            Art(.write, size: 76)
+                        }
+                        .padding(.bottom, 10)
                         Text(task.da)
                             .font(.serif(18))
                             .fixedSize(horizontal: false, vertical: true)

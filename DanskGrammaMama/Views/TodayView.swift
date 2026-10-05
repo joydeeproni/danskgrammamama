@@ -130,6 +130,10 @@ struct TodayView: View {
                 Text("\(readiness) %")
                     .contentTransition(.numericText(value: Double(readiness)))
                 Text(" parat").foregroundStyle(Theme.pencil)
+                Spacer(minLength: 0)
+            }
+            .overlay(alignment: .trailing) {
+                Art(.calendar, size: 58).offset(x: 4, y: 8)
             }
             .animation(.spring(response: 0.6, dampingFraction: 0.8), value: readiness)
         }
@@ -141,26 +145,33 @@ struct TodayView: View {
 
     private var weakestRow: some View {
         NavigationLink(value: weakest.map { Route.topic($0.id) } ?? Route.topics) {
-            HStack(alignment: .center, spacing: 18) {
-                TopicBars(values: topics, weakest: weakest?.id)
-                VStack(alignment: .leading, spacing: 4) {
-                    if let weakest {
-                        (Text(weakest.topic.titleDa).foregroundStyle(Theme.redText).font(.serif(17, .semibold))
-                            + Text(" holder dig tilbage."))
-                            .font(.serif(17, relativeTo: .body))
-                            .foregroundStyle(Theme.ink)
-                        Text("\(weakest.percent) % · se alle 9 emner")
-                            .font(.ui(13, relativeTo: .footnote))
+            HStack(alignment: .center, spacing: 14) {
+                if let weakest {
+                    Art(topic: weakest.id, size: 60)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(weakest.topic.shortDa)
+                            .font(.serif(20, .semibold, relativeTo: .title3))
+                            .foregroundStyle(Theme.redText)
+                        Text("holder dig tilbage")
+                            .font(.ui(14, relativeTo: .subheadline))
                             .foregroundStyle(Theme.pencil)
-                    } else {
-                        Text("Tag et par sæt, så kan jeg se, hvad der holder dig tilbage.")
-                            .font(.serif(17, relativeTo: .body))
-                            .foregroundStyle(Theme.ink)
+                    }
+                } else {
+                    Art(.topics, size: 60)
+                    Text("Tag et par sæt, så finder jeg dit svageste emne.")
+                        .font(.ui(15, relativeTo: .subheadline))
+                        .foregroundStyle(Theme.pencil)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 8)
+                VStack(alignment: .trailing, spacing: 6) {
+                    TopicBars(values: topics, weakest: weakest?.id, height: 26, barWidth: 5)
+                    if let weakest {
+                        Text("\(weakest.percent) %")
+                            .font(.ui(13, .bold).monospacedDigit())
+                            .foregroundStyle(Theme.redText)
                     }
                 }
-                .multilineTextAlignment(.leading)
-                .fixedSize(horizontal: false, vertical: true)
-                Spacer(minLength: 0)
             }
             .contentShape(Rectangle())
         }
@@ -173,49 +184,54 @@ struct TodayView: View {
             let title = Text(plan.isBonus ? "Dagens mål er nået" : "Dagens sæt")
                 .font(.serif(23, .semibold, relativeTo: .title2))
                 .foregroundStyle(Theme.ink)
-            let meta = Text("\(plan.size) kort · ca. \(plan.minutes) min")
+            let meta = Text("ca. \(plan.minutes) min")
                 .font(.ui(14, relativeTo: .subheadline))
                 .foregroundStyle(Theme.pencil)
             ViewThatFits(in: .horizontal) {
                 HStack(alignment: .firstTextBaseline) { title.lineLimit(1); Spacer(minLength: 12); meta.lineLimit(1) }
                 VStack(alignment: .leading, spacing: 4) { title; meta }
             }
-            .padding(.bottom, 12)
+            .padding(.bottom, 14)
 
-            VStack(spacing: 0) {
+            HStack(spacing: 8) {
                 if plan.reviews > 0 {
-                    setRow(plan.reviews, plan.reviews == 1 ? "gentagelse fra de sidste dage" : "gentagelser fra de sidste dage")
+                    setTile(Art(.review, size: 44), plan.reviews, "Gentag")
                 }
                 if plan.weak > 0, let topic = plan.weakTopic {
-                    setRow(plan.weak, "\(topic.titleDa.lowercasedFirst), dit svageste emne")
+                    setTile(Art(topic: topic.id, size: 44), plan.weak, topic.shortDa)
                 }
                 if plan.fresh > 0 {
-                    setRow(plan.fresh, plan.fresh == 1 ? "ny opgave" : "nye opgaver")
+                    setTile(Art(.new, size: 44), plan.fresh, "Nye")
                 }
             }
-            .padding(.bottom, 20)
+            .padding(.bottom, 18)
 
             NavigationLink(value: Route.daily(plan)) {
-                Text(plan.isBonus ? "Én runde til" : "Begynd")
+                Text(plan.isBonus ? "Én runde til" : "Begynd · \(plan.size) kort")
             }
             .buttonStyle(InkButtonStyle())
         }
     }
 
-    private func setRow(_ count: Int, _ label: String) -> some View {
-        VStack(spacing: 0) {
-            HStack(alignment: .firstTextBaseline, spacing: 14) {
-                Text("\(count)")
-                    .font(.ui(16, .bold).monospacedDigit())
-                    .frame(minWidth: 20, alignment: .leading)
-                Text(label)
-                    .font(.ui(16, relativeTo: .body))
-                Spacer(minLength: 0)
-            }
-            .foregroundStyle(Theme.ink)
-            .padding(.vertical, 8)
-            Rectangle().fill(Theme.rule).frame(height: 0.75)
+    /// One part of today's set: picture, count, and a one-word label.
+    private func setTile(_ art: Art, _ count: Int, _ label: String) -> some View {
+        VStack(spacing: 2) {
+            art.padding(.bottom, 4)
+            Text("\(count)")
+                .font(.ui(20, .bold).monospacedDigit())
+                .foregroundStyle(Theme.ink)
+            Text(label)
+                .font(.ui(12.5, relativeTo: .caption))
+                .foregroundStyle(Theme.pencil)
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
         }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 12)
+        .padding(.horizontal, 6)
+        .background(Theme.paperTint, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(Theme.edge, lineWidth: 1))
+        .accessibilityElement(children: .combine)
     }
 
     // MARK: Side stacks
@@ -223,28 +239,30 @@ struct TodayView: View {
     private var sideStacks: some View {
         HStack(alignment: .top, spacing: 12) {
             sideStack(.topics, seed: 4, sheets: 5, order: 1) {
-                sideTitle("Emner", "Guide og øvelser")
-                Spacer(minLength: 8)
-                TopicBars(values: topics, weakest: weakest?.id, height: 18, barWidth: 4)
+                Art(.topics, size: 56)
+                Spacer(minLength: 10)
+                Text("Emner").font(.ui(15, .bold, relativeTo: .headline))
+                TopicBars(values: topics, weakest: weakest?.id, height: 14, barWidth: 4)
+                    .padding(.top, 5)
             }
             sideStack(.week, seed: 7, sheets: 3, order: 2) {
-                sideTitle("Denne uge", "Prøvesæt og skrivning")
-                Spacer(minLength: 8)
+                Art(.exam, size: 56)
+                Spacer(minLength: 10)
+                Text("Prøvesæt").font(.ui(15, .bold, relativeTo: .headline))
                 Text(lastExamText)
-                    .font(.ui(14, .semibold, relativeTo: .footnote))
-                    .foregroundStyle(progress.data.examHistory.isEmpty ? Theme.redText : Theme.ink)
+                    .font(.ui(13, .semibold, relativeTo: .footnote).monospacedDigit())
+                    .foregroundStyle(progress.data.examHistory.isEmpty ? Theme.redText : Theme.pencil)
             }
             sideStack(.words, seed: 9, sheets: min(max(flashcards.cards.count / 5, 1), 6), order: 3) {
-                sideTitle("Ord", flashcards.cards.isEmpty ? "Ingen gemt endnu" : "\(flashcards.cards.count) gemte ord")
-                Spacer(minLength: 8)
-                HStack(alignment: .firstTextBaseline, spacing: 4) {
-                    Text("\(min(flashcards.cards.count, 10))")
-                        .font(.ui(24, .heavy).monospacedDigit())
-                    Text("til i dag").font(.ui(12)).foregroundStyle(Theme.pencil)
-                }
-                .foregroundStyle(Theme.ink)
+                Art(.words, size: 56)
+                Spacer(minLength: 10)
+                Text("Ord").font(.ui(15, .bold, relativeTo: .headline))
+                Text(flashcards.cards.isEmpty ? "Ingen endnu" : "\(flashcards.cards.count) gemt")
+                    .font(.ui(13, .semibold, relativeTo: .footnote).monospacedDigit())
+                    .foregroundStyle(Theme.pencil)
             }
         }
+        .foregroundStyle(Theme.ink)
     }
 
     private var lastExamText: String {
@@ -252,25 +270,13 @@ struct TodayView: View {
         return "Sidst \(last.score)/\(last.total)"
     }
 
-    private func sideTitle(_ title: String, _ subtitle: String) -> some View {
-        VStack(alignment: .leading, spacing: 3) {
-            Text(title)
-                .font(.ui(15, .bold, relativeTo: .headline))
-                .foregroundStyle(Theme.ink)
-            Text(subtitle)
-                .font(.ui(12.5, relativeTo: .caption))
-                .foregroundStyle(Theme.pencil)
-                .fixedSize(horizontal: false, vertical: true)
-        }
-    }
-
     private func sideStack<C: View>(_ route: Route, seed: Int, sheets: Int, order: Int,
                                     @ViewBuilder _ content: () -> C) -> some View {
         NavigationLink(value: route) {
             PaperStack(sheets: sheets, seed: seed, step: 2.2, radius: Theme.smallRadius) {
                 VStack(alignment: .leading, spacing: 0, content: content)
-                    .padding(14)
-                    .frame(maxWidth: .infinity, minHeight: 124, alignment: .topLeading)
+                    .padding(12)
+                    .frame(maxWidth: .infinity, minHeight: 138, alignment: .topLeading)
                     .paper(radius: Theme.smallRadius)
             }
         }

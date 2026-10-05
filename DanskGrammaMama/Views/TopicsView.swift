@@ -13,14 +13,14 @@ struct TopicsView: View {
         let weakest = progress.weakestTopic(content: content)?.id
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                Text("Emner")
-                    .font(.serif(38, .semibold, relativeTo: .largeTitle))
-                    .foregroundStyle(Theme.ink)
-                    .padding(.bottom, 4)
-                Text("Hvert emne har sine regler, tricks og klassiske fejl, og sine egne øvelser.")
-                    .font(.ui(15, relativeTo: .subheadline))
-                    .foregroundStyle(Theme.pencil)
-                    .padding(.bottom, 22)
+                HStack(alignment: .center) {
+                    Text("Emner")
+                        .font(.serif(38, .semibold, relativeTo: .largeTitle))
+                        .foregroundStyle(Theme.ink)
+                    Spacer()
+                    Art(.topics, size: 64)
+                }
+                .padding(.bottom, 18)
 
                 LazyVGrid(columns: columns, spacing: 10) {
                     ForEach(Array(topics.enumerated()), id: \.element.id) { i, t in
@@ -35,7 +35,7 @@ struct TopicsView: View {
                 }
                 .padding(.bottom, 20)
 
-                Text("Tallet er den del af emnets spørgsmål, du har svaret rigtigt på og ikke skal gentage.")
+                Text("% = spørgsmål, du har styr på.")
                     .font(.ui(13, relativeTo: .footnote))
                     .foregroundStyle(Theme.pencil)
             }
@@ -54,25 +54,27 @@ private struct TopicTile: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
+            Art(topic: readiness.id, size: 52)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.bottom, 8)
             Text("\(readiness.percent)")
-                .font(.ui(34, .bold, relativeTo: .title).monospacedDigit())
+                .font(.ui(26, .bold, relativeTo: .title).monospacedDigit())
                 .foregroundStyle(isWeakest ? Theme.redText : Theme.ink)
             + Text(" %")
                 .font(.ui(15, .bold, relativeTo: .footnote))
                 .foregroundStyle(isWeakest ? Theme.redText : Theme.pencil)
-            Spacer(minLength: 10)
-            Text(readiness.topic.titleDa)
+            Text(readiness.topic.shortDa)
                 .font(.ui(13, .semibold, relativeTo: .footnote))
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.leading)
-                .lineLimit(3)
-                .minimumScaleFactor(0.8)
-                .fixedSize(horizontal: false, vertical: true)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+                .padding(.top, 2)
                 .padding(.bottom, 8)
             ReadinessBar(value: readiness.value, tint: isWeakest ? Theme.red : Theme.ink, height: 3)
         }
         .padding(10)
-        .frame(maxWidth: .infinity, minHeight: 138, alignment: .topLeading)
+        .frame(maxWidth: .infinity, alignment: .topLeading)
         .paper(radius: 14)
         .accessibilityElement(children: .combine)
     }
@@ -92,14 +94,19 @@ struct TopicPageView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                Text(topic.titleDa)
-                    .font(.serif(38, .semibold, relativeTo: .largeTitle))
-                    .foregroundStyle(Theme.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-                if topic.titleEn != topic.titleDa {
-                    Text(topic.titleEn)
-                        .font(.ui(15, relativeTo: .subheadline))
-                        .foregroundStyle(Theme.pencil)
+                HStack(alignment: .center, spacing: 12) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(topic.shortDa)
+                            .font(.serif(36, .semibold, relativeTo: .largeTitle))
+                            .foregroundStyle(Theme.ink)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.7)
+                        Text(topic.titleEn)
+                            .font(.ui(15, relativeTo: .subheadline))
+                            .foregroundStyle(Theme.pencil)
+                    }
+                    Spacer(minLength: 0)
+                    Art(topic: topic.id, size: 96)
                 }
 
                 statusCard
@@ -185,11 +192,6 @@ struct TopicPageView: View {
                 stat("Præcision", progress.accuracy(of: pool).map { "\(Int(($0 * 100).rounded())) %" } ?? "–")
                 stat("Til gentagelse", "\(due)")
             }
-            Text(topic.blurbDa)
-                .font(.ui(14, relativeTo: .subheadline))
-                .foregroundStyle(Theme.pencil)
-                .lineSpacing(2)
-                .fixedSize(horizontal: false, vertical: true)
         }
         .padding(20)
         .frame(maxWidth: .infinity, alignment: .leading)
