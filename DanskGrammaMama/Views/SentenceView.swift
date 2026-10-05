@@ -15,7 +15,7 @@ struct SentenceView: View {
     let segments: [Question.Segment]
     let gapState: (Int) -> GapState
     let gapNumber: (Int) -> Int?          // nil hides the little gap number
-    var font: Font = .system(.title3, design: .serif)
+    var font: Font = .serif(21)
     var onWordTap: (String) -> Void
 
     @Environment(Glossary.self) private var glossary
@@ -27,7 +27,7 @@ struct SentenceView: View {
                 case .word(let text, let lookupable):
                     WordChip(text: text, lookupable: lookupable, font: font) { onWordTap(text) }
                 case .plain(let text):
-                    Text(text).font(font)
+                    Text(text).font(font).foregroundStyle(Theme.ink)
                 case .gap(let index):
                     GapChip(state: gapState(index), number: gapNumber(index), font: font)
                 }
@@ -84,13 +84,14 @@ private struct WordChip: View {
             Button(action: action) {
                 Text(text)
                     .font(font)
-                    .underline(true, pattern: .dot, color: Color.accentColor.opacity(0.55))
+                    .underline(true, pattern: .dot, color: Theme.pencil.opacity(0.7))
+                    .foregroundStyle(Theme.ink)
                     .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
             .accessibilityHint("Shows the meaning of \(text)")
         } else {
-            Text(text).font(font)
+            Text(text).font(font).foregroundStyle(Theme.ink)
         }
     }
 }
@@ -103,7 +104,7 @@ private struct GapChip: View {
 
     var body: some View {
         HStack(spacing: 4) {
-            if let number { Text("\(number)").font(.caption2.monospacedDigit()).foregroundStyle(.secondary) }
+            if let number { Text("\(number)").font(.ui(11, .bold).monospacedDigit()).foregroundStyle(Theme.pencil) }
             content
         }
         .padding(.horizontal, 8)
@@ -116,36 +117,42 @@ private struct GapChip: View {
     private var content: some View {
         switch state {
         case .pending:
-            Text("______").font(font).foregroundStyle(.tertiary)
+            Text("______").font(font).foregroundStyle(Theme.pencil.opacity(0.5))
         case .active:
-            Text("______").font(font).foregroundStyle(Color.accentColor)
+            Text("______").font(font).foregroundStyle(Theme.red)
         case .correct(let answer):
-            Text(answer).font(font).bold().foregroundStyle(Style.correct)
+            Text(answer).font(font).bold().foregroundStyle(Theme.correct)
         case .chosen(let given):
-            Text(given).font(font).bold().foregroundStyle(Color.accentColor)
+            Text(given).font(font).bold().foregroundStyle(Theme.ink)
         case .wrong(let given, let answer):
-            HStack(spacing: 5) {
-                Text(given.isEmpty ? "—" : given).font(font).strikethrough().foregroundStyle(Style.wrong)
-                Text(answer).font(font).bold().foregroundStyle(Style.correct)
+            let struck = Text(given.isEmpty ? "—" : given).font(font).strikethrough(color: Theme.red).foregroundStyle(Theme.redText)
+            let right = Text(answer).font(font).bold().foregroundStyle(Theme.correct)
+            // Side by side when it fits on the line, otherwise the correction goes underneath.
+            ViewThatFits(in: .horizontal) {
+                HStack(spacing: 5) { struck; right }
+                VStack(alignment: .leading, spacing: 2) {
+                    struck.fixedSize(horizontal: false, vertical: true)
+                    right.fixedSize(horizontal: false, vertical: true)
+                }
             }
         }
     }
 
     private var background: Color {
         switch state {
-        case .correct: return Style.correct.opacity(0.10)
-        case .wrong: return Style.wrong.opacity(0.10)
-        case .active: return Color.accentColor.opacity(0.08)
+        case .correct: return Theme.correctWash
+        case .wrong: return Theme.redWash
+        case .active: return Theme.redWash
         default: return .clear
         }
     }
 
     private var border: Color {
         switch state {
-        case .correct: return Style.correct.opacity(0.5)
-        case .wrong: return Style.wrong.opacity(0.5)
-        case .active: return Color.accentColor.opacity(0.6)
-        default: return Color(.separator)
+        case .correct: return Theme.correct.opacity(0.55)
+        case .wrong: return Theme.red.opacity(0.55)
+        case .active: return Theme.red
+        default: return Theme.edge
         }
     }
 }

@@ -23,7 +23,13 @@ plus the formal register the written exam rewards.
 - **Verb drill** generated from the 500-verb study list.
 - **Spaced repetition**: a miss returns after 1 day, then 3 days, until you get it
   right twice. Sessions lean toward your weakest topics.
-- **Daily goal, streak, per-topic mastery**, and a timed 20-question exam paper.
+- **One daily set**: the app counts down to your exam date, shows how ready you are
+  across the nine topics, and builds today's set from due reviews, your weakest topic
+  and new questions. No tabs: Today is the top card of a deck; topics, words and this
+  week's mock paper and writing task are smaller stacks beside it.
+- **Per-topic readiness, streak**, and a timed 20-question mock paper.
+- **Light and dark mode**, set in Settings or following the system. Type is Schibsted
+  Grotesk and Source Serif 4 (SIL Open Font License, in `Resources/Fonts`).
 - **Writing practice** checked offline by grammar rules and, where the device
   supports it, by Apple's on-device model. Nothing leaves the phone.
 

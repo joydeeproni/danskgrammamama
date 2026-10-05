@@ -24,6 +24,14 @@ struct AppSettings: Codable, Hashable {
     var examMinutes: Int = 15
     var sessionLength: Int = 10
     var inputMode: InputMode = .choice
+    // Added later; optional so progress files saved before they existed still decode.
+    var examDate: Date? = nil
+    var appearance: Appearance? = nil
+}
+
+enum Appearance: String, Codable, CaseIterable, Identifiable {
+    case system, light, dark
+    var id: String { rawValue }
 }
 
 struct ExamResult: Codable, Identifiable, Hashable {
@@ -44,6 +52,8 @@ struct ProgressData: Codable {
     var totalCorrect = 0
     var examHistory: [ExamResult] = []
     var settings = AppSettings()
+    /// Days with at least one answer, newest first. Optional for the same reason as above.
+    var practiceDays: [Date]? = nil
 }
 
 @Observable
@@ -143,6 +153,11 @@ final class ProgressStore {
             data.streak = 1
             data.lastPracticeDay = today
         }
+        var days = data.practiceDays ?? []
+        if days.first.map({ !calendar.isDate($0, inSameDayAs: today) }) ?? true {
+            days.insert(today, at: 0)
+            data.practiceDays = Array(days.prefix(60))
+        }
         save()
     }
 
@@ -204,6 +219,20 @@ final class ProgressStore {
 
     func seenCount(of pool: [Question]) -> Int {
         pool.filter { data.records[$0.id] != nil }.count
+    }
+
+    /// Whether the learner answered anything on the given day.
+    func practised(on day: Date) -> Bool {
+        if let last = data.lastPracticeDay, calendar.isDate(last, inSameDayAs: day) { return true }
+        return (data.practiceDays ?? []).contains { calendar.isDate($0, inSameDayAs: day) }
+    }
+
+    /// Whole days from today until the exam, or nil when no date is set or it has passed.
+    var daysUntilExam: Int? {
+        guard let exam = data.settings.examDate else { return nil }
+        let days = calendar.dateComponents([.day], from: calendar.startOfDay(for: .now),
+                                           to: calendar.startOfDay(for: exam)).day ?? 0
+        return days >= 0 ? days : nil
     }
 
     // MARK: - Persistence

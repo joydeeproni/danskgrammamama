@@ -24,45 +24,48 @@ struct WordSheet: View {
                 VStack(alignment: .leading, spacing: 20) {
                     VStack(alignment: .leading, spacing: 6) {
                         Text(entry?.word ?? Glossary.clean(word))
-                            .font(.system(size: 32, weight: .semibold, design: .serif))
+                            .font(.serif(34, .semibold, relativeTo: .largeTitle))
+                            .foregroundStyle(Theme.ink)
                         if let entry, !entry.subtitle.isEmpty {
-                            Text(entry.subtitle).font(.subheadline).foregroundStyle(.secondary)
+                            Text(entry.subtitle).font(.ui(15, relativeTo: .subheadline)).foregroundStyle(Theme.pencil)
                         }
                     }
 
                     if let entry, entry.hasMeaning {
                         Text(entry.en)
-                            .font(.title3)
+                            .font(.ui(20, relativeTo: .title3))
                             .fixedSize(horizontal: false, vertical: true)
                         if let forms = entry.forms, !forms.isEmpty {
                             VStack(alignment: .leading, spacing: 4) {
-                                Text(language == .danish ? "Bøjning" : "Forms")
-                                    .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
-                                Text(forms).font(.system(.subheadline, design: .serif))
+                                Text("Bøjning")
+                                    .font(.ui(12.5, .semibold, relativeTo: .caption)).foregroundStyle(Theme.pencil)
+                                Text(forms).font(.serif(16))
                             }
                             .padding(12)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 10))
+                            .background(Theme.paperTint, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                            .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).strokeBorder(Theme.edge, lineWidth: 1))
                         }
                     } else if aiLoading {
                         HStack(spacing: 8) {
                             ProgressView()
-                            Text(language == .danish ? "Slår op …" : "Looking it up …").foregroundStyle(.secondary)
+                            Text("Slår op …").foregroundStyle(Theme.pencil)
                         }
                     } else if aiFailed {
                         Text(language == .danish
                              ? "Ordet står ikke i ordlisten, og den lokale model kunne ikke slå det op."
                              : "This word is not in the built-in list, and the on-device model could not look it up.")
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(Theme.pencil)
                             .fixedSize(horizontal: false, vertical: true)
                     }
 
                     if !context.isEmpty {
                         VStack(alignment: .leading, spacing: 4) {
-                            Text(language == .danish ? "I sætningen" : "In this sentence")
-                                .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                            Text("I sætningen")
+                                .font(.ui(12.5, .semibold, relativeTo: .caption)).foregroundStyle(Theme.pencil)
                             Text(context)
-                                .font(.system(.subheadline, design: .serif)).italic()
+                                .font(.serif(16))
+                                .foregroundStyle(Theme.ink)
                                 .fixedSize(horizontal: false, vertical: true)
                         }
                     }
@@ -71,9 +74,9 @@ struct WordSheet: View {
 
                     if let entry, entry.hasMeaning {
                         if alreadySaved || saved {
-                            Label(language == .danish ? "Gemt i ordbogen" : "Saved to your word diary",
+                            Label("Gemt under Ord",
                                   systemImage: "checkmark.circle.fill")
-                                .font(.body.weight(.medium))
+                                .font(.ui(17, .medium, relativeTo: .body))
                                 .foregroundStyle(Style.correct)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 14)
@@ -82,24 +85,27 @@ struct WordSheet: View {
                                 flashcards.add(entry: entry, context: context)
                                 saved = true
                             } label: {
-                                Label(language == .danish ? "Gem som flashcard" : "Save as a flashcard",
+                                Label("Gem ordet",
                                       systemImage: "plus.rectangle.on.rectangle")
                             }
-                            .buttonStyle(PrimaryButtonStyle())
+                            .buttonStyle(InkButtonStyle())
                         }
                     }
                 }
                 .padding()
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Theme.paper.ignoresSafeArea())
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button(language == .danish ? "Luk" : "Close") { dismiss() }
+                    Button("Luk") { dismiss() }
                 }
             }
         }
         .presentationDetents([.medium, .large])
+        .presentationBackground(Theme.paper)
+        .presentationCornerRadius(30)
+        .tint(Theme.ink)
         .task { await load() }
     }
 

@@ -109,7 +109,7 @@ struct DanskOrdWidgetView: View {
                 }
                 if family == .systemLarge {
                     Text(entry.card.context)
-                        .font(.footnote).italic().foregroundStyle(.secondary)
+                        .font(.footnote).foregroundStyle(.secondary)
                         .lineLimit(3)
                 }
             } else if !entry.card.subtitle.isEmpty {

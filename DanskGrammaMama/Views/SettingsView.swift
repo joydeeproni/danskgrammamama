@@ -5,90 +5,142 @@ struct SettingsView: View {
     @Environment(ContentStore.self) private var content
     @Environment(Glossary.self) private var glossary
     @Environment(FlashcardStore.self) private var flashcards
+    @Environment(\.dismiss) private var dismiss
     @State private var confirmReset = false
 
     private var settings: Binding<AppSettings> {
         Binding(get: { progress.settings }, set: { progress.settings = $0 })
     }
 
+    private var examDate: Binding<Date> {
+        Binding(get: { progress.settings.examDate ?? Calendar.current.date(byAdding: .day, value: 30, to: .now) ?? .now },
+                set: { settings.wrappedValue.examDate = $0 })
+    }
+
+    private var appearance: Binding<Appearance> {
+        Binding(get: { progress.settings.appearance ?? .system },
+                set: { settings.wrappedValue.appearance = $0 })
+    }
+
     private var inputModeDescription: String {
         switch progress.settings.inputMode {
-        case .choice: return "Tap one of four options. The answer and explanation appear immediately."
-        case .typed: return "Type the answer yourself; the four options can be shown as a hint. Harder, closer to the written exam."
-        case .mixed: return "About half the questions are typed, half multiple choice."
+        case .choice: return "Vælg mellem fire muligheder. Svaret og forklaringen kommer med det samme."
+        case .typed: return "Skriv selv svaret; de fire muligheder kan vises som hjælp. Sværere og tættere på den skriftlige prøve."
+        case .mixed: return "Cirka halvdelen skriver du, resten vælger du."
         }
     }
 
     var body: some View {
-        Form {
-            Section("Explanations") {
-                Picker("Language", selection: settings.explanationLanguage) {
-                    ForEach(ExplanationLanguage.allCases) { Text($0.label).tag($0) }
+        NavigationStack {
+            Form {
+                Section {
+                    Toggle("Jeg har en prøvedato", isOn: Binding(
+                        get: { progress.settings.examDate != nil },
+                        set: { settings.wrappedValue.examDate = $0 ? examDate.wrappedValue : nil }))
+                    if progress.settings.examDate != nil {
+                        DatePicker("Prøvedato", selection: examDate, in: Date.now..., displayedComponents: .date)
+                            .environment(\.locale, Locale(identifier: "da_DK"))
+                    }
+                    Stepper("Prøvesæt: \(settings.wrappedValue.examMinutes) min", value: settings.examMinutes, in: 5...40, step: 5)
+                } header: {
+                    Text("Prøven")
+                } footer: {
+                    Text("I dag tæller ned til datoen.")
                 }
-                .pickerStyle(.segmented)
-                Text("Grammar terms stay in Danish either way, so they match your teacher's vocabulary.")
-                    .font(.footnote).foregroundStyle(.secondary)
-            }
 
-            Section {
-                Picker("Answer mode", selection: settings.inputMode) {
-                    ForEach(InputMode.allCases) { Text($0.label).tag($0) }
+                Section("Hver dag") {
+                    Stepper("Dagens mål: \(settings.wrappedValue.dailyGoal) spørgsmål", value: settings.dailyGoal, in: 5...60, step: 5)
+                    Stepper("Ekstra runde: \(settings.wrappedValue.sessionLength) kort", value: settings.sessionLength, in: 5...30, step: 5)
+                    Picker("Niveau", selection: settings.preferredLevel) {
+                        Text("Blandet").tag(0)
+                        Text("Niveau 1").tag(1)
+                        Text("Niveau 2").tag(2)
+                    }
                 }
-                .pickerStyle(.segmented)
-                Text(inputModeDescription).font(.footnote).foregroundStyle(.secondary)
-            } header: {
-                Text("Answering")
-            }
 
-            Section("Practice") {
-                Stepper("Daily goal: \(settings.wrappedValue.dailyGoal) questions", value: settings.dailyGoal, in: 5...60, step: 5)
-                Stepper("Session length: \(settings.wrappedValue.sessionLength)", value: settings.sessionLength, in: 5...30, step: 5)
-                Picker("Level", selection: settings.preferredLevel) {
-                    Text("Mixed").tag(0)
-                    Text("Level 1").tag(1)
-                    Text("Level 2").tag(2)
+                Section {
+                    Picker("Svar", selection: settings.inputMode) {
+                        Text("Vælg").tag(InputMode.choice)
+                        Text("Skriv").tag(InputMode.typed)
+                        Text("Blandet").tag(InputMode.mixed)
+                    }
+                    .pickerStyle(.segmented)
+                    Text(inputModeDescription).font(.ui(13)).foregroundStyle(Theme.pencil)
+                } header: {
+                    Text("Sådan svarer du")
                 }
-                Stepper("Exam time: \(settings.wrappedValue.examMinutes) min", value: settings.examMinutes, in: 5...40, step: 5)
-            }
 
-            Section {
-                Toggle("Use on-device AI", isOn: settings.useAI)
-                Text(DanishTutor.shared.availability.message)
-                    .font(.footnote).foregroundStyle(.secondary)
-            } header: {
-                Text("AI tutor")
-            } footer: {
-                Text("Uses Apple's on-device model. Your text never leaves the phone. Explanations for every question are written by hand and work without it.")
-            }
+                Section {
+                    Picker("Forklaringer", selection: settings.explanationLanguage) {
+                        Text("Engelsk").tag(ExplanationLanguage.english)
+                        Text("Dansk").tag(ExplanationLanguage.danish)
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text("Forklaringer")
+                } footer: {
+                    Text("Grammatiske begreber står på dansk uanset hvad, så de passer til din undervisning.")
+                }
 
-            Section {
-                LabeledContent("Saved words", value: "\(flashcards.cards.count)")
-                LabeledContent("Dictionary entries", value: "\(glossary.count)")
-            } header: {
-                Text("Words")
-            } footer: {
-                Text("Tap any underlined word in an exercise to see what it means and keep it. Saved words appear in the Words tab and in the home-screen widget, which shows a new one every hour. To let the widget read your own words, add the App Groups capability to both targets in Xcode; without it the widget shows a built-in starter deck.")
-            }
+                Section("Udseende") {
+                    Picker("Udseende", selection: appearance) {
+                        Text("System").tag(Appearance.system)
+                        Text("Lys").tag(Appearance.light)
+                        Text("Mørk").tag(Appearance.dark)
+                    }
+                    .pickerStyle(.segmented)
+                }
 
-            Section("Progress") {
-                LabeledContent("Questions in bank", value: "\(content.questions.count)")
-                LabeledContent("Verbs in drill list", value: "\(content.verbs.count)")
-                LabeledContent("Answered", value: "\(progress.data.totalAnswered)")
-                LabeledContent("Correct", value: "\(progress.data.totalCorrect)")
-                LabeledContent("Due for review", value: "\(progress.dueCount(in: content.questions))")
-                Button("Reset all progress", role: .destructive) { confirmReset = true }
-            }
+                Section {
+                    Toggle("Brug AI på telefonen", isOn: settings.useAI)
+                    Text(DanishTutor.shared.availability.message)
+                        .font(.ui(13)).foregroundStyle(Theme.pencil)
+                } header: {
+                    Text("AI-hjælp")
+                } footer: {
+                    Text("Bruger Apples model på telefonen. Din tekst forlader aldrig telefonen. Alle forklaringer er skrevet i hånden og virker uden.")
+                }
 
-            Section("About") {
-                Text("Built for Prøve i Dansk 3 (CEFR B2). Question bank: \(Topic.all.count) topics. Missed items return after 1 day, then 3 days, until answered correctly twice.")
-                    .font(.footnote).foregroundStyle(.secondary)
+                Section {
+                    LabeledContent("Gemte ord", value: "\(flashcards.cards.count)")
+                    LabeledContent("Ord i ordbogen", value: "\(glossary.count)")
+                } header: {
+                    Text("Ord")
+                } footer: {
+                    Text("Tryk på et understreget ord i en øvelse for at se betydningen og gemme det. Widgetten viser et nyt gemt ord hver time.")
+                }
+
+                Section("Fremskridt") {
+                    LabeledContent("Spørgsmål i banken", value: "\(content.questions.count)")
+                    LabeledContent("Besvaret", value: "\(progress.data.totalAnswered)")
+                    LabeledContent("Rigtige", value: "\(progress.data.totalCorrect)")
+                    LabeledContent("Til gentagelse", value: "\(progress.dueCount(in: content.questions))")
+                    Button("Nulstil al fremgang", role: .destructive) { confirmReset = true }
+                }
+
+                Section {
+                    Text("Lavet til Prøve i Dansk 3 (B2). \(Topic.all.count) emner. Fejl kommer igen efter 1 dag og derefter 3 dage, indtil du har svaret rigtigt to gange.")
+                        .font(.ui(13)).foregroundStyle(Theme.pencil)
+                }
+            }
+            .font(.ui(16))
+            .scrollContentBackground(.hidden)
+            .background(Theme.table.ignoresSafeArea())
+            .navigationTitle("Indstillinger")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Færdig") { dismiss() }
+                        .font(.ui(16, .semibold))
+                }
+            }
+            .confirmationDialog("Nulstil al fremgang?", isPresented: $confirmReset, titleVisibility: .visible) {
+                Button("Nulstil", role: .destructive) { progress.resetAll() }
+            } message: {
+                Text("Række, gentagelser og parathed bliver slettet. Indstillingerne beholdes.")
             }
         }
-        .navigationTitle("Settings")
-        .confirmationDialog("Reset all progress?", isPresented: $confirmReset, titleVisibility: .visible) {
-            Button("Reset", role: .destructive) { progress.resetAll() }
-        } message: {
-            Text("Streak, review queue and mastery will be cleared. Settings are kept.")
-        }
+        .tint(Theme.ink)
+        .presentationBackground(Theme.table)
     }
 }

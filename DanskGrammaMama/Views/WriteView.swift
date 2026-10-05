@@ -49,7 +49,7 @@ struct WriteView: View {
                 taskCard
                 editor
                 if let errorText {
-                    Text(errorText).font(.footnote).foregroundStyle(Style.wrong)
+                    Text(errorText).font(.ui(13, relativeTo: .footnote)).foregroundStyle(Style.wrong)
                 }
                 if checked { results }
             }
@@ -57,8 +57,8 @@ struct WriteView: View {
             .padding(.bottom, 90)
         }
         .scrollDismissesKeyboard(.interactively)
-        .background(Color(.systemGroupedBackground))
-        .navigationTitle(language == .danish ? "Skriv" : "Write")
+        .tableBackground()
+        .navigationTitle("Skriv")
         .safeAreaInset(edge: .bottom) { checkBar }
         .sheet(item: Binding(get: { tappedWord.map(IdentifiableWord.init) },
                              set: { tappedWord = $0?.value })) { item in
@@ -69,43 +69,44 @@ struct WriteView: View {
     private var taskCard: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text(language == .danish ? "Opgave" : "Task")
-                    .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                Text("Opgave")
+                    .font(.ui(12.5, .semibold, relativeTo: .caption)).foregroundStyle(Theme.pencil)
                 Spacer()
-                Button(language == .danish ? "Ny opgave" : "New task") {
+                Button("Ny opgave") {
                     taskIndex = (taskIndex + 1) % WriteView.tasks.count
                     reset()
                 }
-                .font(.subheadline)
+                .font(.ui(15, relativeTo: .subheadline))
             }
-            Text(task.da).font(.system(.body, design: .serif)).fixedSize(horizontal: false, vertical: true)
+            Text(task.da).font(.serif(17)).fixedSize(horizontal: false, vertical: true)
             if language == .english {
-                Text(task.en).font(.footnote).foregroundStyle(.secondary)
+                Text(task.en).font(.ui(13, relativeTo: .footnote)).foregroundStyle(Theme.pencil)
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .card()
+        .padding(18).frame(maxWidth: .infinity, alignment: .leading).paper(radius: 16)
     }
 
     private var editor: some View {
         VStack(alignment: .trailing, spacing: 6) {
             TextEditor(text: $text)
                 .frame(minHeight: 180)
-                .font(.body)
+                .font(.ui(17, relativeTo: .body))
                 .autocorrectionDisabled()
                 .textInputAutocapitalization(.sentences)
                 .focused($editorFocused)
                 .scrollContentBackground(.hidden)
                 .padding(10)
-                .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: Style.corner))
+                .background(Theme.paperTint, in: RoundedRectangle(cornerRadius: Theme.controlRadius, style: .continuous))
+                .overlay(RoundedRectangle(cornerRadius: Theme.controlRadius, style: .continuous).strokeBorder(Theme.edge, lineWidth: 1))
                 .onChange(of: text) { _, _ in if checked { checked = false } }
             HStack(spacing: 10) {
-                Text("\(wordCount) \(language == .danish ? "ord" : "words")")
-                    .font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                Text("\(wordCount) \("ord")")
+                    .font(.ui(12.5, relativeTo: .caption).monospacedDigit()).foregroundStyle(Theme.pencil)
                 if wordCount < 5 {
-                    Text(language == .danish ? "Skriv mindst fem ord" : "Write at least five words")
-                        .font(.caption).foregroundStyle(.tertiary)
+                    Text("Skriv mindst fem ord")
+                        .font(.caption).foregroundStyle(Theme.pencil)
                 }
             }
         }
@@ -118,12 +119,12 @@ struct WriteView: View {
                 check()
             } label: {
                 if loading {
-                    HStack(spacing: 8) { ProgressView().tint(.white); Text(language == .danish ? "Retter …" : "Checking …") }
+                    HStack(spacing: 8) { ProgressView().tint(Theme.buttonText); Text("Retter …") }
                 } else {
-                    Label(language == .danish ? "Ret min dansk" : "Check my Danish", systemImage: "checkmark.circle")
+                    Label("Ret min dansk", systemImage: "checkmark.circle")
                 }
             }
-            .buttonStyle(PrimaryButtonStyle())
+            .buttonStyle(InkButtonStyle())
             .disabled(loading || wordCount < 5)
             .opacity(wordCount < 5 ? 0.5 : 1)
 
@@ -131,65 +132,65 @@ struct WriteView: View {
                 Text(language == .danish
                      ? "Retter med grammatikregler på enheden. AI-feedback kræver Apple Intelligence."
                      : "Checking with on-device grammar rules. AI feedback needs Apple Intelligence.")
-                    .font(.caption2).foregroundStyle(.secondary)
+                    .font(.ui(11, relativeTo: .caption2)).foregroundStyle(Theme.pencil)
                     .multilineTextAlignment(.center)
             }
         }
         .padding(.horizontal, 20).padding(.bottom, 8).padding(.top, 8)
-        .background(.bar)
+        .background(Theme.table.opacity(0.94).ignoresSafeArea())
     }
 
     @ViewBuilder
     private var results: some View {
         if allIssues.isEmpty {
             VStack(alignment: .leading, spacing: 6) {
-                Label(language == .danish ? "Ingen fejl fundet" : "No errors found", systemImage: "checkmark.circle.fill")
-                    .font(.headline).foregroundStyle(Style.correct)
+                Label("Ingen fejl fundet", systemImage: "checkmark.circle.fill")
+                    .font(.ui(17, .semibold, relativeTo: .headline)).foregroundStyle(Style.correct)
                 Text(language == .danish
                      ? aiUsable ? "Hverken reglerne eller modellen fandt noget at rette." : "Reglerne på enheden fandt ikke noget. Slå Apple Intelligence til for en grundigere kontrol."
                      : aiUsable ? "Neither the rules nor the model found anything to correct." : "The on-device rules found nothing. Turn on Apple Intelligence for a deeper check.")
-                    .font(.subheadline).foregroundStyle(.secondary)
+                    .font(.ui(15, relativeTo: .subheadline)).foregroundStyle(Theme.pencil)
                     .fixedSize(horizontal: false, vertical: true)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .card()
+            .padding(18).frame(maxWidth: .infinity, alignment: .leading).paper(radius: 16)
         } else {
             VStack(alignment: .leading, spacing: 14) {
-                Text(language == .danish ? "\(allIssues.count) ting at rette" : "\(allIssues.count) things to fix")
-                    .font(.headline)
+                Text("\(allIssues.count) ting at rette")
+                    .font(.ui(17, .semibold, relativeTo: .headline))
                 ForEach(allIssues) { issue in
                     VStack(alignment: .leading, spacing: 4) {
                         HStack(alignment: .firstTextBaseline, spacing: 6) {
                             Text(issue.original).strikethrough().foregroundStyle(Style.wrong)
-                            Image(systemName: "arrow.right").font(.caption2).foregroundStyle(.secondary)
+                            Image(systemName: "arrow.right").font(.ui(11, relativeTo: .caption2)).foregroundStyle(Theme.pencil)
                             Text(issue.correction).bold().foregroundStyle(Style.correct)
                         }
-                        .font(.system(.subheadline, design: .serif))
-                        Text(issue.rule).font(.subheadline).foregroundStyle(.secondary)
+                        .font(.serif(15))
+                        Text(issue.rule).font(.ui(15, relativeTo: .subheadline)).foregroundStyle(Theme.pencil)
                     }
                     .fixedSize(horizontal: false, vertical: true)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .card()
+            .padding(18).frame(maxWidth: .infinity, alignment: .leading).paper(radius: 16)
         }
 
         if let fb = aiFeedback {
             VStack(alignment: .leading, spacing: 8) {
-                Text(language == .danish ? "Rettet tekst" : "Corrected text")
-                    .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                Text("Rettet tekst")
+                    .font(.ui(12.5, .semibold, relativeTo: .caption)).foregroundStyle(Theme.pencil)
                 SentenceView(segments: [.text(fb.correctedText)],
                              gapState: { _ in .pending }, gapNumber: { _ in nil },
-                             font: .system(.body, design: .serif),
+                             font: .serif(17),
                              onWordTap: { tappedWord = $0 })
                 if !fb.comment.isEmpty {
                     Divider()
-                    Text(fb.comment).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+                    Text(fb.comment).foregroundStyle(Theme.pencil).fixedSize(horizontal: false, vertical: true)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .card()
+            .padding(18).frame(maxWidth: .infinity, alignment: .leading).paper(radius: 16)
         }
     }
 

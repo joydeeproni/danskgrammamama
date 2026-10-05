@@ -1,114 +1,55 @@
 import SwiftUI
 
+/// No tab bar: the app is one table. Today is the top card; topics, words and this
+/// week's paper are small stacks beside it, pushed onto the same navigation stack.
 struct RootView: View {
     @Environment(ProgressStore.self) private var progress
-    private var language: ExplanationLanguage { progress.settings.explanationLanguage }
+    @State private var path: [Route] = []
+    #if DEBUG
+    @State private var debugWord: IdentifiableWord?
+    #endif
 
     var body: some View {
-        TabView {
-            NavigationStack { HomeView().quizRouteDestinations() }
-                .tabItem { Label(language == .danish ? "Øv" : "Practice", systemImage: "square.and.pencil") }
-            NavigationStack { TopicsView().quizRouteDestinations() }
-                .tabItem { Label(language == .danish ? "Emner" : "Topics", systemImage: "list.bullet") }
-            NavigationStack { FlashcardsView().quizRouteDestinations() }
-                .tabItem { Label(language == .danish ? "Ord" : "Words", systemImage: "character.book.closed") }
-            NavigationStack { ExamView().quizRouteDestinations() }
-                .tabItem { Label(language == .danish ? "Prøve" : "Exam", systemImage: "timer") }
-            NavigationStack { WriteView() }
-                .tabItem { Label(language == .danish ? "Skriv" : "Write", systemImage: "text.alignleft") }
+        NavigationStack(path: $path) {
+            TodayView()
+                .routeDestinations()
         }
+        #if DEBUG
+        .onAppear {
+            path = DebugLaunch.initialPath(progress: progress)
+            debugWord = UserDefaults.standard.string(forKey: "word").map(IdentifiableWord.init)
+        }
+        .sheet(item: $debugWord) { WordSheet(word: $0.value, context: "Mange danske arbejdspladser blev tvunget til at indføre hjemmearbejde.") }
+        #endif
+        .tint(Theme.ink)
+        .font(.ui(17))
+        .preferredColorScheme((progress.settings.appearance ?? .system).colorScheme)
     }
 }
 
-// MARK: - Shared style
-
+/// Kept for the few places that still name the verdict colours directly.
 enum Style {
-    static let corner: CGFloat = 16
-    static let correct = Color(red: 0.13, green: 0.60, blue: 0.35)
-    static let wrong = Color(red: 0.80, green: 0.24, blue: 0.24)
+    static let correct = Theme.correct
+    static let wrong = Theme.red
 }
 
-struct CardBackground: ViewModifier {
-    var padding: CGFloat = 18
-    func body(content: Content) -> some View {
-        content
-            .padding(padding)
-            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: Style.corner))
-    }
-}
+#if DEBUG
+/// Opens a screen straight from a launch argument, for screenshots:
+/// `-screen daily|topics|topic|words|week|exam` and `-answer wrong|right`.
+enum DebugLaunch {
+    static var screen: String? { UserDefaults.standard.string(forKey: "screen") }
+    static var answer: String? { UserDefaults.standard.string(forKey: "answer") }
 
-extension View {
-    func card(padding: CGFloat = 18) -> some View { modifier(CardBackground(padding: padding)) }
-}
-
-/// Thin capsule progress bar used at the top of a session.
-struct ProgressBar: View {
-    let value: Double
-    var height: CGFloat = 5
-
-    var body: some View {
-        GeometryReader { geo in
-            ZStack(alignment: .leading) {
-                Capsule().fill(Color(.systemFill))
-                Capsule().fill(Color.accentColor)
-                    .frame(width: max(0, min(1, value)) * geo.size.width)
-                    .animation(.snappy(duration: 0.25), value: value)
-            }
+    static func initialPath(progress: ProgressStore) -> [Route] {
+        switch screen {
+        case "daily": return [.daily(DailyPlan(size: 15, reviews: 0, weakTopic: nil, weak: 0, fresh: 15, isBonus: false))]
+        case "topics": return [.topics]
+        case "topic": return [.topics, .topic("prepositions")]
+        case "words": return [.words]
+        case "week": return [.week]
+        case "exam": return [.week, .exam(minutes: progress.settings.examMinutes)]
+        default: return []
         }
-        .frame(height: height)
     }
 }
-
-struct MasteryBar: View {
-    let value: Double
-    var body: some View {
-        ProgressBar(value: value, height: 4)
-    }
-}
-
-/// A ring, used for the daily goal.
-struct GoalRing: View {
-    let value: Double
-    let size: CGFloat
-
-    var body: some View {
-        ZStack {
-            Circle().stroke(Color(.systemFill), lineWidth: 7)
-            Circle()
-                .trim(from: 0, to: max(0.001, min(1, value)))
-                .stroke(Color.accentColor, style: StrokeStyle(lineWidth: 7, lineCap: .round))
-                .rotationEffect(.degrees(-90))
-                .animation(.snappy, value: value)
-        }
-        .frame(width: size, height: size)
-    }
-}
-
-struct PrimaryButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.body.weight(.semibold))
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
-            .background(Color.accentColor.opacity(configuration.isPressed ? 0.85 : 1),
-                        in: RoundedRectangle(cornerRadius: Style.corner))
-            .foregroundStyle(.white)
-            .scaleEffect(configuration.isPressed ? 0.985 : 1)
-            .animation(.snappy(duration: 0.12), value: configuration.isPressed)
-    }
-}
-
-struct SecondaryButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.body.weight(.medium))
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
-            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: Style.corner))
-            .overlay(RoundedRectangle(cornerRadius: Style.corner)
-                .strokeBorder(Color(.separator).opacity(configuration.isPressed ? 0.8 : 0.5)))
-            .foregroundStyle(.primary)
-            .scaleEffect(configuration.isPressed ? 0.985 : 1)
-            .animation(.snappy(duration: 0.12), value: configuration.isPressed)
-    }
-}
+#endif

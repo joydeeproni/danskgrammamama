@@ -7,6 +7,10 @@ struct DanskGrammaMamaApp: App {
     @State private var glossary = Glossary()
     @State private var flashcards = FlashcardStore()
 
+    init() {
+        FontRegistry.register()
+    }
+
     var body: some Scene {
         WindowGroup {
             RootView()
