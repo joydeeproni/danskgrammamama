@@ -225,6 +225,7 @@ struct TopicPageView: View {
                     .frame(height: 32)
                     .background(level == value ? Theme.buttonFill : Theme.chip, in: Capsule())
                     .accessibilityAddTraits(level == value ? .isSelected : [])
+                    .buttonStyle(PressStyle(scale: 0.92))
                 }
                 Spacer()
             }
@@ -236,12 +237,19 @@ struct TopicPageView: View {
                     .buttonStyle(PaperButtonStyle())
                     .frame(maxWidth: 140)
                 }
-                NavigationLink(value: Route.practice(topic: topic.id, level: level, count: length)) {
+                NavigationLink(value: Route.practice(topic: topic.id, level: level,
+                                                     count: topic.id == Topic.readingID ? 3 : length)) {
                     Text("Øv \(topic.titleDa.lowercasedFirst)")
                         .lineLimit(1)
                         .minimumScaleFactor(0.8)
                 }
                 .buttonStyle(InkButtonStyle())
+            }
+            if topic.id == Topic.readingID {
+                NavigationLink(value: Route.readingSet(nil)) {
+                    Text("Helt sæt · 2A, 2B og 3")
+                }
+                .buttonStyle(PaperButtonStyle())
             }
             if topic.id == "verbs" {
                 HStack(spacing: 10) {
@@ -297,7 +305,7 @@ private struct GuideSection: View {
                 .padding(18)
                 .contentShape(Rectangle())
             }
-            .buttonStyle(.plain)
+            .buttonStyle(PressStyle(scale: 0.98))
             .accessibilityAddTraits(.isHeader)
             .accessibilityValue(open ? "Åben" : "Lukket")
 

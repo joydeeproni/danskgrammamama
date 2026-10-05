@@ -1,0 +1,56 @@
+{
+  "topic": "reading",
+  "intro": {
+    "en": "Læseforståelse 2 is three tasks in 65 minutes: 2A (three A/B/C questions, 2 points each), 2B (put five paragraphs back, 2 points each) and Delprøve 3 (eight gaps, 1 point each). Most points are lost by reading options too quickly, not by not understanding the text.",
+    "da": "Læseforståelse 2 er tre opgaver på 65 minutter: 2A (tre spørgsmål med A/B/C, 2 point hver), 2B (sæt fem tekstdele ind, 2 point hver) og Delprøve 3 (otte huller, 1 point hver). De fleste point tabes ved at læse svarmulighederne for hurtigt, ikke ved at misforstå teksten."
+  },
+  "sections": [
+    {
+      "title": { "en": "Delprøve 2A: read and choose A, B or C", "da": "Delprøve 2A: læs og vælg A, B eller C" },
+      "rules": [
+        { "en": "Read the three questions before the text. They usually follow the order of the text: question 1 is about the beginning, question 3 about the end.", "da": "Læs de tre spørgsmål før teksten. De følger som regel tekstens rækkefølge: spørgsmål 1 handler om begyndelsen, spørgsmål 3 om slutningen." },
+        { "en": "Find the paragraph the question is about and read it slowly. The right option says the same as the text in other words.", "da": "Find det afsnit, spørgsmålet handler om, og læs det langsomt. Den rigtige svarmulighed siger det samme som teksten med andre ord." },
+        { "en": "Watch who says what. A question about what Ditte thinks is not answered by what 'some people' or her colleagues think.", "da": "Hold øje med, hvem der siger hvad. Et spørgsmål om, hvad Ditte mener, besvares ikke af, hvad 'nogle' eller hendes kolleger mener." }
+      ],
+      "hack": { "en": "Cross out the two wrong options: one usually says something the text never says, the other turns the text around (ikke, kun, aldrig, mere end).", "da": "Streg de to forkerte svar ud: det ene siger typisk noget, teksten aldrig siger, det andet vender teksten om (ikke, kun, aldrig, mere end)." },
+      "examples": [
+        { "da": "Teksten: »jeg bliver **ikke blot** underholdt, jeg bliver også klogere« → Svar: Hun læser **ikke kun** for at blive klogere.", "en": "Text: 'I'm not just entertained, I also get wiser' → Answer: she does not read only to get wiser." },
+        { "da": "Svar med »**kun**« eller »**altid**« er ofte forkerte, hvis teksten siger »tit« eller »nogle gange«.", "en": "Options with 'only' or 'always' are often wrong when the text says 'often' or 'sometimes'." }
+      ]
+    },
+    {
+      "title": { "en": "Delprøve 2B: put the paragraphs back", "da": "Delprøve 2B: sæt tekstdelene ind" },
+      "rules": [
+        { "en": "Read the sentence before and after each gap. The missing part has to connect to both.", "da": "Læs sætningen før og efter hvert hul. Den manglende tekstdel skal hænge sammen med begge." },
+        { "en": "Look at how each part begins: det, de, disse, dem point back to something; Derfor, Desuden, Fx, Men show the logic to the paragraph before.", "da": "Se på, hvordan hver tekstdel begynder: det, de, disse, dem peger tilbage på noget; Derfor, Desuden, Fx, Men viser logikken til afsnittet før." },
+        { "en": "Numbers and names are clues: a part that continues '81 %' or 'Bodil' belongs right after the paragraph that introduces them.", "da": "Tal og navne er spor: en tekstdel, der fortsætter '81 %' eller 'Bodil', hører til lige efter det afsnit, der nævner dem." },
+        { "en": "Two parts don't fit. They are often off topic, or they say something the text contradicts.", "da": "To tekstdele passer ikke. De handler ofte om noget andet, eller de siger noget, teksten modsiger." }
+      ],
+      "hack": { "en": "Place the gaps you are surest of first and cross the letters out. The last gaps then have fewer candidates.", "da": "Sæt de huller ind, du er mest sikker på, først, og streg bogstaverne ud. Så er der færre muligheder tilbage til de sidste." },
+      "examples": [
+        { "da": "»… 81 % uden et handicap var i arbejde.« → »**Det samme** var desværre ikke tilfældet for dem med et handicap.«", "en": "'… 81% without a disability were in work.' → 'Sadly the same was not true for those with a disability.'" },
+        { "da": "»Et af forslagene er et kursus i jobsøgning.« → »… mange af dem har ikke haft et studiejob.« → »**Desuden** ville de have glæde af mentorer.«", "en": "'One suggestion is a job-search course.' → 'many have not had a student job.' → 'In addition they would benefit from mentors.'" }
+      ]
+    },
+    {
+      "title": { "en": "Delprøve 3: fill the eight gaps", "da": "Delprøve 3: udfyld de otte huller" },
+      "rules": [
+        { "en": "First find the logic: is the next sentence a contrast (dog, imidlertid, derimod), a cause (nemlig, fordi), a result (derfor, dermed) or an addition (desuden, også)?", "da": "Find først logikken: er næste sætning en modsætning (dog, imidlertid, derimod), en årsag (nemlig, fordi), en følge (derfor, dermed) eller en tilføjelse (desuden, også)?" },
+        { "en": "Check the grammar around the gap: after a fronted adverb like Derfor comes the verb (Derfor er der …).", "da": "Tjek grammatikken omkring hullet: efter et fremrykket adverbium som Derfor kommer verbet (Derfor er der …)." },
+        { "en": "Many gaps are fixed phrases or word partners: modstand mod, følgen af, det kommer an på, noget lignende, øge produktionen.", "da": "Mange huller er faste udtryk eller ord, der hører sammen: modstand mod, følgen af, det kommer an på, noget lignende, øge produktionen." }
+      ],
+      "hack": { "en": "Read the whole sentence with each option in your head. The wrong ones usually sound fine alone but break the logic of the paragraph.", "da": "Læs hele sætningen med hver mulighed i hovedet. De forkerte lyder ofte fint alene, men bryder afsnittets logik." },
+      "examples": [
+        { "da": "Opbakning til vindmøller. Der er **imidlertid** nogle ulemper.", "en": "Support for wind turbines. There are, however, some drawbacks." },
+        { "da": "Det er dyrt, men det er ikke den eneste **udfordring**.", "en": "It is expensive, but it is not the only challenge." },
+        { "da": "Når borgere klager, kan det **forlænge** sagsbehandlingen.", "en": "When citizens complain, it can prolong the processing of cases." }
+      ]
+    }
+  ],
+  "traps": [
+    { "en": "An option that repeats words from the text is not automatically right. Check that it says the same thing.", "da": "En svarmulighed, der gentager ord fra teksten, er ikke automatisk rigtig. Tjek, at den siger det samme." },
+    { "en": "In 2B each letter can be used once. If two gaps seem to want the same part, one of them is wrong.", "da": "I 2B må hvert bogstav kun bruges én gang. Hvis to huller ser ud til at passe til samme tekstdel, er det ene forkert." },
+    { "en": "Derfor and nemlig point in opposite directions: derfor gives the result, nemlig gives the reason.", "da": "Derfor og nemlig peger i hver sin retning: derfor giver følgen, nemlig giver grunden." },
+    { "en": "Keep an eye on the clock: about 15 minutes for 2A, 25 for 2B and 25 for Delprøve 3.", "da": "Hold øje med uret: cirka 15 minutter til 2A, 25 til 2B og 25 til Delprøve 3." }
+  ]
+}

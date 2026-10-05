@@ -1,0 +1,2270 @@
+{
+  "sets": [
+    {
+      "id": "2023-sommer",
+      "source": "Prøve i Dansk 3, maj–juni 2023",
+      "difficulty": 4,
+      "part2a": {
+        "title": "Læs skønlitteratur og bliv en bedre leder",
+        "text": "Vi læser skønlitteratur for at blive underholdt, men vi kan også bruge litteraturen til at blive klogere på os selv og andre. Det gælder fx for Ditte Simonsen.\n\nSom topleder har man typisk en travl og krævende arbejdsdag, hvor det er vigtigt at være mentalt og fysisk på toppen hele tiden. Det er måske en af forklaringerne på, at mange topledere dyrker meget sport i deres fritid. Ditte Simonsen, der er leder i en større medicinalvirksomhed, er dog ikke til hård fysisk træning. Hun gør noget andet. Hun læser skønlitteratur:\n\n”Jeg har altid elsket at læse og bruger i dag også skønlitteratur som inspiration til at blive en bedre leder. For når jeg læser skønlitteratur, bliver jeg ikke blot underholdt, jeg bliver også klogere på mennesker,” siger hun og fortsætter: ”For mig forholder det sig sådan, men for nogle kan det måske lyde overraskende, at man kan blive en bedre leder af at læse skønlitteratur. Mange topledere dyrker meget sport for at holde sig i god form og for dermed at være effektive på arbejdet. Læsning af skønlitteratur er jo på mange måder det modsatte af fysisk træning og mål, der skal nås. Det tager tid, og man sidder stille og roligt og slapper af.”\n\nDitte Simonsen arbejder sammen med to lederkolleger i et ledelsesteam. De har sammen ansvaret for en stor afdeling i virksomheden, men får også tid til at tale om ledelse generelt, og hvad de hver især gør for at blive bedre ledere. Ditte Simonsens kolleger er eksempler på topledere, der dyrker meget sport. De træner i et netværk sammen med andre ledere og har sat sig som mål at gennemføre en ironman. De bruger meget tid på træningen, men den hårde træning og målet om at gennemføre en ironman giver dem både et mentalt og fysisk overskud. ”Det er klart min fornemmelse, at mine kolleger har glæde af deres træning,” siger Ditte Simonsen og fortsætter: ”Jeg tror, at fysisk træning kan give større mentalt og fysisk overskud, og at det kan give mere overskud til at tale med og lytte til fx medarbejderne, hvilket er helt centralt, når man skal lede andre mennesker.”\n\nDet bliver dog aldrig Ditte Simonsens kop te at træne hårdt hver dag. ”Det overskud mine kolleger får af deres hårde fysiske træning, det får jeg gennem læsning. Jeg tror ikke, jeg ville have energi til min familie, hvis jeg som mine kolleger skulle op kl. 5 hver morgen til hård fysisk træning,” siger Ditte Simonsen.\n\nSkønlitteraturen som inspirationskilde\n\nDitte Simonsen læser ikke kun skønlitteratur. Hun læser også faglitteratur om ledelse, men ikke med samme entusiasme. ”Mange ledere vil nok mene, at man som leder kan få mere ud af at læse managementlitteratur end skønlitteratur. Det vil jeg slet ikke afvise. Hvis man ikke interesserer sig for litteratur, så vil man nok ikke få meget ud af at læse romaner og poesi. Så får man ganske givet mere ud af at læse managementlitteratur, der tit rummer konkrete råd til, hvad man kan gøre for at blive en bedre leder. I skønlitteraturen skal man så at sige læse mellem linjerne for at få nogle råd til sin ledelse,” siger Ditte Simonsen.\n\nDitte Simonsen kan pege på flere områder, hvor litteraturen inspirerer hende mere end managementlitteraturen. ”Sproget er i sig selv en inspiration. Litteraturens sprog er levende og kalder på følelser, krop og sanser, detaljerede scenarier og refleksioner,” siger Ditte Simonsen og fortsætter: ”I managementlitteraturen er sproget ofte fyldt med abstrakte floskler og abstrakte beskrivelser af personers adfærd. Jeg kommer tit til at kede mig, når jeg læser en bog om management, og jeg bliver tit nødt til at springe noget over for at blive færdig. Jeg tror faktisk aldrig, det er lykkedes mig at læse en bog om management fra ende til anden.”\n\nHun føler sig også inspireret af de mange mennesker og universer, man møder i litteraturen. ”Nogle mennesker synes jeg godt om og andre knap så godt om. Når jeg læser om forskellige menneskers følelser, oplevelser og erfaringer, inspirerer de mig til at reflektere over, hvordan jeg selv er i forhold til mine medarbejdere, og de hjælper mig til at få et mere nuanceret blik på de beslutninger, jeg skal tage.”",
+        "questions": [
+          {
+            "question": "Hvilket af følgende udsagn er i overensstemmelse med det, Ditte Simonsen giver udtryk for om skønlitteratur?",
+            "options": [
+              "Hun synes, det er overraskende, at man kan blive en bedre leder af at læse skønlitteratur.",
+              "Hun læser ikke kun skønlitteratur for at blive klogere på mennesker.",
+              "Hun kan kun slappe af, hvis hun sidder stille og roligt og læser skønlitteratur."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "She says fiction makes her »ikke blot underholdt« (not only entertained) but also wiser about people, so she reads it for more than one reason. A is wrong: it may sound surprising »for nogle«, not to her.",
+              "da": "Hun siger, at hun ikke blot bliver underholdt, men også klogere på mennesker. Hun læser altså også for underholdningens skyld. A er forkert: Det er »for nogle«, det lyder overraskende, ikke for hende."
+            }
+          },
+          {
+            "question": "Hvad giver Ditte Simonsen blandt andet udtryk for om sine lederkollegers hårde fysiske træning?",
+            "options": [
+              "Hun mener, den har en positiv effekt på deres kommunikation med medarbejderne i virksomheden.",
+              "Hun mener, det giver dem mindre energi til deres familier, at de skal op kl. 5 hver morgen.",
+              "Hun mener ikke, de har lige så stor glæde af deres træning, som hun har af at læse skønlitteratur."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "She believes the training gives »mere overskud til at tale med og lytte til fx medarbejderne« (more energy to talk to and listen to employees). B is about herself, not her colleagues, and she never says C.",
+              "da": "Hun tror, at træningen giver »mere overskud til at tale med og lytte til fx medarbejderne«. B handler om hende selv, ikke om kollegerne, og C siger hun ikke."
+            }
+          },
+          {
+            "question": "Hvorfor foretrækker Ditte Simonsen at læse skønlitteratur frem for managementlitteratur?",
+            "options": [
+              "Den indeholder individuelle beskrivelser af forskellige mennesker.",
+              "Den indeholder konkrete råd om, hvordan man kan blive en god leder.",
+              "Den er ikke så tidskrævende at læse som managementlitteratur."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "She is inspired by »de mange mennesker og universer« and by different people's feelings and experiences. B describes management books, and C is wrong because fiction »tager tid« (takes time).",
+              "da": "Hun bliver inspireret af »de mange mennesker og universer« og af forskellige menneskers følelser og erfaringer. B beskriver managementlitteraturen, og C er forkert, fordi skønlitteratur »tager tid«."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Job og handicap",
+        "text": "Der mangler arbejdskraft i Danmark, og der er brug for alle hænder og hoveder. Sådan lyder det ofte fra politikere og økonomer. Men det er ikke lige let for alle at få et arbejde. Heller ikke selvom de både har en god uddannelse og har lyst til at gå i gang med en karriere.\n\nDet drejer sig blandt andet om de mennesker, der har et handicap.\n\n{1}\n\nHvis man har et handicap, kan det derfor blive svært at passe et arbejde – men det er bestemt ikke sikkert! Sikkert er det dog, at der er færre nyuddannede med et handicap, der kommer i arbejde, end nyuddannede uden et handicap. Måske er det ikke så overraskende, men det var alligevel interessant nok til, at VIA University College satte sig for at undersøge det nærmere. Resultatet var rapporten Fra uddannelse til første job – med handicap, som udkom i 2020. Formålet med undersøgelsen var at finde ud af, hvor mange nyuddannede med et handicap, der er tilknyttet arbejdsmarkedet, og på hvilken måde de er det. Ja, og der er store forskelle i tilknytningen til arbejdsmarkedet.\n\n{2}\n\nDet er det, man kalder løntilskud. Men heldigvis er der mange, der har fået et helt almindeligt arbejde og derfor ikke længere får støtte fra det offentlige.\n\nKonkret sammenlignede man nyuddannede med og uden et handicap i det første år, efter de havde afsluttet deres uddannelse. I perioden 2012-2016 var der 266.515 personer, der afsluttede en videregående uddannelse, og af dem havde 4.793 personer et handicap. Det svarer til cirka 1,8 % af alle nyuddannede i perioden. Tendensen var klar. Hele 81 % af de nyuddannede uden et handicap var efter tolv måneder kommet ind på arbejdsmarkedet.\n\n{3}\n\nDet er selvfølgelig ikke et acceptabelt resultat. Slet ikke når man tænker på, at mange af dem sagtens kan udføre arbejdet lige så godt som alle andre.\n\nMåske handler de nedslående tal også om selvværdet hos de nyuddannede med et handicap. En tredjedel af dem mente, allerede mens de var studerende, at deres handicap ville få en betydning for, om de overhovedet kunne få et job. Og halvdelen mente, at deres handicap ville få stor betydning for, hvordan de ville klare deres job, hvis de endelig fik et.\n\n{4}\n\nOverraskende nok kunne 15 ud af 18 fortælle, at deres handicap enten har lille eller slet ingen betydning for deres arbejdsliv. På en måde er det gode nyheder. Men det er selvfølgelig ærgerligt, at der er så mange studerende med et handicap, der tror noget andet, mens de læser.\n\nEndelig viste undersøgelsen også, at mange mennesker med et handicap ikke kender særlig meget til de mange forskellige støttemuligheder, der er på arbejdsmarkedet. Disse muligheder kaldes også for kompenserende ordninger, og de er til en vis grad finansieret af staten. Fx kan en person med et handicap få personlig assistance. Den personlige assistent kan fx hjælpe med bestemte løft, med at køre bil, med at skrive eller læse korrektur. Man kan også få betalt visse hjælpemidler. Det kan fx være særligt undervisningsmateriale, særligt værktøj eller en speciel indretning af kontoret. Endelig kan nyuddannede med et handicap også få løntilskud i deres første job. Det vil hjælpe dem til at få den første erfaring med det fag, de har uddannet sig indenfor, og til at skabe sig et netværk. De fleste mennesker – både dem med og uden et handicap – har oplevet, hvor vigtigt det er at have et bredt professionelt netværk.\n\nRapporten kommer selvfølgelig også med en række anbefalinger til, hvordan man kan gøre det lettere for mennesker med et handicap at komme i arbejde. Et af forslagene er at tilbyde dem et kursus i jobsøgning.\n\n{5}\n\nDesuden ville de måske have glæde af frivillige mentorer, der har samme uddannelse, som de selv har. Mentorerne ville kunne bidrage med viden om alt fra ansættelsesproces til arbejdspladskultur. Og hvem ved? Måske kan det hjælpe den enkelte med et handicap til hurtigt at komme ind på arbejdsmarkedet – og blive der.",
+        "parts": {
+          "A": "Nogle er faktisk slet ikke en del af det – sådan vil det nok altid være. Andre har måske fået et job, men den virksomhed, de arbejder for, bliver til en vis grad kompenseret af kommunen.",
+          "B": "Fx er der flere og flere mennesker med et handicap, der simpelthen vælger, at de slet ikke vil have et arbejde. I hvert fald ikke samme slags arbejde som dem uden et synligt handicap.",
+          "C": "Det kan være svært at definere præcist, hvad det vil sige. Men i ordbogen står der, at det er en permanent fysisk eller psykisk svaghed, der begrænser ens muligheder i hverdagen.",
+          "D": "Det lyder måske banalt, men mange af dem har ikke haft et studiejob. Derfor har de i praksis svært ved at give eksempler på deres kompetencer og at beskrive deres erfaringer.",
+          "E": "Alle undersøgelser har indtil nu peget på, at mennesker med et handicap har lige så let ved at klare et almindeligt lønarbejde som mennesker uden et handicap. Og det har arbejdsgiverne endelig fået øjnene op for.",
+          "F": "Det samme var desværre ikke tilfældet for dem med et handicap. Af dem var kun seks ud af ti kommet i en eller anden form for arbejde inden for den samme periode.",
+          "G": "Der er bare ikke noget, der peger på, at de har ret. I undersøgelsen fra 2020 har man lavet en række grundige interviews med en lille gruppe mennesker med et handicap, der passer et almindeligt arbejde."
+        },
+        "answers": [
+          "C",
+          "A",
+          "F",
+          "G",
+          "D"
+        ],
+        "explanations": [
+          {
+            "en": "The line before mentions people with a disability. C defines the word (a weakness that limits your options), and the next paragraph builds on it: »Hvis man har et handicap, kan det derfor blive svært …«.",
+            "da": "Afsnittet før nævner mennesker med et handicap. C forklarer, hvad et handicap er, og efter hullet bygger »Hvis man har et handicap, kan det derfor blive svært …« på definitionen."
+          },
+          {
+            "en": "The paragraph before ends with »store forskelle i tilknytningen til arbejdsmarkedet«. A describes those differences, and »kompenseret af kommunen« is what »Det er det, man kalder løntilskud« after the gap refers to.",
+            "da": "Afsnittet før slutter med »store forskelle i tilknytningen til arbejdsmarkedet«. A beskriver forskellene, og »kompenseret af kommunen« forklarer »Det er det, man kalder løntilskud« efter hullet."
+          },
+          {
+            "en": "The paragraph before says 81% without a disability had found work. F continues: »Det samme var desværre ikke tilfældet for dem med et handicap« (only six in ten). Then: »Det er selvfølgelig ikke et acceptabelt resultat«.",
+            "da": "Afsnittet før siger, at 81 % uden handicap var kommet i arbejde. F fortsætter: »Det samme var desværre ikke tilfældet for dem med et handicap«. Efter hullet følger: »Det er selvfølgelig ikke et acceptabelt resultat«."
+          },
+          {
+            "en": "The paragraph before describes the students' worries. G replies: »Der er bare ikke noget, der peger på, at de har ret«, and mentions interviews with a small group – the »15 ud af 18« after the gap.",
+            "da": "Afsnittet før beskriver de studerendes bekymringer. G svarer: »Der er bare ikke noget, der peger på, at de har ret«, og nævner interviews med en lille gruppe, som »15 ud af 18« efter hullet henviser til."
+          },
+          {
+            "en": "The paragraph before proposes a job-seeking course. D gives the reason: many have never had a student job and struggle to describe their skills. »Desuden« after the gap adds a second proposal.",
+            "da": "Afsnittet før foreslår et kursus i jobsøgning. D begrunder forslaget: Mange har ikke haft et studiejob. »Desuden« efter hullet tilføjer endnu et forslag."
+          }
+        ],
+        "unused": {
+          "en": "B and E don't fit. B claims more people with disabilities choose not to work, which the text never supports. E says employers now see it's equally easy, but the text shows fewer people with disabilities get jobs.",
+          "da": "B og E passer ikke. B siger, at flere med et handicap selv vælger arbejde fra, hvilket teksten ikke støtter. E siger, at arbejdsgiverne har fået øjnene op for, at det er lige så let, men teksten viser, at færre med handicap kommer i arbejde."
+        }
+      },
+      "part3": {
+        "title": "Vindmøller møder modstand",
+        "text": "Opsætningen af vindmøller har generelt både politisk og folkelig opbakning i Danmark. Der er imidlertid nogle ulemper forbundet med vindmøller. Det gælder både for borgere, som bor tæt på de vindmøller, der sættes op, og for naturen.\n\nDanmark har et ambitiøst klimamål om, at der i 2030 skal udledes 70 % mindre drivhusgas end i 1990. Målet skal nås ved at omstille det danske energiforbrug fra kul, olie og gas til grønne energiformer. Det er dyrt, men det er ikke den eneste {1}. For at lykkes med omstillingen er det nødvendigt at øge produktionen af grøn energi markant.\n\nDet sker i Danmark i høj grad gennem en satsning på vindenergi. {2} er der i de senere år sat vindmøller op overalt i Danmark. Udviklingen er også blevet hjulpet på vej af, at det er blevet en bedre forretning at producere vindenergi. Teknologien er nemlig blevet bedre og møllerne større. Det har øget interessen blandt private firmaer for at investere i store vindmølleprojekter. Men flere steder møder projekterne modstand fra lokale borgere. De store vindmøller kan {3} ses og høres vidt omkring.\n\nFor at undgå ulemperne med støj og med, at de store vindmøller kan ses på lang afstand, kan man sætte dem op på havet. {4} er imidlertid, at de er dyrere at sætte op på havet, og jo længere ude på havet de sættes op, jo dyrere er det. Man vælger derfor ofte mellemløsningen og bygger havvindmøllerne relativt tæt på kysten. Her kan de dog stadig ses fra land, og det kan få berørte borgere til at protestere. De mener ikke, at netop deres udsigt skal forstyrres af vindmøller, og at {5} møllernes placering inden for synsvidde også er, at deres huse vil falde i pris.\n\nProtesterne kan sætte de lokale politikere i landets kommuner under pres. Det er nemlig kommunerne, der afgør, hvor møllerne skal sættes op. Det er også kommunerne, der skal behandle klager fra borgerne. Når borgere klager, kan det {6} kommunernes sagsbehandling af vindmølleprojekter. Nogle gange kan en klagesag faktisk ende med, at projekter ikke blot trækker ud, men helt må opgives.\n\nDet er dog ikke kun borgernes {7} at sætte vindmøller op, der kan forsinke eller forhindre processen. Det kan også hensyn til naturen. Store dele af Danmarks natur er nemlig sikret med Naturbeskyttelsesloven. Undersøgelser af, om beskyttede dyrearter er truet, eller om havstrømme forstyrres, kan være meget tidskrævende. Hvis en undersøgelse ender med at {8}, at opstillingen af vindmøller kan skade naturen, kan dette også føre til, at planer om at sætte vindmøller op opgives.",
+        "gaps": [
+          {
+            "options": [
+              "forklaring",
+              "fordel",
+              "betingelse",
+              "udfordring"
+            ],
+            "answer": "udfordring",
+            "explanation": {
+              "en": "Cost is one challenge but »ikke den eneste udfordring« (not the only challenge): green energy production must also rise sharply. The other nouns don't fit »det er dyrt, men …«.",
+              "da": "Prisen er én udfordring, men ikke den eneste: Man skal også øge produktionen af grøn energi markant."
+            }
+          },
+          {
+            "options": [
+              "Desuden",
+              "Derfor",
+              "Omvendt",
+              "Alligevel"
+            ],
+            "answer": "Derfor",
+            "explanation": {
+              "en": "A consequence: Denmark is betting on wind energy, and therefore (Derfor) turbines have been put up everywhere.",
+              "da": "Konsekvens: Danmark satser på vindenergi, og derfor er der sat vindmøller op overalt."
+            }
+          },
+          {
+            "options": [
+              "dermed",
+              "dog",
+              "nemlig",
+              "sjældent"
+            ],
+            "answer": "nemlig",
+            "explanation": {
+              "en": "»Nemlig« explains the sentence before: projects meet local resistance because the turbines can be seen and heard far and wide.",
+              "da": "»Nemlig« forklarer, hvorfor projekterne møder modstand: Møllerne kan ses og høres vidt omkring."
+            }
+          },
+          {
+            "options": [
+              "Problematikken",
+              "Grunden",
+              "Forudsætningen",
+              "Påstanden"
+            ],
+            "answer": "Problematikken",
+            "explanation": {
+              "en": "»Problematikken er imidlertid, at de er dyrere …« (the problem, however, is that they cost more): the drawback of putting turbines at sea. »Grunden«, »Forudsætningen« and »Påstanden« don't fit.",
+              "da": "»Problematikken er imidlertid, at de er dyrere …«: Det er ulempen ved at sætte møller op på havet."
+            }
+          },
+          {
+            "options": [
+              "kravet til",
+              "årsagen til",
+              "følgen af",
+              "formålet med"
+            ],
+            "answer": "følgen af",
+            "explanation": {
+              "en": "Falling house prices are a result of the placement: »følgen af møllernes placering … er, at deres huse vil falde i pris«. »Årsagen til« would reverse cause and effect.",
+              "da": "Prisfaldet er en følge af møllernes placering: »følgen af møllernes placering … er, at deres huse vil falde i pris«. »Årsagen til« vender årsag og virkning om."
+            }
+          },
+          {
+            "options": [
+              "forenkle",
+              "forkorte",
+              "lette",
+              "forlænge"
+            ],
+            "answer": "forlænge",
+            "explanation": {
+              "en": "Complaints »forlænge« (prolong) the municipalities' handling of cases. The next sentence confirms it: projects can drag out (trække ud) or be dropped.",
+              "da": "Klager forlænger sagsbehandlingen. Næste sætning bekræfter det: Projekterne kan trække ud."
+            }
+          },
+          {
+            "options": [
+              "forslag til",
+              "modstand mod",
+              "opbakning til",
+              "ansøgninger om"
+            ],
+            "answer": "modstand mod",
+            "explanation": {
+              "en": "»Borgernes modstand mod at sætte vindmøller op« (citizens' resistance to putting up turbines) matches the protests described earlier and the idea of delaying the process.",
+              "da": "Fast forbindelse: modstand mod at sætte vindmøller op. Det passer til borgernes protester og til, at det kan forsinke processen."
+            }
+          },
+          {
+            "options": [
+              "bekræfte",
+              "afvise",
+              "udelukke",
+              "modsige"
+            ],
+            "answer": "bekræfte",
+            "explanation": {
+              "en": "The study »bekræfte« (confirms) that turbines may harm nature, so the plans are dropped. »Afvise«, »udelukke« and »modsige« would mean there is no harm.",
+              "da": "Undersøgelsen bekræfter, at møllerne kan skade naturen, og derfor opgives planerne. »Afvise«, »udelukke« og »modsige« ville betyde, at der ikke er nogen skade."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.1-aarhus",
+      "source": "Øvelsessæt 1.1 · Aarhus",
+      "difficulty": 1,
+      "part2a": {
+        "title": "Fra hovedstad til Aarhus",
+        "text": "Da Mette Kragh fik et nyt job som lærer i Aarhus for tre år siden, var hun ikke sikker på, at hun ville blive i byen. Hun havde boet i København hele sit voksne liv, og hendes venner og familie boede der. »Jeg tænkte, at vi prøvede det i et år, og så kunne vi altid flytte tilbage,« fortæller hun.\n\nFamilien flyttede, fordi Mette og hendes mand ikke længere havde råd til en større lejlighed i København. De havde to børn og boede i en treværelses lejlighed på 70 kvadratmeter. I Aarhus kunne de leje et rækkehus med have for næsten den samme husleje. »Det var helt klart pengene og pladsen, der fik os til at flytte. Ikke byen i sig selv,« siger hun.\n\nDet, der overraskede Mette mest, var ikke husene eller naturen. Det var tiden. I København brugte hun over en time om dagen på at komme til og fra arbejde. I Aarhus cykler hun til skolen på ti minutter. »Jeg havde ikke forstået, hvor træt jeg var af at sidde i tog og bus. Nu kan jeg hente børnene klokken fire og stadig have energi til at lave mad,« siger hun.\n\nDet første år var dog svært. Mette savnede sine veninder, og det var ikke let at få nye venner. Kollegerne var søde, men de havde deres egne familier og venner. Først da hun begyndte at spille håndbold på et hold for voksne, begyndte hun at føle sig hjemme. »Det var på håndboldholdet, jeg fik mine første rigtige venner her. Man kan ikke bare vente på, at andre inviterer én,« siger hun.\n\nI dag har familien ingen planer om at flytte tilbage. Børnene går i en skole, de er glade for, og Mette har fået en fast plads i lærerværelset. Hun savner stadig København en gang imellem, især caféerne og muligheden for at gå i teatret. Men hun mener, at familien har fået mere tid sammen, og det er vigtigere for hende end alt det, byen kan tilbyde.",
+        "questions": [
+          {
+            "question": "Hvorfor flyttede familien til Aarhus?",
+            "options": [
+              "Fordi Mette gerne ville bo tættere på sin familie.",
+              "Fordi de kunne få en større bolig for omtrent de samme penge.",
+              "Fordi børnene skulle begynde på en bestemt skole i Aarhus."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: the family could rent a terraced house with a garden for almost the same rent. Mette herself says it was the money and the space.",
+              "da": "Andet afsnit: Familien kunne leje et rækkehus med have for næsten den samme husleje. Mette siger selv, at det var pengene og pladsen."
+            }
+          },
+          {
+            "question": "Hvad overraskede Mette mest ved livet i Aarhus?",
+            "options": [
+              "At hun fik meget mere tid, fordi transporten blev kortere.",
+              "At naturen omkring byen var så smuk.",
+              "At husene var meget større end i København."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph three: it was the time that surprised her, because her commute fell from over an hour to ten minutes. Nature and the houses are named as what did not surprise her.",
+              "da": "Tredje afsnit: Det var tiden, der overraskede hende. Naturen og husene nævnes som det, der ikke overraskede hende."
+            }
+          },
+          {
+            "question": "Hvad fortæller Mette om at få nye venner?",
+            "options": [
+              "Hun fik hurtigt venner blandt sine kolleger.",
+              "Hun har stadig ingen venner i Aarhus.",
+              "Hun fik venner, da hun selv begyndte på en fritidsaktivitet."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Paragraph four: her friends came through the handball team, a leisure activity she joined herself. Her colleagues had their own families and friends.",
+              "da": "Fjerde afsnit: Vennerne kom via håndboldholdet. Kollegerne havde deres egne familier og venner."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Mobning i skolen",
+        "text": "Omkring hver tiende elev i den danske folkeskole siger, at de bliver mobbet. Tallet har ikke ændret sig meget de seneste ti år, selv om alle skoler skal have en plan mod mobning.\n\n{1}\n\nMange forældre tror, at mobning handler om slag og spark. Men i dag foregår meget af mobningen med ord, og ofte sker det på mobilen. Et barn kan blive holdt uden for en gruppechat eller få grimme beskeder om aftenen.\n\n{2}\n\nLærerne spiller en vigtig rolle. Forskning viser, at mobning sker sjældnere i klasser, hvor læreren har klare regler, og hvor eleverne kender hinanden godt. Derfor bruger mange skoler tid på at lave aktiviteter, hvor eleverne arbejder sammen på tværs af venskabsgrupper.\n\n{3}\n\nOgså forældrene kan gøre en forskel. Når forældrene i en klasse kender hinanden og taler sammen, er det lettere at opdage mobning tidligt. Nogle klasser har derfor faste legegrupper, hvor børnene leger hjemme hos hinanden efter en plan, så ingen bliver glemt.\n\n{4}\n\nDet vigtigste råd fra eksperterne er at lytte. Hvis et barn fortæller om mobning, skal man tage det alvorligt og ikke sige, at det nok går over af sig selv.\n\n{5}",
+        "parts": {
+          "A": "Det betyder, at mobningen ikke stopper, når barnet kommer hjem fra skole. For mange børn er det netop det værste: at der ikke er et sted, hvor man kan være i fred.",
+          "B": "En plan er dog ikke nok i sig selv. Hvis lærere, elever og forældre ikke kender planen, eller hvis den bare ligger i en skuffe, har den ingen effekt.",
+          "C": "Skolens kantine sælger nu kun sund mad, og eleverne har fået mere idræt på skemaet. Det har gjort mange elever gladere for skoledagen.",
+          "D": "Det kan for eksempel være en fælles opgave i natur og teknologi eller en tur i skoven, hvor grupperne er sat sammen af læreren og ikke af eleverne selv.",
+          "E": "Legegrupperne virker bedst, når alle forældre er med. Hvis bare et par familier siger nej, falder ordningen ofte fra hinanden efter nogle måneder.",
+          "F": "Mange skoler har i år valgt at flytte sommerferien, så den begynder en uge tidligere end normalt.",
+          "G": "Og så skal man huske, at mobning aldrig er barnets egen skyld. Et barn, der bliver mobbet, har brug for at høre, at de voksne vil hjælpe."
+        },
+        "answers": [
+          "B",
+          "A",
+          "D",
+          "E",
+          "G"
+        ],
+        "explanations": [
+          {
+            "en": "The paragraph before says all schools must have a plan against bullying. B continues that thought: »En plan er dog ikke nok i sig selv« (a plan is not enough on its own).",
+            "da": "Afsnittet før nævner, at alle skoler skal have en plan. B fortsætter: »En plan er dog ikke nok i sig selv«."
+          },
+          {
+            "en": "The paragraph before ends with nasty messages in the evening. A follows on: »Det betyder, at mobningen ikke stopper, når barnet kommer hjem« (bullying doesn't stop when the child gets home).",
+            "da": "Afsnittet før slutter med grimme beskeder om aftenen. A fortsætter: »Det betyder, at mobningen ikke stopper, når barnet kommer hjem«."
+          },
+          {
+            "en": "The paragraph before mentions activities across friendship groups. D gives examples of such activities: »Det kan for eksempel være …« (it could for example be …).",
+            "da": "Afsnittet før nævner aktiviteter på tværs af venskabsgrupper. D giver eksempler: »Det kan for eksempel være …«."
+          },
+          {
+            "en": "The paragraph before introduces fixed play groups (legegrupper). E picks up the same word and explains when the play groups work best.",
+            "da": "Afsnittet før nævner faste legegrupper. E uddyber, hvornår legegrupperne virker bedst."
+          },
+          {
+            "en": "The paragraph before is about listening to the child. G closes the text with the same message: »Og så skal man huske …« – the adults must help.",
+            "da": "Afsnittet før handler om at lytte til barnet. G afslutter med samme budskab: De voksne skal hjælpe."
+          }
+        ],
+        "unused": {
+          "en": "C and F don't fit. Both are about something unrelated to bullying: healthy food in the canteen (C) and moving the summer holidays (F).",
+          "da": "C og F passer ikke. Begge handler om noget helt andet end mobning: sund mad i kantinen og en flyttet sommerferie."
+        }
+      },
+      "part3": {
+        "title": "Danskerne og cyklen",
+        "text": "Danmark er kendt som et cykelland, og det er der en god {1} til. Ni ud af ti danskere har en cykel, og i København cykler næsten halvdelen af alle til arbejde eller uddannelse.\n\nCyklen er populær, {2} den er billig og hurtig. I byerne er det ofte hurtigere at cykle end at køre i bil, fordi man ikke skal holde i kø eller {3} efter en parkeringsplads.\n\nMange cykler også for at holde sig i form. Læger anbefaler, at voksne bevæger sig mindst 30 minutter om dagen, og en tur på cykel til arbejde kan let {4} det krav.\n\nDer er dog også problemer. Flere og flere cyklister kommer til skade i trafikken, og {5} er det ældre cyklister på elcykel. Elcyklen kører hurtigere, end mange er vant til, og derfor anbefaler politiet, at man altid {6} cykelhjelm.\n\nKommunerne bruger hvert år mange penge på nye cykelstier. {7} vil de gøre det tryggere at cykle, så endnu flere vælger cyklen frem for bilen. Det er godt for både sundheden og {8}.",
+        "gaps": [
+          {
+            "options": [
+              "sted",
+              "vej",
+              "grund",
+              "tid"
+            ],
+            "answer": "grund",
+            "explanation": {
+              "en": "Fixed expression: »der er en god grund til« (there is a good reason for it). The other nouns don't form this phrase.",
+              "da": "Fast udtryk: Der er en god grund til noget."
+            }
+          },
+          {
+            "options": [
+              "men",
+              "hvis",
+              "selvom",
+              "fordi"
+            ],
+            "answer": "fordi",
+            "explanation": {
+              "en": "A cause is needed: the bike is popular because (fordi) it is cheap and fast.",
+              "da": "Årsag: Cyklen er populær, fordi den er billig og hurtig."
+            }
+          },
+          {
+            "options": [
+              "tænke",
+              "lede",
+              "vente",
+              "finde"
+            ],
+            "answer": "lede",
+            "explanation": {
+              "en": "»Lede efter« means to look for something you lack, such as a parking space. You wait »på«, not »efter«, and »finde« and »tænke« don't take »efter« here.",
+              "da": "Man leder efter noget, man mangler. Man venter på noget, ikke efter."
+            }
+          },
+          {
+            "options": [
+              "opfylde",
+              "opleve",
+              "oprette",
+              "opdage"
+            ],
+            "answer": "opfylde",
+            "explanation": {
+              "en": "The fixed combination is »opfylde et krav« (meet a requirement). Cycling to work easily meets the 30-minute recommendation.",
+              "da": "Man opfylder et krav."
+            }
+          },
+          {
+            "options": [
+              "næsten",
+              "især",
+              "aldrig",
+              "sjældent"
+            ],
+            "answer": "især",
+            "explanation": {
+              "en": "»Især« (especially) singles out older cyclists on e-bikes among those injured. The other words give the opposite meaning or no meaning.",
+              "da": "Især ældre cyklister kommer til skade. De andre ord giver modsat eller ingen mening."
+            }
+          },
+          {
+            "options": [
+              "bruger",
+              "sætter",
+              "lægger",
+              "tager på"
+            ],
+            "answer": "bruger",
+            "explanation": {
+              "en": "Only »bruger« (use/wear) fits grammatically. »Tager på« would need the word order »tager cykelhjelm på«.",
+              "da": "Kun »bruger« passer grammatisk. »Tager på« ville kræve ordstillingen »tager cykelhjelm på«."
+            }
+          },
+          {
+            "options": [
+              "Alligevel",
+              "Til sidst",
+              "I modsætning",
+              "På den måde"
+            ],
+            "answer": "På den måde",
+            "explanation": {
+              "en": "»På den måde« (in that way) points back to the new cycle paths: by building them, the municipalities make cycling safer.",
+              "da": "Pegeord tilbage på cykelstierne: På den måde gør kommunerne det tryggere at cykle."
+            }
+          },
+          {
+            "options": [
+              "vejret",
+              "trafiklyset",
+              "prisen",
+              "klimaet"
+            ],
+            "answer": "klimaet",
+            "explanation": {
+              "en": "Fewer cars is good for both health and the climate (klimaet). Weather, traffic lights and price don't fit the argument.",
+              "da": "Færre biler er godt for både sundheden og klimaet."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.2-odense",
+      "source": "Øvelsessæt 1.2 · Odense",
+      "difficulty": 2,
+      "part2a": {
+        "title": "Når sygefraværet stiger",
+        "text": "Sidste år var den gennemsnitlige danske lønmodtager syg i knap ti dage. Tallet er højere i den offentlige sektor end i den private, og det er især steget blandt ansatte i daginstitutioner og ældreplejen. For Hanne Riis, der er HR-chef i en mellemstor kommune, er tallene ikke bare statistik. »Når en pædagog er syg, er der én mindre til at passe børnene. Så bliver kollegerne mere pressede, og risikoen for, at de også bliver syge, stiger,« siger hun.\n\nHanne Riis mener, at man ofte taler for lidt om, hvorfor folk er syge. Mange forestiller sig, at sygefravær handler om influenza eller forkølelse. Det er en stor del af det, men det er det lange sygefravær, der koster mest. »Det korte fravær kan vi ikke gøre så meget ved. Men når en medarbejder har været væk i flere uger på grund af stress eller ondt i ryggen, så handler det ofte om arbejdet. Og det kan vi faktisk gøre noget ved,« siger hun.\n\nI kommunen har man derfor indført en ordning, hvor lederen ringer til medarbejderen, når han eller hun har været syg i en uge. Formålet er ikke at kontrollere, men at høre, om der er noget, arbejdspladsen kan gøre. Nogle medarbejdere var i begyndelsen kritiske, fordi de følte, at deres leder blandede sig. I dag er de fleste positive. »Mange siger, at det var rart at blive husket. Det gør det lettere at komme tilbage,« fortæller Hanne Riis.\n\nOrdningen har ikke fået det samlede sygefravær til at falde meget. Men antallet af medarbejdere, der er væk i mere end en måned, er faldet med næsten en tredjedel på to år. Hanne Riis peger på, at det især skyldes, at mange nu kommer tilbage på nedsat tid i en periode. »Det er bedre at arbejde 15 timer om ugen end at sidde alene derhjemme og tænke på, at man ikke kan klare det,« siger hun.\n\nHun understreger, at der ikke findes en hurtig løsning. Hvis der er for få medarbejdere til for mange opgaver, hjælper en telefonsamtale ikke. »Til sidst handler det om, at der skal være nok hænder. Det kan en HR-afdeling ikke løse alene,« siger hun.",
+        "questions": [
+          {
+            "question": "Hvad siger Hanne Riis om sygefravær i daginstitutionerne?",
+            "options": [
+              "At det sjældent påvirker de andre medarbejdere.",
+              "At én syg medarbejder kan føre til, at flere bliver syge.",
+              "At pædagoger er mere syge end andre, fordi de møder mange børn med influenza."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph one: colleagues come under more pressure, and the risk that they also get sick rises. C mentions flu, but that is not Hanne's point.",
+              "da": "Første afsnit: Kollegerne bliver mere pressede, og risikoen for, at de også bliver syge, stiger. C nævner influenza, men det er ikke Hannes pointe."
+            }
+          },
+          {
+            "question": "Hvorfor ringer lederne til medarbejdere, der har været syge i en uge?",
+            "options": [
+              "For at undersøge, om arbejdspladsen kan hjælpe.",
+              "For at kontrollere, om medarbejderne virkelig er syge.",
+              "For at aftale en dato for, hvornår de skal tilbage."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph three says directly that the purpose is not to check up on people, but to hear whether the workplace can do something.",
+              "da": "Tredje afsnit siger direkte, at formålet ikke er at kontrollere, men at høre, om arbejdspladsen kan gøre noget."
+            }
+          },
+          {
+            "question": "Hvad har ordningen ifølge teksten betydet?",
+            "options": [
+              "At det samlede sygefravær er faldet med en tredjedel.",
+              "At der er færre medarbejdere, der er syge i lang tid.",
+              "At flere medarbejdere arbejder på nedsat tid hele året."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph four: total absence has not fallen much, but the number away for more than a month has fallen by almost a third. A mixes up the two figures.",
+              "da": "Fjerde afsnit: Det samlede fravær er ikke faldet meget, men de lange sygemeldinger er faldet med næsten en tredjedel. A blander de to tal sammen."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Ensom i alderdommen",
+        "text": "Omkring 60.000 danskere over 65 år føler sig ofte ensomme. Det viser tal fra en landsdækkende sundhedsundersøgelse. Ensomhed er ikke en sygdom, men forskning viser, at langvarig ensomhed øger risikoen for både depression og hjerte-kar-sygdomme.\n\n{1}\n\nFor mange ældre begynder ensomheden, når de mister deres ægtefælle. Pludselig er der ingen at spise morgenmad med, og dagene bliver lange. Andre bliver ensomme, fordi de ikke længere kan gå så langt eller køre bil, og derfor ikke kan besøge deres venner.\n\n{2}\n\nFrivillige organisationer gør meget for at hjælpe. Ældre Sagen og Røde Kors har tilsammen flere tusinde besøgsvenner, som besøger en ældre person en gang om ugen. Besøgene varer typisk en eller to timer, og man drikker kaffe, går en tur eller spiller kort.\n\n{3}\n\nOgså kommunerne har fået øjnene op for problemet. Flere steder tilbyder kommunen nu fællesspisning på plejecentre eller i forsamlingshuse, hvor ældre, der bor alene, kan spise sammen med andre for en lav pris.\n\n{4}\n\nEksperterne understreger, at familien stadig spiller den største rolle. Et kort telefonopkald fra et barnebarn kan betyde mere, end mange unge tror.\n\n{5}",
+        "parts": {
+          "A": "Blandt unge mellem 16 og 24 år er tallet endnu højere, og her får de sociale medier ofte skylden. Mange unge siger, at de har hundredvis af venner online, men ingen at ringe til.",
+          "B": "Det gør ensomhed til et sundhedsproblem og ikke kun et personligt problem. Derfor har flere politikere foreslået en national plan mod ensomhed.",
+          "C": "Det viser sig også, at ensomheden ofte er værst om aftenen og i weekenden, hvor der ikke kommer hjemmehjælp eller andre besøg.",
+          "D": "Ordningen er gratis for den ældre. Det eneste krav er, at man selv ønsker besøget. Mange besøgsvenner fortæller, at de selv får lige så meget ud af det som den, de besøger.",
+          "E": "Maden er ikke det vigtigste. Flere deltagere fortæller, at det er samtalen ved bordet, de kommer for, og at de har fået nye venner på den måde.",
+          "F": "I dag har næsten alle ældre en smartphone, og derfor er ensomhed ikke længere et stort problem.",
+          "G": "Og så skal man ikke vente på, at den ældre selv beder om hjælp. Mange skammer sig over at være ensomme og siger, at alt er fint, selv om det ikke er sandt."
+        },
+        "answers": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "G"
+        ],
+        "explanations": [
+          {
+            "en": "The paragraph before mentions depression and heart disease. B sums this up: »Det gør ensomhed til et sundhedsproblem« (that makes loneliness a health problem).",
+            "da": "Afsnittet før nævner depression og hjerte-kar-sygdomme. B samler op: »Det gør ensomhed til et sundhedsproblem«."
+          },
+          {
+            "en": "The paragraph before describes why loneliness begins (losing a spouse, not being able to get around). C adds when it is at its worst: evenings and weekends.",
+            "da": "Afsnittet før beskriver, hvorfor ensomheden begynder. C tilføjer, hvornår den er værst."
+          },
+          {
+            "en": "The paragraph before describes the visiting friends (besøgsvenner). D explains »ordningen« (the scheme): it is free, and the older person must want the visit.",
+            "da": "Afsnittet før beskriver besøgsvennerne. D uddyber »ordningen«: Den er gratis, og man skal selv ønske besøget."
+          },
+          {
+            "en": "The paragraph before is about communal dining. E continues: »Maden er ikke det vigtigste« (the food isn't the most important thing) – people come for the conversation.",
+            "da": "Afsnittet før handler om fællesspisning. E fortsætter: »Maden er ikke det vigtigste«."
+          },
+          {
+            "en": "The paragraph before is about the family's role. G adds a final piece of advice – don't wait for the older person to ask for help – which works as an ending.",
+            "da": "Afsnittet før handler om familiens rolle. G tilføjer et sidste råd, der passer som afslutning."
+          }
+        ],
+        "unused": {
+          "en": "A and F don't fit. A is about young people, but the text is about the elderly. F contradicts the text's whole message that loneliness is a real problem.",
+          "da": "A og F passer ikke. A handler om unge, men teksten handler om ældre. F modsiger hele tekstens budskab om, at ensomhed er et problem."
+        }
+      },
+      "part3": {
+        "title": "Madspild i de danske hjem",
+        "text": "Hvert år smider danskerne omkring 800.000 tons mad ud. En stor del af det kommer fra private hjem, og den mad, vi smider ud, {1} en almindelig familie flere tusinde kroner om året.\n\nDer er mange grunde til, at mad ender i skraldespanden. Nogle køber mere, end de kan nå at spise, fordi de bliver fristet af tilbud. Andre {2} at holde øje med datoerne på mælk og yoghurt.\n\nMange danskere {3} ikke forskel på »bedst før« og »sidste anvendelsesdato«. Mad med »bedst før« kan ofte spises længe efter datoen, hvis den ser og lugter normal ud. Det {4} sig om fx pasta, ris og konserves.\n\nSupermarkederne har også et ansvar. Flere kæder sælger nu frugt og grøntsager, der ikke er pæne nok til at ligge på hylden, til halv pris. Desuden kan man i flere apps købe en pose med overskudsmad fra bagerier og restauranter {5} en lav pris.\n\nPolitikerne vil gerne {6} madspildet, og målet er, at det skal halveres inden 2030. Det kræver dog, at både forbrugere og butikker ændrer vaner. {7} mange er motiverede, er det svært at ændre gamle rutiner.\n\nDet bedste råd er enkelt: Lav en indkøbsliste, og kig i køleskabet, før du handler. Så køber du kun det, du {8} har brug for.",
+        "gaps": [
+          {
+            "options": [
+              "bruger",
+              "koster",
+              "betaler",
+              "tjener"
+            ],
+            "answer": "koster",
+            "explanation": {
+              "en": "The wasted food costs a family money: »koster en almindelig familie flere tusinde kroner«. »Bruger«, »betaler« and »tjener« don't fit with the food as subject.",
+              "da": "Maden koster familien penge: Den mad, vi smider ud, koster en familie flere tusinde kroner."
+            }
+          },
+          {
+            "options": [
+              "begynder",
+              "husker",
+              "lærer",
+              "glemmer"
+            ],
+            "answer": "glemmer",
+            "explanation": {
+              "en": "The logic: food ends up in the bin because people forget (glemmer) to keep an eye on the dates on milk and yoghurt.",
+              "da": "Logikken: Mad bliver smidt ud, fordi man glemmer at holde øje med datoerne."
+            }
+          },
+          {
+            "options": [
+              "ser",
+              "gør",
+              "ved",
+              "kender"
+            ],
+            "answer": "kender",
+            "explanation": {
+              "en": "Fixed expression: »kende forskel på« (know the difference between). Many Danes can't tell »bedst før« from »sidste anvendelsesdato«.",
+              "da": "Fast udtryk: kende forskel på noget."
+            }
+          },
+          {
+            "options": [
+              "gælder",
+              "viser",
+              "drejer",
+              "handler"
+            ],
+            "answer": "drejer",
+            "explanation": {
+              "en": "Fixed expression: »det drejer sig om« (it concerns, e.g. pasta and rice). »Handler« would need »om« without »sig«.",
+              "da": "Fast udtryk: Det drejer sig om …"
+            }
+          },
+          {
+            "options": [
+              "for",
+              "med",
+              "til",
+              "på"
+            ],
+            "answer": "til",
+            "explanation": {
+              "en": "Fixed preposition: you buy something »til en lav pris« (at a low price).",
+              "da": "Man køber noget til en lav pris."
+            }
+          },
+          {
+            "options": [
+              "nedskrive",
+              "nedbryde",
+              "nedsætte",
+              "nedlægge"
+            ],
+            "answer": "nedsætte",
+            "explanation": {
+              "en": "»Nedsætte« means reduce, which fits the goal of halving food waste. »Nedlægge« means close down, and the others don't fit.",
+              "da": "Man nedsætter (reducerer) madspildet. Nedlægge betyder at lukke ned."
+            }
+          },
+          {
+            "options": [
+              "Fordi",
+              "Når",
+              "Selvom",
+              "Hvis"
+            ],
+            "answer": "Selvom",
+            "explanation": {
+              "en": "A contrast is needed: even though (selvom) many are motivated, it is hard to change old routines.",
+              "da": "Modsætning: Selvom mange er motiverede, er det svært at ændre rutiner."
+            }
+          },
+          {
+            "options": [
+              "måske",
+              "egentlig",
+              "alligevel",
+              "desuden"
+            ],
+            "answer": "egentlig",
+            "explanation": {
+              "en": "»Egentlig« means really/actually: you only buy what you actually need. The other adverbs don't make sense here.",
+              "da": "»Det, du egentlig har brug for« betyder det, du i virkeligheden har brug for."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.3-roskilde",
+      "source": "Øvelsessæt 1.3 · Roskilde",
+      "difficulty": 3,
+      "part2a": {
+        "title": "Gymnasiet under pres",
+        "text": "Ifølge en ny trivselsmåling føler hver tredje gymnasieelev sig stresset flere gange om ugen. Blandt pigerne er tallet næsten fire ud af ti. Psykolog Louise Brandt, der har arbejdet med unge i femten år, er ikke overrasket. »Jeg møder mange unge, som har gode karakterer og en masse venner, men som alligevel ligger søvnløse om natten, fordi de er bange for ikke at være gode nok,« siger hun.\n\nOfte peger debatten på de sociale medier som den store syndebuk. Louise Brandt mener, at det er for enkelt. Hun er enig i, at det kan være skadeligt hele tiden at sammenligne sig med andre på Instagram, men hun ser et andet og større problem. »De unge har lært, at alt tæller. Karakteren i 1.g tæller, fritidsjobbet tæller, det frivillige arbejde tæller. Der er ingen steder, hvor de bare kan prøve noget af og fejle uden konsekvenser,« forklarer hun.\n\nDet mærkes især, når eleverne skal vælge uddannelse. Mange har allerede i 1.g regnet ud, hvilket gennemsnit de skal have for at komme ind på deres drømmestudie. Louise Brandt fortæller om en elev, der bad sin lærer om at ændre en karakter fra 7 til 10, fordi hun ellers »mistede sin fremtid«. »Det lyder voldsomt, men for hende føltes det sådan,« siger psykologen.\n\nFlere gymnasier har forsøgt at mindske presset ved at afskaffe karakterer i nogle fag i 1.g eller ved at give mere skriftlig feedback i stedet for tal. Louise Brandt er positiv over for forsøgene, men hun advarer mod at tro, at skolerne kan løse problemet alene. »Så længe optagelsen på videregående uddannelser i så høj grad afhænger af karaktergennemsnittet, vil eleverne mærke presset. Det er et politisk spørgsmål, ikke kun et pædagogisk,« siger hun.\n\nHendes råd til forældrene er at tale mindre om karakterer og mere om, hvad der gør de unge glade. »Mange forældre siger, at det er lige meget med karaktererne, men spørger så alligevel hver dag, hvordan det gik til prøven. De unge lægger mærke til, hvad vi gør, ikke kun hvad vi siger.«",
+        "questions": [
+          {
+            "question": "Hvad mener Louise Brandt om de sociale mediers betydning for unges stress?",
+            "options": [
+              "At de er hovedårsagen til, at så mange unge føler sig stressede.",
+              "At de kan spille en rolle, men at der er en vigtigere årsag.",
+              "At de ikke har nogen betydning for de unges trivsel."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: she agrees social media »kan være skadeligt« (can be harmful) but sees »et andet og større problem«. A is what the public debate says, not her view.",
+              "da": "Andet afsnit: Hun er enig i, at det »kan være skadeligt«, men ser »et andet og større problem«. A er det, debatten siger, ikke hendes mening."
+            }
+          },
+          {
+            "question": "Hvad viser historien om eleven, der ville have sin karakter ændret?",
+            "options": [
+              "At nogle elever oplever en enkelt karakter som afgørende for deres fremtid.",
+              "At lærerne ofte giver eleverne for lave karakterer.",
+              "At eleven ikke havde forstået, hvordan karaktersystemet fungerer."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph three: the student felt she »mistede sin fremtid« (was losing her future) over one grade. The psychologist says it sounds extreme, but that is how it felt.",
+              "da": "Tredje afsnit: Eleven følte, at hun »mistede sin fremtid«. Psykologen siger, at det lyder voldsomt, men at det føltes sådan."
+            }
+          },
+          {
+            "question": "Hvad siger Louise Brandt om gymnasiernes forsøg med færre karakterer?",
+            "options": [
+              "At forsøgene har fjernet det meste af presset.",
+              "At forsøgene er dårlige, fordi eleverne har brug for karakterer.",
+              "At forsøgene er gode, men at problemet også skal løses af politikerne."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Paragraph four: she is positive about the trials but warns that schools can't solve the problem alone: »Det er et politisk spørgsmål« (it is a political question).",
+              "da": "Fjerde afsnit: Hun er positiv, men advarer mod at tro, at skolerne kan løse problemet alene. Det er et politisk spørgsmål."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Et blad, der gør en forskel",
+        "text": "Hver morgen står Allan på hjørnet ved Nørreport Station i København med en stak blade under armen. Han sælger Hus Forbi, et gadeblad, der skrives af journalister, men sælges af hjemløse og andre socialt udsatte. Bladet koster 30 kroner, og halvdelen går direkte til sælgeren.\n\n{1}\n\nHus Forbi blev startet i 1996 efter inspiration fra det britiske blad The Big Issue. Idéen var at give hjemløse en lovlig måde at tjene penge på og samtidig fortælle danskerne om livet på gaden. I dag har bladet omkring 600 aktive sælgere i hele landet.\n\n{2}\n\nAntallet af hjemløse i Danmark er steget i løbet af de seneste tyve år, og især blandt unge mellem 18 og 24 år har udviklingen været bekymrende. Forskere peger på, at mange unge hjemløse har psykiske problemer, og at der mangler billige boliger i de store byer.\n\n{3}\n\nFor mange sælgere betyder bladet mere end pengene. Det giver dem en grund til at stå op om morgenen og en fast plads, hvor kunderne kender dem. Allan fortæller, at nogle af hans faste kunder stopper op hver dag for at snakke.\n\n{4}\n\nKritikere mener dog, at bladet kun er et plaster på såret. De peger på, at hjemløshed kun kan løses, hvis politikerne bygger flere billige boliger og giver mere hjælp til psykisk syge. Hos Hus Forbi er man enig i kritikken.\n\n{5}",
+        "parts": {
+          "A": "Sælgerne skal registreres og bære et synligt sælgerkort. Til gengæld må de selv bestemme, hvor meget og hvornår de vil arbejde. Det er vigtigt for mange, der ikke kan klare et almindeligt job.",
+          "B": "»Den anden halvdel går til at trykke bladet og betale journalisterne. Vi får ingen penge fra staten,« forklarer redaktøren.",
+          "C": "»Folk ser mig. Det lyder måske ikke af meget, men når man har boet på gaden, er man vant til, at folk kigger væk,« siger han.",
+          "D": "Det er især de unge, som Hus Forbi gerne vil nå. Bladet har derfor oprettet en ny sektion, hvor unge hjemløse selv skriver om deres hverdag.",
+          "E": "»Vi har aldrig sagt, at vi løser problemet. Vi er en lille del af løsningen. Resten må politikerne tage sig af,« siger redaktøren.",
+          "F": "Hus Forbi har også åbnet en café i Aarhus, hvor man kan købe kaffe og kage til lave priser.",
+          "G": "Hjemløshed er ikke et nyt fænomen, men i 1990’erne var de fleste hjemløse ældre mænd med et alkoholproblem."
+        },
+        "answers": [
+          "B",
+          "A",
+          "D",
+          "C",
+          "E"
+        ],
+        "explanations": [
+          {
+            "en": "The paragraph before says half the price goes to the seller. B explains »den anden halvdel« (the other half): printing and paying journalists.",
+            "da": "Afsnittet før nævner, at halvdelen går til sælgeren. B forklarer, hvad »den anden halvdel« bruges til."
+          },
+          {
+            "en": "The paragraph before ends with the 600 active sellers. A continues by describing the sellers' conditions: registration, a seller card and choosing their own hours.",
+            "da": "Afsnittet før slutter med de 600 aktive sælgere. A beskriver sælgernes vilkår."
+          },
+          {
+            "en": "The paragraph before mentions a worrying trend among young people. D continues with the same group: »Det er især de unge …« (it is especially the young …).",
+            "da": "Afsnittet før nævner en bekymrende udvikling blandt unge. D fortsætter: »Det er især de unge …«."
+          },
+          {
+            "en": "The paragraph before mentions Allan's regular customers who stop to chat. C is his quote about being seen – »siger han« refers back to Allan.",
+            "da": "Afsnittet før nævner Allans faste kunder, der stopper op for at snakke. C er hans citat om at blive set."
+          },
+          {
+            "en": "The paragraph before ends: »Hos Hus Forbi er man enig i kritikken« (Hus Forbi agrees with the criticism). E is the editor's answer to it.",
+            "da": "Afsnittet før slutter: »Hos Hus Forbi er man enig i kritikken«. E er redaktørens svar på kritikken."
+          }
+        ],
+        "unused": {
+          "en": "F and G don't fit. F (a café in Aarhus) is new information with no link to the text. G matches the topic, but no paragraph leads up to it or follows on from it.",
+          "da": "F og G passer ikke. F er en ny oplysning uden forbindelse til teksten. G kunne passe emnemæssigt, men intet afsnit leder op til eller fortsætter fra den."
+        }
+      },
+      "part3": {
+        "title": "Unge drikker mindre",
+        "text": "Danske unge har i mange år været blandt dem i Europa, der drikker mest alkohol. Nu ser det {1} til, at udviklingen er ved at vende. Ifølge nye tal er andelen af 15-årige, der har været fulde, faldet til det laveste niveau i 25 år.\n\nForskerne er ikke helt enige om, hvorfor de unge drikker mindre. Nogle mener, at det skyldes, at politikerne har {2} aldersgrænsen for køb af stærkere alkohol, og at butikkerne kontrollerer alderen langt oftere end tidligere. Andre peger på, at de unge i dag bruger mere tid sammen online og {3} går mindre til fester.\n\n{4} er der stadig mange unge, der drikker meget, når de først drikker. Især på efterskoler og i gymnasiet er festkulturen en vigtig del af det sociale liv, og det kan være svært at sige nej {5} at blive holdt udenfor.\n\nFlere gymnasier har derfor indført alkoholfrie fester eller regler om, at der ikke må sælges stærk spiritus. Det har mødt {6} fra nogle elever, der mener, at de selv skal bestemme. Men mange elever er glade for reglerne og fortæller, at de føler et mindre {7} til at drikke.\n\nSundhedsstyrelsen anbefaler, at unge under 18 år slet ikke drikker alkohol. Forældrenes holdning har stor betydning, og eksperterne opfordrer forældrene til at {8} klare aftaler med deres børn og med de andre forældre i klassen.",
+        "gaps": [
+          {
+            "options": [
+              "ud",
+              "op",
+              "ind",
+              "frem"
+            ],
+            "answer": "ud",
+            "explanation": {
+              "en": "Fixed expression: »det ser ud til, at …« (it looks as if …).",
+              "da": "Fast udtryk: Det ser ud til, at …"
+            }
+          },
+          {
+            "options": [
+              "hævet",
+              "øget",
+              "løftet",
+              "forhøjet til"
+            ],
+            "answer": "hævet",
+            "explanation": {
+              "en": "You »hæver« (raise) an age limit. »Forhøjet til« would need a number after it, and you don't »øge« a limit.",
+              "da": "Man hæver en aldersgrænse. »Forhøjet til« kræver et tal bagefter, og man »øger« ikke en grænse."
+            }
+          },
+          {
+            "options": [
+              "derfor",
+              "tværtimod",
+              "dermed",
+              "derimod"
+            ],
+            "answer": "derfor",
+            "explanation": {
+              "en": "A consequence: they spend more time together online and therefore (derfor) go to fewer parties. »Derimod« and »tværtimod« express contrast.",
+              "da": "Logisk følge: De er sammen online og derfor mindre til fester. »Derimod« og »tværtimod« udtrykker modsætning."
+            }
+          },
+          {
+            "options": [
+              "Ligesom",
+              "Derfor",
+              "Til gengæld",
+              "Ligeledes"
+            ],
+            "answer": "Til gengæld",
+            "explanation": {
+              "en": "A contrast after the good news: »til gengæld« (on the other hand) – many still drink a lot. »Ligeledes« and »ligesom« express similarity, not contrast.",
+              "da": "Kontrast efter den gode nyhed: Til gengæld betyder på den anden side. »Ligeledes« og »ligesom« udtrykker lighed, ikke kontrast."
+            }
+          },
+          {
+            "options": [
+              "af",
+              "for",
+              "uden",
+              "med"
+            ],
+            "answer": "uden",
+            "explanation": {
+              "en": "»Sige nej uden at blive holdt udenfor«: it is hard to say no without (uden) being left out.",
+              "da": "»Sige nej uden at blive holdt udenfor« betyder at sige nej, uden at det sker."
+            }
+          },
+          {
+            "options": [
+              "interesse",
+              "opbakning",
+              "forståelse",
+              "modstand"
+            ],
+            "answer": "modstand",
+            "explanation": {
+              "en": "Some students object to the rules, so the rules met resistance (modstand). The next sentence, »Men mange elever er glade«, shows the contrast.",
+              "da": "Nogle elever er imod reglerne: De mødte modstand. »Men mange elever er glade« viser kontrasten."
+            }
+          },
+          {
+            "options": [
+              "ønske",
+              "pres",
+              "krav",
+              "behov"
+            ],
+            "answer": "pres",
+            "explanation": {
+              "en": "Fixed expression: »pres til at drikke« (pressure to drink). They feel less pressure thanks to the rules.",
+              "da": "Fast udtryk: pres til at drikke."
+            }
+          },
+          {
+            "options": [
+              "indrette",
+              "indføre",
+              "indgå",
+              "indstille"
+            ],
+            "answer": "indgå",
+            "explanation": {
+              "en": "Fixed combination: »indgå en aftale« (make an agreement).",
+              "da": "Man indgår en aftale."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.4-nordsjaelland",
+      "source": "Øvelsessæt 1.4 · Nordsjælland",
+      "difficulty": 4,
+      "part2a": {
+        "title": "Arven fra mor og far",
+        "text": "Danmark bryster sig af et uddannelsessystem, hvor alle kan komme videre uanset baggrund. Uddannelse er gratis, og studerende får SU. Alligevel viser tal fra Danmarks Statistik, at et barn af forældre med en lang videregående uddannelse er mere end tre gange så tilbøjeligt til selv at tage en lang uddannelse som et barn, hvis forældre kun har grundskolen.\n\nFor sociolog Martin Skov er det ikke overraskende. »Økonomi er sjældent den afgørende forklaring i Danmark. Det er det, man kunne kalde den kulturelle bagage,« siger han. Børn af akademikere vokser op med bøger på hylden og forældre, der taler om nyheder ved middagsbordet, og de lærer tidligt de koder, skolen belønner. »Når læreren spørger: Hvad tror I, forfatteren mener?, så har de børn hørt den slags spørgsmål tusind gange derhjemme,« forklarer han.\n\nMartin Skov advarer dog mod at se uligheden som et rent skoleproblem. Han mener, at skolen faktisk kan gøre meget, men at den ofte gør det forkerte. »Vi har haft en tendens til at sænke forventningerne til børn fra hjem uden uddannelse. Det er velment, men det er en bjørnetjeneste. De børn har brug for, at nogen tror på, at de kan,« siger han.\n\nSamtidig peger han på, at billedet ikke kun er dystert. Andelen af unge fra ikke-akademiske hjem, der tager en videregående uddannelse, er steget gennem de sidste 30 år. Problemet er, at de unge fra akademiske hjem er steget lige så meget, så afstanden mellem grupperne er stort set den samme. »Det er, som når alle både i havnen bliver løftet af tidevandet. Alle kommer højere op, men det er stadig de samme både, der ligger øverst,« siger Martin Skov.\n\nHan understreger, at det ikke er et mål i sig selv, at alle tager en lang uddannelse. Samfundet har brug for håndværkere og social- og sundhedsassistenter lige så meget som for jurister. »Ulighed handler ikke om, at nogen bliver elektrikere. Det handler om, at nogle børn aldrig får en reel mulighed for at vælge,« siger han.",
+        "questions": [
+          {
+            "question": "Hvad er ifølge Martin Skov den vigtigste årsag til uligheden i uddannelse?",
+            "options": [
+              "At familier med lav indkomst ikke har råd til at lade børnene studere.",
+              "At nogle børn hjemmefra lærer den måde at tænke og tale på, som skolen værdsætter.",
+              "At børn af akademikere i gennemsnit er klogere end andre børn."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: »Økonomi er sjældent den afgørende forklaring« (money is rarely the deciding factor), so A is wrong. It is cultural baggage and »de koder, skolen belønner« (the codes school rewards).",
+              "da": "Andet afsnit: »Økonomi er sjældent den afgørende forklaring« (A er derfor forkert). Det er den kulturelle bagage og »de koder, skolen belønner«."
+            }
+          },
+          {
+            "question": "Hvad kritiserer Martin Skov skolen for?",
+            "options": [
+              "At den stiller for lave krav til elever fra hjem uden uddannelse.",
+              "At den ikke gør noget for at mindske uligheden.",
+              "At lærerne er for strenge over for svage elever."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph three: lowering expectations for these children is »en bjørnetjeneste« (a disservice). B is wrong, because he says school can actually do a lot.",
+              "da": "Tredje afsnit: Sænkede forventninger er »en bjørnetjeneste«. B er forkert, fordi han netop siger, at skolen kan gøre meget."
+            }
+          },
+          {
+            "question": "Hvad vil Martin Skov vise med eksemplet med bådene i havnen?",
+            "options": [
+              "At uligheden i uddannelse er vokset de seneste 30 år.",
+              "At flere unge fra alle grupper uddanner sig, men at forskellen mellem grupperne ikke er blevet mindre.",
+              "At det ikke er muligt at gøre noget ved uligheden."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph four: all groups have risen, but the gap is about the same – like boats lifted by the tide. A is wrong: inequality hasn't grown, it is unchanged.",
+              "da": "Fjerde afsnit: Alle grupper er steget, men afstanden er den samme. A er forkert: Uligheden er ikke vokset, den er uændret."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Når kroppen siger stop",
+        "text": "Henrik har været murer i 38 år. Han er 61, og hans knæ og skuldre gør ondt hver morgen. »Jeg elsker mit fag, men jeg kan ikke holde til at arbejde, til jeg er 69,« siger han. Det er netop den situation, debatten om tidlig tilbagetrækning handler om.\n\n{1}\n\nSiden 2022 har det været muligt at søge om tidlig pension, hvis man har været på arbejdsmarkedet i mindst 42 år, når man fylder 61. Ordningen blev i folkemunde kaldt Arne-pensionen efter en bryggeriarbejder, som statsministeren nævnte i en tale.\n\n{2}\n\nOrdningen har dog sine kritikere. Nogle mener, at den rammer skævt, fordi det ikke kun er antallet af år, der slider. En sygeplejerske, der har taget en uddannelse og derfor er kommet senere ind på arbejdsmarkedet, kan være lige så nedslidt som en murer, men har ikke nået de 42 år.\n\n{3}\n\nAndre peger på, at løsningen ikke kun handler om pension. Hvis arbejdsgiverne var bedre til at tilpasse arbejdet, efterhånden som medarbejderne bliver ældre, kunne flere blive længere. Det kan være lettere opgaver, kortere arbejdsdage eller mulighed for at oplære yngre kolleger.\n\n{4}\n\nDebatten bliver næppe mindre i de kommende år. Pensionsalderen er besluttet hævet til 70 år i 2040, og spørgsmålet om, hvem der skal have lov til at stoppe tidligere, vil fortsat dele vandene.\n\n{5}",
+        "parts": {
+          "A": "Henrik har netop prøvet det. Hans firma har givet ham ansvaret for lærlingene, og i dag bruger han mere tid på at forklare end på at løfte. »Det har givet mig fem år ekstra, tror jeg,« siger han.",
+          "B": "Han er langtfra den eneste. Ifølge en undersøgelse fra en fagforening forventer omkring halvdelen af alle bygningsarbejdere over 55 år ikke at kunne arbejde frem til pensionsalderen.",
+          "C": "Kritikerne foreslår derfor, at man i stedet ser på, hvor hårdt arbejdet har været, og ikke kun på, hvor længe man har arbejdet. Det er dog meget svært at måle i praksis.",
+          "D": "Ordningen er ikke stor. Man kan få tidlig pension i højst tre år, og beløbet er lavere end folkepensionen. Alligevel har flere tusinde søgt om den hvert år.",
+          "E": "For Henrik er der ingen tvivl. »Dem, der bestemmer, sidder ved et skrivebord. De skulle prøve at stå på et stillads en januarmorgen,« siger han.",
+          "F": "Pensionsalderen i Danmark er blandt de højeste i Europa, og flere lande ser nu mod Danmark som et eksempel på, hvordan man kan sikre økonomien.",
+          "G": "Mange ældre medarbejdere vælger at gå ned i tid i stedet for at stoppe helt. Det giver dem både en indkomst og mere fritid."
+        },
+        "answers": [
+          "B",
+          "D",
+          "C",
+          "A",
+          "E"
+        ],
+        "explanations": [
+          {
+            "en": "After Henrik's story, B follows naturally: »Han er langtfra den eneste« (he is far from the only one), backed by figures on construction workers.",
+            "da": "Efter Henriks historie følger B: »Han er langtfra den eneste« og tal, der viser det."
+          },
+          {
+            "en": "The paragraph before introduces the scheme. D describes it further and ends with many applying, which leads into »Ordningen har dog sine kritikere« (the scheme has its critics, though).",
+            "da": "Afsnittet før introducerer ordningen. D beskriver den nærmere og slutter med, at mange har søgt, hvilket leder op til »Ordningen har dog sine kritikere«."
+          },
+          {
+            "en": "The paragraph before shows the problem with the nurse who hasn't reached 42 years. C follows: »Kritikerne foreslår derfor …« (the critics therefore suggest …).",
+            "da": "Afsnittet før viser problemet med sygeplejersken. C fortsætter: »Kritikerne foreslår derfor …«."
+          },
+          {
+            "en": "The paragraph before ends with the option of training younger colleagues. A continues: »Henrik har netop prøvet det« (Henrik has tried exactly that) – he now trains apprentices.",
+            "da": "Afsnittet før nævner muligheden for at oplære yngre kolleger. A fortsætter: »Henrik har netop prøvet det«."
+          },
+          {
+            "en": "E gives the last word to Henrik, which ties the ending back to the opening. His comment about the decision-makers fits the closing point that the debate will continue.",
+            "da": "E giver det sidste ord til Henrik, og det knytter teksten sammen med begyndelsen."
+          }
+        ],
+        "unused": {
+          "en": "F and G don't fit. They are close to the topic, but neither connects with what comes before and after any gap. Parts like these are the hardest distractors.",
+          "da": "F og G passer ikke. De er emnemæssigt tæt på, men ingen af dem hænger sammen med det, der står før og efter et hul. Netop den slags afsnit er de sværeste distraktorer."
+        }
+      },
+      "part3": {
+        "title": "Farten skal ned",
+        "text": "Sidste år blev omkring 150 mennesker dræbt i trafikken i Danmark, og flere tusinde kom alvorligt til skade. Selv om tallet er faldet markant {1} 1970’erne, hvor over 1.000 mistede livet om året, er politikerne langtfra tilfredse.\n\nIfølge Vejdirektoratet er for høj fart en medvirkende {2} i omkring hver tredje dødsulykke. Derfor har flere kommuner fået lov til at sænke hastighedsgrænsen i byerne fra 50 til 40 km/t. Det har {3} skabt debat.\n\nTilhængerne peger på, at selv en lille nedsættelse af farten har stor betydning, når uheldet er ude. Bliver en fodgænger ramt af en bil, der kører 50 km/t, er risikoen for at dø {4} dobbelt så stor, som hvis bilen kører 40 km/t.\n\nModstanderne mener {5}, at lavere fartgrænser kun virker, hvis de bliver overholdt. Erfaringen viser, at bilisterne kører efter, hvordan vejen ser ud, og ikke efter skiltene. Hvis vejen er bred og lige, kører folk stærkt, {6} hvad der står på skiltet.\n\nFlere eksperter anbefaler derfor, at man ombygger vejene, så de i sig selv får bilisterne til at sætte farten ned, fx med bump, smallere kørebaner og træer langs vejen. Det er dyrere end at sætte nye skilte op, men {7} mere effektivt.\n\nUnder alle omstændigheder er der bred {8} om, at målet skal være færre dræbte. Uenigheden handler om, hvordan man når det.",
+        "gaps": [
+          {
+            "options": [
+              "fra",
+              "siden",
+              "efter",
+              "gennem"
+            ],
+            "answer": "siden",
+            "explanation": {
+              "en": "»Faldet siden 1970’erne« (fallen since the 1970s) means from then until now. »Fra« would need a »til«.",
+              "da": "»Faldet siden 1970’erne« betyder fra dengang til nu. »Fra« kræver »til«."
+            }
+          },
+          {
+            "options": [
+              "sag",
+              "faktor",
+              "følge",
+              "grund"
+            ],
+            "answer": "faktor",
+            "explanation": {
+              "en": "Fixed expression: »en medvirkende faktor« (a contributing factor). »Medvirkende grund« isn't used.",
+              "da": "Fast udtryk: en medvirkende faktor. »Medvirkende grund« bruges ikke."
+            }
+          },
+          {
+            "options": [
+              "i modsat fald",
+              "ikke overraskende",
+              "ikke desto mindre",
+              "i hvert fald ikke"
+            ],
+            "answer": "ikke overraskende",
+            "explanation": {
+              "en": "It is to be expected that such a decision creates debate, so »ikke overraskende« (not surprisingly) fits. »Ikke desto mindre« would need a contrast.",
+              "da": "Det er forventeligt, at sådan en beslutning skaber debat. »Ikke desto mindre« kræver en modsætning."
+            }
+          },
+          {
+            "options": [
+              "ellers",
+              "omkring",
+              "overfor",
+              "frem for"
+            ],
+            "answer": "omkring",
+            "explanation": {
+              "en": "»Omkring dobbelt så stor« means about twice as high. The other three are not degree words and cannot stand before »dobbelt«.",
+              "da": "»Omkring dobbelt så stor« betyder cirka dobbelt så stor. De tre andre er ikke gradsord og kan ikke stå foran »dobbelt«."
+            }
+          },
+          {
+            "options": [
+              "således",
+              "derfor",
+              "dog",
+              "nemlig"
+            ],
+            "answer": "dog",
+            "explanation": {
+              "en": "The opponents contrast with the supporters: »Modstanderne mener dog« (the opponents, however, think). »Nemlig« would explain something just said.",
+              "da": "Modsætning til tilhængerne: Modstanderne mener dog … »Nemlig« forklarer noget, der lige er sagt."
+            }
+          },
+          {
+            "options": [
+              "trods",
+              "selv om",
+              "uden",
+              "uanset"
+            ],
+            "answer": "uanset",
+            "explanation": {
+              "en": "»Uanset hvad der står på skiltet« (regardless of what the sign says) is the fixed construction. »Selv om« would need a full clause with subject and verb.",
+              "da": "»Uanset hvad der står« er den faste konstruktion. »Selv om« kræver en hel sætning med subjekt og verbum."
+            }
+          },
+          {
+            "options": [
+              "i stedet",
+              "til gengæld",
+              "derimod",
+              "tværtimod"
+            ],
+            "answer": "til gengæld",
+            "explanation": {
+              "en": "»Dyrere, men til gengæld mere effektivt« (more expensive, but in return more effective): the advantage outweighs the drawback.",
+              "da": "»Dyrere, men til gengæld mere effektivt«: Fordelen opvejer ulempen."
+            }
+          },
+          {
+            "options": [
+              "enighed",
+              "aftale",
+              "opbakning",
+              "forståelse"
+            ],
+            "answer": "enighed",
+            "explanation": {
+              "en": "Fixed expression: »der er bred enighed om« (there is broad agreement that). The next sentence about »uenigheden« confirms it.",
+              "da": "Fast udtryk: Der er bred enighed om noget."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.5-ribe-vadehavet",
+      "source": "Øvelsessæt 1.5 · Ribe og Vadehavet",
+      "difficulty": 5,
+      "part2a": {
+        "title": "Kan man lovgive sig til lykke?",
+        "text": "Danmark ligger år efter år i toppen af FN’s World Happiness Report, og de høje placeringer er blevet en del af den måde, danskerne fortæller om sig selv på. Men når politikere begynder at tale om lykke som et mål for samfundet, bliver mange forskere skeptiske. Filosof og lykkeforsker Ida Wern er en af dem.\n\n»Jeg er ikke imod, at vi måler trivsel. Tværtimod. Tallene kan vise os, hvem der falder igennem, og det er vigtig viden,« siger hun. Det, der bekymrer hende, er, når målingen bliver til et mål. »Hvis en kommune får at vide, at den skal hæve borgernes lykke med to point på en skala, så vil den finde på aktiviteter, der hurtigt flytter tallet. Det er ikke nødvendigvis det samme som at gøre folks liv bedre.«\n\nIfølge Ida Wern hænger danskernes høje placering ikke først og fremmest sammen med, at danskerne er særligt glade i hverdagen. Spørgsmålet i undersøgelsen handler om, hvordan man vurderer sit liv som helhed, og her svarer danskerne højt, fordi de oplever tryghed: et sikkerhedsnet, hvis de bliver syge eller mister arbejdet, og en høj grad af tillid til hinanden og til myndighederne. »Det er mere tilfredshed end lykke. Og det er ikke en kritik. Tilfredshed er et solidt fundament,« siger hun.\n\nHun peger dog på, at gennemsnittet skjuler store forskelle. Mens de fleste danskere har det godt, er der en voksende gruppe unge, især kvinder, der angiver lav trivsel. »Et land kan ligge nummer to i verden, mens hver femte ung kvinde har det skidt. Begge dele er sande på samme tid. Faren ved at fejre placeringen er, at vi glemmer dem, der trækker gennemsnittet ned,« siger Ida Wern.\n\nHendes forslag er derfor beskedent: at politikerne bruger trivselsmålinger som et kompas snarere end et mål. »Et kompas fortæller dig, om du er på vej i den rigtige retning. Det fortæller dig ikke, hvornår du er fremme. Lykke er ikke et sted, man ankommer til,« siger hun.",
+        "questions": [
+          {
+            "question": "Hvad er Ida Wern kritisk over for?",
+            "options": [
+              "At man overhovedet måler befolkningens trivsel.",
+              "At man gør et bestemt tal for trivsel til noget, kommunerne skal opnå.",
+              "At kommunerne bruger for få penge på aktiviteter for borgerne."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: she is not against measuring well-being (so A is wrong), but worries when »målingen bliver til et mål« – when a measurement becomes a target that municipalities must reach.",
+              "da": "Andet afsnit: Hun er ikke imod at måle trivsel (A er forkert), men hun er bekymret, »når målingen bliver til et mål«."
+            }
+          },
+          {
+            "question": "Hvordan forklarer Ida Wern danskernes høje placering?",
+            "options": [
+              "Danskerne er gladere i hverdagen end folk i andre lande.",
+              "Danskerne føler sig trygge og stoler på hinanden, og derfor er de tilfredse med livet som helhed.",
+              "Undersøgelsen måler noget andet end lykke, og derfor er placeringen misvisende."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph three: security and trust give satisfaction with life as a whole. C is tempting, but she explicitly says »det er ikke en kritik« and never calls the ranking misleading.",
+              "da": "Tredje afsnit: Tryghed og tillid giver tilfredshed med livet som helhed. C er fristende, men hun siger udtrykkeligt, at det »ikke er en kritik«, og kalder ikke placeringen misvisende."
+            }
+          },
+          {
+            "question": "Hvad mener Ida Wern om den gruppe unge, der har lav trivsel?",
+            "options": [
+              "At de forsvinder i fokus på det gode gennemsnit.",
+              "At de er årsagen til, at Danmark ikke ligger nummer ét.",
+              "At problemet er blevet overdrevet i debatten."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph four: »Faren ved at fejre placeringen er, at vi glemmer dem, der trækker gennemsnittet ned« – they get lost behind the good average. B over-interprets »nummer to«.",
+              "da": "Fjerde afsnit: »Faren ved at fejre placeringen er, at vi glemmer dem, der trækker gennemsnittet ned«. B er en overfortolkning af »nummer to«."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Dansk i frokoststuen",
+        "text": "På et stort slagteri i Sønderjylland arbejder mennesker fra mere end 30 lande. Produktionen kører på flere sprog, men i frokoststuen er der en uskreven regel: her taler man dansk. Regel eller ej, så er sproget på arbejdspladsen et emne, der splitter både virksomheder og eksperter.\n\n{1}\n\nFor mange udenlandske medarbejdere er arbejdspladsen det eneste sted, hvor de har mulighed for at tale dansk dagligt. Undersøgelser viser, at medarbejdere, der bruger dansk på jobbet, lærer sproget markant hurtigere end dem, der går på sprogskole om aftenen efter en lang arbejdsdag.\n\n{2}\n\nSamtidig er der en praktisk side af sagen. På en arbejdsplads, hvor sikkerheden er vigtig, kan misforståelser få alvorlige konsekvenser. Flere virksomheder har derfor valgt at oversætte sikkerhedsinstrukser til fire-fem sprog.\n\n{3}\n\nKritikere mener, at kravet om dansk i pauserne kan virke ekskluderende. Når man har knoklet i fire timer, er frokostpausen et frirum, og det kan være en lettelse at tale sit modersmål med en kollega fra samme land. Et krav om dansk kan i værste fald betyde, at nogle bliver siddende for sig selv.\n\n{4}\n\nSprogforsker Anna Lund foreslår en mellemvej, som flere virksomheder har gode erfaringer med: sprogmakkere. To kolleger med forskellige modersmål aftaler at tale dansk sammen i nogle pauser om ugen. Det er frivilligt, og det sker på medarbejdernes egne præmisser.\n\n{5}",
+        "parts": {
+          "A": "Det kan dog også have den modsatte effekt. Hvis medarbejderne aldrig behøver at forstå instrukserne på dansk, mister de en af de vigtigste anledninger til at lære sproget.",
+          "B": "»Det handler ikke om at bestemme, hvad folk må sige. Det handler om, at alle skal kunne være med i samtalen,« forklarer HR-chefen, som selv er født i Polen.",
+          "C": "Det skyldes ikke kun, at de hører mere dansk. Når man skal løse en konkret opgave sammen med en kollega, får ordene en mening, som de sjældent får i et klasselokale.",
+          "D": "»Det er pausen, der skaber fællesskabet. Hvis vi deler os efter sprog dér, bliver vi aldrig ét hold,« siger hun.",
+          "E": "Flere fagforeninger tilbyder kurser i dansk på arbejdspladsen, som ligger i arbejdstiden og betales af arbejdsgiveren.",
+          "F": "»Mine bedste samtaler på dansk har jeg haft med min makker ved kaffeautomaten. Ingen retter mig, og jeg tør prøve,« fortæller en medarbejder fra Rumænien.",
+          "G": "Nogle af dem har boet i Danmark i over ti år uden at have lært mere end et par sætninger. Det skyldes ofte, at de aldrig har haft brug for det."
+        },
+        "answers": [
+          "B",
+          "C",
+          "A",
+          "D",
+          "F"
+        ],
+        "explanations": [
+          {
+            "en": "The paragraph before mentions the unwritten rule about speaking Danish in the lunchroom. B is a quote explaining the purpose of that rule: everyone should be able to join the conversation.",
+            "da": "Afsnittet før nævner den uskrevne regel om dansk i frokoststuen. B er et citat, der forklarer formålet med reglen."
+          },
+          {
+            "en": "The paragraph before says employees using Danish at work learn faster. C explains why: »Det skyldes ikke kun …« (it's not only because …).",
+            "da": "Afsnittet før siger, at de lærer sproget hurtigere. C forklarer hvorfor: »Det skyldes ikke kun …«."
+          },
+          {
+            "en": "The paragraph before mentions translating safety instructions. A continues: »Det kan dog også have den modsatte effekt« – workers lose a reason to learn Danish.",
+            "da": "Afsnittet før nævner oversatte sikkerhedsinstrukser. A fortsætter: »Det kan dog også have den modsatte effekt«."
+          },
+          {
+            "en": "The paragraph before gives the critics' argument; D is the counter-argument from someone defending the rule. Note: »hun« refers to an unnamed person, which is typical of quotes in 2B.",
+            "da": "Afsnittet før er kritikernes argument. D er modargumentet fra en, der forsvarer reglen. Bemærk: »hun« henviser til en person, der ikke er nævnt. Det er typisk for citater i 2B."
+          },
+          {
+            "en": "The paragraph before describes language buddies (sprogmakkere). F is an example from an employee who has tried it: »min makker ved kaffeautomaten«.",
+            "da": "Afsnittet før beskriver sprogmakkere. F er et eksempel fra en medarbejder, der har prøvet det."
+          }
+        ],
+        "unused": {
+          "en": "E and G don't fit. E is about courses, but the text is about language during breaks. G might seem to fit gap 1, but B explains the rule (»Regel eller ej …«) and G does not.",
+          "da": "E og G passer ikke. E handler om kurser, men teksten handler om sprog i pauserne. G kunne passe efter hul 1, men B forklarer reglen, og det gør G ikke."
+        }
+      },
+      "part3": {
+        "title": "Bekymret for klimaet",
+        "text": "Undersøgelser viser, at de unge er langt mere bekymrede for klimaforandringerne end deres forældre og bedsteforældre. Det er {1} ikke overraskende. Det er de unge, der skal leve længst med konsekvenserne.\n\nPsykologer har i de senere år talt om klimaangst, men mange forskere foretrækker ordet klimabekymring. En vis bekymring er nemlig ikke skadelig, men kan {2} være med til at motivere til handling. Det bliver først et problem, når bekymringen tager overhånd og fører til håbløshed.\n\nForskningen peger på, at det, der {3} bekymringen bedst, er handling, hvad enten det er at ændre egne vaner, at engagere sig i en forening eller at stemme. Følelsen af at kunne gøre en forskel er altså vigtigere end, hvor stor forskellen {4} er.\n\nDet stiller krav til både skoler og medier. Hvis klimaet kun bliver præsenteret som en katastrofe, risikerer man, at de unge {5} op. {6} bør undervisningen også handle om løsninger og om de fremskridt, der trods alt er sket.\n\nNogle debattører advarer dog mod at gå for langt i den positive retning. Problemerne er reelle, og det tjener ingen at {7} dem. Det handler snarere om at finde en balance, hvor de unge bliver taget alvorligt {8} at blive overvældet.",
+        "gaps": [
+          {
+            "options": [
+              "alligevel",
+              "ellers",
+              "dermed",
+              "egentlig"
+            ],
+            "answer": "egentlig",
+            "explanation": {
+              "en": "»Egentlig ikke overraskende« means not really surprising when you think about it. »Alligevel« would need a contrast, and »dermed« a consequence of something already mentioned.",
+              "da": "»Egentlig ikke overraskende« betyder ikke overraskende, når man tænker over det. »Alligevel« kræver en modsætning, og »dermed« en følge af noget, der allerede er nævnt."
+            }
+          },
+          {
+            "options": [
+              "tværtimod",
+              "derimod",
+              "ellers",
+              "dermed"
+            ],
+            "answer": "tværtimod",
+            "explanation": {
+              "en": "After a negation (»ikke skadelig«), »tværtimod« (on the contrary) introduces the opposite. »Derimod« compares two different things.",
+              "da": "Efter en nægtelse (»ikke skadelig«) bruges tværtimod om det modsatte. »Derimod« sammenligner to forskellige ting."
+            }
+          },
+          {
+            "options": [
+              "afkorter",
+              "udsletter",
+              "dæmper",
+              "nedsætter"
+            ],
+            "answer": "dæmper",
+            "explanation": {
+              "en": "You »dæmper« (calm, dampen) a feeling such as worry. The other verbs don't collocate with »bekymringen«.",
+              "da": "Man dæmper en følelse."
+            }
+          },
+          {
+            "options": [
+              "realitet",
+              "realistiske",
+              "reelt",
+              "reelle"
+            ],
+            "answer": "reelt",
+            "explanation": {
+              "en": "An adverb is needed before the verb: »hvor stor forskellen reelt er« (how big the difference really is). »Reelle« is a plural adjective.",
+              "da": "Et biord foran verbet: reelt. »Reelle« er adjektiv i flertal."
+            }
+          },
+          {
+            "options": [
+              "gør",
+              "tager",
+              "går",
+              "giver"
+            ],
+            "answer": "giver",
+            "explanation": {
+              "en": "Fixed expression: »give op« (give up). If climate is shown only as a catastrophe, young people may give up.",
+              "da": "Fast udtryk: at give op."
+            }
+          },
+          {
+            "options": [
+              "Dog",
+              "Desuden",
+              "Derimod",
+              "Derfor"
+            ],
+            "answer": "Derfor",
+            "explanation": {
+              "en": "A conclusion from the previous sentence: therefore (derfor) teaching should also be about solutions.",
+              "da": "Konklusion af det foregående: derfor."
+            }
+          },
+          {
+            "options": [
+              "nedsætte",
+              "nedlægge",
+              "nedtone",
+              "nedskære"
+            ],
+            "answer": "nedtone",
+            "explanation": {
+              "en": "»Nedtone« means to play down. Since the problems are real, nobody gains from playing them down. The other words aren't used about problems in a debate.",
+              "da": "At nedtone betyder at gøre noget mindre alvorligt i sin omtale. De andre ord bruges ikke om problemer i en debat."
+            }
+          },
+          {
+            "options": [
+              "efter",
+              "uden",
+              "udover",
+              "medmindre"
+            ],
+            "answer": "uden",
+            "explanation": {
+              "en": "»Taget alvorligt uden at blive overvældet« (taken seriously without being overwhelmed): two things at once, one without the other.",
+              "da": "»Taget alvorligt uden at blive overvældet«: to ting på samme tid, den ene uden den anden."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1-mobilfri-skole",
+      "source": "Øvelsessæt 2.1 · Mobilfri skole",
+      "difficulty": 1,
+      "part2a": {
+        "title": "Et efterår uden mobiler",
+        "text": "Rikke Nørgaard har været lærer i 22 år og underviser i dansk i 7. klasse. Da skolen blev mobilfri i august, var hun spændt. »Jeg havde hørt om andre skoler, hvor det var gået fint. Men jeg var bange for, at eleverne ville blive sure og bruge al deres energi på at finde måder at snyde på,« siger hun.\n\nDet skete ikke. De første to uger var der nogle elever, der »glemte« at lægge mobilen i skabet. Men efter en måned var det blevet en vane. »Det overraskede mig, hvor hurtigt det gik. Jeg tror faktisk, mange af dem var lettede. Nu er det ikke dem selv, der skal sige nej. Det er reglen,« siger Rikke.\n\nDen største forskel ser hun i frikvartererne. Før sad eleverne ofte på gangen med hver deres skærm. Nu spiller de kort, snakker eller går ud i gården. »I sidste uge så jeg fire drenge spille et brætspil, som de havde fundet på biblioteket. Det havde jeg aldrig set før,« fortæller hun.\n\nIkke alt er blevet bedre. Nogle elever har svært ved at koncentrere sig i timerne, fordi de er vant til at få nye indtryk hele tiden. Og nogle forældre er utilfredse, fordi de ikke kan skrive direkte til deres barn. »Jeg forstår godt forældrene. Men man kan altid ringe til kontoret. Børnene klarede sig også, før de fik mobiler,« siger Rikke.\n\nHvis hun skal give et råd til andre skoler, er det at tale med eleverne, før reglerne begynder. »Vi brugte en time i hver klasse på at forklare, hvorfor vi gør det. Det tror jeg betød meget. Eleverne vil gerne forstå, ikke bare få at vide, hvad de skal,« siger hun.",
+        "questions": [
+          {
+            "question": "Hvad var Rikke bange for, før skolen blev mobilfri?",
+            "options": [
+              "At eleverne ville prøve at snyde med reglerne.",
+              "At forældrene ville klage til skolen.",
+              "At eleverne ikke ville snakke sammen i pauserne."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph one: she feared the students would »bruge al deres energi på at finde måder at snyde på« (spend all their energy finding ways to cheat).",
+              "da": "Første afsnit: Hun var bange for, at eleverne ville »bruge al deres energi på at finde måder at snyde på«."
+            }
+          },
+          {
+            "question": "Hvorfor tror Rikke, at mange elever var lettede?",
+            "options": [
+              "Fordi de var trætte af deres mobiler.",
+              "Fordi de ikke længere selv skulle sige nej til mobilen.",
+              "Fordi de fik nye brætspil på biblioteket."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: »Nu er det ikke dem selv, der skal sige nej. Det er reglen.« (Now they don't have to say no themselves – the rule does it.)",
+              "da": "Andet afsnit: »Nu er det ikke dem selv, der skal sige nej. Det er reglen.«"
+            }
+          },
+          {
+            "question": "Hvad er Rikkes råd til andre skoler?",
+            "options": [
+              "At give eleverne mere tid i frikvartererne.",
+              "At ringe til forældrene, hvis eleverne ikke afleverer mobilen.",
+              "At forklare eleverne, hvorfor man indfører reglerne."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Last paragraph: her advice is to talk to the students before the rules start and explain why: »Eleverne vil gerne forstå«.",
+              "da": "Sidste afsnit: Hendes råd er at tale med eleverne og forklare, hvorfor man gør det."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Da brevene forsvandt",
+        "text": "Den 30. december 2025 delte PostNord de sidste breve ud i Danmark. Efter mere end 400 år var det slut. I dag fokuserer firmaet kun på pakker, og de røde postkasser er forsvundet fra gaderne.\n\n{1}\n\nGrunden er enkel: Danskerne sender næsten ikke breve mere. I år 2000 blev der sendt omkring 1,4 milliarder breve. I 2024 var tallet faldet til 110 millioner. De fleste breve fra kommunen, banken og lægen kommer i dag i den digitale postkasse.\n\n{2}\n\nFor de fleste danskere har det ikke betydet noget. Men for nogle ældre har det været en stor ændring. Ikke alle har en computer eller en smartphone, og ikke alle kan finde ud af at bruge dem.\n\n{3}\n\nDer findes stadig firmaer, som deler breve ud. Det største er Dao. Men det er blevet dyrere at sende et brev, og det tager længere tid at nå frem.\n\n{4}\n\nNogle mener, at det er trist, at brevet forsvinder. Et håndskrevet brev betyder noget andet end en e-mail. Andre siger, at udviklingen er naturlig, og at man ikke kan holde fast i noget, som ingen bruger.\n\n{5}",
+        "parts": {
+          "A": "Det betyder også, at omkring 1.500 medarbejdere har mistet deres job. Mange af dem var postbude, som havde gået de samme ruter i mange år.",
+          "B": "Det er altså faldet med over 90 procent på 25 år. Ingen virksomhed kan tjene penge på et produkt, som så få bruger.",
+          "C": "Bodil på 84 år fra Svendborg siger: »Jeg har altid skrevet julekort til hele familien. I år ved jeg ikke, hvordan jeg skal gøre.«",
+          "D": "Hvis man skal sende et brev, skal man nu købe porto på nettet eller i et supermarked og lægge brevet i en af Daos postkasser.",
+          "E": "Selv siger Bodil, at hun nok vil skrive julekort alligevel. »Så må mit barnebarn komme og hente dem,« siger hun og griner.",
+          "F": "Pakker bliver også leveret om søndagen i de største byer.",
+          "G": "Politikerne har derfor besluttet, at alle danskere skal have en smartphone inden 2030."
+        },
+        "answers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "explanations": [
+          {
+            "en": "The paragraph before says PostNord stopped delivering letters. A gives a consequence: »Det betyder også, at …« about 1,500 employees lost their jobs.",
+            "da": "Afsnittet før fortæller, at PostNord stoppede med breve. A fortæller om konsekvensen for medarbejderne."
+          },
+          {
+            "en": "The paragraph before gives the figures for letters (1.4 billion down to 110 million). B sums up: »Det er altså faldet med over 90 procent« (so it has fallen by over 90 percent).",
+            "da": "Afsnittet før giver tallene for breve. B samler op: »Det er altså faldet med over 90 procent«."
+          },
+          {
+            "en": "The paragraph before mentions older people who can't use computers or smartphones. C gives an example: 84-year-old Bodil and her Christmas cards.",
+            "da": "Afsnittet før nævner ældre, der ikke kan bruge computer. C er et eksempel: Bodil på 84 år."
+          },
+          {
+            "en": "The paragraph before mentions the company Dao. D explains how you now send a letter: buy postage and use one of Dao's postboxes.",
+            "da": "Afsnittet før nævner firmaet Dao. D forklarer, hvordan man nu sender et brev."
+          },
+          {
+            "en": "Bodil returns at the end: »Selv siger Bodil …« only works after she has been introduced in C. E ends the text with a smile.",
+            "da": "Bodil kommer tilbage til sidst. E slutter teksten med et smil."
+          }
+        ],
+        "unused": {
+          "en": "F and G don't fit. F (Sunday parcel delivery) has nothing to do with letters. G (everyone must have a smartphone) isn't true and is not supported anywhere in the text.",
+          "da": "F og G passer ikke. F har intet med breve at gøre. G er ikke sandt og står ingen steder i teksten."
+        }
+      },
+      "part3": {
+        "title": "Billigere frugt og grønt?",
+        "text": "Priserne på mad er steget meget de seneste år, og mange familier {1} det, når de handler. Derfor har regeringen sagt, at den vil halvere momsen på fødevarer og helt fjerne momsen på frugt og grønt, så snart det er muligt.\n\nI dag er momsen 25 procent på næsten alle varer. Hvis momsen på æbler og gulerødder {2}, kan prisen falde med omkring en femtedel. Det vil især {3} familier med små indkomster.\n\nTilhængerne mener, at lavere priser vil få flere til at spise sundt. {4} er der mange danskere, der spiser for lidt frugt og grønt, og prisen er en af grundene.\n\nKritikerne er dog {5} sikre. De siger, at butikkerne måske ikke sænker priserne lige så meget, som momsen falder. Desuden {6} det staten mange milliarder kroner om året, som så skal findes et andet sted.\n\nAndre lande har prøvet noget {7}. I nogle lande faldt priserne kun lidt, mens de i andre lande faldt meget. Det kommer {8} på, om der er god konkurrence mellem butikkerne.",
+        "gaps": [
+          {
+            "options": [
+              "hører",
+              "smager",
+              "ser",
+              "mærker"
+            ],
+            "answer": "mærker",
+            "explanation": {
+              "en": "You »mærke« (feel/notice) a price rise when you shop. The other verbs don't fit.",
+              "da": "Man mærker en prisstigning, dvs. man føler den."
+            }
+          },
+          {
+            "options": [
+              "sænker",
+              "stopper",
+              "flytter",
+              "forsvinder"
+            ],
+            "answer": "forsvinder",
+            "explanation": {
+              "en": "The VAT »forsvinder« (disappears, is removed). »Sænker« would need an object.",
+              "da": "Momsen forsvinder (bliver fjernet). »Sænker« kræver et objekt."
+            }
+          },
+          {
+            "options": [
+              "gøre",
+              "give",
+              "hjælpe",
+              "bruge"
+            ],
+            "answer": "hjælpe",
+            "explanation": {
+              "en": "Lower prices »hjælpe« (help) families with low incomes.",
+              "da": "Lavere priser hjælper familier med små indkomster."
+            }
+          },
+          {
+            "options": [
+              "I morgen",
+              "I går",
+              "I dag",
+              "I fremtiden"
+            ],
+            "answer": "I dag",
+            "explanation": {
+              "en": "The sentence is in the present tense (»er der mange danskere«), so »I dag« (today) fits.",
+              "da": "Nutid: I dag spiser mange for lidt frugt og grønt."
+            }
+          },
+          {
+            "options": [
+              "meget",
+              "ikke",
+              "aldrig",
+              "tit"
+            ],
+            "answer": "ikke",
+            "explanation": {
+              "en": "The critics are not (ikke) sure. The text goes on with their doubts, and »dog« marks the contrast with the supporters.",
+              "da": "Kritikerne er ikke sikre. Teksten fortsætter med deres tvivl."
+            }
+          },
+          {
+            "options": [
+              "giver",
+              "koster",
+              "betaler",
+              "tjener"
+            ],
+            "answer": "koster",
+            "explanation": {
+              "en": "Removing VAT »koster« (costs) the state billions, which must then be found elsewhere.",
+              "da": "Det koster staten penge."
+            }
+          },
+          {
+            "options": [
+              "modsat",
+              "samme",
+              "anden",
+              "lignende"
+            ],
+            "answer": "lignende",
+            "explanation": {
+              "en": "Fixed expression: »noget lignende« (something similar).",
+              "da": "Fast udtryk: noget lignende."
+            }
+          },
+          {
+            "options": [
+              "ind",
+              "an",
+              "ud",
+              "op"
+            ],
+            "answer": "an",
+            "explanation": {
+              "en": "Fixed expression: »det kommer an på« (it depends on).",
+              "da": "Fast udtryk: Det kommer an på …"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.2-vaernepligt",
+      "source": "Øvelsessæt 2.2 · Værnepligt",
+      "difficulty": 2,
+      "part2a": {
+        "title": "Freja trækker lod",
+        "text": "Freja Holst fylder 18 i december og er en af de første piger, der skal deltage i lodtrækningen på Forsvarets Dag på samme vilkår som drengene. Hun går i 3.g på et gymnasium i Kolding og har allerede søgt ind på medicinstudiet.\n\n»Da jeg hørte om loven, blev jeg faktisk sur,« fortæller hun. »Ikke fordi jeg synes, kvinder skal have det lettere end mænd. Men det føltes, som om nogen havde besluttet noget om mit liv uden at spørge mig.« I dag har hun en anden holdning. Hun har talt med sin morfar, der var soldat i 1970’erne, og med en veninde, der har aftjent værnepligt frivilligt. »Min veninde siger, at det var det hårdeste og det bedste år i hendes liv. Hun lærte at stole på andre og på sig selv,« siger Freja.\n\nAlligevel håber hun på et højt lodnummer, så hun ikke bliver indkaldt. Grunden er ikke frygt for at være soldat, men tid. »Hvis jeg skal bruge et helt år i Forsvaret, starter jeg på studiet et år senere. Og medicin tager i forvejen seks år,« siger hun.\n\nFreja synes, det er rigtigt, at loven gælder for alle. »Hvis vi siger, at ligestilling er vigtig, så må den også gælde, når det er ubehageligt,« siger hun. Men hun mener, at Forsvaret skal gøre mere for at forklare de unge, hvad de kan få ud af tjenesten. »Mange af mine venner ved ikke andet, end at man skal ligge i en grøft og være kold. Det er ikke ligefrem god reklame.«\n\nHvis hun bliver indkaldt, vil hun søge ind som sanitetssoldat. »Så kan jeg i det mindste bruge det til noget, når jeg skal være læge,« siger hun.",
+        "questions": [
+          {
+            "question": "Hvorfor blev Freja sur, da hun hørte om loven?",
+            "options": [
+              "Fordi hun mener, at kvinder ikke skal være soldater.",
+              "Fordi hun følte, at der blev bestemt noget om hendes liv, uden at hun blev spurgt.",
+              "Fordi hun var bange for at skulle være soldat."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: »som om nogen havde besluttet noget om mit liv uden at spørge mig« (as if someone had decided about her life without asking her). She says explicitly it isn't about women having it easier.",
+              "da": "Andet afsnit: »som om nogen havde besluttet noget om mit liv uden at spørge mig«. Hun siger udtrykkeligt, at det ikke handler om, at kvinder skal have det lettere."
+            }
+          },
+          {
+            "question": "Hvorfor håber Freja ikke at blive indkaldt?",
+            "options": [
+              "Fordi hun er bange for, at det bliver for hårdt fysisk.",
+              "Fordi hun mener, at loven er uretfærdig over for kvinder.",
+              "Fordi det vil forsinke hendes uddannelse."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Paragraph three: »Grunden er ikke frygt for at være soldat, men tid« (the reason isn't fear but time). She would start medical school a year later.",
+              "da": "Tredje afsnit: »Grunden er ikke frygt for at være soldat, men tid«. Hun vil starte på studiet et år senere."
+            }
+          },
+          {
+            "question": "Hvad mener Freja om Forsvaret?",
+            "options": [
+              "At det skal blive bedre til at fortælle de unge, hvad de kan få ud af værnepligten.",
+              "At det skal give unge, der vil studere, lov til at slippe for værnepligten.",
+              "At det ikke behandler kvinder og mænd ens."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph four: the armed forces should »gøre mere for at forklare de unge, hvad de kan få ud af tjenesten« (do more to explain what young people can get out of service).",
+              "da": "Fjerde afsnit: Forsvaret skal »gøre mere for at forklare de unge, hvad de kan få ud af tjenesten«."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Er du klar til tre døgn?",
+        "text": "Myndighederne anbefaler, at alle husstande i Danmark kan klare sig selv i tre døgn, hvis strømmen, vandet eller internettet pludselig forsvinder. Anbefalingen gælder ikke kun krig, men også storme, oversvømmelser og hackerangreb.\n\n{1}\n\nDet vigtigste er vand. Man bør have tre liter pr. person pr. døgn, altså ni liter til hver person i husstanden. Vandet kan sagtens være almindeligt postevand i rene flasker, som man skifter ud et par gange om året.\n\n{2}\n\nMad skal kunne holde sig uden køleskab og helst kunne spises uden at blive varmet. Det kan fx være knækbrød, nødder, dåsemad og tørret frugt. Og husk dåseåbneren.\n\n{3}\n\nMedicin er et punkt, mange glemmer. Hvis man tager fast medicin, bør man altid have til mindst en uge derhjemme.\n\n{4}\n\nTil sidst anbefaler myndighederne en lille radio med batterier. Hvis både strøm og internet er væk, er radioen den sikreste måde at få information på.\n\n{5}",
+        "parts": {
+          "A": "Mange danskere synes, at anbefalingen lyder dramatisk. Men myndighederne understreger, at det ikke skyldes en konkret trussel. Det handler om at være forberedt, ligesom man har en brandalarm.",
+          "B": "Hvis man har et husdyr, skal man også huske vand og mad til det. En hund på 20 kilo drikker cirka en liter om dagen.",
+          "C": "Dåsemad kan i øvrigt holde sig i flere år, så man behøver ikke at skifte den ud så tit som vandet.",
+          "D": "Det gælder også ting som briller og høreapparat-batterier. Lav gerne en liste og hæng den på køleskabet.",
+          "E": "Flere supermarkeder oplevede efter anbefalingen, at kunderne købte store mængder vand og dåsemad. Nu er salget dog normalt igen.",
+          "F": "Elbiler kan i øvrigt bruges som strømkilde i op til en uge.",
+          "G": "De fleste danskere har aldrig prøvet at være uden strøm i mere end et par timer. Derfor er det svært at forestille sig."
+        },
+        "answers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "explanations": [
+          {
+            "en": "The first paragraph presents the recommendation. A reacts to it: it may sound dramatic, but it is not due to a concrete threat – it's about being prepared.",
+            "da": "Første afsnit præsenterer anbefalingen. A forklarer, at den ikke skyldes en konkret trussel."
+          },
+          {
+            "en": "The paragraph before is about water per person. B extends the advice to pets: water and food for them too.",
+            "da": "Afsnittet før handler om vand pr. person. B udvider til husdyr."
+          },
+          {
+            "en": "The paragraph before mentions canned food and the can opener. C continues about canned food: it keeps for years.",
+            "da": "Afsnittet før nævner dåsemad og dåseåbner. C fortsætter om dåsemad."
+          },
+          {
+            "en": "The paragraph before is about medicine. D continues: »Det gælder også ting som briller …« (this also applies to things like glasses).",
+            "da": "Afsnittet før handler om medicin. D fortsætter: »Det gælder også ting som briller …«."
+          },
+          {
+            "en": "E describes the public's reaction and rounds off the text. It is the only remaining part that makes sense after the last piece of advice about the radio.",
+            "da": "E fortæller om reaktionen og afslutter teksten. Det er det eneste afsnit, der giver mening efter rådet om radioen."
+          }
+        ],
+        "unused": {
+          "en": "F and G don't fit. F (electric cars as a power source) has no link to the text. G could suit gap 1 by topic, but A answers the first paragraph by explaining the recommendation isn't dramatic.",
+          "da": "F og G passer ikke. F er en påstand, der ikke hænger sammen med teksten. G kunne passe emnemæssigt efter hul 1, men A forklarer, hvorfor anbefalingen ikke er dramatisk, og svarer på første afsnit."
+        }
+      },
+      "part3": {
+        "title": "Pension som 70-årig",
+        "text": "I maj 2025 vedtog Folketinget, at pensionsalderen skal stige til 70 år i 2040. Det gælder for alle, der er født {1} den 31. december 1970. I dag er pensionsalderen 67 år, og den stiger til 68 år i 2030 og 69 år i 2035.\n\nPensionsalderen stiger, fordi danskerne lever {2}. Siden 2006 har politikerne haft en aftale om, at pensionsalderen automatisk følger levealderen. Målet er, at man i gennemsnit kan være pensionist i 14,5 år.\n\nMange danskere er {3} utilfredse. Især folk med fysisk hårdt arbejde siger, at de ikke kan holde til at arbejde, til de er 70. Statsminister Mette Frederiksen har sagt, at Socialdemokratiet kun ville stemme for den automatiske stigning {4} gang mere.\n\nDet {5}, at der skal findes en ny model. Nogle partier foreslår, at man stopper ved 70 år. Andre vil gøre det lettere at gå på pension tidligt, hvis man har været på arbejdsmarkedet i mange år.\n\nØkonomerne advarer dog. Hvis pensionsalderen ikke stiger, vil der mangle penge til {6} velfærd. Der vil også være {7} mennesker til at løse opgaverne på hospitaler og i ældreplejen.\n\nDebatten er langt fra {8}, og den bliver sikkert vigtig ved de næste valg.",
+        "gaps": [
+          {
+            "options": [
+              "under",
+              "siden",
+              "før",
+              "efter"
+            ],
+            "answer": "efter",
+            "explanation": {
+              "en": "»Født efter den 31. december 1970« means born in 1971 or later – the people for whom the age will be 70.",
+              "da": "Født efter den 31. december 1970 betyder født i 1971 eller senere."
+            }
+          },
+          {
+            "options": [
+              "mere",
+              "højere",
+              "ældre",
+              "længere"
+            ],
+            "answer": "længere",
+            "explanation": {
+              "en": "You »lever længere« (live longer). That is why the pension age rises with life expectancy.",
+              "da": "Man lever længere."
+            }
+          },
+          {
+            "options": [
+              "hvis",
+              "fordi",
+              "men",
+              "derfor"
+            ],
+            "answer": "derfor",
+            "explanation": {
+              "en": "A consequence of the rising pension age: many Danes are therefore (derfor) dissatisfied.",
+              "da": "Konsekvens: Derfor er mange utilfredse."
+            }
+          },
+          {
+            "options": [
+              "én",
+              "nogle",
+              "ingen",
+              "to"
+            ],
+            "answer": "én",
+            "explanation": {
+              "en": "»Én gang mere« (one more time) means one last time. »To« would need the plural (to gange).",
+              "da": "»Én gang mere« betyder en sidste gang. »To« ville kræve flertal (to gange)."
+            }
+          },
+          {
+            "options": [
+              "betyder",
+              "mener",
+              "siger",
+              "tænker"
+            ],
+            "answer": "betyder",
+            "explanation": {
+              "en": "»Det betyder, at …« (this means that …): the Prime Minister's statement means a new model must be found.",
+              "da": "Det betyder, at …"
+            }
+          },
+          {
+            "options": [
+              "enten",
+              "både",
+              "fx",
+              "hverken"
+            ],
+            "answer": "fx",
+            "explanation": {
+              "en": "»Fx velfærd« (welfare, for example). The other options need two parts, like »både … og« or »enten … eller«.",
+              "da": "»Fx velfærd« betyder for eksempel velfærd. De andre kræver to led (både … og)."
+            }
+          },
+          {
+            "options": [
+              "mindre",
+              "færre",
+              "kortere",
+              "lavere"
+            ],
+            "answer": "færre",
+            "explanation": {
+              "en": "People are countable, so »færre« (fewer). »Mindre« is used for things that can't be counted.",
+              "da": "Mennesker kan tælles: færre. »Mindre« bruges om ting, der ikke kan tælles."
+            }
+          },
+          {
+            "options": [
+              "slut",
+              "færdig",
+              "ude",
+              "stop"
+            ],
+            "answer": "slut",
+            "explanation": {
+              "en": "Fixed expression: »langt fra slut« (far from over).",
+              "da": "Fast udtryk: Debatten er langt fra slut."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.3-boligmarkedet",
+      "source": "Øvelsessæt 2.3 · Boligmarkedet",
+      "difficulty": 3,
+      "part2a": {
+        "title": "Mor og far betaler udbetalingen",
+        "text": "Da Sara og Jonas købte deres første lejlighed på Amager sidste år, var de 29 år. Det er ni år under gennemsnittet for førstegangskøbere. Forklaringen er enkel: Saras forældre lånte dem 400.000 kroner til udbetalingen og stillede sig som kautionister for resten af lånet. »Uden dem havde vi stadig boet til leje i 50 kvadratmeter,« siger Sara.\n\nParret er langtfra de eneste. Bankerne melder om et stigende antal boligkøb, hvor forældrene hjælper med penge eller garanti. Boligøkonom Thomas Ravn kalder det en stille revolution på boligmarkedet. »For tyve år siden var det løn og opsparing, der afgjorde, hvornår man kunne købe. I dag er det i stigende grad ens forældres formue,« siger han.\n\nThomas Ravn er ikke imod, at forældre hjælper deres børn. »Det har familier altid gjort, og det er da naturligt, at man vil hjælpe,« siger han. Det, han er bekymret for, er konsekvensen for dem, der ikke kan få hjælp. Når nogle købere har ekstra penge med fra familien, stiger priserne for alle. Og så bliver det endnu sværere for unge uden rige forældre at komme ind på markedet. »Det er ikke den enkelte familie, der gør noget forkert. Det er summen af mange gode intentioner, der skaber et skævt marked,« forklarer han.\n\nIfølge Thomas Ravn er risikoen også, at boligmarkedet bliver med til at øge uligheden fra generation til generation. Den, der køber tidligt, får lov at spare op i sin bolig i mange år, mens den, der lejer, betaler til en udlejer. »Det er ikke bare et spørgsmål om at bo. Det er et spørgsmål om, hvem der bliver rige,« siger han.\n\nHvad der skal gøres, er der ikke enighed om. Nogle politikere vil bygge flere billige boliger, andre vil ændre reglerne for lån. Thomas Ravn peger selv på, at der skal bygges flere små ejerboliger. »Vi bygger enten luksuslejligheder ved havnen eller almene boliger med lange ventelister. Der mangler noget i midten,« siger han.",
+        "questions": [
+          {
+            "question": "Hvad mener Thomas Ravn har ændret sig på boligmarkedet?",
+            "options": [
+              "At det i højere grad er forældrenes økonomi, der afgør, hvornår unge kan købe.",
+              "At bankerne er blevet mere villige til at låne penge til unge.",
+              "At unge i dag sparer mindre op, end de gjorde for tyve år siden."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph two: twenty years ago salary and savings decided when you could buy; today it is increasingly »ens forældres formue« (your parents' wealth).",
+              "da": "Andet afsnit: Før var det løn og opsparing, der afgjorde det. I dag er det i stigende grad »ens forældres formue«."
+            }
+          },
+          {
+            "question": "Hvorfor er Thomas Ravn bekymret over, at forældre hjælper deres børn?",
+            "options": [
+              "Fordi han mener, det er forkert, at forældre blander sig i børnenes økonomi.",
+              "Fordi forældrene risikerer at miste deres penge, hvis boligpriserne falder.",
+              "Fordi det samlet set presser priserne op for alle andre."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Paragraph three: he is »ikke imod« parents helping (so A is wrong). His worry is »summen af mange gode intentioner« – together they push prices up for everyone.",
+              "da": "Tredje afsnit: Han er »ikke imod« forældrehjælp (A er forkert). Bekymringen er »summen af mange gode intentioner«, der presser priserne op."
+            }
+          },
+          {
+            "question": "Hvad foreslår Thomas Ravn?",
+            "options": [
+              "At man forbyder forældre at stille garanti for deres børns lån.",
+              "At man bygger flere mindre boliger, som unge kan købe.",
+              "At man bygger flere almene boliger med kortere ventelister."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Last paragraph: »der skal bygges flere små ejerboliger« (more small owner-occupied homes). C is tempting, but he mentions social housing with long waiting lists as part of the problem.",
+              "da": "Sidste afsnit: »der skal bygges flere små ejerboliger«. C er fristende, men han nævner netop de almene boliger som en del af problemet."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Kan vi bygge os ud af boligkrisen?",
+        "text": "Op til folketingsvalget i marts 2026 lovede næsten alle partier at gøre noget ved boligpriserne i de store byer. Det mest almindelige svar var det samme: Vi skal bygge mere. Men eksperterne er ikke enige om, at det er nok.\n\n{1}\n\nTilhængerne af at bygge mere har et enkelt argument: Når der er flere mennesker, der vil bo i byen, end der er boliger, stiger priserne. Bygger man flere boliger, vil udbuddet stige, og priserne vil falde, eller i hvert fald stige langsommere.\n\n{2}\n\nKritikerne peger på, at der faktisk er blevet bygget meget i København de seneste 20 år. Alligevel er priserne steget. Problemet er ifølge dem, at der især er bygget store og dyre lejligheder, som unge og familier med almindelige indkomster ikke har råd til.\n\n{3}\n\nEt andet forslag er at få flere til at bo i de mindre byer. Flere kommuner i Jylland og på Fyn reklamerer nu med billige huse og kort ventetid i daginstitutionerne. Men det kræver, at der også er arbejdspladser og gode forbindelser til de større byer.\n\n{4}\n\nEndelig er der dem, der mener, at løsningen er at se anderledes på, hvordan vi bor. Den gennemsnitlige dansker har i dag langt flere kvadratmeter end for 50 år siden, og mange ældre bor alene i store huse, selvom børnene for længst er flyttet hjemmefra.\n\n{5}",
+        "parts": {
+          "A": "Det er netop det, der er sket i flere byer i Europa, hvor man har lempet reglerne for byggeri. I nogle tilfælde er huslejen faldet, mens den i andre er steget mindre end i nabobyerne.",
+          "B": "Flere ældre fortæller, at de gerne ville flytte i noget mindre, hvis der fandtes gode seniorboliger i deres eget kvarter. Men det gør der sjældent, og så bliver de boende.",
+          "C": "Derfor foreslår flere, at kommunen skal kunne stille krav om, at en vis andel af nye boliger skal være små og billige. Det kan dog betyde, at bygherrerne bygger mindre, fordi de ikke kan tjene nok.",
+          "D": "For det er ikke kun et spørgsmål om, hvor mange boliger der bygges. Det handler også om, hvilke boliger, hvor de bygges, og hvem der har råd til at bo i dem.",
+          "E": "En undersøgelse viser, at kun hver tredje københavner kunne forestille sig at flytte mere end en times kørsel fra byen. Især jobbet og vennerne holder dem fast.",
+          "F": "Boligpriserne i Aarhus og Odense er også steget, men langt fra så meget som i hovedstaden.",
+          "G": "Politikerne har derfor besluttet at forbyde salg af boliger til udenlandske investorer."
+        },
+        "answers": [
+          "D",
+          "A",
+          "C",
+          "E",
+          "B"
+        ],
+        "explanations": [
+          {
+            "en": "The first paragraph ends: experts don't agree that building more is enough. D explains why: »For det er ikke kun et spørgsmål om, hvor mange boliger der bygges«.",
+            "da": "Første afsnit slutter: »eksperterne er ikke enige om, at det er nok«. D uddyber: »For det er ikke kun et spørgsmål om, hvor mange …«."
+          },
+          {
+            "en": "The paragraph before explains supply and price. A gives examples from Europe: »Det er netop det, der er sket« (that is exactly what has happened).",
+            "da": "Afsnittet før forklarer udbud og pris. A giver eksempler fra Europa: »Det er netop det, der er sket …«."
+          },
+          {
+            "en": "The paragraph before criticises the large, expensive flats. C follows: »Derfor foreslår flere …« (therefore several propose) requiring a share of small, cheap homes.",
+            "da": "Afsnittet før kritiserer de store, dyre lejligheder. C fortsætter: »Derfor foreslår flere …« at stille krav om små boliger."
+          },
+          {
+            "en": "The paragraph before is about moving to smaller towns. E shows that many people in Copenhagen don't want to: only one in three could imagine it.",
+            "da": "Afsnittet før handler om at flytte til mindre byer. E viser, at mange københavnere ikke vil."
+          },
+          {
+            "en": "The paragraph before mentions older people living alone in big houses. B continues with their own explanation: there are rarely good senior homes nearby.",
+            "da": "Afsnittet før nævner ældre i store huse. B fortsætter med de ældres egen forklaring."
+          }
+        ],
+        "unused": {
+          "en": "F and G don't fit. F is a loose fact about Aarhus and Odense that doesn't link to anything in the text. G is a claim the text never makes and fits nowhere.",
+          "da": "F og G passer ikke. F er en løs oplysning, der ikke knytter an til noget i teksten. G er en påstand, teksten ikke nævner, og den passer ikke ind nogen steder."
+        }
+      },
+      "part3": {
+        "title": "Loft over rentefradraget",
+        "text": "Når man har lån i sin bolig, kan man i dag trække en del af renteudgifterne fra i skat. Det kaldes rentefradraget, og det er {1} til, at det bliver billigere at eje en bolig. Den nye regering vil nu indføre et loft over, hvor stort fradraget kan være.\n\nForslaget er blevet {2} med blandede reaktioner. Tilhængerne mener, at det er urimeligt, at staten giver det største tilskud til dem, der har de største lån, og som {3} ofte har de højeste indkomster. De peger også på, at fradraget er med til at presse boligpriserne op.\n\nModstanderne advarer om, at et loft kan {4} boligejere, der allerede har købt dyrt, især i København. »Folk har lagt deres budget ud fra de regler, der gjaldt, da de købte. Det er ikke fair at ændre dem bagefter,« siger en boligejerforening.\n\nØkonomer {5} om, at et loft på kort sigt kan få priserne på de dyreste boliger til at falde lidt. Hvor meget, afhænger af, hvor lavt loftet bliver sat, og hvor hurtigt det bliver {6}.\n\nRegeringen understreger, at langt de fleste boligejere ikke vil {7} ændringen. Loftet er kun tænkt til at ramme de største lån. {8} vil forslaget nok blive et af de mest omdiskuterede i den kommende tid.",
+        "gaps": [
+          {
+            "options": [
+              "ude",
+              "skyld",
+              "grund",
+              "med"
+            ],
+            "answer": "med",
+            "explanation": {
+              "en": "Fixed expression: »være med til, at …« (help to, contribute to).",
+              "da": "Fast udtryk: at være med til, at …"
+            }
+          },
+          {
+            "options": [
+              "sendt",
+              "modtaget",
+              "givet",
+              "taget"
+            ],
+            "answer": "modtaget",
+            "explanation": {
+              "en": "A proposal is »modtaget med blandede reaktioner« (received with mixed reactions).",
+              "da": "Et forslag bliver modtaget med blandede reaktioner."
+            }
+          },
+          {
+            "options": [
+              "alligevel",
+              "desuden",
+              "ellers",
+              "derimod"
+            ],
+            "answer": "desuden",
+            "explanation": {
+              "en": "An addition: they have the largest loans and, moreover (desuden), often the highest incomes.",
+              "da": "Tilføjelse: De har store lån, og desuden har de ofte de højeste indkomster."
+            }
+          },
+          {
+            "options": [
+              "røre",
+              "ramme",
+              "slå",
+              "træffe"
+            ],
+            "answer": "ramme",
+            "explanation": {
+              "en": "A proposal »rammer« (hits) someone, i.e. affects them negatively – here owners who bought expensively.",
+              "da": "Et forslag rammer nogen, dvs. går ud over dem."
+            }
+          },
+          {
+            "options": [
+              "har ret",
+              "er enige",
+              "tror på",
+              "er sikre"
+            ],
+            "answer": "er enige",
+            "explanation": {
+              "en": "Fixed expression: »er enige om« (agree on). Only »enige« takes »om« with this meaning.",
+              "da": "Fast udtryk: Økonomerne er enige om noget."
+            }
+          },
+          {
+            "options": [
+              "indsat",
+              "indskrevet",
+              "indfaset",
+              "indført til"
+            ],
+            "answer": "indfaset",
+            "explanation": {
+              "en": "»Indfase« means to phase in gradually. »Hvor hurtigt det bliver indfaset« = how quickly it is phased in.",
+              "da": "Indfase betyder at indføre gradvist."
+            }
+          },
+          {
+            "options": [
+              "lære",
+              "mærke",
+              "høre",
+              "tænke"
+            ],
+            "answer": "mærke",
+            "explanation": {
+              "en": "Fixed expression: »mærke en ændring« (feel/notice a change). Most homeowners won't notice it.",
+              "da": "Fast udtryk: mærke en ændring."
+            }
+          },
+          {
+            "options": [
+              "Ikke desto mindre",
+              "Således",
+              "Derfor",
+              "Til sidst"
+            ],
+            "answer": "Ikke desto mindre",
+            "explanation": {
+              "en": "A contrast: even though most won't be affected, the proposal will be much debated – so »Ikke desto mindre« (nevertheless), not »Derfor«.",
+              "da": "Kontrast: Selvom de fleste ikke rammes, bliver forslaget omdiskuteret. Derfor passer »derfor« ikke."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.4-kunstig-intelligens",
+      "source": "Øvelsessæt 2.4 · Kunstig intelligens",
+      "difficulty": 4,
+      "part2a": {
+        "title": "AI-kløften på kontoret",
+        "text": "Når man taler om kunstig intelligens på arbejdspladsen, handler debatten ofte om, hvilke job der forsvinder. Ifølge arbejdslivsforsker Signe Bech er det et forkert fokus, i hvert fald på kort sigt. »Indtil videre ser vi ikke, at AI fjerner job i stor stil. Det, vi ser, er, at indholdet af jobbene ændrer sig, og at det sker meget ujævnt,« siger hun.\n\nDet ujævne er netop det, der bekymrer hende. Undersøgelser fra 2026 viser, at omkring syv ud af ti ledere bruger AI i deres arbejde, mens det kun gælder omkring hver tredje medarbejder uden ledelsesansvar. Det er ikke, fordi medarbejderne ikke vil, mener Signe Bech. »Mange har aldrig fået at vide, om de må. Og hvis man ikke ved, om det er tilladt, så lader man være, eller man gør det i smug på sin private telefon. Ingen af delene er godt.«\n\nIsær det sidste er et problem for virksomhederne. Når medarbejdere bruger gratis AI-tjenester uden for virksomhedens systemer, risikerer de at dele fortrolige oplysninger om kunder eller kolleger. »Et forbud løser ikke noget. Folk bruger det alligevel, bare uden at fortælle det. Det eneste, der virker, er klare regler og ordentlig oplæring,« siger Signe Bech.\n\nHun mener ikke, at alle medarbejdere skal være eksperter. Men hun peger på, at det er de medarbejdere, der i forvejen har de mest rutineprægede opgaver, som får mindst oplæring, selvom det netop er deres opgaver, der vil ændre sig mest. »Hvis vi ikke gør noget, ender vi med en ny form for ulighed på arbejdspladsen. Ikke mellem dem, der har et job, og dem, der ikke har. Men mellem dem, der får lov til at udvikle sig, og dem, der bliver tilbage.«\n\nHendes råd til lederne er at begynde med en samtale i stedet for en strategi. »Spørg medarbejderne, hvilke opgaver de bruger mest tid på, og som de helst ville være fri for. Der er ofte svaret på, hvor AI giver mening,« siger hun.",
+        "questions": [
+          {
+            "question": "Hvad mener Signe Bech om debatten om kunstig intelligens på arbejdspladsen?",
+            "options": [
+              "At den overdriver, hvor mange job der vil forsvinde på lang sigt.",
+              "At den fokuserer for meget på job, der forsvinder, i stedet for på hvordan job ændrer sig.",
+              "At den ikke tager det alvorligt nok, at mange job allerede er forsvundet."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph one: talk of disappearing jobs is »et forkert fokus« – what changes is the content of jobs. She says nothing about the long term (A) and says AI isn't removing jobs on a large scale (C).",
+              "da": "Første afsnit: Det er »et forkert fokus, i hvert fald på kort sigt«. Hun udtaler sig ikke om lang sigt (A), og hun siger, at AI ikke fjerner job i stor stil (C)."
+            }
+          },
+          {
+            "question": "Hvorfor bruger mange medarbejdere ikke AI i deres arbejde ifølge Signe Bech?",
+            "options": [
+              "Fordi de er usikre på, om de har lov til det.",
+              "Fordi de ikke har lyst til at lære noget nyt.",
+              "Fordi deres ledere har forbudt det."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph two: »Mange har aldrig fået at vide, om de må« (many were never told whether they may). C is wrong: she says a ban doesn't work, not that managers have banned it.",
+              "da": "Andet afsnit: »Mange har aldrig fået at vide, om de må«. C er forkert: Hun siger, at et forbud ikke virker, men ikke at lederne har forbudt det."
+            }
+          },
+          {
+            "question": "Hvilken ulighed advarer Signe Bech imod?",
+            "options": [
+              "At nogle mister deres job, mens andre beholder det.",
+              "At ledere får mere i løn, fordi de bruger AI.",
+              "At nogle medarbejdere får mulighed for at udvikle sig, mens andre ikke gør."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Paragraph four: the gap is not between those with and without a job (exactly what A says, and she rejects it), but between those allowed to develop and those left behind.",
+              "da": "Fjerde afsnit: »Ikke mellem dem, der har et job, og dem, der ikke har« (A er netop det, hun afviser), »men mellem dem, der får lov til at udvikle sig, og dem, der bliver tilbage«."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Når kommunen svarer med en chatbot",
+        "text": "Ring til Nordhavn Kommune om din affaldsordning en søndag aften, og du får svar med det samme. Det er dog ikke en medarbejder, du taler med, men en chatbot. Siden foråret har kommunen brugt kunstig intelligens til at besvare borgernes mest almindelige spørgsmål døgnet rundt.\n\n{1}\n\nIfølge kommunen besvarer chatbotten i dag omkring 60 procent af henvendelserne uden at et menneske er involveret. Det har frigjort tid i borgerservice, og ventetiden i telefonen er faldet fra et gennemsnit på 14 minutter til under fire.\n\n{2}\n\nIkke alle er begejstrede. Ældre Sagen i kommunen har modtaget klager fra medlemmer, der føler, at de ikke længere kan få fat i et menneske. Nogle oplever, at chatbotten misforstår dem, eller at de bliver sendt i ring mellem forskellige menuer.\n\n{3}\n\nDer er også spørgsmålet om ansvar. Hvis chatbotten giver et forkert svar om fx en ansøgningsfrist, og borgeren derfor mister en ydelse, hvem har så ansvaret? Kommunen fastholder, at chatbotten kun giver generel vejledning og ikke træffer afgørelser.\n\n{4}\n\nEksperter i offentlig forvaltning peger på, at chatbots kan være et godt redskab, hvis de bruges med omtanke. Det afgørende er, at borgerne til enhver tid kan vælge et menneske, og at det offentlige ikke bruger teknologien som en undskyldning for at skære ned.\n\n{5}",
+        "parts": {
+          "A": "Kritikere mener dog, at det er en tynd skelnen. For en borger, der ikke kender reglerne, er der ingen forskel på vejledning og en afgørelse. Man gør det, man får at vide.",
+          "B": "Chatbotten er trænet på kommunens hjemmeside og egne vejledninger. Den kan svare på spørgsmål om alt fra pas og kørekort til tømning af skraldespande, men den må ikke behandle sager om enkeltpersoner.",
+          "C": "Kommunen har derfor indført, at man altid kan skrive »medarbejder« for at blive stillet videre. I åbningstiden sker det inden for få minutter, uden for åbningstiden får man et opkald næste hverdag.",
+          "D": "Medarbejderne bruger i stedet tiden på de komplicerede sager, hvor borgeren har brug for en samtale. »Før brugte jeg halvdelen af dagen på at forklare, hvornår der var storskrald,« siger en medarbejder.",
+          "E": "Også Datatilsynet har vist interesse for ordningen og har bedt kommunen om at redegøre for, hvordan oplysninger fra samtalerne bliver opbevaret.",
+          "F": "I Nordhavn Kommune er man ikke i tvivl. »Teknologien skal gøre os mere tilgængelige, ikke mindre. Den dag, den ikke gør det, stopper vi,« siger borgmesteren.",
+          "G": "Ældre borgere er generelt mere skeptiske over for ny teknologi end yngre. Det viser flere undersøgelser."
+        },
+        "answers": [
+          "B",
+          "D",
+          "C",
+          "A",
+          "F"
+        ],
+        "explanations": [
+          {
+            "en": "The first paragraph introduces the chatbot. B explains what it is trained on and what it may and may not do.",
+            "da": "Første afsnit introducerer chatbotten. B forklarer, hvad den er trænet på, og hvad den må."
+          },
+          {
+            "en": "The paragraph before mentions time freed up in citizen services. D continues: »Medarbejderne bruger i stedet tiden på …« (staff use the time instead on complicated cases).",
+            "da": "Afsnittet før nævner frigjort tid i borgerservice. D fortsætter: »Medarbejderne bruger i stedet tiden på …«."
+          },
+          {
+            "en": "The paragraph before describes complaints about not reaching a human. C answers them: »Kommunen har derfor indført …« – you can always type »medarbejder«.",
+            "da": "Afsnittet før beskriver klager over ikke at kunne få fat i et menneske. C fortsætter: »Kommunen har derfor indført …«."
+          },
+          {
+            "en": "The paragraph before: the municipality says the chatbot only gives guidance, not decisions. A replies: »Kritikere mener dog, at det er en tynd skelnen« (critics say it is a thin distinction).",
+            "da": "Afsnittet før: Kommunen siger, at chatbotten kun giver vejledning. A fortsætter: »Kritikere mener dog, at det er en tynd skelnen«."
+          },
+          {
+            "en": "The experts' condition is that citizens can always choose a human. F is the municipality's answer and the text's ending: the technology must make them more accessible, not less.",
+            "da": "Eksperternes betingelse er, at borgerne altid kan vælge et menneske. F er kommunens svar og tekstens slutning."
+          }
+        ],
+        "unused": {
+          "en": "E and G don't fit. E is about data storage, which the text doesn't otherwise discuss. G is a general claim that might suit gap 3, but C answers the complaints directly by explaining what the municipality did.",
+          "da": "E og G passer ikke. E handler om data, som teksten ellers ikke nævner. G er en generel påstand, der kunne passe efter hul 3, men C svarer direkte på klagerne ved at forklare, hvad kommunen har gjort."
+        }
+      },
+      "part3": {
+        "title": "Retten til sit eget ansigt",
+        "text": "Det er i dag muligt at lave en video, hvor en person tilsyneladende siger eller gør noget, som vedkommende aldrig har sagt eller gjort. Teknologien kaldes deepfake, og den er blevet så {1}, at det kan være næsten umuligt at se forskel på det falske og det ægte.\n\nI 2025 foreslog den danske regering at give alle ophavsret til deres eget ansigt, deres krop og deres stemme. Idéen er, at man {2} kan kræve, at platformene fjerner en deepfake af én selv, uden at man skal bevise, at man har lidt skade.\n\nForslaget blev {3} positivt af mange eksperter, som påpegede, at de nuværende regler er for svage. {4} var der også kritiske røster. Nogle advarede om, at reglen kunne bruges til at fjerne satire og parodier, som er en vigtig del af ytringsfriheden.\n\nRegeringen har derfor lagt vægt på, at satire og parodi fortsat skal være {5}. Det er dog ikke altid let at afgøre, hvornår noget er satire, og hvornår det er et forsøg på at {6} folk.\n\nEn anden udfordring er, at mange af platformene har hovedsæde uden for Danmark. Uden et samarbejde i EU er det {7}, hvor effektivt en dansk lov kan blive håndhævet.\n\nUnder alle omstændigheder har forslaget sat gang i en debat om, hvem der {8} rettighederne til et menneskes udseende i en tid, hvor alt kan kopieres.",
+        "gaps": [
+          {
+            "options": [
+              "overraskende",
+              "overvældende",
+              "overdrevet",
+              "overbevisende"
+            ],
+            "answer": "overbevisende",
+            "explanation": {
+              "en": "The technology is so »overbevisende« (convincing) that you can hardly tell fake from real.",
+              "da": "Teknologien er så overbevisende, at man næsten ikke kan se forskel."
+            }
+          },
+          {
+            "options": [
+              "dertil",
+              "dermed",
+              "derimod",
+              "derudover"
+            ],
+            "answer": "dermed",
+            "explanation": {
+              "en": "A consequence of the proposal: »dermed« (thereby) you can demand that platforms remove a deepfake.",
+              "da": "Følge af forslaget: Dermed kan man kræve, at platformene fjerner en deepfake."
+            }
+          },
+          {
+            "options": [
+              "opstillet",
+              "modtaget",
+              "optaget",
+              "udført"
+            ],
+            "answer": "modtaget",
+            "explanation": {
+              "en": "Fixed expression: »blive modtaget positivt« (be received positively).",
+              "da": "Fast udtryk: blive modtaget positivt."
+            }
+          },
+          {
+            "options": [
+              "Følgelig",
+              "Derfor",
+              "Således",
+              "Samtidig"
+            ],
+            "answer": "Samtidig",
+            "explanation": {
+              "en": "A contrast without »men«: »Samtidig« (at the same time) there were critical voices. »Derfor« and »følgelig« express cause.",
+              "da": "Modsætning uden »men«: Samtidig var der også kritik. »Derfor« og »følgelig« udtrykker årsag."
+            }
+          },
+          {
+            "options": [
+              "tillagt",
+              "tilbudt",
+              "tilladt",
+              "tilpasset"
+            ],
+            "answer": "tilladt",
+            "explanation": {
+              "en": "Satire must still be »tilladt« (allowed) – it is part of free speech. Note the neuter form: satire and parody are something that is allowed.",
+              "da": "Satire skal fortsat være tilladt. Bemærk intetkøn: Satire og parodi er noget, der er tilladt."
+            }
+          },
+          {
+            "options": [
+              "vildlede",
+              "vejlede",
+              "vedtage",
+              "vedlægge"
+            ],
+            "answer": "vildlede",
+            "explanation": {
+              "en": "»Vildlede« means to mislead or deceive, the opposite of satire. »Vejlede« means to give advice.",
+              "da": "At vildlede betyder at narre. At vejlede betyder at hjælpe med råd."
+            }
+          },
+          {
+            "options": [
+              "uklart",
+              "utrygt",
+              "uærligt",
+              "uvenligt"
+            ],
+            "answer": "uklart",
+            "explanation": {
+              "en": "»Det er uklart, hvor effektivt …« (it is unclear how effectively …): without EU cooperation, nobody knows.",
+              "da": "»Det er uklart, hvor effektivt …« betyder, at man ikke ved det."
+            }
+          },
+          {
+            "options": [
+              "står",
+              "bærer",
+              "tager",
+              "ejer"
+            ],
+            "answer": "ejer",
+            "explanation": {
+              "en": "You »eje« (own) the rights to something.",
+              "da": "Man ejer rettighederne til noget."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.5-demokrati-klima",
+      "source": "Øvelsessæt 2.5 · Demokrati og klima",
+      "difficulty": 5,
+      "part2a": {
+        "title": "Demokratiet efter valget",
+        "text": "Det tog 69 dage, fra danskerne gik til stemmeurnerne den 24. marts 2026, til en ny regering blev præsenteret. Aldrig før har det taget så lang tid at danne en dansk regering. For nogle var det et tegn på et politisk system i krise. For statskundskabsforsker Mikkel Lund var det snarere et tegn på det modsatte.\n\n»Lange forhandlinger er ikke i sig selv et problem. De er prisen for, at vi har mange partier, og at intet parti har flertal alene,« siger han. »Det, der ville være bekymrende, var, hvis partierne ikke kunne blive enige overhovedet, eller hvis forhandlingerne foregik på en måde, så vælgerne ikke kunne følge med i, hvad der blev givet og taget.«\n\nMikkel Lund er dog ikke blind for ulemperne ved regeringer, der går på tværs af de traditionelle blokke. Når fire partier med forskellige grundholdninger skal blive enige, bliver resultatet ofte et kompromis, som ingen af partiernes vælgere helt kan genkende. »Der er en risiko for, at vælgerne oplever, at deres stemme blev forhandlet væk. Det kan på sigt svække tilliden til, at det nytter noget at stemme,« siger han.\n\nHan understreger, at den risiko ikke er ny, og at danskerne historisk set har været vant til mindretalsregeringer og brede forlig. Valgdeltagelsen var da også høj ved valget i 2026, omkring 84 procent. »Danskerne stemmer ikke, fordi de forventer, at deres parti får alt igennem. De stemmer, fordi de forventer at få indflydelse på, hvem der sidder ved bordet,« siger Mikkel Lund.\n\nDet afgørende for ham er derfor ikke, hvor lang tid det tager at danne en regering, men hvor gennemskueligt det sker. Han foreslår, at partierne efter fremtidige valg offentliggør de vigtigste punkter, de har givet sig på. »Kompromiser er ikke et nederlag for demokratiet. Det er hemmelighedskræmmeri, der er,« siger han.",
+        "questions": [
+          {
+            "question": "Hvordan vurderer Mikkel Lund de lange regeringsforhandlinger i 2026?",
+            "options": [
+              "Som et udtryk for, at det danske politiske system er i krise.",
+              "Som en naturlig følge af et system med mange partier, hvor ingen har flertal alene.",
+              "Som et problem, fordi vælgerne ikke kunne følge med i forhandlingerne."
+            ],
+            "answer": 1,
+            "explanation": {
+              "en": "Paragraph two: long negotiations »er prisen for, at vi har mange partier« (the price of having many parties). C describes what he would find worrying, not what he observes about 2026.",
+              "da": "Andet afsnit: »De er prisen for, at vi har mange partier«. C er det, han ville finde bekymrende, ikke det, han konstaterer om 2026."
+            }
+          },
+          {
+            "question": "Hvilken risiko ser Mikkel Lund ved regeringer på tværs af de traditionelle blokke?",
+            "options": [
+              "At vælgerne kan få en følelse af, at deres stemme ikke fik betydning.",
+              "At regeringen ikke kan få vedtaget sine forslag i Folketinget.",
+              "At partierne ikke kan blive enige om noget som helst."
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Paragraph three: there is a »risiko for, at vælgerne oplever, at deres stemme blev forhandlet væk« (voters may feel their vote was negotiated away). C is only a hypothetical worry from paragraph two.",
+              "da": "Tredje afsnit: Der er »risiko for, at vælgerne oplever, at deres stemme blev forhandlet væk«. C nævnes i andet afsnit som en hypotetisk bekymring, ikke som en risiko ved blokoverskridende regeringer."
+            }
+          },
+          {
+            "question": "Hvad mener Mikkel Lund er det vigtigste for demokratiet?",
+            "options": [
+              "At regeringer bliver dannet hurtigt efter et valg.",
+              "At færre partier stiller op til valget.",
+              "At det er åbent for vælgerne, hvilke indrømmelser partierne har gjort."
+            ],
+            "answer": 2,
+            "explanation": {
+              "en": "Last paragraph: what matters is not the time it takes but transparency – parties should publish what they gave up. »Hemmelighedskræmmeri« (secrecy) is the defeat, not compromise.",
+              "da": "Sidste afsnit: Det afgørende er ikke tiden, men gennemsigtigheden. »Hemmelighedskræmmeri« er nederlaget, ikke kompromiset."
+            }
+          }
+        ]
+      },
+      "part2b": {
+        "title": "Kan man lovgive sig ud af skærmen?",
+        "text": "I september 2026 sendte regeringen et lovforslag i høring, der skal indføre en national aldersgrænse på 15 år for sociale medier. Forslaget har bred opbakning i Folketinget og ventes at træde i kraft den 1. juli 2027. Danmark er dermed blandt de første lande i Europa, der går så langt.\n\n{1}\n\nBaggrunden er en lang række undersøgelser, der viser, at børn bliver udsat for voldsomt indhold, mobning og afpresning på platformene. Ifølge Børns Vilkår har 94 procent af børnene i 7. klasse haft en profil på et socialt medie, inden de fyldte 13 år, selvom de fleste platforme allerede i dag har en aldersgrænse på 13.\n\n{2}\n\nLovforslaget fastsætter ikke, hvordan alderen skal kontrolleres. Det er op til platformene selv at finde en løsning, og det er EU-Kommissionen, ikke de danske myndigheder, der skal sikre, at de store platforme overholder reglerne.\n\n{3}\n\nKritikerne frygter, at aldersgrænsen vil skubbe børnene over på mindre og mere ukontrollerede tjenester, hvor de er endnu dårligere beskyttet. De peger også på, at mange børn bruger sociale medier til at holde kontakt med venner og familie, og at et forbud kan ramme de børn hårdest, der i forvejen har svært ved at finde fællesskaber.\n\n{4}\n\nTilhængerne afviser ikke, at loven vil være svær at håndhæve fuldt ud. Men de påpeger, at også aldersgrænserne for alkohol og tobak bliver overtrådt, uden at nogen af den grund foreslår at afskaffe dem. En lov kan ændre normen, selvom den ikke kan forhindre alle overtrædelser.\n\n{5}",
+        "parts": {
+          "A": "Netop den aldersgrænse viser problemet. Den står i platformenes egne betingelser, men i praksis kontrolleres den sjældent, og det er nok at skrive en forkert fødselsdato.",
+          "B": "Det betyder, at loven i høj grad afhænger af, om det lykkes at få en fælles europæisk løsning. Uden den risikerer Danmark at stå med en lov, som er vanskelig at håndhæve.",
+          "C": "Forslaget bygger på en politisk aftale om digital børnebeskyttelse fra november 2025, som afsatte 160 millioner kroner til området i perioden 2026–2029.",
+          "D": "Hertil kommer et principielt spørgsmål: Hvis platformene skal kende brugernes alder, skal alle brugere, også voksne, i princippet dokumentere, hvem de er. Det rejser spørgsmål om privatliv, som endnu ikke er besvaret.",
+          "E": "»Ingen forventer, at der aldrig vil sidde en 13-årig på TikTok igen. Men når det er forbudt, får forældrene et argument, de ikke har i dag,« lyder det fra en af forslagets fortalere.",
+          "F": "Undersøgelser viser i øvrigt, at piger bruger mere tid på sociale medier end drenge, mens drenge bruger mere tid på computerspil.",
+          "G": "Platformene har allerede reageret ved at lukke alle profiler tilhørende brugere under 15 år i Danmark."
+        },
+        "answers": [
+          "C",
+          "A",
+          "B",
+          "D",
+          "E"
+        ],
+        "explanations": [
+          {
+            "en": "The first paragraph presents the bill. C gives the background of the bill itself: »Forslaget bygger på en politisk aftale …« (the proposal is based on a political agreement).",
+            "da": "Første afsnit præsenterer lovforslaget. C giver baggrunden for selve forslaget: den politiske aftale."
+          },
+          {
+            "en": "The paragraph before notes that most platforms already have an age limit of 13. A continues: »Netop den aldersgrænse viser problemet« (that very age limit shows the problem).",
+            "da": "Afsnittet før nævner, at de fleste platforme har en aldersgrænse på 13. A fortsætter: »Netop den aldersgrænse viser problemet«."
+          },
+          {
+            "en": "The paragraph before says the EU Commission must enforce the rules. B follows: »Det betyder, at loven i høj grad afhænger af …« a common European solution.",
+            "da": "Afsnittet før siger, at EU-Kommissionen skal håndhæve reglerne. B fortsætter: »Det betyder, at loven i høj grad afhænger af … en fælles europæisk løsning«."
+          },
+          {
+            "en": "The paragraph before sets out the critics' practical arguments. D adds another: »Hertil kommer et principielt spørgsmål« (on top of that comes a question of principle) about privacy.",
+            "da": "Afsnittet før fremlægger kritikernes praktiske argumenter. D tilføjer: »Hertil kommer et principielt spørgsmål«."
+          },
+          {
+            "en": "The paragraph before gives the supporters' argument that a law can change the norm. E is a quote from a supporter that makes this concrete.",
+            "da": "Afsnittet før er tilhængernes argument om, at en lov kan ændre normen. E er et citat, der gør det konkret."
+          }
+        ],
+        "unused": {
+          "en": "F and G don't fit. F (girls vs. boys' screen time) is a loose fact unrelated to the argument. G contradicts the text: the law has not yet come into force.",
+          "da": "F og G passer ikke. F er en løs oplysning uden forbindelse til tekstens argumentation. G er i modstrid med teksten: Loven er endnu ikke trådt i kraft."
+        }
+      },
+      "part3": {
+        "title": "Drikkevandet under pres",
+        "text": "Danmark er et af de få lande i verden, hvor man kan drikke vand direkte fra hanen uden omfattende rensning. Det er en ressource, som mange danskere tager for givet, men som i stigende grad er {1} pres.\n\nDe seneste år har vandværkerne fundet rester af pesticider i et stort antal boringer. I mange tilfælde er der tale om stoffer, der for længst er forbudt, men som {2} siver ned gennem jorden årtier efter, at de blev brugt.\n\nRegeringen vil nu forbyde sprøjtning i de mest sårbare områder. Forslaget har længe været et krav fra vandværkerne, {3} landbruget har udtrykt bekymring for de økonomiske konsekvenser for den enkelte landmand.\n\nIfølge landbrugets organisationer er det ikke rimeligt, at enkelte landmænd skal {4} regningen for et problem, som samfundet som helhed har et ansvar for. De kræver fuld erstatning og peger på, at mange landmænd allerede har ændret deres praksis {5} eget initiativ.\n\nVandværkerne anerkender, at erstatningen skal være rimelig. De understreger dog, at det på {6} vil være langt dyrere at rense vandet end at undgå forureningen i første omgang. Erfaringer fra andre lande viser, at avanceret rensning kan {7} vandprisen markant.\n\nSpørgsmålet handler i sidste ende om prioritering. Skal hensynet til fremtidens drikkevand veje tungere end hensynet til den enkelte landmands økonomi, eller kan de to hensyn {8}?",
+        "gaps": [
+          {
+            "options": [
+              "på",
+              "under",
+              "med",
+              "i"
+            ],
+            "answer": "under",
+            "explanation": {
+              "en": "Fixed expression: »være under pres« (be under pressure).",
+              "da": "Fast udtryk: være under pres."
+            }
+          },
+          {
+            "options": [
+              "fortsætter",
+              "fortsat",
+              "fortsatte",
+              "fortsættelse"
+            ],
+            "answer": "fortsat",
+            "explanation": {
+              "en": "An adverb is needed: »fortsat« means still. »Fortsætter« is a verb, and the clause already has one (siver).",
+              "da": "Et biord: fortsat betyder stadig. »Fortsætter« er et verbum, og sætningen har allerede et (siver)."
+            }
+          },
+          {
+            "options": [
+              "eftersom",
+              "idet",
+              "fordi",
+              "mens"
+            ],
+            "answer": "mens",
+            "explanation": {
+              "en": "A contrast between two simultaneous facts: the waterworks want it, while (mens) agriculture is worried. »Fordi«, »eftersom« and »idet« express cause.",
+              "da": "Modsætning mellem to samtidige forhold: mens. »Fordi«, »eftersom« og »idet« udtrykker årsag."
+            }
+          },
+          {
+            "options": [
+              "give",
+              "betale",
+              "holde",
+              "skrive"
+            ],
+            "answer": "betale",
+            "explanation": {
+              "en": "Fixed expression: »betale regningen« (pay the bill), meaning bear the cost.",
+              "da": "Fast udtryk: betale regningen."
+            }
+          },
+          {
+            "options": [
+              "til",
+              "for",
+              "på",
+              "med"
+            ],
+            "answer": "på",
+            "explanation": {
+              "en": "Fixed expression: »på eget initiativ« (on their own initiative).",
+              "da": "Fast udtryk: på eget initiativ."
+            }
+          },
+          {
+            "options": [
+              "længe",
+              "længere sigt",
+              "lang tid",
+              "længst"
+            ],
+            "answer": "længere sigt",
+            "explanation": {
+              "en": "Fixed expression: »på længere sigt« (in the longer term).",
+              "da": "Fast udtryk: på længere sigt."
+            }
+          },
+          {
+            "options": [
+              "fordybe",
+              "fordele",
+              "fordrive",
+              "fordoble"
+            ],
+            "answer": "fordoble",
+            "explanation": {
+              "en": "»Fordoble« means to double, which fits »markant« (significantly) about the water price. The other words only look similar.",
+              "da": "Fordoble betyder at gøre dobbelt så stor. Det passer til »markant«. De andre ord ligner kun i stavning."
+            }
+          },
+          {
+            "options": [
+              "forlænges",
+              "forenes",
+              "forstås",
+              "forbydes"
+            ],
+            "answer": "forenes",
+            "explanation": {
+              "en": "Two considerations can be »forenes« (reconciled), i.e. made to fit together – the alternative to one weighing more than the other.",
+              "da": "To hensyn kan forenes, dvs. bringes til at passe sammen."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

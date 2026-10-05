@@ -126,8 +126,7 @@ struct InkButtonStyle: ButtonStyle {
             .background(Theme.buttonFill.opacity(isEnabled ? 1 : 0.35),
                         in: RoundedRectangle(cornerRadius: Theme.controlRadius, style: .continuous))
             .foregroundStyle(Theme.buttonText)
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
+            .pressEffect(configuration.isPressed)
     }
 }
 
@@ -142,17 +141,30 @@ struct PaperButtonStyle: ButtonStyle {
             .overlay(RoundedRectangle(cornerRadius: Theme.controlRadius, style: .continuous)
                 .strokeBorder(Theme.edge, lineWidth: 1))
             .foregroundStyle(Theme.ink)
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
+            .pressEffect(configuration.isPressed)
     }
 }
 
-/// Press feedback for anything card-shaped.
+/// Press feedback for anything tappable that is not a full-width button: cards, chips,
+/// text buttons, words. `scale` is smaller for big surfaces so they do not lurch.
 struct PressStyle: ButtonStyle {
+    var scale: CGFloat = 0.96
+
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
+            .pressEffect(configuration.isPressed, scale: scale)
+    }
+}
+
+extension View {
+    /// The one press animation every tappable surface shares: a quick springy shrink,
+    /// a slight fade, and a light tap the moment the finger lands.
+    func pressEffect(_ isPressed: Bool, scale: CGFloat = 0.97) -> some View {
+        self
+            .scaleEffect(isPressed ? scale : 1)
+            .opacity(isPressed ? 0.86 : 1)
+            .animation(.spring(response: 0.22, dampingFraction: 0.62), value: isPressed)
+            .sensoryFeedback(.impact(weight: .light, intensity: 0.6), trigger: isPressed) { _, pressed in pressed }
     }
 }
 

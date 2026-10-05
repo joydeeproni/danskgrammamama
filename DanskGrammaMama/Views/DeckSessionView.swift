@@ -45,6 +45,7 @@ struct DeckSessionView: View {
     @State private var started = Date()
     @State private var remaining = 0
     @State private var confirmQuit = false
+    @State private var skipped: Set<String> = []
     private let ticker = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     init(questions: [Question], kinds: [String: DailyKind] = [:], title: String,
@@ -119,7 +120,8 @@ struct DeckSessionView: View {
                 QuestionCard(question: q, label: label(for: q), reveal: !isExam,
                              inputMode: progress.settings.inputMode,
                              onComplete: { correct, given in record(q, correct, given) },
-                             onContinue: { throwCard(direction: -1) })
+                             onContinue: { throwCard(direction: -1) },
+                             onSkip: left > 1 ? { skip() } : nil)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .paper(lifted: drag != .zero)
                     .offset(drag)
@@ -140,7 +142,7 @@ struct DeckSessionView: View {
                     .font(.ui(14, relativeTo: .footnote))
                     .foregroundStyle(Theme.ink)
                     .contentTransition(.numericText(countsDown: true))
-                Text(isExam ? "Svarene vises, når prøven er slut." : cardDone ? "Træk kortet væk, eller tryk Fortsæt." : " ")
+                Text(footerHint)
                     .font(.ui(13, relativeTo: .caption))
                     .foregroundStyle(Theme.pencil)
             }
@@ -148,12 +150,21 @@ struct DeckSessionView: View {
         }
     }
 
+    private var footerHint: String {
+        let later = questions[index...].filter { skipped.contains($0.id) }.count
+        if later > 0 { return "\(later) sprunget over, de kommer til sidst" }
+        if isExam { return "Svarene vises, når prøven er slut." }
+        return cardDone ? "Træk kortet væk, eller tryk Fortsæt." : " "
+    }
+
     private func label(for q: Question) -> String? {
+        if skipped.contains(q.id) { return "Sprunget over" }
         if allReviews { return "Gentagelse" }
         switch kinds[q.id] {
         case .review: return "Gentagelse"
         case .weak: return "Svageste emne"
         case .fresh: return progress.isUnseen(q) ? "Ny" : nil
+        case .reading: return "Læsning"
         case nil: return nil
         }
     }
@@ -224,6 +235,24 @@ struct DeckSessionView: View {
         }
     }
 
+    /// Puts the current card at the bottom of the pile, unanswered, to come back to later.
+    private func skip() {
+        guard !cardDone, index < questions.count - 1 else { return }
+        Haptics.tap()
+        skipped.insert(questions[index].id)
+        withAnimation(reduceMotion ? .easeOut(duration: 0.15) : .spring(response: 0.4, dampingFraction: 0.9)) {
+            drag = CGSize(width: 0, height: 520)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + (reduceMotion ? 0.15 : 0.24)) {
+            var t = Transaction()
+            t.disablesAnimations = true
+            withTransaction(t) { drag = .zero }
+            withAnimation(.spring(response: 0.5, dampingFraction: 0.86)) {
+                questions.append(questions.remove(at: index))
+            }
+        }
+    }
+
     private func throwCard(direction: CGFloat) {
         guard cardDone else { return }
         Haptics.soft()
@@ -251,6 +280,7 @@ struct DeckSessionView: View {
             progress.recordExam(ExamResult(date: .now, score: score, total: questions.count,
                                            seconds: Int(Date().timeIntervalSince(started))))
         }
+        progress.logReadiness(progress.overallReadiness(content: content))
         withAnimation(.spring(response: 0.6, dampingFraction: 0.86)) { finished = true }
     }
 
@@ -259,6 +289,7 @@ struct DeckSessionView: View {
         let set = builder.daily(builder.dailyPlan())
         before = progress.readiness(content: content)
         answered = []
+        skipped = []
         index = 0
         started = .now
         questions = set.questions
@@ -497,7 +528,7 @@ private struct MissRow: View {
                         .fixedSize(horizontal: false, vertical: true)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(PressStyle(scale: 0.98))
                 .accessibilityHint(open ? "Viser mindre" : "Viser hele forklaringen")
             }
         }

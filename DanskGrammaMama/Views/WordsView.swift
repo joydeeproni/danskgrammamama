@@ -12,6 +12,7 @@ struct WordsView: View {
     @State private var drag: CGSize = .zero
     @State private var horizontalDrag: Bool?
     @State private var searchText = ""
+    @State private var skipped: Set<String> = []
 
     private var card: Flashcard? { index < deck.count ? deck[index] : nil }
 
@@ -78,22 +79,24 @@ struct WordsView: View {
         if let card {
             VStack(spacing: 18) {
                 PaperStack(sheets: deck.count - index - 1, seed: 33) {
-                    FlipCard(flipped: flipped) {
-                        cardFront(card)
-                    } back: {
-                        cardBack(card)
+                    Button { turn() } label: {
+                        FlipCard(flipped: flipped) {
+                            cardFront(card)
+                        } back: {
+                            cardBack(card)
+                        }
+                        .frame(maxWidth: .infinity, minHeight: 300)
+                        .contentShape(Rectangle())
                     }
-                    .frame(maxWidth: .infinity, minHeight: 300)
+                    .buttonStyle(PressStyle(scale: 0.98))
                     .paper(lifted: drag != .zero)
                     .overlay(alignment: .top) { stamps }
                     .offset(drag)
                     .rotationEffect(.degrees(Double(drag.width) * 0.065), anchor: .bottom)
-                    .onTapGesture { turn() }
                     .simultaneousGesture(dragGesture)
                     .id(card.id)
                     .transition(.asymmetric(insertion: .scale(scale: 0.97, anchor: .top).combined(with: .opacity),
                                             removal: .identity))
-                    .accessibilityAddTraits(.isButton)
                     .accessibilityHint(flipped ? "" : "Vender kortet")
                 }
                 .padding(.bottom, 34)
@@ -104,13 +107,22 @@ struct WordsView: View {
                     Button("Kunne den") { answer(true) }
                         .buttonStyle(InkButtonStyle())
                 }
-                .disabled(!flipped)
-                .opacity(flipped ? 1 : 0.45)
-                .animation(.easeOut(duration: 0.2), value: flipped)
 
-                Text("\(index + 1) af \(deck.count)")
-                    .font(.ui(13).monospacedDigit())
-                    .foregroundStyle(Theme.pencil)
+                HStack {
+                    Text(progressLine)
+                        .font(.ui(13).monospacedDigit())
+                        .foregroundStyle(Theme.pencil)
+                    Spacer()
+                    if deck.count - index > 1 {
+                        Button { skip() } label: {
+                            Label("Spring over", systemImage: "arrow.uturn.down")
+                                .font(.ui(14, .semibold))
+                        }
+                        .foregroundStyle(Theme.ink)
+                        .buttonStyle(PressStyle())
+                        .accessibilityHint("Lægger kortet nederst i bunken")
+                    }
+                }
             }
         } else {
             VStack(alignment: .leading, spacing: 12) {
@@ -209,12 +221,12 @@ struct WordsView: View {
         DragGesture(minimumDistance: 14)
             .onChanged { v in
                 if horizontalDrag == nil { horizontalDrag = abs(v.translation.width) > abs(v.translation.height) }
-                guard horizontalDrag == true, flipped else { return }
+                guard horizontalDrag == true else { return }
                 drag = v.translation
             }
             .onEnded { v in
                 defer { horizontalDrag = nil }
-                guard horizontalDrag == true, flipped else { return }
+                guard horizontalDrag == true else { return }
                 if abs(v.translation.width) > 110 || abs(v.predictedEndTranslation.width) > 260 {
                     answer(v.translation.width > 0)
                 } else {
@@ -229,8 +241,35 @@ struct WordsView: View {
         }
     }
 
+    private var progressLine: String {
+        let left = deck.count - index
+        let later = deck[index...].filter { skipped.contains($0.id) }.count
+        return later > 0 ? "\(left) tilbage · \(later) sprunget over" : "\(index + 1) af \(deck.count)"
+    }
+
+    /// Puts the card at the bottom of the pile to come back to later.
+    private func skip() {
+        guard index < deck.count - 1 else { return }
+        Haptics.tap()
+        skipped.insert(deck[index].id)
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.9)) {
+            drag = CGSize(width: 0, height: 420)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.22) {
+            var t = Transaction()
+            t.disablesAnimations = true
+            withTransaction(t) {
+                drag = .zero
+                flipped = false
+            }
+            withAnimation(.spring(response: 0.5, dampingFraction: 0.86)) {
+                deck.append(deck.remove(at: index))
+            }
+        }
+    }
+
     private func answer(_ wasKnown: Bool) {
-        guard let card, flipped else { return }
+        guard let card else { return }
         flashcards.markReviewed(card, known: wasKnown)
         if wasKnown { known += 1 }
         Haptics.soft()

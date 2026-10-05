@@ -76,6 +76,7 @@ struct WriteView: View {
                     taskIndex = (taskIndex + 1) % WriteView.tasks.count
                     reset()
                 }
+                .buttonStyle(PressStyle())
                 .font(.ui(15, relativeTo: .subheadline))
             }
             Text(task.da).font(.serif(17)).fixedSize(horizontal: false, vertical: true)

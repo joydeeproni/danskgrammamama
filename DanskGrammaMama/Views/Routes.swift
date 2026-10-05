@@ -11,6 +11,8 @@ enum Route: Hashable {
     case review(topic: String?, count: Int)
     case verbDrill(irregularOnly: Bool, count: Int)
     case exam(minutes: Int)
+    /// A whole Læseforståelse 2 set (2A, 2B, 3); nil picks the next one not yet done.
+    case readingSet(String?)
     case topics
     case topic(String)
     case words
@@ -48,6 +50,11 @@ struct RouteDestinations: ViewModifier {
                             title: irregularOnly ? "Uregelmæssige verber" : "Verber")
         case .exam(let minutes):
             DeckSessionView(questions: builder.exam(count: 20), title: "Prøvesæt", mode: .exam(minutes: minutes))
+        case .readingSet(let id):
+            let setID = id ?? content.readingSetIDs.first { sid in
+                content.readingSet(sid).contains { progress.isUnseen($0) }
+            } ?? content.readingSetIDs.first ?? ""
+            DeckSessionView(questions: content.readingSet(setID), title: "Læseforståelse 2")
         case .topics:
             TopicsView()
         case .topic(let id):

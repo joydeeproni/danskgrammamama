@@ -16,20 +16,26 @@ struct SentenceView: View {
     let gapState: (Int) -> GapState
     let gapNumber: (Int) -> Int?          // nil hides the little gap number
     var font: Font = .serif(21)
+    /// Long reading texts get a fainter underline so the page does not look busy.
+    var quiet = false
     var onWordTap: (String) -> Void
 
     @Environment(Glossary.self) private var glossary
 
     var body: some View {
         FlowLayout(lineSpacing: 8) {
-            ForEach(Array(tokens.enumerated()), id: \.offset) { _, token in
-                switch token {
-                case .word(let text, let lookupable):
-                    WordChip(text: text, lookupable: lookupable, font: font) { onWordTap(text) }
-                case .plain(let text):
-                    Text(text).font(font).foregroundStyle(Theme.ink)
-                case .gap(let index):
-                    GapChip(state: gapState(index), number: gapNumber(index), font: font)
+            ForEach(Array(units.enumerated()), id: \.offset) { _, unit in
+                HStack(alignment: .firstTextBaseline, spacing: 0) {
+                    if !unit.leading.isEmpty { Text(unit.leading).font(font).foregroundStyle(Theme.ink) }
+                    switch unit.core {
+                    case .word(let text, let lookupable):
+                        WordChip(text: text, lookupable: lookupable, quiet: quiet, font: font) { onWordTap(text) }
+                    case .gap(let index):
+                        GapChip(state: gapState(index), number: gapNumber(index), font: font)
+                    case .none:
+                        EmptyView()
+                    }
+                    if !unit.trailing.isEmpty { Text(unit.trailing).font(font).foregroundStyle(Theme.ink) }
                 }
             }
         }
@@ -39,6 +45,44 @@ struct SentenceView: View {
         case word(String, Bool)
         case plain(String)
         case gap(Int)
+    }
+
+    /// A word or gap with the punctuation that belongs to it, so a line never starts
+    /// with a comma: trailing marks and spaces stick to the word before, opening marks
+    /// like » stick to the word after.
+    private struct Unit {
+        enum Core { case word(String, Bool), gap(Int), none }
+        var leading = ""
+        var core: Core
+        var trailing = ""
+    }
+
+    private var units: [Unit] {
+        var units: [Unit] = []
+        var pending = ""
+        for token in tokens {
+            switch token {
+            case .word(let w, let lookupable):
+                units.append(Unit(leading: pending, core: .word(w, lookupable)))
+                pending = ""
+            case .gap(let i):
+                units.append(Unit(leading: pending, core: .gap(i)))
+                pending = ""
+            case .plain(let text):
+                guard !units.isEmpty else { pending += text; continue }
+                if let cut = text.lastIndex(where: \.isWhitespace) {
+                    units[units.count - 1].trailing += String(text[...cut])
+                    pending += String(text[text.index(after: cut)...])
+                } else {
+                    units[units.count - 1].trailing += text
+                }
+            }
+        }
+        if !pending.isEmpty {
+            if units.isEmpty { units.append(Unit(leading: pending, core: .none)) }
+            else { units[units.count - 1].trailing += pending }
+        }
+        return units
     }
 
     /// Splits the sentence into words, the punctuation and spaces around them, and gaps.
@@ -76,6 +120,7 @@ struct SentenceView: View {
 private struct WordChip: View {
     let text: String
     let lookupable: Bool
+    var quiet = false
     let font: Font
     let action: () -> Void
 
@@ -84,12 +129,12 @@ private struct WordChip: View {
             Button(action: action) {
                 Text(text)
                     .font(font)
-                    .underline(true, pattern: .dot, color: Theme.pencil.opacity(0.7))
+                    .underline(true, pattern: .dot, color: Theme.pencil.opacity(quiet ? 0.3 : 0.7))
                     .foregroundStyle(Theme.ink)
                     .contentShape(Rectangle())
             }
-            .buttonStyle(.plain)
-            .accessibilityHint("Shows the meaning of \(text)")
+            .buttonStyle(PressStyle(scale: 0.9))
+            .accessibilityHint("Viser, hvad \(text) betyder")
         } else {
             Text(text).font(font).foregroundStyle(Theme.ink)
         }

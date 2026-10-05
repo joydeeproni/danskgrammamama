@@ -14,6 +14,8 @@ struct QuestionCard: View {
     let onComplete: (_ correct: Bool, _ given: [String]) -> Void
     /// Called from the back of the card.
     let onContinue: () -> Void
+    /// Sends the card to the bottom of the pile. Nil hides the button.
+    var onSkip: (() -> Void)? = nil
 
     @Environment(ProgressStore.self) private var progress
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -32,7 +34,9 @@ struct QuestionCard: View {
     @FocusState private var fieldFocused: Bool
 
     init(question: Question, label: String?, reveal: Bool, inputMode: InputMode,
-         onComplete: @escaping (Bool, [String]) -> Void, onContinue: @escaping () -> Void) {
+         onComplete: @escaping (Bool, [String]) -> Void, onContinue: @escaping () -> Void,
+         onSkip: (() -> Void)? = nil) {
+        self.onSkip = onSkip
         self.question = question
         self.label = label
         self.reveal = reveal
@@ -40,7 +44,8 @@ struct QuestionCard: View {
         self.inputMode = inputMode == .mixed ? (question.id.hashValue & 1 == 0 ? .choice : .typed) : inputMode
         self.onComplete = onComplete
         self.onContinue = onContinue
-        _options = State(initialValue: question.blanks.map { $0.options.shuffled() })
+        // Reading tasks keep the paper's order, because the letters A, B, C … matter.
+        _options = State(initialValue: question.blanks.map { question.reading == nil ? $0.options.shuffled() : $0.options })
         _given = State(initialValue: Array(repeating: "", count: question.blanks.count))
         _verdicts = State(initialValue: Array(repeating: nil, count: question.blanks.count))
     }
@@ -81,23 +86,131 @@ struct QuestionCard: View {
 
     // MARK: Front
 
+    @ViewBuilder
     private var front: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            HStack(spacing: 8) {
-                Art(topic: question.topic, size: 30)
-                Text(topicTitle)
+        if let reading = question.reading {
+            readingFront(reading)
+        } else {
+            gapFront
+        }
+    }
+
+    private var cardHeader: some View {
+        HStack(spacing: 8) {
+            Art(topic: question.topic, size: 30)
+            Text(topicTitle)
+                .font(.ui(14, .semibold, relativeTo: .subheadline))
+                .foregroundStyle(Theme.ink)
+                .lineLimit(1)
+            Spacer(minLength: 8)
+            if let label {
+                Text(label)
+                    .font(.ui(12.5, .medium, relativeTo: .caption))
+                    .foregroundStyle(Theme.pencil)
+                    .padding(.horizontal, 9).padding(.vertical, 4)
+                    .background(Theme.chip, in: Capsule())
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var skipButton: some View {
+        if let onSkip, verdicts.allSatisfy({ $0 == nil }) {
+            Button(action: onSkip) {
+                Label("Spring over", systemImage: "arrow.uturn.down")
                     .font(.ui(14, .semibold, relativeTo: .subheadline))
-                    .foregroundStyle(Theme.ink)
-                    .lineLimit(1)
-                Spacer(minLength: 8)
-                if let label {
-                    Text(label)
-                        .font(.ui(12.5, .medium, relativeTo: .caption))
-                        .foregroundStyle(Theme.pencil)
-                        .padding(.horizontal, 9).padding(.vertical, 4)
-                        .background(Theme.chip, in: Capsule())
+                    .foregroundStyle(Theme.pencil)
+                    .frame(maxWidth: .infinity, minHeight: 40)
+                    .contentShape(Rectangle())
+            }
+            .buttonStyle(PressStyle())
+            .padding(.top, 8)
+            .accessibilityHint("Lægger kortet nederst i bunken, så du kan tage det senere")
+        }
+    }
+
+    /// A Læseforståelse task: the text, then the question or the parts to place.
+    private func readingFront(_ reading: ReadingInfo) -> some View {
+        VStack(alignment: .leading, spacing: 0) {
+            cardHeader.padding(.bottom, 12)
+            Text(instruction)
+                .font(.ui(14, relativeTo: .subheadline))
+                .foregroundStyle(Theme.pencil)
+                .padding(.bottom, 10)
+
+            ScrollViewReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 12) {
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text(reading.title)
+                                .font(.serif(22, .semibold, relativeTo: .title3))
+                                .foregroundStyle(Theme.ink)
+                            Text("\(reading.part.title) · \(reading.source)")
+                                .font(.ui(12.5, relativeTo: .caption))
+                                .foregroundStyle(Theme.pencil)
+                        }
+                        .padding(.bottom, 4)
+
+                        ForEach(Array(question.paragraphs.enumerated()), id: \.offset) { _, paragraph in
+                            SentenceView(segments: paragraph,
+                                         gapState: gapState(_:),
+                                         gapNumber: { reading.part == .part2a ? nil : $0 + 1 },
+                                         font: .serif(17, relativeTo: .body),
+                                         quiet: true,
+                                         onWordTap: { tappedWord = $0 })
+                        }
+
+                        if reading.part != .part3 {
+                            Rectangle().fill(Theme.rule).frame(height: 0.75).padding(.vertical, 6)
+                            if let q = blank.question {
+                                Text(q)
+                                    .font(.ui(17, .semibold, relativeTo: .headline))
+                                    .foregroundStyle(Theme.ink)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                            VStack(spacing: 0) { readingOptions }.id("options")
+                            skipButton
+                        }
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.bottom, 8)
+                }
+                .scrollBounceBehavior(.basedOnSize)
+                .onChange(of: current) { _, _ in
+                    guard reading.part == .part2a else { return }
+                    withAnimation(.spring(response: 0.5, dampingFraction: 0.9)) { proxy.scrollTo("options", anchor: .center) }
                 }
             }
+
+            if reading.part == .part3 {
+                Spacer(minLength: 12)
+                optionGrid
+                skipButton
+            }
+        }
+        .padding(22)
+    }
+
+    /// Lettered options for 2A and 2B. In 2B a part already placed is not offered again.
+    private var readingOptions: some View {
+        let used = Set(given.prefix(current))
+        let opts = options[current].filter { !used.contains($0) || $0 == given[current] }
+        return VStack(spacing: 8) {
+            ForEach(opts, id: \.self) { option in
+                OptionButton(text: option, state: optionState(option), centered: false,
+                             letter: question.letter(of: option, inBlank: current)) {
+                    submit(option)
+                }
+                .disabled(verdicts[current] != nil)
+            }
+        }
+        .id(current)
+        .transition(.opacity.combined(with: .offset(y: 8)))
+    }
+
+    private var gapFront: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            cardHeader
             .padding(.bottom, 14)
 
             Text(instruction)
@@ -127,11 +240,19 @@ struct QuestionCard: View {
             } else {
                 optionGrid
             }
+
+            skipButton
         }
         .padding(22)
     }
 
     private var instruction: String {
+        switch question.reading?.part {
+        case .part2a: return "Spørgsmål \(current + 1) af \(question.blanks.count) · vælg A, B eller C"
+        case .part2b: return "Hul \(current + 1) af \(question.blanks.count) · vælg den tekstdel, der passer"
+        case .part3: return "Hul \(current + 1) af \(question.blanks.count) · vælg det ord, der passer"
+        case nil: break
+        }
         if question.isCloze {
             return "Hul \(current + 1) af \(question.blanks.count)"
         }
@@ -191,6 +312,7 @@ struct QuestionCard: View {
                 } else {
                     Button("Vis valgmulighederne") { showChoicesHint = true }
                         .font(.ui(14, .medium)).foregroundStyle(Theme.ink)
+                        .buttonStyle(PressStyle())
                 }
                 Spacer()
             }
@@ -224,6 +346,79 @@ struct QuestionCard: View {
                 .padding(.bottom, 16)
 
             ScrollView {
+                if question.reading != nil {
+                    readingReview
+                } else {
+                    gapReview
+                }
+            }
+            .scrollBounceBehavior(.basedOnSize)
+
+            Rectangle().fill(Theme.rule).frame(height: 0.75).padding(.bottom, 14)
+
+            HStack(spacing: 10) {
+                Button {
+                    withAnimation(flipAnimation) { flipped = false }
+                } label: {
+                    Image(systemName: "arrow.2.squarepath")
+                        .font(.system(size: 17, weight: .semibold))
+                }
+                .buttonStyle(PaperButtonStyle())
+                .frame(width: 56)
+                .accessibilityLabel("Vend kortet")
+
+                Button("Fortsæt", action: onContinue)
+                    .buttonStyle(InkButtonStyle())
+            }
+        }
+        .padding(22)
+    }
+
+    /// Each answer of a reading task: the question, your pick, the right one and why.
+    private var readingReview: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            ForEach(question.blanks.indices, id: \.self) { i in
+                let right = verdicts[i] == .correct
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    Text("\(i + 1)")
+                        .font(.ui(13, .bold).monospacedDigit())
+                        .foregroundStyle(.white)
+                        .frame(width: 22, height: 22)
+                        .background(right ? Theme.correct : Theme.red, in: Circle())
+                    VStack(alignment: .leading, spacing: 5) {
+                        if let q = question.blanks[i].question {
+                            Text(q).font(.ui(15, .semibold)).foregroundStyle(Theme.ink)
+                        }
+                        if !right {
+                            Text(lettered(given[i], i))
+                                .font(.ui(15))
+                                .strikethrough(color: Theme.red)
+                                .foregroundStyle(Theme.redText)
+                        }
+                        Text(lettered(question.blanks[i].answer, i))
+                            .font(.ui(15, .semibold))
+                            .foregroundStyle(Theme.correct)
+                        Text(question.blanks[i].explanation.text(in: language))
+                            .font(.ui(15, relativeTo: .body))
+                            .foregroundStyle(Theme.ink)
+                            .lineSpacing(3)
+                    }
+                    .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.bottom, 8)
+    }
+
+    /// "B · Derfor", with long 2B parts cut to their opening words.
+    private func lettered(_ option: String, _ i: Int) -> String {
+        let text = option.count > 80 ? String(option.prefix(78)) + " …" : option
+        guard let letter = question.letter(of: option, inBlank: i) else { return text }
+        return "\(letter) · \(text)"
+    }
+
+    private var gapReview: some View {
                 VStack(alignment: .leading, spacing: 16) {
                     SentenceView(segments: question.segments,
                                  gapState: gapState(_:),
@@ -254,27 +449,6 @@ struct QuestionCard: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.bottom, 8)
-            }
-            .scrollBounceBehavior(.basedOnSize)
-
-            Rectangle().fill(Theme.rule).frame(height: 0.75).padding(.bottom, 14)
-
-            HStack(spacing: 10) {
-                Button {
-                    withAnimation(flipAnimation) { flipped = false }
-                } label: {
-                    Image(systemName: "arrow.2.squarepath")
-                        .font(.system(size: 17, weight: .semibold))
-                }
-                .buttonStyle(PaperButtonStyle())
-                .frame(width: 56)
-                .accessibilityLabel("Vend kortet")
-
-                Button("Fortsæt", action: onContinue)
-                    .buttonStyle(InkButtonStyle())
-            }
-        }
-        .padding(22)
     }
 
     /// Missed gaps first, so the explanation that matters is on top.
@@ -286,6 +460,10 @@ struct QuestionCard: View {
 
     private var answerLine: String {
         let missed = question.blanks.indices.filter { verdicts[$0] != .correct }
+        if question.reading != nil {
+            let right = question.blanks.count - missed.count
+            return "\(right) af \(question.blanks.count) rigtige"
+        }
         if missed.isEmpty {
             return question.isCloze ? "Alle \(question.blanks.count) huller er rigtige." : "Det rigtige svar er \(question.blanks[0].answer)."
         }
@@ -298,7 +476,7 @@ struct QuestionCard: View {
 
     @ViewBuilder
     private var aiSection: some View {
-        if !allCorrect, progress.settings.useAI, DanishTutor.shared.availability.isAvailable {
+        if !allCorrect, question.reading == nil, progress.settings.useAI, DanishTutor.shared.availability.isAvailable {
             VStack(alignment: .leading, spacing: 8) {
                 if let fb = aiFeedback {
                     Label("Om dit svar", systemImage: "sparkles")
@@ -319,6 +497,7 @@ struct QuestionCard: View {
                             .font(.ui(15, .semibold))
                     }
                     .foregroundStyle(Theme.ink)
+                    .buttonStyle(PressStyle())
                 }
             }
             .fixedSize(horizontal: false, vertical: true)
@@ -391,11 +570,19 @@ struct OptionButton: View {
     let text: String
     let state: State
     var centered = true
+    var letter: String? = nil
     let action: () -> Void
 
     var body: some View {
         Button(action: action) {
-            HStack(spacing: 8) {
+            HStack(alignment: letter == nil ? .center : .firstTextBaseline, spacing: 10) {
+                if let letter {
+                    Text(letter)
+                        .font(.ui(13, .bold))
+                        .foregroundStyle(state == .right ? Theme.correct : state == .wrong ? Theme.redText : Theme.pencil)
+                        .frame(width: 22, height: 22)
+                        .background(Theme.chip, in: Circle())
+                }
                 if !centered { label; Spacer(minLength: 4) } else { label }
                 if state == .right || state == .wrong {
                     Image(systemName: state == .right ? "checkmark" : "xmark")
@@ -492,6 +679,7 @@ struct LanguageToggle: View {
                 .overlay(RoundedRectangle(cornerRadius: 7, style: .continuous)
                     .strokeBorder(on ? Theme.edge : .clear, lineWidth: 0.75))
                 .accessibilityAddTraits(on ? .isSelected : [])
+                .buttonStyle(PressStyle(scale: 0.9))
             }
         }
         .padding(3)

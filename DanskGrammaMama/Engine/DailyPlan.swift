@@ -26,8 +26,10 @@ extension ProgressStore {
     }
 
     /// The lowest topic once there is enough data to judge it.
-    func weakestTopic(content: ContentStore) -> TopicReadiness? {
-        readiness(content: content).filter { $0.seen >= 3 }.min { $0.value < $1.value }
+    func weakestTopic(content: ContentStore, grammarOnly: Bool = false) -> TopicReadiness? {
+        readiness(content: content)
+            .filter { $0.seen >= 3 && (!grammarOnly || $0.id != Topic.readingID) }
+            .min { $0.value < $1.value }
     }
 }
 
@@ -40,13 +42,15 @@ struct DailyPlan: Hashable {
     let fresh: Int
     /// The daily goal is already met; this is an extra round.
     let isBonus: Bool
+    /// One Læseforståelse task (2A, 2B or 3) at the end of the set, when there is one to give.
+    var reading: Int = 0
 
-    var minutes: Int { max(1, Int((Double(size) * 0.8).rounded())) }
+    var minutes: Int { max(1, Int((Double(size - reading) * 0.8).rounded()) + reading * 7) }
 }
 
 /// Where a question in today's set came from. Shown on the card.
 enum DailyKind: Hashable {
-    case review, weak, fresh
+    case review, weak, fresh, reading
 }
 
 struct DailySet {
@@ -65,15 +69,16 @@ extension SessionBuilder {
         let due = progress.dueQuestions(from: pool)
         let reviews = min(due.count, (size + 1) / 2)
 
-        let weakTopic = progress.weakestTopic(content: content)?.topic
+        let weakTopic = progress.weakestTopic(content: content, grammarOnly: true)?.topic
         var weak = 0
         if let weakTopic {
             let dueIDs = Set(due.prefix(reviews).map(\.id))
             let available = pool.filter { $0.topic == weakTopic.id && !dueIDs.contains($0.id) }.count
             weak = min(available, (size - reviews) * 2 / 3)
         }
-        return DailyPlan(size: size, reviews: reviews, weakTopic: weakTopic, weak: weak,
-                         fresh: max(0, size - reviews - weak), isBonus: isBonus)
+        let reading = nextReadingTask() == nil ? 0 : 1
+        return DailyPlan(size: size + reading, reviews: reviews, weakTopic: weakTopic, weak: weak,
+                         fresh: max(0, size - reviews - weak), isBonus: isBonus, reading: reading)
     }
 
     /// Builds the questions for a plan: due reviews, then the weakest topic, then new items.
@@ -104,9 +109,30 @@ extension SessionBuilder {
         let bucket = { (q: Question) in Int((mastery[q.topic] ?? 0) * 4) }
         let unseen = pool.filter { progress.isUnseen($0) }.shuffled().sorted { bucket($0) < bucket($1) }
         let seen = freshFirst(pool).filter { !progress.isUnseen($0) }
-        take(unseen + seen, plan.size - chosen.count, as: .fresh)
+        take(unseen + seen, plan.size - plan.reading - chosen.count, as: .fresh)
 
-        return DailySet(questions: chosen.shuffled(), kinds: kinds)
+        var questions = chosen.shuffled()
+        // The reading task comes last, after the warm-up.
+        if plan.reading > 0, let task = nextReadingTask() {
+            questions.append(task)
+            kinds[task.id] = .reading
+        }
+        return DailySet(questions: questions, kinds: kinds)
+    }
+
+    /// The reading task to give today: one that is due, else the first unseen (rotating
+    /// through 2A, 2B and 3), else the one seen longest ago.
+    func nextReadingTask() -> Question? {
+        let pool = content.questions(topic: Topic.readingID, level: 0)
+        guard !pool.isEmpty else { return nil }
+        if let due = progress.dueQuestions(from: pool).first { return due }
+        let unseen = pool.filter { progress.isUnseen($0) }
+        if !unseen.isEmpty {
+            let seenParts = pool.filter { !progress.isUnseen($0) }.count
+            let wanted = ["2A", "2B", "3"][seenParts % 3]
+            return unseen.first { $0.tags.contains(wanted) } ?? unseen.first
+        }
+        return pool.min { (progress.record(for: $0.id)?.lastSeen ?? .distantPast) < (progress.record(for: $1.id)?.lastSeen ?? .distantPast) }
     }
 
     /// Unseen items first (shuffled), then earlier misses, then the oldest seen.

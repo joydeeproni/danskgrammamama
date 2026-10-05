@@ -50,6 +50,7 @@ struct TodayView: View {
         .sheet(isPresented: $showSettings) { SettingsView() }
         .sheet(isPresented: $showExamDate) { ExamDateSheet() }
         .onAppear {
+            progress.logReadiness(progress.overallReadiness(content: content))
             guard !dealt else { return }
             TodayView.hasDealt = true
             withAnimation(.spring(response: 0.7, dampingFraction: 0.82)) { dealt = true }
@@ -126,14 +127,14 @@ struct TodayView: View {
                 .buttonStyle(PressStyle())
                 .accessibilityLabel("Vælg din prøvedato")
             }
-            HStack(alignment: .firstTextBaseline, spacing: 0) {
-                Text("\(readiness) %")
-                    .contentTransition(.numericText(value: Double(readiness)))
-                Text(" parat").foregroundStyle(Theme.pencil)
+            HStack(alignment: .center, spacing: 12) {
+                HStack(alignment: .firstTextBaseline, spacing: 0) {
+                    Text("\(readiness) %")
+                        .contentTransition(.numericText(value: Double(readiness)))
+                    Text(" parat").foregroundStyle(Theme.pencil)
+                }
                 Spacer(minLength: 0)
-            }
-            .overlay(alignment: .trailing) {
-                Art(.calendar, size: 58).offset(x: 4, y: 8)
+                trend
             }
             .animation(.spring(response: 0.6, dampingFraction: 0.8), value: readiness)
         }
@@ -143,11 +144,29 @@ struct TodayView: View {
         .minimumScaleFactor(0.7)
     }
 
+    /// Readiness over the last three weeks, with the change since the first day shown.
+    @ViewBuilder
+    private var trend: some View {
+        let points = progress.readinessTrend(days: 21)
+        if points.count >= 2 {
+            let delta = Int(((points.last!.value - points.first!.value) * 100).rounded())
+            VStack(alignment: .trailing, spacing: 2) {
+                Sparkline(values: points.map(\.value), height: 32)
+                    .frame(width: 104)
+                Text(delta == 0 ? "uændret" : (delta > 0 ? "+\(delta)" : "\(delta)") + " på \(points.count) dage")
+                    .font(.ui(12, .semibold, relativeTo: .caption).monospacedDigit())
+                    .foregroundStyle(delta > 0 ? Theme.correct : delta < 0 ? Theme.redText : Theme.pencil)
+                    .lineLimit(1)
+            }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(delta >= 0 ? "Op \(delta) point på \(points.count) dage" : "Ned \(-delta) point på \(points.count) dage")
+        }
+    }
+
     private var weakestRow: some View {
         NavigationLink(value: weakest.map { Route.topic($0.id) } ?? Route.topics) {
             HStack(alignment: .center, spacing: 14) {
                 if let weakest {
-                    Art(topic: weakest.id, size: 60)
                     VStack(alignment: .leading, spacing: 2) {
                         Text(weakest.topic.shortDa)
                             .font(.serif(20, .semibold, relativeTo: .title3))
@@ -157,7 +176,6 @@ struct TodayView: View {
                             .foregroundStyle(Theme.pencil)
                     }
                 } else {
-                    Art(.topics, size: 60)
                     Text("Tag et par sæt, så finder jeg dit svageste emne.")
                         .font(.ui(15, relativeTo: .subheadline))
                         .foregroundStyle(Theme.pencil)
@@ -193,16 +211,27 @@ struct TodayView: View {
             }
             .padding(.bottom, 14)
 
-            HStack(spacing: 8) {
-                if plan.reviews > 0 {
-                    setTile(Art(.review, size: 44), plan.reviews, "Gentag")
+            let parts = setParts(plan)
+            CompositionBar(parts: parts.map { .init(id: $0.label, value: $0.count, emphasised: $0.emphasised) })
+                .padding(.bottom, 12)
+            HStack(alignment: .top, spacing: 0) {
+                ForEach(Array(parts.enumerated()), id: \.offset) { i, part in
+                    if i > 0 {
+                        Rectangle().fill(Theme.rule).frame(width: 0.75, height: 40).padding(.horizontal, 12)
+                    }
+                    VStack(alignment: .leading, spacing: 0) {
+                        Text("\(part.count)")
+                            .font(.ui(30, .bold, relativeTo: .title))
+                            .foregroundStyle(part.emphasised ? Theme.redText : Theme.ink)
+                        Text(part.label)
+                            .font(.ui(12.5, relativeTo: .caption))
+                            .foregroundStyle(Theme.pencil)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.8)
+                    }
+                    .accessibilityElement(children: .combine)
                 }
-                if plan.weak > 0, let topic = plan.weakTopic {
-                    setTile(Art(topic: topic.id, size: 44), plan.weak, topic.shortDa)
-                }
-                if plan.fresh > 0 {
-                    setTile(Art(.new, size: 44), plan.fresh, "Nye")
-                }
+                Spacer(minLength: 0)
             }
             .padding(.bottom, 18)
 
@@ -213,25 +242,22 @@ struct TodayView: View {
         }
     }
 
-    /// One part of today's set: picture, count, and a one-word label.
-    private func setTile(_ art: Art, _ count: Int, _ label: String) -> some View {
-        VStack(spacing: 2) {
-            art.padding(.bottom, 4)
-            Text("\(count)")
-                .font(.ui(20, .bold).monospacedDigit())
-                .foregroundStyle(Theme.ink)
-            Text(label)
-                .font(.ui(12.5, relativeTo: .caption))
-                .foregroundStyle(Theme.pencil)
-                .lineLimit(1)
-                .minimumScaleFactor(0.8)
+    private struct SetPart {
+        let count: Int
+        let label: String
+        let emphasised: Bool
+    }
+
+    /// Today's set in its parts; the weakest topic is the one in red.
+    private func setParts(_ plan: DailyPlan) -> [SetPart] {
+        var parts: [SetPart] = []
+        if plan.reviews > 0 { parts.append(SetPart(count: plan.reviews, label: "gentag", emphasised: false)) }
+        if plan.weak > 0, let topic = plan.weakTopic {
+            parts.append(SetPart(count: plan.weak, label: topic.shortDa, emphasised: true))
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 12)
-        .padding(.horizontal, 6)
-        .background(Theme.paperTint, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(Theme.edge, lineWidth: 1))
-        .accessibilityElement(children: .combine)
+        if plan.fresh > 0 { parts.append(SetPart(count: plan.fresh, label: "nye", emphasised: false)) }
+        if plan.reading > 0 { parts.append(SetPart(count: plan.reading, label: "læsning", emphasised: false)) }
+        return parts
     }
 
     // MARK: Side stacks
@@ -239,35 +265,48 @@ struct TodayView: View {
     private var sideStacks: some View {
         HStack(alignment: .top, spacing: 12) {
             sideStack(.topics, seed: 4, sheets: 5, order: 1) {
-                Art(.topics, size: 56)
-                Spacer(minLength: 10)
-                Text("Emner").font(.ui(15, .bold, relativeTo: .headline))
-                TopicBars(values: topics, weakest: weakest?.id, height: 14, barWidth: 4)
-                    .padding(.top, 5)
+                TopicBars(values: topics, weakest: weakest?.id, height: 40, barWidth: 5)
+                Spacer(minLength: 12)
+                bigNumber("\(topics.filter { $0.percent >= 70 }.count)", unit: "/\(topics.count)")
+                Text("emner ≥ 70 %").font(.ui(12, relativeTo: .caption)).foregroundStyle(Theme.pencil).lineLimit(1).minimumScaleFactor(0.8)
             }
             sideStack(.week, seed: 7, sheets: 3, order: 2) {
-                Art(.exam, size: 56)
-                Spacer(minLength: 10)
-                Text("Prøvesæt").font(.ui(15, .bold, relativeTo: .headline))
-                Text(lastExamText)
-                    .font(.ui(13, .semibold, relativeTo: .footnote).monospacedDigit())
-                    .foregroundStyle(progress.data.examHistory.isEmpty ? Theme.redText : Theme.pencil)
+                let history = progress.data.examHistory.prefix(6).reversed()
+                ScoreColumns(scores: history.map { Double($0.score) / Double(max(1, $0.total)) }, height: 40)
+                Spacer(minLength: 12)
+                if let last = progress.data.examHistory.first {
+                    bigNumber("\(last.score)", unit: "/\(last.total)")
+                } else {
+                    bigNumber("–", unit: "")
+                }
+                Text("prøvesæt").font(.ui(12, relativeTo: .caption)).foregroundStyle(Theme.pencil)
             }
             sideStack(.words, seed: 9, sheets: min(max(flashcards.cards.count / 5, 1), 6), order: 3) {
-                Art(.words, size: 56)
-                Spacer(minLength: 10)
-                Text("Ord").font(.ui(15, .bold, relativeTo: .headline))
-                Text(flashcards.cards.isEmpty ? "Ingen endnu" : "\(flashcards.cards.count) gemt")
-                    .font(.ui(13, .semibold, relativeTo: .footnote).monospacedDigit())
-                    .foregroundStyle(Theme.pencil)
+                let shown = flashcards.cards.reduce(0) { $0 + $1.timesShown }
+                let known = flashcards.cards.reduce(0) { $0 + $1.timesKnown }
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(shown == 0 ? "ikke øvet" : "\(Int((Double(known) / Double(shown) * 100).rounded())) % kunne")
+                        .font(.ui(12, .semibold, relativeTo: .caption).monospacedDigit())
+                        .foregroundStyle(Theme.pencil)
+                    Meter(value: shown == 0 ? 0 : Double(known) / Double(shown), height: 6)
+                }
+                .frame(height: 40, alignment: .bottom)
+                Spacer(minLength: 12)
+                bigNumber("\(flashcards.cards.count)", unit: "")
+                Text("gemte ord").font(.ui(12, relativeTo: .caption)).foregroundStyle(Theme.pencil)
             }
         }
         .foregroundStyle(Theme.ink)
     }
 
-    private var lastExamText: String {
-        guard let last = progress.data.examHistory.first else { return "Ikke prøvet" }
-        return "Sidst \(last.score)/\(last.total)"
+    private func bigNumber(_ value: String, unit: String) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 1) {
+            Text(value).font(.ui(30, .bold, relativeTo: .title))
+            if !unit.isEmpty {
+                Text(unit).font(.ui(15, .semibold, relativeTo: .footnote)).foregroundStyle(Theme.pencil)
+            }
+        }
+        .foregroundStyle(Theme.ink)
     }
 
     private func sideStack<C: View>(_ route: Route, seed: Int, sheets: Int, order: Int,

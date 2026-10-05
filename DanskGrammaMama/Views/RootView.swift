@@ -48,6 +48,8 @@ enum DebugLaunch {
         case "words": return [.words]
         case "week": return [.week]
         case "exam": return [.week, .exam(minutes: progress.settings.examMinutes)]
+        case "reading": return [.topics, .topic(Topic.readingID)]
+        case "readingset": return [.readingSet(nil)]
         default: return []
         }
     }

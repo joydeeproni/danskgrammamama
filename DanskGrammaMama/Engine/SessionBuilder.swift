@@ -68,13 +68,13 @@ struct SessionBuilder {
             for q in ranked.prefix(n) { chosen.append(q); used.insert(q.id) }
         }
 
-        for topic in Topic.all.shuffled() {
+        for topic in Topic.all.shuffled() where topic.id != Topic.readingID {
             let pool = content.byTopic[topic.id] ?? []
             let hard = pool.filter { $0.level == 2 }
             pick(from: hard.isEmpty ? pool : hard, perTopic)
         }
         if chosen.count < count {
-            pick(from: content.questions, count - chosen.count)
+            pick(from: content.questions(topic: nil, level: 0), count - chosen.count)
         }
         return Array(chosen.prefix(count)).shuffled()
     }

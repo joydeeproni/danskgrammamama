@@ -51,8 +51,14 @@ struct Topic: Identifiable, Hashable {
         Topic(id: "relatives",
               titleDa: "der · som · hvad og formelt sprog", titleEn: "Relatives & formal register",
               blurbEn: "der (subject only) vs. som, hvad/hvilket after whole clauses, hvad der in indirect questions, and formal phrases like på grund af, med henblik på, i forhold til.",
-              blurbDa: "der (kun subjekt) vs. som, hvad/hvilket efter hele sætninger, hvad der i indirekte spørgsmål og formelle udtryk som på grund af, med henblik på, i forhold til.")
+              blurbDa: "der (kun subjekt) vs. som, hvad/hvilket efter hele sætninger, hvad der i indirekte spørgsmål og formelle udtryk som på grund af, med henblik på, i forhold til."),
+        Topic(id: Topic.readingID,
+              titleDa: "Læseforståelse", titleEn: "Reading comprehension",
+              blurbEn: "Læseforståelse 2 as on the paper: Delprøve 2A (read and choose A, B or C), 2B (put five paragraphs back) and 3 (fill eight gaps).",
+              blurbDa: "Læseforståelse 2 som til prøven: Delprøve 2A (læs og vælg A, B eller C), 2B (sæt fem tekstdele ind) og 3 (udfyld otte huller).")
     ]
+
+    static let readingID = "reading"
 
     static func byID(_ id: String) -> Topic? {
         all.first { $0.id == id }
@@ -72,6 +78,7 @@ extension Topic {
         case "wordorder": return "Ordstilling"
         case "adjectives": return "Adjektiver"
         case "relatives": return "der/som/hvad"
+        case Topic.readingID: return "Læsning"
         default: return titleDa
         }
     }

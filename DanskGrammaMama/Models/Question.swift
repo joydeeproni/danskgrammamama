@@ -46,13 +46,19 @@ struct Blank: Decodable, Hashable {
     let answer: String
     let accepted: [String]?
     let explanation: Explanation
+    /// The question asked for this blank, when it is not a gap in the text (Delprøve 2A).
+    var question: String? = nil
 
-    init(options: [String], answer: String, accepted: [String]? = nil, explanation: Explanation) {
+    init(options: [String], answer: String, accepted: [String]? = nil, explanation: Explanation,
+         question: String? = nil) {
         self.options = options
         self.answer = answer
         self.accepted = accepted
         self.explanation = explanation
+        self.question = question
     }
+
+    private enum CodingKeys: String, CodingKey { case options, answer, accepted, explanation }
 
     var allAccepted: [String] { [answer] + (accepted ?? []) }
 }
@@ -68,9 +74,12 @@ struct Question: Decodable, Identifiable, Hashable {
     let hint: String?
     let blanks: [Blank]
     let tags: [String]
+    /// Set for reading tasks (Læseforståelse 2), which carry their own title and source.
+    var reading: ReadingInfo? = nil
 
     init(id: String, topic: String, level: Int, type: QuestionType, prompt: String,
-         hint: String?, blanks: [Blank], tags: [String]) {
+         hint: String?, blanks: [Blank], tags: [String], reading: ReadingInfo? = nil) {
+        self.reading = reading
         self.id = id
         self.topic = topic
         self.level = level
@@ -153,6 +162,19 @@ struct Question: Decodable, Identifiable, Hashable {
     }
 
     var isGenerated: Bool { id.hasPrefix("verbdrill-") }
+}
+
+/// Which part of Læseforståelse 2 a reading task copies.
+enum ReadingPart: String, Hashable {
+    case part2a = "2A", part2b = "2B", part3 = "3"
+
+    var title: String { "Delprøve \(rawValue)" }
+}
+
+struct ReadingInfo: Hashable {
+    let part: ReadingPart
+    let title: String
+    let source: String
 }
 
 struct TopicFile: Decodable {

@@ -54,6 +54,13 @@ struct ProgressData: Codable {
     var settings = AppSettings()
     /// Days with at least one answer, newest first. Optional for the same reason as above.
     var practiceDays: [Date]? = nil
+    /// Exam readiness (0…1) at the end of each day it was looked at, oldest first.
+    var readinessLog: [ReadinessPoint]? = nil
+}
+
+struct ReadinessPoint: Codable, Hashable {
+    var day: Date
+    var value: Double
 }
 
 @Observable
@@ -219,6 +226,26 @@ final class ProgressStore {
 
     func seenCount(of pool: [Question]) -> Int {
         pool.filter { data.records[$0.id] != nil }.count
+    }
+
+    /// Records today's readiness, replacing any earlier value from today.
+    func logReadiness(_ value: Double, now: Date = .now) {
+        let today = calendar.startOfDay(for: now)
+        var log = data.readinessLog ?? []
+        if let last = log.last, calendar.isDate(last.day, inSameDayAs: today) {
+            guard abs(last.value - value) > 0.0001 else { return }
+            log[log.count - 1].value = value
+        } else {
+            log.append(ReadinessPoint(day: today, value: value))
+        }
+        data.readinessLog = Array(log.suffix(60))
+        save()
+    }
+
+    /// Readiness over the last `days` days, oldest first.
+    func readinessTrend(days: Int = 21, now: Date = .now) -> [ReadinessPoint] {
+        guard let start = calendar.date(byAdding: .day, value: -(days - 1), to: calendar.startOfDay(for: now)) else { return [] }
+        return (data.readinessLog ?? []).filter { $0.day >= start }
     }
 
     /// Whether the learner answered anything on the given day.
