@@ -212,12 +212,12 @@ struct VocabSessionView: View {
             VStack(alignment: .leading, spacing: 16) {
                 if cards.isEmpty {
                     Text("Ingen kort i dag")
-                        .font(.serif(28, .semibold))
+                        .font(.ui(26, .bold))
                     Text("Du er igennem bunken. Nye kort kommer, når du har lært dem, du har i gang.")
                         .font(.ui(16)).foregroundStyle(Theme.pencil)
                 } else {
                     Text("Runden er klaret")
-                        .font(.serif(28, .semibold))
+                        .font(.ui(26, .bold))
                     HStack(alignment: .firstTextBaseline, spacing: 8) {
                         Text("\(knownCount)").font(.ui(56, .bold))
                         Text("af \(seen.count) kunne du").font(.ui(18, .semibold)).foregroundStyle(Theme.pencil)

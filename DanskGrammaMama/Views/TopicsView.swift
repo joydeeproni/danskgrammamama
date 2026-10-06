@@ -15,10 +15,9 @@ struct TopicsView: View {
             VStack(alignment: .leading, spacing: 0) {
                 HStack(alignment: .center) {
                     Text("Emner")
-                        .font(.serif(38, .semibold, relativeTo: .largeTitle))
+                        .font(.ui(34, .bold, relativeTo: .largeTitle))
                         .foregroundStyle(Theme.ink)
                     Spacer()
-                    Art(.topics, size: 64)
                 }
                 .padding(.bottom, 18)
 
@@ -97,7 +96,7 @@ struct TopicPageView: View {
                 HStack(alignment: .center, spacing: 12) {
                     VStack(alignment: .leading, spacing: 2) {
                         Text(topic.shortDa)
-                            .font(.serif(36, .semibold, relativeTo: .largeTitle))
+                            .font(.ui(32, .bold, relativeTo: .largeTitle))
                             .foregroundStyle(Theme.ink)
                             .lineLimit(1)
                             .minimumScaleFactor(0.7)
@@ -106,7 +105,6 @@ struct TopicPageView: View {
                             .foregroundStyle(Theme.pencil)
                     }
                     Spacer(minLength: 0)
-                    Art(topic: topic.id, size: 96)
                 }
 
                 statusCard

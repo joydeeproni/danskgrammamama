@@ -143,7 +143,7 @@ struct QuestionCard: View {
                     VStack(alignment: .leading, spacing: 12) {
                         VStack(alignment: .leading, spacing: 3) {
                             Text(reading.title)
-                                .font(.serif(22, .semibold, relativeTo: .title3))
+                                .font(.ui(21, .bold, relativeTo: .title3))
                                 .foregroundStyle(Theme.ink)
                             Text("\(reading.part.title) · \(reading.source)")
                                 .font(.ui(12.5, relativeTo: .caption))
@@ -295,7 +295,7 @@ struct QuestionCard: View {
     private var typedField: some View {
         VStack(alignment: .leading, spacing: 10) {
             TextField("Skriv svaret", text: $typed)
-                .font(.serif(21))
+                .font(.ui(20, .medium))
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled()
                 .submitLabel(.done)
@@ -605,7 +605,7 @@ struct OptionButton: View {
 
     private var label: some View {
         Text(text)
-            .font(.serif(centered ? 20 : 17, relativeTo: .body))
+            .font(.ui(centered ? 19 : 16, .medium, relativeTo: .body))
             .strikethrough(state == .wrong, color: Theme.red)
             .foregroundStyle(state == .wrong ? Theme.redText : Theme.ink)
             .multilineTextAlignment(centered ? .center : .leading)

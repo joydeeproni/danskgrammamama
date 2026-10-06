@@ -369,7 +369,7 @@ struct IdentifiableWord: Identifiable {
 /// One of the 3D icons in Assets/Art. Decorative: the text next to it carries the meaning.
 struct Art: View {
     enum Name: String {
-        case set, exam, write, words, topics, calendar, flag, review, new
+        case exam, write, words, finish, review
     }
 
     private let asset: String

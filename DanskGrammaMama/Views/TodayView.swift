@@ -188,7 +188,7 @@ struct TodayView: View {
                 if let weakest {
                     VStack(alignment: .leading, spacing: 2) {
                         Text(weakest.topic.shortDa)
-                            .font(.serif(20, .semibold, relativeTo: .title3))
+                            .font(.ui(20, .bold, relativeTo: .title3))
                             .foregroundStyle(Theme.redText)
                         Text("holder dig tilbage")
                             .font(.ui(14, relativeTo: .subheadline))
@@ -201,14 +201,14 @@ struct TodayView: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 Spacer(minLength: 8)
-                VStack(alignment: .trailing, spacing: 6) {
-                    TopicBars(values: topics, weakest: weakest?.id, height: 26, barWidth: 5)
-                    if let weakest {
-                        Text("\(weakest.percent) %")
-                            .font(.ui(13, .bold).monospacedDigit())
-                            .foregroundStyle(Theme.redText)
-                    }
+                if let weakest {
+                    Text("\(weakest.percent) %")
+                        .font(.ui(15, .bold, relativeTo: .subheadline).monospacedDigit())
+                        .foregroundStyle(Theme.redText)
                 }
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundStyle(Theme.pencil)
             }
             .contentShape(Rectangle())
         }
@@ -219,7 +219,7 @@ struct TodayView: View {
         let plan = plan
         return VStack(alignment: .leading, spacing: 0) {
             let title = Text(plan.isBonus ? "Dagens mål er nået" : "Dagens sæt")
-                .font(.serif(23, .semibold, relativeTo: .title2))
+                .font(.ui(22, .bold, relativeTo: .title2))
                 .foregroundStyle(Theme.ink)
             let meta = Text("ca. \(plan.minutes) min")
                 .font(.ui(14, relativeTo: .subheadline))

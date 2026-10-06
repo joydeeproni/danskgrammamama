@@ -13,7 +13,7 @@ struct WeekView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
                 Text("Denne uge")
-                    .font(.serif(38, .semibold, relativeTo: .largeTitle))
+                    .font(.ui(34, .bold, relativeTo: .largeTitle))
                     .foregroundStyle(Theme.ink)
                     .padding(.bottom, 18)
 
@@ -22,7 +22,7 @@ struct WeekView: View {
                         HStack(alignment: .center) {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text("Prøvesæt")
-                                    .font(.serif(26, .semibold, relativeTo: .title))
+                                    .font(.ui(24, .bold, relativeTo: .title))
                                 Text("20 spørgsmål · \(progress.settings.examMinutes) min")
                                     .font(.ui(15).monospacedDigit())
                                     .foregroundStyle(Theme.pencil)
@@ -50,7 +50,7 @@ struct WeekView: View {
                     VStack(alignment: .leading, spacing: 0) {
                         HStack(alignment: .center) {
                             Text("Skriveopgave")
-                                .font(.serif(26, .semibold, relativeTo: .title))
+                                .font(.ui(24, .bold, relativeTo: .title))
                             Spacer()
                             Art(.write, size: 76)
                         }

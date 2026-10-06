@@ -174,7 +174,7 @@ struct DeckSessionView: View {
             Spacer()
             VStack(alignment: .leading, spacing: 10) {
                 Text("Ingen kort i bunken")
-                    .font(.serif(26, .semibold, relativeTo: .title))
+                    .font(.ui(26, .bold, relativeTo: .title))
                     .foregroundStyle(Theme.ink)
                 Text(allReviews ? "Der er ikke noget at gentage lige nu. Fejl kommer tilbage dagen efter."
                                 : "Der er ingen spørgsmål, der passer til det valg endnu.")
@@ -386,11 +386,11 @@ struct SessionResultView: View {
         VStack(alignment: .leading, spacing: 0) {
             HStack(alignment: .top) {
                 Text(isExam ? "Prøvesættet er afleveret" : "Sættet er klaret")
-                    .font(.serif(30, .medium, relativeTo: .title))
+                    .font(.ui(28, .bold, relativeTo: .title))
                     .foregroundStyle(Theme.ink)
                     .fixedSize(horizontal: false, vertical: true)
                 Spacer(minLength: 8)
-                Art(isExam ? .exam : .flag, size: 84)
+                Art(isExam ? .exam : .finish, size: 84)
                     .scaleEffect(showAfter ? 1 : 0.6)
                     .opacity(showAfter ? 1 : 0)
                     .padding(.top, -6)

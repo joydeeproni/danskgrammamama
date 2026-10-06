@@ -29,14 +29,13 @@ struct WordsView: View {
                 HStack(alignment: .center) {
                     VStack(alignment: .leading, spacing: 2) {
                         Text("Ord")
-                            .font(.serif(38, .semibold, relativeTo: .largeTitle))
+                            .font(.ui(34, .bold, relativeTo: .largeTitle))
                             .foregroundStyle(Theme.ink)
                         Text("\(vocab.totalLearned) af \(vocab.totalCount) lært")
                             .font(.ui(15, relativeTo: .subheadline))
                             .foregroundStyle(Theme.pencil)
                     }
                     Spacer()
-                    Art(.words, size: 72)
                 }
                 .padding(.bottom, 18)
 
@@ -78,7 +77,7 @@ struct WordsView: View {
         VStack(alignment: .leading, spacing: 10) {
             Art(.words, size: 80)
             Text("Ingen ord endnu")
-                .font(.serif(24, .semibold, relativeTo: .title2))
+                .font(.ui(22, .bold, relativeTo: .title2))
                 .foregroundStyle(Theme.ink)
             Text("Ord, du gemmer i en øvelse, og kort, du svarer »Ikke endnu« til ovenfor, lander her.")
                 .font(.ui(16))
