@@ -10,8 +10,8 @@
       "options": ["imidlertid", "derfor", "desuden", "nemlig"],
       "answer": "imidlertid",
       "explanation": {
-        "en": "The second sentence contradicts the expectation raised by the first (heavy investment should mean more cyclists), so a contrast connector (modsætning) is needed: imidlertid = however. Derfor would make the disappointing number a consequence of the investment, which is illogical, and nemlig would present it as an explanation of the investment.",
-        "da": "Anden sætning modsiger den forventning, første sætning skaber (store investeringer burde give flere cyklister), så der skal et modsætningsord: imidlertid. Derfor ville gøre det skuffende tal til en følge af investeringen, hvilket er ulogisk, og nemlig ville fremstille det som en forklaring på investeringen."
+        "en": "Big investment, few new cyclists = against expectation → contrast → imidlertid. Not derfor: the small rise is no result of the investment.",
+        "da": "Store investeringer, få nye cyklister = mod forventning → modsætning → imidlertid. Ikke derfor: den lille stigning er ingen følge af investeringen."
       },
       "tags": ["modsætning", "imidlertid"]
     },
@@ -24,8 +24,8 @@
       "options": ["derimod", "dermed", "ligeledes", "altså"],
       "answer": "derimod",
       "explanation": {
-        "en": "The two sentences set up opposite developments (fallen vs risen), so derimod (on the other hand / by contrast) fits. Ligeledes is the trap: it would claim the second trend mirrors the first, which the verbs contradict, and dermed would present the rise as a result of the fall.",
-        "da": "De to sætninger stiller to modsatte udviklinger op (faldet vs steget), så derimod passer. Ligeledes er fælden: det ville påstå, at den anden tendens følger den første, hvad verberne modsiger, og dermed ville gøre stigningen til en følge af faldet."
+        "en": "faldet vs. steget = two opposite trends → derimod. Not ligeledes: that says both trends go the same way.",
+        "da": "faldet vs. steget = to modsatte udviklinger → derimod. Ikke ligeledes: det siger, at udviklingen går samme vej."
       },
       "tags": ["modsætning", "derimod"]
     },
@@ -38,8 +38,8 @@
       "options": ["derfor", "desuden", "altså", "dog"],
       "answer": "dog",
       "explanation": {
-        "en": "The second sentence adds a reservation to the wish expressed in the first, so a concessive/contrast adverb (forbehold) is needed; dog stands after the finite verb in the main clause. Derfor or altså would wrongly present the uncertainty as a logical consequence of the government's wish.",
-        "da": "Anden sætning tager et forbehold over for ønsket i første sætning, så der skal et modsætnings-/forbeholdsord; dog står efter det finitte verbum i hovedsætningen. Derfor eller altså ville fejlagtigt gøre usikkerheden til en logisk følge af regeringens ønske."
+        "en": "A wish, then a reservation (uklart) → contrast → dog, after the verb. Not derfor/altså: the doubt is no result of the wish.",
+        "da": "Et ønske og så et forbehold (uklart) → modsætning → dog, efter verbet. Ikke derfor/altså: usikkerheden er ingen følge af ønsket."
       },
       "tags": ["modsætning", "dog", "forbehold"]
     },
@@ -52,8 +52,8 @@
       "options": ["alligevel", "derfor", "således", "desuden"],
       "answer": "alligevel",
       "explanation": {
-        "en": "Knowing about the climate footprint leads you to expect fewer flights; the second sentence goes against that expectation, so alligevel (nevertheless) expresses the concession (indrømmelse). Derfor and således would make frequent flying a consequence of that knowledge, which reverses the logic.",
-        "da": "Kendskab til klimaaftrykket får en til at forvente færre flyrejser; anden sætning går imod den forventning, så alligevel udtrykker indrømmelsen. Derfor og således ville gøre de mange flyrejser til en følge af kendskabet, hvilket vender logikken på hovedet."
+        "en": "They know the climate cost but still fly = against expectation → alligevel. Not derfor: knowing does not lead to more flying.",
+        "da": "De kender klimaaftrykket, men flyver stadig = mod forventning → alligevel. Ikke derfor: viden fører ikke til flere flyrejser."
       },
       "tags": ["indrømmelse", "alligevel"]
     },
@@ -66,8 +66,8 @@
       "options": ["Omvendt", "Følgelig", "Desuden", "Alligevel"],
       "answer": "Omvendt",
       "explanation": {
-        "en": "The second sentence describes the mirror image of the first (many years on the labour market → home owner; few years → shut out), which is exactly what omvendt (conversely) signals. Alligevel would claim the second sentence contradicts an expectation, but it confirms the pattern; følgelig would make it a consequence rather than the reverse case.",
-        "da": "Anden sætning beskriver spejlbilledet af den første (mange år på arbejdsmarkedet → boligejer; få år → udenfor), og det er netop, hvad omvendt signalerer. Alligevel ville påstå, at anden sætning strider mod en forventning, men den bekræfter mønstret; følgelig ville gøre den til en følge i stedet for det omvendte tilfælde."
+        "en": "Many years → own home; few years (nyuddannede) → no home = mirror image → Omvendt. Not Alligevel: nothing goes against expectation.",
+        "da": "Mange år → egen bolig; få år (nyuddannede) → ingen bolig = spejlbillede → Omvendt. Ikke Alligevel: intet strider mod forventningen."
       },
       "tags": ["modsætning", "omvendt"]
     },
@@ -80,8 +80,8 @@
       "options": ["Til gengæld", "Derfor", "Nemlig", "Desuden"],
       "answer": "Til gengæld",
       "explanation": {
-        "en": "The first sentence names a disadvantage, the second a compensating advantage; til gengæld (in return / on the other hand) marks exactly this trade-off type of contrast and is followed by inversion. Desuden would simply add a point without signalling that it offsets the drawback, and derfor would wrongly make the flexibility a consequence of the lower pay.",
-        "da": "Første sætning nævner en ulempe, anden sætning en fordel, der opvejer den; til gengæld markerer netop denne type modsætning og efterfølges af inversion. Desuden ville blot føje et punkt til uden at vise, at det opvejer ulempen, og derfor ville fejlagtigt gøre fleksibiliteten til en følge af den lavere løn."
+        "en": "A drawback (tjener mindre), then an advantage that makes up for it → Til gengæld. Not Desuden: it only adds, it offsets nothing.",
+        "da": "En ulempe (tjener mindre) og så en fordel, der opvejer den → Til gengæld. Ikke Desuden: det tilføjer bare og opvejer intet."
       },
       "tags": ["modsætning", "til gengæld"]
     },
@@ -94,8 +94,8 @@
       "options": ["På den anden side", "Som følge heraf", "Med andre ord", "Ydermere"],
       "answer": "På den anden side",
       "explanation": {
-        "en": "An advantage is weighed against a disadvantage, so the two-sided contrast marker på den anden side fits. Ydermere is the trap: it would present the loss of contact as one more advantage, and som følge heraf would make it a consequence of the flexibility, which the text does not claim.",
-        "da": "En fordel vejes op mod en ulempe, så modsætningsordet på den anden side passer. Ydermere er fælden: det ville fremstille tabet af kontakt som endnu en fordel, og som følge heraf ville gøre det til en følge af fleksibiliteten, hvad teksten ikke påstår."
+        "en": "Advantage weighed against disadvantage → På den anden side. Not Ydermere: losing contact is not one more advantage.",
+        "da": "En fordel vejet op mod en ulempe → På den anden side. Ikke Ydermere: tabt kontakt er ikke endnu en fordel."
       },
       "tags": ["modsætning", "på den anden side"]
     },
@@ -108,8 +108,8 @@
       "options": ["Imidlertid", "Følgelig", "Tilmed", "Med andre ord"],
       "answer": "Imidlertid",
       "explanation": {
-        "en": "The second sentence limits the good news of the first, so contrast (modsætning) is needed: imidlertid, followed by inversion. Tilmed would present the low share of women as a further positive point, and med andre ord would claim the sentence merely restates the first, although it introduces new information.",
-        "da": "Anden sætning begrænser den gode nyhed i første sætning, så der skal et modsætningsord: imidlertid, efterfulgt af inversion. Tilmed ville fremstille den lave kvindeandel som endnu et positivt punkt, og med andre ord ville påstå, at sætningen blot omformulerer den første, selvom den bringer ny information."
+        "en": "More applicants, but few women → contrast → Imidlertid. Not Tilmed: the low share of women is no extra plus.",
+        "da": "Flere ansøgere, men få kvinder → modsætning → Imidlertid. Ikke Tilmed: den lave kvindeandel er ikke endnu et plus."
       },
       "tags": ["modsætning", "imidlertid"]
     },
@@ -122,8 +122,8 @@
       "options": ["desuden", "alligevel", "derfor", "nemlig"],
       "answer": "alligevel",
       "explanation": {
-        "en": "The warning creates an expectation of trouble, and the second sentence shows the opposite happened, so the concessive adverb alligevel (nevertheless) fits best after the finite verb. Derfor would make the smooth result a consequence of the warning, and desuden would treat it as an unrelated addition.",
-        "da": "Advarslen skaber en forventning om problemer, og anden sætning viser, at det modsatte skete, så indrømmelsesordet alligevel passer bedst efter det finitte verbum. Derfor ville gøre det gode resultat til en følge af advarslen, og desuden ville behandle det som en uafhængig tilføjelse."
+        "en": "Warned it would be hard, yet it went fine = against expectation → alligevel. Not derfor: the warning did not cause the success.",
+        "da": "Advaret om besvær, men det gik fint = mod forventning → alligevel. Ikke derfor: advarslen var ikke årsag til succesen."
       },
       "tags": ["indrømmelse", "alligevel"]
     },
@@ -136,8 +136,8 @@
       "options": ["derimod", "alligevel", "dermed", "ligeledes"],
       "answer": "derimod",
       "explanation": {
-        "en": "Two areas are compared with opposite situations (long waiting lists vs empty flats), which is the classic use of derimod. Alligevel is the trap: it would require the second sentence to contradict an expectation created by the first, but it simply contrasts two places; ligeledes would wrongly say the situation is the same.",
-        "da": "To områder sammenlignes med modsatte situationer (lange ventelister vs tomme lejligheder), hvilket er den klassiske brug af derimod. Alligevel er fælden: det ville kræve, at anden sætning strider mod en forventning fra den første, men den stiller blot to steder over for hinanden; ligeledes ville fejlagtigt sige, at situationen er den samme."
+        "en": "Two places, opposite situations (storbyerne vs. landkommuner) → derimod. Not alligevel: no expectation is broken, two places are just compared.",
+        "da": "To steder med modsatte situationer (storbyerne vs. landkommuner) → derimod. Ikke alligevel: ingen forventning brydes, to steder sammenlignes bare."
       },
       "tags": ["modsætning", "derimod"]
     },
@@ -150,8 +150,8 @@
       "options": ["derfor", "derimod", "dog", "desuden"],
       "answer": "derfor",
       "explanation": {
-        "en": "The first sentence is the reason and the second the action taken because of it, so the consequence connector (følge) derfor fits. Desuden is the trap: it would present the visiting scheme as an unrelated extra fact, and dog/derimod would introduce a contrast that is not there.",
-        "da": "Første sætning er årsagen, og anden sætning er den handling, der følger af den, så følgeordet derfor passer. Desuden er fælden: det ville fremstille besøgsordningen som en uafhængig tilføjelse, og dog/derimod ville indføre en modsætning, der ikke findes."
+        "en": "Problem (ældre alone), then the action taken → result → derfor. Not desuden: the visitors are a response, not an unrelated extra.",
+        "da": "Et problem (ældre alene) og så handlingen → følge → derfor. Ikke desuden: besøgsvennerne er et svar, ikke en løs tilføjelse."
       },
       "tags": ["følge", "derfor"]
     },
@@ -164,8 +164,8 @@
       "options": ["nemlig", "derfor", "alligevel", "derimod"],
       "answer": "derfor",
       "explanation": {
-        "en": "Rising prices are the cause and turning down the heating the consequence, so derfor (therefore) is the natural connector after the finite verb. Alligevel would say families kept the heating on despite the prices, and derimod would signal a contrast where the text presents a cause-and-effect chain.",
-        "da": "De stigende priser er årsagen, og at skrue ned for varmen er følgen, så derfor er det naturlige forbinderord efter det finitte verbum. Alligevel ville betyde, at familierne holdt varmen på trods af priserne, og derimod ville signalere en modsætning, hvor teksten viser årsag og følge."
+        "en": "Prices rose → families turned down the heat = cause → result → derfor. Not alligevel: that means they kept heating despite the prices.",
+        "da": "Priserne steg → familierne skruede ned = årsag → følge → derfor. Ikke alligevel: det betyder, at de fyrede videre trods priserne."
       },
       "tags": ["følge", "derfor"]
     },
@@ -178,8 +178,8 @@
       "options": ["dermed", "alligevel", "derimod", "nemlig"],
       "answer": "dermed",
       "explanation": {
-        "en": "Dermed (thereby / as a result) links a decision to what it brings about: the new law makes Denmark one of the first countries with such a rule. Nemlig is the trap: it would turn the second sentence into an explanation of why the law was passed, and alligevel would imply the result was unexpected.",
-        "da": "Dermed knytter en beslutning til det, den medfører: den nye lov gør Danmark til et af de første lande med et sådant krav. Nemlig er fælden: det ville gøre anden sætning til en forklaring på, hvorfor loven blev vedtaget, og alligevel ville antyde, at resultatet var uventet."
+        "en": "The law brings about a result (Denmark among the first) → dermed. Not nemlig: it would explain why the law came.",
+        "da": "Loven medfører et resultat (Danmark blandt de første) → dermed. Ikke nemlig: det ville forklare, hvorfor loven kom."
       },
       "tags": ["følge", "dermed"]
     },
@@ -192,8 +192,8 @@
       "options": ["således", "omvendt", "imidlertid", "til gengæld"],
       "answer": "således",
       "explanation": {
-        "en": "The saving is the result of the home-working day, so således (thus / in this way), which expresses consequence, fits after the finite verb. Til gengæld is the trap: it would require the first sentence to describe a cost that the saving compensates for, and imidlertid would wrongly turn the benefit into a contrast.",
-        "da": "Besparelsen er følgen af hjemmearbejdsdagen, så således, der udtrykker følge, passer efter det finitte verbum. Til gengæld er fælden: det ville kræve, at første sætning beskrev en omkostning, som besparelsen opvejer, og imidlertid ville fejlagtigt gøre fordelen til en modsætning."
+        "en": "The saving is a result of the home-working day → således. Not til gengæld: the first sentence names no drawback to offset.",
+        "da": "Besparelsen er en følge af hjemmearbejdsdagen → således. Ikke til gengæld: første sætning nævner ingen ulempe, der skal opvejes."
       },
       "tags": ["følge", "således"]
     },
@@ -206,8 +206,8 @@
       "options": ["Alligevel", "Som følge heraf", "På den anden side", "Derimod"],
       "answer": "Som følge heraf",
       "explanation": {
-        "en": "The relocation of production is the cause and the job losses the effect, so the formal consequence marker som følge heraf (as a result of this) opens the second sentence, followed by inversion (verb before subject). Derimod or på den anden side would falsely present the fall in jobs as a contrast to the relocation.",
-        "da": "Udflytningen af produktion er årsagen, og tabet af job er følgen, så det formelle følgeord som følge heraf indleder anden sætning efterfulgt af inversion (verbet før subjektet). Derimod eller på den anden side ville fejlagtigt fremstille faldet i job som en modsætning til udflytningen."
+        "en": "Production moved abroad → fewer jobs = cause → result → Som følge heraf + inversion. Not Derimod: there is no contrast.",
+        "da": "Produktionen er flyttet ud → færre job = årsag → følge → Som følge heraf + inversion. Ikke Derimod: der er ingen modsætning."
       },
       "tags": ["følge", "som følge heraf", "formelt"]
     },
@@ -220,8 +220,8 @@
       "options": ["nemlig", "derfor", "alligevel", "derimod"],
       "answer": "nemlig",
       "explanation": {
-        "en": "The second sentence gives the reason for the choice in the first, and nemlig (you see / the reason being) is the connector that introduces an explanation, placed after the finite verb. Derfor is the trap: it points the other way and would make the coastline a consequence of parents' choice, which is absurd.",
-        "da": "Anden sætning giver grunden til valget i første sætning, og nemlig er det forbinderord, der indleder en forklaring, placeret efter det finitte verbum. Derfor er fælden: det peger den modsatte vej og ville gøre kystlinjen til en følge af forældrenes valg, hvad der er absurd."
+        "en": "The second sentence gives the reason (long coastline) → nemlig, after the verb. Not derfor: the coastline is no result of the choice.",
+        "da": "Anden sætning giver grunden (lang kystlinje) → nemlig, efter verbet. Ikke derfor: kystlinjen er ingen følge af forældrenes valg."
       },
       "tags": ["årsag", "nemlig"]
     },
@@ -234,8 +234,8 @@
       "options": ["derimod", "alligevel", "nemlig", "altså"],
       "answer": "altså",
       "explanation": {
-        "en": "The second sentence draws the conclusion that follows from the figures in the first, and altså (so / therefore) is the everyday connector for a conclusion, placed after the finite verb. Nemlig would reverse the direction and present the difficulty of buying as the reason for the price rise.",
-        "da": "Anden sætning drager den konklusion, der følger af tallene i første sætning, og altså er det almindelige forbinderord for en konklusion, placeret efter det finitte verbum. Nemlig ville vende retningen om og fremstille de svære boligkøb som grunden til prisstigningen."
+        "en": "Figures first, then the conclusion (sværere) → altså. Not nemlig: harder home-buying does not explain the price rise.",
+        "da": "Først tallene, så konklusionen (sværere) → altså. Ikke nemlig: de svære boligkøb forklarer ikke prisstigningen."
       },
       "tags": ["følge", "altså", "konklusion"]
     },
@@ -248,8 +248,8 @@
       "options": ["derfor", "nemlig", "derimod", "imidlertid"],
       "answer": "derfor",
       "explanation": {
-        "en": "The recommendation is the reason and the workplace schemes are the response, so the consequence connector derfor fits. Nemlig is the trap: it also concerns cause, but it introduces the reason for what was just said, so it would claim the schemes explain the recommendation, which reverses the logic.",
-        "da": "Anbefalingen er årsagen, og arbejdspladsernes tilbud er reaktionen, så følgeordet derfor passer. Nemlig er fælden: det handler også om årsag, men det indleder grunden til det, der lige er sagt, så det ville påstå, at tilbuddene forklarer anbefalingen, hvad der vender logikken om."
+        "en": "Recommendation → workplaces respond = cause → result → derfor. Not nemlig: that would make the schemes the reason for the recommendation.",
+        "da": "Anbefaling → arbejdspladserne reagerer = årsag → følge → derfor. Ikke nemlig: så blev tilbuddene grunden til anbefalingen."
       },
       "tags": ["følge", "derfor", "nemlig"]
     },
@@ -262,8 +262,8 @@
       "options": ["desuden", "derimod", "alligevel", "derfor"],
       "answer": "desuden",
       "explanation": {
-        "en": "The second sentence adds a further advantage of the same kind, so an addition connector (tilføjelse) is needed: desuden (moreover). Derfor is the trap: it would make the frequency a consequence of the travel time, and derimod would create a contrast between two facts that point the same way.",
-        "da": "Anden sætning tilføjer endnu en fordel af samme slags, så der skal et tilføjelsesord: desuden. Derfor er fælden: det ville gøre frekvensen til en følge af rejsetiden, og derimod ville skabe en modsætning mellem to oplysninger, der peger samme vej."
+        "en": "One advantage, then another of the same kind → addition → desuden. Not derfor: frequent trains do not follow from the travel time.",
+        "da": "Én fordel og så endnu en af samme slags → tilføjelse → desuden. Ikke derfor: de hyppige afgange følger ikke af rejsetiden."
       },
       "tags": ["tilføjelse", "desuden"]
     },
@@ -276,8 +276,8 @@
       "options": ["desuden", "derimod", "alligevel", "derfor"],
       "answer": "desuden",
       "explanation": {
-        "en": "A second benefit is stacked on the first, so the addition adverb desuden (moreover) fits after the finite verb; endvidere, ydermere and ligeledes work the same way. Derfor would claim the course follows logically from having a mentor, and derimod would set the two benefits against each other.",
-        "da": "En anden fordel lægges oven på den første, så tilføjelsesordet desuden passer efter det finitte verbum; endvidere, ydermere og ligeledes fungerer på samme måde. Derfor ville påstå, at kurset følger logisk af mentoren, og derimod ville stille de to fordele op mod hinanden."
+        "en": "Mentor, then a course = a second benefit on top → desuden. Not derfor: the course does not follow from the mentor.",
+        "da": "Mentor og så et kursus = endnu en fordel → desuden. Ikke derfor: kurset følger ikke af mentoren."
       },
       "tags": ["tilføjelse", "desuden"]
     },
@@ -290,8 +290,8 @@
       "options": ["Ydermere", "Derimod", "Til gengæld", "Følgelig"],
       "answer": "Ydermere",
       "explanation": {
-        "en": "The report adds a second criticism pointing in the same direction, so the formal addition connector ydermere (furthermore) fits, with inversion after it. Til gengæld and derimod are the trap: they would present the lack of training as something that offsets or contrasts with the first criticism, but both points are negative.",
-        "da": "Rapporten føjer endnu et kritikpunkt til i samme retning, så det formelle tilføjelsesord ydermere passer, med inversion efter. Til gengæld og derimod er fælden: de ville fremstille den manglende efteruddannelse som noget, der opvejer eller står i modsætning til det første kritikpunkt, men begge punkter er negative."
+        "en": "Two criticisms, same direction → formal addition → Ydermere + inversion. Not Til gengæld: nothing positive offsets the first point.",
+        "da": "To kritikpunkter i samme retning → formel tilføjelse → Ydermere + inversion. Ikke Til gengæld: intet positivt opvejer det første punkt."
       },
       "tags": ["tilføjelse", "ydermere", "formelt"]
     },
@@ -304,8 +304,8 @@
       "options": ["derfor", "imidlertid", "endvidere", "hvorimod"],
       "answer": "endvidere",
       "explanation": {
-        "en": "The council makes a further decision alongside the first, so the formal addition connector endvidere (furthermore) fits, placed after the finite verb. Imidlertid would announce a contrast between two decisions that simply sit side by side, and derfor would claim the bathing zone follows from the preservation order.",
-        "da": "Kommunalbestyrelsen træffer endnu en beslutning ved siden af den første, så det formelle tilføjelsesord endvidere passer, placeret efter det finitte verbum. Imidlertid ville annoncere en modsætning mellem to beslutninger, der blot står side om side, og derfor ville påstå, at badezonen følger af fredningen."
+        "en": "A second decision next to the first → formal addition → endvidere. Not imidlertid: the two decisions do not contrast.",
+        "da": "Endnu en beslutning ved siden af den første → formel tilføjelse → endvidere. Ikke imidlertid: de to beslutninger er ikke modsætninger."
       },
       "tags": ["tilføjelse", "endvidere", "formelt"]
     },
@@ -318,8 +318,8 @@
       "options": ["ligeledes", "derimod", "omvendt", "dog"],
       "answer": "ligeledes",
       "explanation": {
-        "en": "Both sentences describe the same kind of development (an increase), so ligeledes (likewise) marks the parallel addition. Derimod and omvendt are the trap: they would announce an opposite trend, but 'vokset' points in the same direction as 'steget'.",
-        "da": "Begge sætninger beskriver samme slags udvikling (en stigning), så ligeledes markerer den parallelle tilføjelse. Derimod og omvendt er fælden: de ville annoncere en modsat tendens, men 'vokset' peger samme vej som 'steget'."
+        "en": "steget … vokset = same trend → ligeledes. Not derimod/omvendt: they announce an opposite trend.",
+        "da": "steget … vokset = samme udvikling → ligeledes. Ikke derimod/omvendt: de varsler en modsat udvikling."
       },
       "tags": ["tilføjelse", "ligeledes"]
     },
@@ -332,8 +332,8 @@
       "options": ["tilmed", "alligevel", "derimod", "det vil sige"],
       "answer": "tilmed",
       "explanation": {
-        "en": "The second sentence adds an even stronger achievement on top of the first, which is exactly what tilmed (what is more / even) signals. Alligevel is tempting because of the 'selvom' clause, but that concession is already expressed by selvom; between the two sentences there is escalation, not contradiction.",
-        "da": "Anden sætning lægger en endnu større præstation oven på den første, og det er netop, hvad tilmed signalerer. Alligevel er fristende på grund af 'selvom'-sætningen, men den indrømmelse udtrykkes allerede af selvom; mellem de to sætninger er der en optrapning, ikke en modsætning."
+        "en": "Passed everything and even got top marks = a stronger extra → tilmed. Not alligevel: selvom already covers the concession.",
+        "da": "Bestod alt og fik endda topkarakter = en endnu stærkere tilføjelse → tilmed. Ikke alligevel: selvom dækker allerede indrømmelsen."
       },
       "tags": ["tilføjelse", "tilmed"]
     },
@@ -346,8 +346,8 @@
       "options": ["for det andet", "endelig", "med andre ord", "derimod"],
       "answer": "for det andet",
       "explanation": {
-        "en": "The text announces two reasons and has already given the first with 'for det første', so the second must be introduced by for det andet. Endelig is the trap: it closes a longer list, not a pair, and med andre ord would restate the first reason instead of adding a new one.",
-        "da": "Teksten annoncerer to grunde og har allerede givet den første med 'for det første', så den anden skal indledes med for det andet. Endelig er fælden: det afslutter en længere opremsning, ikke et par, og med andre ord ville omformulere den første grund i stedet for at tilføje en ny."
+        "en": "to grunde + for det første → the second reason → for det andet. Not endelig: it closes a longer list, not a pair.",
+        "da": "to grunde + for det første → den anden grund → for det andet. Ikke endelig: det afslutter en længere opremsning, ikke et par."
       },
       "tags": ["rækkefølge", "for det andet"]
     },
@@ -360,8 +360,8 @@
       "options": ["Med andre ord", "Derimod", "Desuden", "Alligevel"],
       "answer": "Med andre ord",
       "explanation": {
-        "en": "The second sentence says the same thing as the first in more general terms, so the reformulation marker med andre ord (in other words) fits, followed by inversion. Desuden is the trap: it would treat the generalisation as new information rather than a restatement, and derimod would announce a contrast that is not there.",
-        "da": "Anden sætning siger det samme som den første med mere generelle ord, så omformuleringsordet med andre ord passer, efterfulgt af inversion. Desuden er fælden: det ville behandle generaliseringen som ny information i stedet for en gentagelse, og derimod ville annoncere en modsætning, der ikke findes."
+        "en": "The second sentence says the same thing more generally → restatement → Med andre ord. Not Desuden: no new information is added.",
+        "da": "Anden sætning siger det samme mere generelt → omformulering → Med andre ord. Ikke Desuden: der kommer ingen ny information."
       },
       "tags": ["omformulering", "med andre ord"]
     },
@@ -374,8 +374,8 @@
       "options": ["selvom", "fordi", "således", "det vil sige"],
       "answer": "det vil sige",
       "explanation": {
-        "en": "The clause after the blank spells out what passing the test means in practice, so the specifying connector det vil sige (that is to say) fits, followed by 'at'. Fordi would turn the B2 level into the reason for the requirement, and således at would present it as a purpose or result rather than a clarification.",
-        "da": "Sætningen efter blanken forklarer, hvad det i praksis betyder at bestå prøven, så præciseringsordet det vil sige passer, efterfulgt af 'at'. Fordi ville gøre B2-niveauet til grunden til kravet, og således at ville fremstille det som et formål eller en følge i stedet for en præcisering."
+        "en": "What follows spells out what passing PD3 means → clarification → det vil sige. Not fordi: B2 is not the reason for the requirement.",
+        "da": "Det efterfølgende forklarer, hvad det betyder at bestå PD3 → præcisering → det vil sige. Ikke fordi: B2 er ikke grunden til kravet."
       },
       "tags": ["omformulering", "det vil sige"]
     },
@@ -388,8 +388,8 @@
       "options": ["endelig", "for det andet", "med andre ord", "derimod"],
       "answer": "endelig",
       "explanation": {
-        "en": "Three parts are announced, and the third and last is introduced by endelig (finally), which closes a list of sequencing markers. For det andet is the trap: it has already been used and cannot be repeated for the third point; derimod would set the financial support in opposition to the other measures.",
-        "da": "Der annonceres tre dele, og den tredje og sidste indledes med endelig, som afslutter en opremsning. For det andet er fælden: det er allerede brugt og kan ikke gentages om det tredje punkt; derimod ville sætte den økonomiske støtte i modsætning til de andre tiltag."
+        "en": "tre dele: første, andet, then the last point → endelig. Not for det andet: it is already used for point two.",
+        "da": "tre dele: første, andet og så det sidste punkt → endelig. Ikke for det andet: det er allerede brugt om punkt to."
       },
       "tags": ["rækkefølge", "endelig"]
     },
@@ -402,8 +402,8 @@
       "options": ["fordi", "derfor", "nemlig", "altså"],
       "answer": "fordi",
       "explanation": {
-        "en": "After the comma comes a ledsætning giving the reason, and only the subordinating conjunction fordi can introduce it; the adverb derfor cannot open a ledsætning and would also point the wrong way (result, not reason). Nemlig gives a reason too, but as an adverb it must stand inside a main clause after the verb, not at the start of the clause.",
-        "da": "Efter kommaet kommer en ledsætning, der angiver grunden, og kun den underordnende konjunktion fordi kan indlede den; adverbiet derfor kan ikke indlede en ledsætning og ville desuden pege den forkerte vej (følge, ikke årsag). Nemlig angiver også en grund, men som adverbium skal det stå inde i en hovedsætning efter verbet, ikke først i sætningen."
+        "en": "Comma + ledsætning giving the reason (huslejen er steget) → conjunction → fordi. Not derfor/nemlig: adverbs cannot open a ledsætning.",
+        "da": "Komma + ledsætning med grunden (huslejen er steget) → konjunktion → fordi. Ikke derfor/nemlig: adverbier kan ikke indlede en ledsætning."
       },
       "tags": ["konjunktion vs adverbium", "fordi", "derfor"]
     },
@@ -416,8 +416,8 @@
       "options": ["fordi", "derfor", "derimod", "alligevel"],
       "answer": "derfor",
       "explanation": {
-        "en": "The blank stands inside a hovedsætning after the finite verb 'flytter', so it needs a consequence adverb: derfor. Fordi is the trap: it expresses the opposite relation (reason, not result) and, being a conjunction, would have to introduce a ledsætning at the front of the clause.",
-        "da": "Blanken står inde i en hovedsætning efter det finitte verbum 'flytter', så der skal et følgeadverbium: derfor. Fordi er fælden: det udtrykker den modsatte relation (årsag, ikke følge), og som konjunktion skulle det indlede en ledsætning forrest i sætningen."
+        "en": "Rent rises → tenants move = result, gap after the verb → derfor. Not fordi: it gives a reason and must open a ledsætning.",
+        "da": "Huslejen stiger → lejerne flytter = følge, hul efter verbet → derfor. Ikke fordi: det angiver årsag og skal indlede en ledsætning."
       },
       "tags": ["konjunktion vs adverbium", "derfor", "fordi"]
     },
@@ -430,8 +430,8 @@
       "options": ["Selvom", "Alligevel", "Dog", "Derimod"],
       "answer": "Selvom",
       "explanation": {
-        "en": "The first part is a ledsætning (note the comma and the inversion 'er ventetiden' in the following main clause), so it must be introduced by the subordinating conjunction selvom. Alligevel and dog are the trap: they carry the same concessive meaning, but they are adverbs and cannot introduce a ledsætning.",
-        "da": "Første led er en ledsætning (bemærk kommaet og inversionen 'er ventetiden' i den følgende hovedsætning), så den skal indledes af den underordnende konjunktion selvom. Alligevel og dog er fælden: de har samme indrømmende betydning, men de er adverbier og kan ikke indlede en ledsætning."
+        "en": "Comma + inversion after it (er ventetiden) = the first part is a ledsætning → conjunction → Selvom. Not Alligevel/Dog: adverbs cannot open a ledsætning.",
+        "da": "Komma + inversion bagefter (er ventetiden) = første led er en ledsætning → konjunktion → Selvom. Ikke Alligevel/Dog: adverbier kan ikke indlede en ledsætning."
       },
       "tags": ["konjunktion vs adverbium", "selvom", "alligevel"]
     },
@@ -444,8 +444,8 @@
       "options": ["selvom", "derfor", "alligevel", "desuden"],
       "answer": "alligevel",
       "explanation": {
-        "en": "Here the two ideas stand in separate main clauses, so the concession must be carried by an adverb after the finite verb: alligevel (nevertheless). Selvom is the trap: it is a conjunction that joins a ledsætning to a main clause and cannot stand alone in the middle of a hovedsætning.",
-        "da": "Her står de to tanker i hver sin hovedsætning, så indrømmelsen skal bæres af et adverbium efter det finitte verbum: alligevel. Selvom er fælden: det er en konjunktion, der knytter en ledsætning til en hovedsætning, og det kan ikke stå alene midt i en hovedsætning."
+        "en": "Two separate hovedsætninger, gap after the verb → concessive adverb → alligevel. Not selvom: a conjunction cannot sit inside a hovedsætning.",
+        "da": "To selvstændige hovedsætninger, hul efter verbet → indrømmende adverbium → alligevel. Ikke selvom: en konjunktion kan ikke stå inde i en hovedsætning."
       },
       "tags": ["konjunktion vs adverbium", "alligevel", "selvom"]
     },
@@ -458,8 +458,8 @@
       "options": ["imens", "mens", "selvom", "hvorimod"],
       "answer": "imens",
       "explanation": {
-        "en": "The blank sits inside a main clause after the finite verb 'bliver', so it takes the adverb imens (meanwhile). Mens is the trap: it means the same but is a conjunction that introduces a ledsætning ('mens forældrene deltager'), and like selvom and hvorimod it cannot stand alone in the middle of a hovedsætning.",
-        "da": "Blanken står inde i en hovedsætning efter det finitte verbum 'bliver', så der skal adverbiet imens. Mens er fælden: det betyder det samme, men er en konjunktion, der indleder en ledsætning ('mens forældrene deltager'), og ligesom selvom og hvorimod kan det ikke stå alene midt i en hovedsætning."
+        "en": "Gap after the verb bliver in a hovedsætning → adverb → imens. Not mens: same meaning, but a conjunction that opens a ledsætning.",
+        "da": "Hul efter verbet bliver i en hovedsætning → adverbium → imens. Ikke mens: samme betydning, men en konjunktion, der indleder en ledsætning."
       },
       "tags": ["konjunktion vs adverbium", "imens", "mens"]
     },
@@ -472,8 +472,8 @@
       "options": ["hvorimod", "så", "derimod", "fordi"],
       "answer": "hvorimod",
       "explanation": {
-        "en": "The comma is followed by a ledsætning that contrasts two sectors, so a subordinating conjunction of contrast is needed: hvorimod (whereas). Derimod is the trap: it has the same meaning but is an adverb and would require a new main clause ('Den offentlige sektor stod derimod stille'); fordi and så give the wrong relation (reason, consequence).",
-        "da": "Efter kommaet kommer en ledsætning, der stiller to sektorer over for hinanden, så der skal en underordnende modsætningskonjunktion: hvorimod. Derimod er fælden: det betyder det samme, men er et adverbium og ville kræve en ny hovedsætning ('Den offentlige sektor stod derimod stille'); fordi og så angiver den forkerte relation (årsag, følge)."
+        "en": "Comma + ledsætning contrasting two sectors → conjunction → hvorimod. Not derimod: it is an adverb and needs its own hovedsætning.",
+        "da": "Komma + ledsætning, der stiller to sektorer over for hinanden → konjunktion → hvorimod. Ikke derimod: et adverbium kræver sin egen hovedsætning."
       },
       "tags": ["konjunktion vs adverbium", "hvorimod", "derimod"]
     },
@@ -486,8 +486,8 @@
       "options": ["nemlig", "derfor", "desuden", "derimod"],
       "answer": "nemlig",
       "explanation": {
-        "en": "Here nemlig means 'namely': it introduces the specific item announced by 'én faktor'. Derfor, desuden and derimod all join two statements (consequence, addition, contrast), but nothing after the blank is a statement, only the name of the factor, so only the specifying nemlig fits.",
-        "da": "Her betyder nemlig 'det vil sige' og indleder det konkrete led, som 'én faktor' har annonceret. Derfor, desuden og derimod forbinder alle to udsagn (følge, tilføjelse, modsætning), men efter blanken kommer intet udsagn, kun navnet på faktoren, så kun det præciserende nemlig passer."
+        "en": "én faktor is announced, then only its name follows → specification → nemlig (namely). Not derfor/desuden/derimod: they link two full statements.",
+        "da": "én faktor annonceres, og kun navnet følger → præcisering → nemlig. Ikke derfor/desuden/derimod: de forbinder to hele udsagn."
       },
       "tags": ["nemlig", "præcisering"]
     },
@@ -500,8 +500,8 @@
       "options": ["nemlig", "imidlertid", "derfor", "altså"],
       "answer": "nemlig",
       "explanation": {
-        "en": "The second sentence explains why the municipality extended the opening hours, so the explanatory adverb nemlig fits, and it must stand after the finite verb ('arbejder nemlig'); unlike derfor or imidlertid, nemlig can never open a sentence. Derfor would reverse the relation and make parents' shift work a result of the decision.",
-        "da": "Anden sætning forklarer, hvorfor kommunen forlængede åbningstiden, så det forklarende adverbium nemlig passer, og det skal stå efter det finitte verbum ('arbejder nemlig'); modsat derfor og imidlertid kan nemlig aldrig indlede en sætning. Derfor ville vende relationen om og gøre forældrenes skifteholdsarbejde til en følge af beslutningen."
+        "en": "The second sentence explains the decision (shift work) → reason → nemlig, after the verb. Not derfor: shift work is no result of it.",
+        "da": "Anden sætning forklarer beslutningen (skiftende arbejdstider) → årsag → nemlig, efter verbet. Ikke derfor: arbejdstiderne er ingen følge af den."
       },
       "tags": ["nemlig", "årsag", "placering"]
     }

@@ -10,8 +10,8 @@
       "options": ["vedtog", "har vedtaget", "vedtager", "havde vedtaget"],
       "answer": "vedtog",
       "explanation": {
-        "en": "A named, finished point in the past (i 2019) requires datid. Førnutid (har vedtaget) cannot be combined with a completed time adverbial like i 2019, even though the law still applies today.",
-        "da": "Et angivet, afsluttet tidspunkt i fortiden (i 2019) kræver datid. Førnutid (har vedtaget) kan ikke kombineres med et afsluttet tidsadverbial som i 2019, selv om loven stadig gælder i dag."
+        "en": "i 2019 = closed time → datid. Not har vedtaget: førnutid never goes with a closed time.",
+        "da": "i 2019 = afsluttet tid → datid. Ikke har vedtaget: førnutid passer aldrig til afsluttet tid."
       },
       "tags": ["datid", "førnutid", "tidsadverbial"]
     },
@@ -24,8 +24,8 @@
       "options": ["er steget", "steg", "stiger", "var steget"],
       "answer": "er steget",
       "explanation": {
-        "en": "A period that reaches up to the present (i de seneste ti år) takes førnutid. Stige is an intransitive change verb, so the auxiliary is er, not har. The datid steg would treat the ten years as a closed chapter.",
-        "da": "En periode, der rækker frem til nu (i de seneste ti år), kræver førnutid. Stige er et intransitivt overgangsverbum, så hjælpeverbet er er, ikke har. Datid (steg) ville gøre de ti år til en afsluttet periode."
+        "en": "i de seneste ti år = period up to now → førnutid. stige is a change verb → er, not har.",
+        "da": "i de seneste ti år = periode frem til nu → førnutid. stige er et overgangsverbum → er, ikke har."
       },
       "tags": ["førnutid", "datid", "tidsadverbial"]
     },
@@ -39,8 +39,8 @@
       "options": ["besluttet", "har besluttet", "beslutter", "besluttede"],
       "answer": "besluttede",
       "explanation": {
-        "en": "A da-clause telling a completed past event takes datid. Beslutte is a regular -ede verb: besluttede. The trap is the participle besluttet, which can only stand after har/havde.",
-        "da": "En da-ledsætning, der fortæller om en afsluttet hændelse, står i datid. Beslutte er et regelmæssigt -ede-verbum: besluttede. Faldgruben er kort tillægsform (besluttet), som kun kan stå efter har/havde."
+        "en": "Da + finished past event → datid: besluttede. Not besluttet: that participle needs har/havde in front.",
+        "da": "Da + afsluttet hændelse i fortiden → datid: besluttede. Ikke besluttet: kort tillægsform kræver har/havde foran."
       },
       "tags": ["datid", "svage verber"]
     },
@@ -54,8 +54,8 @@
       "options": ["indførte", "havde indført", "indfører", "har indført"],
       "answer": "har indført",
       "explanation": {
-        "en": "Siden + a starting point marks a period that runs from then until now, which calls for førnutid: har + kort tillægsform. Indføre is a weak -te verb (indførte, indført). Datid indførte would ignore siden.",
-        "da": "Siden + et starttidspunkt angiver en periode fra dengang til nu, og det kræver førnutid: har + kort tillægsform. Indføre er et svagt -te-verbum (indførte, indført). Datid (indførte) ville se bort fra siden."
+        "en": "siden 2014 = period up to now → førnutid: har indført. Not indførte: datid ignores siden.",
+        "da": "siden 2014 = periode frem til nu → førnutid: har indført. Ikke indførte: datid ignorerer siden."
       },
       "tags": ["førnutid", "siden"]
     },
@@ -68,8 +68,8 @@
       "options": ["har boet", "boede", "bor", "havde boet"],
       "answer": "har boet",
       "explanation": {
-        "en": "She still lives in Denmark (taler nu), so the seven years are a period that continues into the present: førnutid. The trap is boede i syv år, which in Danish means the stay is over. Bor cannot combine with a duration like i syv år.",
-        "da": "Hun bor stadig i Danmark (taler nu), så de syv år er en periode, der fortsætter til nu: førnutid. Faldgruben er boede i syv år, som på dansk betyder, at opholdet er slut. Bor kan ikke stå sammen med en varighed som i syv år."
+        "en": "taler nu = she still lives here → period up to now → førnutid: har boet. Not boede: that means she has left.",
+        "da": "taler nu = hun bor her stadig → periode frem til nu → førnutid: har boet. Ikke boede: så er hun flyttet."
       },
       "tags": ["førnutid", "datid", "varighed"]
     },
@@ -83,8 +83,8 @@
       "options": ["ansat", "ansatte", "ansættede", "har ansat"],
       "answer": "ansatte",
       "explanation": {
-        "en": "Sidste år is a closed period, so the verb must be in datid; har ansat would clash with that adverbial. Ansætte is irregular: ansatte in datid and ansat as participle, never ansættede.",
-        "da": "Sidste år er en afsluttet periode, så verbet skal stå i datid; har ansat ville stride mod tidsadverbialet. Ansætte er uregelmæssigt: ansatte i datid og ansat i kort tillægsform, aldrig ansættede."
+        "en": "sidste år = closed time → datid. ansætte: ansatte, ansat. Not ansættede: that form does not exist.",
+        "da": "sidste år = afsluttet tid → datid. ansætte: ansatte, ansat. Ikke ansættede: den form findes ikke."
       },
       "tags": ["datid", "førnutid", "uregelmæssig"]
     },
@@ -97,8 +97,8 @@
       "options": ["valgte", "har valgt", "vælger", "havde valgt"],
       "answer": "valgte",
       "explanation": {
-        "en": "For ... siden points to a finished moment in the past, so the first clause takes datid (valgte). The second clause is in førnutid because ikke fortrudt is about how she feels now, but that does not pull the first verb along.",
-        "da": "For ... siden peger på et afsluttet tidspunkt i fortiden, så første sætning står i datid (valgte). Anden sætning står i førnutid, fordi ikke fortrudt handler om nu, men det trækker ikke det første verbum med."
+        "en": "for tre år siden = closed time → datid: valgte. Not har valgt: for … siden never takes førnutid.",
+        "da": "for tre år siden = afsluttet tid → datid: valgte. Ikke har valgt: for … siden tager aldrig førnutid."
       },
       "tags": ["datid", "førnutid", "tidsadverbial"]
     },
@@ -112,8 +112,8 @@
       "options": ["havde anvendt", "har anvendt", "anvender", "anvendte"],
       "answer": "har anvendt",
       "explanation": {
-        "en": "I de senere år describes a period that reaches the present, and udviklingen fortsætter confirms it is not finished, so førnutid is required. Anvende is a weak -te verb: anvendte, anvendt. Datid anvendte would close the period.",
-        "da": "I de senere år beskriver en periode, der rækker frem til nu, og udviklingen fortsætter viser, at den ikke er afsluttet, så førnutid er nødvendig. Anvende er et svagt -te-verbum: anvendte, anvendt. Datid (anvendte) ville afslutte perioden."
+        "en": "i de senere år + udviklingen fortsætter = still open → førnutid: har anvendt. Not anvendte: datid closes the period.",
+        "da": "i de senere år + udviklingen fortsætter = stadig åben → førnutid: har anvendt. Ikke anvendte: datid lukker perioden."
       },
       "tags": ["førnutid", "datid", "tidsadverbial"]
     },
@@ -126,8 +126,8 @@
       "options": ["kørte", "har kørt", "er kørt", "kører"],
       "answer": "kørte",
       "explanation": {
-        "en": "Da jeg var barn frames a closed period in the past, and repeated habits inside that frame (hvert år) take datid. Har kørt is tempting because the tradition continues, but it is now a different subject (min egen familie) who keeps it up. Er kørt would mean 'have left'.",
-        "da": "Da jeg var barn indrammer en afsluttet periode i fortiden, og gentagne vaner i den periode (hvert år) står i datid. Har kørt er fristende, fordi traditionen fortsætter, men det er nu et andet subjekt (min egen familie), der holder den i live. Er kørt ville betyde 'er taget af sted'."
+        "en": "Da jeg var barn = closed period → datid, also for habits: kørte. Not har kørt: childhood is over.",
+        "da": "Da jeg var barn = afsluttet periode → datid, også om vaner: kørte. Ikke har kørt: barndommen er slut."
       },
       "tags": ["datid", "førnutid", "vane"]
     },
@@ -141,8 +141,8 @@
       "options": ["gennemfører", "har gennemført", "gennemførte", "havde gennemført"],
       "answer": "har gennemført",
       "explanation": {
-        "en": "Inden for det seneste år is a period that runs up to now, and the result is still felt (medarbejderne er trætte), so førnutid is right. Gennemføre is a weak -te verb: gennemførte, gennemført. Datid gennemførte would present the changes as a closed story.",
-        "da": "Inden for det seneste år er en periode, der løber frem til nu, og resultatet mærkes stadig (medarbejderne er trætte), så førnutid er korrekt. Gennemføre er et svagt -te-verbum: gennemførte, gennemført. Datid (gennemførte) ville fremstille forandringerne som en afsluttet historie."
+        "en": "inden for det seneste år = period up to now → førnutid: har gennemført. Not gennemførte: the result (er trætte) is felt now.",
+        "da": "inden for det seneste år = periode frem til nu → førnutid: har gennemført. Ikke gennemførte: resultatet (er trætte) mærkes nu."
       },
       "tags": ["førnutid", "datid", "resultat"]
     },
@@ -155,8 +155,8 @@
       "options": ["fandt", "har fundet", "finder", "havde fundet"],
       "answer": "fandt",
       "explanation": {
-        "en": "A hvornår-question asks for a point in time, and Danish then uses datid even where English might use the present perfect. Finde is a strong verb: fandt, fundet. Har fundet fits a question without a time focus (Har du fundet ud af det?), and havde fundet would need another past reference point.",
-        "da": "Et hvornår-spørgsmål spørger efter et tidspunkt, og dansk bruger så datid, også hvor engelsk måske ville bruge førnutid. Finde er et stærkt verbum: fandt, fundet. Har fundet passer til et spørgsmål uden tidsfokus (Har du fundet ud af det?), og havde fundet ville kræve et andet holdepunkt i fortiden."
+        "en": "Hvornår asks for a point in time → datid: fandt. Not har fundet: førnutid does not answer hvornår.",
+        "da": "Hvornår spørger efter et tidspunkt → datid: fandt. Ikke har fundet: førnutid passer ikke til hvornår."
       },
       "tags": ["datid", "førnutid", "uregelmæssig"]
     },
@@ -170,8 +170,8 @@
       "options": ["er lykket", "er lykkedes", "lykkedes", "har lykkedes"],
       "answer": "er lykkedes",
       "explanation": {
-        "en": "Lykkes is a deponent verb: it keeps its -s in every form (lykkes, lykkedes, er lykkedes) and takes er as auxiliary in førnutid. The two traps are har lykkedes (wrong auxiliary) and er lykket (dropping the -s).",
-        "da": "Lykkes er et deponent verbum: det beholder sit -s i alle former (lykkes, lykkedes, er lykkedes) og har er som hjælpeverbum i førnutid. De to faldgruber er har lykkedes (forkert hjælpeverbum) og er lykket (uden -s)."
+        "en": "lykkes keeps its -s in every form and takes er → er lykkedes. Not har lykkedes, not er lykket.",
+        "da": "lykkes beholder sit -s i alle former og tager er → er lykkedes. Ikke har lykkedes, ikke er lykket."
       },
       "tags": ["førnutid", "deponent", "lykkes"]
     },
@@ -184,8 +184,8 @@
       "options": ["er", "har", "bliver", "var"],
       "answer": "er",
       "explanation": {
-        "en": "Komme is a verb of motion without an object, and such verbs form førnutid with er: er kommet. Har kommet is the classic error carried over from English 'have come'. Var kommet is førdatid and does not fit a sentence anchored in the present (i dag).",
-        "da": "Komme er et bevægelsesverbum uden objekt, og den type verber danner førnutid med er: er kommet. Har kommet er den klassiske fejl, der stammer fra engelsk 'have come'. Var kommet er førdatid og passer ikke til en sætning, der er forankret i nutiden (i dag)."
+        "en": "komme = movement, no object → er kommet. Not har kommet: the classic English 'have come' trap.",
+        "da": "komme = bevægelse uden objekt → er kommet. Ikke har kommet: den klassiske fejl fra engelsk 'have come'."
       },
       "tags": ["førnutid", "har/er", "bevægelsesverber"]
     },
@@ -198,8 +198,8 @@
       "options": ["er", "har", "bliver", "var"],
       "answer": "er",
       "explanation": {
-        "en": "Begynde used without an object is a change-of-state verb and takes er: semestret er begyndt. Har begyndt is only possible with an object (vi har begyndt arbejdet). Var begyndt is førdatid, but skal nu places the sentence in the present.",
-        "da": "Begynde uden objekt er et overgangsverbum og tager er: semestret er begyndt. Har begyndt er kun muligt med et objekt (vi har begyndt arbejdet). Var begyndt er førdatid, men skal nu placerer sætningen i nutiden."
+        "en": "begynde without an object = change of state → er begyndt. Not har: har begyndt needs an object (har begyndt arbejdet).",
+        "da": "begynde uden objekt = tilstandsskift → er begyndt. Ikke har: har begyndt kræver et objekt (har begyndt arbejdet)."
       },
       "tags": ["førnutid", "har/er", "overgangsverber"]
     },
@@ -213,8 +213,8 @@
       "options": ["er blivet", "er blevet", "har blevet", "blev"],
       "answer": "er blevet",
       "explanation": {
-        "en": "Blive describes a change of state and therefore forms førnutid with er: er blevet. Har blevet is the classic error; blive is strong, so the participle is blevet, not blivet.",
-        "da": "Blive beskriver en overgang til en ny tilstand og danner derfor førnutid med er: er blevet. Har blevet er den klassiske fejl; blive er stærkt, så kort tillægsform er blevet, ikke blivet."
+        "en": "blive = change of state → er blevet. Not har blevet, not blivet: blive is strong (blev, blevet).",
+        "da": "blive = tilstandsskift → er blevet. Ikke har blevet, ikke blivet: blive er stærkt (blev, blevet)."
       },
       "tags": ["førnutid", "har/er", "overgangsverber"]
     },
@@ -227,8 +227,8 @@
       "options": ["har", "er", "var", "bliver"],
       "answer": "har",
       "explanation": {
-        "en": "Køre takes har when it has an object or describes the activity itself: har kørt bil i tyve år. Er kørt means 'has driven off / has left' and would make no sense with a duration. Var kørt is førdatid and does not fit the present-anchored second clause.",
-        "da": "Køre tager har, når det har et objekt eller beskriver selve aktiviteten: har kørt bil i tyve år. Er kørt betyder 'er kørt af sted' og giver ingen mening sammen med en varighed. Var kørt er førdatid og passer ikke til den nutidsforankrede anden sætning."
+        "en": "kørt bil = activity with an object → har kørt. Not er: er kørt means 'has left'.",
+        "da": "kørt bil = aktivitet med objekt → har kørt. Ikke er: er kørt betyder 'er taget af sted'."
       },
       "tags": ["førnutid", "har/er", "bevægelsesverber"]
     },
@@ -242,8 +242,8 @@
       "options": ["har kørt", "kørte", "er kørt", "er køret"],
       "answer": "er kørt",
       "explanation": {
-        "en": "Here køre has no object and means movement away from a place, so the auxiliary is er: bussen er kørt ('the bus has left'). Har kørt would describe the activity of driving (bussen har kørt i ti timer), which is not what the sentence says.",
-        "da": "Her har køre intet objekt og betyder bevægelse væk fra et sted, så hjælpeverbet er er: bussen er kørt. Har kørt ville beskrive selve kørslen (bussen har kørt i ti timer), og det er ikke sætningens betydning."
+        "en": "Bussen, no object = leaving a place → er kørt. Not har kørt: that describes driving as an activity.",
+        "da": "Bussen uden objekt = væk fra et sted → er kørt. Ikke har kørt: det beskriver selve kørslen."
       },
       "tags": ["førnutid", "har/er", "bevægelsesverber"]
     },
@@ -256,8 +256,8 @@
       "options": ["havde", "har", "var", "er"],
       "answer": "havde",
       "explanation": {
-        "en": "The symptoms began before another past event (kom til lægen), so we need førdatid: havde + kort tillægsform. Har varet is førnutid and breaks the past narrative; var varet uses the wrong auxiliary, since vare is not a motion or change verb.",
-        "da": "Symptomerne begyndte før en anden fortidig hændelse (kom til lægen), så vi skal bruge førdatid: havde + kort tillægsform. Har varet er førnutid og bryder fortidsfortællingen; var varet har forkert hjælpeverbum, for vare er ikke et bevægelses- eller overgangsverbum."
+        "en": "Before another past event (kom til lægen) → førdatid: havde varet. Not har: the story is in the past.",
+        "da": "Før en anden hændelse i fortiden (kom til lægen) → førdatid: havde varet. Ikke har: historien foregår i fortiden."
       },
       "tags": ["førdatid", "fortælling"]
     },
@@ -271,8 +271,8 @@
       "options": ["drøftede", "havde drøftet", "havde drøftede", "har drøftet"],
       "answer": "havde drøftet",
       "explanation": {
-        "en": "The discussing took place before the past event fremlagde, and inden makes that order explicit, so førdatid is required: havde drøftet. Drøfte is a regular -ede verb (drøftede, drøftet). Plain datid drøftede would put both events on the same time line.",
-        "da": "Drøftelserne foregik før den fortidige hændelse fremlagde, og inden gør rækkefølgen tydelig, så førdatid er nødvendig: havde drøftet. Drøfte er et regelmæssigt -ede-verbum (drøftede, drøftet). Ren datid (drøftede) ville placere begge hændelser på samme tidslinje."
+        "en": "inden + past event (fremlagde) → the earlier action takes førdatid: havde drøftet. Not havde drøftede: havde needs the participle.",
+        "da": "inden + hændelse i fortiden (fremlagde) → det, der skete først, får førdatid: havde drøftet. Ikke havde drøftede: havde kræver kort tillægsform."
       },
       "tags": ["førdatid", "fortælling"]
     },
@@ -285,8 +285,8 @@
       "options": ["havde nedsat", "nedsatte", "har nedsat", "havde nedsatte"],
       "answer": "havde nedsat",
       "explanation": {
-        "en": "The cut happened before the moment of discovery (opdagede), so the at-clause takes førdatid: havde nedsat. Nedsatte would mean the cut happened at the same time as the discovery; har nedsat clashes with the past narrative; havde nedsatte wrongly combines an auxiliary with a datid form instead of the participle.",
-        "da": "Nedsættelsen skete før opdagelsen (opdagede), så at-ledsætningen står i førdatid: havde nedsat. Nedsatte ville betyde, at nedsættelsen skete samtidig med opdagelsen; har nedsat strider mod fortidsfortællingen; havde nedsatte kombinerer forkert et hjælpeverbum med datid i stedet for kort tillægsform."
+        "en": "The cut came before opdagede → førdatid: havde nedsat. Not havde nedsatte: havde + participle, never datid.",
+        "da": "Nedsættelsen kom før opdagede → førdatid: havde nedsat. Ikke havde nedsatte: havde + kort tillægsform, aldrig datid."
       },
       "tags": ["førdatid", "ledsætning", "uregelmæssig"]
     },
@@ -299,8 +299,8 @@
       "options": ["nedsætte", "nedsætter", "nedsat", "nedsatte"],
       "answer": "nedsætte",
       "explanation": {
-        "en": "After a modal verb (vil, kan, skal, må, bør) the next verb stands in the bare infinitive without at: vil nedsætte. The trap is nutid nedsætter, which would give the clause two finite verbs. Nedsat is the participle and needs har/er.",
-        "da": "Efter et modalverbum (vil, kan, skal, må, bør) står det næste verbum i infinitiv uden at: vil nedsætte. Faldgruben er nutid (nedsætter), som ville give sætningen to finitte verber. Nedsat er kort tillægsform og kræver har/er."
+        "en": "vil = modal verb → infinitive without -r: nedsætte. Not nedsætter: vil is already the conjugated verb.",
+        "da": "vil = modalverbum → infinitiv uden -r: nedsætte. Ikke nedsætter: vil er allerede det bøjede verbum."
       },
       "tags": ["infinitiv", "modalverber"]
     },
@@ -313,8 +313,8 @@
       "options": ["indførte", "indføre", "indført", "indfører"],
       "answer": "indføre",
       "explanation": {
-        "en": "Here at is the infinitive marker after the finite verb overvejer, so the following verb must be in the infinitive: at indføre. Nutid indfører after at is the classic error; a clause only has one finite verb.",
-        "da": "Her er at infinitivmærke efter det finitte verbum overvejer, så det følgende verbum skal stå i infinitiv: at indføre. Nutid (indfører) efter at er den klassiske fejl; en sætning har kun ét finit verbum."
+        "en": "overvejer at + verb → infinitive: at indføre. Not indfører: never -r right after at.",
+        "da": "overvejer at + verbum → infinitiv: at indføre. Ikke indfører: aldrig -r lige efter at."
       },
       "tags": ["infinitiv", "at"]
     },
@@ -327,8 +327,8 @@
       "options": ["skyldes", "skylde", "skyldtes", "skyldt"],
       "answer": "skyldes",
       "explanation": {
-        "en": "After the modal kan the verb stands in the infinitive, and skyldes is a deponent verb whose infinitive also ends in -s: kan skyldes. The trap is skylde, which looks like the 'real' infinitive but is a different verb meaning 'to owe'. Skyldtes is datid and cannot follow a modal.",
-        "da": "Efter modalverbet kan står verbet i infinitiv, og skyldes er et deponent verbum, hvis infinitiv også ender på -s: kan skyldes. Faldgruben er skylde, som ligner den 'rigtige' infinitiv, men er et andet verbum, der betyder 'at have gæld'. Skyldtes er datid og kan ikke stå efter et modalverbum."
+        "en": "kan = modal verb → infinitive. skyldes keeps its -s even there: kan skyldes. Not skylde: that means 'owe'.",
+        "da": "kan = modalverbum → infinitiv. skyldes beholder sit -s også her: kan skyldes. Ikke skylde: det betyder 'have gæld'."
       },
       "tags": ["infinitiv", "deponent", "modalverber"]
     },
@@ -342,8 +342,8 @@
       "options": ["steg", "stiger", "stige", "er steget"],
       "answer": "stiger",
       "explanation": {
-        "en": "This at is not an infinitive marker but the conjunction that opens a ledsætning (viser, at ...). A ledsætning has its own subject (antallet) and therefore needs a finite verb in nutid: stiger. The trap is writing the infinitive stige just because at comes before it.",
-        "da": "Dette at er ikke infinitivmærke, men den konjunktion, der indleder en ledsætning (viser, at ...). En ledsætning har sit eget subjekt (antallet) og kræver derfor et finit verbum i nutid: stiger. Faldgruben er at skrive infinitiv (stige), bare fordi der står at foran."
+        "en": "viser, at antallet: a subject follows at → ledsætning → full verb in nutid: stiger. Not stige: this at is no infinitive marker.",
+        "da": "viser, at antallet: et subjekt efter at → ledsætning → bøjet verbum i nutid: stiger. Ikke stige: dette at er ikke infinitivmærke."
       },
       "tags": ["nutid", "ledsætning", "at"]
     },
@@ -356,8 +356,8 @@
       "options": ["afgøres", "bliver afgjort", "afgjort", "afgør"],
       "answer": "afgøres",
       "explanation": {
-        "en": "After the modal skal the passive stands in the infinitive: either the s-passiv afgøres or blive afgjort. In formal text about rules, s-passiv is the normal choice. Bliver afgjort is nutid and cannot follow a modal, and afgør is active.",
-        "da": "Efter modalverbet skal står passiven i infinitiv: enten s-passiv (afgøres) eller blive afgjort. I formel tekst om regler er s-passiv det normale valg. Bliver afgjort er nutid og kan ikke stå efter et modalverbum, og afgør er aktiv."
+        "en": "skal + passive about a rule → s-passiv: afgøres. Not bliver afgjort: nutid cannot follow a modal verb.",
+        "da": "skal + passiv om en regel → s-passiv: afgøres. Ikke bliver afgjort: nutid kan ikke stå efter et modalverbum."
       },
       "tags": ["passiv", "s-passiv", "modalverber"]
     },
@@ -371,8 +371,8 @@
       "options": ["vedtog", "er blevet vedtaget", "blev vedtaget", "vedtages"],
       "answer": "blev vedtaget",
       "explanation": {
-        "en": "A single, completed event in the past is normally expressed with blive-passiv: blev + kort tillægsform (blev vedtaget). S-passiv in datid (vedtoges) exists but is formal and rare and mostly used for general or repeated actions. The trap is the active vedtog, which would need the council as subject.",
-        "da": "En enkelt, afsluttet hændelse i fortiden udtrykkes normalt med blive-passiv: blev + kort tillægsform (blev vedtaget). S-passiv i datid (vedtoges) findes, men er formel og sjælden og bruges mest om generelle eller gentagne handlinger. Faldgruben er aktiv (vedtog), som ville kræve byrådet som subjekt."
+        "en": "i sidste uge = one event in the past → blev + participle: blev vedtaget. Not vedtog: the proposal does not pass anything itself.",
+        "da": "i sidste uge = én hændelse i fortiden → blev + kort tillægsform: blev vedtaget. Ikke vedtog: forslaget vedtager ikke selv noget."
       },
       "tags": ["passiv", "blive-passiv", "datid"]
     },
@@ -385,8 +385,8 @@
       "options": ["blev", "er", "bliver", "var"],
       "answer": "blev",
       "explanation": {
-        "en": "The hiring is a single event at a named past time (i 2022), so blive-passiv in datid is needed: blev ansat. Er ansat describes a present state ('is employed'), var ansat a past state ('was employed'), and bliver ansat is present tense. The trap is er, borrowed from English 'was hired'.",
-        "da": "Ansættelsen er en enkelt hændelse på et angivet tidspunkt i fortiden (i 2022), så der skal bruges blive-passiv i datid: blev ansat. Er ansat beskriver en nuværende tilstand, var ansat en fortidig tilstand, og bliver ansat er nutid. Faldgruben er er, som er lånt fra engelsk 'was hired'."
+        "en": "i 2022 = one event in the past → blev ansat. Not er: er ansat is a state now, not the hiring.",
+        "da": "i 2022 = én hændelse i fortiden → blev ansat. Ikke er: er ansat er en tilstand nu, ikke selve ansættelsen."
       },
       "tags": ["passiv", "blive-passiv", "datid"]
     },
@@ -400,8 +400,8 @@
       "options": ["kræver", "er krævet", "kræves", "krævede"],
       "answer": "kræves",
       "explanation": {
-        "en": "A general rule in formal text takes s-passiv in nutid: infinitive + s (kræves). The trap is the active kræver, but der is a formal subject, not the one doing the requiring, so der kræver is impossible. Bliver krævet is grammatical but unidiomatic for a standing rule.",
-        "da": "En generel regel i formel tekst står i s-passiv i nutid: infinitiv + s (kræves). Faldgruben er aktiv (kræver), men der er et formelt subjekt og ikke den, der kræver, så der kræver er umuligt. Bliver krævet er grammatisk korrekt, men uidiomatisk om en fast regel."
+        "en": "Der + standing rule → s-passiv in nutid: kræves. Not kræver: der cannot do the requiring itself.",
+        "da": "Der + fast regel → s-passiv i nutid: kræves. Ikke kræver: der kan ikke selv kræve noget."
       },
       "tags": ["passiv", "s-passiv", "nutid"]
     },
@@ -415,8 +415,8 @@
       "options": ["hjalp", "hjulpet", "hjælper", "hjælpede"],
       "answer": "hjalp",
       "explanation": {
-        "en": "Hjælpe is a strong verb with vowel change: hjælpe, hjalp, hjulpet. The datid has no ending at all. The trap is the regularised form hjælpede, which does not exist in standard Danish.",
-        "da": "Hjælpe er et stærkt verbum med vokalskifte: hjælpe, hjalp, hjulpet. Datid har slet ingen endelse. Faldgruben er den regelmæssige form hjælpede, som ikke findes i standarddansk."
+        "en": "hjælpe is strong: hjalp, hjulpet → datid hjalp. Not hjælpede: that form does not exist.",
+        "da": "hjælpe er stærkt: hjalp, hjulpet → datid hjalp. Ikke hjælpede: den form findes ikke."
       },
       "tags": ["datid", "uregelmæssig", "stærke verber"]
     },
@@ -429,8 +429,8 @@
       "options": ["forsvandt", "forsvindede", "forsvundet", "forsvinder"],
       "answer": "forsvandt",
       "explanation": {
-        "en": "Forsvinde is strong and follows the same pattern as finde/fandt and vinde/vandt: forsvinde, forsvandt, forsvundet. The narrative anchored in 2008 needs datid. Forsvindede is the regularised error, and forsvundet is the participle, which would need er.",
-        "da": "Forsvinde er stærkt og følger samme mønster som finde/fandt og vinde/vandt: forsvinde, forsvandt, forsvundet. Fortællingen forankret i 2008 kræver datid. Forsvindede er den regelmæssige fejlform, og forsvundet er kort tillægsform, som ville kræve er."
+        "en": "i 2008 = closed time → datid. forsvinde goes like finde/fandt: forsvandt. Not forsvindede: that form does not exist.",
+        "da": "i 2008 = afsluttet tid → datid. forsvinde bøjes som finde/fandt: forsvandt. Ikke forsvindede: den form findes ikke."
       },
       "tags": ["datid", "uregelmæssig", "stærke verber"]
     },
@@ -444,8 +444,8 @@
       "options": ["tvang", "tvinger", "tvingede", "tvunget"],
       "answer": "tvang",
       "explanation": {
-        "en": "Tvinge is a strong verb: tvinge, tvang, tvunget. In datid the vowel changes and there is no ending. The trap is the regularised tvingede; also note the construction tvinge nogen til at + infinitive.",
-        "da": "Tvinge er et stærkt verbum: tvinge, tvang, tvunget. I datid skifter vokalen, og der er ingen endelse. Faldgruben er den regelmæssige form tvingede; bemærk også konstruktionen tvinge nogen til at + infinitiv."
+        "en": "tvinge is strong: tvang, tvunget → datid tvang. Not tvingede: that form does not exist.",
+        "da": "tvinge er stærkt: tvang, tvunget → datid tvang. Ikke tvingede: den form findes ikke."
       },
       "tags": ["datid", "uregelmæssig", "stærke verber"]
     },
@@ -459,8 +459,8 @@
       "options": ["skært", "skar", "skaret", "skåret"],
       "answer": "skåret",
       "explanation": {
-        "en": "Skære is strong: skære, skar, skåret. The participle after har takes the vowel å, exactly like bære/båret. The traps are skært (adjective-like ending on the wrong stem) and skaret (datid vowel carried into the participle).",
-        "da": "Skære er stærkt: skære, skar, skåret. Kort tillægsform efter har får vokalen å, præcis som bære/båret. Faldgruberne er skært (forkert endelse på forkert stamme) og skaret (datidens vokal overført til tillægsformen)."
+        "en": "har → participle. skære goes like bære: skar, skåret. Not skaret: the datid vowel does not carry over.",
+        "da": "har → kort tillægsform. skære bøjes som bære: skar, skåret. Ikke skaret: datidens vokal følger ikke med."
       },
       "tags": ["førnutid", "uregelmæssig", "stærke verber"]
     },
@@ -473,8 +473,8 @@
       "options": ["trak", "trækkede", "trukket", "trækker"],
       "answer": "trak",
       "explanation": {
-        "en": "Trække is strong: trække, trak, trukket, and the sentence tells a completed past event, so datid trak is needed; note the separated particle in trak ... tilbage. Trækkede is the regularised error, and trukket is the participle, which would require har.",
-        "da": "Trække er stærkt: trække, trak, trukket, og sætningen fortæller om en afsluttet fortidig hændelse, så datid (trak) er nødvendig; bemærk den adskilte partikel i trak ... tilbage. Trækkede er den regelmæssige fejlform, og trukket er kort tillægsform, som ville kræve har."
+        "en": "Finished past event → datid. trække is strong: trak, trukket → trak … tilbage. Not trækkede: that form does not exist.",
+        "da": "Afsluttet hændelse i fortiden → datid. trække er stærkt: trak, trukket → trak … tilbage. Ikke trækkede: den form findes ikke."
       },
       "tags": ["datid", "uregelmæssig", "stærke verber"]
     },
@@ -488,8 +488,8 @@
       "options": ["bærer", "bar", "båret", "bæret"],
       "answer": "båret",
       "explanation": {
-        "en": "Bære is strong: bære, bar, båret. After har the participle båret is required, not the datid bar. The trap is the regularised bæret, which does not exist; compare skære/skåret for the same vowel pattern.",
-        "da": "Bære er stærkt: bære, bar, båret. Efter har skal der stå kort tillægsform (båret), ikke datid (bar). Faldgruben er den regelmæssige form bæret, som ikke findes; sammenlign med skære/skåret, der har samme vokalmønster."
+        "en": "har → participle. bære is strong: bar, båret → har båret. Not bar (datid) or bæret (does not exist).",
+        "da": "har → kort tillægsform. bære er stærkt: bar, båret → har båret. Ikke bar (datid) eller bæret (findes ikke)."
       },
       "tags": ["førnutid", "uregelmæssig", "stærke verber"]
     },
@@ -502,8 +502,8 @@
       "options": ["Overvej", "Overveje", "Overvejer", "Overvejet"],
       "answer": "Overvej",
       "explanation": {
-        "en": "Advice and instructions use the imperativ, which is the verb stem: the infinitive overveje without its final -e. The trap is the infinitive Overveje; Overvejer is nutid and would need a subject like du.",
-        "da": "Råd og instruktioner står i imperativ (bydeform), som er verbets stamme: infinitiven overveje uden det sidste -e. Faldgruben er infinitiven Overveje; Overvejer er nutid og ville kræve et subjekt som du."
+        "en": "Advice with no subject → imperativ = infinitive minus -e: Overvej. Not Overveje (infinitive) or Overvejer (needs du).",
+        "da": "Råd uden subjekt → imperativ = infinitiv minus -e: Overvej. Ikke Overveje (infinitiv) eller Overvejer (kræver du)."
       },
       "tags": ["imperativ", "bydeform"]
     },
@@ -516,8 +516,8 @@
       "options": ["synes", "tror", "mener", "syntes"],
       "answer": "synes",
       "explanation": {
-        "en": "Synes expresses a subjective judgement based on your own experience (taste, impression), which is exactly the case here. Tror is for something you assume without knowing; mener is a reasoned standpoint on a debatable question. Syntes is the datid of this deponent verb, but the sentence is in nutid.",
-        "da": "Synes udtrykker en subjektiv vurdering ud fra egen oplevelse (smag, indtryk), og det er præcis tilfældet her. Tror bruges om noget, man antager uden at vide det; mener om et gennemtænkt standpunkt i et diskutabelt spørgsmål. Syntes er datid af dette deponente verbum, men sætningen står i nutid."
+        "en": "smager = your own experience → synes. tror = a guess, mener = a reasoned view. Not syntes: that is datid.",
+        "da": "smager = egen oplevelse → synes. tror = et gæt, mener = et begrundet standpunkt. Ikke syntes: det er datid."
       },
       "tags": ["nutid", "synes-tror-mener", "deponent"]
     }

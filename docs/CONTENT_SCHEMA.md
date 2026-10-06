@@ -22,7 +22,7 @@ Each topic is one JSON file in `DanskGrammaMama/Content/<topic>.json`:
 | `options` | [string] | choice only. Exactly 4, the correct one included, order random. |
 | `answer` | string | canonical correct answer, exactly as it fits the blank |
 | `accepted` | [string], optional | typed only: other spellings/forms also accepted |
-| `explanation` | object | `{"en": "...", "da": "..."}` 1-3 sentences each. Name the rule, say WHY the answer is right and WHY the most tempting distractor is wrong. Use Danish grammar terms in both (e.g. *ledsætning*, *bestemt form*, *datid*). |
+| `explanation` | object | `{"en": "...", "da": "..."}` Max 25 words each (aim for 12–20). See *Explanations* below. |
 | `tags` | [string] | 1-3 short lowercase tags for the sub-rule, e.g. `["datid","uregelmæssig"]` |
 
 ## Topic ids
@@ -47,6 +47,16 @@ Each topic is one JSON file in `DanskGrammaMama/Content/<topic>.json`:
 - Distractors must be tempting: a real word the learner could plausibly pick, not nonsense. For `choice`, one distractor should be the classic error (e.g. nogen where nogle is right).
 - Danish must be 100% correct: spelling, commas (use the standard "startkomma" style is optional, but be consistent and never wrong), capitalisation, æ/ø/å.
 - Explanations teach a transferable rule, not just "because it is right". Mention the trap. English explanation and Danish explanation carry the same content.
+
+## Explanations
+
+Shown right after every answer, so they must be readable in three seconds.
+
+- Max 25 words per language, aim for 12–20. Two short sentences at most.
+- Sentence 1: the cue in the sentence → the rule → the answer. Use `→`.
+- Sentence 2 (optional): why the most tempting wrong option fails, starting with `Not X:`/`Ikke X:`.
+- No restating the sentence, no "because it is right", no hedging.
+- Example: `i de seneste ti år = period up to now → førnutid. stige is a change verb → er, not har.`
 - Mix: ~55% choice, ~45% typed. ~50% level 1, ~50% level 2. Level 2 typed items are the hardest.
 - Vary sentence subjects and topics; do not start every sentence the same way.
 
@@ -68,13 +78,13 @@ Level-2 texts with several gaps, in the style of PD3 Læseforståelse Delprøve 
 |---|---|---|
 | `options` | [string] | exactly 4, includes the answer, only one fits |
 | `answer` | string | |
-| `explanation` | `{"en","da"}` | 1–3 sentences each, rule + trap, as above |
+| `explanation` | `{"en","da"}` | as above: max 25 words each, cue → rule → answer, then the trap |
 
 Rules: the paragraph must read as one coherent, original text on a Danish-society topic; gaps should test different sub-rules of the topic (not five identical tests); options for one gap must not be trivially resolvable by looking at another gap; no gap may have two defensible answers. Do not reuse published PD3 texts.
 
 ## Topic guides — `Content/guide_<topic>.json`
 
-A compact "how to crack this topic" sheet shown on the topic page. Bilingual; the app shows one language at a time.
+A cheat sheet on the topic page: one rule and one exam trick per section. Bilingual; the app shows one language at a time. If a learner can't read a section in ten seconds, it is too long.
 
 ```json
 {
@@ -83,16 +93,22 @@ A compact "how to crack this topic" sheet shown on the topic page. Bilingual; th
   "sections": [
     {
       "title": {"en": "...", "da": "..."},
-      "rules": [ {"en": "...", "da": "..."} ],
+      "rule": {"en": "...", "da": "..."},
       "hack": {"en": "...", "da": "..."},
-      "examples": [ {"da": "Danish example sentence with the key word **bolded**", "en": "English gloss"} ]
+      "examples": [ {"da": "Short Danish sentence with the key word **bolded**", "en": "English gloss"} ]
     }
   ],
   "traps": [ {"en": "...", "da": "..."} ]
 }
 ```
 
-- `intro`: 1–2 sentences on what PD3 tests here and why learners lose points.
-- 4–7 `sections`, each one sub-rule. `rules`: 1–4 short bullet sentences. `hack`: one memorable trick or test the learner can apply in the exam (e.g. "Swap in *han/ham*: if *ham* fits, use *dem*"). `examples`: 2–3, the tested word wrapped in `**` for bolding.
-- `traps`: 3–6 one-line classic errors with the correction (e.g. "✗ fordi kommer han ikke → ✓ fordi han ikke kommer").
-- Plain, concrete language. Danish grammar terms in both languages (ledsætning, bestemt form …). No fluff.
+- `intro`: one line, max 15 words: where PD3 points are lost.
+- 4–6 `sections`, one sub-rule each, ordered by how many points it costs.
+  - `title`: max 6 words, phrased as the choice the learner faces ("har or er?").
+  - `rule`: max 20 words. Formula style with `→`: "Closed time → datid. Open period → førnutid."
+  - `hack`: max 25 words. One test the learner can run in the exam ("Can you add an object? → har").
+  - `examples`: 1–2 short sentences (max 10 Danish words), the tested word in `**`.
+- `traps`: 3–5 lines, `✗ wrong → ✓ right`, max 14 words, no explanation.
+- Plain words. Danish grammar terms (ledsætning, bestemt form …) in both languages. No fluff, no history, no exceptions the exam doesn't test.
+
+`scripts/validate_content.py` enforces these limits.

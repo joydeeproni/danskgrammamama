@@ -17,8 +17,8 @@
           ],
           "answer": "der",
           "explanation": {
-            "en": "The pronoun is the subject of 'har brug for' inside the relative clause, so the subject pronoun 'der' is used. 'Hvilket' and 'hvad' refer back to a whole clause, not to a noun like 'ældre', and 'hvor' is only used for place and time.",
-            "da": "Pronomenet er subjekt for 'har brug for' i relativsætningen, så subjektspronomenet 'der' bruges. 'Hvilket' og 'hvad' henviser til en hel sætning, ikke til et substantiv som 'ældre', og 'hvor' bruges kun om sted og tid."
+            "en": "Verb right after the gap (har) → subject → der. Not hvilket/hvad: they point to a whole clause, not to ældre.",
+            "da": "Verbum lige efter hullet (har) → subjekt → der. Ikke hvilket/hvad: de henviser til en hel sætning, ikke til ældre."
           }
         },
         {
@@ -30,8 +30,8 @@
           ],
           "answer": "hvilket",
           "explanation": {
-            "en": "The gap refers to the whole preceding clause (the fact that the number is growing), and that requires 'hvilket'. 'Som' and 'der' can only refer to a noun, and bare 'hvad' is the trap: as subject of the clause it would need 'der' ('hvad der lægger').",
-            "da": "Hullet henviser til hele den foregående sætning (at antallet vokser), og det kræver 'hvilket'. 'Som' og 'der' kan kun henvise til et substantiv, og 'hvad' alene er fælden: som subjekt i sætningen skulle det have 'der' med ('hvad der lægger')."
+            "en": "Points back to the whole clause (the number grows) → hvilket. Not bare hvad: as subject of lægger it needs der.",
+            "da": "Peger tilbage på hele sætningen (antallet vokser) → hvilket. Ikke hvad alene: som subjekt for lægger kræver det der."
           }
         }
       ],
@@ -57,8 +57,8 @@
           ],
           "answer": "som",
           "explanation": {
-            "en": "In the relative clause 'regionerne' is the subject and the savings requirements are the object of 'blev pålagt', so only 'som' fits; 'der' is the classic error because it can only be the subject. 'Hvilket' refers to a whole clause and 'hvis' (whose) marks possession.",
-            "da": "I relativsætningen er 'regionerne' subjekt, og sparekravene er objekt for 'blev pålagt', så kun 'som' passer; 'der' er den klassiske fejl, fordi det kun kan være subjekt. 'Hvilket' henviser til en hel sætning, og 'hvis' udtrykker ejefald."
+            "en": "regionerne is the subject → the gap is the object → som. Not der: der can only be subject.",
+            "da": "regionerne er subjekt → hullet er objekt → som. Ikke der: der kan kun være subjekt."
           }
         },
         {
@@ -70,8 +70,8 @@
           ],
           "answer": "på grund af",
           "explanation": {
-            "en": "The shortage of nurses is the cause of the difficulties, so the causal expression 'på grund af' (because of) is right. The trap is 'på trods af' (despite), which would turn the cause into an obstacle that was overcome; 'med henblik på' expresses purpose and 'i forhold til' comparison.",
-            "da": "Manglen på sygeplejersker er årsagen til problemerne, så årsagsudtrykket 'på grund af' er rigtigt. Fælden er 'på trods af', som ville gøre årsagen til en hindring, man havde overvundet; 'med henblik på' udtrykker formål, og 'i forhold til' sammenligning."
+            "en": "The nurse shortage explains the difficulty = cause → på grund af. Not på trods af: that makes the shortage an obstacle overcome.",
+            "da": "Manglen på sygeplejersker forklarer problemerne = årsag → på grund af. Ikke på trods af: så bliver manglen en overvundet hindring."
           }
         }
       ],
@@ -97,8 +97,8 @@
           ],
           "answer": "hvad der",
           "explanation": {
-            "en": "This is an indirect question, and the question word is the subject of 'får', so it must be 'hvad der'; leaving out 'der' ('afdække, hvad får unge til …') is the classic error. 'Hvilket' needs a preceding clause to refer to, and 'som' cannot introduce an indirect question.",
-            "da": "Det er et indirekte spørgsmål, og spørgeordet er subjekt for 'får', så det skal være 'hvad der'; at udelade 'der' ('afdække, hvad får unge til …') er den klassiske fejl. 'Hvilket' kræver en foregående sætning at henvise til, og 'som' kan ikke indlede et indirekte spørgsmål."
+            "en": "Indirect question, verb right after the gap (får) → subject → hvad der. Not bare hvad: a subject question word needs der.",
+            "da": "Indirekte spørgsmål, verbum lige efter hullet (får) → subjekt → hvad der. Ikke hvad alene: et spørgeord som subjekt kræver der."
           }
         },
         {
@@ -110,8 +110,8 @@
           ],
           "answer": "hvilke",
           "explanation": {
-            "en": "When a preposition is placed in front of the relative pronoun in formal Danish, the pronoun must be 'hvilken/hvilket/hvilke', agreeing with the noun: 'brancher' is plural, so 'inden for hvilke'. 'Hvilken' is the agreement trap, and 'som'/'der' can never follow a preposition directly (you would have to say 'som lønnen ligger langt under gennemsnittet inden for').",
-            "da": "Når præpositionen sættes foran det relative pronomen i formelt dansk, skal pronomenet være 'hvilken/hvilket/hvilke' og bøjes efter substantivet: 'brancher' er flertal, så 'inden for hvilke'. 'Hvilken' er kongruensfælden, og 'som'/'der' kan aldrig stå lige efter en præposition (man måtte sige 'som lønnen ligger langt under gennemsnittet inden for')."
+            "en": "Preposition before the gap (inden for) → hvilken/hvilket/hvilke; brancher is plural → hvilke. Not som/der: never directly after a preposition.",
+            "da": "Præposition foran hullet (inden for) → hvilken/hvilket/hvilke; brancher er flertal → hvilke. Ikke som/der: aldrig lige efter en præposition."
           }
         }
       ],
@@ -137,8 +137,8 @@
           ],
           "answer": "i løbet af",
           "explanation": {
-            "en": "'I løbet af' (in the course of / over) is the formal expression for a period during which something happens: 'i løbet af de seneste ti år'. 'På grund af' and 'i forbindelse med' would make the ten years a cause or an occasion, and 'med henblik på' expresses purpose, none of which fits a time span.",
-            "da": "'I løbet af' er det formelle udtryk for en periode, hvor noget sker: 'i løbet af de seneste ti år'. 'På grund af' og 'i forbindelse med' ville gøre de ti år til en årsag eller en anledning, og 'med henblik på' udtrykker formål – intet af det passer til et tidsrum."
+            "en": "de seneste ti år = a period in which prices rose → i løbet af. Not på grund af: ten years are not a cause.",
+            "da": "de seneste ti år = en periode, hvor priserne steg → i løbet af. Ikke på grund af: ti år er ikke en årsag."
           }
         },
         {
@@ -150,8 +150,8 @@
           ],
           "answer": "hvilket",
           "explanation": {
-            "en": "The pronoun refers to the whole first clause (that prices have risen), so 'hvilket' is required. 'Som' and 'der' only refer to a single noun, and 'hvad' alone is the trap: as the subject of 'har gjort' it would have to be 'hvad der'.",
-            "da": "Pronomenet henviser til hele den første sætning (at priserne er steget), så 'hvilket' kræves. 'Som' og 'der' henviser kun til et enkelt substantiv, og 'hvad' alene er fælden: som subjekt for 'har gjort' skulle det være 'hvad der'."
+            "en": "Points back to the whole clause (prices have risen) → hvilket. Not bare hvad: as subject of har gjort it needs der.",
+            "da": "Peger tilbage på hele sætningen (priserne er steget) → hvilket. Ikke hvad alene: som subjekt for har gjort kræver det der."
           }
         },
         {
@@ -163,8 +163,8 @@
           ],
           "answer": "hvor",
           "explanation": {
-            "en": "'Forstæderne' is a place, and the relative clause says what happens there, so the relative adverb 'hvor' is needed. 'Som' or 'der' would make the suburbs the subject or object of 'er til at betale', which is 'priserne', and 'hvilket' refers to a whole clause.",
-            "da": "'Forstæderne' er et sted, og relativsætningen fortæller, hvad der sker dér, så det relative adverbium 'hvor' skal bruges. 'Som' eller 'der' ville gøre forstæderne til subjekt eller objekt for 'er til at betale', men det er 'priserne', og 'hvilket' henviser til en hel sætning."
+            "en": "Place (forstæderne) + clause with its own subject (priserne) → hvor. Not som/der: priserne is already the subject.",
+            "da": "Sted (forstæderne) + sætning med eget subjekt (priserne) → hvor. Ikke som/der: priserne er allerede subjekt."
           }
         },
         {
@@ -176,8 +176,8 @@
           ],
           "answer": "hvem der",
           "explanation": {
-            "en": "In an indirect question the question word that is the subject of the clause must be followed by 'der': 'hvem der skal betale'. Bare 'hvem' is the classic error (it is only correct when 'hvem' is the object, e.g. 'hvem de vil støtte'); 'som' and 'hvilken' cannot introduce an indirect question.",
-            "da": "I et indirekte spørgsmål skal et spørgeord, der er subjekt i sætningen, følges af 'der': 'hvem der skal betale'. 'Hvem' alene er den klassiske fejl (det er kun korrekt, når 'hvem' er objekt, fx 'hvem de vil støtte'); 'som' og 'hvilken' kan ikke indlede et indirekte spørgsmål."
+            "en": "Indirect question, verb right after the gap (skal) → subject → hvem der. Not bare hvem: only correct as object (hvem de støtter).",
+            "da": "Indirekte spørgsmål, verbum lige efter hullet (skal) → subjekt → hvem der. Ikke hvem alene: kun korrekt som objekt (hvem de støtter)."
           }
         },
         {
@@ -189,8 +189,8 @@
           ],
           "answer": "Ifølge",
           "explanation": {
-            "en": "'Ifølge' (according to) names the source of a claim, here the economists, and is the standard way to cite experts in PD3 texts. 'I modsætning til' would set the economists in contrast to the solution, 'på grund af' would make them the cause of it, and 'vedrørende' introduces a topic, not a source.",
-            "da": "'Ifølge' angiver kilden til et udsagn, her økonomerne, og er den faste måde at henvise til eksperter på i PD3-tekster. 'I modsætning til' ville stille økonomerne i kontrast til løsningen, 'på grund af' ville gøre dem til årsagen til den, og 'vedrørende' indleder et emne, ikke en kilde."
+            "en": "Experts as the source of an opinion → ifølge (according to). Not vedrørende: it introduces a topic, not a source.",
+            "da": "Eksperter som kilde til en holdning → ifølge. Ikke vedrørende: det indleder et emne, ikke en kilde."
           }
         }
       ],
@@ -217,8 +217,8 @@
           ],
           "answer": "med henblik på",
           "explanation": {
-            "en": "The agreement has a purpose, keeping seniors in work, and the formal expression for purpose before 'at + infinitive' is 'med henblik på' (with a view to). 'På grund af' gives a cause, 'i forhold til' a comparison and 'i løbet af' a time span; none of them can be followed by 'at få'.",
-            "da": "Aftalen har et formål, nemlig at holde seniorerne i arbejde, og det formelle udtryk for formål foran 'at + infinitiv' er 'med henblik på'. 'På grund af' angiver årsag, 'i forhold til' sammenligning og 'i løbet af' tid; ingen af dem kan følges af 'at få'."
+            "en": "at + infinitive after the gap = purpose → med henblik på. Not på grund af: it gives a cause and can't take at + infinitive.",
+            "da": "at + infinitiv efter hullet = formål → med henblik på. Ikke på grund af: det angiver årsag og kan ikke tage at + infinitiv."
           }
         },
         {
@@ -230,8 +230,8 @@
           ],
           "answer": "som",
           "explanation": {
-            "en": "'Fagbevægelsen' is the subject of 'har kæmpet for', so the agreement is the object of the preposition 'for', and an object pronoun must be 'som'; 'der' is subject-only and is the classic error. 'Hvilken' is tempting because of the preposition, but it is only possible when the preposition stands in front of it ('for hvilken'), and 'hvad' refers to a whole clause.",
-            "da": "'Fagbevægelsen' er subjekt for 'har kæmpet for', så aftalen er objekt for præpositionen 'for', og et objektspronomen skal være 'som'; 'der' kan kun være subjekt og er den klassiske fejl. 'Hvilken' er fristende på grund af præpositionen, men det er kun muligt, når præpositionen står foran ('for hvilken'), og 'hvad' henviser til en hel sætning."
+            "en": "fagbevægelsen is the subject, for stands at the end → som. Not der (subject only) or hvilken (only right after a preposition).",
+            "da": "fagbevægelsen er subjekt, og for står sidst → som. Ikke der (kun subjekt) eller hvilken (kun lige efter en præposition)."
           }
         },
         {
@@ -243,8 +243,8 @@
           ],
           "answer": "hvis",
           "explanation": {
-            "en": "The employees belong to the companies, and possession in a relative clause is expressed with the genitive pronoun 'hvis' (whose): 'virksomheder, hvis ansatte …'. 'Hvem' is the trap for English speakers ('who'), but it is a question word, not a relative pronoun; 'som' and 'der' would leave 'ansatte' without any link to 'virksomheder'.",
-            "da": "De ansatte hører til virksomhederne, og ejefald i en relativsætning udtrykkes med det relative pronomen 'hvis': 'virksomheder, hvis ansatte …'. 'Hvem' er fælden for engelsktalende ('who'), men det er et spørgeord, ikke et relativt pronomen; 'som' og 'der' ville lade 'ansatte' stå uden forbindelse til 'virksomheder'."
+            "en": "Noun after the gap belongs to the antecedent (their employees) → hvis (whose). Not hvem: it is a question word, not a relative.",
+            "da": "Substantivet efter hullet tilhører virksomhederne (deres ansatte) → hvis. Ikke hvem: det er et spørgeord, ikke et relativt pronomen."
           }
         },
         {
@@ -256,8 +256,8 @@
           ],
           "answer": "hvad",
           "explanation": {
-            "en": "This is an indirect question in which 'ordningen' is the subject and the question word is the object of 'koste', so plain 'hvad' is correct. 'Hvad der' is the trap: 'der' is only added when the question word itself is the subject ('hvad der kommer til at koste mest'). 'Hvilket' and 'som' cannot introduce an indirect question.",
-            "da": "Det er et indirekte spørgsmål, hvor 'ordningen' er subjekt, og spørgeordet er objekt for 'koste', så 'hvad' alene er korrekt. 'Hvad der' er fælden: 'der' tilføjes kun, når spørgeordet selv er subjekt ('hvad der kommer til at koste mest'). 'Hvilket' og 'som' kan ikke indlede et indirekte spørgsmål."
+            "en": "ordningen is the subject → the question word is the object of koste → hvad. Not hvad der: der only when the gap is subject.",
+            "da": "ordningen er subjekt → spørgeordet er objekt for koste → hvad. Ikke hvad der: der bruges kun, når hullet er subjekt."
           }
         },
         {
@@ -269,8 +269,8 @@
           ],
           "answer": "der",
           "explanation": {
-            "en": "The pronoun is the subject of 'har' in the relative clause (it is the companies that have good conditions), so the subject pronoun 'der' is used. 'Hvilke' is not used as an ordinary relative pronoun after a noun in modern Danish, 'hvad' refers to a whole clause, and 'hvor' is for place and time.",
-            "da": "Pronomenet er subjekt for 'har' i relativsætningen (det er virksomhederne, der har gode forhold), så subjektspronomenet 'der' bruges. 'Hvilke' bruges ikke som almindeligt relativt pronomen efter et substantiv i moderne dansk, 'hvad' henviser til en hel sætning, og 'hvor' bruges om sted og tid."
+            "en": "No other subject before har → the gap is the subject → der. Not hvilke: not used as a plain relative after a noun.",
+            "da": "Intet andet subjekt før har → hullet er subjekt → der. Ikke hvilke: bruges ikke som almindeligt relativ efter et substantiv."
           }
         }
       ],
@@ -297,8 +297,8 @@
           ],
           "answer": "hvad der",
           "explanation": {
-            "en": "In this indirect question the question word is the subject of 'afholder' (it is the thing that keeps Danes away), so it must be 'hvad der'. Dropping 'der' ('undersøgt, hvad afholder danskerne …') is the classic error; 'hvilket' needs a preceding clause to refer to, and 'som' cannot introduce an indirect question.",
-            "da": "I dette indirekte spørgsmål er spørgeordet subjekt for 'afholder' (det er det, der holder danskerne væk), så det skal være 'hvad der'. At udelade 'der' ('undersøgt, hvad afholder danskerne …') er den klassiske fejl; 'hvilket' kræver en foregående sætning at henvise til, og 'som' kan ikke indlede et indirekte spørgsmål."
+            "en": "Indirect question, verb right after the gap (afholder) → subject → hvad der. Not bare hvad: a subject question word needs der.",
+            "da": "Indirekte spørgsmål, verbum lige efter hullet (afholder) → subjekt → hvad der. Ikke hvad alene: et spørgeord som subjekt kræver der."
           }
         },
         {
@@ -310,8 +310,8 @@
           ],
           "answer": "I modsætning til",
           "explanation": {
-            "en": "The new report differs from earlier studies, and the formal expression for such a contrast is 'i modsætning til' (unlike / in contrast to). 'Ifølge' is the trap: it would make the earlier studies the source of what the new report shows, which is illogical; 'på grund af' and 'med henblik på' express cause and purpose.",
-            "da": "Den nye rapport adskiller sig fra tidligere undersøgelser, og det formelle udtryk for en sådan modsætning er 'i modsætning til'. 'Ifølge' er fælden: det ville gøre de tidligere undersøgelser til kilden for det, den nye rapport viser, hvilket er ulogisk; 'på grund af' og 'med henblik på' udtrykker årsag og formål."
+            "en": "New report vs. earlier studies = contrast → i modsætning til. Not ifølge: the earlier studies are not the source of the new findings.",
+            "da": "Ny rapport vs. tidligere undersøgelser = modsætning → i modsætning til. Ikke ifølge: de tidligere undersøgelser er ikke kilden til de nye fund."
           }
         },
         {
@@ -323,8 +323,8 @@
           ],
           "answer": "hvor",
           "explanation": {
-            "en": "'Landdistrikter' is a place and the clause describes conditions there, so the relative adverb 'hvor' is needed; the following 'der' is the formal subject of 'er langt', not a relative pronoun. 'Som' or 'der' as relative pronoun would give the clause two subjects, and 'hvilket' refers to a whole clause.",
-            "da": "'Landdistrikter' er et sted, og sætningen beskriver forholdene dér, så det relative adverbium 'hvor' skal bruges; det efterfølgende 'der' er formelt subjekt for 'er langt', ikke et relativt pronomen. 'Som' eller 'der' som relativt pronomen ville give sætningen to subjekter, og 'hvilket' henviser til en hel sætning."
+            "en": "Place (landdistrikter) → hvor; the der after it is formal subject (der er langt). Not som/der: the clause would get two subjects.",
+            "da": "Sted (landdistrikter) → hvor; der bagefter er formelt subjekt (der er langt). Ikke som/der: sætningen ville få to subjekter."
           }
         },
         {
@@ -336,8 +336,8 @@
           ],
           "answer": "som følge af",
           "explanation": {
-            "en": "The hospital admissions are a consequence of untreated high blood pressure, so the causal expression 'som følge af' (as a result of) fits. 'I forhold til' is the trap, because it is often overused as an all-purpose preposition, but it expresses comparison; 'med henblik på' means purpose and 'i modsætning til' contrast.",
-            "da": "Indlæggelserne er en følge af ubehandlet forhøjet blodtryk, så årsagsudtrykket 'som følge af' passer. 'I forhold til' er fælden, fordi det ofte overbruges som en slags universalpræposition, men det udtrykker sammenligning; 'med henblik på' betyder formål, og 'i modsætning til' modsætning."
+            "en": "Admissions caused by untreated high blood pressure → som følge af. Not i forhold til: the overused filler means comparison.",
+            "da": "Indlæggelser forårsaget af ubehandlet forhøjet blodtryk → som følge af. Ikke i forhold til: det overbrugte fyldord betyder sammenligning."
           }
         },
         {
@@ -349,8 +349,8 @@
           ],
           "answer": "hvilket",
           "explanation": {
-            "en": "The pronoun refers to the whole preceding statement (that admissions have risen), which requires 'hvilket'. Bare 'hvad' is the trap: as subject of 'bekymrer' it would need 'der' ('hvad der bekymrer'), and 'som'/'der' can only refer back to a single noun.",
-            "da": "Pronomenet henviser til hele det foregående udsagn (at indlæggelserne er steget), hvilket kræver 'hvilket'. 'Hvad' alene er fælden: som subjekt for 'bekymrer' skulle det have 'der' med ('hvad der bekymrer'), og 'som'/'der' kan kun henvise til et enkelt substantiv."
+            "en": "Points back to the whole statement (admissions have risen) → hvilket. Not bare hvad: as subject of bekymrer it needs der.",
+            "da": "Peger tilbage på hele udsagnet (indlæggelserne er steget) → hvilket. Ikke hvad alene: som subjekt for bekymrer kræver det der."
           }
         }
       ],
