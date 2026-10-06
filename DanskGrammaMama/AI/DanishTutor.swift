@@ -48,11 +48,11 @@ enum TutorError: LocalizedError {
 @available(iOS 26.0, *)
 @Generable
 struct GeneratedMistakeFeedback {
-    @Guide(description: "One or two sentences: why the learner's answer is wrong in this particular sentence.")
+    @Guide(description: "One sentence, at most 20 words: why the learner's answer is wrong in this particular sentence.")
     var whyWrong: String
-    @Guide(description: "One short, memorable rule of thumb the learner can apply next time.")
+    @Guide(description: "A rule of thumb in at most 12 words, formula style, e.g. 'Closed time → datid'.")
     var tip: String
-    @Guide(description: "One new Danish example sentence using the correct form, on a different subject than the quiz sentence.")
+    @Guide(description: "One short new Danish example sentence (at most 10 words) using the correct form, on a different subject than the quiz sentence.")
     var example: String
 }
 
@@ -78,7 +78,7 @@ struct GeneratedWritingIssue {
     var original: String
     @Guide(description: "The corrected words.")
     var correction: String
-    @Guide(description: "The grammar rule in one sentence, naming the category (e.g. word order, verb form, preposition, noget/nogen/nogle, adjective ending).")
+    @Guide(description: "The grammar rule in at most 15 words, naming the category (e.g. word order, verb form, preposition, noget/nogen/nogle, adjective ending).")
     var rule: String
 }
 
@@ -89,7 +89,7 @@ struct GeneratedWritingFeedback {
     var correctedText: String
     @Guide(description: "Each distinct error found, most important first. Empty if the text is correct.", .maximumCount(12))
     var issues: [GeneratedWritingIssue]
-    @Guide(description: "Two or three sentences of encouraging, specific feedback on what to work on next for Prøve i Dansk 3.")
+    @Guide(description: "One encouraging sentence, at most 20 words: the single thing to work on next for Prøve i Dansk 3.")
     var overallComment: String
 }
 #endif
@@ -212,8 +212,8 @@ final class DanishTutor {
         """
         You are a precise, friendly Danish grammar tutor for an adult learner preparing for Prøve i Dansk 3 (CEFR B2). \
         The learner has just answered a fill-in-the-blank question wrongly. \
-        Explain the specific error briefly and concretely, give one rule of thumb, and one fresh example sentence in Danish. \
-        Never invent grammar; if unsure, stay general. Be concise. \(outputLanguage(language))
+        Explain the specific error in one short sentence, give one rule of thumb, and one fresh example sentence in Danish. \
+        Never invent grammar; if unsure, stay general. No filler, no repetition. \(outputLanguage(language))
         """
     }
 

@@ -25,8 +25,8 @@ struct TopicsView: View {
                 }
             } footer: {
                 Text(language == .danish
-                     ? "Bjælken viser, hvor stor en del af emnets spørgsmål du har svaret rigtigt på og ikke skal gentage."
-                     : "The bar shows the share of a topic's questions you have answered correctly and that are not waiting for review.")
+                     ? "Bjælken = spørgsmål, du har styr på."
+                     : "The bar = questions you have nailed.")
             }
         }
         .navigationTitle(language == .danish ? "Emner" : "Topics")
@@ -81,8 +81,8 @@ struct TopicDetailView: View {
                                 Text(language == .danish ? "Sådan knækker du emnet" : "How to crack this topic")
                                     .font(.body.weight(.semibold))
                                 Text(language == .danish
-                                     ? "\(guide.sections.count) regler med tricks, eksempler og klassiske fejl"
-                                     : "\(guide.sections.count) rules with hacks, examples and classic traps")
+                                     ? "\(guide.sections.count) tricks · \(guide.traps.count) klassiske fejl"
+                                     : "\(guide.sections.count) tricks · \(guide.traps.count) classic traps")
                                     .font(.footnote).foregroundStyle(.secondary)
                             }
                             Spacer()

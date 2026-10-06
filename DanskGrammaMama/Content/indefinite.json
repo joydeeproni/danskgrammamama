@@ -15,8 +15,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Arbejde' is a neuter (intetkøn) noun used here as an uncountable quantity: some work, a certain amount of work. Uncountable and neuter nouns take 'noget'. 'Nogen' goes with common-gender singular nouns in questions and negations, and 'nogle' only with plurals.",
-        "da": "'Arbejde' er et intetkønsord og bruges her som en utællelig mængde: noget arbejde, en vis mængde arbejde. Utællelige ord og intetkønsord får 'noget'. 'Nogen' bruges ved fælleskønsord i ental i spørgsmål og nægtelser, og 'nogle' kun ved flertal."
+        "en": "arbejde = et-word, an amount → noget. Not nogen: nogen goes with countable en-words.",
+        "da": "arbejde = et-ord, en mængde → noget. Ikke nogen: nogen hører til tællelige en-ord."
       },
       "tags": [
         "noget",
@@ -38,8 +38,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Hjælp' is fælleskøn (en hjælp) but uncountable, and an unspecified amount of something uncountable always takes 'noget': 'noget hjælp', 'noget støtte'. Writing 'nogen hjælp' in an affirmative sentence is the classic trap; 'nogle' is impossible because there is no plural.",
-        "da": "'Hjælp' er fælleskøn (en hjælp), men utælleligt, og en ubestemt mængde af noget utælleligt får altid 'noget': 'noget hjælp', 'noget støtte'. 'Nogen hjælp' i en fremsættende sætning er den klassiske fejl; 'nogle' er umuligt, fordi ordet ikke har flertal."
+        "en": "hjælp = an amount, uncountable → noget, even though it is an en-word. Not nogen hjælp: the classic trap in a statement.",
+        "da": "hjælp = en mængde, utælleligt → noget, selv om det er et en-ord. Ikke nogen hjælp: den klassiske fælde i en fremsættende sætning."
       },
       "tags": [
         "noget",
@@ -61,8 +61,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Vand' is intetkøn (et vand) and uncountable, so 'noget vand' = 'some water'. 'Nogle' is wrong because 'vand' has no plural here, and 'nogen' is only for countable fælleskøn nouns; 'intet' would negate the sentence and contradict the meaning.",
-        "da": "'Vand' er intetkøn (et vand) og utælleligt, så 'noget vand' = 'en mængde vand'. 'Nogle' er forkert, fordi 'vand' ikke står i flertal her, og 'nogen' bruges kun ved tællelige fælleskønsord; 'intet' ville nægte sætningen og gå imod meningen."
+        "en": "vand = et-word, an amount → noget. Not nogle: vand has no plural here.",
+        "da": "vand = et-ord, en mængde → noget. Ikke nogle: vand står ikke i flertal her."
       },
       "tags": [
         "noget",
@@ -84,8 +84,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Erfaring' is uncountable, so the quantity word is 'noget' (some experience). Written Danish also allows 'nogen erfaring' in the sense 'a certain degree of experience', as in 'i nogen tid', but 'noget' is the neutral standard form. 'Nogle' is wrong because it only goes with plural nouns, and 'ingen' and 'intet' are negations that clash with 'allerede har'; 'intet' also has the wrong gender.",
-        "da": "'Erfaring' er utælleligt, så mængdeordet er 'noget' (noget erfaring). Skriftligt dansk tillader også 'nogen erfaring' i betydningen 'en vis erfaring', ligesom 'i nogen tid', men 'noget' er den neutrale standardform. 'Nogle' er forkert, fordi det kun bruges ved flertalsord, og 'ingen' og 'intet' er nægtelser, der strider mod 'allerede har'; 'intet' er desuden forkert køn."
+        "en": "erfaring = an amount, uncountable → noget. Not nogle: only before flertal. ingen/intet clash with allerede har.",
+        "da": "erfaring = en mængde, utælleligt → noget. Ikke nogle: kun foran flertal. ingen/intet strider mod allerede har."
       },
       "tags": [
         "noget",
@@ -107,8 +107,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Udstyr' is an intetkøn collective noun (et udstyr) with no plural, so 'some equipment' is 'noget udstyr'. Learners often choose 'nogle' because the English word feels plural; 'intet udstyr' is grammatical but contradicts the second clause, where the municipality pays for what is missing.",
-        "da": "'Udstyr' er et kollektivt intetkønsord (et udstyr) uden flertal, så 'noget udstyr' er det rigtige. Mange vælger 'nogle', fordi ordet på engelsk føles som flertal; 'intet udstyr' er grammatisk muligt, men strider mod den anden sætning, hvor kommunen betaler for det, der mangler."
+        "en": "udstyr = et-word with no plural → noget. Not nogle: udstyr is always ental.",
+        "da": "udstyr = et-ord uden flertal → noget. Ikke nogle: udstyr står altid i ental."
       },
       "tags": [
         "noget",
@@ -130,8 +130,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "In a spørgende sætning a countable fælleskøn noun in singular takes 'nogen': 'nogen idé' (en idé), 'nogen bil', 'nogen grund'. 'Noget' is the trap by analogy with 'noget vand', but 'noget' belongs to intetkøn and uncountable nouns; 'nogle' would require a plural noun.",
-        "da": "I en spørgende sætning får et tælleligt fælleskønsord i ental 'nogen': 'nogen idé' (en idé), 'nogen bil', 'nogen grund'. 'Noget' er fælden efter mønstret 'noget vand', men 'noget' hører til intetkøn og utællelige ord; 'nogle' kræver et substantiv i flertal."
+        "en": "Question + countable en-word (en idé) → nogen. Not noget: noget is for et-words and amounts.",
+        "da": "Spørgsmål + tælleligt en-ord (en idé) → nogen. Ikke noget: noget hører til et-ord og mængder."
       },
       "tags": [
         "nogen",
@@ -153,8 +153,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "After 'ikke' a countable fælleskøn noun in singular takes 'nogen': 'ikke nogen bil' (= ingen bil). The trap is 'noget', which many learners use for every negation; 'noget' is only right with intetkøn or uncountable nouns ('ikke noget hus', 'ikke noget vand').",
-        "da": "Efter 'ikke' får et tælleligt fælleskønsord i ental 'nogen': 'ikke nogen bil' (= ingen bil). Fælden er 'noget', som mange bruger ved alle nægtelser; 'noget' er kun rigtigt ved intetkøn eller utællelige ord ('ikke noget hus', 'ikke noget vand')."
+        "en": "ikke + countable en-word (en bil) → nogen. Not noget: noget only fits et-words and amounts (ikke noget vand).",
+        "da": "ikke + tælleligt en-ord (en bil) → nogen. Ikke noget: noget passer kun til et-ord og mængder (ikke noget vand)."
       },
       "tags": [
         "nogen",
@@ -176,8 +176,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "'Grund' is fælleskøn (en grund) and countable, and the sentence is a question, so 'nogen grund' = 'any reason'. 'Noget grund' is the classic gender error; 'nogle grunde' would need the plural, and 'nogensinde' is an adverb ('ever') that cannot stand before a noun.",
-        "da": "'Grund' er fælleskøn (en grund) og tælleligt, og sætningen er spørgende, så 'nogen grund' er rigtigt. 'Noget grund' er den klassiske kønsfejl; 'nogle grunde' ville kræve flertal, og 'nogensinde' er et adverbium, der ikke kan stå foran et substantiv."
+        "en": "Question + en grund → nogen. Not noget grund: the classic gender error.",
+        "da": "Spørgsmål + en grund → nogen. Ikke noget grund: den klassiske kønsfejl."
       },
       "tags": [
         "nogen",
@@ -199,8 +199,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "The sentence is negated with 'ikke', and 'plan' is a countable fælleskøn noun in singular (en plan), so the form is 'ikke ... nogen plan'. 'Nogle' is tempting because plans could be plural, but the noun here is singular; 'noget plan' fails on gender.",
-        "da": "Sætningen er nægtet med 'ikke', og 'plan' er et tælleligt fælleskønsord i ental (en plan), så formen er 'ikke ... nogen plan'. 'Nogle' frister, fordi der kunne være flere planer, men substantivet står i ental; 'noget plan' er forkert køn."
+        "en": "ikke + en plan in ental → nogen. Not nogle: plan is ental, and nogle needs flertal.",
+        "da": "ikke + en plan i ental → nogen. Ikke nogle: plan står i ental, og nogle kræver flertal."
       },
       "tags": [
         "nogen",
@@ -222,8 +222,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "A betingende ledsætning with 'hvis' behaves like a question: 'any conflict' = 'nogen konflikt' (en konflikt, fælleskøn singular). 'Nogle' clashes with the singular noun and with 'den' in the main clause; 'noget' is the wrong gender, and 'ingen' would make the condition meaningless.",
-        "da": "En betingende ledsætning med 'hvis' opfører sig som et spørgsmål: 'nogen konflikt' (en konflikt, fælleskøn ental). 'Nogle' passer ikke til ental og til 'den' i hovedsætningen; 'noget' er forkert køn, og 'ingen' ville gøre betingelsen meningsløs."
+        "en": "hvis works like a question; en konflikt → nogen. Not nogle: konflikt is ental (see den).",
+        "da": "hvis virker som et spørgsmål; en konflikt → nogen. Ikke nogle: konflikt står i ental (se den)."
       },
       "tags": [
         "nogen",
@@ -245,8 +245,8 @@
       ],
       "answer": "Nogle",
       "explanation": {
-        "en": "In an affirmative statement 'some' before a plural noun is always 'nogle': 'nogle undersøgelser', 'nogle eksperter'. 'Nogen' is the classic error because both words are pronounced the same, but in writing 'nogen' with a plural is reserved for questions and negations.",
-        "da": "I en fremsættende sætning hedder 'some' foran flertal altid 'nogle': 'nogle undersøgelser', 'nogle eksperter'. 'Nogen' er den klassiske fejl, fordi ordene udtales ens, men på skrift bruges 'nogen' med flertal kun i spørgsmål og nægtelser."
+        "en": "Flertal in a statement → Nogle. Not Nogen: it sounds the same, but nogen + flertal needs a question or negation.",
+        "da": "Flertal i en fremsættende sætning → Nogle. Ikke Nogen: det udtales ens, men nogen + flertal kræver spørgsmål eller nægtelse."
       },
       "tags": [
         "nogle",
@@ -268,8 +268,8 @@
       ],
       "answer": "nogle",
       "explanation": {
-        "en": "'Forældre' is plural and the sentence is affirmative, so the only correct written form is 'nogle forældre'. Spoken Danish says 'nogen' here too, which is why 'nogen' is the trap; 'noget' never goes with a plural noun.",
-        "da": "'Forældre' er flertal, og sætningen er fremsættende, så den eneste korrekte skriftlige form er 'nogle forældre'. I talesprog siger man også 'nogen' her, og derfor er 'nogen' fælden; 'noget' står aldrig sammen med flertal."
+        "en": "forældre = flertal, statement → nogle. Not nogen: you hear it, but you don't write it.",
+        "da": "forældre = flertal, fremsættende sætning → nogle. Ikke nogen: det siger man, men det skriver man ikke."
       },
       "tags": [
         "nogle",
@@ -291,8 +291,8 @@
       ],
       "answer": "nogle",
       "explanation": {
-        "en": "'Nogle af' + bestemt flertal means 'some of' a group: 'nogle af de mindste biblioteker'. Because the sentence is affirmative, 'nogen af' is wrong in writing even though it sounds identical; 'noget af' refers to a part of a mass ('noget af budgettet'), not to members of a group, and 'ingen af' contradicts 'fordi besparelserne ikke kan undgås'.",
-        "da": "'Nogle af' + bestemt flertal betyder 'en del af' en gruppe: 'nogle af de mindste biblioteker'. Da sætningen er fremsættende, er 'nogen af' forkert på skrift, selv om det lyder ens; 'noget af' bruges om en del af en mængde ('noget af budgettet'), ikke om enkelte i en gruppe, og 'ingen af' strider mod 'fordi besparelserne ikke kan undgås'."
+        "en": "nogle af + bestemt flertal = some of a group, statement → nogle. Not noget af: that is part of a mass.",
+        "da": "nogle af + bestemt flertal = en del af en gruppe, fremsættende → nogle. Ikke noget af: det er en del af en mængde."
       },
       "tags": [
         "nogle",
@@ -314,8 +314,8 @@
       ],
       "answer": "nogle",
       "explanation": {
-        "en": "'Brancher' is plural and the clause is a plain statement, so 'in some sectors' = 'i nogle brancher'. The inversion after the fronted adverbial does not make the sentence a question, so 'nogen' stays wrong; 'noget' cannot modify a plural noun.",
-        "da": "'Brancher' er flertal, og sætningen er en almindelig fremsættende sætning, så det hedder 'i nogle brancher'. Inversionen efter det fremrykkede adverbial gør ikke sætningen spørgende, så 'nogen' er stadig forkert; 'noget' kan ikke stå til flertal."
+        "en": "brancher = flertal, statement → nogle. Not nogen: inversion after I … does not make it a question.",
+        "da": "brancher = flertal, fremsættende sætning → nogle. Ikke nogen: inversion efter I … gør det ikke til et spørgsmål."
       },
       "tags": [
         "nogle",
@@ -337,8 +337,8 @@
       ],
       "answer": "nogle",
       "explanation": {
-        "en": "'Eksperter' is plural and the main clause is affirmative, so 'some experts' = 'nogle eksperter'. 'Nogen eksperter' is the pronunciation-driven trap that costs points in written exams; 'noget' does not combine with plurals, and 'nogensinde' is an adverb.",
-        "da": "'Eksperter' er flertal, og hovedsætningen er fremsættende, så det hedder 'nogle eksperter'. 'Nogen eksperter' er fælden fra udtalen, som koster point i skriftlige prøver; 'noget' kan ikke stå til flertal, og 'nogensinde' er et adverbium."
+        "en": "eksperter = flertal, statement → nogle. Not nogen: the selv om-clause in front changes nothing.",
+        "da": "eksperter = flertal, fremsættende sætning → nogle. Ikke nogen: ledsætningen med selv om foran ændrer intet."
       },
       "tags": [
         "nogle",
@@ -360,8 +360,8 @@
       ],
       "answer": "nogle",
       "explanation": {
-        "en": "'Der findes ...' is an affirmative existential statement, and 'tiltag' is plural here (marked by the plural adjective 'enkle'), so 'nogle enkle tiltag'. Learners write 'nogen' because 'der findes' feels like a question, but there is no spørgende or nægtende element; the adjective ending -e confirms the plural.",
-        "da": "'Der findes ...' er en fremsættende sætning, og 'tiltag' står i flertal (markeret af adjektivet 'enkle' med -e), så det hedder 'nogle enkle tiltag'. Mange skriver 'nogen', fordi 'der findes' føles spørgende, men der er hverken spørgsmål eller nægtelse; adjektivets -e bekræfter flertal."
+        "en": "enkle (-e) shows flertal; der findes is a statement → nogle. Not nogen: no question, no negation.",
+        "da": "enkle (-e) viser flertal; der findes er fremsættende → nogle. Ikke nogen: intet spørgsmål, ingen nægtelse."
       },
       "tags": [
         "nogle",
@@ -383,8 +383,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "In a nægtende sætning 'any' is 'nogen' even before a plural noun: 'ikke ... nogen klager' (= ingen klager). 'Nogle' is the trap, because the noun is plural, but 'ikke nogle' is not standard written Danish; 'ingen' after 'ikke' would be a double negation.",
-        "da": "I en nægtende sætning hedder det 'nogen' også foran flertal: 'ikke ... nogen klager' (= ingen klager). 'Nogle' er fælden, fordi substantivet står i flertal, men 'ikke nogle' er ikke korrekt skriftsprog; 'ingen' efter 'ikke' ville give dobbelt nægtelse."
+        "en": "ikke + flertal → nogen. Not nogle: after ikke, flertal still takes nogen.",
+        "da": "ikke + flertal → nogen. Ikke nogle: efter ikke får flertal stadig nogen."
       },
       "tags": [
         "nogen",
@@ -406,8 +406,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "'Har du ... , kan du ...' is a betingende sætning (= hvis du har), and in questions and conditions 'any' is 'nogen' even with the plural 'spørgsmål': 'har du nogen spørgsmål?'. 'Nogle' would mean 'some specific questions' and does not fit an open condition; 'noget spørgsmål' would be singular ('a question of some kind') and sounds odd here.",
-        "da": "'Har du ... , kan du ...' er en betingende sætning (= hvis du har), og i spørgsmål og betingelser bruges 'nogen' også med flertal: 'har du nogen spørgsmål?'. 'Nogle' ville betyde 'visse spørgsmål' og passer ikke til en åben betingelse; 'noget spørgsmål' ville være ental ('et eller andet spørgsmål') og lyder forkert her."
+        "en": "Har du …, kan du = hvis du har → nogen, also before flertal. Not nogle: an open condition takes nogen.",
+        "da": "Har du …, kan du = hvis du har → nogen, også foran flertal. Ikke nogle: en åben betingelse kræver nogen."
       },
       "tags": [
         "nogen",
@@ -429,8 +429,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "'Overhovedet' signals 'any at all', and that meaning is carried by 'nogen', also before plural 'beviser'. 'Nogle beviser' is the plural trap: 'nogle' means 'some' and presupposes that evidence exists, which clashes with 'overhovedet'. 'Noget' cannot stand before a plural, and 'nogensinde' is an adverb.",
-        "da": "'Overhovedet' signalerer 'nogen som helst', og den betydning bæres af 'nogen', også foran flertal 'beviser'. 'Nogle beviser' er flertalsfælden: 'nogle' betyder 'visse' og forudsætter, at beviserne findes, hvilket strider mod 'overhovedet'. 'Noget' kan ikke stå foran flertal, og 'nogensinde' er et adverbium."
+        "en": "overhovedet = any at all → nogen, also before flertal. Not nogle: it assumes the evidence exists.",
+        "da": "overhovedet = nogen som helst → nogen, også foran flertal. Ikke nogle: det forudsætter, at beviserne findes."
       },
       "tags": [
         "nogen",
@@ -452,8 +452,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "In an open question 'any' is 'nogen', also before the plural 'forslag': 'har ministeren nogen forslag?'. Retskrivningsordbogen also allows 'nogle' in a plural question when you expect that some exist ('some proposals'), but 'nogen' is the neutral standard and the only option in negations ('ikke nogen forslag'). 'Noget', 'intet' and 'ikke noget' are all wrong with a plural noun: they belong to intetkøn singular.",
-        "da": "I et åbent spørgsmål bruges 'nogen', også foran flertal 'forslag': 'har ministeren nogen forslag?'. Retskrivningsordbogen tillader også 'nogle' i et flertalsspørgsmål, når man forventer, at der findes nogle ('visse forslag'), men 'nogen' er den neutrale standard og den eneste mulighed i nægtelser ('ikke nogen forslag'). 'Noget', 'intet' og 'ikke noget' er alle forkerte ved flertal: de hører til intetkøn ental."
+        "en": "Question + flertal (konkrete, -e) → nogen. Not noget: noget, intet and ikke noget only fit et-words in ental.",
+        "da": "Spørgsmål + flertal (konkrete, -e) → nogen. Ikke noget: noget, intet og ikke noget passer kun til et-ord i ental."
       },
       "tags": [
         "nogen",
@@ -475,8 +475,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "The ledsætning is negated with 'ikke', and in a negation 'any' is 'nogen' even before a plural: 'ikke ... nogen ledige pladser'. 'Nogle' is the plural trap ('ikke nogle' is not standard), and 'ingen' cannot be combined with 'ikke' in the same clause because that gives a double negation.",
-        "da": "Ledsætningen er nægtet med 'ikke', og i en nægtelse bruges 'nogen' også foran flertal: 'ikke ... nogen ledige pladser'. 'Nogle' er flertalsfælden ('ikke nogle' er ikke korrekt skriftsprog), og 'ingen' kan ikke kombineres med 'ikke' i samme sætning, fordi det giver dobbelt nægtelse."
+        "en": "ikke + flertal (ledige pladser) → nogen. Not ingen: ikke + ingen is a double negation.",
+        "da": "ikke + flertal (ledige pladser) → nogen. Ikke ingen: ikke + ingen er dobbelt nægtelse."
       },
       "tags": [
         "nogen",
@@ -498,8 +498,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "Before a komparativ ('dyrere', 'større', 'senere') 'noget' is an adverb meaning 'somewhat', and adverbs do not change form. 'Nogen dyrere' is the trap from spoken pronunciation; 'nogle' only goes with plural nouns, and 'ingen' cannot modify an adjective.",
-        "da": "Foran en komparativ ('dyrere', 'større', 'senere') er 'noget' et adverbium med betydningen 'lidt / til en vis grad', og adverbier bøjes ikke. 'Nogen dyrere' er fælden fra udtalen; 'nogle' står kun til substantiver i flertal, og 'ingen' kan ikke lægge sig til et adjektiv."
+        "en": "dyrere = komparativ → noget (= somewhat), never changes. Not nogen dyrere: a trap from speech.",
+        "da": "dyrere = komparativ → noget (= til en vis grad), bøjes aldrig. Ikke nogen dyrere: en fælde fra talesproget."
       },
       "tags": [
         "noget",
@@ -521,8 +521,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Noget' + komparativ ('noget kortere') means 'somewhat shorter'; here 'noget' is an adverb of degree, not a pronoun, so gender and number play no role. 'Nogen' is wrong because it is only a pronoun/determiner and never a degree adverb; 'nogle' is plural and cannot modify an adjective.",
-        "da": "'Noget' + komparativ ('noget kortere') betyder 'lidt kortere'; her er 'noget' et gradsadverbium, ikke et pronomen, så køn og tal spiller ingen rolle. 'Nogen' er forkert, fordi det kun er pronomen/bestemmerord og aldrig gradsadverbium; 'nogle' er flertal og kan ikke lægge sig til et adjektiv."
+        "en": "kortere = komparativ → noget, never changes. Not nogen: nogen never goes with a komparativ.",
+        "da": "kortere = komparativ → noget, bøjes aldrig. Ikke nogen: nogen kan aldrig stå til en komparativ."
       },
       "tags": [
         "noget",
@@ -544,8 +544,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Noget længere' = 'somewhat longer': before a komparativ 'noget' works as a degree adverb and is invariable. The subject 'forhandlingerne' is plural, which tempts learners into 'nogle', but the word here modifies 'længere', not a noun; 'nogen' is not an adverb, and 'nogensinde' ('ever') would need a question or negation.",
-        "da": "'Noget længere' = 'lidt længere': foran en komparativ er 'noget' et gradsadverbium og bøjes ikke. Subjektet 'forhandlingerne' er flertal og lokker til 'nogle', men ordet lægger sig her til 'længere', ikke til et substantiv; 'nogen' er ikke et adverbium, og 'nogensinde' kræver spørgsmål eller nægtelse."
+        "en": "længere = komparativ → noget, never changes. Not nogle: the plural subject doesn't matter; the word goes with længere.",
+        "da": "længere = komparativ → noget, bøjes aldrig. Ikke nogle: subjektet i flertal er ligegyldigt; ordet hører til længere."
       },
       "tags": [
         "noget",
@@ -567,8 +567,8 @@
       ],
       "answer": "ingen",
       "explanation": {
-        "en": "'Ingen' is the negative determiner for fælleskøn singular and for plural ('ingen løsning', 'ingen løsninger'); 'intet' is only for intetkøn singular ('intet svar'). 'Løsning' is fælleskøn (en løsning), so 'intet' is the gender trap. In neutral style 'ikke nogen enkel løsning' would also be correct.",
-        "da": "'Ingen' er det nægtende bestemmerord ved fælleskøn ental og ved flertal ('ingen løsning', 'ingen løsninger'); 'intet' bruges kun ved intetkøn ental ('intet svar'). 'Løsning' er fælleskøn (en løsning), så 'intet' er kønsfælden. I neutral stil ville 'ikke nogen enkel løsning' også være korrekt."
+        "en": "en løsning = fælleskøn → ingen. Not intet: intet only fits et-words (intet svar).",
+        "da": "en løsning = fælleskøn → ingen. Ikke intet: intet passer kun til et-ord (intet svar)."
       },
       "tags": [
         "ingen",
@@ -590,8 +590,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "In a ledsætning with a compound verb ('har modtaget') you cannot place 'intet' after the participle ('har modtaget intet svar' is wrong); instead the negation is split into 'ikke ... noget': 'ikke har modtaget noget svar'. 'Svar' is intetkøn (et svar), so 'noget' rather than 'nogen' is required; 'nogen svar' is the gender trap.",
-        "da": "I en ledsætning med sammensat verbal ('har modtaget') kan 'intet' ikke stå efter participiet ('har modtaget intet svar' er forkert); i stedet deles nægtelsen i 'ikke ... noget': 'ikke har modtaget noget svar'. 'Svar' er intetkøn (et svar), så det skal være 'noget' og ikke 'nogen'; 'nogen svar' er kønsfælden."
+        "en": "ikke is already there + et svar → noget. Not intet (double negation) or nogen (svar is an et-word).",
+        "da": "ikke står der allerede + et svar → noget. Ikke intet (dobbelt nægtelse) eller nogen (svar er et et-ord)."
       },
       "tags": [
         "ikke-noget",
@@ -613,8 +613,8 @@
       ],
       "answer": "Ingen",
       "explanation": {
-        "en": "As the subject of a sentence the negative pronoun must be 'ingen' (people, plural): 'ingen af de adspurgte'. 'Ikke nogen' is the classic trap: it works as an object ('vi så ikke nogen'), but 'ikke' cannot begin a sentence as part of the subject. 'Intet' would mean 'nothing' and refers to things, not people; 'noget' is not negative at all.",
-        "da": "Som subjekt i sætningen skal det nægtende pronomen være 'ingen' (personer, flertal): 'ingen af de adspurgte'. 'Ikke nogen' er den klassiske fælde: det fungerer som objekt ('vi så ikke nogen'), men 'ikke' kan ikke indlede sætningen som en del af subjektet. 'Intet' betyder 'ingenting' og bruges om ting, ikke personer; 'noget' er slet ikke nægtende."
+        "en": "Negative subject about people → Ingen. Ikke nogen can never open the sentence as subject.",
+        "da": "Nægtende subjekt om personer → Ingen. Ikke nogen kan aldrig indlede sætningen som subjekt."
       },
       "tags": [
         "ingen",
@@ -636,8 +636,8 @@
       ],
       "answer": "intet",
       "explanation": {
-        "en": "'Håb' is intetkøn (et håb), so the negative determiner is 'intet': 'intet håb'. 'Ingen' is the trap: it belongs to fælleskøn singular and plural ('ingen aftale', 'ingen aftaler'). In everyday style the negation can also be split into 'ikke noget håb', but even then the indefinite word must be intetkøn 'noget': 'ikke nogen håb' and plain 'nogen håb' fail on gender.",
-        "da": "'Håb' er intetkøn (et håb), så det nægtende bestemmerord er 'intet': 'intet håb'. 'Ingen' er fælden: det hører til fælleskøn ental og flertal ('ingen aftale', 'ingen aftaler'). I dagligdags stil kan nægtelsen også deles i 'ikke noget håb', men også her skal det ubestemte ord være intetkøn 'noget': 'ikke nogen håb' og 'nogen håb' er forkert køn."
+        "en": "et håb = intetkøn → intet. Not ingen: ingen is for en-words and flertal.",
+        "da": "et håb = intetkøn → intet. Ikke ingen: ingen hører til en-ord og flertal."
       },
       "tags": [
         "intet",
@@ -659,8 +659,8 @@
       ],
       "answer": "nogensinde",
       "explanation": {
-        "en": "'Nogensinde' is an adverb meaning 'ever' and is used in questions, negations and after superlatives: 'har du nogensinde ...?', 'aldrig nogensinde'. 'Noget' is the trap because 'har du noget ...' is a common question opener, but here the blank stands before a verb, not a noun, so only an adverb fits; 'nogen' and 'nogle' are pronouns.",
-        "da": "'Nogensinde' er et adverbium med betydningen 'på noget tidspunkt' og bruges i spørgsmål, nægtelser og efter superlativ: 'har du nogensinde ...?', 'aldrig nogensinde'. 'Noget' er fælden, fordi 'har du noget ...' er en almindelig spørgsmålsstart, men her står hullet foran et verbum, ikke et substantiv, så kun et adverbium passer; 'nogen' og 'nogle' er pronomener."
+        "en": "Blank before a verb (overvejet) in a question → nogensinde (= ever). Not noget: noget needs a noun or object.",
+        "da": "Hullet står foran et verbum (overvejet) i et spørgsmål → nogensinde (= på noget tidspunkt). Ikke noget: noget kræver et substantiv eller objekt."
       },
       "tags": [
         "nogensinde",
@@ -682,8 +682,8 @@
       ],
       "answer": "noget",
       "explanation": {
-        "en": "'Som helst' strengthens the indefinite word ('any ... at all'), and the indefinite word still agrees with the noun: 'bevis' is intetkøn (et bevis), so 'noget som helst bevis'. 'Nogen som helst' is the trap: it is correct only with fælleskøn singular ('ikke nogen som helst grund'), and 'nogle som helst' does not exist.",
-        "da": "'Som helst' forstærker det ubestemte ord ('overhovedet noget'), og det ubestemte ord retter sig stadig efter substantivet: 'bevis' er intetkøn (et bevis), så 'noget som helst bevis'. 'Nogen som helst' er fælden: det er kun rigtigt ved fælleskøn ental ('ikke nogen som helst grund'), og 'nogle som helst' findes ikke."
+        "en": "som helst changes nothing; et bevis → noget. Not nogen som helst: only with en-words (nogen som helst grund).",
+        "da": "som helst ændrer intet; et bevis → noget. Ikke nogen som helst: kun ved en-ord (nogen som helst grund)."
       },
       "tags": [
         "som-helst",
@@ -705,8 +705,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "As a standalone pronoun 'nogen' means 'someone / anyone' (a person, singular), and 'sin' plus 'hvem' show that one person is meant. 'Noget' is the trap: it means 'something' and refers to things. 'Nogle' would mean 'some people' and would require 'deres tasker'; 'ingen' contradicts the question 'hvem den tilhører'.",
-        "da": "Som selvstændigt pronomen betyder 'nogen' 'en eller anden person' (ental), og 'sin' samt 'hvem' viser, at der er tale om én person. 'Noget' er fælden: det betyder 'en eller anden ting'. 'Nogle' ville betyde 'visse personer' og kræve 'deres tasker'; 'ingen' strider mod spørgsmålet 'hvem den tilhører'."
+        "en": "Alone + sin = one person → nogen (someone). Not noget: noget means a thing.",
+        "da": "Alene + sin = én person → nogen (en eller anden). Ikke noget: noget betyder en ting."
       },
       "tags": [
         "nogen",
@@ -728,8 +728,8 @@
       ],
       "answer": "nogen",
       "explanation": {
-        "en": "In a betingende ledsætning 'anyone' is the standalone pronoun 'nogen', and the singular 'vedkommende' in the main clause confirms that one unspecified person is meant. 'Nogle' is the trap: as a pronoun it means 'some people' (plural) and would not match 'vedkommende'; 'noget' refers to things, not people.",
-        "da": "I en betingende ledsætning hedder 'hvem som helst' 'nogen' som selvstændigt pronomen, og entalsformen 'vedkommende' i hovedsætningen bekræfter, at der menes én ubestemt person. 'Nogle' er fælden: som pronomen betyder det 'visse personer' (flertal) og passer ikke til 'vedkommende'; 'noget' bruges om ting, ikke personer."
+        "en": "hvis + vedkommende = one unknown person → nogen. Not nogle: several people do not match vedkommende.",
+        "da": "hvis + vedkommende = én ukendt person → nogen. Ikke nogle: flere personer passer ikke til vedkommende."
       },
       "tags": [
         "nogen",

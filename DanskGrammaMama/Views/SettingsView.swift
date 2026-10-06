@@ -13,9 +13,9 @@ struct SettingsView: View {
 
     private var inputModeDescription: String {
         switch progress.settings.inputMode {
-        case .choice: return "Tap one of four options. The answer and explanation appear immediately."
-        case .typed: return "Type the answer yourself; the four options can be shown as a hint. Harder, closer to the written exam."
-        case .mixed: return "About half the questions are typed, half multiple choice."
+        case .choice: return "Tap one of four options. The answer shows at once."
+        case .typed: return "Type the answer. Harder, closer to the written exam."
+        case .mixed: return "Half typed, half multiple choice."
         }
     }
 
@@ -26,7 +26,7 @@ struct SettingsView: View {
                     ForEach(ExplanationLanguage.allCases) { Text($0.label).tag($0) }
                 }
                 .pickerStyle(.segmented)
-                Text("Grammar terms stay in Danish either way, so they match your teacher's vocabulary.")
+                Text("Grammar terms stay in Danish, like in class.")
                     .font(.footnote).foregroundStyle(.secondary)
             }
 
@@ -58,7 +58,7 @@ struct SettingsView: View {
             } header: {
                 Text("AI tutor")
             } footer: {
-                Text("Uses Apple's on-device model. Your text never leaves the phone. Explanations for every question are written by hand and work without it.")
+                Text("Runs on the phone. Your text never leaves it.")
             }
 
             Section {
@@ -67,7 +67,7 @@ struct SettingsView: View {
             } header: {
                 Text("Words")
             } footer: {
-                Text("Tap any underlined word in an exercise to see what it means and keep it. Saved words appear in the Words tab and in the home-screen widget, which shows a new one every hour. To let the widget read your own words, add the App Groups capability to both targets in Xcode; without it the widget shows a built-in starter deck.")
+                Text("Tap an underlined word to see its meaning and save it. Saved words show up in the Words tab and the widget.")
             }
 
             Section("Progress") {
@@ -80,7 +80,7 @@ struct SettingsView: View {
             }
 
             Section("About") {
-                Text("Built for Prøve i Dansk 3 (CEFR B2). Question bank: \(Topic.all.count) topics. Missed items return after 1 day, then 3 days, until answered correctly twice.")
+                Text("Built for Prøve i Dansk 3 (B2). Misses come back after 1 day, then 3 days.")
                     .font(.footnote).foregroundStyle(.secondary)
             }
         }
@@ -88,7 +88,7 @@ struct SettingsView: View {
         .confirmationDialog("Reset all progress?", isPresented: $confirmReset, titleVisibility: .visible) {
             Button("Reset", role: .destructive) { progress.resetAll() }
         } message: {
-            Text("Streak, review queue and mastery will be cleared. Settings are kept.")
+            Text("Clears streak, reviews and mastery. Keeps settings.")
         }
     }
 }

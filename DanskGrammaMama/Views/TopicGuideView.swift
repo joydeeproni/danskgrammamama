@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// The "how to crack this topic" sheet: rules, one hack per rule, examples, classic traps.
+/// The "how to crack this topic" sheet: a rule, an exam trick and examples per section, then classic traps.
 struct TopicGuideView: View {
     let topic: Topic
     let guide: TopicGuide
@@ -28,14 +28,7 @@ struct TopicGuideView: View {
                             Text("\(i + 1)").font(.footnote.monospacedDigit().weight(.semibold)).foregroundStyle(Color.accentColor)
                             Text(section.title.text(in: language)).font(.headline)
                         }
-                        VStack(alignment: .leading, spacing: 6) {
-                            ForEach(Array(section.rules.enumerated()), id: \.offset) { _, rule in
-                                HStack(alignment: .firstTextBaseline, spacing: 8) {
-                                    Text("•").foregroundStyle(.secondary)
-                                    Text(rule.text(in: language)).fixedSize(horizontal: false, vertical: true)
-                                }
-                            }
-                        }
+                        Text(section.rule.text(in: language)).fixedSize(horizontal: false, vertical: true)
                         HStack(alignment: .firstTextBaseline, spacing: 8) {
                             Image(systemName: "lightbulb").foregroundStyle(Color.accentColor)
                             Text(section.hack.text(in: language))

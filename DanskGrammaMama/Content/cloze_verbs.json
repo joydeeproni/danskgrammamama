@@ -17,8 +17,8 @@
           ],
           "answer": "fremlagde",
           "explanation": {
-            "en": "A finished point in the past (i 2021) inside a da-clause requires datid: fremlagde. Førnutid (har fremlagt) cannot combine with a completed time adverbial, and fremlagt alone is only the participle and needs an auxiliary.",
-            "da": "Et afsluttet tidspunkt i fortiden (i 2021) i en da-ledsætning kræver datid: fremlagde. Førnutid (har fremlagt) kan ikke kombineres med et afsluttet tidsadverbial, og fremlagt alene er kun kort tillægsform og mangler et hjælpeverbum."
+            "en": "i 2021 = closed time → datid: fremlagde. Not har fremlagt: førnutid never goes with a closed time.",
+            "da": "i 2021 = afsluttet tid → datid: fremlagde. Ikke har fremlagt: førnutid passer aldrig til afsluttet tid."
           }
         },
         {
@@ -30,8 +30,8 @@
           ],
           "answer": "havde",
           "explanation": {
-            "en": "The warnings happened before the past event in the da-clause, so førdatid is needed: havde advaret. Har advaret (førnutid) would connect the warnings to now, and advare is a transitive verb that always takes have, never være.",
-            "da": "Advarslerne skete før den fortidige begivenhed i da-ledsætningen, så der skal bruges førdatid: havde advaret. Har advaret (førnutid) ville knytte advarslerne til nutiden, og advare er et transitivt verbum, der altid tager have, aldrig være."
+            "en": "The warnings came before the da-event → førdatid: havde advaret. Not har: the story is in the past.",
+            "da": "Advarslerne kom før da-hændelsen → førdatid: havde advaret. Ikke har: historien foregår i fortiden."
           }
         }
       ],
@@ -57,8 +57,8 @@
           ],
           "answer": "er",
           "explanation": {
-            "en": "Flytte ind describes a movement to a new place, and verbs of movement with a direction form førnutid with være: er flyttet ind. Har flyttet is the classic error (correct only when something is moved, e.g. har flyttet møblerne), and blev flyttet would be a passive.",
-            "da": "Flytte ind beskriver en bevægelse til et nyt sted, og bevægelsesverber med retning danner førnutid med være: er flyttet ind. Har flyttet er den klassiske fejl (kun korrekt, når noget flyttes, fx har flyttet møblerne), og blev flyttet ville være passiv."
+            "en": "flytte ind = movement to a new place → er flyttet. Not har: har flyttet only when you move something (har flyttet møblerne).",
+            "da": "flytte ind = bevægelse til et nyt sted → er flyttet. Ikke har: har flyttet bruges kun, når man flytter noget (møblerne)."
           }
         },
         {
@@ -70,8 +70,8 @@
           ],
           "answer": "opføre",
           "explanation": {
-            "en": "After lade (lod) the next verb stands in the bare infinitiv, without at: lod opføre = had built. Opført is a participle and opførte a datid form, so neither can follow lade; opføres would wrongly add an s-passiv ending.",
-            "da": "Efter lade (lod) står det næste verbum i ren infinitiv uden at: lod opføre. Opført er kort tillægsform og opførte er datid, så ingen af dem kan stå efter lade; opføres ville forkert tilføje en s-passiv-endelse."
+            "en": "lade (lod) + bare infinitive, no at → lod opføre. Not opført or opførte: only the infinitive follows lade.",
+            "da": "lade (lod) + ren infinitiv uden at → lod opføre. Ikke opført eller opførte: kun infinitiv kan stå efter lade."
           }
         }
       ],
@@ -97,8 +97,8 @@
           ],
           "answer": "lykkedes",
           "explanation": {
-            "en": "Lykkes is a deponent verb (it always ends in -s) and its perfect participle is lykkedes: det er lykkedes. Lykket is the classic error, a regular participle that does not exist, and lykkes is nutid/infinitiv, which cannot follow er.",
-            "da": "Lykkes er et deponent verbum (det ender altid på -s), og dets korte tillægsform er lykkedes: det er lykkedes. Lykket er den klassiske fejl, en regelmæssig tillægsform, der ikke findes, og lykkes er nutid/infinitiv, som ikke kan stå efter er."
+            "en": "er + lykkes → the participle keeps its -s: er lykkedes. Not lykket: that form does not exist.",
+            "da": "er + lykkes → kort tillægsform beholder sit -s: er lykkedes. Ikke lykket: den form findes ikke."
           }
         },
         {
@@ -110,8 +110,8 @@
           ],
           "answer": "reducere",
           "explanation": {
-            "en": "After at (nødt til at) the verb must be in infinitiv: at reducere. Reducerer is nutid, the typical mistake of adding -r after at; reduceret and reducerede are participle and datid and cannot follow at.",
-            "da": "Efter at (nødt til at) skal verbet stå i infinitiv: at reducere. Reducerer er nutid, den typiske fejl med -r efter at; reduceret og reducerede er tillægsform og datid og kan ikke stå efter at."
+            "en": "nødt til at + verb → infinitive: at reducere. Not reducerer: never -r right after at.",
+            "da": "nødt til at + verbum → infinitiv: at reducere. Ikke reducerer: aldrig -r lige efter at."
           }
         }
       ],
@@ -137,8 +137,8 @@
           ],
           "answer": "er steget",
           "explanation": {
-            "en": "I de seneste ti år is a period reaching up to now, so førnutid is required. Stige is an intransitive verb of change and takes være, so har steget is the classic error; steg (datid) would need a finished time frame.",
-            "da": "I de seneste ti år er et tidsrum, der rækker frem til nu, så der kræves førnutid. Stige er et intransitivt overgangsverbum og tager være, så har steget er den klassiske fejl; steg (datid) ville kræve et afsluttet tidsrum."
+            "en": "i de seneste ti år = period up to now → førnutid. stige is a change verb → er steget, not har steget.",
+            "da": "i de seneste ti år = periode frem til nu → førnutid. stige er et overgangsverbum → er steget, ikke har steget."
           }
         },
         {
@@ -150,8 +150,8 @@
           ],
           "answer": "indgik",
           "explanation": {
-            "en": "Sidste år is a completed time in the past, so datid is needed. Indgå is irregular (indgår – indgik – indgået): indgik. Har indgået (førnutid) clashes with a finished time adverbial, and indgået alone lacks an auxiliary.",
-            "da": "Sidste år er et afsluttet tidspunkt i fortiden, så der skal bruges datid. Indgå er uregelmæssigt (indgår – indgik – indgået): indgik. Har indgået (førnutid) strider mod et afsluttet tidsadverbial, og indgået alene mangler et hjælpeverbum."
+            "en": "sidste år = closed time → datid: indgik (indgå, indgik, indgået). Not har indgået: førnutid never goes with a closed time.",
+            "da": "sidste år = afsluttet tid → datid: indgik (indgå, indgik, indgået). Ikke har indgået: førnutid passer aldrig til afsluttet tid."
           }
         },
         {
@@ -163,8 +163,8 @@
           ],
           "answer": "udlejes",
           "explanation": {
-            "en": "The flats do not rent anything out, they are rented out, so a passive is needed. After a modal verb (skal) the passive is formed with -s on the infinitiv: skal udlejes. Udleje is the classic error, an active infinitiv, while udlejet and udlejede cannot follow skal.",
-            "da": "Boligerne udlejer ikke noget, de bliver udlejet, så der skal bruges passiv. Efter et modalverbum (skal) dannes passiv med -s på infinitiven: skal udlejes. Udleje er den klassiske fejl, en aktiv infinitiv, mens udlejet og udlejede ikke kan stå efter skal."
+            "en": "The flats are rented out, they do not rent → passive. After skal → s-passiv: udlejes. Not udleje: that is active.",
+            "da": "Boligerne bliver udlejet, de udlejer ikke → passiv. Efter skal → s-passiv: udlejes. Ikke udleje: det er aktiv."
           }
         },
         {
@@ -176,8 +176,8 @@
           ],
           "answer": "tage",
           "explanation": {
-            "en": "After a modal verb (vil) the main verb stands in infinitiv without at: det vil tage mange år. Tager is the common mistake of using nutid after a modal, and tog/taget are datid and participle, which cannot follow vil.",
-            "da": "Efter et modalverbum (vil) står hovedverbet i infinitiv uden at: det vil tage mange år. Tager er den almindelige fejl med nutid efter et modalverbum, og tog/taget er datid og tillægsform, som ikke kan stå efter vil."
+            "en": "vil = modal verb → infinitive without at: vil tage. Not tager: vil is already the conjugated verb.",
+            "da": "vil = modalverbum → infinitiv uden at: vil tage. Ikke tager: vil er allerede det bøjede verbum."
           }
         },
         {
@@ -189,8 +189,8 @@
           ],
           "answer": "nøjes",
           "explanation": {
-            "en": "Nøjes is a deponent verb: the -s belongs to the word in every form, including the infinitiv after a modal verb (må nøjes med). Nøje is the trap, a form that only exists as an adverb/adjective (nøje = carefully); nøjer does not exist, and nøjedes is datid.",
-            "da": "Nøjes er et deponent verbum: s'et hører til ordet i alle former, også i infinitiv efter et modalverbum (må nøjes med). Nøje er fælden, en form der kun findes som adverbium/adjektiv (nøje = omhyggeligt); nøjer findes ikke, og nøjedes er datid."
+            "en": "må = modal verb → infinitive. nøjes keeps its -s in every form: må nøjes med. Not nøje: that means 'carefully'.",
+            "da": "må = modalverbum → infinitiv. nøjes beholder sit -s i alle former: må nøjes med. Ikke nøje: det betyder 'omhyggeligt'."
           }
         }
       ],
@@ -216,8 +216,8 @@
           ],
           "answer": "fik",
           "explanation": {
-            "en": "For fem år siden marks a finished point in the past, so datid is required: fik. Få is irregular (får – fik – fået); har fået (førnutid) cannot be used with for … siden, and fået alone is a participle without an auxiliary.",
-            "da": "For fem år siden angiver et afsluttet tidspunkt i fortiden, så der kræves datid: fik. Få er uregelmæssigt (får – fik – fået); har fået (førnutid) kan ikke bruges med for … siden, og fået alene er en tillægsform uden hjælpeverbum."
+            "en": "for fem år siden = closed time → datid: fik. Not har fået: for … siden never takes førnutid.",
+            "da": "for fem år siden = afsluttet tid → datid: fik. Ikke har fået: for … siden tager aldrig førnutid."
           }
         },
         {
@@ -229,8 +229,8 @@
           ],
           "answer": "havde",
           "explanation": {
-            "en": "The courses were taken before another past event (inden chefen tilbød), so førdatid is needed: havde taget. Har taget would tie the courses to now, and var taget is wrong because tage here has an object (kurser) and is not a verb of movement.",
-            "da": "Kurserne blev taget før en anden fortidig begivenhed (inden chefen tilbød), så der skal bruges førdatid: havde taget. Har taget ville knytte kurserne til nutiden, og var taget er forkert, fordi tage her har et objekt (kurser) og ikke er et bevægelsesverbum."
+            "en": "The courses came before chefen tilbød (inden) → førdatid: havde taget. Not har: the story is in the past.",
+            "da": "Kurserne kom før chefen tilbød (inden) → førdatid: havde taget. Ikke har: historien foregår i fortiden."
           }
         },
         {
@@ -242,8 +242,8 @@
           ],
           "answer": "fortrudt",
           "explanation": {
-            "en": "After har the verb must be a perfect participle, and fortryde is irregular: fortryder – fortrød – fortrudt. Fortrydet is the classic error (a regular participle that does not exist), while fortrød is datid and fortryde infinitiv.",
-            "da": "Efter har skal verbet stå i kort tillægsform, og fortryde er uregelmæssigt: fortryder – fortrød – fortrudt. Fortrydet er den klassiske fejl (en regelmæssig tillægsform, der ikke findes), mens fortrød er datid og fortryde infinitiv."
+            "en": "har → participle. fortryde: fortrød, fortrudt → har fortrudt. Not fortrydet: that form does not exist.",
+            "da": "har → kort tillægsform. fortryde: fortrød, fortrudt → har fortrudt. Ikke fortrydet: den form findes ikke."
           }
         },
         {
@@ -255,8 +255,8 @@
           ],
           "answer": "sige",
           "explanation": {
-            "en": "After at the verb stands in infinitiv: at sige nej. Siger is the classic error of using nutid after at; sagde and sagt are datid and participle and cannot follow at.",
-            "da": "Efter at står verbet i infinitiv: at sige nej. Siger er den klassiske fejl med nutid efter at; sagde og sagt er datid og tillægsform og kan ikke stå efter at."
+            "en": "aldrig at + verb → infinitive: at sige. Not siger: never -r right after at.",
+            "da": "aldrig at + verbum → infinitiv: at sige. Ikke siger: aldrig -r lige efter at."
           }
         },
         {
@@ -268,8 +268,8 @@
           ],
           "answer": "Grib",
           "explanation": {
-            "en": "A piece of advice addressed directly to the reader is an imperativ, which equals the stem of the verb: Grib chancen! Gribe is infinitiv and Griber nutid, the common mistake of copying the infinitiv stem plus -r; Greb is datid.",
-            "da": "Et råd, der rettes direkte til læseren, står i imperativ (bydeform), som er lig med verbets stamme: Grib chancen! Gribe er infinitiv og Griber nutid, den almindelige fejl med -r fra nutidsformen; Greb er datid."
+            "en": "Advice to the reader → imperativ = infinitive minus -e: Grib. Not Gribe (infinitive) or Griber (nutid).",
+            "da": "Råd til læseren → imperativ = infinitiv minus -e: Grib. Ikke Gribe (infinitiv) eller Griber (nutid)."
           }
         }
       ],
@@ -295,8 +295,8 @@
           ],
           "answer": "voksede",
           "explanation": {
-            "en": "Mellem 2000 og 2020 is a closed period in the past, so datid is required: voksede. Er vokset (førnutid) is the trap, because the number may still be rising today, but a finished time frame blocks førnutid; har vokset is wrong anyway, since vokse takes være.",
-            "da": "Mellem 2000 og 2020 er et afsluttet tidsrum i fortiden, så der kræves datid: voksede. Er vokset (førnutid) er fælden, fordi tallet måske stadig stiger i dag, men et afsluttet tidsrum udelukker førnutid; har vokset er under alle omstændigheder forkert, da vokse tager være."
+            "en": "mellem 2000 og 2020 = closed period → datid: voksede. Not er vokset: a closed time frame blocks førnutid.",
+            "da": "mellem 2000 og 2020 = afsluttet periode → datid: voksede. Ikke er vokset: et afsluttet tidsrum udelukker førnutid."
           }
         },
         {
@@ -308,8 +308,8 @@
           ],
           "answer": "bevæger",
           "explanation": {
-            "en": "The at-ledsætning has its own subject (alle voksne) and therefore needs a finite verb in nutid: at alle voksne bevæger sig. Bevæge is the classic error (an infinitiv copied from English 'recommends that all adults exercise'), and bevæges is a passive that cannot take sig.",
-            "da": "At-ledsætningen har sit eget subjekt (alle voksne) og kræver derfor et finit verbum i nutid: at alle voksne bevæger sig. Bevæge er den klassiske fejl (en infinitiv som i engelsk 'recommends that all adults exercise'), og bevæges er en passiv, der ikke kan tage sig."
+            "en": "anbefaler, at alle voksne: a subject follows at → ledsætning → full verb in nutid: bevæger. Not bevæge: that is the infinitive.",
+            "da": "anbefaler, at alle voksne: et subjekt efter at → ledsætning → bøjet verbum i nutid: bevæger. Ikke bevæge: det er infinitiv."
           }
         },
         {
@@ -321,8 +321,8 @@
           ],
           "answer": "er",
           "explanation": {
-            "en": "Holde op med is a verb of transition (a state that ends), and such verbs form førnutid with være: er holdt op. Har holdt is the classic error, correct only when holde has an object (har holdt en tale); var holdt op would be førdatid, which does not fit a text about the present.",
-            "da": "Holde op med er et overgangsverbum (en tilstand ophører), og den slags verber danner førnutid med være: er holdt op. Har holdt er den klassiske fejl, kun korrekt når holde har et objekt (har holdt en tale); var holdt op ville være førdatid, som ikke passer i en tekst om nutiden."
+            "en": "holde op = a state ends → er holdt op. Not har: har holdt only with an object (har holdt en tale).",
+            "da": "holde op = en tilstand ophører → er holdt op. Ikke har: har holdt bruges kun med objekt (har holdt en tale)."
           }
         },
         {
@@ -334,8 +334,8 @@
           ],
           "answer": "findes",
           "explanation": {
-            "en": "Der findes (= there is/exists) uses the s-form of finde in nutid; the offers do not find anything themselves, so the active finder is the classic error. Fandt and fandtes are datid and clash with nu.",
-            "da": "Der findes (= der er/eksisterer) bruger s-formen af finde i nutid; tilbuddene finder ikke selv noget, så det aktive finder er den klassiske fejl. Fandt og fandtes er datid og strider mod nu."
+            "en": "der findes = there is/exists → s-form in nutid: findes. Not finder: the offers do not find anything.",
+            "da": "der findes = der er/eksisterer → s-form i nutid: findes. Ikke finder: tilbuddene finder ikke selv noget."
           }
         },
         {
@@ -347,8 +347,8 @@
           ],
           "answer": "gøres",
           "explanation": {
-            "en": "In a hvis-clause about the future Danish uses nutid, and because nobody is named as doing the action, it is an s-passiv: hvis der ikke gøres noget. Gør is the trap (active, with no subject to perform it), gjorde is datid, and gjort needs bliver/er.",
-            "da": "I en hvis-ledsætning om fremtiden bruger dansk nutid, og da der ikke er nævnt nogen, der udfører handlingen, bruges s-passiv: hvis der ikke gøres noget. Gør er fælden (aktiv, uden et subjekt der udfører handlingen), gjorde er datid, og gjort kræver bliver/er."
+            "en": "hvis + future → nutid. Nobody named does it (der) → s-passiv: gøres. Not gør: there is no subject to do it.",
+            "da": "hvis + fremtid → nutid. Ingen nævnt udfører det (der) → s-passiv: gøres. Ikke gør: der er intet subjekt, der gør det."
           }
         }
       ],

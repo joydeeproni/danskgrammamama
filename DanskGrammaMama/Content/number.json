@@ -10,8 +10,8 @@
       "options": ["undersøgelse", "undersøgelserne", "undersøgelser", "undersøgelsen"],
       "answer": "undersøgelser",
       "explanation": {
-        "en": "Nouns ending in -else take -er in the plural: undersøgelse → undersøgelser. After the quantifier flere the noun stands in ubestemt flertal, so undersøgelserne (bestemt form) is wrong.",
-        "da": "Substantiver på -else får -er i flertal: undersøgelse → undersøgelser. Efter mængdeordet flere står substantivet i ubestemt flertal, så undersøgelserne (bestemt form) er forkert."
+        "en": "flere → ubestemt flertal. undersøgelse ends in -e → +r: undersøgelser. Not undersøgelserne: no bestemt form after flere.",
+        "da": "flere → ubestemt flertal. undersøgelse ender på -e → +r: undersøgelser. Ikke undersøgelserne: ingen bestemt form efter flere."
       },
       "tags": ["flertal", "-er", "ubestemt"]
     },
@@ -25,8 +25,8 @@
       "options": ["lærer", "lærerne", "lærerer", "lærere"],
       "answer": "lærere",
       "explanation": {
-        "en": "Nouns for people ending in -er (lærer, arbejder, borger) take -e in the plural: en lærer → lærere. The trap is to add -er a second time (lærerer), which does not exist in Danish.",
-        "da": "Personbetegnelser på -er (lærer, arbejder, borger) får -e i flertal: en lærer → lærere. Fælden er at tilføje -er en gang til (lærerer), som ikke findes på dansk."
+        "en": "mange → ubestemt flertal. Person noun in -er → +e: lærere. Not lærerer: never a second -er.",
+        "da": "mange → ubestemt flertal. Personord på -er → +e: lærere. Ikke lærerer: aldrig et ekstra -er."
       },
       "tags": ["flertal", "-e", "ubestemt"]
     },
@@ -39,8 +39,8 @@
       "options": ["huser", "hus", "huse", "husene"],
       "answer": "huse",
       "explanation": {
-        "en": "Many short neuter nouns take -e in the plural: et hus → huse. The tempting error is huser, but hus never takes -er; husene is bestemt flertal and does not fit after an adjective without den/de.",
-        "da": "Mange korte intetkønsord får -e i flertal: et hus → huse. Den typiske fejl er huser, men hus får aldrig -er; husene er bestemt flertal og passer ikke efter et adjektiv uden den/de."
+        "en": "Short et-word → -e: et hus → huse. Not huser: hus never takes -er.",
+        "da": "Kort et-ord → -e: et hus → huse. Ikke huser: hus får aldrig -er."
       },
       "tags": ["flertal", "-e", "ubestemt"]
     },
@@ -53,8 +53,8 @@
       "options": ["kommune", "kommunerne", "kommuner", "kommunen"],
       "answer": "kommuner",
       "explanation": {
-        "en": "Nouns ending in -e usually take -r in the plural: en kommune → kommuner. After antallet af the noun is in ubestemt flertal, so kommunerne (bestemt flertal) is the classic wrong choice.",
-        "da": "Substantiver på -e får normalt -r i flertal: en kommune → kommuner. Efter antallet af står substantivet i ubestemt flertal, så kommunerne (bestemt flertal) er den klassiske fejl."
+        "en": "antallet af → ubestemt flertal. kommune ends in -e → +r: kommuner. Not kommunerne: no bestemt form here.",
+        "da": "antallet af → ubestemt flertal. kommune ender på -e → +r: kommuner. Ikke kommunerne: ingen bestemt form her."
       },
       "tags": ["flertal", "-er", "ubestemt"]
     },
@@ -67,8 +67,8 @@
       "options": ["årer", "år", "årene", "åre"],
       "answer": "år",
       "explanation": {
-        "en": "Many one-syllable neuter nouns have a zero plural (nul-endelse): et år → flere år. Årer is a real word, but it is the plural of en åre (an oar or a vein), and årene is bestemt flertal, which does not fit after flere.",
-        "da": "Mange enstavelses-intetkønsord har nul-endelse i flertal: et år → flere år. Årer er et rigtigt ord, men det er flertal af en åre, og årene er bestemt flertal, som ikke passer efter flere."
+        "en": "Short et-word → no ending: et år → flere år. Not årer: that is the plural of en åre.",
+        "da": "Kort et-ord → ingen endelse: et år → flere år. Ikke årer: det er flertal af en åre."
       },
       "tags": ["flertal", "nul-endelse", "intetkøn"]
     },
@@ -81,8 +81,8 @@
       "options": ["dyr", "dyrene", "dyrer", "dyre"],
       "answer": "dyr",
       "explanation": {
-        "en": "Et dyr belongs to the group of neuter nouns with a zero plural: et dyr → mange dyr. Learners often write dyre or dyrer, but the indefinite plural is identical to the singular; only bestemt flertal adds an ending (dyrene).",
-        "da": "Et dyr hører til de intetkønsord, der har nul-endelse i flertal: et dyr → mange dyr. Mange skriver dyre eller dyrer, men ubestemt flertal er identisk med ental; kun bestemt flertal får en endelse (dyrene)."
+        "en": "Short et-word → no ending: et dyr → dyr. Not dyrer or dyre: only bestemt flertal adds an ending (dyrene).",
+        "da": "Kort et-ord → ingen endelse: et dyr → dyr. Ikke dyrer eller dyre: kun bestemt flertal får endelse (dyrene)."
       },
       "tags": ["flertal", "nul-endelse", "intetkøn"]
     },
@@ -95,8 +95,8 @@
       "options": ["børn", "barnene", "børnene", "barnet"],
       "answer": "børnene",
       "explanation": {
-        "en": "Bestemt flertal is built on the plural stem, not the singular: børn + -ene = børnene. Barnene wrongly uses the singular stem, and børn (ubestemt) does not fit because the sentence refers to the specific children of the school.",
-        "da": "Bestemt flertal dannes af flertalsstammen, ikke af ental: børn + -ene = børnene. Barnene bruger fejlagtigt entalsstammen, og børn (ubestemt) passer ikke, fordi sætningen handler om skolens bestemte børn."
+        "en": "The school's own children → bestemt flertal, built on the plural: børn → børnene. Not barnene: never build on the singular.",
+        "da": "Skolens egne børn → bestemt flertal, bygget på flertal: børn → børnene. Ikke barnene: byg aldrig på ental."
       },
       "tags": ["bestemt flertal", "-ene", "uregelmæssig"]
     },
@@ -110,8 +110,8 @@
       "options": ["medarbejderne", "medarbejderene", "medarbejdere", "medarbejder"],
       "answer": "medarbejderne",
       "explanation": {
-        "en": "Medarbejder takes -e in the plural (medarbejdere), and bestemt flertal adds -ne to that form: medarbejderne. The frequent error medarbejderene comes from adding -ene to the singular instead of -ne to the plural.",
-        "da": "Medarbejder får -e i flertal (medarbejdere), og bestemt flertal føjer -ne til den form: medarbejderne. Den hyppige fejl medarbejderene opstår, når man lægger -ene til ental i stedet for -ne til flertal."
+        "en": "Known group → bestemt flertal: medarbejder → medarbejdere → medarbejderne. Not medarbejderene: -ere → -erne.",
+        "da": "Kendt gruppe → bestemt flertal: medarbejder → medarbejdere → medarbejderne. Ikke medarbejderene: -ere → -erne."
       },
       "tags": ["bestemt flertal", "-erne"]
     },
@@ -124,8 +124,8 @@
       "options": ["huse", "husene", "huserne", "husenes"],
       "answer": "husene",
       "explanation": {
-        "en": "Plural huse + bestemt ending -ne gives husene. Huserne is a double error (hus never takes -er), and husenes is the genitive (ejefald) plural, which cannot follow the preposition af.",
-        "da": "Flertal huse + bestemt endelse -ne giver husene. Huserne er en dobbeltfejl (hus får aldrig -er), og husenes er ejefald i flertal, som ikke kan stå efter præpositionen af."
+        "en": "ejerne af + specific houses → bestemt flertal: huse → husene. Not huserne: hus never takes -er.",
+        "da": "ejerne af + bestemte huse → bestemt flertal: huse → husene. Ikke huserne: hus får aldrig -er."
       },
       "tags": ["bestemt flertal", "-ene"]
     },
@@ -139,8 +139,8 @@
       "options": ["lærer", "lærere", "lærerne", "lærerene"],
       "answer": "lærerne",
       "explanation": {
-        "en": "Lærer → lærere (plural) → lærerne (bestemt flertal): the plural -e is dropped before -ne, so the result is -erne, not -erene. The subject is a specific group (the teachers at these schools), which is why bestemt form is required.",
-        "da": "Lærer → lærere (flertal) → lærerne (bestemt flertal): flertals-e'et falder væk foran -ne, så resultatet er -erne og ikke -erene. Subjektet er en bestemt gruppe (lærerne på disse skoler), og derfor kræves bestemt form."
+        "en": "på landets erhvervsskoler = a known group → bestemt flertal: lærere → lærerne. Not lærerene: -ere → -erne.",
+        "da": "på landets erhvervsskoler = kendt gruppe → bestemt flertal: lærere → lærerne. Ikke lærerene: -ere → -erne."
       },
       "tags": ["bestemt flertal", "-erne"]
     },
@@ -153,8 +153,8 @@
       "options": ["deltagere", "deltagerne", "deltagerene", "deltager"],
       "answer": "deltagerne",
       "explanation": {
-        "en": "Flere alone takes ubestemt flertal (flere deltagere), but flere af points to a defined group and therefore requires bestemt flertal: flere af deltagerne. Deltagerene wrongly keeps the plural -e before -ne.",
-        "da": "Flere alene tager ubestemt flertal (flere deltagere), men flere af peger på en afgrænset gruppe og kræver derfor bestemt flertal: flere af deltagerne. Deltagerene beholder fejlagtigt flertals-e'et foran -ne."
+        "en": "flere af = part of a known group → bestemt flertal: deltagerne. Not deltagere (only after flere alone) or deltagerene.",
+        "da": "flere af = del af en kendt gruppe → bestemt flertal: deltagerne. Ikke deltagere (kun efter flere alene) eller deltagerene."
       },
       "tags": ["bestemt flertal", "-erne", "mængdeord"]
     },
@@ -168,8 +168,8 @@
       "options": ["vinduer", "vindue", "vinduene", "vinduerne"],
       "answer": "vinduerne",
       "explanation": {
-        "en": "Vindue takes -r in the plural (vinduer) because it already ends in -e, and bestemt flertal then adds -ne: vinduerne. The trap is vinduene, which skips the plural marker and treats the word like a zero-plural noun.",
-        "da": "Vindue får -r i flertal (vinduer), fordi ordet allerede ender på -e, og bestemt flertal føjer derefter -ne til: vinduerne. Fælden er vinduene, som springer flertalsmærket over og behandler ordet som et ord med nul-endelse."
+        "en": "i opgangen = specific windows → bestemt flertal: vinduer → vinduerne. Not vinduene: the plural -r is missing.",
+        "da": "i opgangen = bestemte vinduer → bestemt flertal: vinduer → vinduerne. Ikke vinduene: flertals-r mangler."
       },
       "tags": ["bestemt flertal", "-erne"]
     },
@@ -182,8 +182,8 @@
       "options": ["mand", "mænd", "mændene", "mande"],
       "answer": "mænd",
       "explanation": {
-        "en": "Mand changes its vowel in the plural (vokalskifte) and takes no ending: en mand → mænd. Mande is a common regularised error, and mændene (bestemt flertal) does not fit in a general statement parallel to kvinder.",
-        "da": "Mand skifter vokal i flertal (vokalskifte) og får ingen endelse: en mand → mænd. Mande er en typisk regelmæssiggjort fejl, og mændene (bestemt flertal) passer ikke i en generel udtalelse parallelt med kvinder."
+        "en": "Vowel change, no ending: mand → mænd, ubestemt like kvinder. Not mande: mand always changes vowel.",
+        "da": "Vokalskifte, ingen endelse: mand → mænd, ubestemt ligesom kvinder. Ikke mande: mand skifter altid vokal."
       },
       "tags": ["flertal", "vokalskifte", "uregelmæssig"]
     },
@@ -197,8 +197,8 @@
       "options": ["barne", "barn", "børn", "børnene"],
       "answer": "børn",
       "explanation": {
-        "en": "Barn is irregular: the plural is formed by vokalskifte with no ending, et barn → børn. Learners often write barn (unchanged, like år) or barne, but this word belongs to the small group with vowel change.",
-        "da": "Barn er uregelmæssigt: flertal dannes ved vokalskifte uden endelse, et barn → børn. Mange skriver barn (uændret som år) eller barne, men ordet hører til den lille gruppe med vokalskifte."
+        "en": "Vowel change, no ending: et barn → børn. Not barn: unlike år, barn changes in the plural.",
+        "da": "Vokalskifte, ingen endelse: et barn → børn. Ikke barn: modsat år ændrer barn sig i flertal."
       },
       "tags": ["flertal", "vokalskifte", "uregelmæssig"]
     },
@@ -211,8 +211,8 @@
       "options": ["boger", "bøgerne", "bøger", "bogen"],
       "answer": "bøger",
       "explanation": {
-        "en": "Bog combines vokalskifte with the ending -er: en bog → bøger. Boger keeps the singular vowel and is wrong; bøgerne is bestemt flertal, which does not follow flere + adjective.",
-        "da": "Bog kombinerer vokalskifte med endelsen -er: en bog → bøger. Boger beholder entalsvokalen og er forkert; bøgerne er bestemt flertal, som ikke kan stå efter flere + adjektiv."
+        "en": "flere → ubestemt. Vowel change + -er: bog → bøger. Not boger: it keeps the singular vowel.",
+        "da": "flere → ubestemt. Vokalskifte + -er: bog → bøger. Ikke boger: den beholder entalsvokalen."
       },
       "tags": ["flertal", "vokalskifte", "-er"]
     },
@@ -226,8 +226,8 @@
       "options": ["tænder", "tanderne", "tænderne", "tændene"],
       "answer": "tænderne",
       "explanation": {
-        "en": "Tand → tænder (vokalskifte + -er) → tænderne (bestemt flertal). Body parts are normally in bestemt form in Danish (huller i tænderne, not i tænder). The traps are tanderne (no vowel change) and tændene (missing -er).",
-        "da": "Tand → tænder (vokalskifte + -er) → tænderne (bestemt flertal). Kropsdele står normalt i bestemt form på dansk (huller i tænderne, ikke i tænder). Fælderne er tanderne (uden vokalskifte) og tændene (uden -er)."
+        "en": "Body part → bestemt form: tand → tænder → tænderne. Not tanderne (no vowel change) or tændene (no -er).",
+        "da": "Kropsdel → bestemt form: tand → tænder → tænderne. Ikke tanderne (intet vokalskifte) eller tændene (mangler -er)."
       },
       "tags": ["bestemt flertal", "vokalskifte", "uregelmæssig"]
     },
@@ -240,8 +240,8 @@
       "options": ["fødderne", "fodene", "fødder", "føderne"],
       "answer": "fødderne",
       "explanation": {
-        "en": "Fod → fødder (vokalskifte, -er and doubled d after the short vowel) → fødderne. Since ryggen is in bestemt form, the coordinated noun must be too, so fødder is wrong; føderne lacks the double consonant.",
-        "da": "Fod → fødder (vokalskifte, -er og dobbelt d efter kort vokal) → fødderne. Da ryggen står i bestemt form, skal det sideordnede substantiv også, så fødder er forkert; føderne mangler dobbeltkonsonanten."
+        "en": "ryggen = bestemt → bestemt here too: fod → fødder → fødderne. Not fødder (ubestemt) or føderne (one d).",
+        "da": "ryggen = bestemt → også bestemt her: fod → fødder → fødderne. Ikke fødder (ubestemt) eller føderne (ét d)."
       },
       "tags": ["bestemt flertal", "vokalskifte", "uregelmæssig"]
     },
@@ -255,8 +255,8 @@
       "options": ["hænderne", "hænder", "hånderne", "hændene"],
       "answer": "hænderne",
       "explanation": {
-        "en": "Hånd → hænder (vokalskifte å → æ plus -er) → hænderne in bestemt flertal. The parallel knæene shows that bestemt form is needed; typical errors are hånderne (no vowel change) and hændene (missing -er).",
-        "da": "Hånd → hænder (vokalskifte å → æ plus -er) → hænderne i bestemt flertal. Det parallelle knæene viser, at bestemt form er nødvendig; typiske fejl er hånderne (uden vokalskifte) og hændene (uden -er)."
+        "en": "knæene = bestemt → bestemt here too: hånd → hænder → hænderne. Not hånderne (no vowel change) or hændene (no -er).",
+        "da": "knæene = bestemt → også bestemt her: hånd → hænder → hænderne. Ikke hånderne (intet vokalskifte) eller hændene (mangler -er)."
       },
       "tags": ["bestemt flertal", "vokalskifte", "uregelmæssig"]
     },
@@ -269,8 +269,8 @@
       "options": ["menneske", "menneskene", "mennesker", "menneskerne"],
       "answer": "mennesker",
       "explanation": {
-        "en": "After a number the noun is in ubestemt flertal: seks millioner mennesker. Menneske is singular; menneskene is bestemt flertal and menneskerne is a double marking that does not exist (the correct bestemt flertal is menneskene).",
-        "da": "Efter et talord står substantivet i ubestemt flertal: seks millioner mennesker. Menneske er ental; menneskene er bestemt flertal, og menneskerne er en dobbeltmarkering, som ikke findes (korrekt bestemt flertal er menneskene)."
+        "en": "Number before the noun → ubestemt flertal: seks millioner mennesker. Not menneskene: no bestemt form after a number.",
+        "da": "Talord foran → ubestemt flertal: seks millioner mennesker. Ikke menneskene: ingen bestemt form efter et talord."
       },
       "tags": ["flertal", "-er", "uregelmæssig"]
     },
@@ -283,8 +283,8 @@
       "options": ["meget", "mange", "megen", "lidt"],
       "answer": "mange",
       "explanation": {
-        "en": "Mange is used with countable plural nouns (tællelige substantiver), and unge is a plural: mange unge. Meget belongs with uncountable nouns (meget tid) and is the classic error here; lidt would also need an uncountable noun.",
-        "da": "Mange bruges ved tællelige substantiver i flertal, og unge er flertal: mange unge. Meget hører til utællelige substantiver (meget tid) og er den klassiske fejl her; lidt kræver også et utælleligt substantiv."
+        "en": "unge = countable plural → mange. Not meget: only with uncountables (meget tid).",
+        "da": "unge = tælleligt flertal → mange. Ikke meget: kun ved utællelige ord (meget tid)."
       },
       "tags": ["mængdeord", "tællelig", "mange/meget"]
     },
@@ -297,8 +297,8 @@
       "options": ["få", "lidt", "lille", "mindre"],
       "answer": "lidt",
       "explanation": {
-        "en": "Motion is an uncountable noun (utælleligt substantiv), so the quantifier must be lidt: for lidt motion. Få is only used with countable plurals (få motionstimer), so for få motion is wrong.",
-        "da": "Motion er et utælleligt substantiv, så mængdeordet skal være lidt: for lidt motion. Få bruges kun ved tællelige substantiver i flertal (få motionstimer), så for få motion er forkert."
+        "en": "motion is uncountable → lidt: for lidt motion. Not få: only with countable plurals (få timer).",
+        "da": "motion er utælleligt → lidt: for lidt motion. Ikke få: kun ved tælleligt flertal (få timer)."
       },
       "tags": ["mængdeord", "utællelig", "få/lidt"]
     },
@@ -311,8 +311,8 @@
       "options": ["mere", "flere", "meget", "mange"],
       "answer": "flere",
       "explanation": {
-        "en": "Penge is grammatically plural in Danish (pengene), so it takes the plural comparative flere, not mere. Mere penge is the classic transfer error from English 'more money'; mange penge would be correct but does not express the comparison the sentence needs.",
-        "da": "Penge er grammatisk flertal på dansk (pengene), så det tager flertalskomparativen flere, ikke mere. Mere penge er den klassiske overførselsfejl fra engelsk 'more money'; mange penge ville være korrekt, men udtrykker ikke den sammenligning, sætningen kræver."
+        "en": "penge is plural in Danish (pengene) → flere penge. Not mere: that is English 'more money'.",
+        "da": "penge er flertal på dansk (pengene) → flere penge. Ikke mere: det er engelsk 'more money'."
       },
       "tags": ["mængdeord", "flere/mere", "tællelig"]
     },
@@ -325,8 +325,8 @@
       "options": ["meget", "lidt", "få", "lille"],
       "answer": "få",
       "explanation": {
-        "en": "Virksomheder is a countable plural, so the quantifier is få: kun få virksomheder. Lidt is used with uncountable nouns (lidt tilskud, lidt energi) and cannot stand before a plural noun.",
-        "da": "Virksomheder er tælleligt flertal, så mængdeordet er få: kun få virksomheder. Lidt bruges ved utællelige substantiver (lidt tilskud, lidt energi) og kan ikke stå foran et flertalsord."
+        "en": "virksomheder = countable plural → få. Not lidt: only with uncountables (lidt energi).",
+        "da": "virksomheder = tælleligt flertal → få. Ikke lidt: kun ved utællelige ord (lidt energi)."
       },
       "tags": ["mængdeord", "tællelig", "få/lidt"]
     },
@@ -339,8 +339,8 @@
       "options": ["mængde", "antal", "mange", "flere"],
       "answer": "antal",
       "explanation": {
-        "en": "Et antal is used for a number of countable units (et antal borgere), while en mængde is for amounts of uncountable substances (en mængde vand). The article et and the adjective stigende also require a noun, so mange and flere cannot fit.",
-        "da": "Et antal bruges om et antal tællelige enheder (et antal borgere), mens en mængde bruges om utællelige stoffer (en mængde vand). Artiklen et og adjektivet stigende kræver desuden et substantiv, så mange og flere kan ikke passe."
+        "en": "borgere can be counted → et antal. Not mængde: it is for amounts you measure (en mængde vand).",
+        "da": "borgere kan tælles → et antal. Ikke mængde: den bruges om noget, man måler (en mængde vand)."
       },
       "tags": ["mængdeord", "antal/mængde", "tællelig"]
     },
@@ -353,8 +353,8 @@
       "options": ["antaller", "mængder", "antal", "mængde"],
       "answer": "mængder",
       "explanation": {
-        "en": "CO2 is an uncountable substance, so it is measured in mængder, not antal: betydelige mængder CO2. Antal counts separate units and is neuter with a zero plural, so betydelige antal would be wrong both in meaning and in agreement with the plural adjective.",
-        "da": "CO2 er et utælleligt stof, så det måles i mængder, ikke i antal: betydelige mængder CO2. Antal tæller enkelte enheder og er intetkøn med nul-endelse, så betydelige antal ville være forkert både i betydning og i kongruens med flertalsadjektivet."
+        "en": "CO2 is measured, not counted → mængde; betydelige is plural → mængder. Not antal: it counts units.",
+        "da": "CO2 måles, tælles ikke → mængde; betydelige er flertal → mængder. Ikke antal: det tæller enheder."
       },
       "tags": ["mængdeord", "antal/mængde", "utællelig"]
     },
@@ -367,8 +367,8 @@
       "options": ["Det fleste", "De fleste", "Den fleste", "Flest"],
       "answer": "De fleste",
       "explanation": {
-        "en": "Before a plural noun the quantifier agrees in number: de fleste danskere. Den/det fleste would be singular articles and cannot stand before a plural; flest without de is only used predicatively or adverbially (dem, der har flest).",
-        "da": "Foran et flertalsord kongruerer mængdeordet i tal: de fleste danskere. Den/det fleste er entalsartikler og kan ikke stå foran flertal; flest uden de bruges kun prædikativt eller adverbielt (dem, der har flest)."
+        "en": "Plural noun → de fleste danskere. Not det/den fleste: singular articles never go before a plural.",
+        "da": "Substantiv i flertal → de fleste danskere. Ikke det/den fleste: artikler i ental står aldrig foran flertal."
       },
       "tags": ["kongruens", "mængdeord", "flertal"]
     },
@@ -381,8 +381,8 @@
       "options": ["hele", "hver", "hvert", "alle"],
       "answer": "hvert",
       "explanation": {
-        "en": "Hver/hvert always takes a singular noun and agrees in gender: barn is intetkøn (et barn), so the form is hvert barn. Hver is the fælleskøn form (hver kommune) and is the typical wrong choice; the later dets confirms the neuter gender.",
-        "da": "Hver/hvert står altid ved ental og kongruerer i køn: barn er intetkøn (et barn), så formen er hvert barn. Hver er fælleskønsformen (hver kommune) og er den typiske fejl; det senere dets bekræfter intetkønnet."
+        "en": "et barn = et-word → hvert barn (dets confirms it). Not hver: that is for en-words (hver kommune).",
+        "da": "et barn = et-ord → hvert barn (dets bekræfter det). Ikke hver: den bruges ved en-ord (hver kommune)."
       },
       "tags": ["kongruens", "hver/hvert", "intetkøn"]
     },
@@ -395,8 +395,8 @@
       "options": ["alle", "hvert", "hver", "hverken"],
       "answer": "hver",
       "explanation": {
-        "en": "Kommune is fælleskøn (en kommune), so the distributive quantifier is hver kommune. Hvert is the intetkøn form and the classic error; alle would require the plural (alle kommuner), and hverken is a conjunction (hverken … eller).",
-        "da": "Kommune er fælleskøn (en kommune), så det distributive mængdeord er hver kommune. Hvert er intetkønsformen og den klassiske fejl; alle ville kræve flertal (alle kommuner), og hverken er en konjunktion (hverken … eller)."
+        "en": "en kommune = en-word, singular → hver kommune. Not hvert (et-words) or alle (needs plural: alle kommuner).",
+        "da": "en kommune = en-ord i ental → hver kommune. Ikke hvert (et-ord) eller alle (kræver flertal: alle kommuner)."
       },
       "tags": ["kongruens", "hver/hvert", "fælleskøn"]
     },
@@ -409,8 +409,8 @@
       "options": ["alle", "alt", "hele", "hver"],
       "answer": "alle",
       "explanation": {
-        "en": "Alle is used with a countable plural (alle borgere), while hele refers to one whole unit in the singular and needs bestemt form (hele befolkningen). Hele borgere is therefore wrong; the plural borgere forces alle.",
-        "da": "Alle bruges ved tælleligt flertal (alle borgere), mens hele betegner én samlet enhed i ental og kræver bestemt form (hele befolkningen). Hele borgere er derfor forkert; flertalsformen borgere kræver alle."
+        "en": "borgere = countable plural → alle borgere. Not hele: only one whole unit in bestemt form (hele befolkningen).",
+        "da": "borgere = tælleligt flertal → alle borgere. Ikke hele: kun om én hel enhed i bestemt form (hele befolkningen)."
       },
       "tags": ["kongruens", "alle/hele", "flertal"]
     },
@@ -423,8 +423,8 @@
       "options": ["arbejdspladser", "arbejdsplads", "arbejdspladse", "arbejdspladserne"],
       "answer": "arbejdspladser",
       "explanation": {
-        "en": "A compound noun (sammensat ord) is inflected on its last element: plads → pladser, so arbejdsplads → arbejdspladser. After tusindvis af the noun is in ubestemt flertal, which rules out arbejdspladserne; arbejdspladse uses a wrong ending.",
-        "da": "Et sammensat ord bøjes efter sit sidste led: plads → pladser, så arbejdsplads → arbejdspladser. Efter tusindvis af står substantivet i ubestemt flertal, hvilket udelukker arbejdspladserne; arbejdspladse har en forkert endelse."
+        "en": "Compound → inflect the last part: plads → pladser. tusindvis af → ubestemt, so not arbejdspladserne.",
+        "da": "Sammensat ord → bøj sidste led: plads → pladser. tusindvis af → ubestemt, så ikke arbejdspladserne."
       },
       "tags": ["sammensat ord", "flertal", "-er"]
     },
@@ -438,8 +438,8 @@
       "options": ["boligområdene", "boligområde", "boligområderne", "boligområder"],
       "answer": "boligområder",
       "explanation": {
-        "en": "The last element decides the plural: et område → områder, hence boligområder. Learners are tempted to write boligområderne because of antallet af, but that phrase takes ubestemt flertal; the first element bolig never changes.",
-        "da": "Sidste led bestemmer flertalsformen: et område → områder, altså boligområder. Mange fristes til at skrive boligområderne på grund af antallet af, men det udtryk tager ubestemt flertal; første led bolig ændres aldrig."
+        "en": "Last part decides: område → områder → boligområder. antallet af → ubestemt, so not boligområderne.",
+        "da": "Sidste led bestemmer: område → områder → boligområder. antallet af → ubestemt, så ikke boligområderne."
       },
       "tags": ["sammensat ord", "flertal", "-er"]
     },
@@ -452,8 +452,8 @@
       "options": ["sundhedstilbudder", "sundhedstilbud", "sundhedstilbudene", "sundhedstilbuddene"],
       "answer": "sundhedstilbud",
       "explanation": {
-        "en": "The compound follows its last element tilbud, which has a zero plural: et tilbud → flere tilbud, so flere nye sundhedstilbud. Sundhedstilbudder is a regularised error; sundhedstilbuddene is bestemt flertal and cannot follow flere nye (and sundhedstilbudene lacks the required double d).",
-        "da": "Det sammensatte ord følger sidste led tilbud, som har nul-endelse i flertal: et tilbud → flere tilbud, altså flere nye sundhedstilbud. Sundhedstilbudder er en regelmæssiggjort fejl; sundhedstilbuddene er bestemt flertal og kan ikke stå efter flere nye (og sundhedstilbudene mangler det obligatoriske dobbelt-d)."
+        "en": "Last part tilbud has no plural ending: et tilbud → flere tilbud. Not sundhedstilbudder: tilbud never takes -er.",
+        "da": "Sidste led tilbud får ingen flertalsendelse: et tilbud → flere tilbud. Ikke sundhedstilbudder: tilbud får aldrig -er."
       },
       "tags": ["sammensat ord", "nul-endelse", "flertal"]
     }

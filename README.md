@@ -18,8 +18,8 @@ plus the formal register the written exam rewards.
   the app can explain. Keeping a word adds it to your word diary.
 - **Flashcards and a home-screen widget** built from the words you kept. The widget
   shows a new word every hour with a button that reveals the meaning.
-- **How to crack this topic**: each topic has a guide with the rules, a usable exam
-  hack per rule, worked examples and the classic traps.
+- **How to crack this topic**: a one-screen cheat sheet per topic. One rule and one
+  exam trick per sub-rule, a short example, and the classic traps.
 - **Verb drill** generated from the 500-verb study list.
 - **Spaced repetition**: a miss returns after 1 day, then 3 days, until you get it
   right twice. Sessions lean toward your weakest topics.
