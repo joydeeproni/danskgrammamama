@@ -7,6 +7,7 @@ struct VocabSessionView: View {
     let deck: VocabDeck
 
     @Environment(VocabStore.self) private var vocab
+    @Environment(FlashcardStore.self) private var flashcards
     @Environment(\.dismiss) private var dismiss
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
@@ -282,6 +283,11 @@ struct VocabSessionView: View {
     private func answer(_ known: Bool) {
         guard let card else { return }
         vocab.mark(card, known: known)
+        // Cards you could not answer also go to "Mine gemte ord", to see again there and in the widget.
+        if !known {
+            flashcards.add(word: card.da, meaning: card.en, wordClass: card.kindLabel,
+                           paradigm: card.forms ?? card.pattern, context: card.example.da)
+        }
         if !seen.contains(card.id) {
             seen.insert(card.id)
             if known { knownCount += 1 }

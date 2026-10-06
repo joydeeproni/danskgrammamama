@@ -61,6 +61,19 @@ final class FlashcardStore {
         return true
     }
 
+    /// Keeps a practice-deck card the learner did not know yet, so it shows up under
+    /// "Mine gemte ord" and in the widget. Does nothing if it is already there.
+    @discardableResult
+    func add(word: String, meaning: String, wordClass: String, paradigm: String?, context: String) -> Bool {
+        let id = word.lowercased()
+        guard !contains(id) else { return false }
+        cards.insert(Flashcard(id: id, word: word, meaning: meaning, wordClass: wordClass, article: "",
+                               paradigm: paradigm, context: context, added: .now,
+                               timesShown: 0, timesKnown: 0, lastShown: nil), at: 0)
+        save()
+        return true
+    }
+
     func remove(_ card: Flashcard) {
         cards.removeAll { $0.id == card.id }
         save()

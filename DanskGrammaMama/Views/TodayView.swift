@@ -11,10 +11,17 @@ struct TodayView: View {
 
     @State private var showSettings = false
     @State private var showExamDate = false
-    @State private var dealt = TodayView.hasDealt
-
-    /// The deal animation plays once per launch, not every time Today reappears.
+    /// The deal plays once per launch, not every time Today reappears.
+    @State private var playDeal = !TodayView.hasDealt
+    /// 0 = nothing written on the cards yet; each step reveals the next part.
+    @State private var revealStep = TodayView.hasDealt ? 4 : 0
     private static var hasDealt = false
+
+    private var dealing: Bool { playDeal && !reduceMotion }
+    private var topSheets: Int { plan.isBonus ? 7 : min(max(plan.size - 1, 3), 14) }
+    private static let topDelay = 0.08
+    private var topLanding: Double { PaperStack<EmptyView>.landingTime(sheets: topSheets, delay: Self.topDelay) }
+    private func sideDelay(_ order: Int) -> Double { topLanding - 0.15 + Double(order - 1) * 0.14 }
 
     private var plan: DailyPlan { SessionBuilder(content: content, progress: progress).dailyPlan() }
     private var topics: [TopicReadiness] { progress.readiness(content: content) }
@@ -27,10 +34,10 @@ struct TodayView: View {
                 header
                     .padding(.bottom, 18)
 
-                PaperStack(sheets: plan.isBonus ? 7 : min(max(plan.size - 1, 3), 14), seed: 11, radius: Theme.todayRadius) {
+                PaperStack(sheets: topSheets, seed: 11, radius: Theme.todayRadius,
+                           deal: dealing, dealDelay: Self.topDelay) {
                     topCard
                 }
-                .dealt(dealt, order: 0, reduceMotion: reduceMotion)
                 .padding(.bottom, 72)
 
                 sideStacks
@@ -52,9 +59,16 @@ struct TodayView: View {
         .sheet(isPresented: $showExamDate) { ExamDateSheet() }
         .onAppear {
             progress.logReadiness(progress.overallReadiness(content: content))
-            guard !dealt else { return }
+            guard playDeal else { return }
             TodayView.hasDealt = true
-            withAnimation(.spring(response: 0.7, dampingFraction: 0.82)) { dealt = true }
+            guard !reduceMotion else { revealStep = 4; return }
+            // Write on the cards once they have landed: one part after the other.
+            let sideLanded = PaperStack<EmptyView>.landingTime(sheets: 5, delay: sideDelay(3))
+            for (step, time) in [(1, topLanding), (2, topLanding + 0.12), (3, topLanding + 0.24), (4, max(sideLanded, topLanding + 0.36))] {
+                DispatchQueue.main.asyncAfter(deadline: .now() + time) {
+                    withAnimation(.spring(response: 0.5, dampingFraction: 0.86)) { revealStep = step }
+                }
+            }
         }
     }
 
@@ -92,13 +106,17 @@ struct TodayView: View {
     private var topCard: some View {
         VStack(alignment: .leading, spacing: 0) {
             countdown
+                .revealed(revealStep >= 1)
                 .padding(.bottom, 20)
             weakestRow
+                .revealed(revealStep >= 2)
                 .padding(.bottom, 22)
             PerforatedRule()
                 .padding(.horizontal, -22)
                 .padding(.bottom, 20)
+                .revealed(revealStep >= 2)
             todaysSet
+                .revealed(revealStep >= 3)
         }
         .padding(22)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -313,15 +331,16 @@ struct TodayView: View {
     private func sideStack<C: View>(_ route: Route, seed: Int, sheets: Int, order: Int,
                                     @ViewBuilder _ content: () -> C) -> some View {
         NavigationLink(value: route) {
-            PaperStack(sheets: sheets, seed: seed, step: 2.2, radius: Theme.smallRadius) {
+            PaperStack(sheets: sheets, seed: seed, step: 2.2, radius: Theme.smallRadius,
+                       deal: dealing, dealDelay: sideDelay(order)) {
                 VStack(alignment: .leading, spacing: 0, content: content)
+                    .revealed(revealStep >= 4)
                     .padding(12)
                     .frame(maxWidth: .infinity, minHeight: 138, alignment: .topLeading)
                     .paper(radius: Theme.smallRadius)
             }
         }
         .buttonStyle(PressStyle())
-        .dealt(dealt, order: order, reduceMotion: reduceMotion)
     }
 
     private static let dayFormatter: DateFormatter = {
@@ -332,24 +351,13 @@ struct TodayView: View {
     }()
 }
 
-// MARK: - Deal animation
-
-private struct Dealt: ViewModifier {
-    let dealt: Bool
-    let order: Int
-    let reduceMotion: Bool
-
-    func body(content: Content) -> some View {
-        content
-            .offset(y: dealt || reduceMotion ? 0 : 520 + CGFloat(order) * 40)
-            .opacity(dealt || !reduceMotion ? 1 : 0)
-            .animation(.spring(response: 0.7, dampingFraction: 0.82).delay(Double(order) * 0.07), value: dealt)
-    }
-}
+// MARK: - Reveal
 
 private extension View {
-    func dealt(_ dealt: Bool, order: Int, reduceMotion: Bool) -> some View {
-        modifier(Dealt(dealt: dealt, order: order, reduceMotion: reduceMotion))
+    /// Text written onto a card after it lands: fades in and settles from just below.
+    func revealed(_ shown: Bool) -> some View {
+        opacity(shown ? 1 : 0)
+            .offset(y: shown ? 0 : 6)
     }
 }
 

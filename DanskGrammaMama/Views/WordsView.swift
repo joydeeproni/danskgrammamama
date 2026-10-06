@@ -64,7 +64,14 @@ struct WordsView: View {
         .scrollIndicators(.hidden)
         .tableBackground()
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear { if deck.isEmpty { deck = Array(flashcards.reviewOrder.prefix(10)) } }
+        .onAppear {
+            // Refresh when not mid-review, so cards added from the practice decks show up.
+            if index == 0 || index >= deck.count {
+                deck = Array(flashcards.reviewOrder.prefix(10))
+                index = 0
+                known = 0
+            }
+        }
     }
 
     private var emptyCard: some View {
@@ -73,7 +80,7 @@ struct WordsView: View {
             Text("Ingen ord endnu")
                 .font(.serif(24, .semibold, relativeTo: .title2))
                 .foregroundStyle(Theme.ink)
-            Text("Tryk på et understreget ord i en øvelse, og gem det.")
+            Text("Ord, du gemmer i en øvelse, og kort, du svarer »Ikke endnu« til ovenfor, lander her.")
                 .font(.ui(16))
                 .foregroundStyle(Theme.pencil)
                 .fixedSize(horizontal: false, vertical: true)

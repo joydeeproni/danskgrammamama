@@ -57,6 +57,16 @@ struct VocabItem: Identifiable, Hashable, Decodable {
         case meaningDa = "meaning_da"
     }
 
+    /// What kind of card this is, shown under saved words.
+    var kindLabel: String {
+        switch deck {
+        case .words: return `class` ?? "ord"
+        case .phrases: return "frase"
+        case .fixed: return "fast forbindelse"
+        case .udtryk: return "udtryk"
+        }
+    }
+
     /// A small line under the item on the front of the card.
     var tag: String? {
         switch deck {

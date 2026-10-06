@@ -53,15 +53,34 @@ struct PaperStack<Content: View>: View {
     var radius: CGFloat = Theme.cardRadius
     /// Squeeze tall piles into this many points so they never get absurd.
     var maxDepth: CGFloat = 42
+    /// Deal the pile in: sheets drop on one by one, bottom first, then the top card.
+    var deal = false
+    var dealDelay: Double = 0
     @ViewBuilder var content: Content
 
     @Environment(\.colorScheme) private var scheme
+    @State private var landed = false
+
+    static var sheetGap: Double { 0.06 }
+
+    /// When the top card of a dealt pile has settled, counted from the pile appearing.
+    static func landingTime(sheets: Int, delay: Double) -> Double {
+        delay + Double(min(max(sheets, 0), 16) + 1) * sheetGap + 0.32
+    }
+
+    private var dealing: Bool { deal && !landed }
+
+    private func dealAnimation(order: Int) -> Animation? {
+        guard deal else { return nil }
+        return .spring(response: 0.42, dampingFraction: 0.74).delay(dealDelay + Double(order) * Self.sheetGap)
+    }
 
     private var visible: Int { max(0, min(sheets, 16)) }
     private var spacing: CGFloat { visible == 0 ? step : min(step, maxDepth / CGFloat(visible)) }
 
     var body: some View {
         content
+            .modifier(TopCardDeal(dealing: dealing, animation: dealAnimation(order: visible)))
             .background(alignment: .top) {
                 ZStack {
                     ForEach((0..<visible).reversed(), id: \.self) { i in
@@ -73,12 +92,15 @@ struct PaperStack<Content: View>: View {
                             .overlay(shape.strokeBorder(Theme.edge, lineWidth: 1))
                             .shadow(color: Theme.sheetLine, radius: 0, y: 1)
                             .shadow(color: bottom ? shadow : .clear, radius: bottom ? 22 : 0, y: bottom ? 16 : 0)
-                            .offset(x: o.width, y: o.height)
+                            .offset(x: o.width, y: o.height - (dealing ? 34 : 0))
+                            .opacity(dealing ? 0 : 1)
+                            .animation(dealAnimation(order: visible - 1 - i), value: landed)
                             .transition(.opacity)
                     }
                 }
             }
             .animation(.spring(response: 0.5, dampingFraction: 0.86), value: visible)
+            .onAppear { if deal { landed = true } }
     }
 
     private var shadow: Color {
@@ -109,6 +131,20 @@ struct PaperStack<Content: View>: View {
         z = (z ^ (z >> 27)) &* 0x94D049BB133111EB
         z ^= z >> 31
         return CGFloat(z % 10_000) / 10_000
+    }
+}
+
+/// The top card of a dealt pile: drops in last, from a little above.
+private struct TopCardDeal: ViewModifier {
+    let dealing: Bool
+    let animation: Animation?
+
+    func body(content: Content) -> some View {
+        content
+            .offset(y: dealing ? -34 : 0)
+            .scaleEffect(dealing ? 1.02 : 1)
+            .opacity(dealing ? 0 : 1)
+            .animation(animation, value: dealing)
     }
 }
 
@@ -157,16 +193,45 @@ struct PressStyle: ButtonStyle {
 }
 
 extension View {
-    /// The one press animation every tappable surface shares: a quick springy shrink,
-    /// a slight fade, and a light tap the moment the finger lands.
+    /// The one press animation every tappable surface shares: a springy shrink with a
+    /// slight dim and a light tap the moment the finger lands.
     func pressEffect(_ isPressed: Bool, scale: CGFloat = 0.97) -> some View {
-        self
-            .scaleEffect(isPressed ? scale : 1)
-            .opacity(isPressed ? 0.86 : 1)
-            .animation(.spring(response: 0.22, dampingFraction: 0.62), value: isPressed)
-            .sensoryFeedback(.impact(weight: .light, intensity: 0.6), trigger: isPressed) { _, pressed in pressed }
+        modifier(PressEffect(isPressed: isPressed, scale: scale))
     }
 }
+
+/// Inside a scroll view iOS reports a quick tap as pressed and released within a few
+/// milliseconds, too fast to see. This holds the pressed look for a minimum moment so
+/// every tap visibly dips, then springs back.
+private struct PressEffect: ViewModifier {
+    let isPressed: Bool
+    let scale: CGFloat
+    @State private var shown = false
+    @State private var pressedAt = Date.distantPast
+    @Environment(\.colorScheme) private var scheme
+
+    private static let minimumHold: TimeInterval = 0.14
+
+    func body(content: Content) -> some View {
+        content
+            .scaleEffect(shown ? scale : 1)
+            .brightness(shown ? (scheme == .dark ? 0.06 : -0.04) : 0)
+            .opacity(shown ? 0.9 : 1)
+            .sensoryFeedback(.impact(weight: .light, intensity: 0.6), trigger: shown) { _, now in now }
+            .onChange(of: isPressed) { _, pressed in
+                if pressed {
+                    pressedAt = .now
+                    withAnimation(.spring(response: 0.18, dampingFraction: 0.7)) { shown = true }
+                } else {
+                    let wait = max(0, Self.minimumHold - Date.now.timeIntervalSince(pressedAt))
+                    DispatchQueue.main.asyncAfter(deadline: .now() + wait) {
+                        withAnimation(.spring(response: 0.32, dampingFraction: 0.55)) { shown = false }
+                    }
+                }
+            }
+    }
+}
+
 
 /// Round icon button used in headers.
 struct IconButton: View {
