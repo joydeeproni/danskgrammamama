@@ -1,0 +1,5527 @@
+{
+ "deck": "phrases",
+ "items": [
+  {
+   "da": "Tak for dit brev.",
+   "en": "Thanks for your letter.",
+   "example": {
+    "da": "Tak for dit brev, som jeg blev rigtig glad for at få i går.",
+    "en": "Thanks for your letter, which I was really happy to get yesterday."
+   },
+   "level": "B2",
+   "use": "indlede en uformel e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Tak for sidst.",
+   "en": "Thanks for the last time we met.",
+   "example": {
+    "da": "Tak for sidst, det var dejligt at se jer alle sammen til brylluppet.",
+    "en": "Thanks for the other day, it was lovely to see you all at the wedding."
+   },
+   "level": "B2",
+   "use": "indlede en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Det er længe siden, vi har hørt fra hinanden.",
+   "en": "It's been ages since we were in touch.",
+   "example": {
+    "da": "Det er længe siden, vi har hørt fra hinanden, så nu skriver jeg endelig.",
+    "en": "It's been ages since we were in touch, so now I'm finally writing."
+   },
+   "level": "B2",
+   "use": "indlede en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Hvordan går det med dig og familien?",
+   "en": "How are you and the family?",
+   "example": {
+    "da": "Hvordan går det med dig og familien, efter at I er flyttet til Aarhus?",
+    "en": "How are you and the family doing since you moved to Aarhus?"
+   },
+   "level": "B2",
+   "use": "indlede en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Jeg håber, at alt er vel hos jer.",
+   "en": "I hope all is well with you.",
+   "example": {
+    "da": "Jeg håber, at alt er vel hos jer, og at I har haft en god sommer.",
+    "en": "I hope all is well with you and that you've had a good summer."
+   },
+   "level": "B2",
+   "use": "indlede en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Undskyld, at jeg først skriver nu.",
+   "en": "Sorry for only writing now.",
+   "example": {
+    "da": "Undskyld, at jeg først skriver nu, men jeg har haft travlt med det nye job.",
+    "en": "Sorry for only writing now, but I've been busy with the new job."
+   },
+   "level": "B2",
+   "use": "undskylde i en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Jeg har nogle gode nyheder.",
+   "en": "I have some good news.",
+   "example": {
+    "da": "Jeg har nogle gode nyheder: Jeg har endelig fået fast arbejde på sygehuset.",
+    "en": "I have some good news: I've finally got a permanent job at the hospital."
+   },
+   "level": "B2",
+   "use": "fortælle nyt i en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Det var dejligt at høre fra dig.",
+   "en": "It was lovely to hear from you.",
+   "example": {
+    "da": "Det var dejligt at høre fra dig, og jeg er glad for, at du har det godt.",
+    "en": "It was lovely to hear from you, and I'm glad you're doing well."
+   },
+   "level": "B2",
+   "use": "svare på en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Jeg glæder mig til at høre fra dig.",
+   "en": "I look forward to hearing from you.",
+   "example": {
+    "da": "Jeg glæder mig til at høre fra dig, og hils endelig dine forældre.",
+    "en": "I look forward to hearing from you, and do say hello to your parents."
+   },
+   "level": "B2",
+   "use": "afslutte en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Skriv snart!",
+   "en": "Write soon!",
+   "example": {
+    "da": "Skriv snart og fortæl, hvordan det går med den nye lejlighed!",
+    "en": "Write soon and tell me how things are going with the new flat!"
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Mange hilsner",
+   "en": "Best wishes; many greetings",
+   "example": {
+    "da": "Mange hilsner fra os alle sammen her i Odense.",
+    "en": "Best wishes from all of us here in Odense."
+   },
+   "level": "B2",
+   "use": "afslutte en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Kærlig hilsen",
+   "en": "Love; with love",
+   "example": {
+    "da": "Kærlig hilsen fra mor, far og ungerne i Vejle.",
+    "en": "Love from Mum, Dad and the kids in Vejle."
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Knus og kram",
+   "en": "Hugs and kisses; lots of love",
+   "example": {
+    "da": "Knus og kram fra mig og hele familien her i Aalborg.",
+    "en": "Lots of love from me and the whole family here in Aalborg."
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Hils … fra mig.",
+   "en": "Say hello to … from me.",
+   "example": {
+    "da": "Hils din mand og børnene fra mig, og sig, at jeg savner dem.",
+    "en": "Say hello to your husband and the children from me and tell them I miss them."
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Jeg glæder mig til at se dig.",
+   "en": "I'm looking forward to seeing you.",
+   "example": {
+    "da": "Jeg glæder mig til at se dig til min fødselsdag på lørdag.",
+    "en": "I'm looking forward to seeing you at my birthday on Saturday."
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Har du lyst til at …?",
+   "en": "Would you like to …?; Do you fancy …?",
+   "example": {
+    "da": "Har du lyst til at komme til middag hos os næste fredag?",
+    "en": "Would you like to come to dinner at our place next Friday?"
+   },
+   "level": "B2",
+   "use": "invitere",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne invitere dig til …",
+   "en": "I'd like to invite you to …",
+   "example": {
+    "da": "Jeg vil gerne invitere dig til min reception, når jeg har afsluttet uddannelsen.",
+    "en": "I'd like to invite you to my reception when I've finished my course."
+   },
+   "level": "B2",
+   "use": "invitere",
+   "register": "neutral"
+  },
+  {
+   "da": "Lad mig høre, hvad du synes.",
+   "en": "Let me know what you think.",
+   "example": {
+    "da": "Jeg har sendt dig et par billeder af huset, så lad mig høre, hvad du synes.",
+    "en": "I've sent you some photos of the house, so let me know what you think."
+   },
+   "level": "B2",
+   "use": "bede om svar",
+   "register": "neutral"
+  },
+  {
+   "da": "Giv lige lyd, hvis …",
+   "en": "Just let me know if …",
+   "example": {
+    "da": "Giv lige lyd, hvis du har brug for hjælp til flytningen i weekenden.",
+    "en": "Just let me know if you need help with the move at the weekend."
+   },
+   "level": "B2",
+   "use": "tilbyde hjælp i en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Jeg må hellere slutte for nu.",
+   "en": "I'd better stop here for now.",
+   "example": {
+    "da": "Jeg må hellere slutte for nu, for børnene skal snart hentes i børnehaven.",
+    "en": "I'd better stop here for now, as the children need picking up from kindergarten soon."
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Det var alt for nu.",
+   "en": "That's all for now.",
+   "example": {
+    "da": "Det var alt for nu, men jeg skriver igen, når vi er flyttet ind.",
+    "en": "That's all for now, but I'll write again when we've moved in."
+   },
+   "level": "B2",
+   "use": "afslutte en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Ellers går det godt her.",
+   "en": "Otherwise things are fine here.",
+   "example": {
+    "da": "Ellers går det godt her, selvom vi stadig mangler en vuggestueplads til Emil.",
+    "en": "Otherwise things are fine here, although we still need a nursery place for Emil."
+   },
+   "level": "B2",
+   "use": "fortælle nyt i en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Tillykke med …",
+   "en": "Congratulations on …",
+   "example": {
+    "da": "Tillykke med det nye job, du har virkelig fortjent det.",
+    "en": "Congratulations on the new job, you really deserve it."
+   },
+   "level": "B2",
+   "use": "lykønske",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er så ked af at høre, at …",
+   "en": "I'm so sorry to hear that …",
+   "example": {
+    "da": "Jeg er så ked af at høre, at din mor har været indlagt på sygehuset.",
+    "en": "I'm so sorry to hear that your mother has been in hospital."
+   },
+   "level": "B2",
+   "use": "vise medfølelse",
+   "register": "neutral"
+  },
+  {
+   "da": "Tak for invitationen.",
+   "en": "Thanks for the invitation.",
+   "example": {
+    "da": "Tak for invitationen til jeres sommerfest, vi kommer meget gerne.",
+    "en": "Thanks for the invitation to your summer party, we'd love to come."
+   },
+   "level": "B2",
+   "use": "svare på en invitation",
+   "register": "neutral"
+  },
+  {
+   "da": "Desværre kan jeg ikke komme, fordi …",
+   "en": "Unfortunately I can't come because …",
+   "example": {
+    "da": "Desværre kan jeg ikke komme, fordi jeg skal arbejde den weekend.",
+    "en": "Unfortunately I can't come because I have to work that weekend."
+   },
+   "level": "B2",
+   "use": "takke nej",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil meget gerne komme.",
+   "en": "I would love to come.",
+   "example": {
+    "da": "Jeg vil meget gerne komme, men jeg bliver nok lidt forsinket.",
+    "en": "I'd love to come, but I'll probably be a little late."
+   },
+   "level": "B2",
+   "use": "takke ja",
+   "register": "neutral"
+  },
+  {
+   "da": "Hvad med at …?",
+   "en": "How about …?; What about …?",
+   "example": {
+    "da": "Hvad med at tage en tur til Skagen, når du har ferie i juli?",
+    "en": "How about taking a trip to Skagen when you're on holiday in July?"
+   },
+   "level": "B2",
+   "use": "foreslå noget",
+   "register": "uformel"
+  },
+  {
+   "da": "Jeg har en stor tjeneste at bede dig om.",
+   "en": "I have a big favour to ask you.",
+   "example": {
+    "da": "Jeg har en stor tjeneste at bede dig om: Kan du passe vores hund i weekenden?",
+    "en": "I have a big favour to ask you: can you look after our dog at the weekend?"
+   },
+   "level": "B2",
+   "use": "bede om hjælp",
+   "register": "uformel"
+  },
+  {
+   "da": "Kunne du tænke dig at …?",
+   "en": "Would you like to …?",
+   "example": {
+    "da": "Kunne du tænke dig at tage med i sommerhus i uge 29?",
+    "en": "Would you like to come with us to a summer cottage in week 29?"
+   },
+   "level": "B2",
+   "use": "invitere",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg ved ikke, om du har hørt, at …",
+   "en": "I don't know if you've heard that …",
+   "example": {
+    "da": "Jeg ved ikke, om du har hørt, at Peter og Sara skal giftes til foråret.",
+    "en": "I don't know if you've heard that Peter and Sara are getting married in the spring."
+   },
+   "level": "B2",
+   "use": "fortælle nyt i en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Pas godt på dig selv.",
+   "en": "Take good care of yourself.",
+   "example": {
+    "da": "Pas godt på dig selv, og husk at holde en pause fra arbejdet.",
+    "en": "Take good care of yourself, and remember to take a break from work."
+   },
+   "level": "B2",
+   "use": "afslutte en uformel e-mail",
+   "register": "uformel"
+  },
+  {
+   "da": "Du er altid velkommen til at …",
+   "en": "You're always welcome to …",
+   "example": {
+    "da": "Du er altid velkommen til at overnatte hos os, når du er i København.",
+    "en": "You're always welcome to stay the night with us when you're in Copenhagen."
+   },
+   "level": "B2",
+   "use": "invitere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det glæder mig at høre, at …",
+   "en": "I'm pleased to hear that …",
+   "example": {
+    "da": "Det glæder mig at høre, at din søn er faldet godt til i den nye skole.",
+    "en": "I'm pleased to hear that your son has settled in well at his new school."
+   },
+   "level": "B2",
+   "use": "reagere på nyheder",
+   "register": "neutral"
+  },
+  {
+   "da": "Til rette vedkommende",
+   "en": "To whom it may concern",
+   "example": {
+    "da": "Brevet til kommunen var stilet »Til rette vedkommende«, fordi jeg ikke kendte sagsbehandleren.",
+    "en": "The letter to the council was addressed 'To whom it may concern' because I didn't know the caseworker."
+   },
+   "level": "C1",
+   "use": "indlede en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Hermed fremsendes …",
+   "en": "Please find enclosed …; herewith …",
+   "example": {
+    "da": "Hermed fremsendes den underskrevne lejekontrakt samt kopi af mit pas.",
+    "en": "Please find enclosed the signed tenancy agreement and a copy of my passport."
+   },
+   "level": "C1",
+   "use": "sende dokumenter",
+   "register": "formel"
+  },
+  {
+   "da": "Vedhæftet finder du …",
+   "en": "Attached you will find …",
+   "example": {
+    "da": "Vedhæftet finder du mit CV og kopi af mine eksamensbeviser.",
+    "en": "Attached you will find my CV and copies of my certificates."
+   },
+   "level": "B2",
+   "use": "sende dokumenter",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg skriver til jer angående …",
+   "en": "I'm writing to you regarding …",
+   "example": {
+    "da": "Jeg skriver til jer angående den regning, jeg modtog i sidste uge.",
+    "en": "I'm writing to you regarding the bill I received last week."
+   },
+   "level": "B2",
+   "use": "angive formålet med en e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg henvender mig, fordi …",
+   "en": "I'm contacting you because …",
+   "example": {
+    "da": "Jeg henvender mig, fordi jeg endnu ikke har modtaget mine feriepenge.",
+    "en": "I'm contacting you because I still haven't received my holiday pay."
+   },
+   "level": "C1",
+   "use": "angive formålet med en e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg tillader mig at henvende mig, da …",
+   "en": "I take the liberty of contacting you, as …",
+   "example": {
+    "da": "Jeg tillader mig at henvende mig, da jeg har set, at I søger nye medarbejdere.",
+    "en": "I take the liberty of contacting you, as I've seen that you're looking for new staff."
+   },
+   "level": "C2",
+   "use": "angive formålet med en e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Med henvisning til jeres brev af …",
+   "en": "With reference to your letter of …",
+   "example": {
+    "da": "Med henvisning til jeres brev af 3. maj vil jeg gerne klage over afgørelsen.",
+    "en": "With reference to your letter of 3 May, I would like to appeal the decision."
+   },
+   "level": "C1",
+   "use": "henvise til tidligere kontakt",
+   "register": "formel"
+  },
+  {
+   "da": "Tak for din hurtige besvarelse.",
+   "en": "Thank you for your prompt reply.",
+   "example": {
+    "da": "Tak for din hurtige besvarelse, det har været en stor hjælp.",
+    "en": "Thank you for your prompt reply, it has been a great help."
+   },
+   "level": "B2",
+   "use": "svare på en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Tak for din henvendelse.",
+   "en": "Thank you for your enquiry.",
+   "example": {
+    "da": "Tak for din henvendelse, som vi vil behandle hurtigst muligt.",
+    "en": "Thank you for your enquiry, which we will deal with as soon as possible."
+   },
+   "level": "B2",
+   "use": "svare på en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Som aftalt i telefonen …",
+   "en": "As agreed on the phone …",
+   "example": {
+    "da": "Som aftalt i telefonen sender jeg hermed de manglende dokumenter.",
+    "en": "As agreed on the phone, I am sending the missing documents herewith."
+   },
+   "level": "B2",
+   "use": "henvise til tidligere kontakt",
+   "register": "neutral"
+  },
+  {
+   "da": "Som nævnt i min tidligere mail …",
+   "en": "As mentioned in my previous email …",
+   "example": {
+    "da": "Som nævnt i min tidligere mail er varmen i lejligheden stadig ikke i orden.",
+    "en": "As mentioned in my previous email, the heating in the flat is still not working properly."
+   },
+   "level": "B2",
+   "use": "henvise til tidligere kontakt",
+   "register": "neutral"
+  },
+  {
+   "da": "I forlængelse af vores samtale …",
+   "en": "Following our conversation …",
+   "example": {
+    "da": "I forlængelse af vores samtale i går sender jeg her en oversigt over mine vagter.",
+    "en": "Following our conversation yesterday, here is an overview of my shifts."
+   },
+   "level": "C1",
+   "use": "henvise til tidligere kontakt",
+   "register": "formel"
+  },
+  {
+   "da": "Som opfølgning på …",
+   "en": "As a follow-up to …",
+   "example": {
+    "da": "Som opfølgning på mødet i tirsdags sender jeg referatet til alle deltagere.",
+    "en": "As a follow-up to Tuesday's meeting, I'm sending the minutes to all participants."
+   },
+   "level": "C1",
+   "use": "henvise til tidligere kontakt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har endnu ikke modtaget svar på …",
+   "en": "I have not yet received a reply to …",
+   "example": {
+    "da": "Jeg har endnu ikke modtaget svar på min ansøgning om boligstøtte fra marts.",
+    "en": "I have not yet received a reply to my application for housing benefit from March."
+   },
+   "level": "B2",
+   "use": "rykke for svar",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg tillader mig at rykke for …",
+   "en": "I'm taking the liberty of chasing up …",
+   "example": {
+    "da": "Jeg tillader mig at rykke for svar på min klage fra den 2. februar.",
+    "en": "I'm taking the liberty of chasing up a reply to my complaint of 2 February."
+   },
+   "level": "C1",
+   "use": "rykke for svar",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vender tilbage, så snart …",
+   "en": "I'll get back to you as soon as …",
+   "example": {
+    "da": "Jeg vender tilbage, så snart jeg har talt med min leder om sagen.",
+    "en": "I'll get back to you as soon as I've spoken to my manager about it."
+   },
+   "level": "B2",
+   "use": "love at svare",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har modtaget dit brev af …",
+   "en": "I have received your letter of …",
+   "example": {
+    "da": "Jeg har modtaget dit brev af 12. januar og har nogle spørgsmål til det.",
+    "en": "I have received your letter of 12 January and have a few questions about it."
+   },
+   "level": "B2",
+   "use": "henvise til tidligere kontakt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg kan hermed bekræfte, at …",
+   "en": "I can hereby confirm that …",
+   "example": {
+    "da": "Jeg kan hermed bekræfte, at jeg deltager i kurset den 14. november.",
+    "en": "I can hereby confirm that I will attend the course on 14 November."
+   },
+   "level": "C1",
+   "use": "bekræfte",
+   "register": "formel"
+  },
+  {
+   "da": "Formålet med denne mail er at …",
+   "en": "The purpose of this email is to …",
+   "example": {
+    "da": "Formålet med denne mail er at informere jer om de nye åbningstider.",
+    "en": "The purpose of this email is to inform you about the new opening hours."
+   },
+   "level": "C1",
+   "use": "angive formålet med en e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg skriver for at høre, om …",
+   "en": "I'm writing to ask whether …",
+   "example": {
+    "da": "Jeg skriver for at høre, om der stadig er ledige pladser på danskholdet.",
+    "en": "I'm writing to ask whether there are still places available on the Danish class."
+   },
+   "level": "B2",
+   "use": "angive formålet med en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne gøre opmærksom på, at …",
+   "en": "I would like to point out that …",
+   "example": {
+    "da": "Jeg vil gerne gøre opmærksom på, at lyset i opgangen har været i stykker i tre uger.",
+    "en": "I would like to point out that the light in the stairwell has been broken for three weeks."
+   },
+   "level": "C1",
+   "use": "påpege noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne høre nærmere om …",
+   "en": "I'd like to know more about …",
+   "example": {
+    "da": "Jeg vil gerne høre nærmere om mulighederne for efteruddannelse i kommunen.",
+    "en": "I'd like to know more about the opportunities for further training in the municipality."
+   },
+   "level": "B2",
+   "use": "bede om oplysninger",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne bede om …",
+   "en": "I would like to request …",
+   "example": {
+    "da": "Jeg vil gerne bede om en kopi af min lønseddel for oktober.",
+    "en": "I would like to request a copy of my payslip for October."
+   },
+   "level": "B2",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg ser frem til at høre fra dig.",
+   "en": "I look forward to hearing from you.",
+   "example": {
+    "da": "Jeg ser frem til at høre fra dig og håber på et positivt svar.",
+    "en": "I look forward to hearing from you and hope for a positive reply."
+   },
+   "level": "B2",
+   "use": "afslutte en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "På forhånd tak for hjælpen.",
+   "en": "Thank you in advance for your help.",
+   "example": {
+    "da": "På forhånd tak for hjælpen, jeg sætter stor pris på det.",
+    "en": "Thank you in advance for your help, I really appreciate it."
+   },
+   "level": "B2",
+   "use": "afslutte en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Med venlig hilsen",
+   "en": "Kind regards; Yours sincerely",
+   "example": {
+    "da": "Brevet sluttede med »Med venlig hilsen« efterfulgt af mit fulde navn.",
+    "en": "The letter ended with 'Kind regards' followed by my full name."
+   },
+   "level": "B2",
+   "use": "afslutte en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Venlig hilsen",
+   "en": "Kind regards",
+   "example": {
+    "da": "Hun skriver altid »Venlig hilsen« under sine mails til kollegerne.",
+    "en": "She always writes 'Kind regards' at the end of her emails to colleagues."
+   },
+   "level": "B2",
+   "use": "afslutte en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Bedste hilsner",
+   "en": "Best regards",
+   "example": {
+    "da": "Mailen til lederen sluttede med »Bedste hilsner« og mit telefonnummer.",
+    "en": "The email to the manager ended with 'Best regards' and my phone number."
+   },
+   "level": "B2",
+   "use": "afslutte en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Du er velkommen til at kontakte mig, hvis …",
+   "en": "Feel free to contact me if …",
+   "example": {
+    "da": "Du er velkommen til at kontakte mig, hvis du har spørgsmål til min ansøgning.",
+    "en": "Feel free to contact me if you have any questions about my application."
+   },
+   "level": "B2",
+   "use": "afslutte en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg kan kontaktes på telefon …",
+   "en": "I can be reached by phone on …",
+   "example": {
+    "da": "Jeg kan kontaktes på telefon 22 33 44 55 alle hverdage efter klokken 16.",
+    "en": "I can be reached by phone on 22 33 44 55 every weekday after 4 pm."
+   },
+   "level": "B2",
+   "use": "give kontaktoplysninger",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg står gerne til rådighed med yderligere oplysninger.",
+   "en": "I'm happy to provide further information.",
+   "example": {
+    "da": "Jeg står gerne til rådighed med yderligere oplysninger, hvis I får brug for det.",
+    "en": "I'm happy to provide further information should you need it."
+   },
+   "level": "C1",
+   "use": "afslutte en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg håber på en hurtig afklaring.",
+   "en": "I hope for a swift resolution.",
+   "example": {
+    "da": "Sagen har trukket ud i flere måneder, så jeg håber på en hurtig afklaring.",
+    "en": "The case has dragged on for months, so I hope for a swift resolution."
+   },
+   "level": "C1",
+   "use": "afslutte en formel e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg beklager den sene besvarelse.",
+   "en": "I apologise for the late reply.",
+   "example": {
+    "da": "Jeg beklager den sene besvarelse, men jeg har været på ferie i to uger.",
+    "en": "I apologise for the late reply, but I've been on holiday for two weeks."
+   },
+   "level": "B2",
+   "use": "undskylde formelt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg beklager ulejligheden.",
+   "en": "I apologise for the inconvenience.",
+   "example": {
+    "da": "Mødet er desværre flyttet til torsdag, og jeg beklager ulejligheden.",
+    "en": "The meeting has unfortunately been moved to Thursday, and I apologise for the inconvenience."
+   },
+   "level": "B2",
+   "use": "undskylde formelt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg beklager meget, at …",
+   "en": "I very much regret that …",
+   "example": {
+    "da": "Jeg beklager meget, at jeg ikke kunne deltage i forældremødet.",
+    "en": "I very much regret that I couldn't attend the parents' meeting."
+   },
+   "level": "B2",
+   "use": "undskylde formelt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil sætte stor pris på …",
+   "en": "I would greatly appreciate …",
+   "example": {
+    "da": "Jeg vil sætte stor pris på et svar inden udgangen af måneden.",
+    "en": "I would greatly appreciate a reply before the end of the month."
+   },
+   "level": "C1",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg ville være taknemmelig, hvis …",
+   "en": "I would be grateful if …",
+   "example": {
+    "da": "Jeg ville være taknemmelig, hvis I kunne sende mig en bekræftelse på mailen.",
+    "en": "I would be grateful if you could send me a confirmation by email."
+   },
+   "level": "C1",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Kan I oplyse, hvornår …?",
+   "en": "Could you tell me when …?",
+   "example": {
+    "da": "Kan I oplyse, hvornår jeg kan forvente at få mit depositum tilbage?",
+    "en": "Could you tell me when I can expect to get my deposit back?"
+   },
+   "level": "B2",
+   "use": "bede om oplysninger",
+   "register": "formel"
+  },
+  {
+   "da": "Vil du venligst …?",
+   "en": "Would you please …?",
+   "example": {
+    "da": "Vil du venligst bekræfte, at du har modtaget mine dokumenter?",
+    "en": "Would you please confirm that you have received my documents?"
+   },
+   "level": "B2",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil bede dig om at …",
+   "en": "I would ask you to …",
+   "example": {
+    "da": "Jeg vil bede dig om at sende mig en skriftlig bekræftelse på aftalen.",
+    "en": "I would ask you to send me written confirmation of the agreement."
+   },
+   "level": "B2",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Det vil være en stor hjælp, hvis …",
+   "en": "It would be a great help if …",
+   "example": {
+    "da": "Det vil være en stor hjælp, hvis du kan tage referat på mødet i morgen.",
+    "en": "It would be a great help if you could take the minutes at tomorrow's meeting."
+   },
+   "level": "B2",
+   "use": "bede høfligt om noget",
+   "register": "neutral"
+  },
+  {
+   "da": "Er der mulighed for at …?",
+   "en": "Is it possible to …?",
+   "example": {
+    "da": "Er der mulighed for at flytte min samtale til næste uge?",
+    "en": "Is it possible to move my interview to next week?"
+   },
+   "level": "B2",
+   "use": "spørge høfligt",
+   "register": "neutral"
+  },
+  {
+   "da": "Ville det være muligt at …?",
+   "en": "Would it be possible to …?",
+   "example": {
+    "da": "Ville det være muligt at få en kopi af referatet fra mødet?",
+    "en": "Would it be possible to get a copy of the minutes from the meeting?"
+   },
+   "level": "B2",
+   "use": "spørge høfligt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne vide, om …",
+   "en": "I would like to know whether …",
+   "example": {
+    "da": "Jeg vil gerne vide, om jeg kan få tilskud til tandlægeregningen.",
+    "en": "I would like to know whether I can get a subsidy for the dentist's bill."
+   },
+   "level": "B2",
+   "use": "bede om oplysninger",
+   "register": "neutral"
+  },
+  {
+   "da": "Må jeg bede om …?",
+   "en": "May I ask for …?",
+   "example": {
+    "da": "Må jeg bede om en kopi af kontrakten, inden jeg skriver under?",
+    "en": "May I ask for a copy of the contract before I sign?"
+   },
+   "level": "B2",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg skal høre, om …",
+   "en": "I wanted to ask whether …",
+   "example": {
+    "da": "Jeg skal høre, om der stadig er ledige pladser på svømmeholdet.",
+    "en": "I wanted to ask whether there are still places on the swimming team."
+   },
+   "level": "B2",
+   "use": "spørge høfligt",
+   "register": "neutral"
+  },
+  {
+   "da": "Kunne du være så venlig at …?",
+   "en": "Could you be so kind as to …?",
+   "example": {
+    "da": "Kunne du være så venlig at sende mig vejledningen igen?",
+    "en": "Could you be so kind as to send me the instructions again?"
+   },
+   "level": "C1",
+   "use": "bede høfligt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg håber, at det er i orden, at …",
+   "en": "I hope it's all right that …",
+   "example": {
+    "da": "Jeg håber, at det er i orden, at jeg skriver direkte til dig.",
+    "en": "I hope it's all right that I'm writing to you directly."
+   },
+   "level": "B2",
+   "use": "spørge høfligt",
+   "register": "neutral"
+  },
+  {
+   "da": "Hvis det ikke er for meget besvær, …",
+   "en": "If it's not too much trouble, …",
+   "example": {
+    "da": "Hvis det ikke er for meget besvær, vil jeg gerne have papirerne tilsendt.",
+    "en": "If it's not too much trouble, I'd like the papers sent to me."
+   },
+   "level": "C1",
+   "use": "bede høfligt om noget",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg ville blive meget glad, hvis …",
+   "en": "I would be very happy if …",
+   "example": {
+    "da": "Jeg ville blive meget glad, hvis du kunne komme til min fødselsdag.",
+    "en": "I would be very happy if you could come to my birthday."
+   },
+   "level": "B2",
+   "use": "bede høfligt om noget",
+   "register": "neutral"
+  },
+  {
+   "da": "Sig endelig til, hvis …",
+   "en": "Do let me know if …",
+   "example": {
+    "da": "Sig endelig til, hvis der er noget, jeg kan hjælpe med.",
+    "en": "Do let me know if there's anything I can help with."
+   },
+   "level": "B2",
+   "use": "tilbyde hjælp",
+   "register": "neutral"
+  },
+  {
+   "da": "Hvornår passer det dig at …?",
+   "en": "When would suit you to …?",
+   "example": {
+    "da": "Hvornår passer det dig at mødes og gennemgå budgettet?",
+    "en": "When would suit you to meet and go through the budget?"
+   },
+   "level": "B2",
+   "use": "aftale et tidspunkt",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har et par spørgsmål angående …",
+   "en": "I have a couple of questions about …",
+   "example": {
+    "da": "Jeg har et par spørgsmål angående betalingen af huslejen for december.",
+    "en": "I have a couple of questions about paying the rent for December."
+   },
+   "level": "B2",
+   "use": "bede om oplysninger",
+   "register": "neutral"
+  },
+  {
+   "da": "Tusind tak for …",
+   "en": "Thank you so much for …",
+   "example": {
+    "da": "Tusind tak for hjælpen med flytningen, det havde vi ikke klaret uden dig.",
+    "en": "Thank you so much for helping with the move, we couldn't have done it without you."
+   },
+   "level": "B2",
+   "use": "takke",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne takke for …",
+   "en": "I would like to thank you for …",
+   "example": {
+    "da": "Jeg vil gerne takke for et godt samarbejde gennem de sidste fem år.",
+    "en": "I would like to thank you for a good working relationship over the last five years."
+   },
+   "level": "B2",
+   "use": "takke formelt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er meget taknemmelig for …",
+   "en": "I'm very grateful for …",
+   "example": {
+    "da": "Jeg er meget taknemmelig for den støtte, jeg har fået fra mine kolleger.",
+    "en": "I'm very grateful for the support I've had from my colleagues."
+   },
+   "level": "B2",
+   "use": "takke",
+   "register": "neutral"
+  },
+  {
+   "da": "Tak, fordi du tog dig tid til at …",
+   "en": "Thank you for taking the time to …",
+   "example": {
+    "da": "Tak, fordi du tog dig tid til at læse min ansøgning så grundigt.",
+    "en": "Thank you for taking the time to read my application so thoroughly."
+   },
+   "level": "B2",
+   "use": "takke",
+   "register": "neutral"
+  },
+  {
+   "da": "Der må være sket en fejl.",
+   "en": "There must have been a mistake.",
+   "example": {
+    "da": "Der må være sket en fejl, for jeg har fået regningen for el to gange.",
+    "en": "There must have been a mistake, because I've been billed for electricity twice."
+   },
+   "level": "B2",
+   "use": "klage",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er ked af at måtte meddele, at …",
+   "en": "I'm sorry to have to inform you that …",
+   "example": {
+    "da": "Jeg er ked af at måtte meddele, at jeg ikke kan deltage i projektet alligevel.",
+    "en": "I'm sorry to have to inform you that I can't take part in the project after all."
+   },
+   "level": "C1",
+   "use": "give en dårlig nyhed",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg må desværre aflyse …",
+   "en": "Unfortunately I have to cancel …",
+   "example": {
+    "da": "Jeg må desværre aflyse vores aftale på fredag, fordi min datter er syg.",
+    "en": "Unfortunately I have to cancel our appointment on Friday because my daughter is ill."
+   },
+   "level": "B2",
+   "use": "aflyse",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg må desværre melde afbud til …",
+   "en": "Unfortunately I must send my apologies for …",
+   "example": {
+    "da": "Jeg må desværre melde afbud til forældremødet på torsdag.",
+    "en": "Unfortunately I must send my apologies for the parents' meeting on Thursday."
+   },
+   "level": "C1",
+   "use": "melde afbud",
+   "register": "formel"
+  },
+  {
+   "da": "Det er med stor beklagelse, at …",
+   "en": "It is with great regret that …",
+   "example": {
+    "da": "Det er med stor beklagelse, at vi må lukke afdelingen i Kolding.",
+    "en": "It is with great regret that we have to close the branch in Kolding."
+   },
+   "level": "C2",
+   "use": "give en dårlig nyhed",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne klage over …",
+   "en": "I would like to complain about …",
+   "example": {
+    "da": "Jeg vil gerne klage over den manglende snerydning på vores vej.",
+    "en": "I would like to complain about the lack of snow clearing on our road."
+   },
+   "level": "B2",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er meget utilfreds med …",
+   "en": "I am very dissatisfied with …",
+   "example": {
+    "da": "Jeg er meget utilfreds med den service, jeg fik i jeres butik i lørdags.",
+    "en": "I am very dissatisfied with the service I got in your shop on Saturday."
+   },
+   "level": "B2",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er yderst utilfreds med den måde, …",
+   "en": "I am extremely dissatisfied with the way …",
+   "example": {
+    "da": "Jeg er yderst utilfreds med den måde, min sag er blevet behandlet på.",
+    "en": "I am extremely dissatisfied with the way my case has been handled."
+   },
+   "level": "C1",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Til trods for gentagne henvendelser …",
+   "en": "Despite repeated enquiries …",
+   "example": {
+    "da": "Til trods for gentagne henvendelser er fugtskaden i badeværelset stadig ikke udbedret.",
+    "en": "Despite repeated enquiries, the damp damage in the bathroom has still not been repaired."
+   },
+   "level": "C1",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har flere gange gjort opmærksom på, at …",
+   "en": "I have pointed out several times that …",
+   "example": {
+    "da": "Jeg har flere gange gjort opmærksom på, at døren til kælderen ikke kan låses.",
+    "en": "I have pointed out several times that the basement door cannot be locked."
+   },
+   "level": "C1",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg forventer, at …",
+   "en": "I expect that …",
+   "example": {
+    "da": "Jeg forventer, at fejlen bliver rettet inden for 14 dage.",
+    "en": "I expect the fault to be fixed within 14 days."
+   },
+   "level": "B2",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg må derfor bede om …",
+   "en": "I must therefore ask for …",
+   "example": {
+    "da": "Varen var i stykker ved levering, og jeg må derfor bede om en ny.",
+    "en": "The item was broken on delivery, and I must therefore ask for a new one."
+   },
+   "level": "C1",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg finder det ikke acceptabelt, at …",
+   "en": "I do not find it acceptable that …",
+   "example": {
+    "da": "Jeg finder det ikke acceptabelt, at vi har været uden varmt vand i en uge.",
+    "en": "I do not find it acceptable that we have been without hot water for a week."
+   },
+   "level": "C1",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Det er ikke rimeligt, at …",
+   "en": "It is not fair that …",
+   "example": {
+    "da": "Det er ikke rimeligt, at beboerne skal betale for en fejl, de ikke har begået.",
+    "en": "It is not fair that the residents have to pay for a mistake they didn't make."
+   },
+   "level": "B2",
+   "use": "klage",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg ønsker at få refunderet …",
+   "en": "I wish to be refunded …",
+   "example": {
+    "da": "Jeg ønsker at få refunderet det fulde beløb på 1.200 kroner.",
+    "en": "I wish to be refunded the full amount of 1,200 kroner."
+   },
+   "level": "C1",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg håber, at I vil tage sagen alvorligt.",
+   "en": "I hope you will take the matter seriously.",
+   "example": {
+    "da": "Flere børn er faldet på legepladsen, og jeg håber, at I vil tage sagen alvorligt.",
+    "en": "Several children have fallen in the playground, and I hope you will take the matter seriously."
+   },
+   "level": "B2",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Hvis jeg ikke har hørt fra jer inden …, vil jeg …",
+   "en": "If I have not heard from you by …, I will …",
+   "example": {
+    "da": "Hvis jeg ikke har hørt fra jer inden den 15. marts, vil jeg indbringe sagen for Huslejenævnet.",
+    "en": "If I have not heard from you by 15 March, I will take the matter to the Rent Tribunal."
+   },
+   "level": "C1",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg ser mig nødsaget til at …",
+   "en": "I find myself forced to …",
+   "example": {
+    "da": "Jeg ser mig nødsaget til at kontakte en advokat, hvis sagen ikke bliver løst.",
+    "en": "I will be forced to contact a lawyer if the matter is not resolved."
+   },
+   "level": "C2",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Det drejer sig om …",
+   "en": "It concerns …; it's about …",
+   "example": {
+    "da": "Det drejer sig om en regning, som jeg har modtaget to gange.",
+    "en": "It concerns a bill that I have received twice."
+   },
+   "level": "B2",
+   "use": "angive formålet med en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Problemet er, at …",
+   "en": "The problem is that …",
+   "example": {
+    "da": "Problemet er, at bussen ofte kører, før toget er ankommet.",
+    "en": "The problem is that the bus often leaves before the train has arrived."
+   },
+   "level": "B2",
+   "use": "beskrive et problem",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har desværre oplevet, at …",
+   "en": "Unfortunately I have experienced that …",
+   "example": {
+    "da": "Jeg har desværre oplevet, at mine pakker bliver efterladt uden for opgangen.",
+    "en": "Unfortunately I have found that my parcels get left outside the building."
+   },
+   "level": "B2",
+   "use": "beskrive et problem",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vedlægger dokumentation for …",
+   "en": "I enclose documentation of …",
+   "example": {
+    "da": "Jeg vedlægger dokumentation for skaden i form af billeder og en kvittering.",
+    "en": "I enclose documentation of the damage in the form of photos and a receipt."
+   },
+   "level": "C1",
+   "use": "sende dokumenter",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne have en forklaring på, …",
+   "en": "I would like an explanation of …",
+   "example": {
+    "da": "Jeg vil gerne have en forklaring på, hvorfor min ansøgning er blevet afvist.",
+    "en": "I would like an explanation of why my application has been rejected."
+   },
+   "level": "B2",
+   "use": "klage",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg anmoder hermed om …",
+   "en": "I hereby request …",
+   "example": {
+    "da": "Jeg anmoder hermed om aktindsigt i min sag hos jobcentret.",
+    "en": "I hereby request access to the files in my case at the job centre."
+   },
+   "level": "C1",
+   "use": "bede formelt om noget",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil bede om en snarlig udbedring af …",
+   "en": "I request a prompt repair of …",
+   "example": {
+    "da": "Jeg vil bede om en snarlig udbedring af det utætte vindue i stuen.",
+    "en": "I request a prompt repair of the leaking window in the living room."
+   },
+   "level": "C1",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Hermed søger jeg stillingen som …",
+   "en": "I hereby apply for the position of …",
+   "example": {
+    "da": "Hermed søger jeg stillingen som pædagog i Børnehuset Solsikken.",
+    "en": "I hereby apply for the position of educator at Solsikken Children's Centre."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har med stor interesse læst …",
+   "en": "I have read … with great interest",
+   "example": {
+    "da": "Jeg har med stor interesse læst jeres opslag om en stilling som lagermedarbejder.",
+    "en": "I have read your advertisement for a warehouse job with great interest."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg kan bidrage med …",
+   "en": "I can contribute …",
+   "example": {
+    "da": "Jeg kan bidrage med erfaring fra både lager, butik og kundeservice.",
+    "en": "I can contribute experience from warehouse, retail and customer service."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har erfaring med …",
+   "en": "I have experience with/in …",
+   "example": {
+    "da": "Jeg har erfaring med at arbejde med børn med særlige behov.",
+    "en": "I have experience of working with children with special needs."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har mange års erfaring inden for …",
+   "en": "I have many years' experience in …",
+   "example": {
+    "da": "Jeg har mange års erfaring inden for rengøring og facility management.",
+    "en": "I have many years' experience in cleaning and facility management."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er uddannet … fra …",
+   "en": "I trained as … at …",
+   "example": {
+    "da": "Jeg er uddannet sygeplejerske fra Københavns Professionshøjskole i 2019.",
+    "en": "I qualified as a nurse at University College Copenhagen in 2019."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "I mit nuværende job …",
+   "en": "In my current job …",
+   "example": {
+    "da": "I mit nuværende job planlægger jeg vagter for 25 medarbejdere.",
+    "en": "In my current job I plan shifts for 25 employees."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Mine kolleger vil beskrive mig som …",
+   "en": "My colleagues would describe me as …",
+   "example": {
+    "da": "Mine kolleger vil beskrive mig som rolig, struktureret og hjælpsom.",
+    "en": "My colleagues would describe me as calm, organised and helpful."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg trives med …",
+   "en": "I thrive on …",
+   "example": {
+    "da": "Jeg trives med travle dage og mange forskellige opgaver.",
+    "en": "I thrive on busy days and lots of different tasks."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg brænder for at …",
+   "en": "I'm passionate about …",
+   "example": {
+    "da": "Jeg brænder for at gøre en forskel for ældre borgere i plejeboliger.",
+    "en": "I'm passionate about making a difference for older people in care homes."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Det, der især tiltaler mig ved stillingen, er …",
+   "en": "What particularly appeals to me about the job is …",
+   "example": {
+    "da": "Det, der især tiltaler mig ved stillingen, er muligheden for at arbejde i teams.",
+    "en": "What particularly appeals to me about the job is the chance to work in teams."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne være en del af …",
+   "en": "I would like to be part of …",
+   "example": {
+    "da": "Jeg vil gerne være en del af et fagligt stærkt team med gode kolleger.",
+    "en": "I would like to be part of a professionally strong team with good colleagues."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg ser det som en spændende udfordring at …",
+   "en": "I see it as an exciting challenge to …",
+   "example": {
+    "da": "Jeg ser det som en spændende udfordring at være med til at starte en ny afdeling.",
+    "en": "I see it as an exciting challenge to help set up a new department."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har netop afsluttet …",
+   "en": "I have just completed …",
+   "example": {
+    "da": "Jeg har netop afsluttet min uddannelse som social- og sundhedsassistent.",
+    "en": "I have just completed my training as a social and healthcare assistant."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg taler og skriver dansk på et højt niveau.",
+   "en": "I speak and write Danish to a high level.",
+   "example": {
+    "da": "Jeg taler og skriver dansk på et højt niveau og har bestået Prøve i Dansk 3.",
+    "en": "I speak and write Danish to a high level and have passed Danish Test 3."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil meget gerne inviteres til en samtale.",
+   "en": "I would very much like to be invited to an interview.",
+   "example": {
+    "da": "Jeg vil meget gerne inviteres til en samtale, hvor jeg kan uddybe min ansøgning.",
+    "en": "I would very much like to be invited to an interview where I can expand on my application."
+   },
+   "level": "B2",
+   "use": "afslutte en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg håber, at min ansøgning har vakt jeres interesse.",
+   "en": "I hope my application has aroused your interest.",
+   "example": {
+    "da": "Jeg håber, at min ansøgning har vakt jeres interesse, og ser frem til at høre fra jer.",
+    "en": "I hope my application has aroused your interest, and I look forward to hearing from you."
+   },
+   "level": "C1",
+   "use": "afslutte en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg kan tiltræde …",
+   "en": "I can take up the position …; I can start …",
+   "example": {
+    "da": "Jeg kan tiltræde stillingen 1. august eller efter nærmere aftale.",
+    "en": "I can take up the position on 1 August or by arrangement."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "efter nærmere aftale",
+   "en": "by further arrangement; by appointment",
+   "example": {
+    "da": "Lejligheden kan fremvises efter nærmere aftale med viceværten.",
+    "en": "The flat can be viewed by arrangement with the caretaker."
+   },
+   "level": "C1",
+   "use": "aftale praktiske forhold",
+   "register": "formel"
+  },
+  {
+   "da": "Referencer kan oplyses på forespørgsel.",
+   "en": "References available on request.",
+   "example": {
+    "da": "Referencer fra mine to seneste arbejdsgivere kan oplyses på forespørgsel.",
+    "en": "References from my two most recent employers are available on request."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Som person er jeg …",
+   "en": "As a person I am …",
+   "example": {
+    "da": "Som person er jeg åben, nysgerrig og ikke bange for at tage ansvar.",
+    "en": "As a person I am open, curious and not afraid to take responsibility."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg lægger vægt på …",
+   "en": "I attach importance to …; I value …",
+   "example": {
+    "da": "Jeg lægger vægt på et godt samarbejde med både kolleger og forældre.",
+    "en": "I attach great importance to good cooperation with both colleagues and parents."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har altid interesseret mig for …",
+   "en": "I have always been interested in …",
+   "example": {
+    "da": "Jeg har altid interesseret mig for mad, og derfor vil jeg gerne arbejde i jeres køkken.",
+    "en": "I have always been interested in food, so I would like to work in your kitchen."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Gennem mit arbejde som … har jeg lært at …",
+   "en": "Through my work as … I have learned to …",
+   "example": {
+    "da": "Gennem mit arbejde som tjener har jeg lært at bevare roen under pres.",
+    "en": "Through my work as a waiter I have learned to stay calm under pressure."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har gode kompetencer inden for …",
+   "en": "I have strong skills in …",
+   "example": {
+    "da": "Jeg har gode kompetencer inden for regnskab og lønadministration.",
+    "en": "I have strong skills in accounting and payroll administration."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er vant til at …",
+   "en": "I am used to …",
+   "example": {
+    "da": "Jeg er vant til at arbejde selvstændigt og planlægge min egen tid.",
+    "en": "I am used to working independently and planning my own time."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg søger nye udfordringer.",
+   "en": "I'm looking for new challenges.",
+   "example": {
+    "da": "Efter fem år i samme virksomhed søger jeg nye udfordringer.",
+    "en": "After five years at the same company, I'm looking for new challenges."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er meget motiveret for at …",
+   "en": "I am highly motivated to …",
+   "example": {
+    "da": "Jeg er meget motiveret for at lære jeres systemer og arbejdsgange at kende.",
+    "en": "I am highly motivated to get to know your systems and procedures."
+   },
+   "level": "B2",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Hermed sender jeg en uopfordret ansøgning.",
+   "en": "I am sending you an unsolicited application.",
+   "example": {
+    "da": "Hermed sender jeg en uopfordret ansøgning, da jeg gerne vil arbejde i jeres butik.",
+    "en": "I am sending you an unsolicited application, as I would like to work in your shop."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg blev opmærksom på stillingen via …",
+   "en": "I became aware of the position through …",
+   "example": {
+    "da": "Jeg blev opmærksom på stillingen via en tidligere kollega, som arbejder hos jer.",
+    "en": "I became aware of the position through a former colleague who works for you."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Med udgangspunkt i min erfaring …",
+   "en": "Drawing on my experience …",
+   "example": {
+    "da": "Med udgangspunkt i min erfaring fra detailhandlen kan jeg hurtigt komme i gang.",
+    "en": "Drawing on my experience in retail, I can get started quickly."
+   },
+   "level": "C1",
+   "use": "skrive en ansøgning",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg ønsker hermed at opsige min stilling som …",
+   "en": "I hereby wish to resign from my position as …",
+   "example": {
+    "da": "Jeg ønsker hermed at opsige min stilling som kontorassistent med en måneds varsel.",
+    "en": "I hereby wish to resign from my position as office assistant with one month's notice."
+   },
+   "level": "C1",
+   "use": "opsige et job",
+   "register": "formel"
+  },
+  {
+   "da": "Hermed opsiger jeg mit lejemål …",
+   "en": "I hereby give notice on my tenancy …",
+   "example": {
+    "da": "Hermed opsiger jeg mit lejemål på Vestergade 12, 2. th., til fraflytning 1. maj.",
+    "en": "I hereby give notice on my tenancy at Vestergade 12, 2nd floor right, to move out on 1 May."
+   },
+   "level": "C1",
+   "use": "skrive til en udlejer",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg skal hermed meddele, at …",
+   "en": "I hereby wish to inform you that …",
+   "example": {
+    "da": "Jeg skal hermed meddele, at jeg fraflytter lejligheden pr. 1. juni.",
+    "en": "I hereby wish to inform you that I will be vacating the flat as of 1 June."
+   },
+   "level": "C1",
+   "use": "meddele noget formelt",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne ansøge om …",
+   "en": "I would like to apply for …",
+   "example": {
+    "da": "Jeg vil gerne ansøge om økonomisk friplads til min søn i SFO'en.",
+    "en": "I would like to apply for a reduced fee for my son's after-school club place."
+   },
+   "level": "B2",
+   "use": "skrive til kommunen",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne gøre indsigelse mod …",
+   "en": "I would like to object to …",
+   "example": {
+    "da": "Jeg vil gerne gøre indsigelse mod kommunens plan om at lukke det lokale bibliotek.",
+    "en": "I would like to object to the council's plan to close the local library."
+   },
+   "level": "C1",
+   "use": "skrive til kommunen",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg ønsker at klage over afgørelsen.",
+   "en": "I wish to appeal against the decision.",
+   "example": {
+    "da": "Jeg ønsker at klage over afgørelsen, da jeg mener, at mine oplysninger er blevet misforstået.",
+    "en": "I wish to appeal against the decision, as I believe my information has been misunderstood."
+   },
+   "level": "B2",
+   "use": "skrive til kommunen",
+   "register": "formel"
+  },
+  {
+   "da": "Mit sagsnummer er …",
+   "en": "My case number is …",
+   "example": {
+    "da": "Mit sagsnummer er 2024-1187, og jeg søgte om hjælp i januar.",
+    "en": "My case number is 2024-1187, and I applied for help in January."
+   },
+   "level": "B2",
+   "use": "skrive til en myndighed",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne informere jer om, at …",
+   "en": "I would like to inform you that …",
+   "example": {
+    "da": "Jeg vil gerne informere jer om, at min datter er syg og ikke kommer i skole i dag.",
+    "en": "I would like to inform you that my daughter is ill and won't be at school today."
+   },
+   "level": "B2",
+   "use": "informere",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne bede om et møde med …",
+   "en": "I would like to request a meeting with …",
+   "example": {
+    "da": "Jeg vil gerne bede om et møde med klasselæreren om min søns trivsel.",
+    "en": "I would like to request a meeting with the class teacher about my son's wellbeing."
+   },
+   "level": "B2",
+   "use": "skrive til en skole",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er bekymret for …",
+   "en": "I'm worried about …",
+   "example": {
+    "da": "Jeg er bekymret for min datters trivsel i klassen efter sommerferien.",
+    "en": "I'm worried about my daughter's wellbeing in the class since the summer holidays."
+   },
+   "level": "B2",
+   "use": "udtrykke bekymring",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er vigtigt for mig, at …",
+   "en": "It's important to me that …",
+   "example": {
+    "da": "Det er vigtigt for mig, at mine børn lærer at tale både dansk og arabisk.",
+    "en": "It's important to me that my children learn to speak both Danish and Arabic."
+   },
+   "level": "B2",
+   "use": "udtrykke holdning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne høre, hvad mulighederne er for …",
+   "en": "I'd like to know what the options are for …",
+   "example": {
+    "da": "Jeg vil gerne høre, hvad mulighederne er for at få en større lejlighed i boligforeningen.",
+    "en": "I'd like to know what the options are for getting a bigger flat in the housing association."
+   },
+   "level": "B2",
+   "use": "bede om oplysninger",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg håber, at vi i fællesskab kan finde en løsning.",
+   "en": "I hope we can find a solution together.",
+   "example": {
+    "da": "Jeg håber, at vi i fællesskab kan finde en løsning, der passer alle parter.",
+    "en": "I hope we can find a solution together that suits all parties."
+   },
+   "level": "B2",
+   "use": "foreslå samarbejde",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne have bekræftet, at …",
+   "en": "I would like confirmation that …",
+   "example": {
+    "da": "Jeg vil gerne have bekræftet, at mit depositum bliver betalt tilbage.",
+    "en": "I would like confirmation that my deposit will be repaid."
+   },
+   "level": "B2",
+   "use": "bede om bekræftelse",
+   "register": "formel"
+  },
+  {
+   "da": "Hvornår kan jeg forvente …?",
+   "en": "When can I expect …?",
+   "example": {
+    "da": "Hvornår kan jeg forvente at få svar på min ansøgning om flexjob?",
+    "en": "When can I expect a reply to my application for a flexi-job?"
+   },
+   "level": "B2",
+   "use": "bede om oplysninger",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg skriver på vegne af …",
+   "en": "I am writing on behalf of …",
+   "example": {
+    "da": "Jeg skriver på vegne af beboerne i opgang 14, som er trætte af støjen.",
+    "en": "I am writing on behalf of the residents of stairwell 14, who are tired of the noise."
+   },
+   "level": "C1",
+   "use": "angive formålet med en e-mail",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er blevet bedt om at …",
+   "en": "I have been asked to …",
+   "example": {
+    "da": "Jeg er blevet bedt om at sende jer en oversigt over vores udgifter.",
+    "en": "I have been asked to send you an overview of our expenses."
+   },
+   "level": "B2",
+   "use": "angive formålet med en e-mail",
+   "register": "neutral"
+  },
+  {
+   "da": "Som beboer i …",
+   "en": "As a resident of …",
+   "example": {
+    "da": "Som beboer i området er jeg meget bekymret for den øgede trafik.",
+    "en": "As a resident of the area, I am very concerned about the increased traffic."
+   },
+   "level": "B2",
+   "use": "præsentere sig selv i et brev",
+   "register": "formel"
+  },
+  {
+   "da": "Som forælder til …",
+   "en": "As the parent of …",
+   "example": {
+    "da": "Som forælder til en elev i 3.b vil jeg gerne kommentere den nye skemaplan.",
+    "en": "As the parent of a pupil in class 3b, I would like to comment on the new timetable."
+   },
+   "level": "B2",
+   "use": "præsentere sig selv i et brev",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg skriver dette læserbrev, fordi …",
+   "en": "I'm writing this letter to the editor because …",
+   "example": {
+    "da": "Jeg skriver dette læserbrev, fordi jeg er træt af de mange lukninger af landsbyskoler.",
+    "en": "I'm writing this letter to the editor because I'm tired of all the village school closures."
+   },
+   "level": "C1",
+   "use": "skrive et læserbrev",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg blev overrasket over at læse, at …",
+   "en": "I was surprised to read that …",
+   "example": {
+    "da": "Jeg blev overrasket over at læse, at kommunen vil skære ned på hjemmehjælpen.",
+    "en": "I was surprised to read that the council wants to cut home help."
+   },
+   "level": "B2",
+   "use": "skrive et læserbrev",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil hermed protestere mod …",
+   "en": "I hereby wish to protest against …",
+   "example": {
+    "da": "Jeg vil hermed protestere mod planerne om at bygge en motorvej gennem skoven.",
+    "en": "I hereby wish to protest against the plans to build a motorway through the forest."
+   },
+   "level": "C1",
+   "use": "skrive et læserbrev",
+   "register": "formel"
+  },
+  {
+   "da": "Det kan ikke være rigtigt, at …",
+   "en": "It can't be right that …",
+   "example": {
+    "da": "Det kan ikke være rigtigt, at ældre skal vente et halvt år på en operation.",
+    "en": "It can't be right that elderly people have to wait six months for an operation."
+   },
+   "level": "B2",
+   "use": "kritisere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er mit håb, at …",
+   "en": "It is my hope that …",
+   "example": {
+    "da": "Det er mit håb, at byrådet vil genoverveje beslutningen.",
+    "en": "It is my hope that the city council will reconsider the decision."
+   },
+   "level": "C1",
+   "use": "udtrykke håb",
+   "register": "formel"
+  },
+  {
+   "da": "senest den …",
+   "en": "no later than …",
+   "example": {
+    "da": "Ansøgningen skal være os i hænde senest den 1. marts klokken 12.",
+    "en": "The application must reach us no later than noon on 1 March."
+   },
+   "level": "B2",
+   "use": "angive en frist",
+   "register": "formel"
+  },
+  {
+   "da": "snarest muligt",
+   "en": "as soon as possible",
+   "example": {
+    "da": "Jeg vil bede jer om at sende en håndværker snarest muligt.",
+    "en": "I would ask you to send a tradesman as soon as possible."
+   },
+   "level": "C1",
+   "use": "angive en frist",
+   "register": "formel"
+  },
+  {
+   "da": "Fristen for … er …",
+   "en": "The deadline for … is …",
+   "example": {
+    "da": "Fristen for tilmelding til kurset er fredag den 9. september.",
+    "en": "The deadline for signing up for the course is Friday 9 September."
+   },
+   "level": "B2",
+   "use": "angive en frist",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er desværre forhindret i at …",
+   "en": "Unfortunately I am unable to …",
+   "example": {
+    "da": "Jeg er desværre forhindret i at deltage i generalforsamlingen på tirsdag.",
+    "en": "Unfortunately I am unable to attend the general meeting on Tuesday."
+   },
+   "level": "C1",
+   "use": "melde afbud",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har desværre ikke mulighed for at …",
+   "en": "Unfortunately I'm not able to …",
+   "example": {
+    "da": "Jeg har desværre ikke mulighed for at møde op før klokken ti på mandag.",
+    "en": "Unfortunately I'm not able to come in before ten o'clock on Monday."
+   },
+   "level": "B2",
+   "use": "melde afbud",
+   "register": "neutral"
+  },
+  {
+   "da": "I mit fravær kan du kontakte …",
+   "en": "In my absence you can contact …",
+   "example": {
+    "da": "Jeg er på ferie til og med den 18. juli, og i mit fravær kan du kontakte Lene.",
+    "en": "I'm on holiday until 18 July inclusive, and in my absence you can contact Lene."
+   },
+   "level": "B2",
+   "use": "skrive en fraværsbesked",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er tilbage på kontoret …",
+   "en": "I will be back in the office …",
+   "example": {
+    "da": "Jeg er tilbage på kontoret mandag den 12. august og svarer på din mail hurtigst muligt.",
+    "en": "I will be back in the office on Monday 12 August and will reply to your email as soon as possible."
+   },
+   "level": "B2",
+   "use": "skrive en fraværsbesked",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg melder mig syg i dag.",
+   "en": "I'm calling in sick today.",
+   "example": {
+    "da": "Jeg melder mig syg i dag, men forventer at være tilbage i morgen.",
+    "en": "I'm calling in sick today but expect to be back tomorrow."
+   },
+   "level": "B2",
+   "use": "skrive til en arbejdsgiver",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne bede om fri …",
+   "en": "I would like to request time off …",
+   "example": {
+    "da": "Jeg vil gerne bede om fri fredag den 3. maj til min datters konfirmation.",
+    "en": "I would like to request Friday 3 May off for my daughter's confirmation."
+   },
+   "level": "B2",
+   "use": "skrive til en arbejdsgiver",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne søge om fri til …",
+   "en": "I would like to apply for leave for …",
+   "example": {
+    "da": "Jeg vil gerne søge om fri til min søn i forbindelse med en familiebegivenhed i Polen.",
+    "en": "I would like to apply for leave for my son in connection with a family event in Poland."
+   },
+   "level": "B2",
+   "use": "skrive til en skole",
+   "register": "formel"
+  },
+  {
+   "da": "Se venligst det vedhæftede …",
+   "en": "Please see the attached …",
+   "example": {
+    "da": "Se venligst det vedhæftede referat fra mødet i torsdags.",
+    "en": "Please see the attached minutes from Thursday's meeting."
+   },
+   "level": "B2",
+   "use": "sende dokumenter",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har sat … cc på.",
+   "en": "I have copied … in.",
+   "example": {
+    "da": "Jeg har sat min leder cc på, så hun også er orienteret.",
+    "en": "I have copied my manager in so that she is also informed."
+   },
+   "level": "C1",
+   "use": "skrive en e-mail på arbejdet",
+   "register": "neutral"
+  },
+  {
+   "da": "Til orientering kan jeg oplyse, at …",
+   "en": "For your information, …",
+   "example": {
+    "da": "Til orientering kan jeg oplyse, at kontoret holder lukket mellem jul og nytår.",
+    "en": "For your information, the office will be closed between Christmas and New Year."
+   },
+   "level": "C1",
+   "use": "informere",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil holde dig orienteret.",
+   "en": "I will keep you informed.",
+   "example": {
+    "da": "Jeg vil holde dig orienteret, når der er nyt fra forsikringsselskabet.",
+    "en": "I will keep you informed when there's news from the insurance company."
+   },
+   "level": "B2",
+   "use": "love at svare",
+   "register": "neutral"
+  },
+  {
+   "da": "Tak for et godt møde.",
+   "en": "Thank you for a good meeting.",
+   "example": {
+    "da": "Tak for et godt møde i dag, jeg har allerede sat gang i de første opgaver.",
+    "en": "Thank you for a good meeting today, I've already started on the first tasks."
+   },
+   "level": "B2",
+   "use": "takke formelt",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne drøfte …",
+   "en": "I would like to discuss …",
+   "example": {
+    "da": "Jeg vil gerne drøfte mulighederne for at gå ned i tid efter min barsel.",
+    "en": "I would like to discuss the possibility of reducing my hours after my parental leave."
+   },
+   "level": "C1",
+   "use": "skrive til en arbejdsgiver",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil gerne foreslå et møde, hvor vi kan …",
+   "en": "I'd like to propose a meeting where we can …",
+   "example": {
+    "da": "Jeg vil gerne foreslå et møde, hvor vi kan tale om fordelingen af opgaver.",
+    "en": "I'd like to propose a meeting where we can talk about the division of tasks."
+   },
+   "level": "B2",
+   "use": "foreslå et møde",
+   "register": "formel"
+  },
+  {
+   "da": "Har jeg forstået det korrekt, at …?",
+   "en": "Have I understood correctly that …?",
+   "example": {
+    "da": "Har jeg forstået det korrekt, at mødet er flyttet til onsdag?",
+    "en": "Have I understood correctly that the meeting has been moved to Wednesday?"
+   },
+   "level": "B2",
+   "use": "sikre sig forståelse",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne præcisere, at …",
+   "en": "I would like to clarify that …",
+   "example": {
+    "da": "Jeg vil gerne præcisere, at jeg ikke har sagt op, men blot ønsker færre timer.",
+    "en": "I would like to clarify that I haven't resigned but simply want fewer hours."
+   },
+   "level": "C1",
+   "use": "præcisere",
+   "register": "formel"
+  },
+  {
+   "da": "For at undgå misforståelser …",
+   "en": "To avoid any misunderstanding …",
+   "example": {
+    "da": "For at undgå misforståelser sender jeg en skriftlig opsummering af vores aftale.",
+    "en": "To avoid any misunderstanding, I'm sending a written summary of our agreement."
+   },
+   "level": "B2",
+   "use": "præcisere",
+   "register": "formel"
+  },
+  {
+   "da": "Kan du uddybe, hvad du mener med …?",
+   "en": "Could you explain in more detail what you mean by …?",
+   "example": {
+    "da": "Kan du uddybe, hvad du mener med »fleksible arbejdstider« i opslaget?",
+    "en": "Could you explain in more detail what you mean by 'flexible hours' in the ad?"
+   },
+   "level": "C1",
+   "use": "bede om uddybning",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil blot minde om, at …",
+   "en": "I would just like to remind you that …",
+   "example": {
+    "da": "Jeg vil blot minde om, at fristen for at aflevere timesedler er i morgen.",
+    "en": "I would just like to remind you that the deadline for handing in timesheets is tomorrow."
+   },
+   "level": "B2",
+   "use": "minde om noget",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil gerne anmelde en skade på …",
+   "en": "I would like to report damage to …",
+   "example": {
+    "da": "Jeg vil gerne anmelde en skade på taget, som opstod under stormen i nat.",
+    "en": "I would like to report damage to the roof that happened during the storm last night."
+   },
+   "level": "C1",
+   "use": "skrive til en udlejer",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg beder om, at …",
+   "en": "I request that …",
+   "example": {
+    "da": "Jeg beder om, at I sender en håndværker, inden skaden bliver værre.",
+    "en": "I request that you send a tradesman before the damage gets worse."
+   },
+   "level": "C1",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg mener at have krav på …",
+   "en": "I believe I am entitled to …",
+   "example": {
+    "da": "Jeg mener at have krav på kompensation for de dage, vi var uden varme.",
+    "en": "I believe I am entitled to compensation for the days we were without heating."
+   },
+   "level": "C1",
+   "use": "stille krav",
+   "register": "formel"
+  },
+  {
+   "da": "Diagrammet viser …",
+   "en": "The chart shows …",
+   "example": {
+    "da": "Diagrammet viser, hvor mange timer danske børn bruger foran en skærm om dagen.",
+    "en": "The chart shows how many hours Danish children spend in front of a screen each day."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Som det fremgår af diagrammet, …",
+   "en": "As can be seen from the chart, …",
+   "example": {
+    "da": "Som det fremgår af diagrammet, er flere unge begyndt at cykle til skole.",
+    "en": "As can be seen from the chart, more young people have started cycling to school."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Ifølge diagrammet …",
+   "en": "According to the chart …",
+   "example": {
+    "da": "Ifølge diagrammet er det især kvinder, der arbejder på deltid.",
+    "en": "According to the chart, it is mainly women who work part-time."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Af tabellen fremgår det, at …",
+   "en": "The table shows that …",
+   "example": {
+    "da": "Af tabellen fremgår det, at antallet af ledige er faldet i alle regioner.",
+    "en": "The table shows that the number of unemployed has fallen in all regions."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Tallene viser, at …",
+   "en": "The figures show that …",
+   "example": {
+    "da": "Tallene viser, at danskerne spiser mindre kød end for ti år siden.",
+    "en": "The figures show that Danes eat less meat than ten years ago."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Det fremgår tydeligt, at …",
+   "en": "It is clear that …",
+   "example": {
+    "da": "Det fremgår tydeligt, at sygefraværet er højest i den offentlige sektor.",
+    "en": "It is clear that sickness absence is highest in the public sector."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Diagrammet giver et overblik over …",
+   "en": "The chart gives an overview of …",
+   "example": {
+    "da": "Diagrammet giver et overblik over, hvordan husstandenes udgifter er fordelt.",
+    "en": "The chart gives an overview of how household expenditure is distributed."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Diagrammet er udarbejdet af …",
+   "en": "The chart was produced by …",
+   "example": {
+    "da": "Diagrammet er udarbejdet af Danmarks Statistik på baggrund af tal fra 2023.",
+    "en": "The chart was produced by Statistics Denmark on the basis of figures from 2023."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Tallene stammer fra …",
+   "en": "The figures come from …",
+   "example": {
+    "da": "Tallene stammer fra en undersøgelse blandt 2.000 danske lønmodtagere.",
+    "en": "The figures come from a survey of 2,000 Danish employees."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "formel"
+  },
+  {
+   "da": "Undersøgelsen er foretaget af …",
+   "en": "The survey was carried out by …",
+   "example": {
+    "da": "Undersøgelsen er foretaget af et analyseinstitut for Sundhedsstyrelsen.",
+    "en": "The survey was carried out by a research institute for the Danish Health Authority."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "formel"
+  },
+  {
+   "da": "Undersøgelsen bygger på …",
+   "en": "The survey is based on …",
+   "example": {
+    "da": "Undersøgelsen bygger på svar fra 1.500 forældre til skolebørn.",
+    "en": "The survey is based on responses from 1,500 parents of schoolchildren."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "formel"
+  },
+  {
+   "da": "Den lodrette akse viser …",
+   "en": "The vertical axis shows …",
+   "example": {
+    "da": "Den lodrette akse viser antallet af solgte elbiler i tusinder.",
+    "en": "The vertical axis shows the number of electric cars sold in thousands."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Den vandrette akse viser …",
+   "en": "The horizontal axis shows …",
+   "example": {
+    "da": "Den vandrette akse viser årene fra 2010 til 2024.",
+    "en": "The horizontal axis shows the years from 2010 to 2024."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Andelen af … er steget fra … til …",
+   "en": "The proportion of … has risen from … to …",
+   "example": {
+    "da": "Andelen af elbiler i nybilsalget er steget fra 2 til over 50 procent.",
+    "en": "The share of electric cars in new car sales has risen from 2 to over 50 per cent."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Antallet af … er faldet med …",
+   "en": "The number of … has fallen by …",
+   "example": {
+    "da": "Antallet af dagligrygere er faldet med næsten en tredjedel siden 2010.",
+    "en": "The number of daily smokers has fallen by almost a third since 2010."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er steget markant",
+   "en": "… has risen markedly",
+   "example": {
+    "da": "Huspriserne i København er steget markant i løbet af de sidste ti år.",
+    "en": "House prices in Copenhagen have risen markedly over the last ten years."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er faldet støt",
+   "en": "… has fallen steadily",
+   "example": {
+    "da": "Antallet af ansøgere til læreruddannelsen er faldet støt siden 2015.",
+    "en": "The number of applicants to teacher training has fallen steadily since 2015."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er steget en smule",
+   "en": "… has risen slightly",
+   "example": {
+    "da": "Arbejdsløsheden er steget en smule i forhold til sidste år.",
+    "en": "Unemployment has risen slightly compared with last year."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er faldet drastisk",
+   "en": "… has fallen dramatically",
+   "example": {
+    "da": "Salget af papiraviser er faldet drastisk siden årtusindskiftet.",
+    "en": "Sales of printed newspapers have fallen dramatically since the turn of the millennium."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… har ligget nogenlunde stabilt",
+   "en": "… has remained fairly stable",
+   "example": {
+    "da": "Antallet af fødsler har ligget nogenlunde stabilt de seneste fem år.",
+    "en": "The number of births has remained fairly stable over the last five years."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… toppede i …",
+   "en": "… peaked in …",
+   "example": {
+    "da": "Antallet af ansøgninger toppede i 2021 og er siden faldet igen.",
+    "en": "The number of applications peaked in 2021 and has since fallen again."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… nåede sit højeste niveau i …",
+   "en": "… reached its highest level in …",
+   "example": {
+    "da": "Inflationen nåede sit højeste niveau i efteråret 2022.",
+    "en": "Inflation reached its highest level in the autumn of 2022."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "… nåede sit laveste niveau i …",
+   "en": "… reached its lowest level in …",
+   "example": {
+    "da": "Antallet af indbrud nåede sit laveste niveau i mange år under coronakrisen.",
+    "en": "The number of burglaries reached its lowest level in many years during the COVID crisis."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "… er fordoblet",
+   "en": "… has doubled",
+   "example": {
+    "da": "Antallet af studerende på uddannelsen er fordoblet på ti år.",
+    "en": "The number of students on the programme has doubled in ten years."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er mere end halveret",
+   "en": "… has more than halved",
+   "example": {
+    "da": "Antallet af trafikdræbte er mere end halveret siden år 2000.",
+    "en": "The number of road deaths has more than halved since 2000."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er tredoblet",
+   "en": "… has tripled",
+   "example": {
+    "da": "Antallet af cyklister på ruten er tredoblet, siden cykelstien blev anlagt.",
+    "en": "The number of cyclists on the route has tripled since the cycle path was built."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "en stigning på … procent",
+   "en": "an increase of … per cent",
+   "example": {
+    "da": "Huslejen er sat op med 300 kroner, hvilket er en stigning på fem procent.",
+    "en": "The rent has gone up by 300 kroner, which is an increase of five per cent."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "et fald på … procentpoint",
+   "en": "a drop of … percentage points",
+   "example": {
+    "da": "Der var et fald på tre procentpoint i valgdeltagelsen i forhold til sidste valg.",
+    "en": "There was a drop of three percentage points in turnout compared with the last election."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "formel"
+  },
+  {
+   "da": "Det svarer til …",
+   "en": "That corresponds to …; that is equivalent to …",
+   "example": {
+    "da": "Lønnen er steget med 800 kroner om måneden, og det svarer til godt tre procent.",
+    "en": "Pay has risen by 800 kroner a month, which is equivalent to just over three per cent."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Hver … dansker …",
+   "en": "One in … Danes …",
+   "example": {
+    "da": "Hver fjerde dansker føler sig ofte stresset på arbejdet.",
+    "en": "One in four Danes often feel stressed at work."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Mere end halvdelen af …",
+   "en": "More than half of …",
+   "example": {
+    "da": "Mere end halvdelen af de adspurgte arbejder hjemme mindst én dag om ugen.",
+    "en": "More than half of the respondents work from home at least one day a week."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Knap en tredjedel af …",
+   "en": "Just under a third of …",
+   "example": {
+    "da": "Knap en tredjedel af de unge har oplevet mobning på nettet.",
+    "en": "Just under a third of young people have experienced online bullying."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "godt … procent",
+   "en": "just over … per cent",
+   "example": {
+    "da": "Godt 40 procent af de adspurgte cykler til arbejde om sommeren.",
+    "en": "Just over 40 per cent of respondents cycle to work in summer."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Et flertal af …",
+   "en": "A majority of …",
+   "example": {
+    "da": "Et flertal af borgerne ønsker, at kommunen bruger flere penge på cykelstier.",
+    "en": "A majority of residents want the council to spend more money on cycle paths."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Kun et mindretal af …",
+   "en": "Only a minority of …",
+   "example": {
+    "da": "Kun et mindretal af forældrene mener, at skoledagen er for kort.",
+    "en": "Only a minority of parents think the school day is too short."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Blandt de adspurgte …",
+   "en": "Among the respondents …",
+   "example": {
+    "da": "Blandt de adspurgte svarer 62 procent, at de er tilfredse med deres job.",
+    "en": "Among the respondents, 62 per cent say they are satisfied with their job."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "formel"
+  },
+  {
+   "da": "Den største gruppe er …",
+   "en": "The largest group is …",
+   "example": {
+    "da": "Den største gruppe er de 30-49-årige, som udgør 38 procent af brugerne.",
+    "en": "The largest group is the 30-49-year-olds, who make up 38 per cent of users."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "… udgør … procent af …",
+   "en": "… make up … per cent of …",
+   "example": {
+    "da": "Indvandrere og efterkommere udgør omkring 15 procent af befolkningen.",
+    "en": "Immigrants and their descendants make up around 15 per cent of the population."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "… ligger på …",
+   "en": "… stands at …; … is at …",
+   "example": {
+    "da": "Ledigheden ligger i øjeblikket på cirka tre procent.",
+    "en": "Unemployment currently stands at about three per cent."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "… ligger over gennemsnittet",
+   "en": "… is above average",
+   "example": {
+    "da": "Huslejen i Aarhus ligger over gennemsnittet for resten af landet.",
+    "en": "Rents in Aarhus are above the average for the rest of the country."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "i perioden fra … til …",
+   "en": "in the period from … to …",
+   "example": {
+    "da": "I perioden fra 2015 til 2023 steg antallet af elbiler kraftigt.",
+    "en": "In the period from 2015 to 2023, the number of electric cars rose sharply."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "i løbet af perioden",
+   "en": "over the period",
+   "example": {
+    "da": "I løbet af perioden er priserne på fødevarer steget med 20 procent.",
+    "en": "Over the period, food prices have risen by 20 per cent."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er sket en stigning i …",
+   "en": "There has been an increase in …",
+   "example": {
+    "da": "Der er sket en stigning i antallet af unge, der søger hjælp hos en psykolog.",
+    "en": "There has been an increase in the number of young people seeking help from a psychologist."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Der er sket et fald i …",
+   "en": "There has been a decrease in …",
+   "example": {
+    "da": "Der er sket et markant fald i antallet af rygere blandt unge.",
+    "en": "There has been a marked decrease in the number of smokers among young people."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Udviklingen viser, at …",
+   "en": "The trend shows that …",
+   "example": {
+    "da": "Udviklingen viser, at flere og flere vælger at arbejde hjemme.",
+    "en": "The trend shows that more and more people are choosing to work from home."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Kurven viser udviklingen i …",
+   "en": "The line shows the development of …",
+   "example": {
+    "da": "Kurven viser udviklingen i elprisen fra januar til december.",
+    "en": "The line shows the development of the electricity price from January to December."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Kurven stiger jævnt.",
+   "en": "The line rises steadily.",
+   "example": {
+    "da": "Fra 2010 til 2020 stiger kurven jævnt, hvorefter den flader ud.",
+    "en": "From 2010 to 2020 the line rises steadily, after which it levels off."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… flader ud",
+   "en": "… levels off",
+   "example": {
+    "da": "Efter en kraftig stigning flader kurven ud omkring 2019.",
+    "en": "After a sharp rise, the line levels off around 2019."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er store udsving i …",
+   "en": "There are large fluctuations in …",
+   "example": {
+    "da": "Der er store udsving i elprisen fra måned til måned.",
+    "en": "There are large fluctuations in the price of electricity from month to month."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… svinger mellem … og …",
+   "en": "… fluctuates between … and …",
+   "example": {
+    "da": "Antallet af besøgende på biblioteket svinger mellem 200 og 400 om dagen.",
+    "en": "The number of library visitors fluctuates between 200 and 400 a day."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er bemærkelsesværdigt, at …",
+   "en": "It is noteworthy that …",
+   "example": {
+    "da": "Det er bemærkelsesværdigt, at de ældre bruger mere tid på sociale medier end før.",
+    "en": "It is noteworthy that older people spend more time on social media than before."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Det er påfaldende, at …",
+   "en": "It is striking that …",
+   "example": {
+    "da": "Det er påfaldende, at så få mænd tager hele den øremærkede barsel.",
+    "en": "It is striking that so few men take all of their earmarked parental leave."
+   },
+   "level": "C2",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Det mest iøjnefaldende er, at …",
+   "en": "The most striking thing is that …",
+   "example": {
+    "da": "Det mest iøjnefaldende er, at forbruget af alkohol er faldet blandt de unge.",
+    "en": "The most striking thing is that alcohol consumption has fallen among young people."
+   },
+   "level": "C2",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Til sammenligning …",
+   "en": "By comparison …",
+   "example": {
+    "da": "De unge bruger internettet seks timer om dagen. Til sammenligning bruger de ældre kun to.",
+    "en": "Young people use the internet six hours a day. By comparison, older people use it only two."
+   },
+   "level": "C1",
+   "use": "sammenligne",
+   "register": "neutral"
+  },
+  {
+   "da": "Sammenlignet med …",
+   "en": "Compared with …",
+   "example": {
+    "da": "Sammenlignet med sidste år er der kommet 12 procent flere turister.",
+    "en": "Compared with last year, there have been 12 per cent more tourists."
+   },
+   "level": "B2",
+   "use": "sammenligne",
+   "register": "neutral"
+  },
+  {
+   "da": "Mens …, gælder det kun for …",
+   "en": "Whereas …, this only applies to …",
+   "example": {
+    "da": "Mens 70 procent af kvinderne går til lægen hvert år, gælder det kun for halvdelen af mændene.",
+    "en": "Whereas 70 per cent of women see a doctor every year, this only applies to half of the men."
+   },
+   "level": "C1",
+   "use": "sammenligne",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er stor forskel på, …",
+   "en": "There is a big difference in …",
+   "example": {
+    "da": "Der er stor forskel på, hvor meget unge og ældre læser aviser.",
+    "en": "There is a big difference in how much young and old people read newspapers."
+   },
+   "level": "B2",
+   "use": "sammenligne",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er en tydelig sammenhæng mellem … og …",
+   "en": "There is a clear link between … and …",
+   "example": {
+    "da": "Der er en tydelig sammenhæng mellem uddannelse og sundhed.",
+    "en": "There is a clear link between education and health."
+   },
+   "level": "C1",
+   "use": "sammenligne",
+   "register": "formel"
+  },
+  {
+   "da": "Forskellen er størst blandt …",
+   "en": "The difference is greatest among …",
+   "example": {
+    "da": "Forskellen mellem mænd og kvinder er størst blandt de 16-24-årige.",
+    "en": "The difference between men and women is greatest among 16-24-year-olds."
+   },
+   "level": "C1",
+   "use": "sammenligne",
+   "register": "neutral"
+  },
+  {
+   "da": "… er næsten dobbelt så høj som …",
+   "en": "… is almost twice as high as …",
+   "example": {
+    "da": "Ledigheden blandt de unge er næsten dobbelt så høj som blandt de ældre.",
+    "en": "Unemployment among young people is almost twice as high as among older people."
+   },
+   "level": "B2",
+   "use": "sammenligne",
+   "register": "neutral"
+  },
+  {
+   "da": "Tendensen er klar:",
+   "en": "The trend is clear:",
+   "example": {
+    "da": "Tendensen er klar: Flere og flere køber deres dagligvarer på nettet.",
+    "en": "The trend is clear: more and more people buy their groceries online."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Der tegner sig et billede af …",
+   "en": "A picture emerges of …",
+   "example": {
+    "da": "Der tegner sig et billede af en generation, der er mere stresset end nogensinde.",
+    "en": "A picture emerges of a generation that is more stressed than ever."
+   },
+   "level": "C2",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Overordnet set viser diagrammet, at …",
+   "en": "Overall, the chart shows that …",
+   "example": {
+    "da": "Overordnet set viser diagrammet, at danskerne bruger flere penge på rejser.",
+    "en": "Overall, the chart shows that Danes are spending more money on travel."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Hvis man ser nærmere på tallene, …",
+   "en": "If you look more closely at the figures, …",
+   "example": {
+    "da": "Hvis man ser nærmere på tallene, er det især de unge, der har ændret vaner.",
+    "en": "If you look more closely at the figures, it is mainly young people who have changed their habits."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Det skal bemærkes, at …",
+   "en": "It should be noted that …",
+   "example": {
+    "da": "Det skal bemærkes, at undersøgelsen kun omfatter personer over 18 år.",
+    "en": "It should be noted that the survey only covers people over 18."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Tallene skal tages med et vist forbehold.",
+   "en": "The figures should be treated with some caution.",
+   "example": {
+    "da": "Tallene skal tages med et vist forbehold, fordi kun 300 personer har svaret.",
+    "en": "The figures should be treated with some caution, because only 300 people responded."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Det er værd at bemærke, at …",
+   "en": "It is worth noting that …",
+   "example": {
+    "da": "Det er værd at bemærke, at kvinderne i gennemsnit lever fire år længere end mændene.",
+    "en": "It is worth noting that women on average live four years longer than men."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Diagrammet siger ikke noget om, …",
+   "en": "The chart doesn't tell us …",
+   "example": {
+    "da": "Diagrammet siger ikke noget om, hvorfor flere unge flytter til de store byer.",
+    "en": "The chart doesn't tell us why more young people are moving to the big cities."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Det fremgår ikke af diagrammet, …",
+   "en": "The chart does not show …",
+   "example": {
+    "da": "Det fremgår ikke af diagrammet, hvor mange af de adspurgte der var kvinder.",
+    "en": "The chart does not show how many of the respondents were women."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Diagrammet er delt op i …",
+   "en": "The chart is divided into …",
+   "example": {
+    "da": "Diagrammet er delt op i fire aldersgrupper og to køn.",
+    "en": "The chart is divided into four age groups and two sexes."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Søjlerne viser …",
+   "en": "The bars show …",
+   "example": {
+    "da": "Søjlerne viser, hvor mange penge familierne bruger på mad hver måned.",
+    "en": "The bars show how much money families spend on food every month."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Lagkagediagrammet viser fordelingen af …",
+   "en": "The pie chart shows the distribution of …",
+   "example": {
+    "da": "Lagkagediagrammet viser fordelingen af kommunens udgifter på forskellige områder.",
+    "en": "The pie chart shows how the council's spending is distributed across different areas."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "fordelt på …",
+   "en": "broken down by …",
+   "example": {
+    "da": "Tabellen viser antallet af ledige fordelt på alder og uddannelse.",
+    "en": "The table shows the number of unemployed broken down by age and education."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "efterfulgt af …",
+   "en": "followed by …",
+   "example": {
+    "da": "Den største udgift er boligen efterfulgt af transport og mad.",
+    "en": "The biggest expense is housing, followed by transport and food."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… ligger højest med … procent",
+   "en": "… is highest at … per cent",
+   "example": {
+    "da": "Region Hovedstaden ligger højest med 42 procent, mens Region Sjælland ligger lavest.",
+    "en": "The Capital Region is highest at 42 per cent, while Region Zealand is lowest."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… mod … året før",
+   "en": "… compared with … the year before",
+   "example": {
+    "da": "I år har 4.200 søgt ind på uddannelsen mod 3.800 året før.",
+    "en": "This year 4,200 applied for the programme, compared with 3,800 the year before."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Det samme gør sig gældende for …",
+   "en": "The same applies to …",
+   "example": {
+    "da": "Unge drikker mindre end tidligere, og det samme gør sig gældende for de midaldrende.",
+    "en": "Young people drink less than before, and the same applies to the middle-aged."
+   },
+   "level": "C1",
+   "use": "sammenligne",
+   "register": "formel"
+  },
+  {
+   "da": "Det modsatte er tilfældet for …",
+   "en": "The opposite is the case for …",
+   "example": {
+    "da": "De unge foretrækker at bo i byen, mens det modsatte er tilfældet for de ældre.",
+    "en": "Young people prefer to live in the city, while the opposite is the case for older people."
+   },
+   "level": "C1",
+   "use": "sammenligne",
+   "register": "formel"
+  },
+  {
+   "da": "… ligger stort set på samme niveau som …",
+   "en": "… is roughly at the same level as …",
+   "example": {
+    "da": "Salget af økologiske varer ligger stort set på samme niveau som sidste år.",
+    "en": "Sales of organic products are roughly at the same level as last year."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er stort set uændret",
+   "en": "… is virtually unchanged",
+   "example": {
+    "da": "Antallet af medlemmer er stort set uændret i forhold til sidste år.",
+    "en": "The number of members is virtually unchanged compared with last year."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… steg kraftigt",
+   "en": "… rose sharply",
+   "example": {
+    "da": "Elpriserne steg kraftigt i efteråret 2022 på grund af energikrisen.",
+    "en": "Electricity prices rose sharply in the autumn of 2022 because of the energy crisis."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… faldt brat",
+   "en": "… fell abruptly",
+   "example": {
+    "da": "Antallet af turister faldt brat, da grænserne lukkede under pandemien.",
+    "en": "The number of tourists fell abruptly when the borders closed during the pandemic."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er gået tilbage",
+   "en": "… has declined",
+   "example": {
+    "da": "Antallet af medlemmer i foreningerne er gået tilbage i de senere år.",
+    "en": "Membership of the associations has declined in recent years."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "… er gået frem",
+   "en": "… has gone up; … has gained ground",
+   "example": {
+    "da": "Partiet er gået frem med fire mandater ved valget.",
+    "en": "The party gained four seats at the election."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "en svag stigning i …",
+   "en": "a slight increase in …",
+   "example": {
+    "da": "Fra 2021 til 2022 ses en svag stigning i antallet af nyuddannede lærere.",
+    "en": "From 2021 to 2022 there is a slight increase in the number of newly qualified teachers."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "en kraftig nedgang i …",
+   "en": "a sharp decline in …",
+   "example": {
+    "da": "Der har været en kraftig nedgang i salget af benzinbiler.",
+    "en": "There has been a sharp decline in sales of petrol cars."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Ser man på …, …",
+   "en": "If one looks at …, …",
+   "example": {
+    "da": "Ser man på de unge, er billedet et helt andet.",
+    "en": "If one looks at young people, the picture is quite different."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "formel"
+  },
+  {
+   "da": "Billedet er et andet, når det gælder …",
+   "en": "The picture is different when it comes to …",
+   "example": {
+    "da": "Billedet er et andet, når det gælder brugen af sociale medier.",
+    "en": "The picture is different when it comes to the use of social media."
+   },
+   "level": "C1",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er overraskende, at …",
+   "en": "It is surprising that …",
+   "example": {
+    "da": "Det er overraskende, at så mange unge stadig ryger til fester.",
+    "en": "It is surprising that so many young people still smoke at parties."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg havde forventet, at …",
+   "en": "I had expected that …",
+   "example": {
+    "da": "Jeg havde forventet, at flere ville vælge toget frem for bilen.",
+    "en": "I had expected more people to choose the train over the car."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Undersøgelsen viser endvidere, at …",
+   "en": "The survey further shows that …",
+   "example": {
+    "da": "Undersøgelsen viser endvidere, at mændene sover mindre end kvinderne.",
+    "en": "The survey further shows that men sleep less than women."
+   },
+   "level": "C1",
+   "use": "beskrive statistik",
+   "register": "formel"
+  },
+  {
+   "da": "Kun … procent svarer, at …",
+   "en": "Only … per cent say that …",
+   "example": {
+    "da": "Kun 18 procent svarer, at de læser en bog hver måned.",
+    "en": "Only 18 per cent say that they read a book every month."
+   },
+   "level": "B2",
+   "use": "beskrive statistik",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kan skyldes, at …",
+   "en": "This may be because …",
+   "example": {
+    "da": "Det kan skyldes, at mange ældre har svært ved at bruge digitale løsninger.",
+    "en": "This may be because many elderly people find digital solutions difficult to use."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "En mulig forklaring er, at …",
+   "en": "One possible explanation is that …",
+   "example": {
+    "da": "En mulig forklaring er, at boligpriserne i byerne er steget meget.",
+    "en": "One possible explanation is that housing prices in the cities have risen a lot."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Forklaringen er formentlig, at …",
+   "en": "The explanation is probably that …",
+   "example": {
+    "da": "Forklaringen er formentlig, at flere har fået mulighed for at arbejde hjemme.",
+    "en": "The explanation is probably that more people have been given the opportunity to work from home."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "formel"
+  },
+  {
+   "da": "Det er også interessant, at …",
+   "en": "It is also interesting that …",
+   "example": {
+    "da": "Det er også interessant, at de 50-64-årige motionerer mest.",
+    "en": "It is also interesting that the 50-64-year-olds exercise the most."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "Fra … og frem …",
+   "en": "From … onwards …",
+   "example": {
+    "da": "Fra 2015 og frem er antallet af cykelture steget hvert år.",
+    "en": "From 2015 onwards, the number of bike journeys has risen every year."
+   },
+   "level": "B2",
+   "use": "beskrive et diagram",
+   "register": "neutral"
+  },
+  {
+   "da": "I denne tekst vil jeg …",
+   "en": "In this text I will …",
+   "example": {
+    "da": "I denne tekst vil jeg diskutere, om alle skoler bør forbyde mobiltelefoner.",
+    "en": "In this text I will discuss whether all schools should ban mobile phones."
+   },
+   "level": "B2",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "I det følgende vil jeg …",
+   "en": "In what follows I will …",
+   "example": {
+    "da": "I det følgende vil jeg se på fordele og ulemper ved firedages arbejdsuge.",
+    "en": "In what follows I will look at the pros and cons of a four-day working week."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "Formålet med denne tekst er at …",
+   "en": "The purpose of this text is to …",
+   "example": {
+    "da": "Formålet med denne tekst er at vise, hvorfor flere bør vælge kollektiv trafik.",
+    "en": "The purpose of this text is to show why more people should choose public transport."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "… er et emne, der ofte bliver diskuteret.",
+   "en": "… is a topic that is often discussed.",
+   "example": {
+    "da": "Hjemmearbejde er et emne, der ofte bliver diskuteret i medierne.",
+    "en": "Working from home is a topic that is often discussed in the media."
+   },
+   "level": "B2",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Der har længe været debat om …",
+   "en": "There has long been debate about …",
+   "example": {
+    "da": "Der har længe været debat om, hvorvidt pensionsalderen skal stige.",
+    "en": "There has long been debate about whether the retirement age should rise."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "Spørgsmålet om … har fyldt meget i debatten.",
+   "en": "The question of … has featured heavily in the debate.",
+   "example": {
+    "da": "Spørgsmålet om ulve i Jylland har fyldt meget i debatten de seneste år.",
+    "en": "The question of wolves in Jutland has featured heavily in the debate in recent years."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "I de senere år har der været …",
+   "en": "In recent years there has been …",
+   "example": {
+    "da": "I de senere år har der været mangel på pædagoger i mange kommuner.",
+    "en": "In recent years there has been a shortage of childcare workers in many municipalities."
+   },
+   "level": "B2",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Mange mener, at …, mens andre …",
+   "en": "Many believe that …, while others …",
+   "example": {
+    "da": "Mange mener, at skatten bør sættes ned, mens andre vil bruge flere penge på velfærd.",
+    "en": "Many believe taxes should be cut, while others want to spend more money on welfare."
+   },
+   "level": "B2",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Holdningerne er delte.",
+   "en": "Opinions are divided.",
+   "example": {
+    "da": "Holdningerne er delte, når det gælder brugen af mobiltelefoner i skolen.",
+    "en": "Opinions are divided when it comes to the use of mobile phones at school."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Man kan diskutere, om …",
+   "en": "It is debatable whether …",
+   "example": {
+    "da": "Man kan diskutere, om det er rimeligt at hæve prisen på offentlig transport.",
+    "en": "It is debatable whether it is reasonable to raise the price of public transport."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "… er et meget omdiskuteret emne.",
+   "en": "… is a highly controversial topic.",
+   "example": {
+    "da": "Ulvens tilbagekomst til Danmark er et meget omdiskuteret emne.",
+    "en": "The return of the wolf to Denmark is a highly controversial topic."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Spørgsmålet er, om …",
+   "en": "The question is whether …",
+   "example": {
+    "da": "Spørgsmålet er, om kommunen har råd til at bygge en ny skole.",
+    "en": "The question is whether the council can afford to build a new school."
+   },
+   "level": "B2",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil først … og derefter …",
+   "en": "First I will … and then …",
+   "example": {
+    "da": "Jeg vil først beskrive diagrammet og derefter diskutere årsagerne til udviklingen.",
+    "en": "First I will describe the chart and then discuss the reasons for the trend."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Teksten er bygget op på følgende måde:",
+   "en": "The text is structured as follows:",
+   "example": {
+    "da": "Teksten er bygget op på følgende måde: Først kommer problemet, derefter mulige løsninger.",
+    "en": "The text is structured as follows: first the problem, then possible solutions."
+   },
+   "level": "C1",
+   "use": "strukturere en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "Indledningsvis vil jeg …",
+   "en": "By way of introduction, I will …",
+   "example": {
+    "da": "Indledningsvis vil jeg kort forklare, hvad en firedages arbejdsuge er.",
+    "en": "By way of introduction, I will briefly explain what a four-day week is."
+   },
+   "level": "C1",
+   "use": "indlede en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg har valgt at skrive om …",
+   "en": "I have chosen to write about …",
+   "example": {
+    "da": "Jeg har valgt at skrive om, hvordan man bedst bliver integreret på en arbejdsplads.",
+    "en": "I have chosen to write about how best to become integrated in a workplace."
+   },
+   "level": "B2",
+   "use": "indlede en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Først og fremmest …",
+   "en": "First and foremost …",
+   "example": {
+    "da": "Først og fremmest er det vigtigt, at børnene føler sig trygge i skolen.",
+    "en": "First and foremost, it is important that the children feel safe at school."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "For det første … For det andet …",
+   "en": "Firstly … Secondly …",
+   "example": {
+    "da": "For det første sparer man penge. For det andet er det bedre for miljøet.",
+    "en": "Firstly, you save money. Secondly, it is better for the environment."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Sidst men ikke mindst …",
+   "en": "Last but not least …",
+   "example": {
+    "da": "Sidst men ikke mindst giver frivilligt arbejde et stort netværk.",
+    "en": "Last but not least, voluntary work gives you a large network."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Et andet vigtigt punkt er, at …",
+   "en": "Another important point is that …",
+   "example": {
+    "da": "Et andet vigtigt punkt er, at mange ældre føler sig ensomme.",
+    "en": "Another important point is that many elderly people feel lonely."
+   },
+   "level": "B2",
+   "use": "tilføje et argument",
+   "register": "neutral"
+  },
+  {
+   "da": "Hertil kommer, at …",
+   "en": "Added to this is the fact that …",
+   "example": {
+    "da": "Hertil kommer, at mange unge ikke har råd til at bo i de store byer.",
+    "en": "Added to this is the fact that many young people can't afford to live in the big cities."
+   },
+   "level": "C1",
+   "use": "tilføje et argument",
+   "register": "formel"
+  },
+  {
+   "da": "Desuden skal det nævnes, at …",
+   "en": "It should also be mentioned that …",
+   "example": {
+    "da": "Desuden skal det nævnes, at projektet er støttet af EU.",
+    "en": "It should also be mentioned that the project is supported by the EU."
+   },
+   "level": "C1",
+   "use": "tilføje et argument",
+   "register": "formel"
+  },
+  {
+   "da": "ikke blot …, men også …",
+   "en": "not only …, but also …",
+   "example": {
+    "da": "Projektet skal ikke blot spare penge, men også forbedre forholdene for de ældre.",
+    "en": "The project should not only save money but also improve conditions for the elderly."
+   },
+   "level": "C1",
+   "use": "tilføje et argument",
+   "register": "formel"
+  },
+  {
+   "da": "Ud over at …",
+   "en": "Apart from …; besides …",
+   "example": {
+    "da": "Ud over at spare penge kan man også mindske sit CO2-aftryk.",
+    "en": "Besides saving money, you can also reduce your carbon footprint."
+   },
+   "level": "B2",
+   "use": "tilføje et argument",
+   "register": "neutral"
+  },
+  {
+   "da": "Samtidig er det vigtigt at …",
+   "en": "At the same time it is important to …",
+   "example": {
+    "da": "Samtidig er det vigtigt at sikre, at ingen bliver overset.",
+    "en": "At the same time it is important to ensure that nobody is overlooked."
+   },
+   "level": "B2",
+   "use": "tilføje et argument",
+   "register": "neutral"
+  },
+  {
+   "da": "Det samme gælder …",
+   "en": "The same goes for …",
+   "example": {
+    "da": "Mange unge mangler motion, og det samme gælder mange ældre.",
+    "en": "Many young people lack exercise, and the same goes for many older people."
+   },
+   "level": "B2",
+   "use": "tilføje et argument",
+   "register": "neutral"
+  },
+  {
+   "da": "ikke mindst …",
+   "en": "not least …",
+   "example": {
+    "da": "Mange vil gerne bo på landet, ikke mindst på grund af de lavere huspriser.",
+    "en": "Many people would like to live in the countryside, not least because of lower house prices."
+   },
+   "level": "C1",
+   "use": "tilføje et argument",
+   "register": "neutral"
+  },
+  {
+   "da": "Hvad angår …, …",
+   "en": "As regards …, …",
+   "example": {
+    "da": "Hvad angår økonomien, er der ingen tvivl om, at forslaget er for dyrt.",
+    "en": "As regards the finances, there is no doubt that the proposal is too expensive."
+   },
+   "level": "C1",
+   "use": "skifte emne",
+   "register": "formel"
+  },
+  {
+   "da": "Når det gælder …, …",
+   "en": "When it comes to …, …",
+   "example": {
+    "da": "Når det gælder sundhed, er der stadig stor forskel på land og by.",
+    "en": "When it comes to health, there is still a big difference between town and country."
+   },
+   "level": "B2",
+   "use": "skifte emne",
+   "register": "neutral"
+  },
+  {
+   "da": "På samme måde …",
+   "en": "In the same way …",
+   "example": {
+    "da": "På samme måde bør virksomhederne tage ansvar for deres affald.",
+    "en": "In the same way, companies should take responsibility for their waste."
+   },
+   "level": "B2",
+   "use": "tilføje et argument",
+   "register": "neutral"
+  },
+  {
+   "da": "Endnu vigtigere er det, at …",
+   "en": "It is even more important that …",
+   "example": {
+    "da": "Endnu vigtigere er det, at eleverne lærer at tænke kritisk.",
+    "en": "It is even more important that pupils learn to think critically."
+   },
+   "level": "C1",
+   "use": "tilføje et argument",
+   "register": "formel"
+  },
+  {
+   "da": "Det er heller ikke uden betydning, at …",
+   "en": "It is also significant that …",
+   "example": {
+    "da": "Det er heller ikke uden betydning, at mange forældre arbejder langt hjemmefra.",
+    "en": "It is also significant that many parents work far from home."
+   },
+   "level": "C2",
+   "use": "tilføje et argument",
+   "register": "formel"
+  },
+  {
+   "da": "Der er både fordele og ulemper ved …",
+   "en": "There are both pros and cons to …",
+   "example": {
+    "da": "Der er både fordele og ulemper ved at bo i en lille landsby.",
+    "en": "There are both pros and cons to living in a small village."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "En af de største fordele ved … er, at …",
+   "en": "One of the biggest advantages of … is that …",
+   "example": {
+    "da": "En af de største fordele ved hjemmearbejde er, at man sparer tid på transport.",
+    "en": "One of the biggest advantages of working from home is that you save time on commuting."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "En ulempe ved … er, at …",
+   "en": "A disadvantage of … is that …",
+   "example": {
+    "da": "En ulempe ved hjemmearbejde er, at man kan føle sig isoleret.",
+    "en": "A disadvantage of working from home is that you can feel isolated."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "På den ene side …, på den anden side …",
+   "en": "On the one hand …, on the other hand …",
+   "example": {
+    "da": "På den ene side er elbiler dyre, på den anden side er de billige i drift.",
+    "en": "On the one hand electric cars are expensive, on the other hand they are cheap to run."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "Et argument for … er, at …",
+   "en": "An argument for … is that …",
+   "example": {
+    "da": "Et argument for en kortere skoledag er, at børnene får mere tid til fritidsaktiviteter.",
+    "en": "An argument for a shorter school day is that children get more time for leisure activities."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "Et argument imod … er, at …",
+   "en": "An argument against … is that …",
+   "example": {
+    "da": "Et argument imod roadpricing er, at det rammer dem, der bor langt fra arbejdet.",
+    "en": "An argument against road pricing is that it hits those who live far from work."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "Tilhængerne af … mener, at …",
+   "en": "Supporters of … believe that …",
+   "example": {
+    "da": "Tilhængerne af forslaget mener, at det vil skabe flere arbejdspladser.",
+    "en": "Supporters of the proposal believe it will create more jobs."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Modstanderne af … påpeger, at …",
+   "en": "Opponents of … point out that …",
+   "example": {
+    "da": "Modstanderne af vindmøllerne påpeger, at de skæmmer landskabet.",
+    "en": "Opponents of the wind turbines point out that they spoil the landscape."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Kritikere peger på, at …",
+   "en": "Critics point out that …",
+   "example": {
+    "da": "Kritikere peger på, at reformen især rammer de svageste borgere.",
+    "en": "Critics point out that the reform mainly hits the most vulnerable citizens."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Fortalerne for … fremhæver, at …",
+   "en": "Advocates of … emphasise that …",
+   "example": {
+    "da": "Fortalerne for heldagsskolen fremhæver, at den giver lige muligheder for alle børn.",
+    "en": "Advocates of the all-day school emphasise that it gives all children equal opportunities."
+   },
+   "level": "C2",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Det taler for …, at …",
+   "en": "A point in favour of … is that …",
+   "example": {
+    "da": "Det taler for forslaget, at det kan gennemføres hurtigt og billigt.",
+    "en": "A point in favour of the proposal is that it can be implemented quickly and cheaply."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Det taler imod …, at …",
+   "en": "A point against … is that …",
+   "example": {
+    "da": "Det taler imod planen, at den vil koste kommunen over 50 millioner kroner.",
+    "en": "A point against the plan is that it will cost the council over 50 million kroner."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Et tungtvejende argument er, at …",
+   "en": "A weighty argument is that …",
+   "example": {
+    "da": "Et tungtvejende argument er, at børn lærer bedst, når de føler sig trygge.",
+    "en": "A weighty argument is that children learn best when they feel safe."
+   },
+   "level": "C2",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Det vigtigste argument for mig er, at …",
+   "en": "The most important argument for me is that …",
+   "example": {
+    "da": "Det vigtigste argument for mig er, at alle skal have råd til at gå til tandlæge.",
+    "en": "The most important argument for me is that everyone should be able to afford the dentist."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "Man kan argumentere for, at …",
+   "en": "One could argue that …",
+   "example": {
+    "da": "Man kan argumentere for, at det er forældrenes ansvar at begrænse skærmtiden.",
+    "en": "One could argue that it is the parents' responsibility to limit screen time."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Man kan indvende, at …",
+   "en": "One could object that …",
+   "example": {
+    "da": "Man kan indvende, at det er for dyrt at gøre al offentlig transport gratis.",
+    "en": "One could object that it is too expensive to make all public transport free."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "Fordelene opvejer ulemperne.",
+   "en": "The advantages outweigh the disadvantages.",
+   "example": {
+    "da": "Efter min mening opvejer fordelene ved elbiler klart ulemperne.",
+    "en": "In my opinion, the advantages of electric cars clearly outweigh the disadvantages."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "Set fra et … perspektiv …",
+   "en": "From a … perspective …",
+   "example": {
+    "da": "Set fra et økonomisk perspektiv er det en god idé at efterisolere huset.",
+    "en": "From an economic perspective, it is a good idea to add insulation to the house."
+   },
+   "level": "C1",
+   "use": "argumentere",
+   "register": "formel"
+  },
+  {
+   "da": "… har både positive og negative konsekvenser.",
+   "en": "… has both positive and negative consequences.",
+   "example": {
+    "da": "Den digitale udvikling har både positive og negative konsekvenser for familielivet.",
+    "en": "Digital development has both positive and negative consequences for family life."
+   },
+   "level": "B2",
+   "use": "argumentere",
+   "register": "neutral"
+  },
+  {
+   "da": "Til gengæld …",
+   "en": "On the other hand …; in return …",
+   "example": {
+    "da": "Lejligheden er lille, men til gengæld ligger den tæt på stationen.",
+    "en": "The flat is small, but on the other hand it is close to the station."
+   },
+   "level": "B2",
+   "use": "kontrastere",
+   "register": "neutral"
+  },
+  {
+   "da": "Ikke desto mindre …",
+   "en": "Nevertheless …",
+   "example": {
+    "da": "Mange er imod skatten. Ikke desto mindre har den reduceret forureningen.",
+    "en": "Many people are against the tax. Nevertheless, it has reduced pollution."
+   },
+   "level": "C1",
+   "use": "kontrastere",
+   "register": "formel"
+  },
+  {
+   "da": "Det er dog vigtigt at huske, at …",
+   "en": "However, it is important to remember that …",
+   "example": {
+    "da": "Det er dog vigtigt at huske, at ikke alle har adgang til en computer.",
+    "en": "However, it is important to remember that not everyone has access to a computer."
+   },
+   "level": "B2",
+   "use": "kontrastere",
+   "register": "neutral"
+  },
+  {
+   "da": "Omvendt kan man sige, at …",
+   "en": "Conversely, one could say that …",
+   "example": {
+    "da": "Omvendt kan man sige, at for meget frihed kan gøre børn utrygge.",
+    "en": "Conversely, one could say that too much freedom can make children feel insecure."
+   },
+   "level": "C1",
+   "use": "kontrastere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det står i skarp kontrast til …",
+   "en": "That is in stark contrast to …",
+   "example": {
+    "da": "Det store forbrug står i skarp kontrast til de mange løfter om at spare.",
+    "en": "The high spending is in stark contrast to the many promises to save."
+   },
+   "level": "C1",
+   "use": "kontrastere",
+   "register": "formel"
+  },
+  {
+   "da": "Men det er kun den ene side af sagen.",
+   "en": "But that is only one side of the matter.",
+   "example": {
+    "da": "Lavere skatter lyder godt, men det er kun den ene side af sagen.",
+    "en": "Lower taxes sound good, but that is only one side of the matter."
+   },
+   "level": "C1",
+   "use": "kontrastere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er ikke ensbetydende med, at …",
+   "en": "That does not necessarily mean that …",
+   "example": {
+    "da": "En høj løn er ikke ensbetydende med, at man er glad for sit arbejde.",
+    "en": "A high salary does not necessarily mean that you are happy in your job."
+   },
+   "level": "C1",
+   "use": "kontrastere",
+   "register": "formel"
+  },
+  {
+   "da": "Det betyder dog ikke, at …",
+   "en": "However, that does not mean that …",
+   "example": {
+    "da": "Det betyder dog ikke, at alle unge er dårlige til at læse.",
+    "en": "However, that does not mean that all young people are poor readers."
+   },
+   "level": "B2",
+   "use": "kontrastere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det forholder sig anderledes med …",
+   "en": "The situation is different with …",
+   "example": {
+    "da": "Det forholder sig anderledes med de små kommuner, som har færre penge.",
+    "en": "The situation is different with the small municipalities, which have less money."
+   },
+   "level": "C2",
+   "use": "kontrastere",
+   "register": "formel"
+  },
+  {
+   "da": "Selvom det er rigtigt, at …, …",
+   "en": "Although it is true that …, …",
+   "example": {
+    "da": "Selvom det er rigtigt, at elbiler er dyre, falder priserne hurtigt.",
+    "en": "Although it is true that electric cars are expensive, prices are falling fast."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Det må indrømmes, at …",
+   "en": "It must be admitted that …",
+   "example": {
+    "da": "Det må indrømmes, at forslaget har nogle svagheder.",
+    "en": "It must be admitted that the proposal has some weaknesses."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg må indrømme, at …",
+   "en": "I have to admit that …",
+   "example": {
+    "da": "Jeg må indrømme, at jeg selv bruger for meget tid på min telefon.",
+    "en": "I have to admit that I spend too much time on my phone myself."
+   },
+   "level": "B2",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Ganske vist …, men …",
+   "en": "Admittedly …, but …",
+   "example": {
+    "da": "Ganske vist koster projektet mange penge, men det vil betale sig på længere sigt.",
+    "en": "Admittedly the project costs a lot of money, but it will pay off in the longer term."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "formel"
+  },
+  {
+   "da": "Det er rigtigt, at …, men …",
+   "en": "It is true that …, but …",
+   "example": {
+    "da": "Det er rigtigt, at det tager tid, men det er en investering i fremtiden.",
+    "en": "It is true that it takes time, but it is an investment in the future."
+   },
+   "level": "B2",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg kan godt se, at …, men …",
+   "en": "I can see that …, but …",
+   "example": {
+    "da": "Jeg kan godt se, at det er praktisk, men jeg er bekymret for sikkerheden.",
+    "en": "I can see that it is practical, but I'm worried about safety."
+   },
+   "level": "B2",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Man kan ikke afvise, at …",
+   "en": "One cannot rule out that …",
+   "example": {
+    "da": "Man kan ikke afvise, at forslaget vil føre til højere priser.",
+    "en": "One cannot rule out that the proposal will lead to higher prices."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "formel"
+  },
+  {
+   "da": "Det er muligt, at …, men …",
+   "en": "It is possible that …, but …",
+   "example": {
+    "da": "Det er muligt, at det bliver dyrere, men kvaliteten bliver også bedre.",
+    "en": "It is possible that it will be more expensive, but the quality will also be better."
+   },
+   "level": "B2",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kan godt være, at …, men …",
+   "en": "It may well be that …, but …",
+   "example": {
+    "da": "Det kan godt være, at cyklen er langsommere, men den er god for helbredet.",
+    "en": "It may well be that the bike is slower, but it is good for your health."
+   },
+   "level": "B2",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er en gyldig pointe, men …",
+   "en": "That is a valid point, but …",
+   "example": {
+    "da": "Det er en gyldig pointe, men den tager ikke højde for de ældre.",
+    "en": "That is a valid point, but it doesn't take older people into account."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Til en vis grad …",
+   "en": "To a certain extent …",
+   "example": {
+    "da": "Til en vis grad har kritikerne ret, men problemet er mere komplekst.",
+    "en": "To a certain extent the critics are right, but the problem is more complex."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Det gælder dog ikke for alle.",
+   "en": "However, that doesn't apply to everyone.",
+   "example": {
+    "da": "Mange har gavn af hjemmearbejde. Det gælder dog ikke for alle.",
+    "en": "Many people benefit from working from home. However, that doesn't apply to everyone."
+   },
+   "level": "B2",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Spørgsmålet er dog, om …",
+   "en": "The question, however, is whether …",
+   "example": {
+    "da": "Spørgsmålet er dog, om borgerne er villige til at betale mere i skat.",
+    "en": "The question, however, is whether citizens are willing to pay more tax."
+   },
+   "level": "C1",
+   "use": "indrømme et modargument",
+   "register": "neutral"
+  },
+  {
+   "da": "Det skyldes, at …",
+   "en": "That is because …",
+   "example": {
+    "da": "Det skyldes, at mange unge flytter til de store byer for at studere.",
+    "en": "That is because many young people move to the big cities to study."
+   },
+   "level": "B2",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Årsagen til det er, at …",
+   "en": "The reason for that is that …",
+   "example": {
+    "da": "Årsagen til det er, at priserne på energi er steget voldsomt.",
+    "en": "The reason for that is that energy prices have risen sharply."
+   },
+   "level": "B2",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Den primære årsag er …",
+   "en": "The primary reason is …",
+   "example": {
+    "da": "Den primære årsag er mangel på uddannet personale.",
+    "en": "The primary reason is a shortage of trained staff."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "formel"
+  },
+  {
+   "da": "En af grundene til, at …, er …",
+   "en": "One of the reasons why … is …",
+   "example": {
+    "da": "En af grundene til, at mange flytter fra landet, er mangel på arbejdspladser.",
+    "en": "One of the reasons why many people leave the countryside is a lack of jobs."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Det hænger sammen med, at …",
+   "en": "That is connected with the fact that …",
+   "example": {
+    "da": "Det hænger sammen med, at flere og flere bor alene.",
+    "en": "That is connected with the fact that more and more people live alone."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er flere grunde til, at …",
+   "en": "There are several reasons why …",
+   "example": {
+    "da": "Der er flere grunde til, at jeg støtter forslaget om en kortere arbejdsuge.",
+    "en": "There are several reasons why I support the proposal for a shorter working week."
+   },
+   "level": "B2",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er grunden til, at …",
+   "en": "That is the reason why …",
+   "example": {
+    "da": "Det er grunden til, at mange børnefamilier flytter til forstæderne.",
+    "en": "That is the reason why many families with children move to the suburbs."
+   },
+   "level": "B2",
+   "use": "forklare årsager",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kan forklares med, at …",
+   "en": "That can be explained by the fact that …",
+   "example": {
+    "da": "Det kan forklares med, at flere har fået råd til at rejse.",
+    "en": "That can be explained by the fact that more people can afford to travel."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "formel"
+  },
+  {
+   "da": "Det skal ses i lyset af, at …",
+   "en": "This should be seen in light of the fact that …",
+   "example": {
+    "da": "Det skal ses i lyset af, at befolkningen bliver ældre.",
+    "en": "This should be seen in light of the fact that the population is ageing."
+   },
+   "level": "C1",
+   "use": "forklare årsager",
+   "register": "formel"
+  },
+  {
+   "da": "Det har den konsekvens, at …",
+   "en": "That has the consequence that …",
+   "example": {
+    "da": "Lukningen af skolen har den konsekvens, at børnene skal køre langt hver dag.",
+    "en": "The closure of the school has the consequence that the children have to travel a long way every day."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "formel"
+  },
+  {
+   "da": "Det medfører, at …",
+   "en": "This means that …; this leads to …",
+   "example": {
+    "da": "Det medfører, at ventetiden på hospitalerne bliver længere.",
+    "en": "This means that waiting times at the hospitals get longer."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "formel"
+  },
+  {
+   "da": "Det fører til, at …",
+   "en": "That leads to …",
+   "example": {
+    "da": "For lidt søvn fører til, at man får sværere ved at koncentrere sig.",
+    "en": "Too little sleep leads to difficulties concentrating."
+   },
+   "level": "B2",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Det betyder, at …",
+   "en": "That means that …",
+   "example": {
+    "da": "Det betyder, at mange familier får færre penge mellem hænderne.",
+    "en": "That means that many families have less money to spend."
+   },
+   "level": "B2",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Derfor er det vigtigt, at …",
+   "en": "That is why it is important that …",
+   "example": {
+    "da": "Derfor er det vigtigt, at alle børn lærer at svømme.",
+    "en": "That is why it is important that all children learn to swim."
+   },
+   "level": "B2",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kan have alvorlige konsekvenser for …",
+   "en": "That can have serious consequences for …",
+   "example": {
+    "da": "Mobning kan have alvorlige konsekvenser for børns trivsel.",
+    "en": "Bullying can have serious consequences for children's wellbeing."
+   },
+   "level": "B2",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Som følge heraf …",
+   "en": "As a result of this …",
+   "example": {
+    "da": "Som følge heraf har mange butikker i midtbyen måttet lukke.",
+    "en": "As a result of this, many shops in the town centre have had to close."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "formel"
+  },
+  {
+   "da": "Konsekvensen er, at …",
+   "en": "The consequence is that …",
+   "example": {
+    "da": "Konsekvensen er, at mange unge mister troen på, at de kan købe en bolig.",
+    "en": "The consequence is that many young people lose hope of buying a home."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Det resulterer i …",
+   "en": "That results in …",
+   "example": {
+    "da": "Mangel på personale resulterer i længere ventetid for patienterne.",
+    "en": "A shortage of staff results in longer waiting times for patients."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "formel"
+  },
+  {
+   "da": "Netop derfor …",
+   "en": "Precisely for that reason …",
+   "example": {
+    "da": "Netop derfor bør kommunen ansætte flere sundhedsplejersker.",
+    "en": "Precisely for that reason, the council should hire more health visitors."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er derfor ikke overraskende, at …",
+   "en": "It is therefore not surprising that …",
+   "example": {
+    "da": "Det er derfor ikke overraskende, at flere vælger at blive i byen.",
+    "en": "It is therefore not surprising that more people choose to stay in the city."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Det gør, at …",
+   "en": "That means that …; that makes …",
+   "example": {
+    "da": "Den nye cykelsti gør, at flere børn tør cykle i skole.",
+    "en": "The new cycle path means that more children dare to cycle to school."
+   },
+   "level": "B2",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "…, hvilket betyder, at …",
+   "en": "…, which means that …",
+   "example": {
+    "da": "Mange læger går på pension, hvilket betyder, at ventetiden bliver længere.",
+    "en": "Many doctors are retiring, which means that waiting times get longer."
+   },
+   "level": "B2",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "I sidste ende …",
+   "en": "Ultimately …",
+   "example": {
+    "da": "I sidste ende er det borgerne, der kommer til at betale regningen.",
+    "en": "Ultimately it is the citizens who will end up paying the bill."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "På længere sigt …",
+   "en": "In the longer term …",
+   "example": {
+    "da": "På længere sigt vil investeringen i vedvarende energi betale sig.",
+    "en": "In the longer term, the investment in renewable energy will pay off."
+   },
+   "level": "C1",
+   "use": "beskrive konsekvenser",
+   "register": "neutral"
+  },
+  {
+   "da": "Et godt eksempel på dette er …",
+   "en": "A good example of this is …",
+   "example": {
+    "da": "Et godt eksempel på dette er København, hvor næsten halvdelen cykler til arbejde.",
+    "en": "A good example of this is Copenhagen, where almost half of people cycle to work."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kan for eksempel være …",
+   "en": "That could for example be …",
+   "example": {
+    "da": "Der er mange måder at spare energi på. Det kan for eksempel være kortere bade.",
+    "en": "There are many ways to save energy. That could for example be shorter showers."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Tag for eksempel …",
+   "en": "Take, for example, …",
+   "example": {
+    "da": "Tag for eksempel Norge, hvor næsten alle nye biler i dag er elbiler.",
+    "en": "Take Norway, for example, where almost all new cars are electric today."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Som eksempel kan nævnes …",
+   "en": "One example is …",
+   "example": {
+    "da": "Som eksempel kan nævnes de mange frivillige, der hjælper i sportsklubberne.",
+    "en": "One example is the many volunteers who help out in sports clubs."
+   },
+   "level": "C1",
+   "use": "give eksempler",
+   "register": "formel"
+  },
+  {
+   "da": "Det ses blandt andet ved, at …",
+   "en": "This can be seen in, among other things, the fact that …",
+   "example": {
+    "da": "Det ses blandt andet ved, at flere unge vælger en erhvervsuddannelse.",
+    "en": "This can be seen in, among other things, the fact that more young people choose vocational training."
+   },
+   "level": "C1",
+   "use": "give eksempler",
+   "register": "formel"
+  },
+  {
+   "da": "Det gælder især …",
+   "en": "This applies in particular to …",
+   "example": {
+    "da": "Mange har svært ved at finde en bolig, og det gælder især de studerende.",
+    "en": "Many people find it hard to find housing, and this applies in particular to students."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Et eksempel fra min egen hverdag er …",
+   "en": "An example from my own everyday life is …",
+   "example": {
+    "da": "Et eksempel fra min egen hverdag er, at jeg cykler til arbejde hele året.",
+    "en": "An example from my own everyday life is that I cycle to work all year round."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har selv oplevet, at …",
+   "en": "I have experienced myself that …",
+   "example": {
+    "da": "Jeg har selv oplevet, at det er svært at få en lægetid på kort varsel.",
+    "en": "I have experienced myself that it is hard to get a doctor's appointment at short notice."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kan illustreres med …",
+   "en": "That can be illustrated by …",
+   "example": {
+    "da": "Problemet kan illustreres med situationen på mange plejehjem.",
+    "en": "The problem can be illustrated by the situation in many care homes."
+   },
+   "level": "C1",
+   "use": "give eksempler",
+   "register": "formel"
+  },
+  {
+   "da": "Fra min egen erfaring ved jeg, at …",
+   "en": "From my own experience I know that …",
+   "example": {
+    "da": "Fra min egen erfaring ved jeg, at det tager tid at lære et nyt sprog.",
+    "en": "From my own experience I know that it takes time to learn a new language."
+   },
+   "level": "B2",
+   "use": "give eksempler",
+   "register": "neutral"
+  },
+  {
+   "da": "Generelt kan man sige, at …",
+   "en": "Generally speaking, …",
+   "example": {
+    "da": "Generelt kan man sige, at danskerne har stor tillid til hinanden.",
+    "en": "Generally speaking, Danes have a high level of trust in each other."
+   },
+   "level": "B2",
+   "use": "generalisere",
+   "register": "neutral"
+  },
+  {
+   "da": "Som regel …",
+   "en": "As a rule …; usually …",
+   "example": {
+    "da": "Som regel får man svar fra kommunen inden for fire uger.",
+    "en": "As a rule, you get a reply from the council within four weeks."
+   },
+   "level": "B2",
+   "use": "generalisere",
+   "register": "neutral"
+  },
+  {
+   "da": "I de fleste tilfælde …",
+   "en": "In most cases …",
+   "example": {
+    "da": "I de fleste tilfælde kan man klare sagen digitalt via borger.dk.",
+    "en": "In most cases you can deal with the matter online via borger.dk."
+   },
+   "level": "B2",
+   "use": "generalisere",
+   "register": "neutral"
+  },
+  {
+   "da": "Groft sagt …",
+   "en": "Roughly speaking …",
+   "example": {
+    "da": "Groft sagt bruger en familie en tredjedel af indkomsten på bolig.",
+    "en": "Roughly speaking, a family spends a third of its income on housing."
+   },
+   "level": "C1",
+   "use": "generalisere",
+   "register": "neutral"
+  },
+  {
+   "da": "Langt de fleste …",
+   "en": "The vast majority …",
+   "example": {
+    "da": "Langt de fleste danskere har tillid til politiet.",
+    "en": "The vast majority of Danes trust the police."
+   },
+   "level": "C1",
+   "use": "generalisere",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er en tendens til, at …",
+   "en": "There is a tendency for …",
+   "example": {
+    "da": "Der er en tendens til, at unge flytter hjemmefra senere end tidligere.",
+    "en": "There is a tendency for young people to leave home later than before."
+   },
+   "level": "C1",
+   "use": "generalisere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det tyder på, at …",
+   "en": "It suggests that …; it seems that …",
+   "example": {
+    "da": "Det tyder på, at flere vælger at holde ferie i Danmark.",
+    "en": "It seems that more people are choosing to holiday in Denmark."
+   },
+   "level": "B2",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Meget tyder på, at …",
+   "en": "There is much to suggest that …",
+   "example": {
+    "da": "Meget tyder på, at boligpriserne vil stige igen næste år.",
+    "en": "There is much to suggest that house prices will rise again next year."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "formel"
+  },
+  {
+   "da": "Det ser ud til, at …",
+   "en": "It looks as if …",
+   "example": {
+    "da": "Det ser ud til, at flere unge vælger en erhvervsuddannelse.",
+    "en": "It looks as if more young people are choosing vocational training."
+   },
+   "level": "B2",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er sandsynligt, at …",
+   "en": "It is likely that …",
+   "example": {
+    "da": "Det er sandsynligt, at renten stiger, hvis inflationen fortsætter.",
+    "en": "It is likely that interest rates will rise if inflation continues."
+   },
+   "level": "B2",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er næppe sandsynligt, at …",
+   "en": "It is hardly likely that …",
+   "example": {
+    "da": "Det er næppe sandsynligt, at skatten bliver sat ned i de kommende år.",
+    "en": "It is hardly likely that taxes will be cut in the coming years."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "formel"
+  },
+  {
+   "da": "Man kan ikke generalisere, men …",
+   "en": "You can't generalise, but …",
+   "example": {
+    "da": "Man kan ikke generalisere, men mange unge læser færre bøger end før.",
+    "en": "You can't generalise, but many young people read fewer books than before."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er svært at sige præcist, men …",
+   "en": "It is hard to say exactly, but …",
+   "example": {
+    "da": "Det er svært at sige præcist, men omkring hver tiende arbejder om natten.",
+    "en": "It is hard to say exactly, but around one in ten works at night."
+   },
+   "level": "B2",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er ikke nødvendigvis sådan, at …",
+   "en": "It is not necessarily the case that …",
+   "example": {
+    "da": "Det er ikke nødvendigvis sådan, at flere penge giver en bedre skole.",
+    "en": "It is not necessarily the case that more money makes a better school."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Alt andet lige …",
+   "en": "All else being equal …",
+   "example": {
+    "da": "Alt andet lige vil højere renter få huspriserne til at falde.",
+    "en": "All else being equal, higher interest rates will cause house prices to fall."
+   },
+   "level": "C2",
+   "use": "tage forbehold",
+   "register": "formel"
+  },
+  {
+   "da": "Som udgangspunkt …",
+   "en": "As a general rule; in principle",
+   "example": {
+    "da": "Som udgangspunkt har alle børn ret til en plads i et dagtilbud.",
+    "en": "As a general rule, all children are entitled to a place in day care."
+   },
+   "level": "C1",
+   "use": "generalisere",
+   "register": "formel"
+  },
+  {
+   "da": "Så vidt jeg ved, …",
+   "en": "As far as I know, …",
+   "example": {
+    "da": "Så vidt jeg ved, er fristen for at søge den 15. marts.",
+    "en": "As far as I know, the application deadline is 15 March."
+   },
+   "level": "B2",
+   "use": "tage forbehold",
+   "register": "neutral"
+  },
+  {
+   "da": "Efter alt at dømme …",
+   "en": "By all accounts …; to all appearances …",
+   "example": {
+    "da": "Efter alt at dømme bliver der mangel på sygeplejersker i de kommende år.",
+    "en": "By all accounts there will be a shortage of nurses in the coming years."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "formel"
+  },
+  {
+   "da": "Det må formodes, at …",
+   "en": "It must be assumed that …",
+   "example": {
+    "da": "Det må formodes, at de fleste borgere vil bakke op om forslaget.",
+    "en": "It must be assumed that most citizens will support the proposal."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "formel"
+  },
+  {
+   "da": "Der er grund til at tro, at …",
+   "en": "There is reason to believe that …",
+   "example": {
+    "da": "Der er grund til at tro, at problemet er større, end tallene viser.",
+    "en": "There is reason to believe that the problem is bigger than the figures show."
+   },
+   "level": "C1",
+   "use": "tage forbehold",
+   "register": "formel"
+  },
+  {
+   "da": "Der er ingen tvivl om, at …",
+   "en": "There is no doubt that …",
+   "example": {
+    "da": "Der er ingen tvivl om, at klimaforandringerne påvirker landbruget.",
+    "en": "There is no doubt that climate change is affecting agriculture."
+   },
+   "level": "B2",
+   "use": "udtrykke sikkerhed",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er uden tvivl …",
+   "en": "It is without doubt …",
+   "example": {
+    "da": "Det er uden tvivl en af de største udfordringer for velfærdssamfundet.",
+    "en": "It is without doubt one of the greatest challenges for the welfare state."
+   },
+   "level": "B2",
+   "use": "udtrykke sikkerhed",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er overbevist om, at …",
+   "en": "I am convinced that …",
+   "example": {
+    "da": "Jeg er overbevist om, at flere grønne områder gør byen til et bedre sted.",
+    "en": "I am convinced that more green spaces make the city a better place."
+   },
+   "level": "B2",
+   "use": "udtrykke sikkerhed",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er indlysende, at …",
+   "en": "It is obvious that …",
+   "example": {
+    "da": "Det er indlysende, at vi skal bruge mindre energi.",
+    "en": "It is obvious that we need to use less energy."
+   },
+   "level": "C1",
+   "use": "udtrykke sikkerhed",
+   "register": "formel"
+  },
+  {
+   "da": "Faktum er, at …",
+   "en": "The fact is that …",
+   "example": {
+    "da": "Faktum er, at der mangler arbejdskraft i mange brancher.",
+    "en": "The fact is that there is a labour shortage in many sectors."
+   },
+   "level": "C1",
+   "use": "udtrykke sikkerhed",
+   "register": "formel"
+  },
+  {
+   "da": "Det siger sig selv, at …",
+   "en": "It goes without saying that …",
+   "example": {
+    "da": "Det siger sig selv, at børn har brug for voksne, der har tid til dem.",
+    "en": "It goes without saying that children need adults who have time for them."
+   },
+   "level": "C1",
+   "use": "udtrykke sikkerhed",
+   "register": "neutral"
+  },
+  {
+   "da": "Det står klart, at …",
+   "en": "It is clear that …",
+   "example": {
+    "da": "Det står klart, at der skal findes en løsning før vinteren.",
+    "en": "It is clear that a solution must be found before winter."
+   },
+   "level": "C1",
+   "use": "udtrykke sikkerhed",
+   "register": "formel"
+  },
+  {
+   "da": "Det er hævet over enhver tvivl, at …",
+   "en": "It is beyond all doubt that …",
+   "example": {
+    "da": "Det er hævet over enhver tvivl, at rygning er skadeligt for helbredet.",
+    "en": "It is beyond all doubt that smoking is harmful to health."
+   },
+   "level": "C2",
+   "use": "udtrykke sikkerhed",
+   "register": "formel"
+  },
+  {
+   "da": "Det er tvivlsomt, om …",
+   "en": "It is doubtful whether …",
+   "example": {
+    "da": "Det er tvivlsomt, om reformen vil skabe flere arbejdspladser.",
+    "en": "It is doubtful whether the reform will create more jobs."
+   },
+   "level": "C1",
+   "use": "udtrykke tvivl",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg er ikke sikker på, at …",
+   "en": "I'm not sure that …",
+   "example": {
+    "da": "Jeg er ikke sikker på, at et forbud er den bedste løsning.",
+    "en": "I'm not sure that a ban is the best solution."
+   },
+   "level": "B2",
+   "use": "udtrykke tvivl",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg tvivler på, at …",
+   "en": "I doubt that …",
+   "example": {
+    "da": "Jeg tvivler på, at gratis busser alene vil få folk til at lade bilen stå.",
+    "en": "I doubt that free buses alone will make people leave their cars at home."
+   },
+   "level": "B2",
+   "use": "udtrykke tvivl",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg har svært ved at se, hvordan …",
+   "en": "I find it hard to see how …",
+   "example": {
+    "da": "Jeg har svært ved at se, hvordan kommunen vil finansiere projektet.",
+    "en": "I find it hard to see how the council will finance the project."
+   },
+   "level": "C1",
+   "use": "udtrykke tvivl",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er langt fra sikkert, at …",
+   "en": "It is far from certain that …",
+   "example": {
+    "da": "Det er langt fra sikkert, at alle vil få glæde af den nye ordning.",
+    "en": "It is far from certain that everyone will benefit from the new scheme."
+   },
+   "level": "C1",
+   "use": "udtrykke tvivl",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er et åbent spørgsmål, om …",
+   "en": "It is an open question whether …",
+   "example": {
+    "da": "Det er et åbent spørgsmål, om den nye lov vil virke efter hensigten.",
+    "en": "It is an open question whether the new law will work as intended."
+   },
+   "level": "C1",
+   "use": "udtrykke tvivl",
+   "register": "formel"
+  },
+  {
+   "da": "Det er ikke til at sige, om …",
+   "en": "There's no telling whether …",
+   "example": {
+    "da": "Det er ikke til at sige, om priserne falder igen næste år.",
+    "en": "There's no telling whether prices will fall again next year."
+   },
+   "level": "B2",
+   "use": "udtrykke tvivl",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er i tvivl om, hvorvidt …",
+   "en": "I am unsure whether …",
+   "example": {
+    "da": "Jeg er i tvivl om, hvorvidt jeg skal tage imod jobtilbuddet.",
+    "en": "I am unsure whether I should accept the job offer."
+   },
+   "level": "C1",
+   "use": "udtrykke tvivl",
+   "register": "formel"
+  },
+  {
+   "da": "Efter min mening …",
+   "en": "In my opinion …",
+   "example": {
+    "da": "Efter min mening bør alle børn have gratis frokost i skolen.",
+    "en": "In my opinion, all children should have free lunch at school."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er min opfattelse, at …",
+   "en": "It is my view that …",
+   "example": {
+    "da": "Det er min opfattelse, at flere bør tage toget i stedet for bilen.",
+    "en": "It is my view that more people should take the train instead of the car."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Personligt mener jeg, at …",
+   "en": "Personally I believe that …",
+   "example": {
+    "da": "Personligt mener jeg, at sociale medier gør mere skade end gavn.",
+    "en": "Personally I believe that social media do more harm than good."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er af den opfattelse, at …",
+   "en": "I am of the opinion that …",
+   "example": {
+    "da": "Jeg er af den opfattelse, at alle borgere bør have ret til en praktiserende læge i nærheden.",
+    "en": "I am of the opinion that all citizens should have the right to a GP nearby."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Set fra mit synspunkt …",
+   "en": "From my point of view …",
+   "example": {
+    "da": "Set fra mit synspunkt er det vigtigste at skabe flere arbejdspladser.",
+    "en": "From my point of view, the most important thing is to create more jobs."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg ser det sådan, at …",
+   "en": "The way I see it, …",
+   "example": {
+    "da": "Jeg ser det sådan, at det er forældrenes ansvar at lære børnene gode vaner.",
+    "en": "The way I see it, it is the parents' responsibility to teach children good habits."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er enig i, at …",
+   "en": "I agree that …",
+   "example": {
+    "da": "Jeg er enig i, at skoledagen er blevet for lang for de yngste elever.",
+    "en": "I agree that the school day has become too long for the youngest pupils."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er uenig i, at …",
+   "en": "I disagree that …",
+   "example": {
+    "da": "Jeg er uenig i, at ældre ikke kan lære at bruge digitale løsninger.",
+    "en": "I disagree that older people can't learn to use digital solutions."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er delvis enig i, at …",
+   "en": "I partly agree that …",
+   "example": {
+    "da": "Jeg er delvis enig i, at reklamer for usund mad bør forbydes.",
+    "en": "I partly agree that advertising for unhealthy food should be banned."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg tager afstand fra …",
+   "en": "I distance myself from …; I reject …",
+   "example": {
+    "da": "Jeg tager afstand fra forslaget om at hæve pensionsalderen yderligere.",
+    "en": "I reject the proposal to raise the retirement age further."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg støtter forslaget om at …",
+   "en": "I support the proposal to …",
+   "example": {
+    "da": "Jeg støtter forslaget om at gøre det gratis for børn at tage bussen.",
+    "en": "I support the proposal to make bus travel free for children."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg finder det problematisk, at …",
+   "en": "I find it problematic that …",
+   "example": {
+    "da": "Jeg finder det problematisk, at så mange unge står uden uddannelse.",
+    "en": "I find it problematic that so many young people have no education."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg finder det rimeligt, at …",
+   "en": "I find it reasonable that …",
+   "example": {
+    "da": "Jeg finder det rimeligt, at de rigeste betaler mest i skat.",
+    "en": "I find it reasonable that the richest pay the most tax."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Det er vigtigt at understrege, at …",
+   "en": "It is important to stress that …",
+   "example": {
+    "da": "Det er vigtigt at understrege, at de fleste unge trives godt.",
+    "en": "It is important to stress that most young people are doing well."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg vil argumentere for, at …",
+   "en": "I will argue that …",
+   "example": {
+    "da": "Jeg vil argumentere for, at skolen bør starte en time senere om morgenen.",
+    "en": "I will argue that school should start an hour later in the morning."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "formel"
+  },
+  {
+   "da": "Min holdning er, at …",
+   "en": "My view is that …",
+   "example": {
+    "da": "Min holdning er, at kommunen bør bruge flere penge på ældreplejen.",
+    "en": "My view is that the council should spend more money on elderly care."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg hælder mest til …",
+   "en": "I lean most towards …",
+   "example": {
+    "da": "Jeg hælder mest til den første løsning, fordi den er den billigste.",
+    "en": "I lean most towards the first solution because it is the cheapest."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Det giver god mening at …",
+   "en": "It makes good sense to …",
+   "example": {
+    "da": "Det giver god mening at dele bil, hvis man bor i samme område.",
+    "en": "It makes good sense to share a car if you live in the same area."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Hvad mig angår, …",
+   "en": "As far as I'm concerned, …",
+   "example": {
+    "da": "Hvad mig angår, kan butikkerne godt holde lukket om søndagen.",
+    "en": "As far as I'm concerned, the shops can stay closed on Sundays."
+   },
+   "level": "C1",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Af de nævnte punkter er … efter min mening det vigtigste.",
+   "en": "Of the points mentioned, … is the most important in my view.",
+   "example": {
+    "da": "Af de nævnte punkter er en god leder efter min mening det vigtigste.",
+    "en": "Of the points mentioned, a good manager is the most important in my view."
+   },
+   "level": "B2",
+   "use": "kommentere en liste",
+   "register": "neutral"
+  },
+  {
+   "da": "Det første punkt på listen …",
+   "en": "The first point on the list …",
+   "example": {
+    "da": "Det første punkt på listen handler om at spise mindre kød.",
+    "en": "The first point on the list is about eating less meat."
+   },
+   "level": "B2",
+   "use": "kommentere en liste",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg er overhovedet ikke enig i …",
+   "en": "I don't agree at all with …",
+   "example": {
+    "da": "Jeg er overhovedet ikke enig i, at lektier er spild af tid.",
+    "en": "I don't agree at all that homework is a waste of time."
+   },
+   "level": "B2",
+   "use": "give sin mening",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil anbefale, at …",
+   "en": "I would recommend that …",
+   "example": {
+    "da": "Jeg vil anbefale, at kommunen opretter flere pladser i dagplejen.",
+    "en": "I would recommend that the council creates more places in childminding."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "formel"
+  },
+  {
+   "da": "Jeg kan varmt anbefale …",
+   "en": "I can warmly recommend …",
+   "example": {
+    "da": "Jeg kan varmt anbefale den nye café ved havnen, hvis du er i byen.",
+    "en": "I can warmly recommend the new café by the harbour if you're in town."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Det vil være en god idé at …",
+   "en": "It would be a good idea to …",
+   "example": {
+    "da": "Det vil være en god idé at bestille tid hos lægen i god tid.",
+    "en": "It would be a good idea to book a doctor's appointment well in advance."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Man bør overveje at …",
+   "en": "One should consider …",
+   "example": {
+    "da": "Man bør overveje at indføre en fast sengetid for de mindste børn.",
+    "en": "One should consider introducing a fixed bedtime for the youngest children."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "En mulig løsning kunne være at …",
+   "en": "A possible solution could be to …",
+   "example": {
+    "da": "En mulig løsning kunne være at give de unge billigere boliger.",
+    "en": "A possible solution could be to give young people cheaper housing."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg foreslår, at …",
+   "en": "I suggest that …",
+   "example": {
+    "da": "Jeg foreslår, at vi mødes hver anden uge for at følge op.",
+    "en": "I suggest that we meet every other week to follow up."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Det kunne være en idé at …",
+   "en": "It might be an idea to …",
+   "example": {
+    "da": "Det kunne være en idé at spørge borgerne, før man beslutter noget.",
+    "en": "It might be an idea to ask residents before deciding anything."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Hvis jeg var dig, ville jeg …",
+   "en": "If I were you, I would …",
+   "example": {
+    "da": "Hvis jeg var dig, ville jeg tale med din leder om arbejdsbyrden.",
+    "en": "If I were you, I would talk to your manager about the workload."
+   },
+   "level": "B2",
+   "use": "give råd",
+   "register": "neutral"
+  },
+  {
+   "da": "Mit bedste råd er at …",
+   "en": "My best advice is to …",
+   "example": {
+    "da": "Mit bedste råd er at tale så meget dansk som muligt med kollegerne.",
+    "en": "My best advice is to speak as much Danish as possible with your colleagues."
+   },
+   "level": "B2",
+   "use": "give råd",
+   "register": "neutral"
+  },
+  {
+   "da": "Det er afgørende, at …",
+   "en": "It is crucial that …",
+   "example": {
+    "da": "Det er afgørende, at alle elever får hjælp, før det er for sent.",
+    "en": "It is crucial that all pupils get help before it is too late."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "formel"
+  },
+  {
+   "da": "Der bør gøres mere for at …",
+   "en": "More should be done to …",
+   "example": {
+    "da": "Der bør gøres mere for at hjælpe ensomme ældre.",
+    "en": "More should be done to help lonely elderly people."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "formel"
+  },
+  {
+   "da": "Det er på høje tid, at …",
+   "en": "It is high time that …",
+   "example": {
+    "da": "Det er på høje tid, at politikerne gør noget ved boligmanglen.",
+    "en": "It is high time that politicians did something about the housing shortage."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Det ville være oplagt at …",
+   "en": "It would make obvious sense to …",
+   "example": {
+    "da": "Det ville være oplagt at bruge de tomme lokaler til et ungdomshus.",
+    "en": "It would make obvious sense to use the empty premises for a youth centre."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Der er behov for …",
+   "en": "There is a need for …",
+   "example": {
+    "da": "Der er behov for flere hænder i både sundhedsvæsenet og ældreplejen.",
+    "en": "There is a need for more staff in both the health service and elderly care."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil opfordre … til at …",
+   "en": "I would urge … to …",
+   "example": {
+    "da": "Jeg vil opfordre alle forældre til at deltage i mødet på torsdag.",
+    "en": "I would urge all parents to attend the meeting on Thursday."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "formel"
+  },
+  {
+   "da": "Man kunne med fordel …",
+   "en": "It would be beneficial to …",
+   "example": {
+    "da": "Man kunne med fordel anlægge flere grønne områder i byerne.",
+    "en": "It would be beneficial to create more green spaces in the cities."
+   },
+   "level": "C2",
+   "use": "anbefale",
+   "register": "formel"
+  },
+  {
+   "da": "Det er værd at overveje …",
+   "en": "It is worth considering …",
+   "example": {
+    "da": "Det er værd at overveje, om skolerne skal have flere praktiske fag.",
+    "en": "It is worth considering whether schools should have more practical subjects."
+   },
+   "level": "C1",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Politikerne bør …",
+   "en": "Politicians should …",
+   "example": {
+    "da": "Politikerne bør gøre det billigere at tage toget end at køre bil.",
+    "en": "Politicians should make it cheaper to take the train than to drive."
+   },
+   "level": "B2",
+   "use": "anbefale",
+   "register": "neutral"
+  },
+  {
+   "da": "Sammenfattende kan man sige, at …",
+   "en": "In summary, one can say that …",
+   "example": {
+    "da": "Sammenfattende kan man sige, at der både er fordele og ulemper ved forslaget.",
+    "en": "In summary, one can say that the proposal has both advantages and disadvantages."
+   },
+   "level": "C1",
+   "use": "konkludere",
+   "register": "formel"
+  },
+  {
+   "da": "Afslutningsvis vil jeg …",
+   "en": "To conclude, I will …",
+   "example": {
+    "da": "Afslutningsvis vil jeg understrege, at alle har et ansvar for klimaet.",
+    "en": "To conclude, I would like to stress that everyone has a responsibility for the climate."
+   },
+   "level": "C1",
+   "use": "konkludere",
+   "register": "formel"
+  },
+  {
+   "da": "Konklusionen er, at …",
+   "en": "The conclusion is that …",
+   "example": {
+    "da": "Konklusionen er, at flere unge har brug for hjælp til at finde et job.",
+    "en": "The conclusion is that more young people need help finding a job."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "Alt i alt …",
+   "en": "All in all …",
+   "example": {
+    "da": "Alt i alt er jeg tilfreds med mit nye job og mine kolleger.",
+    "en": "All in all, I'm happy with my new job and my colleagues."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "Samlet set …",
+   "en": "Overall …",
+   "example": {
+    "da": "Samlet set har reformen ført til bedre resultater i skolen.",
+    "en": "Overall, the reform has led to better results at school."
+   },
+   "level": "C1",
+   "use": "konkludere",
+   "register": "formel"
+  },
+  {
+   "da": "Kort sagt …",
+   "en": "In short …",
+   "example": {
+    "da": "Kort sagt er der brug for flere lærere i folkeskolen.",
+    "en": "In short, more teachers are needed in state schools."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "Til slut vil jeg …",
+   "en": "Finally, I would like to …",
+   "example": {
+    "da": "Til slut vil jeg sige tak for et godt samarbejde.",
+    "en": "Finally, I would like to say thank you for a good working relationship."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg kan derfor konkludere, at …",
+   "en": "I can therefore conclude that …",
+   "example": {
+    "da": "Jeg kan derfor konkludere, at forslaget vil gavne de fleste borgere.",
+    "en": "I can therefore conclude that the proposal will benefit most citizens."
+   },
+   "level": "C1",
+   "use": "konkludere",
+   "register": "formel"
+  },
+  {
+   "da": "Som nævnt ovenfor …",
+   "en": "As mentioned above …",
+   "example": {
+    "da": "Som nævnt ovenfor er der flere grunde til, at folk flytter fra landet.",
+    "en": "As mentioned above, there are several reasons why people leave the countryside."
+   },
+   "level": "C1",
+   "use": "strukturere en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "Det leder mig frem til …",
+   "en": "That brings me to …",
+   "example": {
+    "da": "Det leder mig frem til min konklusion: Vi har brug for flere lærere.",
+    "en": "That brings me to my conclusion: we need more teachers."
+   },
+   "level": "C1",
+   "use": "konkludere",
+   "register": "formel"
+  },
+  {
+   "da": "På baggrund af ovenstående …",
+   "en": "On the basis of the above …",
+   "example": {
+    "da": "På baggrund af ovenstående mener jeg, at forslaget bør vedtages.",
+    "en": "On the basis of the above, I believe the proposal should be adopted."
+   },
+   "level": "C1",
+   "use": "konkludere",
+   "register": "formel"
+  },
+  {
+   "da": "Hvis jeg skal konkludere, …",
+   "en": "To conclude, …",
+   "example": {
+    "da": "Hvis jeg skal konkludere, er der flere fordele end ulemper ved hjemmearbejde.",
+    "en": "To conclude, there are more advantages than disadvantages to working from home."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "Det vigtigste er efter min mening, at …",
+   "en": "The most important thing in my opinion is that …",
+   "example": {
+    "da": "Det vigtigste er efter min mening, at børnene får en tryg hverdag.",
+    "en": "The most important thing in my opinion is that children have a secure everyday life."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "For at opsummere …",
+   "en": "To sum up …",
+   "example": {
+    "da": "For at opsummere er der tre grunde til, at jeg er imod forslaget.",
+    "en": "To sum up, there are three reasons why I am against the proposal."
+   },
+   "level": "B2",
+   "use": "konkludere",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vil nu se på …",
+   "en": "I will now look at …",
+   "example": {
+    "da": "Jeg vil nu se på de økonomiske konsekvenser af forslaget.",
+    "en": "I will now look at the economic consequences of the proposal."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Det bringer mig til næste punkt.",
+   "en": "That brings me to the next point.",
+   "example": {
+    "da": "Mange unge er stressede, og det bringer mig til næste punkt.",
+    "en": "Many young people are stressed, and that brings me to the next point."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Jeg vender tilbage til dette senere.",
+   "en": "I will come back to this later.",
+   "example": {
+    "da": "Der er også et økonomisk aspekt, men jeg vender tilbage til dette senere.",
+    "en": "There is also an economic aspect, but I will come back to this later."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Med andre ord …",
+   "en": "In other words …",
+   "example": {
+    "da": "Med andre ord skal vi både arbejde længere og spare mere op.",
+    "en": "In other words, we must both work longer and save more."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Det vil sige, at …",
+   "en": "That is to say …; that means …",
+   "example": {
+    "da": "Butikken holder lukket i juli, det vil sige, at vi først åbner i august.",
+    "en": "The shop is closed in July, that is to say, we don't open until August."
+   },
+   "level": "B2",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Mere præcist …",
+   "en": "More precisely …",
+   "example": {
+    "da": "Mange unge sover for lidt, mere præcist under syv timer om natten.",
+    "en": "Many young people sleep too little, more precisely less than seven hours a night."
+   },
+   "level": "C1",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Eller sagt på en anden måde: …",
+   "en": "Or to put it another way: …",
+   "example": {
+    "da": "Eller sagt på en anden måde: Vi har ikke råd til at lade være.",
+    "en": "Or to put it another way: we can't afford not to."
+   },
+   "level": "C1",
+   "use": "strukturere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Som overskriften antyder, …",
+   "en": "As the title suggests, …",
+   "example": {
+    "da": "Som overskriften antyder, handler artiklen om ensomhed blandt unge.",
+    "en": "As the title suggests, the article is about loneliness among young people."
+   },
+   "level": "C1",
+   "use": "kommentere en tekst",
+   "register": "formel"
+  },
+  {
+   "da": "Ifølge artiklen …",
+   "en": "According to the article …",
+   "example": {
+    "da": "Ifølge artiklen bruger danske teenagere over fire timer om dagen på mobilen.",
+    "en": "According to the article, Danish teenagers spend over four hours a day on their phones."
+   },
+   "level": "B2",
+   "use": "kommentere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Forfatteren mener, at …",
+   "en": "The author believes that …",
+   "example": {
+    "da": "Forfatteren mener, at skolerne bør lægge mere vægt på kreative fag.",
+    "en": "The author believes that schools should put more emphasis on creative subjects."
+   },
+   "level": "B2",
+   "use": "kommentere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Artiklen handler om …",
+   "en": "The article is about …",
+   "example": {
+    "da": "Artiklen handler om, hvordan kommunerne kan tiltrække flere sygeplejersker.",
+    "en": "The article is about how municipalities can attract more nurses."
+   },
+   "level": "B2",
+   "use": "kommentere en tekst",
+   "register": "neutral"
+  },
+  {
+   "da": "Teksten beskriver, hvordan …",
+   "en": "The text describes how …",
+   "example": {
+    "da": "Teksten beskriver, hvordan en familie klarer sig efter at have mistet jobbet.",
+    "en": "The text describes how a family copes after losing their job."
+   },
+   "level": "B2",
+   "use": "kommentere en tekst",
+   "register": "neutral"
+  }
+ ]
+}

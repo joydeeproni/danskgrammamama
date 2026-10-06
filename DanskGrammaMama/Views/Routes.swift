@@ -13,6 +13,7 @@ enum Route: Hashable {
     case exam(minutes: Int)
     /// A whole Læseforståelse 2 set (2A, 2B, 3); nil picks the next one not yet done.
     case readingSet(String?)
+    case vocab(VocabDeck)
     case topics
     case topic(String)
     case words
@@ -55,6 +56,8 @@ struct RouteDestinations: ViewModifier {
                 content.readingSet(sid).contains { progress.isUnseen($0) }
             } ?? content.readingSetIDs.first ?? ""
             DeckSessionView(questions: content.readingSet(setID), title: "Læseforståelse 2")
+        case .vocab(let deck):
+            VocabSessionView(deck: deck)
         case .topics:
             TopicsView()
         case .topic(let id):

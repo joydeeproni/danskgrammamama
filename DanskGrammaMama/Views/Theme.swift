@@ -1,5 +1,4 @@
 import SwiftUI
-import CoreText
 
 /// The "Stak" look: paper cards on a plain table, one red accent, no italics anywhere.
 /// Every colour has a light and a dark value.
@@ -39,29 +38,61 @@ enum Theme {
 
 // MARK: - Type
 
-/// Schibsted Grotesk for the interface, Source Serif 4 for Danish text. Both scale with Dynamic Type.
+/// The system fonts: SF Pro for the interface, New York (the system serif) for Danish text.
+/// Sizes are the design's and scale with Dynamic Type.
 extension Font {
-    enum UIWeight: String {
-        case regular = "Regular", medium = "Medium", semibold = "SemiBold", bold = "Bold", heavy = "ExtraBold"
+    enum UIWeight {
+        case regular, medium, semibold, bold, heavy
+        var system: UIFont.Weight {
+            switch self {
+            case .regular: return .regular
+            case .medium: return .medium
+            case .semibold: return .semibold
+            case .bold: return .bold
+            case .heavy: return .heavy
+            }
+        }
     }
-    enum SerifWeight: String {
-        case regular = "Regular", medium = "Medium", semibold = "SemiBold"
+    enum SerifWeight {
+        case regular, medium, semibold
+        var system: UIFont.Weight {
+            switch self {
+            case .regular: return .regular
+            case .medium: return .medium
+            case .semibold: return .semibold
+            }
+        }
     }
 
     static func ui(_ size: CGFloat, _ weight: UIWeight = .regular, relativeTo style: TextStyle = .body) -> Font {
-        .custom("SchibstedGrotesk-\(weight.rawValue)", size: size, relativeTo: style)
+        scaled(UIFont.systemFont(ofSize: size, weight: weight.system), style)
     }
 
     static func serif(_ size: CGFloat, _ weight: SerifWeight = .regular, relativeTo style: TextStyle = .body) -> Font {
-        .custom("SourceSerif4-\(weight.rawValue)", size: size, relativeTo: style)
+        let base = UIFont.systemFont(ofSize: size, weight: weight.system)
+        let serif = base.fontDescriptor.withDesign(.serif).map { UIFont(descriptor: $0, size: size) } ?? base
+        return scaled(serif, style)
+    }
+
+    private static func scaled(_ font: UIFont, _ style: TextStyle) -> Font {
+        Font(UIFontMetrics(forTextStyle: style.uiKit).scaledFont(for: font))
     }
 }
 
-enum FontRegistry {
-    /// Registers the bundled fonts once at launch.
-    static func register() {
-        for url in Bundle.main.urls(forResourcesWithExtension: "ttf", subdirectory: nil) ?? [] {
-            CTFontManagerRegisterFontsForURL(url as CFURL, .process, nil)
+private extension Font.TextStyle {
+    var uiKit: UIFont.TextStyle {
+        switch self {
+        case .largeTitle: return .largeTitle
+        case .title: return .title1
+        case .title2: return .title2
+        case .title3: return .title3
+        case .headline: return .headline
+        case .subheadline: return .subheadline
+        case .callout: return .callout
+        case .footnote: return .footnote
+        case .caption: return .caption1
+        case .caption2: return .caption2
+        default: return .body
         }
     }
 }

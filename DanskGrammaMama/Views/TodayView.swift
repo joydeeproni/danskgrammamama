@@ -6,6 +6,7 @@ struct TodayView: View {
     @Environment(ContentStore.self) private var content
     @Environment(ProgressStore.self) private var progress
     @Environment(FlashcardStore.self) private var flashcards
+    @Environment(VocabStore.self) private var vocab
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     @State private var showSettings = false
@@ -281,19 +282,19 @@ struct TodayView: View {
                 }
                 Text("prøvesæt").font(.ui(12, relativeTo: .caption)).foregroundStyle(Theme.pencil)
             }
-            sideStack(.words, seed: 9, sheets: min(max(flashcards.cards.count / 5, 1), 6), order: 3) {
-                let shown = flashcards.cards.reduce(0) { $0 + $1.timesShown }
-                let known = flashcards.cards.reduce(0) { $0 + $1.timesKnown }
+            sideStack(.words, seed: 9, sheets: 5, order: 3) {
+                let learned = vocab.totalLearned, total = vocab.totalCount
+                let due = VocabDeck.allCases.map { vocab.due($0).count }.reduce(0, +)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(shown == 0 ? "ikke øvet" : "\(Int((Double(known) / Double(shown) * 100).rounded())) % kunne")
+                    Text(due > 0 ? "\(due) til i dag" : "\(total) kort")
                         .font(.ui(12, .semibold, relativeTo: .caption).monospacedDigit())
-                        .foregroundStyle(Theme.pencil)
-                    Meter(value: shown == 0 ? 0 : Double(known) / Double(shown), height: 6)
+                        .foregroundStyle(due > 0 ? Theme.redText : Theme.pencil)
+                    Meter(value: total == 0 ? 0 : Double(learned) / Double(total), height: 6)
                 }
                 .frame(height: 40, alignment: .bottom)
                 Spacer(minLength: 12)
-                bigNumber("\(flashcards.cards.count)", unit: "")
-                Text("gemte ord").font(.ui(12, relativeTo: .caption)).foregroundStyle(Theme.pencil)
+                bigNumber("\(learned)", unit: "")
+                Text("ord lært").font(.ui(12, relativeTo: .caption)).foregroundStyle(Theme.pencil)
             }
         }
         .foregroundStyle(Theme.ink)

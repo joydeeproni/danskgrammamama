@@ -16,6 +16,11 @@ plus the formal register the written exam rewards.
   next to the right one.
 - **Tap any word** in an exercise to see what it means. Underlined words are the ones
   the app can explain. Keeping a word adds it to your word diary.
+- **Four vocabulary decks under Ord** for B2–C2, with spaced repetition (a card you know
+  comes back after 1, 3, 7, 14, 30 and 90 days): about 2,000 words (verbs, adjectives and
+  small words; no nouns, no beginner words), 1,000 phrases for speaking and writing,
+  1,000 faste forbindelser and 1,000 udtryk. Built from `scripts/vocab_parts` with
+  `scripts/build_vocab.py`, checked with `scripts/validate_vocab.py`.
 - **Flashcards and a home-screen widget** built from the words you kept. The widget
   shows a new word every hour with a button that reveals the meaning.
 - **How to crack this topic**: each topic has a guide with the rules, a usable exam
@@ -28,8 +33,8 @@ plus the formal register the written exam rewards.
   and new questions. No tabs: Today is the top card of a deck; topics, words and this
   week's mock paper and writing task are smaller stacks beside it.
 - **Per-topic readiness, streak**, and a timed 20-question mock paper.
-- **Light and dark mode**, set in Settings or following the system. Type is Schibsted
-  Grotesk and Source Serif 4 (SIL Open Font License, in `Resources/Fonts`).
+- **Light and dark mode**, set in Settings or following the system. Type is the system
+  fonts: SF Pro for the interface, New York for Danish text.
 - **Writing practice** checked offline by grammar rules and, where the device
   supports it, by Apple's on-device model. Nothing leaves the phone.
 

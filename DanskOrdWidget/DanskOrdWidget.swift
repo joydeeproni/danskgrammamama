@@ -78,58 +78,110 @@ struct WordProvider: TimelineProvider {
 
 // MARK: - Views
 
+/// The app's "Stak" look on the home screen: paper, ink, one PD3 red, system fonts.
+private enum Paper {
+    static let surface = Color(light: 0xFCFCFA, dark: 0x1C1C1E)
+    static let ink = Color(light: 0x1B211F, dark: 0xF2F2F7)
+    static let pencil = Color(light: 0x5C635F, dark: 0x98989F)
+    static let rule = Color(light: 0x1B211F, dark: 0xF2F2F7, alpha: 0.14)
+    static let red = Color(light: 0xC8102E, dark: 0xD7263F)
+    static let buttonText = Color(light: 0xFFFFFF, dark: 0x000000)
+}
+
+private extension Color {
+    init(light: UInt32, dark: UInt32, alpha: CGFloat = 1) {
+        func ui(_ hex: UInt32) -> UIColor {
+            UIColor(red: CGFloat((hex >> 16) & 0xFF) / 255, green: CGFloat((hex >> 8) & 0xFF) / 255,
+                    blue: CGFloat(hex & 0xFF) / 255, alpha: alpha)
+        }
+        self.init(uiColor: UIColor { $0.userInterfaceStyle == .dark ? ui(dark) : ui(light) })
+    }
+}
+
 struct DanskOrdWidgetView: View {
     var entry: WordEntry
     @Environment(\.widgetFamily) private var family
 
+    private var small: Bool { family == .systemSmall }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: family == .systemSmall ? 6 : 8) {
-            HStack(spacing: 4) {
-                Image(systemName: "character.book.closed").font(.caption2)
-                Text(entry.isStarter ? "Dansk" : "Dine ord").font(.caption2.weight(.semibold))
-                Spacer()
+        VStack(alignment: .leading, spacing: small ? 4 : 6) {
+            HStack(spacing: 6) {
+                Text("PD3")
+                    .font(.system(size: 10, weight: .heavy))
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 4).padding(.vertical, 1)
+                    .background(Paper.red, in: RoundedRectangle(cornerRadius: 3, style: .continuous))
+                Text(entry.isStarter ? "Dagens ord" : "Dine ord")
+                    .font(.system(size: 12, weight: .semibold))
+                    .foregroundStyle(Paper.pencil)
+                Spacer(minLength: 0)
                 if entry.total > 0 && !entry.isStarter {
-                    Text("\(entry.total)").font(.caption2.monospacedDigit())
+                    Text("\(entry.total)")
+                        .font(.system(size: 12, weight: .semibold).monospacedDigit())
+                        .foregroundStyle(Paper.pencil)
                 }
             }
-            .foregroundStyle(.secondary)
+            .padding(.bottom, small ? 2 : 4)
 
             Text(entry.card.word)
-                .font(.system(size: family == .systemSmall ? 22 : 28, weight: .semibold, design: .serif))
+                .font(.system(size: small ? 24 : 30, weight: .semibold, design: .serif))
+                .foregroundStyle(Paper.ink)
                 .minimumScaleFactor(0.6)
                 .lineLimit(2)
 
             if entry.revealed {
                 Text(entry.card.meaning)
-                    .font(family == .systemSmall ? .caption : .subheadline)
-                    .foregroundStyle(Color.accentColor)
-                    .lineLimit(family == .systemSmall ? 3 : 2)
-                if family != .systemSmall, let p = entry.card.paradigm, !p.isEmpty {
-                    Text(p).font(.caption2).foregroundStyle(.secondary).lineLimit(1)
+                    .font(.system(size: small ? 14 : 16, weight: .bold))
+                    .foregroundStyle(Paper.ink)
+                    .lineLimit(small ? 3 : 2)
+                if !small, let p = entry.card.paradigm, !p.isEmpty {
+                    Text(p)
+                        .font(.system(size: 13, design: .serif))
+                        .foregroundStyle(Paper.pencil)
+                        .lineLimit(1)
                 }
-                if family == .systemLarge {
+                if family == .systemLarge, !entry.card.context.isEmpty {
                     Text(entry.card.context)
-                        .font(.footnote).foregroundStyle(.secondary)
-                        .lineLimit(3)
+                        .font(.system(size: 14, design: .serif))
+                        .foregroundStyle(Paper.pencil)
+                        .lineLimit(4)
+                        .padding(.top, 4)
                 }
             } else if !entry.card.subtitle.isEmpty {
                 Text(entry.card.subtitle)
-                    .font(.caption2).foregroundStyle(.secondary).lineLimit(1)
+                    .font(.system(size: 12))
+                    .foregroundStyle(Paper.pencil)
+                    .lineLimit(1)
             }
 
             Spacer(minLength: 0)
 
+            Line()
+                .stroke(Paper.rule, style: StrokeStyle(lineWidth: 1.2, lineCap: .round, dash: [0.1, 4.5]))
+                .frame(height: 1)
+                .padding(.bottom, small ? 6 : 8)
+
             Button(intent: RevealMeaningIntent(cardID: entry.card.id)) {
                 Text(entry.revealed ? "Skjul" : "Vis betydning")
-                    .font(.caption.weight(.semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 6)
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundStyle(Paper.buttonText)
+                    .frame(maxWidth: .infinity, minHeight: 30)
+                    .background(Paper.ink, in: Capsule())
             }
-            .buttonStyle(.borderedProminent)
-            .tint(Color.accentColor)
+            .buttonStyle(.plain)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .containerBackground(.fill.tertiary, for: .widget)
+        .containerBackground(Paper.surface, for: .widget)
+    }
+}
+
+private struct Line: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { p in
+            p.move(to: CGPoint(x: 0, y: rect.midY))
+            p.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+        }
     }
 }
 

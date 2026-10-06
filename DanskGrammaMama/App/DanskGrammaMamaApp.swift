@@ -6,10 +6,7 @@ struct DanskGrammaMamaApp: App {
     @State private var progress = ProgressStore()
     @State private var glossary = Glossary()
     @State private var flashcards = FlashcardStore()
-
-    init() {
-        FontRegistry.register()
-    }
+    @State private var vocab = VocabStore()
 
     var body: some Scene {
         WindowGroup {
@@ -18,6 +15,7 @@ struct DanskGrammaMamaApp: App {
                 .environment(progress)
                 .environment(glossary)
                 .environment(flashcards)
+                .environment(vocab)
         }
     }
 }

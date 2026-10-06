@@ -1,0 +1,4421 @@
+{
+ "deck": "words",
+ "items": [
+  {
+   "da": "imidlertid",
+   "en": "however; meanwhile (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 20011,
+   "level": "C1",
+   "example": {
+    "da": "Undersøgelsen viser imidlertid, at mange unge stadig ryger dagligt.",
+    "en": "The study shows, however, that many young people still smoke daily."
+   }
+  },
+  {
+   "da": "derimod",
+   "en": "on the other hand; by contrast",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6813,
+   "level": "B2",
+   "example": {
+    "da": "Huspriserne stiger i de store byer; på landet falder de derimod.",
+    "en": "House prices are rising in the big cities; in rural areas, by contrast, they are falling."
+   }
+  },
+  {
+   "da": "dermed",
+   "en": "thereby; thus; with that",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4893,
+   "level": "B2",
+   "example": {
+    "da": "Kommunen lukker to skoler og sparer dermed 12 millioner kroner om året.",
+    "en": "The municipality is closing two schools, thereby saving 12 million kroner a year."
+   }
+  },
+  {
+   "da": "desuden",
+   "en": "moreover; in addition; besides",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1702,
+   "level": "B2",
+   "example": {
+    "da": "Lejligheden ligger tæt på stationen, og desuden er der en stor have.",
+    "en": "The flat is close to the station, and moreover there is a large garden."
+   }
+  },
+  {
+   "da": "nemlig",
+   "en": "namely; you see; as it happens",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 837,
+   "level": "B2",
+   "example": {
+    "da": "Jeg kan ikke komme til mødet i morgen, jeg skal nemlig til lægen.",
+    "en": "I can't come to the meeting tomorrow – I have to go to the doctor, you see."
+   }
+  },
+  {
+   "da": "alligevel",
+   "en": "anyway; nevertheless; after all",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 524,
+   "level": "B2",
+   "example": {
+    "da": "Det regnede hele dagen, men vi gik alligevel en tur langs stranden.",
+    "en": "It rained all day, but we went for a walk along the beach anyway."
+   }
+  },
+  {
+   "da": "tilmed",
+   "en": "moreover; what's more; even",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8954,
+   "level": "C1",
+   "example": {
+    "da": "Jobbet er godt betalt og ligger tilmed tæt på, hvor vi bor.",
+    "en": "The job is well paid and, what's more, is close to where we live."
+   }
+  },
+  {
+   "da": "ydermere",
+   "en": "furthermore (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 27531,
+   "level": "C1",
+   "example": {
+    "da": "Projektet er forsinket, og ydermere er budgettet overskredet med ti procent.",
+    "en": "The project is delayed, and furthermore the budget has been exceeded by ten percent."
+   }
+  },
+  {
+   "da": "således",
+   "en": "thus; in this way; accordingly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4661,
+   "level": "B2",
+   "example": {
+    "da": "Antallet af elever er således steget med 15 procent siden 2020.",
+    "en": "The number of pupils has thus risen by 15 percent since 2020."
+   }
+  },
+  {
+   "da": "følgelig",
+   "en": "consequently; accordingly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Virksomheden mistede sin største kunde og måtte følgelig afskedige 40 medarbejdere.",
+    "en": "The company lost its biggest customer and consequently had to lay off 40 employees."
+   }
+  },
+  {
+   "da": "omvendt",
+   "en": "conversely; the other way round",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3300,
+   "level": "B2",
+   "example": {
+    "da": "Nogle elever trives med lektier, mens andre omvendt bliver stressede af dem.",
+    "en": "Some pupils thrive on homework, while others, conversely, get stressed by it."
+   }
+  },
+  {
+   "da": "tværtimod",
+   "en": "on the contrary",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6343,
+   "level": "B2",
+   "example": {
+    "da": "Krisen har ikke svækket virksomheden – tværtimod er salget steget.",
+    "en": "The crisis has not weakened the company – on the contrary, sales have risen."
+   }
+  },
+  {
+   "da": "endvidere",
+   "en": "furthermore; in addition (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 36017,
+   "level": "C1",
+   "example": {
+    "da": "Endvidere skal ansøgeren kunne dokumentere mindst to års erhvervserfaring.",
+    "en": "Furthermore, the applicant must be able to document at least two years of work experience."
+   }
+  },
+  {
+   "da": "derudover",
+   "en": "in addition; apart from that",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10594,
+   "level": "B2",
+   "example": {
+    "da": "Derudover får alle medarbejdere en frokostordning og et gratis fitnessabonnement.",
+    "en": "In addition, all employees get a lunch scheme and a free gym membership."
+   }
+  },
+  {
+   "da": "herudover",
+   "en": "in addition to this",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Herudover har kommunen afsat fem millioner kroner til bedre cykelstier.",
+    "en": "In addition to this, the municipality has set aside five million kroner for better cycle paths."
+   }
+  },
+  {
+   "da": "dog",
+   "en": "however; though; yet",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 425,
+   "level": "B2",
+   "example": {
+    "da": "Der er dog stadig ledige pladser på danskkurset i efteråret.",
+    "en": "There are, however, still places available on the Danish course in the autumn."
+   }
+  },
+  {
+   "da": "hermed",
+   "en": "herewith; hereby; with this",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3865,
+   "level": "C1",
+   "example": {
+    "da": "Hermed sender jeg min ansøgning til stillingen som pædagog.",
+    "en": "Herewith I am sending my application for the position of pedagogue."
+   }
+  },
+  {
+   "da": "herved",
+   "en": "hereby; by this means",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 31107,
+   "level": "C1",
+   "example": {
+    "da": "Herved bekræftes det, at du er optaget på uddannelsen fra 1. september.",
+    "en": "This hereby confirms that you have been admitted to the programme from 1 September."
+   }
+  },
+  {
+   "da": "derved",
+   "en": "thereby; as a result",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11615,
+   "level": "C1",
+   "example": {
+    "da": "Byen har udvidet busnettet og derved mindsket trafikken i centrum.",
+    "en": "The city has expanded the bus network and thereby reduced traffic in the centre."
+   }
+  },
+  {
+   "da": "hertil",
+   "en": "to this; in addition to this; so far",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 737,
+   "level": "C1",
+   "example": {
+    "da": "Hertil kommer udgifter til transport og forsikring.",
+    "en": "On top of this come costs for transport and insurance."
+   }
+  },
+  {
+   "da": "dertil",
+   "en": "in addition to that; to that; there",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2101,
+   "level": "C1",
+   "example": {
+    "da": "Lønnen er rimelig, og dertil kommer en årlig bonus.",
+    "en": "The salary is reasonable, and on top of that comes an annual bonus."
+   }
+  },
+  {
+   "da": "heraf",
+   "en": "of these; of which; from this",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 20803,
+   "level": "C1",
+   "example": {
+    "da": "Kommunen har 400 ansatte, heraf 180 på deltid.",
+    "en": "The municipality has 400 employees, 180 of them part-time."
+   }
+  },
+  {
+   "da": "deraf",
+   "en": "from that; hence; of it",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11983,
+   "level": "C1",
+   "example": {
+    "da": "Mange ansatte arbejder over hver uge, og deraf kommer meget af stressen.",
+    "en": "Many employees work overtime every week, and that is where much of the stress comes from."
+   }
+  },
+  {
+   "da": "herefter",
+   "en": "after this; from now on",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 14725,
+   "level": "B2",
+   "example": {
+    "da": "Herefter skal alle borgere bruge MitID for at logge på.",
+    "en": "From now on, all citizens must use MitID to log in."
+   }
+  },
+  {
+   "da": "derefter",
+   "en": "after that; then",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1308,
+   "level": "B2",
+   "example": {
+    "da": "Først afleverede jeg børnene i skole, og derefter cyklede jeg på arbejde.",
+    "en": "First I dropped the children off at school, and after that I cycled to work."
+   }
+  },
+  {
+   "da": "hidtil",
+   "en": "until now; so far; hitherto",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6162,
+   "level": "B2",
+   "example": {
+    "da": "Hidtil har kun få virksomheder ansat flygtninge gennem ordningen.",
+    "en": "Until now, only a few companies have hired refugees through the scheme."
+   }
+  },
+  {
+   "da": "herunder",
+   "en": "including; below",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11568,
+   "level": "C1",
+   "example": {
+    "da": "Prisen dækker alle udgifter, herunder transport, ophold og forplejning.",
+    "en": "The price covers all expenses, including transport, accommodation and meals."
+   }
+  },
+  {
+   "da": "hvorved",
+   "en": "whereby; by which",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 31073,
+   "level": "C1",
+   "example": {
+    "da": "Der blev indført en ny ordning, hvorved ventetiden blev halveret.",
+    "en": "A new scheme was introduced, whereby the waiting time was halved."
+   }
+  },
+  {
+   "da": "hvoraf",
+   "en": "of which; of whom",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 15920,
+   "level": "C1",
+   "example": {
+    "da": "Der var 200 ansøgere, hvoraf kun ti blev indkaldt til samtale.",
+    "en": "There were 200 applicants, of whom only ten were called in for an interview."
+   }
+  },
+  {
+   "da": "hvorefter",
+   "en": "after which; whereupon",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11954,
+   "level": "C1",
+   "example": {
+    "da": "Mødet sluttede klokken 15, hvorefter vi gik ud og spiste.",
+    "en": "The meeting ended at 3 pm, after which we went out to eat."
+   }
+  },
+  {
+   "da": "ligeledes",
+   "en": "likewise; also",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13769,
+   "level": "C1",
+   "example": {
+    "da": "Sygeplejerskerne strejker, og jordemødrene har ligeledes varslet strejke.",
+    "en": "The nurses are on strike, and the midwives have likewise given notice of a strike."
+   }
+  },
+  {
+   "da": "tillige",
+   "en": "also; in addition (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 45144,
+   "level": "C1",
+   "example": {
+    "da": "Hun er uddannet sygeplejerske og har tillige en master i sundhedsledelse.",
+    "en": "She is a trained nurse and also has a master's in health management."
+   }
+  },
+  {
+   "da": "dels",
+   "en": "partly (dels … dels = partly … partly)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 12858,
+   "level": "B2",
+   "example": {
+    "da": "Prisstigningerne skyldes dels højere energipriser, dels mangel på arbejdskraft.",
+    "en": "The price rises are due partly to higher energy prices and partly to a labour shortage."
+   }
+  },
+  {
+   "da": "henholdsvis",
+   "en": "respectively",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Hun og hendes mand arbejder henholdsvis på hospitalet og på rådhuset.",
+    "en": "She and her husband work at the hospital and at the town hall, respectively."
+   }
+  },
+  {
+   "da": "eventuelt",
+   "en": "possibly; if necessary; optionally",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13923,
+   "level": "B2",
+   "example": {
+    "da": "Skriv eventuelt dit telefonnummer, så vi kan ringe til dig.",
+    "en": "You may want to write your phone number so that we can call you."
+   }
+  },
+  {
+   "da": "muligvis",
+   "en": "possibly; perhaps",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1717,
+   "level": "B2",
+   "example": {
+    "da": "Toget er muligvis forsinket på grund af sporarbejde ved Odense.",
+    "en": "The train may possibly be delayed because of track work near Odense."
+   }
+  },
+  {
+   "da": "sandsynligvis",
+   "en": "probably; most likely",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2725,
+   "level": "B2",
+   "example": {
+    "da": "Renten stiger sandsynligvis igen i løbet af foråret.",
+    "en": "Interest rates will probably rise again during the spring."
+   }
+  },
+  {
+   "da": "formentlig",
+   "en": "presumably; probably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3791,
+   "level": "B2",
+   "example": {
+    "da": "Den nye bro bliver formentlig først færdig i 2028.",
+    "en": "The new bridge will presumably not be finished until 2028."
+   }
+  },
+  {
+   "da": "formodentlig",
+   "en": "presumably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8914,
+   "level": "C1",
+   "example": {
+    "da": "Ulykken skyldtes formodentlig glatte veje og for høj fart.",
+    "en": "The accident was presumably caused by slippery roads and excessive speed."
+   }
+  },
+  {
+   "da": "antageligvis",
+   "en": "presumably; supposedly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Antageligvis vil flere ældre bo alene i fremtiden.",
+    "en": "Presumably more older people will live alone in the future."
+   }
+  },
+  {
+   "da": "angiveligt",
+   "en": "allegedly; reportedly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10502,
+   "level": "C1",
+   "example": {
+    "da": "Ministeren har angiveligt kendt til problemerne i flere måneder.",
+    "en": "The minister has allegedly known about the problems for several months."
+   }
+  },
+  {
+   "da": "tilsyneladende",
+   "en": "apparently; seemingly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3036,
+   "level": "B2",
+   "example": {
+    "da": "Tilsyneladende har ingen opdaget fejlen i budgettet før nu.",
+    "en": "Apparently nobody discovered the error in the budget until now."
+   }
+  },
+  {
+   "da": "øjensynlig",
+   "en": "evidently; apparently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 32367,
+   "level": "C1",
+   "example": {
+    "da": "Han var øjensynlig ikke klar over, at mødet var aflyst.",
+    "en": "He was evidently not aware that the meeting had been cancelled."
+   }
+  },
+  {
+   "da": "åbenbart",
+   "en": "apparently; evidently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1153,
+   "level": "B2",
+   "example": {
+    "da": "Der er åbenbart ikke penge nok til at holde biblioteket åbent.",
+    "en": "There is apparently not enough money to keep the library open."
+   }
+  },
+  {
+   "da": "tydeligvis",
+   "en": "clearly; evidently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2079,
+   "level": "C1",
+   "example": {
+    "da": "Medarbejderne var tydeligvis trætte efter flere måneders overarbejde.",
+    "en": "The staff were clearly tired after several months of overtime."
+   }
+  },
+  {
+   "da": "givetvis",
+   "en": "undoubtedly; no doubt",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 35550,
+   "level": "C1",
+   "example": {
+    "da": "Den nye lov vil givetvis få betydning for mange lejere.",
+    "en": "The new law will undoubtedly have consequences for many tenants."
+   }
+  },
+  {
+   "da": "utvivlsomt",
+   "en": "undoubtedly; without doubt",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11571,
+   "level": "C1",
+   "example": {
+    "da": "Klimaforandringerne er utvivlsomt en af tidens største udfordringer.",
+    "en": "Climate change is undoubtedly one of the greatest challenges of our time."
+   }
+  },
+  {
+   "da": "unægtelig",
+   "en": "undeniably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Det er unægtelig dyrt at bo i det centrale København.",
+    "en": "It is undeniably expensive to live in central Copenhagen."
+   }
+  },
+  {
+   "da": "forhåbentlig",
+   "en": "hopefully",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2680,
+   "level": "B2",
+   "example": {
+    "da": "Forhåbentlig bliver ventetiden på en operation kortere næste år.",
+    "en": "Hopefully the waiting time for an operation will be shorter next year."
+   }
+  },
+  {
+   "da": "uheldigvis",
+   "en": "unfortunately; unluckily",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 9036,
+   "level": "B2",
+   "example": {
+    "da": "Uheldigvis blev min cykel stjålet lige uden for stationen.",
+    "en": "Unfortunately, my bike was stolen right outside the station."
+   }
+  },
+  {
+   "da": "beklageligvis",
+   "en": "regrettably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 24453,
+   "level": "C1",
+   "example": {
+    "da": "Beklageligvis må vi aflyse arrangementet på grund af sygdom.",
+    "en": "Regrettably, we have to cancel the event due to illness."
+   }
+  },
+  {
+   "da": "naturligvis",
+   "en": "naturally; of course",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 924,
+   "level": "B2",
+   "example": {
+    "da": "Alle medarbejdere skal naturligvis overholde reglerne om tavshedspligt.",
+    "en": "All employees must of course comply with the rules on confidentiality."
+   }
+  },
+  {
+   "da": "selvsagt",
+   "en": "needless to say; obviously",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 33420,
+   "level": "C1",
+   "example": {
+    "da": "En så stor beslutning kræver selvsagt grundig forberedelse.",
+    "en": "Such a big decision obviously requires thorough preparation."
+   }
+  },
+  {
+   "da": "nødvendigvis",
+   "en": "necessarily",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5184,
+   "level": "B2",
+   "example": {
+    "da": "Et højt uddannelsesniveau betyder ikke nødvendigvis en høj løn.",
+    "en": "A high level of education does not necessarily mean a high salary."
+   }
+  },
+  {
+   "da": "tilfældigvis",
+   "en": "by chance; happen to",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3878,
+   "level": "B2",
+   "example": {
+    "da": "Jeg mødte tilfældigvis min gamle chef i supermarkedet i går.",
+    "en": "I happened to meet my old boss in the supermarket yesterday."
+   }
+  },
+  {
+   "da": "rimeligvis",
+   "en": "in all likelihood; presumably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Rimeligvis vil priserne falde, når efterspørgslen bliver mindre.",
+    "en": "In all likelihood, prices will fall when demand drops."
+   }
+  },
+  {
+   "da": "forståeligvis",
+   "en": "understandably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Forældrene var forståeligvis vrede over, at skolen lukkede uden varsel.",
+    "en": "The parents were understandably angry that the school closed without notice."
+   }
+  },
+  {
+   "da": "mærkværdigvis",
+   "en": "strangely; oddly enough",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Mærkværdigvis var der næsten ingen kø på skadestuen i går aftes.",
+    "en": "Strangely, there was almost no queue at A&E last night."
+   }
+  },
+  {
+   "da": "bemærkelsesværdigvis",
+   "en": "remarkably; notably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Bemærkelsesværdigvis stemte flere borgerlige partier for forslaget.",
+    "en": "Remarkably, several centre-right parties voted for the proposal."
+   }
+  },
+  {
+   "da": "retfærdigvis",
+   "en": "in fairness; to be fair",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Retfærdigvis skal det siges, at kommunen har forbedret sin service.",
+    "en": "To be fair, it must be said that the municipality has improved its service."
+   }
+  },
+  {
+   "da": "sædvanligvis",
+   "en": "usually",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 22442,
+   "level": "B2",
+   "example": {
+    "da": "Jeg tager sædvanligvis toget, men i dag kørte jeg i bil.",
+    "en": "I usually take the train, but today I drove."
+   }
+  },
+  {
+   "da": "normalvis",
+   "en": "normally; as a rule",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "B2",
+   "example": {
+    "da": "Normalvis får man svar fra kommunen inden for fire uger.",
+    "en": "Normally you get a reply from the municipality within four weeks."
+   }
+  },
+  {
+   "da": "almindeligvis",
+   "en": "generally; usually",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 46874,
+   "level": "C1",
+   "example": {
+    "da": "Almindeligvis dækker forsikringen ikke skader, der skyldes slid.",
+    "en": "As a rule, the insurance does not cover damage caused by wear and tear."
+   }
+  },
+  {
+   "da": "eksempelvis",
+   "en": "for example; for instance",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 22134,
+   "level": "B2",
+   "example": {
+    "da": "Mange ældre har svært ved digitale løsninger som eksempelvis netbank.",
+    "en": "Many older people struggle with digital solutions such as, for example, online banking."
+   }
+  },
+  {
+   "da": "især",
+   "en": "especially; particularly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1158,
+   "level": "B2",
+   "example": {
+    "da": "Især unge kvinder fortæller, at de føler sig stressede.",
+    "en": "Young women in particular say that they feel stressed."
+   }
+  },
+  {
+   "da": "navnlig",
+   "en": "particularly; notably",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 33971,
+   "level": "C1",
+   "example": {
+    "da": "Problemet er navnlig stort i yderområderne, hvor der mangler læger.",
+    "en": "The problem is particularly big in outlying areas, where there is a shortage of doctors."
+   }
+  },
+  {
+   "da": "hovedsageligt",
+   "en": "mainly; mostly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 17234,
+   "level": "B2",
+   "example": {
+    "da": "Kunderne er hovedsageligt små og mellemstore virksomheder.",
+    "en": "The customers are mainly small and medium-sized businesses."
+   }
+  },
+  {
+   "da": "fortrinsvis",
+   "en": "preferably; mainly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Vi søger en medarbejder, fortrinsvis med erfaring fra den offentlige sektor.",
+    "en": "We are looking for an employee, preferably with experience from the public sector."
+   }
+  },
+  {
+   "da": "udelukkende",
+   "en": "exclusively; solely",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6599,
+   "level": "B2",
+   "example": {
+    "da": "Butikken sælger udelukkende økologiske og lokalt producerede varer.",
+    "en": "The shop sells exclusively organic and locally produced goods."
+   }
+  },
+  {
+   "da": "blot",
+   "en": "just; merely; only",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 708,
+   "level": "B2",
+   "example": {
+    "da": "Det tager blot fem minutter at udfylde spørgeskemaet.",
+    "en": "It takes just five minutes to fill in the questionnaire."
+   }
+  },
+  {
+   "da": "netop",
+   "en": "precisely; exactly; just",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 879,
+   "level": "B2",
+   "example": {
+    "da": "Det er netop derfor, at vi har brug for flere sygeplejersker.",
+    "en": "That is precisely why we need more nurses."
+   }
+  },
+  {
+   "da": "just",
+   "en": "exactly (mostly: ikke just = not exactly)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3869,
+   "level": "C1",
+   "example": {
+    "da": "Det er ikke just billigt at gå til tandlæge i Danmark.",
+    "en": "It is not exactly cheap to go to the dentist in Denmark."
+   }
+  },
+  {
+   "da": "akkurat",
+   "en": "exactly; just",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11272,
+   "level": "C1",
+   "example": {
+    "da": "Vi nåede akkurat toget, inden dørene lukkede.",
+    "en": "We only just caught the train before the doors closed."
+   }
+  },
+  {
+   "da": "endda",
+   "en": "even",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1151,
+   "level": "B2",
+   "example": {
+    "da": "Nogle familier bruger endda halvdelen af deres indkomst på husleje.",
+    "en": "Some families even spend half their income on rent."
+   }
+  },
+  {
+   "da": "endog",
+   "en": "even (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 17544,
+   "level": "C1",
+   "example": {
+    "da": "Reformen blev kritiseret endog af regeringens egne støttepartier.",
+    "en": "The reform was criticised even by the government's own support parties."
+   }
+  },
+  {
+   "da": "sågar",
+   "en": "even",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 7537,
+   "level": "C1",
+   "example": {
+    "da": "Han cykler på arbejde hver dag, sågar når det sner.",
+    "en": "He cycles to work every day, even when it snows."
+   }
+  },
+  {
+   "da": "ligefrem",
+   "en": "downright; actually; positively",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2320,
+   "level": "C1",
+   "example": {
+    "da": "Nogle beboere var ligefrem vrede over den nye parkeringsordning.",
+    "en": "Some residents were downright angry about the new parking scheme."
+   }
+  },
+  {
+   "da": "nærmest",
+   "en": "almost; practically; more or less",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2529,
+   "level": "B2",
+   "example": {
+    "da": "Det er nærmest umuligt at finde en ledig lejlighed i Aarhus.",
+    "en": "It is practically impossible to find a vacant flat in Aarhus."
+   }
+  },
+  {
+   "da": "snarere",
+   "en": "rather",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3487,
+   "level": "C1",
+   "example": {
+    "da": "Problemet er ikke mangel på penge, men snarere mangel på personale.",
+    "en": "The problem is not a lack of money but rather a lack of staff."
+   }
+  },
+  {
+   "da": "rettere",
+   "en": "rather (correcting oneself)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11037,
+   "level": "C1",
+   "example": {
+    "da": "Mødet er på fredag – eller rettere torsdag, undskyld.",
+    "en": "The meeting is on Friday – or rather Thursday, sorry."
+   }
+  },
+  {
+   "da": "nærmere",
+   "en": "more closely; in more detail",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1501,
+   "level": "B2",
+   "example": {
+    "da": "Kommunen vil undersøge sagen nærmere, inden der træffes en beslutning.",
+    "en": "The municipality will look into the matter more closely before a decision is made."
+   }
+  },
+  {
+   "da": "ergo",
+   "en": "ergo; therefore",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13929,
+   "level": "C1",
+   "example": {
+    "da": "Der er færre børn i området, ergo skal der bruges færre skolepladser.",
+    "en": "There are fewer children in the area, so fewer school places are needed."
+   }
+  },
+  {
+   "da": "desuagtet",
+   "en": "nevertheless; notwithstanding",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Kritikken var massiv; desuagtet fastholdt ministeren sit forslag.",
+    "en": "The criticism was massive; nevertheless, the minister stood by his proposal."
+   }
+  },
+  {
+   "da": "rigtignok",
+   "en": "admittedly; indeed",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 47529,
+   "level": "C1",
+   "example": {
+    "da": "Lønnen er rigtignok lav, men arbejdstiderne er til gengæld fleksible.",
+    "en": "The pay is admittedly low, but the working hours are flexible."
+   }
+  },
+  {
+   "da": "forresten",
+   "en": "by the way",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2524,
+   "level": "B2",
+   "example": {
+    "da": "Har du forresten husket at betale regningen for vuggestuen?",
+    "en": "By the way, have you remembered to pay the nursery bill?"
+   }
+  },
+  {
+   "da": "apropos",
+   "en": "speaking of; by the way",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4110,
+   "level": "C1",
+   "example": {
+    "da": "Apropos ferie, har I besluttet, hvor I skal hen i sommer?",
+    "en": "Speaking of holidays, have you decided where you are going this summer?"
+   }
+  },
+  {
+   "da": "dernæst",
+   "en": "next; then; secondly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10662,
+   "level": "B2",
+   "example": {
+    "da": "Først skal du have et CPR-nummer, og dernæst kan du åbne en bankkonto.",
+    "en": "First you need a CPR number, and next you can open a bank account."
+   }
+  },
+  {
+   "da": "indledningsvis",
+   "en": "to begin with; by way of introduction",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Indledningsvis vil jeg gerne takke alle for at være mødt op i aften.",
+    "en": "To begin with, I would like to thank everyone for coming tonight."
+   }
+  },
+  {
+   "da": "afslutningsvis",
+   "en": "finally; in conclusion",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "B2",
+   "example": {
+    "da": "Afslutningsvis vil jeg understrege, at vi alle har et ansvar for klimaet.",
+    "en": "In conclusion, I want to stress that we all have a responsibility for the climate."
+   }
+  },
+  {
+   "da": "sluttelig",
+   "en": "finally; lastly (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Sluttelig skal det nævnes, at projektet er støttet af EU.",
+    "en": "Finally, it should be mentioned that the project is supported by the EU."
+   }
+  },
+  {
+   "da": "samtidig",
+   "en": "at the same time; simultaneously",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2658,
+   "level": "B2",
+   "example": {
+    "da": "Vi skal spare på energien og samtidig sikre et godt indeklima.",
+    "en": "We must save energy and at the same time ensure a good indoor climate."
+   }
+  },
+  {
+   "da": "sideløbende",
+   "en": "in parallel; alongside",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Mange studerende har et studiejob sideløbende med uddannelsen.",
+    "en": "Many students have a part-time job alongside their studies."
+   }
+  },
+  {
+   "da": "imens",
+   "en": "meanwhile; in the meantime",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2526,
+   "level": "B2",
+   "example": {
+    "da": "Jeg laver aftensmad, og imens kan du hjælpe børnene med lektierne.",
+    "en": "I'll make dinner, and meanwhile you can help the children with their homework."
+   }
+  },
+  {
+   "da": "vel",
+   "en": "presumably; surely; I suppose",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 176,
+   "level": "B2",
+   "example": {
+    "da": "Du har vel hørt, at kantinen lukker til sommer?",
+    "en": "I suppose you've heard that the canteen is closing this summer?"
+   }
+  },
+  {
+   "da": "vist",
+   "en": "apparently; I think (modal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 251,
+   "level": "B2",
+   "example": {
+    "da": "Der er vist ingen, der har lyst til at arbejde i julen.",
+    "en": "Apparently nobody wants to work over Christmas."
+   }
+  },
+  {
+   "da": "vistnok",
+   "en": "I believe; reportedly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 17867,
+   "level": "C1",
+   "example": {
+    "da": "Den nye direktør kommer vistnok fra en stor medicinalvirksomhed.",
+    "en": "The new director reportedly comes from a large pharmaceutical company."
+   }
+  },
+  {
+   "da": "mon",
+   "en": "I wonder (whether)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1065,
+   "level": "B2",
+   "example": {
+    "da": "Mon toget kører, når det sner så meget?",
+    "en": "I wonder if the train is running when it snows this much."
+   }
+  },
+  {
+   "da": "desforuden",
+   "en": "besides; in addition",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Lejligheden har altan, og desforuden følger der et kælderrum med.",
+    "en": "The flat has a balcony, and in addition a cellar storage room comes with it."
+   }
+  },
+  {
+   "da": "desårsag",
+   "en": "for that reason",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Toget var aflyst, og desårsag kom jeg for sent til eksamen.",
+    "en": "The train was cancelled, and for that reason I was late for the exam."
+   }
+  },
+  {
+   "da": "altså",
+   "en": "so; that is; I mean (discourse)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 294,
+   "level": "B2",
+   "example": {
+    "da": "Mødet er altså flyttet til torsdag, ikke fredag.",
+    "en": "So the meeting has been moved to Thursday, not Friday."
+   }
+  },
+  {
+   "da": "ellers",
+   "en": "otherwise; or else; apart from that",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 255,
+   "level": "B2",
+   "example": {
+    "da": "Husk at betale regningen i tide, ellers kommer der et rykkergebyr.",
+    "en": "Remember to pay the bill on time, otherwise there will be a reminder fee."
+   }
+  },
+  {
+   "da": "skam",
+   "en": "really; I assure you (modal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1079,
+   "level": "C1",
+   "example": {
+    "da": "Det er skam ikke så svært at søge om boligstøtte.",
+    "en": "It really isn't that hard to apply for housing benefit."
+   }
+  },
+  {
+   "da": "såmænd",
+   "en": "oh, just; actually; really (modal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10949,
+   "level": "C1",
+   "example": {
+    "da": "Jeg har såmænd bare været hjemme og slappet af hele weekenden.",
+    "en": "Oh, I've just been at home relaxing all weekend."
+   }
+  },
+  {
+   "da": "sørme",
+   "en": "indeed; really (surprise)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 9548,
+   "level": "C1",
+   "example": {
+    "da": "Det var sørme flot, at du bestod prøven i første forsøg.",
+    "en": "That really was impressive, passing the test at the first attempt."
+   }
+  },
+  {
+   "da": "sandelig",
+   "en": "truly; certainly; indeed",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3332,
+   "level": "C1",
+   "example": {
+    "da": "Det er sandelig ikke let at være nyuddannet på dagens arbejdsmarked.",
+    "en": "It is certainly not easy being a new graduate in today's job market."
+   }
+  },
+  {
+   "da": "minsandten",
+   "en": "indeed; would you believe it",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 19831,
+   "level": "C2",
+   "example": {
+    "da": "Der kom minsandten over 500 mennesker til borgermødet i går.",
+    "en": "Would you believe it, over 500 people came to the public meeting yesterday."
+   }
+  },
+  {
+   "da": "ganske",
+   "en": "quite; fairly; entirely",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1425,
+   "level": "B2",
+   "example": {
+    "da": "Det er ganske normalt at føle sig ensom, når man flytter til et nyt land.",
+    "en": "It is quite normal to feel lonely when you move to a new country."
+   }
+  },
+  {
+   "da": "temmelig",
+   "en": "rather; fairly; pretty",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2147,
+   "level": "B2",
+   "example": {
+    "da": "Lejligheden er temmelig lille, men den ligger meget centralt.",
+    "en": "The flat is rather small, but it is very central."
+   }
+  },
+  {
+   "da": "særdeles",
+   "en": "extremely; highly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 12104,
+   "level": "C1",
+   "example": {
+    "da": "Ansøgeren har særdeles gode kvalifikationer inden for IT og økonomi.",
+    "en": "The applicant has extremely good qualifications in IT and finance."
+   }
+  },
+  {
+   "da": "yderst",
+   "en": "extremely; exceedingly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2946,
+   "level": "C1",
+   "example": {
+    "da": "Det er yderst vigtigt, at alle følger de nye sikkerhedsregler.",
+    "en": "It is extremely important that everyone follows the new safety rules."
+   }
+  },
+  {
+   "da": "aldeles",
+   "en": "completely; utterly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 7902,
+   "level": "C1",
+   "example": {
+    "da": "Det er aldeles urimeligt, at pensionister skal betale mere i skat.",
+    "en": "It is utterly unreasonable that pensioners should pay more tax."
+   }
+  },
+  {
+   "da": "forholdsvis",
+   "en": "relatively; comparatively",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 24161,
+   "level": "B2",
+   "example": {
+    "da": "Det er forholdsvis billigt at tage toget, hvis man køber billet i god tid.",
+    "en": "It is relatively cheap to take the train if you buy a ticket in good time."
+   }
+  },
+  {
+   "da": "nogenlunde",
+   "en": "reasonably; more or less; fairly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 7614,
+   "level": "B2",
+   "example": {
+    "da": "Jeg kan nogenlunde forstå nyhederne, men jeg taler stadig langsomt.",
+    "en": "I can more or less understand the news, but I still speak slowly."
+   }
+  },
+  {
+   "da": "omtrent",
+   "en": "approximately; about",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6784,
+   "level": "B2",
+   "example": {
+    "da": "Det tager omtrent en halv time at cykle fra Valby til Nørrebro.",
+    "en": "It takes about half an hour to cycle from Valby to Nørrebro."
+   }
+  },
+  {
+   "da": "cirka",
+   "en": "approximately; about",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1899,
+   "level": "B2",
+   "example": {
+    "da": "Cirka hver tredje dansker dyrker mindre motion end anbefalet.",
+    "en": "About one in three Danes exercises less than recommended."
+   }
+  },
+  {
+   "da": "tilnærmelsesvis",
+   "en": "even remotely; approximately",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Lønnen er ikke tilnærmelsesvis nok til at forsørge en familie.",
+    "en": "The salary is not even remotely enough to support a family."
+   }
+  },
+  {
+   "da": "henved",
+   "en": "nearly; around (a number)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Der var henved 300 deltagere til konferencen om grøn omstilling.",
+    "en": "There were nearly 300 participants at the conference on the green transition."
+   }
+  },
+  {
+   "da": "næppe",
+   "en": "hardly; scarcely; probably not",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1588,
+   "level": "B2",
+   "example": {
+    "da": "Regeringen når næppe sit klimamål inden 2030.",
+    "en": "The government will hardly reach its climate target by 2030."
+   }
+  },
+  {
+   "da": "knap",
+   "en": "barely; just under",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1414,
+   "level": "B2",
+   "example": {
+    "da": "Knap halvdelen af de adspurgte mener, at skatten er for høj.",
+    "en": "Just under half of those asked think that taxes are too high."
+   }
+  },
+  {
+   "da": "slet",
+   "en": "at all (slet ikke = not at all)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 455,
+   "level": "B2",
+   "example": {
+    "da": "Mange unge læser slet ikke aviser længere.",
+    "en": "Many young people don't read newspapers at all anymore."
+   }
+  },
+  {
+   "da": "overhovedet",
+   "en": "at all; even",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 821,
+   "level": "B2",
+   "example": {
+    "da": "Er det overhovedet muligt at få en tid hos lægen i denne uge?",
+    "en": "Is it even possible to get an appointment with the doctor this week?"
+   }
+  },
+  {
+   "da": "ingenlunde",
+   "en": "by no means; not at all",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Sagen er ingenlunde afgjort, selvom mange tror det.",
+    "en": "The matter is by no means settled, although many people think so."
+   }
+  },
+  {
+   "da": "langtfra",
+   "en": "far from; by no means",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 17499,
+   "level": "C1",
+   "example": {
+    "da": "Langtfra alle borgere kender deres rettigheder over for kommunen.",
+    "en": "Far from all citizens know their rights in relation to the municipality."
+   }
+  },
+  {
+   "da": "højst",
+   "en": "at most; highly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2876,
+   "level": "B2",
+   "example": {
+    "da": "Der må højst være 50 personer i salen ad gangen.",
+    "en": "There may be at most 50 people in the hall at a time."
+   }
+  },
+  {
+   "da": "tilsammen",
+   "en": "together; in total",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11309,
+   "level": "B2",
+   "example": {
+    "da": "Tilsammen tjener vi omkring 60.000 kroner om måneden før skat.",
+    "en": "Together we earn about 60,000 kroner a month before tax."
+   }
+  },
+  {
+   "da": "sammenlagt",
+   "en": "in total; altogether",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 32211,
+   "level": "C1",
+   "example": {
+    "da": "Hun har sammenlagt boet otte år i Danmark.",
+    "en": "She has lived in Denmark for eight years in total."
+   }
+  },
+  {
+   "da": "desto",
+   "en": "the (jo … desto = the … the)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3480,
+   "level": "C1",
+   "example": {
+    "da": "Jo tidligere man søger, desto større er chancen for at få en plads.",
+    "en": "The earlier you apply, the greater the chance of getting a place."
+   }
+  },
+  {
+   "da": "oftest",
+   "en": "most often; usually",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8612,
+   "level": "B2",
+   "example": {
+    "da": "Det er oftest kvinderne, der tager den længste barselsorlov.",
+    "en": "It is usually the women who take the longest parental leave."
+   }
+  },
+  {
+   "da": "mestendels",
+   "en": "mostly; for the most part",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Weekenden går mestendels med indkøb, rengøring og børnenes fritidsaktiviteter.",
+    "en": "The weekend is mostly taken up with shopping, cleaning and the children's activities."
+   }
+  },
+  {
+   "da": "undertiden",
+   "en": "sometimes; at times",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 17918,
+   "level": "C1",
+   "example": {
+    "da": "Undertiden kan det være svært at få fri fra arbejde til lægebesøg.",
+    "en": "At times it can be difficult to get time off work for doctor's appointments."
+   }
+  },
+  {
+   "da": "indimellem",
+   "en": "now and then; occasionally",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5776,
+   "level": "B2",
+   "example": {
+    "da": "Jeg arbejder hjemmefra indimellem, når børnene er syge.",
+    "en": "I work from home now and then when the children are ill."
+   }
+  },
+  {
+   "da": "lejlighedsvis",
+   "en": "occasionally",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 31099,
+   "level": "C1",
+   "example": {
+    "da": "Han drikker kun alkohol lejlighedsvis, for eksempel til fester.",
+    "en": "He only drinks alcohol occasionally, for example at parties."
+   }
+  },
+  {
+   "da": "tidvis",
+   "en": "at times; intermittently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "I morgen bliver det tidvis regn og blæsende vejr i hele landet.",
+    "en": "Tomorrow there will be intermittent rain and windy weather throughout the country."
+   }
+  },
+  {
+   "da": "periodevis",
+   "en": "periodically; at times",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Jeg har periodevis haft meget travlt på arbejdet i år.",
+    "en": "At times this year I have been very busy at work."
+   }
+  },
+  {
+   "da": "skiftevis",
+   "en": "alternately; taking turns",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Vi henter skiftevis børnene i børnehaven, så vi begge kan arbejde fuld tid.",
+    "en": "We take turns picking the children up from kindergarten so we can both work full time."
+   }
+  },
+  {
+   "da": "delvis",
+   "en": "partly; partially",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8568,
+   "level": "B2",
+   "example": {
+    "da": "Udgifterne til medicin bliver delvis dækket af regionen.",
+    "en": "The cost of medicine is partly covered by the region."
+   }
+  },
+  {
+   "da": "trinvis",
+   "en": "step by step; in stages",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Pensionsalderen hæves trinvis frem mod 2040.",
+    "en": "The pension age is being raised step by step towards 2040."
+   }
+  },
+  {
+   "da": "etapevis",
+   "en": "in stages; phase by phase",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Renoveringen af boligblokken foregår etapevis over de næste tre år.",
+    "en": "The renovation of the block of flats is taking place in stages over the next three years."
+   }
+  },
+  {
+   "da": "forsøgsvis",
+   "en": "on a trial basis",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Kommunen indfører forsøgsvis gratis busser for pensionister.",
+    "en": "The municipality is introducing free buses for pensioners on a trial basis."
+   }
+  },
+  {
+   "da": "undtagelsesvis",
+   "en": "exceptionally; by way of exception",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Biblioteket har undtagelsesvis lukket på mandag på grund af personalemøde.",
+    "en": "Exceptionally, the library will be closed on Monday because of a staff meeting."
+   }
+  },
+  {
+   "da": "erfaringsvis",
+   "en": "from experience; experience shows",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Erfaringsvis tager det et par måneder at vænne sig til et nyt job.",
+    "en": "Experience shows that it takes a couple of months to get used to a new job."
+   }
+  },
+  {
+   "da": "procentvis",
+   "en": "in percentage terms",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Procentvis er der flere kvinder end mænd, der tager en videregående uddannelse.",
+    "en": "In percentage terms, more women than men take a higher education."
+   }
+  },
+  {
+   "da": "stikprøvevis",
+   "en": "by random checks; on a spot-check basis",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Skattestyrelsen kontrollerer stikprøvevis de fradrag, borgerne har angivet.",
+    "en": "The Tax Agency carries out random checks on the deductions citizens have declared."
+   }
+  },
+  {
+   "da": "gruppevis",
+   "en": "in groups",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Eleverne arbejder gruppevis med et projekt om klimaforandringer.",
+    "en": "The pupils work in groups on a project about climate change."
+   }
+  },
+  {
+   "da": "parvis",
+   "en": "in pairs",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 40732,
+   "level": "C1",
+   "example": {
+    "da": "På kurset øver vi parvis samtaler fra hverdagen.",
+    "en": "On the course we practise everyday conversations in pairs."
+   }
+  },
+  {
+   "da": "kvartalsvis",
+   "en": "quarterly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Vi betaler for vand og varme kvartalsvis.",
+    "en": "We pay for water and heating quarterly."
+   }
+  },
+  {
+   "da": "punktvis",
+   "en": "point by point",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Formanden gennemgik punktvis kritikken fra medlemmerne.",
+    "en": "The chairman went through the members' criticism point by point."
+   }
+  },
+  {
+   "da": "stykkevis",
+   "en": "piecemeal; bit by bit",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Reformen blev gennemført stykkevis og uden en samlet plan.",
+    "en": "The reform was carried out piecemeal and without an overall plan."
+   }
+  },
+  {
+   "da": "efterhånden",
+   "en": "gradually; by now; eventually",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6821,
+   "level": "B2",
+   "example": {
+    "da": "Jeg har efterhånden vænnet mig til det danske vejr.",
+    "en": "I have gradually got used to the Danish weather."
+   }
+  },
+  {
+   "da": "fortsat",
+   "en": "still; continue to",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3478,
+   "level": "B2",
+   "example": {
+    "da": "Arbejdsløsheden er fortsat lav, selvom økonomien er bremset op.",
+    "en": "Unemployment is still low, even though the economy has slowed down."
+   }
+  },
+  {
+   "da": "fremdeles",
+   "en": "still (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Mange huse bliver fremdeles opvarmet med oliefyr.",
+    "en": "Many houses are still heated with oil boilers."
+   }
+  },
+  {
+   "da": "atter",
+   "en": "again (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6425,
+   "level": "C1",
+   "example": {
+    "da": "Efter sommerferien er skolerne atter fyldt med elever.",
+    "en": "After the summer holidays, the schools are once again full of pupils."
+   }
+  },
+  {
+   "da": "omsider",
+   "en": "at last; finally",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5702,
+   "level": "C1",
+   "example": {
+    "da": "Efter to år på venteliste fik vi omsider en plads i vuggestuen.",
+    "en": "After two years on the waiting list, we finally got a place at the nursery."
+   }
+  },
+  {
+   "da": "straks",
+   "en": "immediately; at once",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 739,
+   "level": "B2",
+   "example": {
+    "da": "Ring straks 112, hvis du ser en alvorlig ulykke.",
+    "en": "Call 112 immediately if you see a serious accident."
+   }
+  },
+  {
+   "da": "snarest",
+   "en": "as soon as possible",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 9088,
+   "level": "B2",
+   "example": {
+    "da": "Kontakt os venligst snarest, hvis du ønsker at ændre din tid.",
+    "en": "Please contact us as soon as possible if you wish to change your appointment."
+   }
+  },
+  {
+   "da": "prompte",
+   "en": "promptly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Firmaet reagerede prompte på kundernes klager.",
+    "en": "The company responded promptly to the customers' complaints."
+   }
+  },
+  {
+   "da": "senest",
+   "en": "at the latest; most recently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 9898,
+   "level": "B2",
+   "example": {
+    "da": "Ansøgningen skal være os i hænde senest den 1. marts.",
+    "en": "The application must reach us by 1 March at the latest."
+   }
+  },
+  {
+   "da": "tidligst",
+   "en": "at the earliest",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 31797,
+   "level": "B2",
+   "example": {
+    "da": "Den nye metrolinje åbner tidligst i 2030.",
+    "en": "The new metro line will open in 2030 at the earliest."
+   }
+  },
+  {
+   "da": "førhen",
+   "en": "formerly; in the past",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8828,
+   "level": "B2",
+   "example": {
+    "da": "Førhen gik de fleste kvinder hjemme, men sådan er det ikke længere.",
+    "en": "In the past most women stayed at home, but that is no longer the case."
+   }
+  },
+  {
+   "da": "dengang",
+   "en": "back then; at that time",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1039,
+   "level": "B2",
+   "example": {
+    "da": "Jeg boede i Odense i 2015, og dengang havde jeg ingen bil.",
+    "en": "I lived in Odense in 2015, and back then I had no car."
+   }
+  },
+  {
+   "da": "sidenhen",
+   "en": "later; subsequently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 31087,
+   "level": "C1",
+   "example": {
+    "da": "Hun startede som praktikant og blev sidenhen afdelingsleder.",
+    "en": "She started as an intern and later became head of department."
+   }
+  },
+  {
+   "da": "forinden",
+   "en": "beforehand; before that",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 16548,
+   "level": "C1",
+   "example": {
+    "da": "Mødet begynder klokken 10, men forinden er der kaffe og rundstykker.",
+    "en": "The meeting starts at 10, but before that there is coffee and rolls."
+   }
+  },
+  {
+   "da": "forud",
+   "en": "in advance; ahead",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6709,
+   "level": "C1",
+   "example": {
+    "da": "Huslejen skal betales forud den første i hver måned.",
+    "en": "The rent must be paid in advance on the first of each month."
+   }
+  },
+  {
+   "da": "nutildags",
+   "en": "nowadays",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "B2",
+   "example": {
+    "da": "Nutildags kan man klare de fleste ting med kommunen på nettet.",
+    "en": "Nowadays you can handle most things with the municipality online."
+   }
+  },
+  {
+   "da": "foreløbig",
+   "en": "for now; so far; for the time being",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 7823,
+   "level": "B2",
+   "example": {
+    "da": "Foreløbig har 200 beboere skrevet under på protesten.",
+    "en": "So far 200 residents have signed the protest."
+   }
+  },
+  {
+   "da": "fremover",
+   "en": "in future; from now on",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6301,
+   "level": "B2",
+   "example": {
+    "da": "Fremover skal alle ansatte registrere deres arbejdstid digitalt.",
+    "en": "In future, all employees must register their working hours digitally."
+   }
+  },
+  {
+   "da": "fremadrettet",
+   "en": "going forward; in future",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Fremadrettet vil vi fokusere mere på trivsel blandt medarbejderne.",
+    "en": "Going forward, we will focus more on employee well-being."
+   }
+  },
+  {
+   "da": "forleden",
+   "en": "the other day",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2083,
+   "level": "B2",
+   "example": {
+    "da": "Jeg talte forleden med en nabo, der også har problemer med fugt.",
+    "en": "The other day I talked to a neighbour who also has problems with damp."
+   }
+  },
+  {
+   "da": "betids",
+   "en": "in good time; early",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Hvis du vil have en plads på kurset, skal du tilmelde dig betids.",
+    "en": "If you want a place on the course, you must sign up in good time."
+   }
+  },
+  {
+   "da": "nogensinde",
+   "en": "ever",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 407,
+   "level": "B2",
+   "example": {
+    "da": "Har du nogensinde overvejet at tage en uddannelse som voksen?",
+    "en": "Have you ever considered getting an education as an adult?"
+   }
+  },
+  {
+   "da": "umiddelbart",
+   "en": "at first sight; offhand; immediately",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10424,
+   "level": "C1",
+   "example": {
+    "da": "Umiddelbart lyder forslaget fornuftigt, men det kan blive dyrt.",
+    "en": "At first sight the proposal sounds sensible, but it could be expensive."
+   }
+  },
+  {
+   "da": "undervejs",
+   "en": "on the way; along the way",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5938,
+   "level": "B2",
+   "example": {
+    "da": "Vi holdt pause undervejs og spiste frokost i Kolding.",
+    "en": "We took a break on the way and had lunch in Kolding."
+   }
+  },
+  {
+   "da": "midtvejs",
+   "en": "halfway; midway",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 49312,
+   "level": "C1",
+   "example": {
+    "da": "Midtvejs i projektet blev der skiftet ud i ledelsen.",
+    "en": "Halfway through the project, there was a change of management."
+   }
+  },
+  {
+   "da": "halvvejs",
+   "en": "halfway",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5367,
+   "level": "B2",
+   "example": {
+    "da": "Vi er nu halvvejs gennem renoveringen af badeværelset.",
+    "en": "We are now halfway through renovating the bathroom."
+   }
+  },
+  {
+   "da": "omme",
+   "en": "over; up (time is up)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4010,
+   "level": "B2",
+   "example": {
+    "da": "Når orloven er omme, skal jeg tilbage på fuld tid.",
+    "en": "When my leave is over, I have to go back full time."
+   }
+  },
+  {
+   "da": "tusindvis",
+   "en": "thousands (tusindvis af / i tusindvis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3504,
+   "level": "B2",
+   "example": {
+    "da": "Tusindvis af mennesker demonstrerede foran Christiansborg i weekenden.",
+    "en": "Thousands of people demonstrated in front of Christiansborg at the weekend."
+   }
+  },
+  {
+   "da": "hundredvis",
+   "en": "hundreds (hundredvis af / i hundredvis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4427,
+   "level": "B2",
+   "example": {
+    "da": "Kommunen har modtaget hundredvis af klager over støj fra motorvejen.",
+    "en": "The municipality has received hundreds of complaints about noise from the motorway."
+   }
+  },
+  {
+   "da": "massevis",
+   "en": "loads; masses (massevis af / i massevis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 22952,
+   "level": "B2",
+   "example": {
+    "da": "Der er massevis af ledige job inden for byggeriet lige nu.",
+    "en": "There are loads of vacant jobs in construction right now."
+   }
+  },
+  {
+   "da": "årevis",
+   "en": "for years (i årevis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1722,
+   "level": "B2",
+   "example": {
+    "da": "Beboerne har i årevis klaget over fugt i lejlighederne.",
+    "en": "The residents have complained about damp in the flats for years."
+   }
+  },
+  {
+   "da": "månedsvis",
+   "en": "for months (i månedsvis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5632,
+   "level": "C1",
+   "example": {
+    "da": "Patienterne har ventet i månedsvis på en scanning.",
+    "en": "The patients have waited for months for a scan."
+   }
+  },
+  {
+   "da": "timevis",
+   "en": "for hours (i timevis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5742,
+   "level": "B2",
+   "example": {
+    "da": "Vi sad i timevis i kø på motorvejen i påsken.",
+    "en": "We sat in a queue on the motorway for hours over Easter."
+   }
+  },
+  {
+   "da": "overalt",
+   "en": "everywhere",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 967,
+   "level": "B2",
+   "example": {
+    "da": "Der er mangel på pædagoger overalt i landet.",
+    "en": "There is a shortage of pedagogues everywhere in the country."
+   }
+  },
+  {
+   "da": "allevegne",
+   "en": "everywhere",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 26483,
+   "level": "B2",
+   "example": {
+    "da": "Der ligger affald allevegne efter festivalen.",
+    "en": "There is rubbish everywhere after the festival."
+   }
+  },
+  {
+   "da": "andetsteds",
+   "en": "elsewhere",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 12373,
+   "level": "C1",
+   "example": {
+    "da": "Hvis du ikke kan få hjælp her, må du søge andetsteds.",
+    "en": "If you can't get help here, you will have to look elsewhere."
+   }
+  },
+  {
+   "da": "ingensteds",
+   "en": "nowhere",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Vi kunne ingensteds finde en ledig parkeringsplads.",
+    "en": "We couldn't find a free parking space anywhere."
+   }
+  },
+  {
+   "da": "udenlands",
+   "en": "abroad",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 15590,
+   "level": "B2",
+   "example": {
+    "da": "Hvert år rejser mange danskere udenlands i efterårsferien.",
+    "en": "Every year many Danes travel abroad during the autumn holiday."
+   }
+  },
+  {
+   "da": "indenlands",
+   "en": "domestically; within the country",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Det er blevet dyrere at flyve indenlands på grund af den nye afgift.",
+    "en": "Flying domestically has become more expensive because of the new tax."
+   }
+  },
+  {
+   "da": "herhjemme",
+   "en": "in this country; here in Denmark",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 9945,
+   "level": "B2",
+   "example": {
+    "da": "Herhjemme betaler vi nogle af verdens højeste skatter.",
+    "en": "In this country we pay some of the highest taxes in the world."
+   }
+  },
+  {
+   "da": "hjemmefra",
+   "en": "from home",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3290,
+   "level": "B2",
+   "example": {
+    "da": "Efter coronakrisen arbejder mange fortsat hjemmefra en dag om ugen.",
+    "en": "Since the coronavirus crisis, many people still work from home one day a week."
+   }
+  },
+  {
+   "da": "udefra",
+   "en": "from outside",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4766,
+   "level": "B2",
+   "example": {
+    "da": "Ledelsen har hentet en konsulent udefra til at se på økonomien.",
+    "en": "Management has brought in a consultant from outside to look at the finances."
+   }
+  },
+  {
+   "da": "indefra",
+   "en": "from within; from the inside",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4730,
+   "level": "C1",
+   "example": {
+    "da": "Forandringen skal komme indefra, ikke fra politikerne.",
+    "en": "The change must come from within, not from the politicians."
+   }
+  },
+  {
+   "da": "ovenfra",
+   "en": "from above",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 21802,
+   "level": "B2",
+   "example": {
+    "da": "Medarbejderne føler, at beslutningerne bliver truffet ovenfra uden dialog.",
+    "en": "The employees feel that decisions are made from above without dialogue."
+   }
+  },
+  {
+   "da": "nedefra",
+   "en": "from below; from the grassroots",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 18795,
+   "level": "C1",
+   "example": {
+    "da": "Bevægelsen voksede nedefra blandt almindelige lønmodtagere.",
+    "en": "The movement grew from below among ordinary wage earners."
+   }
+  },
+  {
+   "da": "forfra",
+   "en": "from the beginning; all over again",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2236,
+   "level": "B2",
+   "example": {
+    "da": "Jeg mistede min ansøgning og måtte starte forfra.",
+    "en": "I lost my application and had to start all over again."
+   }
+  },
+  {
+   "da": "bagfra",
+   "en": "from behind; from the end",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4860,
+   "level": "B2",
+   "example": {
+    "da": "Bilen blev ramt bagfra i krydset ved Vesterbrogade.",
+    "en": "The car was hit from behind at the junction on Vesterbrogade."
+   }
+  },
+  {
+   "da": "forude",
+   "en": "ahead",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6705,
+   "level": "C1",
+   "example": {
+    "da": "Der venter store udfordringer forude for sundhedsvæsenet.",
+    "en": "Big challenges lie ahead for the health service."
+   }
+  },
+  {
+   "da": "bagud",
+   "en": "behind; backwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3511,
+   "level": "B2",
+   "example": {
+    "da": "Mange elever kom bagud med pensum under nedlukningen.",
+    "en": "Many pupils fell behind with the syllabus during the lockdown."
+   }
+  },
+  {
+   "da": "fremad",
+   "en": "forward; ahead",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1675,
+   "level": "B2",
+   "example": {
+    "da": "Vi må se fremad og lære af de fejl, vi har begået.",
+    "en": "We must look ahead and learn from the mistakes we have made."
+   }
+  },
+  {
+   "da": "baglæns",
+   "en": "backwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5563,
+   "level": "B2",
+   "example": {
+    "da": "Han faldt baglæns ned ad trappen og brækkede armen.",
+    "en": "He fell backwards down the stairs and broke his arm."
+   }
+  },
+  {
+   "da": "bagover",
+   "en": "backwards (falling/leaning)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 24832,
+   "level": "C1",
+   "example": {
+    "da": "Hun lænede sig bagover i stolen og lukkede øjnene.",
+    "en": "She leaned back in the chair and closed her eyes."
+   }
+  },
+  {
+   "da": "forover",
+   "en": "forwards (bending/leaning)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 19146,
+   "level": "C1",
+   "example": {
+    "da": "Han bøjede sig forover for at samle papirerne op fra gulvet.",
+    "en": "He bent forward to pick the papers up from the floor."
+   }
+  },
+  {
+   "da": "sidelæns",
+   "en": "sideways",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 21153,
+   "level": "C1",
+   "example": {
+    "da": "Lastbilen skred sidelæns på den glatte vej.",
+    "en": "The lorry skidded sideways on the slippery road."
+   }
+  },
+  {
+   "da": "opad",
+   "en": "upwards; up",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5772,
+   "level": "B2",
+   "example": {
+    "da": "Kurven for boligpriserne peger igen opad.",
+    "en": "The curve for house prices is pointing upwards again."
+   }
+  },
+  {
+   "da": "nedad",
+   "en": "downwards; down",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5896,
+   "level": "B2",
+   "example": {
+    "da": "Arbejdsløsheden er gået nedad i de seneste tre måneder.",
+    "en": "Unemployment has gone down in the last three months."
+   }
+  },
+  {
+   "da": "udadtil",
+   "en": "outwardly; to the outside world",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 15039,
+   "level": "C1",
+   "example": {
+    "da": "Udadtil virker partiet enigt, men internt er der stor uenighed.",
+    "en": "Outwardly the party seems united, but internally there is great disagreement."
+   }
+  },
+  {
+   "da": "indadtil",
+   "en": "internally; inwardly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Ledelsen skal kommunikere klart både indadtil og udadtil.",
+    "en": "Management must communicate clearly both internally and externally."
+   }
+  },
+  {
+   "da": "ovenfor",
+   "en": "above (in a text)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 49448,
+   "level": "B2",
+   "example": {
+    "da": "Som nævnt ovenfor er fristen for ansøgning den 15. april.",
+    "en": "As mentioned above, the application deadline is 15 April."
+   }
+  },
+  {
+   "da": "nedenfor",
+   "en": "below (in a text)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 22634,
+   "level": "B2",
+   "example": {
+    "da": "Du kan finde åbningstiderne for Borgerservice nedenfor.",
+    "en": "You can find the opening hours of Citizen Service below."
+   }
+  },
+  {
+   "da": "forrest",
+   "en": "at the front",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5325,
+   "level": "B2",
+   "example": {
+    "da": "Børnene sad forrest i bussen, så de kunne se ud.",
+    "en": "The children sat at the front of the bus so they could see out."
+   }
+  },
+  {
+   "da": "bagerst",
+   "en": "at the back",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11386,
+   "level": "B2",
+   "example": {
+    "da": "Der var kun ledige pladser bagerst i salen.",
+    "en": "There were only free seats at the back of the hall."
+   }
+  },
+  {
+   "da": "øverst",
+   "en": "at the top",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4932,
+   "level": "B2",
+   "example": {
+    "da": "Skriv dit navn og dit CPR-nummer øverst på blanketten.",
+    "en": "Write your name and your CPR number at the top of the form."
+   }
+  },
+  {
+   "da": "nederst",
+   "en": "at the bottom",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11070,
+   "level": "B2",
+   "example": {
+    "da": "Du skal skrive under nederst på side to.",
+    "en": "You must sign at the bottom of page two."
+   }
+  },
+  {
+   "da": "bagpå",
+   "en": "on the back",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11477,
+   "level": "B2",
+   "example": {
+    "da": "Husk at skrive afsenderens adresse bagpå kuverten.",
+    "en": "Remember to write the sender's address on the back of the envelope."
+   }
+  },
+  {
+   "da": "udenpå",
+   "en": "on the outside",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 16557,
+   "level": "B2",
+   "example": {
+    "da": "Han virker rolig udenpå, men indeni er han meget nervøs før eksamen.",
+    "en": "He seems calm on the outside, but inside he is very nervous before the exam."
+   }
+  },
+  {
+   "da": "midt",
+   "en": "in the middle (midt i/på)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 948,
+   "level": "B2",
+   "example": {
+    "da": "Vi bor midt i byen, så vi har ikke brug for en bil.",
+    "en": "We live in the middle of town, so we don't need a car."
+   }
+  },
+  {
+   "da": "deromkring",
+   "en": "or thereabouts; around that",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13001,
+   "level": "C1",
+   "example": {
+    "da": "Der kom 200 gæster eller deromkring til åbningen af det nye bibliotek.",
+    "en": "200 guests or thereabouts came to the opening of the new library."
+   }
+  },
+  {
+   "da": "borte",
+   "en": "gone; away",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2564,
+   "level": "C1",
+   "example": {
+    "da": "Da vi kom hjem fra ferie, var cyklerne borte.",
+    "en": "When we got home from holiday, the bikes were gone."
+   }
+  },
+  {
+   "da": "bort",
+   "en": "away (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1626,
+   "level": "C1",
+   "example": {
+    "da": "Familien gav alle de gamle møbler bort, inden de flyttede.",
+    "en": "The family gave all the old furniture away before they moved."
+   }
+  },
+  {
+   "da": "ihjel",
+   "en": "to death",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 285,
+   "level": "B2",
+   "example": {
+    "da": "Hvert år bliver flere cyklister kørt ihjel i trafikken.",
+    "en": "Every year several cyclists are killed in traffic."
+   }
+  },
+  {
+   "da": "itu",
+   "en": "broken; to pieces",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8919,
+   "level": "C1",
+   "example": {
+    "da": "Vaskemaskinen gik itu, lige efter at garantien var udløbet.",
+    "en": "The washing machine broke just after the warranty had expired."
+   }
+  },
+  {
+   "da": "omkuld",
+   "en": "over; down (fall/knock over)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10090,
+   "level": "C1",
+   "example": {
+    "da": "Stormen væltede flere træer omkuld i nat.",
+    "en": "The storm knocked several trees over last night."
+   }
+  },
+  {
+   "da": "udenad",
+   "en": "by heart",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8118,
+   "level": "B2",
+   "example": {
+    "da": "Til prøven skal du ikke lære teksten udenad.",
+    "en": "For the test you don't need to learn the text by heart."
+   }
+  },
+  {
+   "da": "udenom",
+   "en": "evasively; around (something)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2657,
+   "level": "C1",
+   "example": {
+    "da": "Ministeren svarede udenom, da journalisten spurgte til økonomien.",
+    "en": "The minister answered evasively when the journalist asked about the finances."
+   }
+  },
+  {
+   "da": "hjemad",
+   "en": "homeward; towards home",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 12660,
+   "level": "C1",
+   "example": {
+    "da": "Efter mødet cyklede hun hjemad gennem regnen.",
+    "en": "After the meeting she cycled home through the rain."
+   }
+  },
+  {
+   "da": "sydpå",
+   "en": "south; southwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4686,
+   "level": "B2",
+   "example": {
+    "da": "Mange pensionister flytter sydpå i vintermånederne.",
+    "en": "Many pensioners move south during the winter months."
+   }
+  },
+  {
+   "da": "nordpå",
+   "en": "north; northwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3378,
+   "level": "B2",
+   "example": {
+    "da": "Vi kører nordpå til Skagen i sommerferien.",
+    "en": "We are driving north to Skagen in the summer holidays."
+   }
+  },
+  {
+   "da": "vestpå",
+   "en": "west; westwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6730,
+   "level": "B2",
+   "example": {
+    "da": "Efter uddannelsen flyttede hun vestpå til Esbjerg.",
+    "en": "After her studies she moved west to Esbjerg."
+   }
+  },
+  {
+   "da": "østpå",
+   "en": "east; eastwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 7494,
+   "level": "B2",
+   "example": {
+    "da": "Mange virksomheder har flyttet produktionen østpå for at spare penge.",
+    "en": "Many companies have moved production east to save money."
+   }
+  },
+  {
+   "da": "ombord",
+   "en": "on board",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2803,
+   "level": "B2",
+   "example": {
+    "da": "Alle passagerer skal være ombord senest ti minutter før afgang.",
+    "en": "All passengers must be on board no later than ten minutes before departure."
+   }
+  },
+  {
+   "da": "indendørs",
+   "en": "indoors",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10695,
+   "level": "B2",
+   "example": {
+    "da": "Det er forbudt at ryge indendørs på alle arbejdspladser.",
+    "en": "Smoking indoors is prohibited at all workplaces."
+   }
+  },
+  {
+   "da": "udendørs",
+   "en": "outdoors; outside",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 11489,
+   "level": "B2",
+   "example": {
+    "da": "Børnene i skovbørnehaven er udendørs det meste af dagen.",
+    "en": "The children in the forest kindergarten are outdoors most of the day."
+   }
+  },
+  {
+   "da": "udenbys",
+   "en": "out of town",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 10006,
+   "level": "C1",
+   "example": {
+    "da": "Min mand er udenbys på arbejde hele næste uge.",
+    "en": "My husband is out of town for work all next week."
+   }
+  },
+  {
+   "da": "overbord",
+   "en": "overboard",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 18827,
+   "level": "C1",
+   "example": {
+    "da": "Regeringen har kastet sine gamle planer overbord.",
+    "en": "The government has thrown its old plans overboard."
+   }
+  },
+  {
+   "da": "forgæves",
+   "en": "in vain",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 4638,
+   "level": "B2",
+   "example": {
+    "da": "Han har forgæves søgt job i over et år.",
+    "en": "He has looked for a job in vain for over a year."
+   }
+  },
+  {
+   "da": "uforvarende",
+   "en": "inadvertently; unintentionally",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 40510,
+   "level": "C2",
+   "example": {
+    "da": "Hun kom uforvarende til at slette vigtige filer fra serveren.",
+    "en": "She inadvertently deleted important files from the server."
+   }
+  },
+  {
+   "da": "nødtvungent",
+   "en": "of necessity; perforce",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Mange butikker har nødtvungent lukket på grund af de høje energipriser.",
+    "en": "Many shops have been forced to close because of the high energy prices."
+   }
+  },
+  {
+   "da": "ugerne",
+   "en": "reluctantly; unwillingly",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 32461,
+   "level": "C1",
+   "example": {
+    "da": "Jeg arbejder ugerne over, men nogle gange er det nødvendigt.",
+    "en": "I am reluctant to work overtime, but sometimes it is necessary."
+   }
+  },
+  {
+   "da": "nødig",
+   "en": "reluctantly (vil nødig = would rather not)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3569,
+   "level": "B2",
+   "example": {
+    "da": "Jeg vil nødig forstyrre, men har du tid til et kort spørgsmål?",
+    "en": "I don't want to disturb you, but do you have time for a quick question?"
+   }
+  },
+  {
+   "da": "gladelig",
+   "en": "gladly; happily",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 36969,
+   "level": "C1",
+   "example": {
+    "da": "Jeg vil gladelig hjælpe til, når skolen holder sommerfest.",
+    "en": "I will gladly help out when the school holds its summer party."
+   }
+  },
+  {
+   "da": "klogelig",
+   "en": "wisely; prudently",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Borgmesteren holdt sig klogelig uden for den ophedede debat.",
+    "en": "The mayor wisely stayed out of the heated debate."
+   }
+  },
+  {
+   "da": "ordret",
+   "en": "word for word; verbatim",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 21442,
+   "level": "C1",
+   "example": {
+    "da": "Journalisten citerede ministeren ordret i artiklen.",
+    "en": "The journalist quoted the minister word for word in the article."
+   }
+  },
+  {
+   "da": "hovedkulds",
+   "en": "headlong; in a hurry",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 42768,
+   "level": "C2",
+   "example": {
+    "da": "De flyttede hovedkulds til Sverige, da han fik job i Malmø.",
+    "en": "They moved to Sweden in a rush when he got a job in Malmö."
+   }
+  },
+  {
+   "da": "simpelthen",
+   "en": "simply; just",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2983,
+   "level": "B2",
+   "example": {
+    "da": "Der er simpelthen ikke nok sygeplejersker til at dække vagterne.",
+    "en": "There simply aren't enough nurses to cover the shifts."
+   }
+  },
+  {
+   "da": "egentlig",
+   "en": "actually; really",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 984,
+   "level": "B2",
+   "example": {
+    "da": "Hvad mener du egentlig om forslaget om en firedages arbejdsuge?",
+    "en": "What do you actually think about the proposal for a four-day working week?"
+   }
+  },
+  {
+   "da": "faktisk",
+   "en": "actually; in fact",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 263,
+   "level": "B2",
+   "example": {
+    "da": "Faktisk bruger danskerne mere tid på skærme end på motion.",
+    "en": "In fact, Danes spend more time on screens than on exercise."
+   }
+  },
+  {
+   "da": "indbyrdes",
+   "en": "mutually; among themselves",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 16559,
+   "level": "C1",
+   "example": {
+    "da": "Partierne er indbyrdes uenige om, hvordan pengene skal fordeles.",
+    "en": "The parties disagree among themselves about how the money should be distributed."
+   }
+  },
+  {
+   "da": "hvorledes",
+   "en": "how (formal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 15475,
+   "level": "C1",
+   "example": {
+    "da": "Det er uklart, hvorledes kommunen vil finansiere den nye skole.",
+    "en": "It is unclear how the municipality will finance the new school."
+   }
+  },
+  {
+   "da": "hvorvidt",
+   "en": "whether",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 9628,
+   "level": "C1",
+   "example": {
+    "da": "Det er endnu ikke besluttet, hvorvidt festivalen bliver gennemført.",
+    "en": "It has not yet been decided whether the festival will go ahead."
+   }
+  },
+  {
+   "da": "hvori",
+   "en": "in which",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 16274,
+   "level": "C1",
+   "example": {
+    "da": "Hun skrev et brev, hvori hun forklarede sin beslutning.",
+    "en": "She wrote a letter in which she explained her decision."
+   }
+  },
+  {
+   "da": "hvoriblandt",
+   "en": "among which; among whom",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Der deltog 15 lande, hvoriblandt Danmark og Norge.",
+    "en": "Fifteen countries took part, among them Denmark and Norway."
+   }
+  },
+  {
+   "da": "hvorpå",
+   "en": "whereupon; on which",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8607,
+   "level": "C2",
+   "example": {
+    "da": "Hun takkede for maden, hvorpå hun tog hjem.",
+    "en": "She thanked them for the meal, whereupon she went home."
+   }
+  },
+  {
+   "da": "hvortil",
+   "en": "to which; where (to)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13569,
+   "level": "C1",
+   "example": {
+    "da": "Det er en stor investering, hvortil kommer de løbende driftsudgifter.",
+    "en": "It is a large investment, to which must be added the ongoing running costs."
+   }
+  },
+  {
+   "da": "hvorfra",
+   "en": "from where; from which",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3367,
+   "level": "B2",
+   "example": {
+    "da": "Hun besøgte den landsby, hvorfra hendes forældre var flygtet.",
+    "en": "She visited the village from which her parents had fled."
+   }
+  },
+  {
+   "da": "hvormed",
+   "en": "with which; by which",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 27227,
+   "level": "C2",
+   "example": {
+    "da": "Rapporten skal beskrive den metode, hvormed data er indsamlet.",
+    "en": "The report must describe the method by which the data were collected."
+   }
+  },
+  {
+   "da": "derpå",
+   "en": "after that; thereupon; on it",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 12308,
+   "level": "C1",
+   "example": {
+    "da": "Kort derpå meddelte virksomheden, at fabrikken skulle lukke.",
+    "en": "Shortly afterwards, the company announced that the factory would close."
+   }
+  },
+  {
+   "da": "deri",
+   "en": "in it; in that; therein",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 7814,
+   "level": "C1",
+   "example": {
+    "da": "Problemet ligger deri, at mange borgere ikke kender deres rettigheder.",
+    "en": "The problem lies in the fact that many citizens don't know their rights."
+   }
+  },
+  {
+   "da": "heri",
+   "en": "in this; herein",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 8966,
+   "level": "C1",
+   "example": {
+    "da": "Prisen er 450 kroner, og heri er moms inkluderet.",
+    "en": "The price is 450 kroner, and VAT is included in this."
+   }
+  },
+  {
+   "da": "herom",
+   "en": "about this",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 26839,
+   "level": "C1",
+   "example": {
+    "da": "Du kan læse mere herom på kommunens hjemmeside.",
+    "en": "You can read more about this on the municipality's website."
+   }
+  },
+  {
+   "da": "derom",
+   "en": "about that",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 24149,
+   "level": "C1",
+   "example": {
+    "da": "Derom er der ingen tvivl blandt eksperterne.",
+    "en": "There is no doubt about that among the experts."
+   }
+  },
+  {
+   "da": "deriblandt",
+   "en": "among them; including",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13221,
+   "level": "C1",
+   "example": {
+    "da": "Flere eksperter, deriblandt to professorer, har kritiseret rapporten.",
+    "en": "Several experts, among them two professors, have criticised the report."
+   }
+  },
+  {
+   "da": "heriblandt",
+   "en": "among them; including",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 27904,
+   "level": "C1",
+   "example": {
+    "da": "Der var mange gæster til åbningen, heriblandt borgmesteren.",
+    "en": "There were many guests at the opening, among them the mayor."
+   }
+  },
+  {
+   "da": "derigennem",
+   "en": "through that; thereby",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Hun tog et frivilligt job og fik derigennem kontakt til en arbejdsgiver.",
+    "en": "She took a volunteer job and through that got in touch with an employer."
+   }
+  },
+  {
+   "da": "derunder",
+   "en": "below that; under (a number)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 29269,
+   "level": "C1",
+   "example": {
+    "da": "Børn på tre år og derunder kører gratis med bussen.",
+    "en": "Children aged three and under travel free on the bus."
+   }
+  },
+  {
+   "da": "derover",
+   "en": "above that; over (a number)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2189,
+   "level": "C1",
+   "example": {
+    "da": "Borgere på 65 år og derover kan blive vaccineret gratis.",
+    "en": "Citizens aged 65 and over can be vaccinated free of charge."
+   }
+  },
+  {
+   "da": "derudad",
+   "en": "and so on (og derudad, informal)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 22844,
+   "level": "C1",
+   "example": {
+    "da": "Vi snakkede om job, børn, boliglån og derudad.",
+    "en": "We talked about jobs, children, mortgages and so on."
+   }
+  },
+  {
+   "da": "såre",
+   "en": "very (såre simpel)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2508,
+   "level": "C2",
+   "example": {
+    "da": "Reglerne er såre enkle: Alt affald skal sorteres.",
+    "en": "The rules are very simple: all waste must be sorted."
+   }
+  },
+  {
+   "da": "noksom",
+   "en": "sufficiently (kan ikke noksom …)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Det kan ikke noksom understreges, hvor vigtigt det er at søge i tide.",
+    "en": "It cannot be stressed enough how important it is to apply in time."
+   }
+  },
+  {
+   "da": "uhyre",
+   "en": "extremely; immensely",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 3222,
+   "level": "C1",
+   "example": {
+    "da": "Det er uhyre vigtigt, at man har en gyldig opholdstilladelse.",
+    "en": "It is extremely important that you have a valid residence permit."
+   }
+  },
+  {
+   "da": "decideret",
+   "en": "downright; outright",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 35584,
+   "level": "C1",
+   "example": {
+    "da": "Nogle af boligerne var i decideret dårlig stand.",
+    "en": "Some of the homes were in downright poor condition."
+   }
+  },
+  {
+   "da": "stik",
+   "en": "directly; diametrically (stik modsat)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1895,
+   "level": "C1",
+   "example": {
+    "da": "Resultatet var stik modsat, hvad eksperterne havde forventet.",
+    "en": "The result was the exact opposite of what the experts had expected."
+   }
+  },
+  {
+   "da": "ilde",
+   "en": "badly; ill (ilde set)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 5605,
+   "level": "C1",
+   "example": {
+    "da": "Det er ilde set at komme for sent til møder på min arbejdsplads.",
+    "en": "Arriving late for meetings is frowned upon at my workplace."
+   }
+  },
+  {
+   "da": "ditto",
+   "en": "ditto; likewise; the same",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 13037,
+   "level": "C1",
+   "example": {
+    "da": "Min chef var træt efter mødet, og jeg var ditto.",
+    "en": "My boss was tired after the meeting, and so was I."
+   }
+  },
+  {
+   "da": "ligedan",
+   "en": "the same way; likewise",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Hun sorterer sit affald, og hendes naboer gør ligedan.",
+    "en": "She sorts her waste, and her neighbours do likewise."
+   }
+  },
+  {
+   "da": "sgu",
+   "en": "really; damn (informal, mild swear)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 485,
+   "level": "C1",
+   "example": {
+    "da": "Det er sgu for dårligt, at bussen er forsinket igen.",
+    "en": "It's damn poor that the bus is late again."
+   }
+  },
+  {
+   "da": "gid",
+   "en": "I wish; if only",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 1709,
+   "level": "B2",
+   "example": {
+    "da": "Gid jeg havde råd til at købe min egen lejlighed.",
+    "en": "If only I could afford to buy my own flat."
+   }
+  },
+  {
+   "da": "primo",
+   "en": "at the beginning of (a month/year)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 29504,
+   "level": "C1",
+   "example": {
+    "da": "Vi forventer at flytte ind primo marts.",
+    "en": "We expect to move in at the beginning of March."
+   }
+  },
+  {
+   "da": "medio",
+   "en": "in the middle of (a month/year)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Byggeriet forventes at være færdigt medio 2027.",
+    "en": "The construction is expected to be finished in mid-2027."
+   }
+  },
+  {
+   "da": "ultimo",
+   "en": "at the end of (a month/year)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Svar på ansøgningen kan forventes ultimo oktober.",
+    "en": "A reply to the application can be expected at the end of October."
+   }
+  },
+  {
+   "da": "eftersom",
+   "en": "since; as (cause)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 2911,
+   "level": "B2",
+   "example": {
+    "da": "Eftersom vi begge arbejder fuld tid, har vi brug for hjælp til rengøringen.",
+    "en": "Since we both work full time, we need help with the cleaning."
+   }
+  },
+  {
+   "da": "medmindre",
+   "en": "unless",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 1051,
+   "level": "B2",
+   "example": {
+    "da": "Du får ikke pengene tilbage, medmindre du har kvitteringen.",
+    "en": "You won't get your money back unless you have the receipt."
+   }
+  },
+  {
+   "da": "såfremt",
+   "en": "provided that; if (formal)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 21764,
+   "level": "C1",
+   "example": {
+    "da": "Såfremt du ønsker at klage, skal det ske skriftligt inden fire uger.",
+    "en": "If you wish to complain, it must be done in writing within four weeks."
+   }
+  },
+  {
+   "da": "dersom",
+   "en": "if; in the event that (formal)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Dersom lejeren ikke betaler husleje, kan udlejeren opsige lejemålet.",
+    "en": "If the tenant does not pay the rent, the landlord may terminate the tenancy."
+   }
+  },
+  {
+   "da": "hvorimod",
+   "en": "whereas",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 20531,
+   "level": "C1",
+   "example": {
+    "da": "Min søster bor i en stor villa, hvorimod jeg bor i en lille lejlighed.",
+    "en": "My sister lives in a large house, whereas I live in a small flat."
+   }
+  },
+  {
+   "da": "skønt",
+   "en": "although",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 1002,
+   "level": "C1",
+   "example": {
+    "da": "Skønt hun har boet her i ti år, føler hun sig stadig som gæst.",
+    "en": "Although she has lived here for ten years, she still feels like a guest."
+   }
+  },
+  {
+   "da": "endskønt",
+   "en": "although (formal)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Han takkede ja til jobbet, endskønt lønnen var lavere end forventet.",
+    "en": "He accepted the job, although the salary was lower than expected."
+   }
+  },
+  {
+   "da": "omend",
+   "en": "albeit; even if",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 17074,
+   "level": "C1",
+   "example": {
+    "da": "Ledigheden falder, omend langsommere end økonomerne havde ventet.",
+    "en": "Unemployment is falling, albeit more slowly than the economists had expected."
+   }
+  },
+  {
+   "da": "idet",
+   "en": "as; since; (just) as",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 9031,
+   "level": "C1",
+   "example": {
+    "da": "Ansøgningen blev afvist, idet fristen var overskredet.",
+    "en": "The application was rejected, as the deadline had passed."
+   }
+  },
+  {
+   "da": "førend",
+   "en": "before (formal)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 21116,
+   "level": "C1",
+   "example": {
+    "da": "Der går flere år, førend de nye boliger står klar.",
+    "en": "It will be several years before the new homes are ready."
+   }
+  },
+  {
+   "da": "ligesom",
+   "en": "just as; like",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 281,
+   "level": "B2",
+   "example": {
+    "da": "Ligesom sidste år holder firmaet julefrokost i kantinen.",
+    "en": "Just like last year, the company is holding its Christmas lunch in the canteen."
+   }
+  },
+  {
+   "da": "såsom",
+   "en": "such as",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 3317,
+   "level": "C1",
+   "example": {
+    "da": "Butikken sælger kun basisvarer såsom mælk, brød og æg.",
+    "en": "The shop only sells basic goods such as milk, bread and eggs."
+   }
+  },
+  {
+   "da": "samt",
+   "en": "and; as well as (formal)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 3508,
+   "level": "B2",
+   "example": {
+    "da": "Medbring venligst pas samt dokumentation for din adresse.",
+    "en": "Please bring your passport as well as documentation of your address."
+   }
+  },
+  {
+   "da": "hverken",
+   "en": "neither (hverken … eller = neither … nor)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 1221,
+   "level": "B2",
+   "example": {
+    "da": "Han har hverken bil eller kørekort, så han tager bussen.",
+    "en": "He has neither a car nor a driving licence, so he takes the bus."
+   }
+  },
+  {
+   "da": "såvel",
+   "en": "both; as well as (såvel … som)",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 9356,
+   "level": "C1",
+   "example": {
+    "da": "Kurset henvender sig til såvel begyndere som øvede.",
+    "en": "The course is aimed at beginners as well as advanced learners."
+   }
+  },
+  {
+   "da": "endsige",
+   "en": "let alone",
+   "class": "konjunktion",
+   "forms": "",
+   "rank": 26505,
+   "level": "C1",
+   "example": {
+    "da": "Mange unge har ikke råd til at leje en lejlighed, endsige købe en.",
+    "en": "Many young people can't afford to rent a flat, let alone buy one."
+   }
+  },
+  {
+   "da": "ifølge",
+   "en": "according to",
+   "class": "præposition",
+   "forms": "",
+   "rank": 1161,
+   "level": "B2",
+   "example": {
+    "da": "Ifølge Danmarks Statistik er flere ældre i arbejde end tidligere.",
+    "en": "According to Statistics Denmark, more older people are in work than before."
+   }
+  },
+  {
+   "da": "vedrørende",
+   "en": "concerning; regarding",
+   "class": "præposition",
+   "forms": "",
+   "rank": 5945,
+   "level": "C1",
+   "example": {
+    "da": "Har du spørgsmål vedrørende din skat, kan du ringe til Skattestyrelsen.",
+    "en": "If you have questions concerning your tax, you can call the Tax Agency."
+   }
+  },
+  {
+   "da": "angående",
+   "en": "regarding; about",
+   "class": "præposition",
+   "forms": "",
+   "rank": 1700,
+   "level": "B2",
+   "example": {
+    "da": "Jeg skriver angående den ledige stilling som lagerarbejder.",
+    "en": "I am writing regarding the vacant position as a warehouse worker."
+   }
+  },
+  {
+   "da": "betræffende",
+   "en": "concerning (formal)",
+   "class": "præposition",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Betræffende ferieplanlægningen henviser vi til personalehåndbogen.",
+    "en": "Concerning holiday planning, we refer you to the staff handbook."
+   }
+  },
+  {
+   "da": "blandt",
+   "en": "among; amongst",
+   "class": "præposition",
+   "forms": "",
+   "rank": 1205,
+   "level": "B2",
+   "example": {
+    "da": "Utilfredsheden er stor blandt sygeplejersker og social- og sundhedsassistenter.",
+    "en": "Dissatisfaction is high among nurses and social and health care assistants."
+   }
+  },
+  {
+   "da": "iblandt",
+   "en": "among (us/them)",
+   "class": "præposition",
+   "forms": "",
+   "rank": 6420,
+   "level": "C1",
+   "example": {
+    "da": "Der er mange iblandt os, der kæmper med ensomhed.",
+    "en": "There are many among us who struggle with loneliness."
+   }
+  },
+  {
+   "da": "trods",
+   "en": "despite; in spite of",
+   "class": "præposition",
+   "forms": "",
+   "rank": 1540,
+   "level": "B2",
+   "example": {
+    "da": "Trods regnen mødte over tusind mennesker op til demonstrationen.",
+    "en": "Despite the rain, over a thousand people turned up for the demonstration."
+   }
+  },
+  {
+   "da": "uagtet",
+   "en": "notwithstanding; regardless of",
+   "class": "præposition",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Uagtet den økonomiske krise valgte firmaet at ansætte flere medarbejdere.",
+    "en": "Notwithstanding the economic crisis, the firm chose to hire more staff."
+   }
+  },
+  {
+   "da": "uanset",
+   "en": "regardless of; no matter",
+   "class": "præposition",
+   "forms": "",
+   "rank": 707,
+   "level": "B2",
+   "example": {
+    "da": "Alle har ret til lægehjælp, uanset alder og indkomst.",
+    "en": "Everyone has the right to medical care, regardless of age and income."
+   }
+  },
+  {
+   "da": "inklusive",
+   "en": "including",
+   "class": "præposition",
+   "forms": "",
+   "rank": 4896,
+   "level": "B2",
+   "example": {
+    "da": "Prisen er 1.200 kroner inklusive moms og levering.",
+    "en": "The price is 1,200 kroner including VAT and delivery."
+   }
+  },
+  {
+   "da": "eksklusive",
+   "en": "excluding",
+   "class": "præposition",
+   "forms": "",
+   "rank": 18198,
+   "level": "C1",
+   "example": {
+    "da": "Huslejen er 9.500 kroner om måneden eksklusive forbrug.",
+    "en": "The rent is 9,500 kroner a month excluding utilities."
+   }
+  },
+  {
+   "da": "undtagen",
+   "en": "except",
+   "class": "præposition",
+   "forms": "",
+   "rank": 2212,
+   "level": "B2",
+   "example": {
+    "da": "Butikken har åbent alle dage undtagen juleaften.",
+    "en": "The shop is open every day except Christmas Eve."
+   }
+  },
+  {
+   "da": "foruden",
+   "en": "besides; in addition to",
+   "class": "præposition",
+   "forms": "",
+   "rank": 7848,
+   "level": "C1",
+   "example": {
+    "da": "Foruden sit fuldtidsjob passer hun sin syge mor.",
+    "en": "Besides her full-time job, she looks after her sick mother."
+   }
+  },
+  {
+   "da": "fremfor",
+   "en": "rather than; instead of",
+   "class": "præposition",
+   "forms": "",
+   "rank": 15211,
+   "level": "C1",
+   "example": {
+    "da": "Flere vælger at tage toget fremfor at flyve indenrigs.",
+    "en": "More people are choosing to take the train rather than fly domestically."
+   }
+  },
+  {
+   "da": "grundet",
+   "en": "due to; owing to",
+   "class": "præposition",
+   "forms": "",
+   "rank": 6579,
+   "level": "C1",
+   "example": {
+    "da": "Grundet sygdom er tandlægeklinikken lukket i dag.",
+    "en": "Due to illness, the dental clinic is closed today."
+   }
+  },
+  {
+   "da": "via",
+   "en": "via; through",
+   "class": "præposition",
+   "forms": "",
+   "rank": 2122,
+   "level": "B2",
+   "example": {
+    "da": "Du kan søge om børnetilskud via borger.dk.",
+    "en": "You can apply for child benefit via borger.dk."
+   }
+  },
+  {
+   "da": "per",
+   "en": "per",
+   "class": "præposition",
+   "forms": "",
+   "rank": 2617,
+   "level": "B2",
+   "example": {
+    "da": "Prisen er 150 kroner per person for hele kurset.",
+    "en": "The price is 150 kroner per person for the whole course."
+   }
+  },
+  {
+   "da": "langs",
+   "en": "along",
+   "class": "præposition",
+   "forms": "",
+   "rank": 3057,
+   "level": "B2",
+   "example": {
+    "da": "Kommunen anlægger en ny cykelsti langs havnen.",
+    "en": "The municipality is building a new cycle path along the harbour."
+   }
+  },
+  {
+   "da": "hinsides",
+   "en": "beyond",
+   "class": "præposition",
+   "forms": "",
+   "rank": 6900,
+   "level": "C2",
+   "example": {
+    "da": "Den slags huspriser ligger hinsides, hvad en almindelig familie har råd til.",
+    "en": "House prices like that are beyond what an ordinary family can afford."
+   }
+  },
+  {
+   "da": "kontra",
+   "en": "versus; as opposed to",
+   "class": "præposition",
+   "forms": "",
+   "rank": 31870,
+   "level": "C1",
+   "example": {
+    "da": "Valgkampen handler endnu en gang om land kontra by.",
+    "en": "The election campaign is once again about countryside versus city."
+   }
+  },
+  {
+   "da": "ad",
+   "en": "along; by (way of); at (ad gangen)",
+   "class": "præposition",
+   "forms": "",
+   "rank": 437,
+   "level": "B2",
+   "example": {
+    "da": "Vi cyklede hjem ad små veje for at undgå trafikken.",
+    "en": "We cycled home along small roads to avoid the traffic."
+   }
+  },
+  {
+   "da": "jævnfør",
+   "en": "cf.; in accordance with",
+   "class": "præposition",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Lejeren skal betale depositum, jævnfør lejekontraktens paragraf 4.",
+    "en": "The tenant must pay a deposit, cf. section 4 of the tenancy agreement."
+   }
+  },
+  {
+   "da": "qua",
+   "en": "in the capacity of; as",
+   "class": "præposition",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Hun deltog i mødet qua sin rolle som tillidsrepræsentant.",
+    "en": "She attended the meeting in her capacity as shop steward."
+   }
+  },
+  {
+   "da": "enhver",
+   "en": "everyone; any; each (neuter: ethvert)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 878,
+   "level": "B2",
+   "example": {
+    "da": "Enhver borger har ret til at få hjælp fra kommunen.",
+    "en": "Every citizen has the right to get help from the municipality."
+   }
+  },
+  {
+   "da": "hinanden",
+   "en": "each other; one another",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 321,
+   "level": "B2",
+   "example": {
+    "da": "Naboerne i opgangen hjælper hinanden med at passe børnene.",
+    "en": "The neighbours in the stairwell help each other look after the children."
+   }
+  },
+  {
+   "da": "sådan",
+   "en": "such; like that (sådant, sådanne)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 110,
+   "level": "B2",
+   "example": {
+    "da": "Sådanne problemer kan løses, hvis man taler sammen.",
+    "en": "Such problems can be solved if people talk to each other."
+   }
+  },
+  {
+   "da": "samtlige",
+   "en": "all (without exception)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 5382,
+   "level": "C1",
+   "example": {
+    "da": "Samtlige medarbejdere har fået en lønstigning på tre procent.",
+    "en": "All employees without exception have received a three percent pay rise."
+   }
+  },
+  {
+   "da": "visse",
+   "en": "certain; some (en vis, et vist)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 1713,
+   "level": "B2",
+   "example": {
+    "da": "Visse grupper har sværere ved at finde arbejde end andre.",
+    "en": "Certain groups find it harder than others to find work."
+   }
+  },
+  {
+   "da": "adskillige",
+   "en": "several; quite a few",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 4830,
+   "level": "B2",
+   "example": {
+    "da": "Adskillige forældre har klaget over den nye skolestruktur.",
+    "en": "Several parents have complained about the new school structure."
+   }
+  },
+  {
+   "da": "hvilken",
+   "en": "which (hvilket = which, referring to a clause)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 360,
+   "level": "B2",
+   "example": {
+    "da": "Mange læger går på pension, hvilket betyder længere ventetid for patienterne.",
+    "en": "Many doctors are retiring, which means longer waiting times for patients."
+   }
+  },
+  {
+   "da": "hvis",
+   "en": "whose (relative)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 47,
+   "level": "B2",
+   "example": {
+    "da": "Familien, hvis hus brændte, har fået en midlertidig bolig af kommunen.",
+    "en": "The family whose house burned down has been given temporary housing by the municipality."
+   }
+  },
+  {
+   "da": "vedkommende",
+   "en": "the person concerned; he or she",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 5931,
+   "level": "C1",
+   "example": {
+    "da": "Hvis en medarbejder er syg, skal vedkommende ringe ind inden klokken otte.",
+    "en": "If an employee is ill, he or she must call in before eight o'clock."
+   }
+  },
+  {
+   "da": "vor",
+   "en": "our (formal; vort, vore)",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 1180,
+   "level": "C1",
+   "example": {
+    "da": "Vor tids største udfordring er klimaforandringerne.",
+    "en": "The greatest challenge of our time is climate change."
+   }
+  },
+  {
+   "da": "alskens",
+   "en": "all kinds of",
+   "class": "pronomen",
+   "forms": "",
+   "rank": 34653,
+   "level": "C1",
+   "example": {
+    "da": "I løbet af året opstår der alskens uforudsete udgifter.",
+    "en": "During the year all kinds of unforeseen expenses arise."
+   }
+  },
+  {
+   "da": "allehånde",
+   "en": "all sorts of",
+   "class": "pronomen",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Butikken sælger allehånde ting til hus og have.",
+    "en": "The shop sells all sorts of things for house and garden."
+   }
+  },
+  {
+   "da": "javel",
+   "en": "I see; right; yes, sir",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 758,
+   "level": "B2",
+   "example": {
+    "da": "Javel, så kommer jeg forbi kontoret i morgen klokken ni.",
+    "en": "Right, then I'll come by the office tomorrow at nine."
+   }
+  },
+  {
+   "da": "jamen",
+   "en": "but; well (objecting)",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 664,
+   "level": "B2",
+   "example": {
+    "da": "Jamen, jeg troede, at mødet var aflyst?",
+    "en": "But I thought the meeting had been cancelled?"
+   }
+  },
+  {
+   "da": "javist",
+   "en": "certainly; of course",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 8347,
+   "level": "C1",
+   "example": {
+    "da": "Javist, du er velkommen til at låne mødelokalet i morgen.",
+    "en": "Certainly, you are welcome to borrow the meeting room tomorrow."
+   }
+  },
+  {
+   "da": "jaså",
+   "en": "is that so; really",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 1684,
+   "level": "C1",
+   "example": {
+    "da": "Jaså, har du fået nyt job i kommunen?",
+    "en": "Is that so? Have you got a new job with the municipality?"
+   }
+  },
+  {
+   "da": "tja",
+   "en": "well; hmm (hesitating)",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 736,
+   "level": "B2",
+   "example": {
+    "da": "Tja, jeg ved ikke rigtig, om jeg har tid i weekenden.",
+    "en": "Well, I don't really know if I have time at the weekend."
+   }
+  },
+  {
+   "da": "tjo",
+   "en": "well, sort of; more or less",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 24433,
+   "level": "C1",
+   "example": {
+    "da": "Kan du lide dit nye job? – Tjo, det er da meget godt.",
+    "en": "Do you like your new job? – Well, it's quite good, I suppose."
+   }
+  },
+  {
+   "da": "næh",
+   "en": "nah; no (informal)",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 4716,
+   "level": "B2",
+   "example": {
+    "da": "Næh, jeg har ikke tid i dag, jeg skal hente børn.",
+    "en": "Nah, I don't have time today – I have to pick up the kids."
+   }
+  },
+  {
+   "da": "hov",
+   "en": "oops; hey; hang on",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 1125,
+   "level": "B2",
+   "example": {
+    "da": "Hov, jeg glemte at skrive under på formularen.",
+    "en": "Oops, I forgot to sign the form."
+   }
+  },
+  {
+   "da": "føj",
+   "en": "yuck; ugh",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 5372,
+   "level": "B2",
+   "example": {
+    "da": "Føj, der lugter af mug nede i kælderen.",
+    "en": "Ugh, it smells of mould down in the basement."
+   }
+  },
+  {
+   "da": "fy",
+   "en": "shame (on you); tut-tut",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 8006,
+   "level": "B2",
+   "example": {
+    "da": "Fy for skam, man må ikke smide affald på gaden!",
+    "en": "Shame on you, you mustn't drop litter in the street!"
+   }
+  },
+  {
+   "da": "uha",
+   "en": "oh dear; ooh",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 7616,
+   "level": "B2",
+   "example": {
+    "da": "Uha, det bliver dyrt at få repareret bilen.",
+    "en": "Oh dear, it's going to be expensive to get the car repaired."
+   }
+  },
+  {
+   "da": "puha",
+   "en": "phew",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 15193,
+   "level": "B2",
+   "example": {
+    "da": "Puha, sikke en travl uge det har været på arbejdet.",
+    "en": "Phew, what a busy week it has been at work."
+   }
+  },
+  {
+   "da": "pyt",
+   "en": "never mind; no matter",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 2644,
+   "level": "B2",
+   "example": {
+    "da": "Pyt med det, vi tager bare det næste tog.",
+    "en": "Never mind, we'll just take the next train."
+   }
+  },
+  {
+   "da": "øv",
+   "en": "bummer; oh no",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 6550,
+   "level": "B2",
+   "example": {
+    "da": "Øv, koncerten i Tivoli er allerede udsolgt.",
+    "en": "Oh no, the concert in Tivoli is already sold out."
+   }
+  },
+  {
+   "da": "uf",
+   "en": "ugh (reluctance, discomfort)",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 27219,
+   "level": "C1",
+   "example": {
+    "da": "Uf, jeg orker ikke at rydde op efter festen i aften.",
+    "en": "Ugh, I can't face tidying up after the party tonight."
+   }
+  },
+  {
+   "da": "ih",
+   "en": "oh (delight, surprise)",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 4579,
+   "level": "B2",
+   "example": {
+    "da": "Ih, hvor er det dejligt, at du kan komme til festen!",
+    "en": "Oh, how lovely that you can come to the party!"
+   }
+  },
+  {
+   "da": "ak",
+   "en": "alas; ah",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 8035,
+   "level": "C2",
+   "example": {
+    "da": "Ak ja, sommerferien er allerede forbi, og hverdagen venter.",
+    "en": "Ah well, the summer holiday is already over, and everyday life awaits."
+   }
+  },
+  {
+   "da": "velbekomme",
+   "en": "you're welcome (after a meal); enjoy",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 5538,
+   "level": "B2",
+   "example": {
+    "da": "Tak for mad! – Velbekomme, det var så lidt.",
+    "en": "Thanks for the meal! – You're welcome, it was nothing."
+   }
+  },
+  {
+   "da": "prosit",
+   "en": "bless you (after a sneeze)",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 13387,
+   "level": "B2",
+   "example": {
+    "da": "Prosit! Har du fået den forkølelse, der går rundt på kontoret?",
+    "en": "Bless you! Have you caught the cold that's going around the office?"
+   }
+  },
+  {
+   "da": "bravo",
+   "en": "bravo; well done",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 2598,
+   "level": "B2",
+   "example": {
+    "da": "Bravo, du har bestået danskprøven med topkarakter!",
+    "en": "Well done, you passed the Danish test with top marks!"
+   }
+  },
+  {
+   "da": "gudskelov",
+   "en": "thank God; thankfully",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 1648,
+   "level": "B2",
+   "example": {
+    "da": "Gudskelov kom ingen til skade ved branden i nat.",
+    "en": "Thank God nobody was hurt in the fire last night."
+   }
+  },
+  {
+   "da": "bevares",
+   "en": "sure; granted; goodness",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 7196,
+   "level": "C1",
+   "example": {
+    "da": "Bevares, cykelstier er fine, men vi mangler også flere busser.",
+    "en": "Granted, cycle paths are fine, but we also need more buses."
+   }
+  },
+  {
+   "da": "basta",
+   "en": "and that's that; full stop",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 13824,
+   "level": "C1",
+   "example": {
+    "da": "Vi har ikke råd til en ny bil i år, basta!",
+    "en": "We can't afford a new car this year, and that's that!"
+   }
+  },
+  {
+   "da": "pardon",
+   "en": "pardon; excuse me",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 29678,
+   "level": "C1",
+   "example": {
+    "da": "Pardon, må jeg lige komme forbi med barnevognen?",
+    "en": "Excuse me, may I just get past with the pram?"
+   }
+  },
+  {
+   "da": "vupti",
+   "en": "presto; just like that",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 22960,
+   "level": "C1",
+   "example": {
+    "da": "Man scanner bare koden, og vupti, så er regningen betalt.",
+    "en": "You just scan the code and, presto, the bill is paid."
+   }
+  },
+  {
+   "da": "jøsses",
+   "en": "jeez; goodness",
+   "class": "interjektion",
+   "forms": "",
+   "rank": 1903,
+   "level": "C1",
+   "example": {
+    "da": "Jøsses, har du set, hvad strøm koster nu?",
+    "en": "Jeez, have you seen what electricity costs now?"
+   }
+  },
+  {
+   "da": "ugevis",
+   "en": "for weeks (i ugevis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6217,
+   "level": "C1",
+   "example": {
+    "da": "Vejarbejdet har generet trafikken i ugevis.",
+    "en": "The roadworks have disrupted traffic for weeks."
+   }
+  },
+  {
+   "da": "dagevis",
+   "en": "for days (i dagevis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6689,
+   "level": "C1",
+   "example": {
+    "da": "Efter stormen var flere landsbyer uden strøm i dagevis.",
+    "en": "After the storm, several villages were without power for days."
+   }
+  },
+  {
+   "da": "snesevis",
+   "en": "dozens (snesevis af / i snesevis)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 20304,
+   "level": "C1",
+   "example": {
+    "da": "Snesevis af frivillige hjalp med at rydde stranden efter olieudslippet.",
+    "en": "Dozens of volunteers helped clear the beach after the oil spill."
+   }
+  },
+  {
+   "da": "titusindvis",
+   "en": "tens of thousands (titusindvis af)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 28985,
+   "level": "C1",
+   "example": {
+    "da": "Titusindvis af danskere venter på en operation.",
+    "en": "Tens of thousands of Danes are waiting for an operation."
+   }
+  },
+  {
+   "da": "flokkevis",
+   "en": "in droves; in crowds",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Turisterne kommer flokkevis til Nyhavn hele sommeren.",
+    "en": "The tourists come to Nyhavn in droves all summer."
+   }
+  },
+  {
+   "da": "glimtvis",
+   "en": "in glimpses; now and then",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Solen viste sig kun glimtvis i løbet af weekenden.",
+    "en": "The sun only showed itself now and then over the weekend."
+   }
+  },
+  {
+   "da": "anfaldsvis",
+   "en": "in fits; in attacks",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C2",
+   "example": {
+    "da": "Smerterne kommer anfaldsvis, især om natten.",
+    "en": "The pain comes in attacks, especially at night."
+   }
+  },
+  {
+   "da": "herfor",
+   "en": "for this",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 27866,
+   "level": "C1",
+   "example": {
+    "da": "Ministeriet har ændret reglerne, men begrundelsen herfor er uklar.",
+    "en": "The ministry has changed the rules, but the reason for this is unclear."
+   }
+  },
+  {
+   "da": "nogetsteds",
+   "en": "anywhere; somewhere",
+   "class": "adverbium",
+   "forms": "",
+   "rank": null,
+   "level": "C1",
+   "example": {
+    "da": "Jeg har ikke kunnet finde en ledig lejlighed nogetsteds i byen.",
+    "en": "I haven't been able to find a vacant flat anywhere in the city."
+   }
+  },
+  {
+   "da": "nylig",
+   "en": "recently (before a participle)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2362,
+   "level": "B2",
+   "example": {
+    "da": "Vi har købt en nylig renoveret lejlighed i Valby.",
+    "en": "We have bought a recently renovated flat in Valby."
+   }
+  },
+  {
+   "da": "videre",
+   "en": "on; further; onwards",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 377,
+   "level": "B2",
+   "example": {
+    "da": "Sagen er nu sendt videre til Ankestyrelsen.",
+    "en": "The case has now been passed on to the National Social Appeals Board."
+   }
+  },
+  {
+   "da": "inderst",
+   "en": "innermost (inderst inde = deep down)",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 6104,
+   "level": "C1",
+   "example": {
+    "da": "Inderst inde ved hun godt, at hun bør skifte job.",
+    "en": "Deep down she knows that she ought to change jobs."
+   }
+  },
+  {
+   "da": "fremme",
+   "en": "there; arrived; at the fore",
+   "class": "adverbium",
+   "forms": "",
+   "rank": 2321,
+   "level": "B2",
+   "example": {
+    "da": "Vi er fremme i Aalborg ved middagstid.",
+    "en": "We will arrive in Aalborg around noon."
+   }
+  }
+ ]
+}

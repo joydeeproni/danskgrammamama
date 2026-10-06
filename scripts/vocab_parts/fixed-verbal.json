@@ -1,0 +1,5005 @@
+{
+ "deck": "fixed",
+ "items": [
+  {
+   "da": "afhænge af",
+   "pattern": "afhænge af noget/nogen",
+   "en": "depend on",
+   "example": {
+    "da": "Om vi kan købe huset, afhænger af, hvad banken siger.",
+    "en": "Whether we can buy the house depends on what the bank says."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage hensyn til",
+   "pattern": "tage hensyn til noget/nogen",
+   "en": "take into account; show consideration for",
+   "example": {
+    "da": "Kommunen skal tage hensyn til de ældre, når den planlægger nye busruter.",
+    "en": "The municipality must take the elderly into account when it plans new bus routes."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "interessere sig for",
+   "pattern": "interessere sig for noget/nogen",
+   "en": "be interested in",
+   "example": {
+    "da": "Min søn interesserer sig mere for politik end for sport.",
+    "en": "My son is more interested in politics than in sport."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "deltage i",
+   "pattern": "deltage i noget",
+   "en": "take part in; participate in",
+   "example": {
+    "da": "Alle medarbejdere forventes at deltage i mødet på fredag.",
+    "en": "All employees are expected to take part in the meeting on Friday."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bestå af",
+   "pattern": "bestå af noget",
+   "en": "consist of",
+   "example": {
+    "da": "Udvalget består af syv medlemmer fra forskellige partier.",
+    "en": "The committee consists of seven members from different parties."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bestå i",
+   "pattern": "bestå i noget / i, at …",
+   "en": "consist in; lie in",
+   "example": {
+    "da": "Problemet består i, at der mangler sygeplejersker i hele regionen.",
+    "en": "The problem lies in the fact that there is a shortage of nurses across the region."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lede efter",
+   "pattern": "lede efter noget/nogen",
+   "en": "look for",
+   "example": {
+    "da": "Vi har ledt efter en større lejlighed i over et år.",
+    "en": "We have been looking for a bigger flat for over a year."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tænke på",
+   "pattern": "tænke på noget/nogen",
+   "en": "think of; think about",
+   "example": {
+    "da": "Jeg tænker tit på, om jeg skulle skifte job.",
+    "en": "I often think about whether I should change jobs."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tænke over",
+   "pattern": "tænke over noget",
+   "en": "think something over; reflect on",
+   "example": {
+    "da": "Du får et par dage til at tænke over tilbuddet.",
+    "en": "You get a couple of days to think the offer over."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bidrage til",
+   "pattern": "bidrage til noget",
+   "en": "contribute to",
+   "example": {
+    "da": "Alle skal bidrage til at nedbringe udledningen af CO2.",
+    "en": "Everyone must contribute to reducing CO2 emissions."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "føre til",
+   "pattern": "føre til noget",
+   "en": "lead to",
+   "example": {
+    "da": "Den nye lov kan føre til længere ventetider på sygehusene.",
+    "en": "The new law may lead to longer waiting times at the hospitals."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "resultere i",
+   "pattern": "resultere i noget",
+   "en": "result in",
+   "example": {
+    "da": "Forhandlingerne resulterede i en aftale om højere løn.",
+    "en": "The negotiations resulted in an agreement on higher pay."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "henvise til",
+   "pattern": "henvise (nogen) til noget/nogen",
+   "en": "refer to; refer (a patient) to",
+   "example": {
+    "da": "Lægen henviste mig til en specialist på Rigshospitalet.",
+    "en": "The doctor referred me to a specialist at Rigshospitalet."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "referere til",
+   "pattern": "referere til noget",
+   "en": "refer to",
+   "example": {
+    "da": "Ministeren refererede til en ny rapport fra Danmarks Statistik.",
+    "en": "The minister referred to a new report from Statistics Denmark."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "reagere på",
+   "pattern": "reagere på noget",
+   "en": "react to; respond to",
+   "example": {
+    "da": "Hvordan reagerede din chef på din opsigelse?",
+    "en": "How did your boss react to your resignation?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "svare på",
+   "pattern": "svare på noget",
+   "en": "answer; reply to",
+   "example": {
+    "da": "Du skal svare på mailen senest i morgen.",
+    "en": "You must reply to the email by tomorrow at the latest."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "fokusere på",
+   "pattern": "fokusere på noget",
+   "en": "focus on",
+   "example": {
+    "da": "Regeringen vil fokusere på psykiatrien i det kommende år.",
+    "en": "The government wants to focus on psychiatry in the coming year."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "koncentrere sig om",
+   "pattern": "koncentrere sig om noget",
+   "en": "concentrate on",
+   "example": {
+    "da": "Det er svært at koncentrere sig om arbejdet i et storrumskontor.",
+    "en": "It is hard to concentrate on work in an open-plan office."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "satse på",
+   "pattern": "satse på noget/nogen",
+   "en": "bet on; go for; prioritise",
+   "example": {
+    "da": "Virksomheden satser på grøn energi i fremtiden.",
+    "en": "The company is betting on green energy for the future."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "regne med",
+   "pattern": "regne med noget/nogen; regne med, at …",
+   "en": "count on; expect",
+   "example": {
+    "da": "Vi regner med, at byggeriet er færdigt til sommer.",
+    "en": "We expect the construction to be finished by the summer."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stole på",
+   "pattern": "stole på nogen/noget",
+   "en": "trust; rely on",
+   "example": {
+    "da": "Det er vigtigt, at borgerne kan stole på myndighederne.",
+    "en": "It is important that citizens can trust the authorities."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tvivle på",
+   "pattern": "tvivle på noget/nogen",
+   "en": "doubt",
+   "example": {
+    "da": "Mange økonomer tvivler på, at reformen vil virke.",
+    "en": "Many economists doubt that the reform will work."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tro på",
+   "pattern": "tro på noget/nogen",
+   "en": "believe in",
+   "example": {
+    "da": "Jeg tror på, at vi kan løse problemet sammen.",
+    "en": "I believe that we can solve the problem together."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "håbe på",
+   "pattern": "håbe på noget",
+   "en": "hope for",
+   "example": {
+    "da": "Landmændene håber på mere regn i de kommende uger.",
+    "en": "The farmers are hoping for more rain in the coming weeks."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "vente på",
+   "pattern": "vente på noget/nogen",
+   "en": "wait for",
+   "example": {
+    "da": "Mange patienter venter stadig på en operation.",
+    "en": "Many patients are still waiting for an operation."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "passe på",
+   "pattern": "passe på noget/nogen",
+   "en": "be careful; look after",
+   "example": {
+    "da": "Husk at passe på dig selv, når du har så travlt.",
+    "en": "Remember to look after yourself when you are so busy."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "passe til",
+   "pattern": "passe til noget/nogen",
+   "en": "suit; fit; match",
+   "example": {
+    "da": "Jobbet passer godt til min uddannelse.",
+    "en": "The job suits my education well."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sørge for",
+   "pattern": "sørge for noget; sørge for, at …",
+   "en": "make sure; provide for",
+   "example": {
+    "da": "Arbejdsgiveren skal sørge for, at arbejdspladsen er sikker.",
+    "en": "The employer must make sure that the workplace is safe."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stemme på",
+   "pattern": "stemme på nogen/et parti",
+   "en": "vote for (a party or candidate)",
+   "example": {
+    "da": "Hvem stemte du på ved sidste folketingsvalg?",
+    "en": "Who did you vote for at the last general election?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stemme for",
+   "pattern": "stemme for noget",
+   "en": "vote in favour of",
+   "example": {
+    "da": "Et flertal i byrådet stemte for forslaget.",
+    "en": "A majority on the city council voted in favour of the proposal."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stemme imod",
+   "pattern": "stemme imod noget",
+   "en": "vote against",
+   "example": {
+    "da": "Oppositionen stemte imod regeringens forslag om højere afgifter.",
+    "en": "The opposition voted against the government's proposal for higher duties."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stemme overens med",
+   "pattern": "stemme overens med noget",
+   "en": "agree with; be consistent with",
+   "example": {
+    "da": "Hans forklaring stemmer ikke overens med vidnernes.",
+    "en": "His explanation is not consistent with the witnesses' accounts."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "kæmpe for",
+   "pattern": "kæmpe for noget",
+   "en": "fight for",
+   "example": {
+    "da": "Fagforeningen kæmper for bedre arbejdsvilkår.",
+    "en": "The union is fighting for better working conditions."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "kæmpe mod",
+   "pattern": "kæmpe mod noget/nogen",
+   "en": "fight against",
+   "example": {
+    "da": "Hun har kæmpet mod kræft i to år.",
+    "en": "She has been fighting cancer for two years."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "kæmpe med",
+   "pattern": "kæmpe med noget",
+   "en": "struggle with",
+   "example": {
+    "da": "Mange unge kæmper med stress og præstationspres.",
+    "en": "Many young people struggle with stress and pressure to perform."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "beskæftige sig med",
+   "pattern": "beskæftige sig med noget",
+   "en": "deal with; work with; be occupied with",
+   "example": {
+    "da": "I sit job i kommunen beskæftiger hun sig med integration.",
+    "en": "In her job at the municipality she works with integration."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "arbejde med",
+   "pattern": "arbejde med noget/nogen",
+   "en": "work with; work on",
+   "example": {
+    "da": "Jeg arbejder med børn med særlige behov.",
+    "en": "I work with children with special needs."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "arbejde på",
+   "pattern": "arbejde på noget / på at …",
+   "en": "work on; work towards",
+   "example": {
+    "da": "Regeringen arbejder på en løsning på boligkrisen.",
+    "en": "The government is working on a solution to the housing crisis."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lide af",
+   "pattern": "lide af noget",
+   "en": "suffer from (an illness)",
+   "example": {
+    "da": "Min mor lider af gigt og har svært ved at gå.",
+    "en": "My mother suffers from arthritis and has difficulty walking."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lide under",
+   "pattern": "lide under noget",
+   "en": "suffer from; be hit by (conditions)",
+   "example": {
+    "da": "Mange små butikker lider under de høje energipriser.",
+    "en": "Many small shops are suffering from the high energy prices."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "dø af",
+   "pattern": "dø af noget",
+   "en": "die of",
+   "example": {
+    "da": "Hendes morfar døde af et hjerteanfald som 62-årig.",
+    "en": "Her grandfather died of a heart attack at 62."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bekymre sig om",
+   "pattern": "bekymre sig om noget/nogen",
+   "en": "worry about",
+   "example": {
+    "da": "Mange forældre bekymrer sig om deres børns skærmtid.",
+    "en": "Many parents worry about their children's screen time."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "klage over",
+   "pattern": "klage over noget (til nogen)",
+   "en": "complain about",
+   "example": {
+    "da": "Naboerne har klaget over støjen fra byggepladsen.",
+    "en": "The neighbours have complained about the noise from the building site."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "protestere mod",
+   "pattern": "protestere mod noget",
+   "en": "protest against",
+   "example": {
+    "da": "Tusindvis af studerende protesterede mod nedskæringerne på uddannelserne.",
+    "en": "Thousands of students protested against the cuts in education."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "advare mod",
+   "pattern": "advare (nogen) mod noget/nogen",
+   "en": "warn against",
+   "example": {
+    "da": "Politiet advarer mod falske sms'er, der ligner beskeder fra banken.",
+    "en": "The police warn against fake text messages that look like messages from the bank."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "advare om",
+   "pattern": "advare om noget",
+   "en": "warn of; warn about",
+   "example": {
+    "da": "DMI advarer om skybrud i hele Østjylland i aften.",
+    "en": "DMI is warning of cloudbursts across East Jutland tonight."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "beskytte mod",
+   "pattern": "beskytte nogen/noget mod noget",
+   "en": "protect against",
+   "example": {
+    "da": "Vaccinen beskytter mod alvorlig sygdom.",
+    "en": "The vaccine protects against serious illness."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "forberede sig på",
+   "pattern": "forberede sig på noget",
+   "en": "prepare for",
+   "example": {
+    "da": "Hun bruger weekenden på at forberede sig på jobsamtalen.",
+    "en": "She is spending the weekend preparing for the job interview."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "vænne sig til",
+   "pattern": "vænne sig til noget",
+   "en": "get used to",
+   "example": {
+    "da": "Det tog mig lang tid at vænne mig til det danske vejr.",
+    "en": "It took me a long time to get used to the Danish weather."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "glæde sig til",
+   "pattern": "glæde sig til noget",
+   "en": "look forward to",
+   "example": {
+    "da": "Børnene glæder sig til sommerferien.",
+    "en": "The children are looking forward to the summer holidays."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "glæde sig over",
+   "pattern": "glæde sig over noget",
+   "en": "be pleased about; rejoice at",
+   "example": {
+    "da": "Borgmesteren glæder sig over, at arbejdsløsheden er faldet.",
+    "en": "The mayor is pleased that unemployment has fallen."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "ærgre sig over",
+   "pattern": "ærgre sig over noget",
+   "en": "be annoyed about; regret",
+   "example": {
+    "da": "Jeg ærgrer mig over, at jeg ikke søgte stillingen.",
+    "en": "I regret not applying for the position."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "undre sig over",
+   "pattern": "undre sig over noget",
+   "en": "wonder at; be puzzled by",
+   "example": {
+    "da": "Mange undrer sig over, at prisen er steget så meget.",
+    "en": "Many people are puzzled that the price has gone up so much."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "skamme sig over",
+   "pattern": "skamme sig over noget",
+   "en": "be ashamed of",
+   "example": {
+    "da": "Han skammede sig over sin opførsel til julefrokosten.",
+    "en": "He was ashamed of his behaviour at the Christmas party."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "irritere sig over",
+   "pattern": "irritere sig over noget/nogen",
+   "en": "be irritated by; be annoyed at",
+   "example": {
+    "da": "Mange pendlere irriterer sig over forsinkelserne på togene.",
+    "en": "Many commuters are annoyed at the train delays."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "beklage sig over",
+   "pattern": "beklage sig over noget (til nogen)",
+   "en": "complain about; grumble about",
+   "example": {
+    "da": "Medarbejderne beklager sig over den stigende arbejdsbyrde.",
+    "en": "The staff complain about the growing workload."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "forelske sig i",
+   "pattern": "forelske sig i nogen/noget",
+   "en": "fall in love with",
+   "example": {
+    "da": "De forelskede sig i hinanden på et sprogkursus.",
+    "en": "They fell in love with each other on a language course."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "blande sig i",
+   "pattern": "blande sig i noget",
+   "en": "interfere in; meddle in",
+   "example": {
+    "da": "Politikerne bør ikke blande sig i domstolenes arbejde.",
+    "en": "Politicians should not interfere in the work of the courts."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "engagere sig i",
+   "pattern": "engagere sig i noget",
+   "en": "get involved in; engage in",
+   "example": {
+    "da": "Flere og flere unge engagerer sig i klimabevægelsen.",
+    "en": "More and more young people are getting involved in the climate movement."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "specialisere sig i",
+   "pattern": "specialisere sig i noget",
+   "en": "specialise in",
+   "example": {
+    "da": "Advokatfirmaet har specialiseret sig i arbejdsret.",
+    "en": "The law firm has specialised in employment law."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte sig ind i",
+   "pattern": "sætte sig ind i noget",
+   "en": "familiarise oneself with; get to grips with",
+   "example": {
+    "da": "Som ny medarbejder skal du først sætte dig ind i reglerne.",
+    "en": "As a new employee you must first familiarise yourself with the rules."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "melde sig ind i",
+   "pattern": "melde sig ind i noget",
+   "en": "join (a party, union, club)",
+   "example": {
+    "da": "Hun meldte sig ind i en fagforening, da hun fik fast job.",
+    "en": "She joined a union when she got a permanent job."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "melde sig ud af",
+   "pattern": "melde sig ud af noget",
+   "en": "leave; cancel one's membership of",
+   "example": {
+    "da": "Han meldte sig ud af partiet i protest.",
+    "en": "He left the party in protest."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "melde sig til",
+   "pattern": "melde sig til noget",
+   "en": "sign up for; volunteer for",
+   "example": {
+    "da": "Jeg har meldt mig til et kursus i projektledelse.",
+    "en": "I have signed up for a course in project management."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "melde fra",
+   "pattern": "melde fra (til noget)",
+   "en": "cancel; pull out; say no",
+   "example": {
+    "da": "Tre deltagere har meldt fra til konferencen.",
+    "en": "Three participants have pulled out of the conference."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "søge om",
+   "pattern": "søge om noget",
+   "en": "apply for",
+   "example": {
+    "da": "Du kan søge om boligstøtte på borger.dk.",
+    "en": "You can apply for housing benefit on borger.dk."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "ansøge om",
+   "pattern": "ansøge om noget",
+   "en": "apply for (formal)",
+   "example": {
+    "da": "Virksomheden har ansøgt om tilladelse til at udvide fabrikken.",
+    "en": "The company has applied for permission to expand the factory."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "søge efter",
+   "pattern": "søge efter noget/nogen",
+   "en": "search for",
+   "example": {
+    "da": "Politiet søger efter en forsvundet 15-årig pige.",
+    "en": "The police are searching for a missing 15-year-old girl."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "spørge om",
+   "pattern": "spørge (nogen) om noget",
+   "en": "ask (someone) about; ask for",
+   "example": {
+    "da": "Må jeg spørge dig om noget personligt?",
+    "en": "May I ask you something personal?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "spørge efter",
+   "pattern": "spørge efter noget/nogen",
+   "en": "ask for (someone/something)",
+   "example": {
+    "da": "Der var en kunde, der spurgte efter dig i receptionen.",
+    "en": "There was a customer asking for you at reception."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bede om",
+   "pattern": "bede (nogen) om noget / om at …",
+   "en": "ask for; request",
+   "example": {
+    "da": "Borgerne bliver bedt om at spare på vandet i sommer.",
+    "en": "Citizens are being asked to save water this summer."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "takke for",
+   "pattern": "takke (nogen) for noget",
+   "en": "thank for",
+   "example": {
+    "da": "Jeg vil gerne takke jer for et godt samarbejde.",
+    "en": "I would like to thank you for a good collaboration."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "undskylde for",
+   "pattern": "undskylde for noget",
+   "en": "apologise for",
+   "example": {
+    "da": "Direktøren undskyldte for fejlen på et pressemøde.",
+    "en": "The director apologised for the mistake at a press conference."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "takke ja til",
+   "pattern": "takke ja til noget",
+   "en": "accept (an offer, invitation)",
+   "example": {
+    "da": "Hun har takket ja til jobbet i Aarhus.",
+    "en": "She has accepted the job in Aarhus."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "takke nej til",
+   "pattern": "takke nej til noget",
+   "en": "decline; turn down",
+   "example": {
+    "da": "Jeg måtte takke nej til invitationen på grund af arbejde.",
+    "en": "I had to decline the invitation because of work."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sige ja til",
+   "pattern": "sige ja til noget",
+   "en": "say yes to; agree to",
+   "example": {
+    "da": "Vælgerne sagde ja til forslaget ved folkeafstemningen.",
+    "en": "The voters said yes to the proposal in the referendum."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sige nej til",
+   "pattern": "sige nej til noget",
+   "en": "say no to; turn down",
+   "example": {
+    "da": "Det er vigtigt at kunne sige nej til ekstra opgaver.",
+    "en": "It is important to be able to say no to extra tasks."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "drømme om",
+   "pattern": "drømme om noget",
+   "en": "dream of; dream about",
+   "example": {
+    "da": "Mange børnefamilier drømmer om et hus med have.",
+    "en": "Many families with children dream of a house with a garden."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "handle om",
+   "pattern": "handle om noget",
+   "en": "be about",
+   "example": {
+    "da": "Debatten i aften handler om fremtidens folkeskole.",
+    "en": "Tonight's debate is about the state school of the future."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "dreje sig om",
+   "pattern": "dreje sig om noget",
+   "en": "be about; concern",
+   "example": {
+    "da": "Sagen drejer sig om en tvist mellem udlejer og lejer.",
+    "en": "The case concerns a dispute between landlord and tenant."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå ud på",
+   "pattern": "gå ud på noget / på at …",
+   "en": "be about; aim to",
+   "example": {
+    "da": "Projektet går ud på at få flere ledige i arbejde.",
+    "en": "The project aims to get more unemployed people into work."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme an på",
+   "pattern": "komme an på noget",
+   "en": "depend on",
+   "example": {
+    "da": "Om vi tager på ferie i år, kommer an på økonomien.",
+    "en": "Whether we go on holiday this year depends on our finances."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "være tale om",
+   "pattern": "der er tale om noget",
+   "en": "be a matter of; be (a case of)",
+   "example": {
+    "da": "Ifølge politiet er der tale om et bevidst angreb.",
+    "en": "According to the police, it is a deliberate attack."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre opmærksom på",
+   "pattern": "gøre (nogen) opmærksom på noget",
+   "en": "point out; draw attention to",
+   "example": {
+    "da": "Jeg vil gerne gøre opmærksom på, at fristen er fredag.",
+    "en": "I would like to point out that the deadline is Friday."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge mærke til",
+   "pattern": "lægge mærke til noget/nogen",
+   "en": "notice",
+   "example": {
+    "da": "Lagde du mærke til, at han ikke sagde noget på mødet?",
+    "en": "Did you notice that he didn't say anything at the meeting?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få øje på",
+   "pattern": "få øje på noget/nogen",
+   "en": "catch sight of; spot",
+   "example": {
+    "da": "Jeg fik øje på en gammel kollega i toget i morges.",
+    "en": "I spotted an old colleague on the train this morning."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde øje med",
+   "pattern": "holde øje med noget/nogen",
+   "en": "keep an eye on; monitor",
+   "example": {
+    "da": "Lægen vil holde øje med dit blodtryk de næste måneder.",
+    "en": "The doctor will keep an eye on your blood pressure over the next months."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage sig af",
+   "pattern": "tage sig af noget/nogen",
+   "en": "take care of; deal with",
+   "example": {
+    "da": "Hvem tager sig af børnene, når I begge arbejder sent?",
+    "en": "Who takes care of the children when you both work late?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage del i",
+   "pattern": "tage del i noget",
+   "en": "take part in; share in",
+   "example": {
+    "da": "Hele lokalsamfundet tog del i festlighederne.",
+    "en": "The whole local community took part in the festivities."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage afstand fra",
+   "pattern": "tage afstand fra noget/nogen",
+   "en": "distance oneself from; reject",
+   "example": {
+    "da": "Partiformanden tog afstand fra medlemmets udtalelser.",
+    "en": "The party leader distanced himself from the member's statements."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage stilling til",
+   "pattern": "tage stilling til noget",
+   "en": "take a position on; decide on",
+   "example": {
+    "da": "Byrådet skal tage stilling til sagen på næste møde.",
+    "en": "The city council must decide on the matter at its next meeting."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage højde for",
+   "pattern": "tage højde for noget",
+   "en": "allow for; take into account",
+   "example": {
+    "da": "Budgettet tager ikke højde for de stigende renter.",
+    "en": "The budget does not take the rising interest rates into account."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage ansvar for",
+   "pattern": "tage ansvar for noget/nogen",
+   "en": "take responsibility for",
+   "example": {
+    "da": "Unge skal lære at tage ansvar for deres egen økonomi.",
+    "en": "Young people must learn to take responsibility for their own finances."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage initiativ til",
+   "pattern": "tage initiativ til noget",
+   "en": "take the initiative for; initiate",
+   "example": {
+    "da": "Det var beboerne selv, der tog initiativ til fællesspisningen.",
+    "en": "It was the residents themselves who initiated the communal dinners."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage fat på",
+   "pattern": "tage fat på noget",
+   "en": "get started on; tackle",
+   "example": {
+    "da": "Efter ferien skal vi for alvor tage fat på det nye projekt.",
+    "en": "After the holiday we will really get started on the new project."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage imod",
+   "pattern": "tage imod noget/nogen",
+   "en": "receive; accept; welcome",
+   "example": {
+    "da": "Danmark tog imod mange flygtninge fra Ukraine i 2022.",
+    "en": "Denmark received many refugees from Ukraine in 2022."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage op",
+   "pattern": "tage noget op",
+   "en": "raise (an issue); take up",
+   "example": {
+    "da": "Jeg vil tage problemet op på næste personalemøde.",
+    "en": "I will raise the problem at the next staff meeting."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage til",
+   "pattern": "tage til (i styrke, omfang)",
+   "en": "increase; grow stronger",
+   "example": {
+    "da": "Presset på de offentlige finanser tager til i de kommende år.",
+    "en": "The pressure on public finances will increase in the coming years."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage af",
+   "pattern": "tage af; tage (et antal kilo) af",
+   "en": "decrease; ease off; lose weight",
+   "example": {
+    "da": "Vinden tager af i løbet af natten, siger DMI.",
+    "en": "The wind will ease off during the night, says DMI."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage på",
+   "pattern": "tage på; tage (et antal kilo) på",
+   "en": "put on weight",
+   "example": {
+    "da": "Mange tager et par kilo på i løbet af julen.",
+    "en": "Many people put on a couple of kilos over Christmas."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage fejl af",
+   "pattern": "tage fejl af noget/nogen",
+   "en": "be mistaken about; mistake for",
+   "example": {
+    "da": "Jeg tog fejl af datoen og kom en dag for tidligt.",
+    "en": "I got the date wrong and came a day too early."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage sig sammen",
+   "pattern": "tage sig sammen (til at …)",
+   "en": "pull oneself together; make an effort",
+   "example": {
+    "da": "Jeg må tage mig sammen og få betalt de regninger.",
+    "en": "I must pull myself together and get those bills paid."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage afsked med",
+   "pattern": "tage afsked med nogen/noget",
+   "en": "say goodbye to; take leave of",
+   "example": {
+    "da": "Kollegerne tog afsked med hende ved en reception.",
+    "en": "Her colleagues said goodbye to her at a reception."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage kontakt til",
+   "pattern": "tage kontakt til nogen",
+   "en": "contact; get in touch with",
+   "example": {
+    "da": "Du er velkommen til at tage kontakt til mig, hvis du har spørgsmål.",
+    "en": "You are welcome to contact me if you have any questions."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage udgangspunkt i",
+   "pattern": "tage udgangspunkt i noget",
+   "en": "take as a starting point; be based on",
+   "example": {
+    "da": "Undervisningen tager udgangspunkt i elevernes egne erfaringer.",
+    "en": "The teaching takes the pupils' own experiences as its starting point."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage hul på",
+   "pattern": "tage hul på noget",
+   "en": "start on; get going with",
+   "example": {
+    "da": "I morgen tager vi hul på forhandlingerne om næste års budget.",
+    "en": "Tomorrow we start the negotiations on next year's budget."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage parti for",
+   "pattern": "tage parti for nogen/noget",
+   "en": "take sides with",
+   "example": {
+    "da": "Som leder bør man ikke tage parti for en af medarbejderne.",
+    "en": "As a manager you should not take sides with one of the employees."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage skade af",
+   "pattern": "tage skade af noget",
+   "en": "be harmed by; suffer from",
+   "example": {
+    "da": "Børn kan tage skade af at vokse op i et hjem med vold.",
+    "en": "Children can be harmed by growing up in a home with violence."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage ved lære af",
+   "pattern": "tage ved lære af noget/nogen",
+   "en": "learn from",
+   "example": {
+    "da": "Vi må tage ved lære af de fejl, der blev begået under krisen.",
+    "en": "We must learn from the mistakes that were made during the crisis."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage sig tid til",
+   "pattern": "tage sig tid til noget / til at …",
+   "en": "take the time to; make time for",
+   "example": {
+    "da": "Husk at tage dig tid til at holde pauser i løbet af dagen.",
+    "en": "Remember to take the time to have breaks during the day."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage til efterretning",
+   "pattern": "tage noget til efterretning",
+   "en": "take note of; accept (formally)",
+   "example": {
+    "da": "Ledelsen har taget kritikken til efterretning.",
+    "en": "The management has taken note of the criticism."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "tage i betragtning",
+   "pattern": "tage noget i betragtning",
+   "en": "take into consideration",
+   "example": {
+    "da": "Når man tager lønnen i betragtning, er huslejen meget høj.",
+    "en": "When you take the salary into consideration, the rent is very high."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage i brug",
+   "pattern": "tage noget i brug",
+   "en": "start using; put into use",
+   "example": {
+    "da": "Den nye metrolinje bliver taget i brug til december.",
+    "en": "The new metro line will be put into use in December."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage hånd om",
+   "pattern": "tage hånd om noget/nogen",
+   "en": "take care of; handle",
+   "example": {
+    "da": "Kommunen skal tage hånd om de borgere, der mister deres bolig.",
+    "en": "The municipality must take care of the citizens who lose their homes."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage afsæt i",
+   "pattern": "tage afsæt i noget",
+   "en": "be based on; start from",
+   "example": {
+    "da": "Reformen tager afsæt i ekspertgruppens anbefalinger.",
+    "en": "The reform is based on the expert group's recommendations."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "tage alvorligt",
+   "pattern": "tage noget/nogen alvorligt",
+   "en": "take seriously",
+   "example": {
+    "da": "Lægerne skal tage patienternes symptomer alvorligt.",
+    "en": "Doctors must take patients' symptoms seriously."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage for givet",
+   "pattern": "tage noget for givet",
+   "en": "take for granted",
+   "example": {
+    "da": "Mange tager rent drikkevand for givet.",
+    "en": "Many people take clean drinking water for granted."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage skridt til",
+   "pattern": "tage skridt til noget / til at …",
+   "en": "take steps to",
+   "example": {
+    "da": "Regeringen har taget skridt til at begrænse brugen af engangsplast.",
+    "en": "The government has taken steps to limit the use of single-use plastic."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tage en uddannelse",
+   "pattern": "tage en uddannelse (som/i noget)",
+   "en": "get an education; train as",
+   "example": {
+    "da": "Hun vil tage en uddannelse som sygeplejerske.",
+    "en": "She wants to train as a nurse."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage en pause",
+   "pattern": "tage en pause (fra noget)",
+   "en": "take a break",
+   "example": {
+    "da": "Jeg har brug for at tage en pause fra arbejdet.",
+    "en": "I need to take a break from work."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage et lån",
+   "pattern": "tage et lån (i noget)",
+   "en": "take out a loan",
+   "example": {
+    "da": "De måtte tage et lån i huset for at betale for renoveringen.",
+    "en": "They had to take out a loan on the house to pay for the renovation."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tage forbehold for",
+   "pattern": "tage forbehold for noget",
+   "en": "make a reservation about; allow for",
+   "example": {
+    "da": "Vi tager forbehold for trykfejl og prisændringer.",
+    "en": "We reserve the right to correct printing errors and price changes."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "tage notits af",
+   "pattern": "tage notits af noget/nogen",
+   "en": "take notice of; pay attention to",
+   "example": {
+    "da": "Ingen tog notits af advarslerne, før det var for sent.",
+    "en": "Nobody took notice of the warnings until it was too late."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "træffe en beslutning",
+   "pattern": "træffe en beslutning (om noget)",
+   "en": "make a decision",
+   "example": {
+    "da": "Bestyrelsen skal træffe en beslutning om fusionen inden jul.",
+    "en": "The board must make a decision on the merger before Christmas."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "træffe et valg",
+   "pattern": "træffe et valg (mellem noget)",
+   "en": "make a choice",
+   "example": {
+    "da": "Mange unge synes, det er svært at træffe et valg om uddannelse.",
+    "en": "Many young people find it hard to make a choice about education."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "træffe foranstaltninger",
+   "pattern": "træffe foranstaltninger (mod noget)",
+   "en": "take measures",
+   "example": {
+    "da": "Myndighederne har truffet foranstaltninger mod smittespredning.",
+    "en": "The authorities have taken measures against the spread of infection."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "træffe aftale med",
+   "pattern": "træffe aftale med nogen (om noget)",
+   "en": "make an arrangement with; book (an appointment)",
+   "example": {
+    "da": "Du skal træffe aftale med tandlægen mindst en uge i forvejen.",
+    "en": "You must book an appointment with the dentist at least a week in advance."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stille et spørgsmål",
+   "pattern": "stille (nogen) et spørgsmål",
+   "en": "ask a question",
+   "example": {
+    "da": "Journalisten stillede ministeren et kritisk spørgsmål.",
+    "en": "The journalist asked the minister a critical question."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stille krav til",
+   "pattern": "stille krav til nogen/noget",
+   "en": "make demands on; set requirements for",
+   "example": {
+    "da": "EU stiller strengere krav til fødevaresikkerhed.",
+    "en": "The EU is setting stricter requirements for food safety."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stille spørgsmålstegn ved",
+   "pattern": "stille spørgsmålstegn ved noget",
+   "en": "question; call into question",
+   "example": {
+    "da": "Flere eksperter stiller spørgsmålstegn ved undersøgelsens resultater.",
+    "en": "Several experts question the results of the study."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stille op til",
+   "pattern": "stille op til noget",
+   "en": "stand for (election); take part in",
+   "example": {
+    "da": "Hun stiller op til kommunalvalget for første gang.",
+    "en": "She is standing in the local elections for the first time."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stille til rådighed",
+   "pattern": "stille noget til rådighed (for nogen)",
+   "en": "make available; provide",
+   "example": {
+    "da": "Arbejdsgiveren stiller en computer og en telefon til rådighed.",
+    "en": "The employer provides a computer and a phone."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stille sig kritisk over for",
+   "pattern": "stille sig kritisk over for noget",
+   "en": "take a critical view of",
+   "example": {
+    "da": "Lægeforeningen stiller sig kritisk over for forslaget.",
+    "en": "The Danish Medical Association takes a critical view of the proposal."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "sætte i gang",
+   "pattern": "sætte noget i gang",
+   "en": "start; launch; set in motion",
+   "example": {
+    "da": "Kommunen har sat et projekt i gang for at mindske ensomhed blandt ældre.",
+    "en": "The municipality has launched a project to reduce loneliness among the elderly."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sætte pris på",
+   "pattern": "sætte pris på noget/nogen",
+   "en": "appreciate",
+   "example": {
+    "da": "Jeg sætter stor pris på din hjælp.",
+    "en": "I really appreciate your help."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sætte fokus på",
+   "pattern": "sætte fokus på noget",
+   "en": "focus attention on; highlight",
+   "example": {
+    "da": "Kampagnen sætter fokus på psykisk sundhed blandt unge.",
+    "en": "The campaign highlights mental health among young people."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte ned",
+   "pattern": "sætte noget ned",
+   "en": "reduce; lower",
+   "example": {
+    "da": "Banken har sat renten ned for anden gang i år.",
+    "en": "The bank has lowered the interest rate for the second time this year."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sætte op",
+   "pattern": "sætte noget op",
+   "en": "raise (prices); put up",
+   "example": {
+    "da": "Flere supermarkeder har sat priserne op på mejeriprodukter.",
+    "en": "Several supermarkets have raised the prices of dairy products."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sætte en stopper for",
+   "pattern": "sætte en stopper for noget",
+   "en": "put a stop to",
+   "example": {
+    "da": "Regeringen vil sætte en stopper for social dumping.",
+    "en": "The government wants to put a stop to social dumping."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte grænser for",
+   "pattern": "sætte grænser for nogen/noget",
+   "en": "set limits for",
+   "example": {
+    "da": "Det er vigtigt at sætte grænser for børns brug af mobiltelefon.",
+    "en": "It is important to set limits for children's use of mobile phones."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sætte sig i forbindelse med",
+   "pattern": "sætte sig i forbindelse med nogen",
+   "en": "get in touch with; contact (formal)",
+   "example": {
+    "da": "Sagsbehandleren sætter sig i forbindelse med dig inden for en uge.",
+    "en": "The caseworker will get in touch with you within a week."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte ind over for",
+   "pattern": "sætte ind over for noget",
+   "en": "take action against; crack down on",
+   "example": {
+    "da": "Politiet sætter ind over for bandekriminaliteten.",
+    "en": "The police are taking action against gang crime."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte i værk",
+   "pattern": "sætte noget i værk",
+   "en": "implement; set in motion",
+   "example": {
+    "da": "Planen bliver sat i værk efter sommerferien.",
+    "en": "The plan will be implemented after the summer holidays."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte sig igennem",
+   "pattern": "sætte sig igennem (over for nogen)",
+   "en": "assert oneself",
+   "example": {
+    "da": "Som ny leder kan det være svært at sætte sig igennem.",
+    "en": "As a new manager it can be hard to assert yourself."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "sætte sig ud over",
+   "pattern": "sætte sig ud over noget",
+   "en": "disregard; ignore (rules, objections)",
+   "example": {
+    "da": "Ministeriet satte sig ud over embedsmændenes advarsler.",
+    "en": "The ministry disregarded the civil servants' warnings."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "gøre brug af",
+   "pattern": "gøre brug af noget",
+   "en": "make use of",
+   "example": {
+    "da": "Flere ældre gør brug af digitale lægekonsultationer.",
+    "en": "More elderly people are making use of digital doctor's consultations."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre indtryk på",
+   "pattern": "gøre indtryk på nogen",
+   "en": "make an impression on",
+   "example": {
+    "da": "Hans tale gjorde stort indtryk på de unge tilhørere.",
+    "en": "His speech made a great impression on the young audience."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre en indsats for",
+   "pattern": "gøre en indsats for noget/nogen",
+   "en": "make an effort for; work for",
+   "example": {
+    "da": "Mange frivillige gør en stor indsats for hjemløse.",
+    "en": "Many volunteers make a great effort for homeless people."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre op med",
+   "pattern": "gøre op med noget",
+   "en": "break with; do away with",
+   "example": {
+    "da": "Partiet vil gøre op med den stramme udlændingepolitik.",
+    "en": "The party wants to break with the strict immigration policy."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre sig umage",
+   "pattern": "gøre sig umage (med noget)",
+   "en": "take pains; make an effort",
+   "example": {
+    "da": "Hun gør sig altid umage med sine opgaver.",
+    "en": "She always takes great care with her assignments."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre noget ved",
+   "pattern": "gøre noget ved noget",
+   "en": "do something about",
+   "example": {
+    "da": "Hvis vi ikke gør noget ved problemet nu, bliver det værre.",
+    "en": "If we don't do something about the problem now, it will get worse."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre status over",
+   "pattern": "gøre status over noget",
+   "en": "take stock of",
+   "example": {
+    "da": "Ved årets afslutning gør vi status over vores resultater.",
+    "en": "At the end of the year we take stock of our results."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre rede for",
+   "pattern": "gøre rede for noget",
+   "en": "account for; explain",
+   "example": {
+    "da": "I opgaven skal du gøre rede for de vigtigste argumenter i teksten.",
+    "en": "In the assignment you must account for the main arguments in the text."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre sig skyldig i",
+   "pattern": "gøre sig skyldig i noget",
+   "en": "be guilty of; commit",
+   "example": {
+    "da": "Ingen af medarbejderne har gjort sig skyldig i svindel.",
+    "en": "None of the employees has been guilty of fraud."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre en forskel",
+   "pattern": "gøre en forskel (for nogen)",
+   "en": "make a difference",
+   "example": {
+    "da": "Som pædagog kan man virkelig gøre en forskel for børn.",
+    "en": "As a nursery teacher you can really make a difference for children."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre sig tanker om",
+   "pattern": "gøre sig tanker om noget",
+   "en": "think about; consider",
+   "example": {
+    "da": "Har du gjort dig nogle tanker om, hvad du vil efter gymnasiet?",
+    "en": "Have you given any thought to what you want to do after upper secondary school?"
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre et forsøg på",
+   "pattern": "gøre et forsøg på noget / på at …",
+   "en": "make an attempt to",
+   "example": {
+    "da": "Regeringen gør et nyt forsøg på at reformere skattesystemet.",
+    "en": "The government is making a new attempt to reform the tax system."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre krav på",
+   "pattern": "gøre krav på noget",
+   "en": "lay claim to; be entitled to claim",
+   "example": {
+    "da": "Du kan gøre krav på erstatning, hvis flyet er mere end tre timer forsinket.",
+    "en": "You can claim compensation if the flight is more than three hours late."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre modstand mod",
+   "pattern": "gøre modstand mod noget/nogen",
+   "en": "resist",
+   "example": {
+    "da": "Lokalbefolkningen gør modstand mod planerne om en ny motorvej.",
+    "en": "The local population is resisting the plans for a new motorway."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre grin med",
+   "pattern": "gøre grin med noget/nogen",
+   "en": "make fun of",
+   "example": {
+    "da": "Det er ikke i orden at gøre grin med andres udseende.",
+    "en": "It is not okay to make fun of other people's appearance."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre sig fortjent til",
+   "pattern": "gøre sig fortjent til noget",
+   "en": "deserve; earn",
+   "example": {
+    "da": "Holdet har gjort sig fortjent til sejren.",
+    "en": "The team has earned the victory."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre en ende på",
+   "pattern": "gøre en ende på noget",
+   "en": "put an end to",
+   "example": {
+    "da": "Aftalen skal gøre en ende på flere års konflikt.",
+    "en": "The agreement is meant to put an end to several years of conflict."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gøre klar til",
+   "pattern": "gøre (noget) klar til noget",
+   "en": "get ready for; prepare for",
+   "example": {
+    "da": "Vi er ved at gøre huset klar til salg.",
+    "en": "We are getting the house ready for sale."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gøre sig gældende",
+   "pattern": "noget gør sig gældende",
+   "en": "apply; be a factor; come into play",
+   "example": {
+    "da": "De samme problemer gør sig gældende i mange andre kommuner.",
+    "en": "The same problems apply in many other municipalities."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "gøre karriere",
+   "pattern": "gøre karriere (inden for noget)",
+   "en": "make a career; build a career",
+   "example": {
+    "da": "Han har gjort karriere inden for finanssektoren.",
+    "en": "He has made a career in the financial sector."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "få styr på",
+   "pattern": "få styr på noget",
+   "en": "get a grip on; sort out",
+   "example": {
+    "da": "Jeg må få styr på min økonomi, før vi køber hus.",
+    "en": "I must get my finances sorted before we buy a house."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få adgang til",
+   "pattern": "få adgang til noget",
+   "en": "get access to; gain access to",
+   "example": {
+    "da": "Med MitID får du adgang til din digitale post.",
+    "en": "With MitID you get access to your digital mail."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få lov til",
+   "pattern": "få lov til noget / til at …",
+   "en": "be allowed to; get permission to",
+   "example": {
+    "da": "Får man lov til at arbejde hjemme i din virksomhed?",
+    "en": "Are you allowed to work from home in your company?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få brug for",
+   "pattern": "få brug for noget/nogen",
+   "en": "come to need",
+   "example": {
+    "da": "Ring endelig, hvis du får brug for hjælp.",
+    "en": "Do call if you need help."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få fat i",
+   "pattern": "få fat i noget/nogen",
+   "en": "get hold of; reach",
+   "example": {
+    "da": "Jeg har prøvet at få fat i min sagsbehandler hele ugen.",
+    "en": "I have been trying to get hold of my caseworker all week."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få mulighed for",
+   "pattern": "få mulighed for noget / for at …",
+   "en": "get the opportunity to",
+   "example": {
+    "da": "Eleverne får mulighed for at komme i praktik i udlandet.",
+    "en": "The students get the opportunity to do an internship abroad."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få at vide",
+   "pattern": "få noget at vide (af nogen)",
+   "en": "be told; find out",
+   "example": {
+    "da": "Jeg fik først at vide om fyringerne i går.",
+    "en": "I wasn't told about the layoffs until yesterday."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få nok af",
+   "pattern": "få nok af noget/nogen",
+   "en": "get fed up with; have had enough of",
+   "example": {
+    "da": "Mange borgere har fået nok af de lange ventelister.",
+    "en": "Many citizens have had enough of the long waiting lists."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få overblik over",
+   "pattern": "få overblik over noget",
+   "en": "get an overview of",
+   "example": {
+    "da": "Appen hjælper dig med at få overblik over dine udgifter.",
+    "en": "The app helps you get an overview of your expenses."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få indflydelse på",
+   "pattern": "få indflydelse på noget",
+   "en": "gain influence over; get a say in",
+   "example": {
+    "da": "Medarbejderne skal få mere indflydelse på deres arbejdstid.",
+    "en": "Employees should get more say over their working hours."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "få tid til",
+   "pattern": "få tid til noget",
+   "en": "find time for",
+   "example": {
+    "da": "Efter vi fik børn, får vi sjældent tid til at se vores venner.",
+    "en": "Since we had children, we rarely find time to see our friends."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få råd til",
+   "pattern": "få råd til noget",
+   "en": "be able to afford",
+   "example": {
+    "da": "Mange unge får aldrig råd til en lejlighed i København.",
+    "en": "Many young people will never be able to afford a flat in Copenhagen."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få gang i",
+   "pattern": "få gang i noget",
+   "en": "get something going; boost",
+   "example": {
+    "da": "Regeringen vil få gang i byggeriet af billige boliger.",
+    "en": "The government wants to get the construction of cheap housing going."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "få ud af",
+   "pattern": "få noget ud af noget",
+   "en": "get something out of; benefit from",
+   "example": {
+    "da": "Hvad fik du ud af kurset?",
+    "en": "What did you get out of the course?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få kendskab til",
+   "pattern": "få kendskab til noget",
+   "en": "learn of; become aware of",
+   "example": {
+    "da": "Kommunen fik først kendskab til sagen gennem pressen.",
+    "en": "The municipality only became aware of the case through the press."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "få skylden for",
+   "pattern": "få skylden for noget",
+   "en": "get the blame for",
+   "example": {
+    "da": "Det er altid de ansatte, der får skylden for ledelsens fejl.",
+    "en": "It is always the staff who get the blame for the management's mistakes."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få medhold i",
+   "pattern": "få medhold i noget",
+   "en": "be found right (in a complaint or case)",
+   "example": {
+    "da": "Lejeren fik medhold i sin klage over huslejestigningen.",
+    "en": "The tenant's complaint about the rent increase was upheld."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "få succes med",
+   "pattern": "få succes med noget",
+   "en": "succeed with; have success with",
+   "example": {
+    "da": "Byen har fået stor succes med sine nye cykelstier.",
+    "en": "The town has had great success with its new cycle paths."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "få bugt med",
+   "pattern": "få bugt med noget",
+   "en": "get the better of; overcome",
+   "example": {
+    "da": "Det er endnu ikke lykkedes at få bugt med inflationen.",
+    "en": "It has not yet been possible to get inflation under control."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "få ret i",
+   "pattern": "få ret i noget",
+   "en": "be proved right about",
+   "example": {
+    "da": "Eksperterne fik ret i deres forudsigelser om boligmarkedet.",
+    "en": "The experts were proved right in their predictions about the housing market."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have brug for",
+   "pattern": "have brug for noget/nogen",
+   "en": "need",
+   "example": {
+    "da": "Sygehusene har brug for flere hænder.",
+    "en": "The hospitals need more staff."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have adgang til",
+   "pattern": "have adgang til noget",
+   "en": "have access to",
+   "example": {
+    "da": "Alle elever skal have adgang til en computer.",
+    "en": "All pupils must have access to a computer."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have råd til",
+   "pattern": "have råd til noget",
+   "en": "can afford",
+   "example": {
+    "da": "Vi har ikke råd til at tage på ferie i år.",
+    "en": "We can't afford to go on holiday this year."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have lyst til",
+   "pattern": "have lyst til noget / til at …",
+   "en": "feel like; want to",
+   "example": {
+    "da": "Har du lyst til at være med i vores løbeklub?",
+    "en": "Would you like to join our running club?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have ret til",
+   "pattern": "have ret til noget",
+   "en": "be entitled to; have the right to",
+   "example": {
+    "da": "Alle lønmodtagere har ret til fem ugers ferie.",
+    "en": "All employees are entitled to five weeks' holiday."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have ansvar for",
+   "pattern": "have ansvar for noget/nogen",
+   "en": "be responsible for",
+   "example": {
+    "da": "Kommunerne har ansvar for folkeskolerne.",
+    "en": "The municipalities are responsible for the state schools."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have betydning for",
+   "pattern": "have betydning for noget/nogen",
+   "en": "matter for; affect",
+   "example": {
+    "da": "Renten har stor betydning for boligpriserne.",
+    "en": "The interest rate has a big impact on house prices."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have indflydelse på",
+   "pattern": "have indflydelse på noget",
+   "en": "have influence on",
+   "example": {
+    "da": "Forældrenes uddannelse har indflydelse på børnenes skolegang.",
+    "en": "The parents' education has an influence on the children's schooling."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have mulighed for",
+   "pattern": "have mulighed for noget / for at …",
+   "en": "have the opportunity to; be able to",
+   "example": {
+    "da": "Har du mulighed for at mødes i næste uge?",
+    "en": "Are you able to meet next week?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have kendskab til",
+   "pattern": "have kendskab til noget",
+   "en": "have knowledge of; be familiar with",
+   "example": {
+    "da": "Ansøgeren skal have kendskab til dansk arbejdsmarkedslovgivning.",
+    "en": "The applicant must be familiar with Danish labour market legislation."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have forståelse for",
+   "pattern": "have forståelse for noget/nogen",
+   "en": "understand; be sympathetic to",
+   "example": {
+    "da": "Jeg har fuld forståelse for, at du er skuffet.",
+    "en": "I fully understand that you are disappointed."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have tillid til",
+   "pattern": "have tillid til nogen/noget",
+   "en": "trust; have confidence in",
+   "example": {
+    "da": "Danskerne har generelt stor tillid til politiet.",
+    "en": "Danes generally have great confidence in the police."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have respekt for",
+   "pattern": "have respekt for nogen/noget",
+   "en": "respect; have respect for",
+   "example": {
+    "da": "Man skal have respekt for andres holdninger, selv om man er uenig.",
+    "en": "You should respect other people's views, even if you disagree."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have svært ved",
+   "pattern": "have svært ved noget / ved at …",
+   "en": "find it hard to; struggle with",
+   "example": {
+    "da": "Mange har svært ved at finde en bolig i de store byer.",
+    "en": "Many people find it hard to find housing in the big cities."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have let ved",
+   "pattern": "have let ved noget / ved at …",
+   "en": "find it easy to",
+   "example": {
+    "da": "Børn har ofte let ved at lære et nyt sprog.",
+    "en": "Children often find it easy to learn a new language."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have styr på",
+   "pattern": "have styr på noget",
+   "en": "have under control; be on top of",
+   "example": {
+    "da": "Hun har altid styr på alle detaljer i projektet.",
+    "en": "She is always on top of every detail in the project."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have travlt med",
+   "pattern": "have travlt med noget / med at …",
+   "en": "be busy with",
+   "example": {
+    "da": "Vi har travlt med at blive færdige før deadline.",
+    "en": "We are busy getting finished before the deadline."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have ondt af",
+   "pattern": "have ondt af nogen",
+   "en": "feel sorry for",
+   "example": {
+    "da": "Jeg har ondt af de familier, der har mistet deres hjem i stormen.",
+    "en": "I feel sorry for the families who lost their homes in the storm."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have noget imod",
+   "pattern": "have noget imod noget/nogen",
+   "en": "mind; object to",
+   "example": {
+    "da": "Har du noget imod, at jeg åbner vinduet?",
+    "en": "Do you mind if I open the window?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have glæde af",
+   "pattern": "have glæde af noget/nogen",
+   "en": "benefit from; enjoy",
+   "example": {
+    "da": "Du vil have glæde af kurset, når du starter i det nye job.",
+    "en": "You will benefit from the course when you start the new job."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have gavn af",
+   "pattern": "have gavn af noget",
+   "en": "benefit from",
+   "example": {
+    "da": "Alle børn har gavn af at blive læst højt for.",
+    "en": "All children benefit from being read aloud to."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have nytte af",
+   "pattern": "have nytte af noget",
+   "en": "benefit from; find useful",
+   "example": {
+    "da": "Du vil have stor nytte af dine sprogkundskaber i jobbet.",
+    "en": "You will find your language skills very useful in the job."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have erfaring med",
+   "pattern": "have erfaring med noget",
+   "en": "have experience of/with",
+   "example": {
+    "da": "Vi søger en medarbejder, der har erfaring med projektledelse.",
+    "en": "We are looking for an employee with experience of project management."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have fokus på",
+   "pattern": "have fokus på noget",
+   "en": "focus on; give priority to",
+   "example": {
+    "da": "Skolen har særligt fokus på trivsel og fællesskab.",
+    "en": "The school focuses particularly on well-being and community."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have pligt til",
+   "pattern": "have pligt til noget / til at …",
+   "en": "be obliged to; have a duty to",
+   "example": {
+    "da": "Arbejdsgiveren har pligt til at sikre et godt arbejdsmiljø.",
+    "en": "The employer has a duty to ensure a good working environment."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have mod på",
+   "pattern": "have mod på noget",
+   "en": "feel up to; be keen on",
+   "example": {
+    "da": "Jeg har virkelig mod på den nye udfordring.",
+    "en": "I really feel ready for the new challenge."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have overblik over",
+   "pattern": "have overblik over noget",
+   "en": "have an overview of",
+   "example": {
+    "da": "Lederen skal have overblik over hele afdelingens økonomi.",
+    "en": "The manager must have an overview of the whole department's finances."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have ret i",
+   "pattern": "have ret i noget",
+   "en": "be right about",
+   "example": {
+    "da": "Du har ret i, at vi burde være startet tidligere.",
+    "en": "You are right that we should have started earlier."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have indsigt i",
+   "pattern": "have indsigt i noget",
+   "en": "have insight into",
+   "example": {
+    "da": "Rådgiveren har stor indsigt i reglerne for dagpenge.",
+    "en": "The adviser has great insight into the rules for unemployment benefit."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have til hensigt",
+   "pattern": "have til hensigt at …",
+   "en": "intend to",
+   "example": {
+    "da": "Regeringen har til hensigt at sænke skatten på arbejde.",
+    "en": "The government intends to lower the tax on work."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have at gøre med",
+   "pattern": "have at gøre med noget/nogen",
+   "en": "deal with; have to do with",
+   "example": {
+    "da": "I mit job har jeg meget at gøre med borgere i krise.",
+    "en": "In my job I deal a lot with citizens in crisis."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have problemer med",
+   "pattern": "have problemer med noget/nogen",
+   "en": "have problems with",
+   "example": {
+    "da": "Mange virksomheder har problemer med at finde kvalificeret arbejdskraft.",
+    "en": "Many companies have problems finding qualified labour."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "have i sinde",
+   "pattern": "have i sinde at …",
+   "en": "intend to; have in mind",
+   "example": {
+    "da": "Jeg har ikke i sinde at flytte fra byen.",
+    "en": "I have no intention of moving away from the town."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "have interesse i",
+   "pattern": "have interesse i noget",
+   "en": "have an interest in; have a stake in",
+   "example": {
+    "da": "Begge parter har interesse i at finde en løsning hurtigt.",
+    "en": "Both parties have an interest in finding a solution quickly."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give op",
+   "pattern": "give op; give noget op",
+   "en": "give up",
+   "example": {
+    "da": "Hun gav ikke op, selv om hun fik mange afslag.",
+    "en": "She didn't give up, even though she got many rejections."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give efter for",
+   "pattern": "give efter for noget/nogen",
+   "en": "give in to; yield to",
+   "example": {
+    "da": "Regeringen gav efter for presset fra fagbevægelsen.",
+    "en": "The government gave in to pressure from the trade unions."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give udtryk for",
+   "pattern": "give udtryk for noget",
+   "en": "express",
+   "example": {
+    "da": "Flere borgere gav udtryk for utilfredshed på mødet.",
+    "en": "Several citizens expressed dissatisfaction at the meeting."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give mulighed for",
+   "pattern": "give (nogen) mulighed for noget / for at …",
+   "en": "allow; give the opportunity to",
+   "example": {
+    "da": "Den nye ordning giver mulighed for at arbejde på deltid.",
+    "en": "The new scheme makes it possible to work part-time."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give anledning til",
+   "pattern": "give anledning til noget",
+   "en": "give rise to; prompt",
+   "example": {
+    "da": "Udtalelsen gav anledning til en heftig debat.",
+    "en": "The statement gave rise to a heated debate."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give adgang til",
+   "pattern": "give (nogen) adgang til noget",
+   "en": "give access to",
+   "example": {
+    "da": "Kortet giver adgang til alle kommunens svømmehaller.",
+    "en": "The card gives access to all the municipality's swimming pools."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give lov til",
+   "pattern": "give (nogen) lov til noget / til at …",
+   "en": "allow; let",
+   "example": {
+    "da": "Mine forældre gav mig ikke lov til at tage til festen.",
+    "en": "My parents didn't let me go to the party."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give besked om",
+   "pattern": "give (nogen) besked om noget",
+   "en": "inform; let know",
+   "example": {
+    "da": "Skolen giver forældrene besked om ændringer i skemaet via Aula.",
+    "en": "The school informs parents about timetable changes via Aula."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give tilladelse til",
+   "pattern": "give tilladelse til noget",
+   "en": "give permission for; authorise",
+   "example": {
+    "da": "Kommunen har givet tilladelse til at bygge et nyt plejehjem.",
+    "en": "The municipality has given permission to build a new care home."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give afkald på",
+   "pattern": "give afkald på noget",
+   "en": "give up; renounce",
+   "example": {
+    "da": "Mange forældre giver afkald på karrieren for at være mere hjemme.",
+    "en": "Many parents give up their careers to be at home more."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give ud",
+   "pattern": "give penge ud (på noget)",
+   "en": "spend (money)",
+   "example": {
+    "da": "Danskerne giver flere penge ud på rejser end tidligere.",
+    "en": "Danes spend more money on travel than before."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give sig til",
+   "pattern": "give sig til at …",
+   "en": "start (doing something); set about",
+   "example": {
+    "da": "Da hun hørte nyheden, gav hun sig til at græde.",
+    "en": "When she heard the news, she started crying."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give plads til",
+   "pattern": "give plads til noget/nogen",
+   "en": "make room for",
+   "example": {
+    "da": "De gamle bygninger skal rives ned for at give plads til nye boliger.",
+    "en": "The old buildings are to be torn down to make room for new homes."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give et bud på",
+   "pattern": "give et bud på noget",
+   "en": "suggest; give one's take on",
+   "example": {
+    "da": "Kan du give et bud på, hvad projektet vil koste?",
+    "en": "Can you give an estimate of what the project will cost?"
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give skylden for",
+   "pattern": "give nogen skylden for noget",
+   "en": "blame someone for",
+   "example": {
+    "da": "Oppositionen giver regeringen skylden for de stigende priser.",
+    "en": "The opposition blames the government for the rising prices."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give indblik i",
+   "pattern": "give (et) indblik i noget",
+   "en": "give an insight into",
+   "example": {
+    "da": "Udstillingen giver et indblik i livet på landet omkring år 1900.",
+    "en": "The exhibition gives an insight into rural life around 1900."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "give et overblik over",
+   "pattern": "give et overblik over noget",
+   "en": "give an overview of",
+   "example": {
+    "da": "Først vil jeg give et kort overblik over undersøgelsens resultater.",
+    "en": "First I will give a brief overview of the results of the study."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "give næring til",
+   "pattern": "give næring til noget",
+   "en": "fuel; feed (rumours, fears)",
+   "example": {
+    "da": "Sagen har givet næring til mistilliden mod politikerne.",
+    "en": "The case has fuelled distrust of politicians."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "bakke op om",
+   "pattern": "bakke op om noget/nogen",
+   "en": "support; back",
+   "example": {
+    "da": "Et bredt flertal bakker op om aftalen.",
+    "en": "A broad majority backs the agreement."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "holde op med",
+   "pattern": "holde op med noget / med at …",
+   "en": "stop; quit",
+   "example": {
+    "da": "Min far holdt op med at ryge for ti år siden.",
+    "en": "My father stopped smoking ten years ago."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde fast i",
+   "pattern": "holde fast i noget/nogen",
+   "en": "hold on to; stick to",
+   "example": {
+    "da": "Familien holder fast i de gamle juletraditioner.",
+    "en": "The family holds on to the old Christmas traditions."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde fast ved",
+   "pattern": "holde fast ved noget",
+   "en": "insist on; stand by (a position)",
+   "example": {
+    "da": "Ministeren holder fast ved, at beslutningen var rigtig.",
+    "en": "The minister insists that the decision was right."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "holde sig til",
+   "pattern": "holde sig til noget/nogen",
+   "en": "stick to; keep to",
+   "example": {
+    "da": "Prøv at holde dig til emnet, når du skriver opgaven.",
+    "en": "Try to stick to the topic when you write the assignment."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde sig fra",
+   "pattern": "holde sig fra noget/nogen",
+   "en": "stay away from; avoid",
+   "example": {
+    "da": "Lægen rådede ham til at holde sig fra alkohol.",
+    "en": "The doctor advised him to stay away from alcohol."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde styr på",
+   "pattern": "holde styr på noget/nogen",
+   "en": "keep track of; keep under control",
+   "example": {
+    "da": "Det kan være svært at holde styr på alle børnenes aktiviteter.",
+    "en": "It can be hard to keep track of all the children's activities."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde af",
+   "pattern": "holde af nogen/noget",
+   "en": "be fond of; love",
+   "example": {
+    "da": "Jeg holder meget af min familie og mine venner.",
+    "en": "I am very fond of my family and my friends."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde med",
+   "pattern": "holde med nogen",
+   "en": "support (a team); side with",
+   "example": {
+    "da": "Hvilket fodboldhold holder du med?",
+    "en": "Which football team do you support?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde på",
+   "pattern": "holde på noget; holde på, at …",
+   "en": "keep; hold on to; maintain",
+   "example": {
+    "da": "Virksomheden har svært ved at holde på de unge medarbejdere.",
+    "en": "The company finds it hard to hold on to its young employees."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "holde ud",
+   "pattern": "holde noget/nogen ud; holde ud",
+   "en": "endure; stand; bear",
+   "example": {
+    "da": "Jeg kan ikke holde larmen ud ret meget længere.",
+    "en": "I can't stand the noise much longer."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde fri",
+   "pattern": "holde fri (fra noget)",
+   "en": "take time off",
+   "example": {
+    "da": "Jeg holder fri på fredag, så vi kan tage i sommerhus.",
+    "en": "I'm taking Friday off so we can go to the summer house."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde et møde",
+   "pattern": "holde et møde (med nogen om noget)",
+   "en": "hold a meeting",
+   "example": {
+    "da": "Ledelsen holder et møde med medarbejderne i morgen.",
+    "en": "The management is holding a meeting with the staff tomorrow."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde en tale",
+   "pattern": "holde en tale (for nogen)",
+   "en": "give a speech",
+   "example": {
+    "da": "Statsministeren holder tale ved Folketingets åbning.",
+    "en": "The prime minister gives a speech at the opening of Parliament."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde kontakten med",
+   "pattern": "holde kontakten med nogen",
+   "en": "keep in touch with",
+   "example": {
+    "da": "Det er svært at holde kontakten med vennerne, når man flytter.",
+    "en": "It is hard to keep in touch with your friends when you move."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "holde sig orienteret om",
+   "pattern": "holde sig orienteret om noget",
+   "en": "keep oneself informed about",
+   "example": {
+    "da": "Det er en god idé at holde sig orienteret om ændringer i reglerne.",
+    "en": "It is a good idea to keep yourself informed about changes in the rules."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "holde igen med",
+   "pattern": "holde igen med noget",
+   "en": "hold back on; go easy on",
+   "example": {
+    "da": "Forbrugerne holder igen med de store indkøb.",
+    "en": "Consumers are holding back on big purchases."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "holde ved",
+   "pattern": "holde ved",
+   "en": "continue; persist",
+   "example": {
+    "da": "Hvis smerterne holder ved, skal du kontakte din læge.",
+    "en": "If the pain persists, you should contact your doctor."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "holde sammen på",
+   "pattern": "holde sammen på noget",
+   "en": "keep together; hold together",
+   "example": {
+    "da": "Det er træneren, der holder sammen på holdet.",
+    "en": "It is the coach who holds the team together."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "holde et løfte",
+   "pattern": "holde et løfte (om noget)",
+   "en": "keep a promise",
+   "example": {
+    "da": "Regeringen har ikke holdt sit løfte om flere pædagoger.",
+    "en": "The government has not kept its promise of more nursery teachers."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme frem til",
+   "pattern": "komme frem til noget",
+   "en": "arrive at; reach (a result)",
+   "example": {
+    "da": "Arbejdsgruppen kom frem til, at reglerne bør forenkles.",
+    "en": "The working group concluded that the rules should be simplified."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme i gang med",
+   "pattern": "komme i gang med noget",
+   "en": "get started on",
+   "example": {
+    "da": "Jeg har endelig fået tid til at komme i gang med opgaven.",
+    "en": "I have finally had time to get started on the assignment."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme ud af",
+   "pattern": "komme ud af noget",
+   "en": "come out of; result from",
+   "example": {
+    "da": "Der kom ikke meget ud af forhandlingerne.",
+    "en": "Not much came out of the negotiations."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme over",
+   "pattern": "komme over noget",
+   "en": "get over",
+   "example": {
+    "da": "Det tog ham lang tid at komme over skilsmissen.",
+    "en": "It took him a long time to get over the divorce."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme igennem",
+   "pattern": "komme igennem noget",
+   "en": "get through",
+   "example": {
+    "da": "Familien kom igennem krisen med hjælp fra venner.",
+    "en": "The family got through the crisis with help from friends."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme med",
+   "pattern": "komme med noget",
+   "en": "come up with; offer; bring",
+   "example": {
+    "da": "Kan du komme med et konkret forslag til næste møde?",
+    "en": "Can you come up with a concrete proposal for the next meeting?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme til at",
+   "pattern": "komme til at …",
+   "en": "end up; happen to; accidentally",
+   "example": {
+    "da": "Jeg kom til at slette den vigtige mail.",
+    "en": "I accidentally deleted the important email."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme overens med",
+   "pattern": "komme overens med nogen",
+   "en": "get on with; get along with",
+   "example": {
+    "da": "Hun kommer godt overens med sine nye kolleger.",
+    "en": "She gets on well with her new colleagues."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme i tanke om",
+   "pattern": "komme i tanke om noget",
+   "en": "remember; think of",
+   "example": {
+    "da": "Jeg kom i tanke om, at jeg havde glemt at betale regningen.",
+    "en": "I remembered that I had forgotten to pay the bill."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme sig over",
+   "pattern": "komme sig over noget",
+   "en": "recover from",
+   "example": {
+    "da": "Han er stadig ved at komme sig over operationen.",
+    "en": "He is still recovering from the operation."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme videre med",
+   "pattern": "komme videre med noget",
+   "en": "move on with; make progress with",
+   "example": {
+    "da": "Vi må komme videre med sagen, før fristen udløber.",
+    "en": "We must make progress with the case before the deadline expires."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme på",
+   "pattern": "komme på noget",
+   "en": "think of; come up with",
+   "example": {
+    "da": "Jeg kan ikke komme på hans navn.",
+    "en": "I can't think of his name."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme ind på",
+   "pattern": "komme ind på noget",
+   "en": "touch on; get into (a topic)",
+   "example": {
+    "da": "I mit oplæg vil jeg også komme ind på de økonomiske konsekvenser.",
+    "en": "In my presentation I will also touch on the economic consequences."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme af",
+   "pattern": "komme af noget",
+   "en": "come from; be due to",
+   "example": {
+    "da": "Hans træthed kommer nok af for lidt søvn.",
+    "en": "His tiredness is probably due to too little sleep."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme bag på",
+   "pattern": "komme bag på nogen",
+   "en": "take by surprise",
+   "example": {
+    "da": "Valgresultatet kom bag på de fleste eksperter.",
+    "en": "The election result took most experts by surprise."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme i kontakt med",
+   "pattern": "komme i kontakt med nogen/noget",
+   "en": "get in touch with; come into contact with",
+   "example": {
+    "da": "Gennem foreningen kom jeg i kontakt med andre forældre.",
+    "en": "Through the association I got in touch with other parents."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme til orde",
+   "pattern": "komme til orde",
+   "en": "get a chance to speak; be heard",
+   "example": {
+    "da": "På mødet kom alle parter til orde.",
+    "en": "At the meeting all parties got a chance to speak."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme til udtryk",
+   "pattern": "komme til udtryk (i noget)",
+   "en": "be expressed; show itself",
+   "example": {
+    "da": "Utilfredsheden kom tydeligt til udtryk i den seneste måling.",
+    "en": "The dissatisfaction was clearly expressed in the latest poll."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme i betragtning",
+   "pattern": "komme i betragtning (til noget)",
+   "en": "be considered (for something)",
+   "example": {
+    "da": "Kun ansøgere med autorisation kommer i betragtning til stillingen.",
+    "en": "Only applicants with authorisation will be considered for the position."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme tilbage til",
+   "pattern": "komme tilbage til noget/nogen",
+   "en": "get back to; return to",
+   "example": {
+    "da": "Jeg kommer tilbage til dig, når jeg har talt med min chef.",
+    "en": "I will get back to you when I have spoken to my boss."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme ud for",
+   "pattern": "komme ud for noget",
+   "en": "experience; be involved in (accident, problem)",
+   "example": {
+    "da": "Hun kom ud for en alvorlig trafikulykke sidste år.",
+    "en": "She was involved in a serious traffic accident last year."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "komme forbi",
+   "pattern": "komme forbi (nogen/noget)",
+   "en": "drop by; come past",
+   "example": {
+    "da": "Du er velkommen til at komme forbi kontoret i morgen.",
+    "en": "You are welcome to drop by the office tomorrow."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme frem",
+   "pattern": "komme frem",
+   "en": "come out; emerge; arrive",
+   "example": {
+    "da": "Det er nu kommet frem, at ministeren kendte til problemet.",
+    "en": "It has now emerged that the minister knew about the problem."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "komme sammen med",
+   "pattern": "komme sammen med nogen",
+   "en": "go out with; date",
+   "example": {
+    "da": "Hun har kommet sammen med sin kæreste i tre år.",
+    "en": "She has been going out with her boyfriend for three years."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå ind for",
+   "pattern": "gå ind for noget",
+   "en": "be in favour of; support",
+   "example": {
+    "da": "Partiet går ind for en højere pensionsalder.",
+    "en": "The party is in favour of a higher retirement age."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå ud fra",
+   "pattern": "gå ud fra noget; gå ud fra, at …",
+   "en": "assume",
+   "example": {
+    "da": "Jeg går ud fra, at mødet starter klokken ni som sædvanlig.",
+    "en": "I assume that the meeting starts at nine as usual."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå i gang med",
+   "pattern": "gå i gang med noget",
+   "en": "start on; set about",
+   "example": {
+    "da": "Håndværkerne går i gang med køkkenet på mandag.",
+    "en": "The builders start on the kitchen on Monday."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå med til",
+   "pattern": "gå med til noget",
+   "en": "agree to; accept",
+   "example": {
+    "da": "Arbejdsgiverne gik med til en lønstigning på fire procent.",
+    "en": "The employers agreed to a pay rise of four per cent."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå imod",
+   "pattern": "gå imod noget/nogen",
+   "en": "oppose; go against",
+   "example": {
+    "da": "Flere borgmestre går imod regeringens plan.",
+    "en": "Several mayors oppose the government's plan."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå ud over",
+   "pattern": "gå ud over nogen/noget",
+   "en": "affect; hit (negatively); exceed",
+   "example": {
+    "da": "Besparelserne går ud over de svageste borgere.",
+    "en": "The cuts hit the most vulnerable citizens."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå ind i",
+   "pattern": "gå ind i noget",
+   "en": "go into; engage in; look into",
+   "example": {
+    "da": "Jeg vil ikke gå ind i detaljerne nu.",
+    "en": "I don't want to go into the details now."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå op i",
+   "pattern": "gå op i noget",
+   "en": "be very interested in; care about",
+   "example": {
+    "da": "Min datter går meget op i miljøet og spiser ikke kød.",
+    "en": "My daughter cares a lot about the environment and doesn't eat meat."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå op for",
+   "pattern": "noget går op for nogen",
+   "en": "dawn on; realise",
+   "example": {
+    "da": "Det gik først op for mig senere, hvor alvorlig situationen var.",
+    "en": "It only dawned on me later how serious the situation was."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå glip af",
+   "pattern": "gå glip af noget",
+   "en": "miss (out on)",
+   "example": {
+    "da": "Du må ikke gå glip af informationsmødet om din uddannelse.",
+    "en": "You mustn't miss the information meeting about your course."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå efter",
+   "pattern": "gå efter noget/nogen",
+   "en": "go for; aim for",
+   "example": {
+    "da": "Partiet går efter at blive det største ved valget.",
+    "en": "The party is aiming to become the largest at the election."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå over",
+   "pattern": "noget går over",
+   "en": "pass; wear off",
+   "example": {
+    "da": "Hovedpinen går som regel over efter et par timer.",
+    "en": "The headache usually passes after a couple of hours."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå på pension",
+   "pattern": "gå på pension",
+   "en": "retire",
+   "example": {
+    "da": "Min mor går på pension, når hun fylder 67.",
+    "en": "My mother will retire when she turns 67."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå i stå",
+   "pattern": "noget går i stå",
+   "en": "come to a standstill; stall",
+   "example": {
+    "da": "Forhandlingerne er gået i stå, fordi parterne ikke kan blive enige.",
+    "en": "The negotiations have stalled because the parties cannot agree."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå tabt",
+   "pattern": "noget går tabt",
+   "en": "be lost",
+   "example": {
+    "da": "Mange arbejdspladser går tabt, når fabrikken lukker.",
+    "en": "Many jobs will be lost when the factory closes."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå ned",
+   "pattern": "noget går ned",
+   "en": "go down; fall; crash",
+   "example": {
+    "da": "Arbejdsløsheden er gået ned for tredje måned i træk.",
+    "en": "Unemployment has gone down for the third month in a row."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå på kompromis med",
+   "pattern": "gå på kompromis med noget",
+   "en": "compromise on",
+   "example": {
+    "da": "Vi går ikke på kompromis med sikkerheden.",
+    "en": "We do not compromise on safety."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå videre med",
+   "pattern": "gå videre med noget",
+   "en": "proceed with; take further",
+   "example": {
+    "da": "Hvis du er utilfreds med afgørelsen, kan du gå videre med sagen.",
+    "en": "If you are dissatisfied with the decision, you can take the case further."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå fra hinanden",
+   "pattern": "gå fra hinanden",
+   "en": "split up; separate",
+   "example": {
+    "da": "Mine forældre gik fra hinanden, da jeg var ti år.",
+    "en": "My parents split up when I was ten."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå til eksamen",
+   "pattern": "gå til eksamen (i noget)",
+   "en": "sit an exam",
+   "example": {
+    "da": "Hun skal gå til eksamen i dansk i december.",
+    "en": "She is sitting her Danish exam in December."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "gå i dialog med",
+   "pattern": "gå i dialog med nogen (om noget)",
+   "en": "enter into dialogue with",
+   "example": {
+    "da": "Kommunen vil gå i dialog med borgerne om den nye bydel.",
+    "en": "The municipality wants to enter into dialogue with citizens about the new district."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå i opfyldelse",
+   "pattern": "noget går i opfyldelse",
+   "en": "come true; be fulfilled",
+   "example": {
+    "da": "Hans drøm om at åbne sin egen restaurant gik i opfyldelse.",
+    "en": "His dream of opening his own restaurant came true."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå i rette med",
+   "pattern": "gå i rette med nogen",
+   "en": "take to task; reprimand",
+   "example": {
+    "da": "Ombudsmanden gik i rette med ministeriet for sagsbehandlingen.",
+    "en": "The Ombudsman took the ministry to task for its handling of the case."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "gå ind på",
+   "pattern": "gå ind på noget",
+   "en": "agree to; accept (a proposal)",
+   "example": {
+    "da": "Fagforeningen ville ikke gå ind på arbejdsgivernes krav.",
+    "en": "The union would not agree to the employers' demands."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "gå an",
+   "pattern": "det går (ikke) an",
+   "en": "be acceptable; be possible",
+   "example": {
+    "da": "Det går ikke an, at patienter venter et år på en operation.",
+    "en": "It is not acceptable that patients wait a year for an operation."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "finde ud af",
+   "pattern": "finde ud af noget; finde ud af, om/hvad …",
+   "en": "find out; work out; figure out",
+   "example": {
+    "da": "Vi skal finde ud af, hvem der henter børnene i morgen.",
+    "en": "We need to work out who is picking up the children tomorrow."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "finde på",
+   "pattern": "finde på noget",
+   "en": "come up with; think up",
+   "example": {
+    "da": "Børnene fandt på en ny leg i frikvarteret.",
+    "en": "The children came up with a new game at break time."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "finde sig i",
+   "pattern": "finde sig i noget",
+   "en": "put up with; tolerate",
+   "example": {
+    "da": "Ingen skal finde sig i chikane på arbejdspladsen.",
+    "en": "Nobody should have to put up with harassment at work."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "finde frem til",
+   "pattern": "finde frem til noget/nogen",
+   "en": "find; track down; arrive at",
+   "example": {
+    "da": "Det tog politiet to uger at finde frem til gerningsmanden.",
+    "en": "It took the police two weeks to track down the perpetrator."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "finde sted",
+   "pattern": "noget finder sted",
+   "en": "take place",
+   "example": {
+    "da": "Mødet finder sted på rådhuset torsdag klokken 19.",
+    "en": "The meeting takes place at the town hall on Thursday at 7 pm."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "finde en løsning på",
+   "pattern": "finde en løsning på noget",
+   "en": "find a solution to",
+   "example": {
+    "da": "Parterne skal finde en løsning på konflikten inden weekenden.",
+    "en": "The parties must find a solution to the conflict before the weekend."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se frem til",
+   "pattern": "se frem til noget",
+   "en": "look forward to",
+   "example": {
+    "da": "Vi ser frem til at høre fra dig.",
+    "en": "We look forward to hearing from you."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se på",
+   "pattern": "se på noget/nogen",
+   "en": "look at; consider",
+   "example": {
+    "da": "Udvalget vil se nærmere på reglerne for barsel.",
+    "en": "The committee will look more closely at the rules for parental leave."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se efter",
+   "pattern": "se efter noget/nogen",
+   "en": "look for; check; look after",
+   "example": {
+    "da": "Kan du se efter, om der er post i postkassen?",
+    "en": "Can you check whether there is any post in the letterbox?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se bort fra",
+   "pattern": "se bort fra noget",
+   "en": "disregard; leave aside",
+   "example": {
+    "da": "Hvis man ser bort fra prisen, er det en god løsning.",
+    "en": "If you leave the price aside, it is a good solution."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "se ud til",
+   "pattern": "det ser ud til, at …",
+   "en": "look as if; seem",
+   "example": {
+    "da": "Det ser ud til, at renten stiger igen til efteråret.",
+    "en": "It looks as if interest rates will rise again in the autumn."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se op til",
+   "pattern": "se op til nogen",
+   "en": "look up to",
+   "example": {
+    "da": "Mange unge ser op til sportsstjerner og influencere.",
+    "en": "Many young people look up to sports stars and influencers."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se ned på",
+   "pattern": "se ned på nogen/noget",
+   "en": "look down on",
+   "example": {
+    "da": "Man skal ikke se ned på folk med kortere uddannelse.",
+    "en": "You shouldn't look down on people with less education."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se igennem",
+   "pattern": "se noget igennem",
+   "en": "look through; check",
+   "example": {
+    "da": "Kan du se min ansøgning igennem, før jeg sender den?",
+    "en": "Can you look through my application before I send it?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "se an",
+   "pattern": "se noget/nogen an",
+   "en": "wait and see; size up",
+   "example": {
+    "da": "Vi vil se situationen an, inden vi beslutter noget.",
+    "en": "We will see how the situation develops before deciding anything."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "se til",
+   "pattern": "se til nogen/noget",
+   "en": "look in on; check on",
+   "example": {
+    "da": "Hjemmeplejen ser til min far tre gange om dagen.",
+    "en": "The home care service looks in on my father three times a day."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lægge vægt på",
+   "pattern": "lægge vægt på noget",
+   "en": "attach importance to; emphasise",
+   "example": {
+    "da": "Vi lægger stor vægt på et godt samarbejde med forældrene.",
+    "en": "We attach great importance to good cooperation with the parents."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge op til",
+   "pattern": "lægge op til noget",
+   "en": "pave the way for; invite; propose",
+   "example": {
+    "da": "Aftalen lægger op til flere penge til ældreplejen.",
+    "en": "The agreement proposes more money for elderly care."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lægge pres på",
+   "pattern": "lægge pres på nogen/noget",
+   "en": "put pressure on",
+   "example": {
+    "da": "Inflationen lægger pres på familiernes økonomi.",
+    "en": "Inflation is putting pressure on families' finances."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge skjul på",
+   "pattern": "ikke lægge skjul på noget",
+   "en": "make no secret of",
+   "example": {
+    "da": "Hun lægger ikke skjul på, at hun er utilfreds med beslutningen.",
+    "en": "She makes no secret of the fact that she is unhappy with the decision."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lægge an på",
+   "pattern": "lægge an på noget / på at …; lægge an på nogen",
+   "en": "aim at; flirt with",
+   "example": {
+    "da": "Kampagnen lægger an på at nå de unge vælgere.",
+    "en": "The campaign aims to reach young voters."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "lægge sig ud med",
+   "pattern": "lægge sig ud med nogen",
+   "en": "fall out with",
+   "example": {
+    "da": "Han har lagt sig ud med det meste af ledelsen.",
+    "en": "He has fallen out with most of the management."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lægge fra sig",
+   "pattern": "lægge noget fra sig",
+   "en": "put down",
+   "example": {
+    "da": "Læg telefonen fra dig, når du kører bil.",
+    "en": "Put your phone down when you are driving."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge ud",
+   "pattern": "lægge ud (med noget); lægge penge ud",
+   "en": "start off; pay (in advance)",
+   "example": {
+    "da": "Kan du lægge ud for billetterne, så betaler jeg dig senere?",
+    "en": "Can you pay for the tickets, and I'll pay you back later?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge om",
+   "pattern": "lægge noget om",
+   "en": "change; reorganise",
+   "example": {
+    "da": "Virksomheden har lagt produktionen om til mere bæredygtige materialer.",
+    "en": "The company has switched its production to more sustainable materials."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lægge sammen",
+   "pattern": "lægge noget sammen",
+   "en": "add up; merge",
+   "example": {
+    "da": "To skoler i byen skal lægges sammen fra næste skoleår.",
+    "en": "Two schools in the town are to be merged from next school year."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge beslag på",
+   "pattern": "lægge beslag på noget",
+   "en": "take up; claim; seize",
+   "example": {
+    "da": "Arbejdet lægger beslag på det meste af min fritid.",
+    "en": "Work takes up most of my free time."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "lægge planer",
+   "pattern": "lægge planer (for noget)",
+   "en": "make plans",
+   "example": {
+    "da": "Vi er begyndt at lægge planer for sommerferien.",
+    "en": "We have started making plans for the summer holidays."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lægge sag an mod",
+   "pattern": "lægge sag an mod nogen",
+   "en": "sue; take legal action against",
+   "example": {
+    "da": "Den tidligere medarbejder har lagt sag an mod virksomheden.",
+    "en": "The former employee has sued the company."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "sige op",
+   "pattern": "sige op; sige sin stilling op; sige noget op",
+   "en": "resign; quit; cancel",
+   "example": {
+    "da": "Hun har sagt sin stilling op for at starte egen virksomhed.",
+    "en": "She has resigned from her position to start her own business."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sige fra",
+   "pattern": "sige fra (over for noget/nogen)",
+   "en": "say no; object; speak up",
+   "example": {
+    "da": "Det er vigtigt at sige fra, hvis man oplever mobning.",
+    "en": "It is important to speak up if you experience bullying."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sige til",
+   "pattern": "sige til (hvis …)",
+   "en": "say so; let someone know",
+   "example": {
+    "da": "Sig til, hvis du har brug for hjælp med flytningen.",
+    "en": "Let me know if you need help with the move."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sige god for",
+   "pattern": "sige god for noget/nogen",
+   "en": "approve; vouch for",
+   "example": {
+    "da": "Ministeren skal sige god for planen, før den kan gennemføres.",
+    "en": "The minister must approve the plan before it can be carried out."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "sige imod",
+   "pattern": "sige nogen imod",
+   "en": "contradict; argue with",
+   "example": {
+    "da": "Det er svært at sige chefen imod på et stort møde.",
+    "en": "It is hard to contradict the boss at a big meeting."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "slå op",
+   "pattern": "slå noget op; slå op med nogen",
+   "en": "look up; advertise (a job); break up with",
+   "example": {
+    "da": "Kommunen har slået ti nye stillinger op som social- og sundhedsassistent.",
+    "en": "The municipality has advertised ten new positions as health care assistants."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "slå til",
+   "pattern": "slå til",
+   "en": "accept (an offer); be enough; strike",
+   "example": {
+    "da": "Da hun fik tilbudt jobbet, slog hun straks til.",
+    "en": "When she was offered the job, she accepted at once."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "slå igennem",
+   "pattern": "slå igennem",
+   "en": "break through; have an impact",
+   "example": {
+    "da": "Prisstigningerne er nu slået igennem i supermarkederne.",
+    "en": "The price rises have now come through in the supermarkets."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "slå sig ned",
+   "pattern": "slå sig ned (et sted)",
+   "en": "settle (down)",
+   "example": {
+    "da": "Familien slog sig ned i en lille by på Fyn.",
+    "en": "The family settled in a small town on Funen."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "slå fast",
+   "pattern": "slå fast, at …",
+   "en": "establish; state clearly",
+   "example": {
+    "da": "Rapporten slår fast, at der er for få lærere i udkantsområderne.",
+    "en": "The report establishes that there are too few teachers in outlying areas."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "slå ned på",
+   "pattern": "slå ned på noget",
+   "en": "crack down on",
+   "example": {
+    "da": "Myndighederne vil slå hårdt ned på sort arbejde.",
+    "en": "The authorities will crack down hard on undeclared work."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "slå sig sammen med",
+   "pattern": "slå sig sammen med nogen",
+   "en": "join forces with",
+   "example": {
+    "da": "De to firmaer har slået sig sammen for at stå stærkere.",
+    "en": "The two firms have joined forces to be in a stronger position."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "slå fra",
+   "pattern": "slå noget fra",
+   "en": "switch off; disable",
+   "example": {
+    "da": "Du kan slå notifikationer fra under indstillinger.",
+    "en": "You can switch off notifications under settings."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "slå til lyd for",
+   "pattern": "slå til lyd for noget",
+   "en": "advocate; argue for",
+   "example": {
+    "da": "Flere økonomer slår til lyd for en grøn skattereform.",
+    "en": "Several economists are advocating a green tax reform."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "slå et slag for",
+   "pattern": "slå et slag for noget",
+   "en": "champion; campaign for",
+   "example": {
+    "da": "Kampagnen slår et slag for mere bevægelse i skolen.",
+    "en": "The campaign champions more physical activity in schools."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stå for",
+   "pattern": "stå for noget",
+   "en": "be in charge of; stand for",
+   "example": {
+    "da": "Det er min kollega, der står for planlægningen af julefrokosten.",
+    "en": "It is my colleague who is in charge of planning the Christmas party."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stå bag",
+   "pattern": "stå bag noget",
+   "en": "be behind; support",
+   "example": {
+    "da": "Hvem står bag den nye kampagne mod madspild?",
+    "en": "Who is behind the new campaign against food waste?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stå over for",
+   "pattern": "stå over for noget",
+   "en": "face; be faced with",
+   "example": {
+    "da": "Sundhedsvæsenet står over for store udfordringer.",
+    "en": "The health service is facing major challenges."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stå ved",
+   "pattern": "stå ved noget",
+   "en": "stand by; own up to",
+   "example": {
+    "da": "Jeg står ved det, jeg sagde i interviewet.",
+    "en": "I stand by what I said in the interview."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stå til rådighed",
+   "pattern": "stå til rådighed (for nogen)",
+   "en": "be available",
+   "example": {
+    "da": "Vores rådgivere står til rådighed alle hverdage fra 9 til 16.",
+    "en": "Our advisers are available every weekday from 9 to 4."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stå på",
+   "pattern": "noget står på",
+   "en": "go on; last",
+   "example": {
+    "da": "Krisen har stået på i mere end to år.",
+    "en": "The crisis has been going on for more than two years."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stå op for",
+   "pattern": "stå op for noget/nogen",
+   "en": "stand up for",
+   "example": {
+    "da": "Det kræver mod at stå op for sine kolleger.",
+    "en": "It takes courage to stand up for your colleagues."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stå model til",
+   "pattern": "stå model til noget",
+   "en": "put up with",
+   "example": {
+    "da": "Lærerne vil ikke længere stå model til de mange nedskæringer.",
+    "en": "The teachers will no longer put up with the many cuts."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stå af",
+   "pattern": "stå af (noget)",
+   "en": "get off; drop out",
+   "example": {
+    "da": "Du skal stå af toget i Odense og skifte til bussen.",
+    "en": "You must get off the train in Odense and change to the bus."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "stå i spidsen for",
+   "pattern": "stå i spidsen for noget",
+   "en": "head; lead",
+   "example": {
+    "da": "Hun står i spidsen for en ny forskningsgruppe på universitetet.",
+    "en": "She heads a new research group at the university."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stå til ansvar for",
+   "pattern": "stå til ansvar for noget",
+   "en": "be held accountable for; answer for",
+   "example": {
+    "da": "Ministeren skal stå til ansvar for fejlene over for Folketinget.",
+    "en": "The minister must answer for the mistakes to Parliament."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "ligge til grund for",
+   "pattern": "ligge til grund for noget",
+   "en": "form the basis of; underlie",
+   "example": {
+    "da": "Hvilke tal ligger til grund for beregningen?",
+    "en": "What figures form the basis of the calculation?"
+   },
+   "level": "C1"
+  },
+  {
+   "da": "ligge inde med",
+   "pattern": "ligge inde med noget",
+   "en": "have in stock; be in possession of",
+   "example": {
+    "da": "Politiet beder alle, der ligger inde med oplysninger, om at henvende sig.",
+    "en": "The police ask anyone in possession of information to come forward."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "falde for",
+   "pattern": "falde for noget/nogen",
+   "en": "fall for; be charmed by",
+   "example": {
+    "da": "Vi faldt for huset, så snart vi så haven.",
+    "en": "We fell for the house as soon as we saw the garden."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "falde ind under",
+   "pattern": "falde ind under noget",
+   "en": "fall under; come under",
+   "example": {
+    "da": "Denne type arbejde falder ind under en anden overenskomst.",
+    "en": "This type of work comes under a different collective agreement."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "falde sammen med",
+   "pattern": "falde sammen med noget",
+   "en": "coincide with",
+   "example": {
+    "da": "Valget falder sammen med starten på efterårsferien.",
+    "en": "The election coincides with the start of the autumn holiday."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "falde til",
+   "pattern": "falde til (et sted)",
+   "en": "settle in",
+   "example": {
+    "da": "Børnene er faldet godt til i den nye skole.",
+    "en": "The children have settled in well at the new school."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "falde fra",
+   "pattern": "falde fra (noget)",
+   "en": "drop out",
+   "example": {
+    "da": "Mange studerende falder fra i løbet af første studieår.",
+    "en": "Many students drop out during the first year of study."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "falde ud",
+   "pattern": "noget falder (heldigt/uheldigt) ud",
+   "en": "turn out",
+   "example": {
+    "da": "Undersøgelsen faldt positivt ud for skolen.",
+    "en": "The survey turned out positively for the school."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "falde til ro",
+   "pattern": "falde til ro",
+   "en": "calm down; settle",
+   "example": {
+    "da": "Situationen faldt til ro, da politiet ankom.",
+    "en": "The situation calmed down when the police arrived."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lade være med",
+   "pattern": "lade være med noget / med at …",
+   "en": "refrain from; not do; stop",
+   "example": {
+    "da": "Lad være med at svare på mails fra ukendte afsendere.",
+    "en": "Don't reply to emails from unknown senders."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lade sig gøre",
+   "pattern": "noget lader sig gøre",
+   "en": "be possible; be feasible",
+   "example": {
+    "da": "Det lader sig ikke gøre at flytte mødet til i morgen.",
+    "en": "It isn't possible to move the meeting to tomorrow."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "lade som om",
+   "pattern": "lade som om …",
+   "en": "pretend",
+   "example": {
+    "da": "Han lod som om, han ikke havde hørt spørgsmålet.",
+    "en": "He pretended he hadn't heard the question."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lade sig inspirere af",
+   "pattern": "lade sig inspirere af noget/nogen",
+   "en": "be inspired by; draw inspiration from",
+   "example": {
+    "da": "Arkitekterne har ladet sig inspirere af gammel dansk byggeskik.",
+    "en": "The architects have drawn inspiration from old Danish building traditions."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "blive til",
+   "pattern": "blive til noget",
+   "en": "become; turn into; come about",
+   "example": {
+    "da": "Det, der startede som en hobby, blev til et fuldtidsjob.",
+    "en": "What started as a hobby turned into a full-time job."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "blive ved med",
+   "pattern": "blive ved med noget / med at …",
+   "en": "keep on; continue",
+   "example": {
+    "da": "Priserne bliver ved med at stige.",
+    "en": "Prices keep on rising."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "blive af med",
+   "pattern": "blive af med noget/nogen",
+   "en": "get rid of",
+   "example": {
+    "da": "Hvordan bliver man af med en dårlig vane?",
+    "en": "How do you get rid of a bad habit?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "blive enige om",
+   "pattern": "blive enige om noget",
+   "en": "agree on",
+   "example": {
+    "da": "Partierne blev enige om en ny klimaaftale i nat.",
+    "en": "The parties agreed on a new climate deal last night."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "blive udsat for",
+   "pattern": "blive udsat for noget",
+   "en": "be exposed to; be subjected to",
+   "example": {
+    "da": "Hver femte ansatte er blevet udsat for vold eller trusler.",
+    "en": "One in five employees has been subjected to violence or threats."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "blive væk fra",
+   "pattern": "blive væk fra noget",
+   "en": "stay away from; be absent from",
+   "example": {
+    "da": "Mange elever bliver væk fra skolen i flere uger ad gangen.",
+    "en": "Many pupils stay away from school for several weeks at a time."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bringe på bane",
+   "pattern": "bringe noget på bane",
+   "en": "bring up; raise (a topic)",
+   "example": {
+    "da": "Hun bragte spørgsmålet om hjemmearbejde på bane på mødet.",
+    "en": "She brought up the question of working from home at the meeting."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "bringe i fare",
+   "pattern": "bringe noget/nogen i fare",
+   "en": "endanger; jeopardise",
+   "example": {
+    "da": "Spritkørsel bringer både føreren og andre i fare.",
+    "en": "Drink-driving endangers both the driver and others."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "drage omsorg for",
+   "pattern": "drage omsorg for nogen/noget",
+   "en": "take care of; look after (formal)",
+   "example": {
+    "da": "Forældre har pligt til at drage omsorg for deres børn.",
+    "en": "Parents have a duty to take care of their children."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "drage nytte af",
+   "pattern": "drage nytte af noget",
+   "en": "benefit from; make use of",
+   "example": {
+    "da": "Danske virksomheder kan drage nytte af den nye handelsaftale.",
+    "en": "Danish companies can benefit from the new trade agreement."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "drage fordel af",
+   "pattern": "drage fordel af noget",
+   "en": "take advantage of; benefit from",
+   "example": {
+    "da": "Det er især de rigeste, der drager fordel af skattelettelserne.",
+    "en": "It is mainly the richest who benefit from the tax cuts."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "drage en konklusion",
+   "pattern": "drage en konklusion (af noget)",
+   "en": "draw a conclusion",
+   "example": {
+    "da": "Det er for tidligt at drage en konklusion af undersøgelsen.",
+    "en": "It is too early to draw a conclusion from the study."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "drage paralleller til",
+   "pattern": "drage paralleller til noget",
+   "en": "draw parallels with",
+   "example": {
+    "da": "Historikeren drager paralleller til krisen i 1930'erne.",
+    "en": "The historian draws parallels with the crisis of the 1930s."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "bære præg af",
+   "pattern": "bære præg af noget",
+   "en": "bear the marks of; be marked by",
+   "example": {
+    "da": "Valgkampen bar præg af den økonomiske usikkerhed.",
+    "en": "The election campaign was marked by economic uncertainty."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "bære over med",
+   "pattern": "bære over med nogen/noget",
+   "en": "be patient with; make allowances for",
+   "example": {
+    "da": "Du må bære over med mig, jeg er ny i jobbet.",
+    "en": "Please bear with me, I'm new in the job."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "bære ansvaret for",
+   "pattern": "bære ansvaret for noget",
+   "en": "bear responsibility for",
+   "example": {
+    "da": "Det er ledelsen, der bærer ansvaret for de mange fejl.",
+    "en": "It is the management that bears responsibility for the many mistakes."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "føre an",
+   "pattern": "føre an (i noget)",
+   "en": "lead; take the lead",
+   "example": {
+    "da": "Danmark fører an i udviklingen af vindenergi.",
+    "en": "Denmark leads the way in the development of wind energy."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "føre tilsyn med",
+   "pattern": "føre tilsyn med noget/nogen",
+   "en": "supervise; inspect; monitor",
+   "example": {
+    "da": "Fødevarestyrelsen fører tilsyn med restauranternes hygiejne.",
+    "en": "The Food Administration monitors hygiene in restaurants."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "føre en politik",
+   "pattern": "føre en (bestemt) politik",
+   "en": "pursue a policy",
+   "example": {
+    "da": "Regeringen fører en stram økonomisk politik.",
+    "en": "The government is pursuing a tight economic policy."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "føre krig mod",
+   "pattern": "føre krig mod nogen/noget",
+   "en": "wage war on/against",
+   "example": {
+    "da": "Landet har ført krig mod sin nabo i flere år.",
+    "en": "The country has waged war against its neighbour for several years."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "yde støtte til",
+   "pattern": "yde støtte til nogen/noget",
+   "en": "provide support for; give aid to",
+   "example": {
+    "da": "Staten yder støtte til renovering af gamle boliger.",
+    "en": "The state provides support for the renovation of old homes."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "yde en indsats",
+   "pattern": "yde en (stor) indsats (for noget)",
+   "en": "make an effort; do one's bit",
+   "example": {
+    "da": "Personalet har ydet en enorm indsats under epidemien.",
+    "en": "The staff made an enormous effort during the epidemic."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "yde modstand mod",
+   "pattern": "yde modstand mod noget/nogen",
+   "en": "put up resistance to; resist",
+   "example": {
+    "da": "Den anholdte ydede ikke modstand mod politiet.",
+    "en": "The arrested person put up no resistance to the police."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "rette sig efter",
+   "pattern": "rette sig efter noget/nogen",
+   "en": "comply with; follow",
+   "example": {
+    "da": "Alle virksomheder skal rette sig efter de nye regler.",
+    "en": "All companies must comply with the new rules."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "rette op på",
+   "pattern": "rette op på noget",
+   "en": "put right; correct; improve",
+   "example": {
+    "da": "Regeringen vil rette op på uligheden i sundhed.",
+    "en": "The government wants to put right the inequality in health."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "rette henvendelse til",
+   "pattern": "rette henvendelse til nogen",
+   "en": "contact; apply to (formal)",
+   "example": {
+    "da": "Har du spørgsmål, kan du rette henvendelse til Borgerservice.",
+    "en": "If you have questions, you can contact Citizen Services."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "rette kritik mod",
+   "pattern": "rette kritik mod nogen/noget",
+   "en": "direct criticism at; criticise",
+   "example": {
+    "da": "Rigsrevisionen retter skarp kritik mod ministeriet.",
+    "en": "The National Audit Office directs sharp criticism at the ministry."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "rette sig mod",
+   "pattern": "rette sig mod nogen/noget",
+   "en": "be aimed at; be targeted at",
+   "example": {
+    "da": "Kampagnen retter sig mod unge mellem 18 og 25 år.",
+    "en": "The campaign is aimed at young people between 18 and 25."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "rejse kritik af",
+   "pattern": "rejse kritik af noget/nogen",
+   "en": "criticise; raise criticism of",
+   "example": {
+    "da": "Flere eksperter har rejst kritik af den nye lov.",
+    "en": "Several experts have criticised the new law."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "rejse spørgsmålet om",
+   "pattern": "rejse spørgsmålet om noget",
+   "en": "raise the question of",
+   "example": {
+    "da": "Sagen rejser spørgsmålet om, hvem der har ansvaret.",
+    "en": "The case raises the question of who is responsible."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "rejse tvivl om",
+   "pattern": "rejse tvivl om noget",
+   "en": "cast doubt on",
+   "example": {
+    "da": "De nye oplysninger rejser tvivl om ministerens forklaring.",
+    "en": "The new information casts doubt on the minister's explanation."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "udtale sig om",
+   "pattern": "udtale sig om noget",
+   "en": "comment on; make a statement about",
+   "example": {
+    "da": "Politiet ønsker ikke at udtale sig om sagen.",
+    "en": "The police do not wish to comment on the case."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "vise interesse for",
+   "pattern": "vise interesse for noget/nogen",
+   "en": "show interest in",
+   "example": {
+    "da": "Flere investorer har vist interesse for projektet.",
+    "en": "Several investors have shown interest in the project."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "vise forståelse for",
+   "pattern": "vise forståelse for noget/nogen",
+   "en": "show understanding for",
+   "example": {
+    "da": "Chefen viste stor forståelse for min situation.",
+    "en": "My boss showed great understanding of my situation."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "vise sig",
+   "pattern": "det viser sig, at …; vise sig at være …",
+   "en": "turn out; prove",
+   "example": {
+    "da": "Det viste sig, at regnestykket var forkert.",
+    "en": "It turned out that the calculation was wrong."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sørge over",
+   "pattern": "sørge over nogen/noget",
+   "en": "mourn; grieve for",
+   "example": {
+    "da": "Hele byen sørger over de omkomne.",
+    "en": "The whole town is mourning those who died."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "skrive under på",
+   "pattern": "skrive under på noget",
+   "en": "sign; endorse",
+   "example": {
+    "da": "Over 50.000 borgere har skrevet under på borgerforslaget.",
+    "en": "Over 50,000 citizens have signed the citizens' proposal."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "skille sig af med",
+   "pattern": "skille sig af med noget/nogen",
+   "en": "get rid of; dispose of",
+   "example": {
+    "da": "Det kan være svært at skille sig af med gamle ting.",
+    "en": "It can be hard to get rid of old things."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "skille sig ud",
+   "pattern": "skille sig ud (fra nogen/noget)",
+   "en": "stand out",
+   "example": {
+    "da": "Din ansøgning skal skille sig ud fra de andre.",
+    "en": "Your application must stand out from the others."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "skære ned på",
+   "pattern": "skære ned på noget",
+   "en": "cut down on; cut back on",
+   "example": {
+    "da": "Mange familier skærer ned på forbruget på grund af inflationen.",
+    "en": "Many families are cutting back on spending because of inflation."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "skrue ned for",
+   "pattern": "skrue ned for noget",
+   "en": "turn down; reduce",
+   "example": {
+    "da": "Vi har skruet ned for varmen for at spare penge.",
+    "en": "We have turned down the heating to save money."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "skrue op for",
+   "pattern": "skrue op for noget",
+   "en": "turn up; step up",
+   "example": {
+    "da": "Politiet skruer op for kontrollen af lastbiler.",
+    "en": "The police are stepping up checks on lorries."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "spare op",
+   "pattern": "spare op (til noget)",
+   "en": "save up",
+   "example": {
+    "da": "Vi sparer op til udbetalingen på et hus.",
+    "en": "We are saving up for the down payment on a house."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "spare på",
+   "pattern": "spare på noget",
+   "en": "save on; economise on",
+   "example": {
+    "da": "Mange familier forsøger at spare på varmen i vinter.",
+    "en": "Many families are trying to save on heating this winter."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "spille en rolle",
+   "pattern": "spille en (stor) rolle (for noget)",
+   "en": "play a role; matter",
+   "example": {
+    "da": "Kost og motion spiller en stor rolle for helbredet.",
+    "en": "Diet and exercise play a big role in health."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "spille ind",
+   "pattern": "noget spiller ind",
+   "en": "be a factor; come into play",
+   "example": {
+    "da": "Mange faktorer spiller ind, når man vælger bolig.",
+    "en": "Many factors come into play when you choose a home."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "stræbe efter",
+   "pattern": "stræbe efter noget",
+   "en": "strive for",
+   "example": {
+    "da": "Vi stræber efter at give alle elever de samme muligheder.",
+    "en": "We strive to give all pupils the same opportunities."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "søge ind på",
+   "pattern": "søge ind på noget",
+   "en": "apply for (a course of study)",
+   "example": {
+    "da": "Hun vil søge ind på medicin til sommer.",
+    "en": "She wants to apply to study medicine this summer."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "tale for",
+   "pattern": "tale for noget",
+   "en": "argue for; speak in favour of",
+   "example": {
+    "da": "Meget taler for at bygge flere almene boliger.",
+    "en": "There is a lot to be said for building more social housing."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tale imod",
+   "pattern": "tale imod noget",
+   "en": "argue against; speak against",
+   "example": {
+    "da": "Både økonomiske og miljømæssige hensyn taler imod projektet.",
+    "en": "Both economic and environmental considerations argue against the project."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tale ud om",
+   "pattern": "tale ud om noget",
+   "en": "talk something through",
+   "example": {
+    "da": "Det hjalp at tale ud om konflikten med en mægler.",
+    "en": "It helped to talk the conflict through with a mediator."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tale ned til",
+   "pattern": "tale ned til nogen",
+   "en": "talk down to",
+   "example": {
+    "da": "Patienter bryder sig ikke om, at lægen taler ned til dem.",
+    "en": "Patients don't like the doctor talking down to them."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tale udenom",
+   "pattern": "tale udenom",
+   "en": "dodge the issue; beat about the bush",
+   "example": {
+    "da": "Ministeren talte udenom, da journalisten spurgte til sagen.",
+    "en": "The minister dodged the issue when the journalist asked about the case."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "tilslutte sig",
+   "pattern": "tilslutte sig noget/nogen",
+   "en": "join; endorse; agree with",
+   "example": {
+    "da": "Flere partier har tilsluttet sig forslaget.",
+    "en": "Several parties have endorsed the proposal."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "trække sig fra",
+   "pattern": "trække sig fra noget",
+   "en": "withdraw from; pull out of",
+   "example": {
+    "da": "Han trækker sig fra politik efter tyve år i Folketinget.",
+    "en": "He is withdrawing from politics after twenty years in Parliament."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "trække sig tilbage",
+   "pattern": "trække sig tilbage (fra noget)",
+   "en": "retire; withdraw",
+   "example": {
+    "da": "Mange læger trækker sig tilbage fra arbejdsmarkedet før tid.",
+    "en": "Many doctors retire from the labour market early."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "trække på",
+   "pattern": "trække på noget/nogen",
+   "en": "draw on",
+   "example": {
+    "da": "I opgaven kan du trække på dine egne erfaringer.",
+    "en": "In the assignment you can draw on your own experiences."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "trække fra",
+   "pattern": "trække noget fra (i noget)",
+   "en": "deduct",
+   "example": {
+    "da": "Du kan trække udgifter til transport fra i skat.",
+    "en": "You can deduct transport costs from your taxable income."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "trække ud",
+   "pattern": "noget trækker ud",
+   "en": "drag on; take longer than expected",
+   "example": {
+    "da": "Forhandlingerne trak ud til langt ud på natten.",
+    "en": "The negotiations dragged on until late into the night."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "træde i kraft",
+   "pattern": "noget træder i kraft",
+   "en": "come into force; take effect",
+   "example": {
+    "da": "Den nye lov træder i kraft den 1. januar.",
+    "en": "The new law comes into force on 1 January."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "træde tilbage",
+   "pattern": "træde tilbage (som noget)",
+   "en": "resign; step down",
+   "example": {
+    "da": "Ministeren trådte tilbage efter skandalen.",
+    "en": "The minister resigned after the scandal."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "træde til",
+   "pattern": "træde til",
+   "en": "step in; help out",
+   "example": {
+    "da": "Når en kollega er syg, træder vikarer til.",
+    "en": "When a colleague is ill, substitutes step in."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "træde frem",
+   "pattern": "træde frem",
+   "en": "come forward; step forward",
+   "example": {
+    "da": "Flere ofre er nu trådt frem i medierne.",
+    "en": "Several victims have now come forward in the media."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "vende tilbage til",
+   "pattern": "vende tilbage til noget/nogen",
+   "en": "return to; come back to",
+   "example": {
+    "da": "Efter barslen vendte hun tilbage til sit gamle job.",
+    "en": "After her maternity leave she returned to her old job."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "vende sig mod",
+   "pattern": "vende sig mod nogen/noget",
+   "en": "turn against",
+   "example": {
+    "da": "Mange vælgere har vendt sig mod regeringen.",
+    "en": "Many voters have turned against the government."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "vælge mellem",
+   "pattern": "vælge mellem noget og noget",
+   "en": "choose between",
+   "example": {
+    "da": "Eleverne kan vælge mellem tre forskellige studieretninger.",
+    "en": "The students can choose between three different study programmes."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "åbne op for",
+   "pattern": "åbne op for noget",
+   "en": "open up (for); make possible",
+   "example": {
+    "da": "Aftalen åbner op for mere samarbejde mellem landene.",
+    "en": "The agreement opens up more cooperation between the countries."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "basere sig på",
+   "pattern": "basere sig på noget",
+   "en": "be based on",
+   "example": {
+    "da": "Prognosen baserer sig på tal fra de seneste fem år.",
+    "en": "The forecast is based on figures from the last five years."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "bygge på",
+   "pattern": "bygge på noget",
+   "en": "be based on; build on",
+   "example": {
+    "da": "Beslutningen bygger på en grundig analyse.",
+    "en": "The decision is based on a thorough analysis."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "beslutte sig for",
+   "pattern": "beslutte sig for noget / for at …",
+   "en": "decide on; decide to",
+   "example": {
+    "da": "Vi har besluttet os for at flytte tættere på familien.",
+    "en": "We have decided to move closer to our family."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bestemme sig for",
+   "pattern": "bestemme sig for noget / for at …",
+   "en": "make up one's mind; decide on",
+   "example": {
+    "da": "Har du bestemt dig for, hvad du vil studere?",
+    "en": "Have you made up your mind what you want to study?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "betale for",
+   "pattern": "betale (noget) for noget",
+   "en": "pay for",
+   "example": {
+    "da": "Hvem skal betale for den grønne omstilling?",
+    "en": "Who is going to pay for the green transition?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "byde på",
+   "pattern": "byde på noget",
+   "en": "offer; bid on",
+   "example": {
+    "da": "Weekenden byder på sol og op til 25 grader.",
+    "en": "The weekend offers sunshine and up to 25 degrees."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "byde velkommen til",
+   "pattern": "byde nogen velkommen (til noget)",
+   "en": "welcome (to)",
+   "example": {
+    "da": "Vi vil gerne byde jer velkommen til årets generalforsamling.",
+    "en": "We would like to welcome you to this year's general meeting."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "byde ind med",
+   "pattern": "byde ind med noget",
+   "en": "contribute; offer",
+   "example": {
+    "da": "Alle i gruppen bød ind med idéer til festen.",
+    "en": "Everyone in the group contributed ideas for the party."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "bruge tid på",
+   "pattern": "bruge tid på noget / på at …",
+   "en": "spend time on",
+   "example": {
+    "da": "Lærerne bruger for meget tid på administration.",
+    "en": "The teachers spend too much time on administration."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "bruge penge på",
+   "pattern": "bruge penge på noget",
+   "en": "spend money on",
+   "example": {
+    "da": "Unge bruger flere penge på tøj end på mad.",
+    "en": "Young people spend more money on clothes than on food."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "dække over",
+   "pattern": "dække over noget/nogen",
+   "en": "cover up; cover for; conceal",
+   "example": {
+    "da": "Gennemsnittet dækker over store forskelle mellem kommunerne.",
+    "en": "The average conceals big differences between municipalities."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "dele ud",
+   "pattern": "dele noget ud (til nogen)",
+   "en": "hand out; distribute",
+   "example": {
+    "da": "Frivillige delte gratis mad ud til hjemløse.",
+    "en": "Volunteers handed out free food to homeless people."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "dele op i",
+   "pattern": "dele noget op i noget",
+   "en": "divide into; split into",
+   "example": {
+    "da": "Kurset er delt op i fire moduler.",
+    "en": "The course is divided into four modules."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "erstatte med",
+   "pattern": "erstatte noget/nogen med noget/nogen",
+   "en": "replace with",
+   "example": {
+    "da": "Oliefyret skal erstattes med en varmepumpe.",
+    "en": "The oil boiler is to be replaced with a heat pump."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "flytte sammen med",
+   "pattern": "flytte sammen med nogen",
+   "en": "move in with",
+   "example": {
+    "da": "Efter et år flyttede hun sammen med sin kæreste.",
+    "en": "After a year she moved in with her boyfriend."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "flytte hjemmefra",
+   "pattern": "flytte hjemmefra",
+   "en": "leave home; move out (of parents' home)",
+   "example": {
+    "da": "Mange unge flytter hjemmefra, når de starter på en uddannelse.",
+    "en": "Many young people leave home when they start higher education."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "forhindre i",
+   "pattern": "forhindre nogen i noget / i at …",
+   "en": "prevent from",
+   "example": {
+    "da": "Sygdom forhindrede ham i at deltage i mødet.",
+    "en": "Illness prevented him from attending the meeting."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "forholde sig til",
+   "pattern": "forholde sig til noget",
+   "en": "relate to; deal with; take a view on",
+   "example": {
+    "da": "Som borger må man forholde sig kritisk til det, man læser på nettet.",
+    "en": "As a citizen you must take a critical view of what you read online."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "forvente sig af",
+   "pattern": "forvente sig noget af noget/nogen",
+   "en": "expect from",
+   "example": {
+    "da": "Hvad forventer du dig af dit nye job?",
+    "en": "What do you expect from your new job?"
+   },
+   "level": "C1"
+  },
+  {
+   "da": "frygte for",
+   "pattern": "frygte for noget/nogen",
+   "en": "fear for",
+   "example": {
+    "da": "Mange ansatte frygter for deres job.",
+    "en": "Many employees fear for their jobs."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "følge op på",
+   "pattern": "følge op på noget",
+   "en": "follow up on",
+   "example": {
+    "da": "Lægen vil følge op på prøvesvarene om en måned.",
+    "en": "The doctor will follow up on the test results in a month."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "følge med i",
+   "pattern": "følge med i noget",
+   "en": "keep up with; follow",
+   "example": {
+    "da": "Jeg følger med i nyhederne hver morgen.",
+    "en": "I follow the news every morning."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "hjælpe med",
+   "pattern": "hjælpe (nogen) med noget",
+   "en": "help with",
+   "example": {
+    "da": "Kan du hjælpe mig med at udfylde skemaet?",
+    "en": "Can you help me fill in the form?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "hænge sammen med",
+   "pattern": "hænge sammen med noget",
+   "en": "be connected with; be due to",
+   "example": {
+    "da": "Stigningen i sygefravær hænger sammen med det hårde arbejdsmiljø.",
+    "en": "The rise in sickness absence is connected with the tough working environment."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "hænge ud med",
+   "pattern": "hænge ud med nogen",
+   "en": "hang out with",
+   "example": {
+    "da": "I weekenden hænger jeg mest ud med mine venner.",
+    "en": "At the weekend I mostly hang out with my friends."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "hænge fast i",
+   "pattern": "hænge fast i noget",
+   "en": "be stuck in; cling to",
+   "example": {
+    "da": "Mange hænger fast i gamle vaner, selv om de vil ændre dem.",
+    "en": "Many people are stuck in old habits even though they want to change them."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "indgå i",
+   "pattern": "indgå i noget",
+   "en": "be part of; form part of",
+   "example": {
+    "da": "Erfaringerne fra forsøget skal indgå i den nye lov.",
+    "en": "The experience from the trial is to form part of the new law."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "indgå en aftale",
+   "pattern": "indgå en aftale (med nogen om noget)",
+   "en": "enter into an agreement; make a deal",
+   "example": {
+    "da": "Regeringen har indgået en aftale med KL om kommunernes økonomi.",
+    "en": "The government has made an agreement with Local Government Denmark on municipal finances."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "indgå et kompromis",
+   "pattern": "indgå et kompromis (med nogen)",
+   "en": "reach a compromise",
+   "example": {
+    "da": "Partierne indgik et kompromis efter lange forhandlinger.",
+    "en": "The parties reached a compromise after long negotiations."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "kalde på",
+   "pattern": "kalde på noget/nogen",
+   "en": "call for; call",
+   "example": {
+    "da": "Situationen kalder på handling fra politikerne.",
+    "en": "The situation calls for action from the politicians."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "kende til",
+   "pattern": "kende til noget/nogen",
+   "en": "know about; be aware of",
+   "example": {
+    "da": "Kender du til reglerne for fradrag?",
+    "en": "Do you know about the rules for tax deductions?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "konkurrere med",
+   "pattern": "konkurrere med nogen (om noget)",
+   "en": "compete with",
+   "example": {
+    "da": "Små butikker har svært ved at konkurrere med netbutikkerne.",
+    "en": "Small shops find it hard to compete with online shops."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "konkurrere om",
+   "pattern": "konkurrere om noget",
+   "en": "compete for",
+   "example": {
+    "da": "Mange ansøgere konkurrerer om de få pladser.",
+    "en": "Many applicants compete for the few places."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "kritisere for",
+   "pattern": "kritisere nogen for noget",
+   "en": "criticise for",
+   "example": {
+    "da": "Kommunen kritiseres for at have reageret for sent.",
+    "en": "The municipality is being criticised for reacting too late."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "leve af",
+   "pattern": "leve af noget",
+   "en": "live on; make a living from",
+   "example": {
+    "da": "Han lever af at oversætte bøger.",
+    "en": "He makes a living translating books."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "leve op til",
+   "pattern": "leve op til noget",
+   "en": "live up to",
+   "example": {
+    "da": "Skolen lever ikke op til de nye krav.",
+    "en": "The school does not live up to the new requirements."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "leve med",
+   "pattern": "leve med noget",
+   "en": "live with",
+   "example": {
+    "da": "Mange må lære at leve med kroniske smerter.",
+    "en": "Many people have to learn to live with chronic pain."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "lytte til",
+   "pattern": "lytte til noget/nogen",
+   "en": "listen to",
+   "example": {
+    "da": "Politikerne bør lytte mere til fagfolkene.",
+    "en": "Politicians should listen more to the professionals."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "læne sig op ad",
+   "pattern": "læne sig op ad noget",
+   "en": "lean against; be modelled on",
+   "example": {
+    "da": "Det nye forslag læner sig op ad den svenske model.",
+    "en": "The new proposal is modelled on the Swedish system."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "løbe tør for",
+   "pattern": "løbe tør for noget",
+   "en": "run out of",
+   "example": {
+    "da": "Mange kommuner er ved at løbe tør for penge.",
+    "en": "Many municipalities are running out of money."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "løbe ind i",
+   "pattern": "løbe ind i noget/nogen",
+   "en": "run into",
+   "example": {
+    "da": "Projektet er løbet ind i store problemer.",
+    "en": "The project has run into big problems."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "løbe op i",
+   "pattern": "løbe op i noget",
+   "en": "amount to; add up to",
+   "example": {
+    "da": "Regningen for renoveringen løb op i to millioner kroner.",
+    "en": "The bill for the renovation amounted to two million kroner."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "løbe en risiko",
+   "pattern": "løbe en risiko (for noget)",
+   "en": "run a risk",
+   "example": {
+    "da": "Man løber en stor risiko ved at køre uden sele.",
+    "en": "You run a big risk by driving without a seat belt."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "minde om",
+   "pattern": "minde (nogen) om noget/nogen",
+   "en": "remind of; resemble",
+   "example": {
+    "da": "Kan du minde mig om at ringe til lægen i morgen?",
+    "en": "Can you remind me to call the doctor tomorrow?"
+   },
+   "level": "B2"
+  },
+  {
+   "da": "møde op",
+   "pattern": "møde op (til noget)",
+   "en": "turn up; show up",
+   "example": {
+    "da": "Kun halvdelen af medlemmerne mødte op til generalforsamlingen.",
+    "en": "Only half of the members turned up for the general meeting."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "nå frem til",
+   "pattern": "nå frem til noget",
+   "en": "reach; arrive at",
+   "example": {
+    "da": "Udvalget nåede frem til en fælles anbefaling.",
+    "en": "The committee reached a joint recommendation."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "nøjes med",
+   "pattern": "nøjes med noget",
+   "en": "make do with; settle for",
+   "example": {
+    "da": "I år må vi nøjes med en kort ferie i Danmark.",
+    "en": "This year we will have to make do with a short holiday in Denmark."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "opfordre til",
+   "pattern": "opfordre (nogen) til noget / til at …",
+   "en": "urge; call for; encourage",
+   "example": {
+    "da": "Sundhedsstyrelsen opfordrer alle over 65 til at blive vaccineret.",
+    "en": "The Health Authority urges everyone over 65 to get vaccinated."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "ophøre med",
+   "pattern": "ophøre med noget",
+   "en": "cease; stop (formal)",
+   "example": {
+    "da": "Virksomheden ophører med at producere i Danmark.",
+    "en": "The company is ceasing production in Denmark."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "passe ind i",
+   "pattern": "passe ind i noget",
+   "en": "fit in; fit into",
+   "example": {
+    "da": "Det tog tid, før hun følte, at hun passede ind i teamet.",
+    "en": "It took time before she felt that she fitted into the team."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "pege på",
+   "pattern": "pege på noget/nogen",
+   "en": "point to; point at; nominate",
+   "example": {
+    "da": "Undersøgelsen peger på, at flere unge føler sig ensomme.",
+    "en": "The study points to more young people feeling lonely."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "rejse sig mod",
+   "pattern": "rejse sig mod nogen/noget",
+   "en": "rise up against",
+   "example": {
+    "da": "Befolkningen rejste sig mod diktatoren.",
+    "en": "The population rose up against the dictator."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "råde over",
+   "pattern": "råde over noget",
+   "en": "have at one's disposal; control",
+   "example": {
+    "da": "Kommunen råder over flere ledige grunde i midtbyen.",
+    "en": "The municipality has several vacant plots in the town centre at its disposal."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "råde bod på",
+   "pattern": "råde bod på noget",
+   "en": "remedy; make up for",
+   "example": {
+    "da": "Regeringen vil råde bod på manglen på sygeplejersker.",
+    "en": "The government wants to remedy the shortage of nurses."
+   },
+   "level": "C2"
+  },
+  {
+   "da": "sammenligne med",
+   "pattern": "sammenligne noget/nogen med noget/nogen",
+   "en": "compare with",
+   "example": {
+    "da": "Sammenlignet med sidste år er salget steget med ti procent.",
+    "en": "Compared with last year, sales have risen by ten per cent."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "samarbejde med",
+   "pattern": "samarbejde med nogen (om noget)",
+   "en": "cooperate with; work with",
+   "example": {
+    "da": "Skolen samarbejder med lokale virksomheder om praktikpladser.",
+    "en": "The school works with local companies on work placements."
+   },
+   "level": "B2"
+  },
+  {
+   "da": "sidde i",
+   "pattern": "sidde i noget",
+   "en": "sit on; be a member of (a board, committee)",
+   "example": {
+    "da": "Hun sidder i bestyrelsen for den lokale idrætsforening.",
+    "en": "She sits on the board of the local sports club."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "skelne mellem",
+   "pattern": "skelne mellem noget og noget",
+   "en": "distinguish between",
+   "example": {
+    "da": "Det er vigtigt at kunne skelne mellem fakta og holdninger.",
+    "en": "It is important to be able to distinguish between facts and opinions."
+   },
+   "level": "C1"
+  },
+  {
+   "da": "skyde skylden på",
+   "pattern": "skyde skylden på nogen/noget",
+   "en": "shift the blame onto; blame",
+   "example": {
+    "da": "Ministeren skød skylden på sine embedsmænd.",
+    "en": "The minister shifted the blame onto his civil servants."
+   },
+   "level": "C1"
+  }
+ ]
+}

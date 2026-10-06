@@ -3,6 +3,7 @@ import SwiftUI
 /// The word diary: today's cards as a deck you turn over, and every saved word below.
 struct WordsView: View {
     @Environment(FlashcardStore.self) private var flashcards
+    @Environment(VocabStore.self) private var vocab
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     @State private var deck: [Flashcard] = []
@@ -30,7 +31,7 @@ struct WordsView: View {
                         Text("Ord")
                             .font(.serif(38, .semibold, relativeTo: .largeTitle))
                             .foregroundStyle(Theme.ink)
-                        Text("\(flashcards.cards.count) gemt")
+                        Text("\(vocab.totalLearned) af \(vocab.totalCount) lært")
                             .font(.ui(15, relativeTo: .subheadline))
                             .foregroundStyle(Theme.pencil)
                     }
@@ -38,6 +39,16 @@ struct WordsView: View {
                     Art(.words, size: 72)
                 }
                 .padding(.bottom, 18)
+
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 22) {
+                    ForEach(VocabDeck.allCases) { VocabDeckCard(deck: $0) }
+                }
+                .padding(.bottom, 40)
+
+                Text("Mine gemte ord")
+                    .font(.ui(20, .bold, relativeTo: .title3))
+                    .foregroundStyle(Theme.ink)
+                    .padding(.bottom, 14)
 
                 if flashcards.cards.isEmpty {
                     emptyCard
@@ -292,7 +303,7 @@ struct WordsView: View {
     private var wordList: some View {
         VStack(alignment: .leading, spacing: 0) {
             Text("Alle gemte ord")
-                .font(.ui(20, .bold, relativeTo: .title3))
+                .font(.ui(16, .bold, relativeTo: .headline))
                 .foregroundStyle(Theme.ink)
                 .padding(.bottom, 12)
             HStack(spacing: 8) {

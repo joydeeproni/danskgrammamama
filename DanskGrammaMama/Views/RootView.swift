@@ -50,6 +50,10 @@ enum DebugLaunch {
         case "exam": return [.week, .exam(minutes: progress.settings.examMinutes)]
         case "reading": return [.topics, .topic(Topic.readingID)]
         case "readingset": return [.readingSet(nil)]
+        case "vocab-words": return [.words, .vocab(.words)]
+        case "vocab-phrases": return [.words, .vocab(.phrases)]
+        case "vocab-fixed": return [.words, .vocab(.fixed)]
+        case "vocab-udtryk": return [.words, .vocab(.udtryk)]
         default: return []
         }
     }

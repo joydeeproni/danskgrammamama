@@ -1,0 +1,5255 @@
+{
+ "deck": "fixed",
+ "items": [
+  {
+   "da": "afhængig af",
+   "pattern": "afhængig af noget/nogen",
+   "en": "dependent on; addicted to",
+   "level": "B2",
+   "example": {
+    "da": "Mange ældre er afhængige af hjælp fra kommunen for at klare hverdagen.",
+    "en": "Many elderly people depend on help from the municipality to manage everyday life."
+   }
+  },
+  {
+   "da": "ansvarlig for",
+   "pattern": "ansvarlig for noget/nogen",
+   "en": "responsible for",
+   "level": "B2",
+   "example": {
+    "da": "Hun er ansvarlig for budgettet i hele afdelingen.",
+    "en": "She is responsible for the budget in the whole department."
+   }
+  },
+  {
+   "da": "interesseret i",
+   "pattern": "interesseret i noget / i at gøre noget",
+   "en": "interested in",
+   "level": "B2",
+   "example": {
+    "da": "Flere unge er interesserede i at uddanne sig inden for grøn energi.",
+    "en": "More young people are interested in training within green energy."
+   }
+  },
+  {
+   "da": "stolt af",
+   "pattern": "stolt af noget/nogen",
+   "en": "proud of",
+   "level": "B2",
+   "example": {
+    "da": "Vi er meget stolte af, at vores søn har fået en læreplads.",
+    "en": "We are very proud that our son has got an apprenticeship."
+   }
+  },
+  {
+   "da": "bekymret for",
+   "pattern": "bekymret for noget/nogen",
+   "en": "worried about (someone/the future)",
+   "level": "B2",
+   "example": {
+    "da": "Mange forældre er bekymrede for, hvor meget tid børnene bruger på skærme.",
+    "en": "Many parents are worried about how much time their children spend on screens."
+   }
+  },
+  {
+   "da": "enig med",
+   "pattern": "enig med nogen (i noget)",
+   "en": "agree with (someone)",
+   "level": "B2",
+   "example": {
+    "da": "Jeg er enig med min kollega i, at mødet var alt for langt.",
+    "en": "I agree with my colleague that the meeting was far too long."
+   }
+  },
+  {
+   "da": "enig i",
+   "pattern": "enig i noget / i, at …",
+   "en": "agree with (something)",
+   "level": "B2",
+   "example": {
+    "da": "Er du enig i regeringens forslag om at hæve pensionsalderen?",
+    "en": "Do you agree with the government's proposal to raise the pension age?"
+   }
+  },
+  {
+   "da": "enig om",
+   "pattern": "(flere er) enige om noget",
+   "en": "agreed on (several parties)",
+   "level": "C1",
+   "example": {
+    "da": "Partierne er enige om at investere flere penge i psykiatrien.",
+    "en": "The parties have agreed to invest more money in psychiatry."
+   }
+  },
+  {
+   "da": "uenig med",
+   "pattern": "uenig med nogen",
+   "en": "disagree with (someone)",
+   "level": "B2",
+   "example": {
+    "da": "Jeg er uenig med min chef om, hvordan opgaven skal løses.",
+    "en": "I disagree with my boss about how the task should be solved."
+   }
+  },
+  {
+   "da": "uenig i",
+   "pattern": "uenig i noget",
+   "en": "disagree with (something)",
+   "level": "B2",
+   "example": {
+    "da": "Mange borgere er uenige i beslutningen om at lukke den lokale skole.",
+    "en": "Many citizens disagree with the decision to close the local school."
+   }
+  },
+  {
+   "da": "tilfreds med",
+   "pattern": "tilfreds med noget/nogen",
+   "en": "satisfied with",
+   "level": "B2",
+   "example": {
+    "da": "De fleste patienter er tilfredse med behandlingen på hospitalet.",
+    "en": "Most patients are satisfied with the treatment at the hospital."
+   }
+  },
+  {
+   "da": "utilfreds med",
+   "pattern": "utilfreds med noget/nogen",
+   "en": "dissatisfied with",
+   "level": "B2",
+   "example": {
+    "da": "Lærerne er utilfredse med de nye regler for arbejdstid.",
+    "en": "The teachers are dissatisfied with the new working-time rules."
+   }
+  },
+  {
+   "da": "vant til",
+   "pattern": "vant til noget / til at gøre noget",
+   "en": "used to",
+   "level": "B2",
+   "example": {
+    "da": "Efterhånden er jeg vant til at cykle på arbejde, også når det regner.",
+    "en": "By now I am used to cycling to work, even when it rains."
+   }
+  },
+  {
+   "da": "opmærksom på",
+   "pattern": "opmærksom på noget",
+   "en": "aware of; attentive to",
+   "level": "B2",
+   "example": {
+    "da": "Man skal være opmærksom på, at ansøgningsfristen udløber den 1. maj.",
+    "en": "You should be aware that the application deadline expires on 1 May."
+   }
+  },
+  {
+   "da": "glad for",
+   "pattern": "glad for noget/nogen",
+   "en": "happy with; fond of",
+   "level": "B2",
+   "example": {
+    "da": "Hun er rigtig glad for sit nye job i kommunen.",
+    "en": "She is really happy with her new job at the municipality."
+   }
+  },
+  {
+   "da": "træt af",
+   "pattern": "træt af noget/nogen",
+   "en": "tired of, fed up with",
+   "level": "B2",
+   "example": {
+    "da": "Mange pendlere er trætte af forsinkelserne på togstrækningen.",
+    "en": "Many commuters are fed up with the delays on the railway line."
+   }
+  },
+  {
+   "da": "bange for",
+   "pattern": "bange for noget/nogen / for at …",
+   "en": "afraid of",
+   "level": "B2",
+   "example": {
+    "da": "Mange medarbejdere er bange for at miste jobbet, når fabrikken flytter.",
+    "en": "Many employees are afraid of losing their job when the factory moves."
+   }
+  },
+  {
+   "da": "nervøs for",
+   "pattern": "nervøs for noget",
+   "en": "nervous about",
+   "level": "B2",
+   "example": {
+    "da": "Jeg er lidt nervøs for den mundtlige del af prøven.",
+    "en": "I am a bit nervous about the oral part of the exam."
+   }
+  },
+  {
+   "da": "spændt på",
+   "pattern": "spændt på noget / på, om …",
+   "en": "excited about; curious to see",
+   "level": "B2",
+   "example": {
+    "da": "Jeg er spændt på, om jeg har bestået prøven.",
+    "en": "I am anxious to find out whether I have passed the exam."
+   }
+  },
+  {
+   "da": "sur på",
+   "pattern": "sur på nogen",
+   "en": "cross with, annoyed with (someone)",
+   "level": "B2",
+   "example": {
+    "da": "Han var sur på sin chef, fordi han ikke fik fri i ferien.",
+    "en": "He was cross with his boss because he didn't get time off for the holiday."
+   }
+  },
+  {
+   "da": "sur over",
+   "pattern": "sur over noget",
+   "en": "annoyed about (something)",
+   "level": "B2",
+   "example": {
+    "da": "Hun er sur over, at hun ikke fik den lønforhøjelse, hun var blevet lovet.",
+    "en": "She is annoyed that she didn't get the pay rise she had been promised."
+   }
+  },
+  {
+   "da": "vred på",
+   "pattern": "vred på nogen",
+   "en": "angry with (someone)",
+   "level": "B2",
+   "example": {
+    "da": "Borgerne er vrede på politikerne efter de mange løftebrud.",
+    "en": "Citizens are angry with the politicians after the many broken promises."
+   }
+  },
+  {
+   "da": "vred over",
+   "pattern": "vred over noget",
+   "en": "angry about (something)",
+   "level": "B2",
+   "example": {
+    "da": "Beboerne er vrede over, at busruten bliver nedlagt.",
+    "en": "The residents are angry that the bus route is being discontinued."
+   }
+  },
+  {
+   "da": "irriteret over",
+   "pattern": "irriteret over noget",
+   "en": "irritated by, annoyed at (something)",
+   "level": "B2",
+   "example": {
+    "da": "Mange er irriterede over de lange køer i lufthavnen.",
+    "en": "Many people are irritated by the long queues at the airport."
+   }
+  },
+  {
+   "da": "ked af",
+   "pattern": "ked af noget / ked af, at …",
+   "en": "sorry about; sad about",
+   "level": "B2",
+   "example": {
+    "da": "Jeg er ked af, at jeg ikke kunne komme til forældremødet.",
+    "en": "I am sorry that I couldn't come to the parents' meeting."
+   }
+  },
+  {
+   "da": "skuffet over",
+   "pattern": "skuffet over noget/nogen",
+   "en": "disappointed with/about",
+   "level": "B2",
+   "example": {
+    "da": "Fagforeningen er skuffet over resultatet af overenskomstforhandlingerne.",
+    "en": "The union is disappointed with the outcome of the collective bargaining."
+   }
+  },
+  {
+   "da": "overrasket over",
+   "pattern": "overrasket over noget",
+   "en": "surprised at",
+   "level": "B2",
+   "example": {
+    "da": "Jeg blev overrasket over, hvor dyrt det er at leje en bolig i København.",
+    "en": "I was surprised at how expensive it is to rent a home in Copenhagen."
+   }
+  },
+  {
+   "da": "imponeret over",
+   "pattern": "imponeret over noget/nogen",
+   "en": "impressed by",
+   "level": "B2",
+   "example": {
+    "da": "Censoren var imponeret over hendes mundtlige fremlæggelse.",
+    "en": "The examiner was impressed by her oral presentation."
+   }
+  },
+  {
+   "da": "chokeret over",
+   "pattern": "chokeret over noget",
+   "en": "shocked by",
+   "level": "B2",
+   "example": {
+    "da": "Mange var chokerede over de høje elregninger sidste vinter.",
+    "en": "Many people were shocked by the high electricity bills last winter."
+   }
+  },
+  {
+   "da": "forarget over",
+   "pattern": "forarget over noget",
+   "en": "indignant at, outraged by",
+   "level": "C1",
+   "example": {
+    "da": "Mange vælgere er forargede over ministerens store fratrædelsesgodtgørelse.",
+    "en": "Many voters are outraged by the minister's large severance pay."
+   }
+  },
+  {
+   "da": "lettet over",
+   "pattern": "lettet over noget",
+   "en": "relieved at",
+   "level": "B2",
+   "example": {
+    "da": "Vi var meget lettede over, at operationen var gået godt.",
+    "en": "We were very relieved that the operation had gone well."
+   }
+  },
+  {
+   "da": "flov over",
+   "pattern": "flov over noget",
+   "en": "embarrassed about",
+   "level": "B2",
+   "example": {
+    "da": "Han var flov over, at han havde glemt sin kollegas navn.",
+    "en": "He was embarrassed that he had forgotten his colleague's name."
+   }
+  },
+  {
+   "da": "misundelig på",
+   "pattern": "misundelig på nogen/noget",
+   "en": "envious of",
+   "level": "C1",
+   "example": {
+    "da": "Mange er misundelige på naboens nye elbil.",
+    "en": "Many people are envious of the neighbour's new electric car."
+   }
+  },
+  {
+   "da": "dygtig til",
+   "pattern": "dygtig til noget",
+   "en": "skilled at, good at",
+   "level": "B2",
+   "example": {
+    "da": "Han er dygtig til at forklare komplicerede regler for borgerne.",
+    "en": "He is skilled at explaining complicated rules to citizens."
+   }
+  },
+  {
+   "da": "kendt for",
+   "pattern": "kendt for noget",
+   "en": "known for",
+   "level": "B2",
+   "example": {
+    "da": "Danmark er kendt for sit høje skattetryk og sin gode velfærd.",
+    "en": "Denmark is known for its high tax burden and its good welfare."
+   }
+  },
+  {
+   "da": "typisk for",
+   "pattern": "typisk for noget/nogen",
+   "en": "typical of",
+   "level": "B2",
+   "example": {
+    "da": "Det er typisk for danske arbejdspladser, at man siger du til chefen.",
+    "en": "It is typical of Danish workplaces that you address the boss informally."
+   }
+  },
+  {
+   "da": "karakteristisk for",
+   "pattern": "karakteristisk for noget/nogen",
+   "en": "characteristic of",
+   "level": "C1",
+   "example": {
+    "da": "Flad ledelsesstruktur er karakteristisk for mange danske virksomheder.",
+    "en": "A flat management structure is characteristic of many Danish companies."
+   }
+  },
+  {
+   "da": "nødvendig for",
+   "pattern": "nødvendig for noget / for at …",
+   "en": "necessary for",
+   "level": "B2",
+   "example": {
+    "da": "Gode danskkundskaber er nødvendige for at få et fast job.",
+    "en": "Good Danish skills are necessary to get a permanent job."
+   }
+  },
+  {
+   "da": "vigtig for",
+   "pattern": "vigtig for noget/nogen",
+   "en": "important for/to",
+   "level": "B2",
+   "example": {
+    "da": "Et godt arbejdsmiljø er vigtigt for medarbejdernes trivsel.",
+    "en": "A good working environment is important for employees' well-being."
+   }
+  },
+  {
+   "da": "afgørende for",
+   "pattern": "afgørende for noget",
+   "en": "crucial for, decisive for",
+   "level": "C1",
+   "example": {
+    "da": "Tidlig indsats er afgørende for, hvordan det går børnene senere i livet.",
+    "en": "Early intervention is crucial for how children fare later in life."
+   }
+  },
+  {
+   "da": "væsentlig for",
+   "pattern": "væsentlig for noget/nogen",
+   "en": "essential to, significant for",
+   "level": "C1",
+   "example": {
+    "da": "Kollektiv trafik er væsentlig for udviklingen af landdistrikterne.",
+    "en": "Public transport is essential to the development of rural areas."
+   }
+  },
+  {
+   "da": "relevant for",
+   "pattern": "relevant for noget/nogen",
+   "en": "relevant to",
+   "level": "B2",
+   "example": {
+    "da": "Kurset er især relevant for ledere i den offentlige sektor.",
+    "en": "The course is especially relevant to managers in the public sector."
+   }
+  },
+  {
+   "da": "skadelig for",
+   "pattern": "skadelig for noget/nogen",
+   "en": "harmful to",
+   "level": "B2",
+   "example": {
+    "da": "Passiv rygning er skadelig for både børn og voksne.",
+    "en": "Passive smoking is harmful to both children and adults."
+   }
+  },
+  {
+   "da": "gavnlig for",
+   "pattern": "gavnlig for noget/nogen",
+   "en": "beneficial to",
+   "level": "C1",
+   "example": {
+    "da": "Motion er gavnlig for både den fysiske og den psykiske sundhed.",
+    "en": "Exercise is beneficial to both physical and mental health."
+   }
+  },
+  {
+   "da": "egnet til",
+   "pattern": "egnet til noget / til at …",
+   "en": "suitable for",
+   "level": "C1",
+   "example": {
+    "da": "Lejligheden er ikke egnet til en familie med tre børn.",
+    "en": "The flat is not suitable for a family with three children."
+   }
+  },
+  {
+   "da": "klar til",
+   "pattern": "klar til noget / til at …",
+   "en": "ready for",
+   "level": "B2",
+   "example": {
+    "da": "Er du klar til at starte i det nye job på mandag?",
+    "en": "Are you ready to start the new job on Monday?"
+   }
+  },
+  {
+   "da": "parat til",
+   "pattern": "parat til noget / til at …",
+   "en": "prepared for, ready to",
+   "level": "C1",
+   "example": {
+    "da": "Regeringen er parat til at forhandle med alle partier.",
+    "en": "The government is prepared to negotiate with all parties."
+   }
+  },
+  {
+   "da": "villig til",
+   "pattern": "villig til at gøre noget",
+   "en": "willing to",
+   "level": "B2",
+   "example": {
+    "da": "Er du villig til at flytte for at få et job?",
+    "en": "Are you willing to move to get a job?"
+   }
+  },
+  {
+   "da": "tilbøjelig til",
+   "pattern": "tilbøjelig til at gøre noget",
+   "en": "inclined to, prone to",
+   "level": "C1",
+   "example": {
+    "da": "Unge er mere tilbøjelige til at skifte job end ældre medarbejdere.",
+    "en": "Young people are more inclined to change jobs than older employees."
+   }
+  },
+  {
+   "da": "berettiget til",
+   "pattern": "berettiget til noget",
+   "en": "entitled to, eligible for",
+   "level": "C1",
+   "example": {
+    "da": "Du er kun berettiget til dagpenge, hvis du er medlem af en a-kasse.",
+    "en": "You are only entitled to unemployment benefit if you belong to an unemployment fund."
+   }
+  },
+  {
+   "da": "kvalificeret til",
+   "pattern": "kvalificeret til noget",
+   "en": "qualified for",
+   "level": "C1",
+   "example": {
+    "da": "Hun er mere end kvalificeret til stillingen som afdelingsleder.",
+    "en": "She is more than qualified for the position of head of department."
+   }
+  },
+  {
+   "da": "forpligtet til",
+   "pattern": "forpligtet til noget / til at …",
+   "en": "obliged to, committed to",
+   "level": "C1",
+   "example": {
+    "da": "Arbejdsgiveren er forpligtet til at sørge for et sikkert arbejdsmiljø.",
+    "en": "The employer is obliged to ensure a safe working environment."
+   }
+  },
+  {
+   "da": "nødt til",
+   "pattern": "være nødt til at gøre noget",
+   "en": "have to, be forced to",
+   "level": "B2",
+   "example": {
+    "da": "Vi er nødt til at spare på varmen, fordi energipriserne er steget.",
+    "en": "We have to save on heating because energy prices have risen."
+   }
+  },
+  {
+   "da": "fri for",
+   "pattern": "fri for noget",
+   "en": "free of; spared from",
+   "level": "B2",
+   "example": {
+    "da": "Boligen er undersøgt og er fri for skimmelsvamp.",
+    "en": "The home has been inspected and is free of mould."
+   }
+  },
+  {
+   "da": "fritaget for",
+   "pattern": "fritaget for noget",
+   "en": "exempt from",
+   "level": "C1",
+   "example": {
+    "da": "Sundhedsydelser er fritaget for moms i Danmark.",
+    "en": "Health services are exempt from VAT in Denmark."
+   }
+  },
+  {
+   "da": "skyldig i",
+   "pattern": "skyldig i noget",
+   "en": "guilty of",
+   "level": "C1",
+   "example": {
+    "da": "Retten fandt den tidligere direktør skyldig i bedrageri.",
+    "en": "The court found the former director guilty of fraud."
+   }
+  },
+  {
+   "da": "mistænkt for",
+   "pattern": "mistænkt for noget",
+   "en": "suspected of",
+   "level": "C1",
+   "example": {
+    "da": "Manden er mistænkt for at have snydt med sociale ydelser.",
+    "en": "The man is suspected of having cheated with social benefits."
+   }
+  },
+  {
+   "da": "bevidst om",
+   "pattern": "bevidst om noget",
+   "en": "aware of, conscious of",
+   "level": "C1",
+   "example": {
+    "da": "Virksomheden er bevidst om sit ansvar for klimaet.",
+    "en": "The company is aware of its responsibility for the climate."
+   }
+  },
+  {
+   "da": "klar over",
+   "pattern": "være klar over noget / klar over, at …",
+   "en": "aware of, realise",
+   "level": "B2",
+   "example": {
+    "da": "Er du klar over, at du skal søge om forlængelse af din opholdstilladelse?",
+    "en": "Are you aware that you must apply to extend your residence permit?"
+   }
+  },
+  {
+   "da": "uvidende om",
+   "pattern": "uvidende om noget",
+   "en": "unaware of, ignorant of",
+   "level": "C1",
+   "example": {
+    "da": "Mange lejere er uvidende om deres rettigheder.",
+    "en": "Many tenants are unaware of their rights."
+   }
+  },
+  {
+   "da": "sikker på",
+   "pattern": "sikker på noget / på, at …",
+   "en": "sure of, certain of",
+   "level": "B2",
+   "example": {
+    "da": "Jeg er ikke sikker på, at lovforslaget bliver vedtaget.",
+    "en": "I am not sure that the bill will be passed."
+   }
+  },
+  {
+   "da": "usikker på",
+   "pattern": "usikker på noget",
+   "en": "unsure about",
+   "level": "B2",
+   "example": {
+    "da": "Mange studerende er usikre på, hvad de skal efter uddannelsen.",
+    "en": "Many students are unsure what to do after their education."
+   }
+  },
+  {
+   "da": "overbevist om",
+   "pattern": "overbevist om noget / om, at …",
+   "en": "convinced of",
+   "level": "C1",
+   "example": {
+    "da": "Hun er overbevist om, at vedvarende energi er den eneste løsning.",
+    "en": "She is convinced that renewable energy is the only solution."
+   }
+  },
+  {
+   "da": "begejstret for",
+   "pattern": "begejstret for noget/nogen",
+   "en": "enthusiastic about, keen on",
+   "level": "B2",
+   "example": {
+    "da": "Personalet er begejstret for den nye mulighed for hjemmearbejde.",
+    "en": "The staff are enthusiastic about the new option of working from home."
+   }
+  },
+  {
+   "da": "vild med",
+   "pattern": "vild med noget/nogen",
+   "en": "crazy about, love (informal)",
+   "level": "B2",
+   "example": {
+    "da": "Børnene er helt vilde med den nye legeplads i parken.",
+    "en": "The children absolutely love the new playground in the park."
+   }
+  },
+  {
+   "da": "ligeglad med",
+   "pattern": "ligeglad med noget/nogen",
+   "en": "indifferent to, not care about",
+   "level": "B2",
+   "example": {
+    "da": "Det er forkert at sige, at unge er ligeglade med politik.",
+    "en": "It is wrong to say that young people don't care about politics."
+   }
+  },
+  {
+   "da": "bekendt med",
+   "pattern": "bekendt med noget",
+   "en": "familiar with, acquainted with",
+   "level": "C1",
+   "example": {
+    "da": "Er du bekendt med reglerne for fremleje af din lejlighed?",
+    "en": "Are you familiar with the rules for subletting your flat?"
+   }
+  },
+  {
+   "da": "fortrolig med",
+   "pattern": "fortrolig med noget",
+   "en": "familiar with, at home with",
+   "level": "C1",
+   "example": {
+    "da": "Alle medarbejdere skal være fortrolige med det nye it-system.",
+    "en": "All employees must be familiar with the new IT system."
+   }
+  },
+  {
+   "da": "forsigtig med",
+   "pattern": "forsigtig med noget / med at …",
+   "en": "careful with",
+   "level": "B2",
+   "example": {
+    "da": "Man skal være forsigtig med at dele personlige oplysninger på nettet.",
+    "en": "You should be careful about sharing personal information online."
+   }
+  },
+  {
+   "da": "tryg ved",
+   "pattern": "tryg ved noget/nogen",
+   "en": "comfortable with, feel safe with",
+   "level": "B2",
+   "example": {
+    "da": "Mange ældre er ikke trygge ved at bruge MitID på egen hånd.",
+    "en": "Many elderly people are not comfortable using MitID on their own."
+   }
+  },
+  {
+   "da": "utryg ved",
+   "pattern": "utryg ved noget/nogen",
+   "en": "uneasy about, insecure about",
+   "level": "B2",
+   "example": {
+    "da": "Mange forældre er utrygge ved, at deres børn cykler i myldretiden.",
+    "en": "Many parents feel uneasy about their children cycling in rush hour."
+   }
+  },
+  {
+   "da": "venlig over for",
+   "pattern": "venlig over for nogen",
+   "en": "kind to, friendly towards",
+   "level": "B2",
+   "example": {
+    "da": "Personalet på plejehjemmet var meget venlige over for min mor.",
+    "en": "The staff at the nursing home were very kind to my mother."
+   }
+  },
+  {
+   "da": "åben over for",
+   "pattern": "åben over for noget/nogen",
+   "en": "open to, receptive to",
+   "level": "C1",
+   "example": {
+    "da": "Ledelsen er åben over for nye idéer fra medarbejderne.",
+    "en": "Management is open to new ideas from the employees."
+   }
+  },
+  {
+   "da": "åben for",
+   "pattern": "åben for nogen/noget",
+   "en": "open to (access)",
+   "level": "B2",
+   "example": {
+    "da": "Svømmehallen er åben for alle borgere i weekenden.",
+    "en": "The swimming baths are open to all residents at the weekend."
+   }
+  },
+  {
+   "da": "skeptisk over for",
+   "pattern": "skeptisk over for noget/nogen",
+   "en": "sceptical of",
+   "level": "C1",
+   "example": {
+    "da": "Mange bilister er stadig skeptiske over for elbiler.",
+    "en": "Many motorists are still sceptical of electric cars."
+   }
+  },
+  {
+   "da": "kritisk over for",
+   "pattern": "kritisk over for noget/nogen",
+   "en": "critical of",
+   "level": "C1",
+   "example": {
+    "da": "Flere eksperter er kritiske over for regeringens udspil.",
+    "en": "Several experts are critical of the government's proposal."
+   }
+  },
+  {
+   "da": "positiv over for",
+   "pattern": "positiv over for noget/nogen",
+   "en": "positive towards",
+   "level": "B2",
+   "example": {
+    "da": "Et flertal af danskerne er positive over for flere vindmøller på havet.",
+    "en": "A majority of Danes are positive towards more offshore wind turbines."
+   }
+  },
+  {
+   "da": "negativ over for",
+   "pattern": "negativ over for noget/nogen",
+   "en": "negative towards",
+   "level": "B2",
+   "example": {
+    "da": "Naboerne er negative over for planerne om et nyt butikscenter.",
+    "en": "The neighbours are negative towards the plans for a new shopping centre."
+   }
+  },
+  {
+   "da": "ærlig over for",
+   "pattern": "ærlig over for nogen",
+   "en": "honest with",
+   "level": "B2",
+   "example": {
+    "da": "Det er vigtigt at være ærlig over for lægen om sit alkoholforbrug.",
+    "en": "It is important to be honest with the doctor about your alcohol consumption."
+   }
+  },
+  {
+   "da": "følsom over for",
+   "pattern": "følsom over for noget",
+   "en": "sensitive to",
+   "level": "C1",
+   "example": {
+    "da": "Eksportvirksomheder er meget følsomme over for udsving i valutakursen.",
+    "en": "Export companies are very sensitive to fluctuations in the exchange rate."
+   }
+  },
+  {
+   "da": "sårbar over for",
+   "pattern": "sårbar over for noget",
+   "en": "vulnerable to",
+   "level": "C1",
+   "example": {
+    "da": "Kystbyerne er særligt sårbare over for stormfloder.",
+    "en": "The coastal towns are particularly vulnerable to storm surges."
+   }
+  },
+  {
+   "da": "allergisk over for",
+   "pattern": "allergisk over for noget",
+   "en": "allergic to",
+   "level": "B2",
+   "example": {
+    "da": "Min datter er allergisk over for nødder, så vi læser altid varedeklarationen.",
+    "en": "My daughter is allergic to nuts, so we always read the ingredients label."
+   }
+  },
+  {
+   "da": "modtagelig for",
+   "pattern": "modtagelig for noget",
+   "en": "susceptible to; receptive to",
+   "level": "C1",
+   "example": {
+    "da": "Ældre er mere modtagelige for infektioner i vinterhalvåret.",
+    "en": "Older people are more susceptible to infections in the winter months."
+   }
+  },
+  {
+   "da": "taknemmelig for",
+   "pattern": "taknemmelig for noget",
+   "en": "grateful for",
+   "level": "B2",
+   "example": {
+    "da": "Vi er meget taknemmelige for al den hjælp, vi har fået.",
+    "en": "We are very grateful for all the help we have received."
+   }
+  },
+  {
+   "da": "præget af",
+   "pattern": "præget af noget",
+   "en": "marked by, characterised by",
+   "level": "C1",
+   "example": {
+    "da": "Valgkampen var præget af debatten om udlændingepolitik.",
+    "en": "The election campaign was marked by the debate on immigration policy."
+   }
+  },
+  {
+   "da": "påvirket af",
+   "pattern": "påvirket af noget/nogen",
+   "en": "affected by; under the influence of",
+   "level": "B2",
+   "example": {
+    "da": "Hele regionen er påvirket af oversvømmelserne efter skybruddet.",
+    "en": "The whole region is affected by the flooding after the cloudburst."
+   }
+  },
+  {
+   "da": "berørt af",
+   "pattern": "berørt af noget",
+   "en": "affected by",
+   "level": "C1",
+   "example": {
+    "da": "Familier, der er berørt af nedskæringerne, kan søge om ekstra hjælp.",
+    "en": "Families affected by the cuts can apply for extra help."
+   }
+  },
+  {
+   "da": "ramt af",
+   "pattern": "ramt af noget",
+   "en": "hit by, struck by",
+   "level": "B2",
+   "example": {
+    "da": "Mange små virksomheder blev hårdt ramt af energikrisen.",
+    "en": "Many small businesses were hit hard by the energy crisis."
+   }
+  },
+  {
+   "da": "dækket af",
+   "pattern": "dækket af noget",
+   "en": "covered by",
+   "level": "B2",
+   "example": {
+    "da": "Udgiften til tandlægen er delvist dækket af din sygeforsikring.",
+    "en": "The dental bill is partly covered by your health insurance."
+   }
+  },
+  {
+   "da": "baseret på",
+   "pattern": "baseret på noget",
+   "en": "based on",
+   "level": "B2",
+   "example": {
+    "da": "Beslutningen er baseret på en grundig analyse af økonomien.",
+    "en": "The decision is based on a thorough analysis of the economy."
+   }
+  },
+  {
+   "da": "rettet mod",
+   "pattern": "rettet mod nogen/noget",
+   "en": "aimed at, directed at",
+   "level": "C1",
+   "example": {
+    "da": "Kampagnen er rettet mod unge mellem 15 og 25 år.",
+    "en": "The campaign is aimed at young people between 15 and 25."
+   }
+  },
+  {
+   "da": "knyttet til",
+   "pattern": "knyttet til noget/nogen",
+   "en": "linked to, attached to",
+   "level": "C1",
+   "example": {
+    "da": "Der er mange faste udgifter knyttet til at eje en bil.",
+    "en": "There are many fixed costs linked to owning a car."
+   }
+  },
+  {
+   "da": "forbundet med",
+   "pattern": "forbundet med noget",
+   "en": "associated with, involved in",
+   "level": "C1",
+   "example": {
+    "da": "Rygning er forbundet med en lang række alvorlige sygdomme.",
+    "en": "Smoking is associated with a wide range of serious diseases."
+   }
+  },
+  {
+   "da": "relateret til",
+   "pattern": "relateret til noget",
+   "en": "related to",
+   "level": "C1",
+   "example": {
+    "da": "Mange sygemeldinger er relateret til stress på arbejdet.",
+    "en": "Many sick leaves are related to stress at work."
+   }
+  },
+  {
+   "da": "lig med",
+   "pattern": "lig med noget",
+   "en": "equal to; the same as",
+   "level": "C1",
+   "example": {
+    "da": "Højere løn er ikke nødvendigvis lig med større trivsel på jobbet.",
+    "en": "Higher pay is not necessarily the same as greater well-being at work."
+   }
+  },
+  {
+   "da": "uafhængig af",
+   "pattern": "uafhængig af noget/nogen",
+   "en": "independent of",
+   "level": "C1",
+   "example": {
+    "da": "Domstolene skal være uafhængige af regeringen.",
+    "en": "The courts must be independent of the government."
+   }
+  },
+  {
+   "da": "forskellig fra",
+   "pattern": "forskellig fra noget/nogen",
+   "en": "different from",
+   "level": "B2",
+   "example": {
+    "da": "Skolesystemet i Danmark er meget forskelligt fra det i mit hjemland.",
+    "en": "The school system in Denmark is very different from the one in my home country."
+   }
+  },
+  {
+   "da": "anderledes end",
+   "pattern": "anderledes end noget/nogen",
+   "en": "different from",
+   "level": "B2",
+   "example": {
+    "da": "Arbejdskulturen her er helt anderledes end den, jeg er vant til.",
+    "en": "The work culture here is quite different from the one I am used to."
+   }
+  },
+  {
+   "da": "sammenlignelig med",
+   "pattern": "sammenlignelig med noget",
+   "en": "comparable to/with",
+   "level": "C1",
+   "example": {
+    "da": "Lønnen er ikke sammenlignelig med det, man får i den private sektor.",
+    "en": "The pay is not comparable to what you get in the private sector."
+   }
+  },
+  {
+   "da": "beslægtet med",
+   "pattern": "beslægtet med noget/nogen",
+   "en": "related to (by origin)",
+   "level": "C1",
+   "example": {
+    "da": "Dansk er nært beslægtet med norsk og svensk.",
+    "en": "Danish is closely related to Norwegian and Swedish."
+   }
+  },
+  {
+   "da": "tro mod",
+   "pattern": "tro mod noget/nogen",
+   "en": "faithful to, true to",
+   "level": "C1",
+   "example": {
+    "da": "Partiet har ikke været tro mod sine egne principper.",
+    "en": "The party has not been true to its own principles."
+   }
+  },
+  {
+   "da": "opsat på",
+   "pattern": "opsat på at gøre noget",
+   "en": "keen on, set on",
+   "level": "C1",
+   "example": {
+    "da": "Regeringen er opsat på at gennemføre reformen før sommerferien.",
+    "en": "The government is set on implementing the reform before the summer break."
+   }
+  },
+  {
+   "da": "fast besluttet på",
+   "pattern": "fast besluttet på at gøre noget",
+   "en": "determined to",
+   "level": "C1",
+   "example": {
+    "da": "Hun er fast besluttet på at bestå Prøve i Dansk 3 til sommer.",
+    "en": "She is determined to pass Danish Test 3 next summer."
+   }
+  },
+  {
+   "da": "indstillet på",
+   "pattern": "indstillet på noget / på at …",
+   "en": "prepared to, willing to",
+   "level": "C1",
+   "example": {
+    "da": "Begge parter er indstillet på at finde et kompromis.",
+    "en": "Both parties are prepared to find a compromise."
+   }
+  },
+  {
+   "da": "forberedt på",
+   "pattern": "forberedt på noget",
+   "en": "prepared for",
+   "level": "B2",
+   "example": {
+    "da": "Kommunerne skal være forberedt på flere voldsomme regnskyl.",
+    "en": "Municipalities must be prepared for more violent downpours."
+   }
+  },
+  {
+   "da": "tilgængelig for",
+   "pattern": "tilgængelig for nogen",
+   "en": "accessible to, available to",
+   "level": "C1",
+   "example": {
+    "da": "Alle offentlige bygninger skal være tilgængelige for kørestolsbrugere.",
+    "en": "All public buildings must be accessible to wheelchair users."
+   }
+  },
+  {
+   "da": "ansat hos",
+   "pattern": "ansat hos en arbejdsgiver/virksomhed",
+   "en": "employed by",
+   "level": "B2",
+   "example": {
+    "da": "Hun er ansat hos et stort ingeniørfirma i Aarhus.",
+    "en": "She is employed by a large engineering firm in Aarhus."
+   }
+  },
+  {
+   "da": "ansat i",
+   "pattern": "ansat i en sektor/organisation",
+   "en": "employed in",
+   "level": "B2",
+   "example": {
+    "da": "Han er ansat i regionen som sygeplejerske på akutmodtagelsen.",
+    "en": "He is employed by the region as a nurse in the emergency department."
+   }
+  },
+  {
+   "da": "bosat i",
+   "pattern": "bosat i et land/en by",
+   "en": "resident in",
+   "level": "C1",
+   "example": {
+    "da": "Man skal være bosat i Danmark for at få det gule sundhedskort.",
+    "en": "You must be resident in Denmark to get the yellow health card."
+   }
+  },
+  {
+   "da": "optaget af",
+   "pattern": "optaget af noget",
+   "en": "preoccupied with, absorbed in",
+   "level": "C1",
+   "example": {
+    "da": "Hun er meget optaget af ligestilling på arbejdsmarkedet.",
+    "en": "She is very concerned with equality in the labour market."
+   }
+  },
+  {
+   "da": "optaget på",
+   "pattern": "optaget på en uddannelse",
+   "en": "admitted to (a course)",
+   "level": "B2",
+   "example": {
+    "da": "Min datter er blevet optaget på sygeplejerskeuddannelsen.",
+    "en": "My daughter has been admitted to the nursing programme."
+   }
+  },
+  {
+   "da": "engageret i",
+   "pattern": "engageret i noget",
+   "en": "engaged in, committed to",
+   "level": "C1",
+   "example": {
+    "da": "Han er meget engageret i det lokale foreningsliv.",
+    "en": "He is very involved in local clubs and associations."
+   }
+  },
+  {
+   "da": "involveret i",
+   "pattern": "involveret i noget",
+   "en": "involved in",
+   "level": "B2",
+   "example": {
+    "da": "Tre biler var involveret i ulykken på motorvejen i morges.",
+    "en": "Three cars were involved in the accident on the motorway this morning."
+   }
+  },
+  {
+   "da": "aktiv i",
+   "pattern": "aktiv i noget",
+   "en": "active in",
+   "level": "B2",
+   "example": {
+    "da": "Hun har været aktiv i fagforeningen i mange år.",
+    "en": "She has been active in the trade union for many years."
+   }
+  },
+  {
+   "da": "specialiseret i",
+   "pattern": "specialiseret i noget",
+   "en": "specialised in",
+   "level": "C1",
+   "example": {
+    "da": "Advokatfirmaet er specialiseret i ansættelsesret.",
+    "en": "The law firm specialises in employment law."
+   }
+  },
+  {
+   "da": "fascineret af",
+   "pattern": "fascineret af noget/nogen",
+   "en": "fascinated by",
+   "level": "B2",
+   "example": {
+    "da": "Han har altid været fascineret af dansk design og arkitektur.",
+    "en": "He has always been fascinated by Danish design and architecture."
+   }
+  },
+  {
+   "da": "inspireret af",
+   "pattern": "inspireret af noget/nogen",
+   "en": "inspired by",
+   "level": "B2",
+   "example": {
+    "da": "Reformen er inspireret af erfaringer fra Sverige og Norge.",
+    "en": "The reform is inspired by experience from Sweden and Norway."
+   }
+  },
+  {
+   "da": "udelukket fra",
+   "pattern": "udelukket fra noget",
+   "en": "excluded from",
+   "level": "C1",
+   "example": {
+    "da": "Ingen må udelukkes fra fællesskabet på grund af handicap.",
+    "en": "No one may be excluded from the community because of a disability."
+   }
+  },
+  {
+   "da": "magen til",
+   "pattern": "magen til noget/nogen",
+   "en": "like, the same as",
+   "level": "C1",
+   "example": {
+    "da": "Jeg har aldrig oplevet en sommer magen til den her.",
+    "en": "I have never experienced a summer like this one."
+   }
+  },
+  {
+   "da": "grunden til",
+   "pattern": "grunden til noget / til, at …",
+   "en": "the reason for",
+   "level": "B2",
+   "example": {
+    "da": "Grunden til, at jeg flyttede til Danmark, var min kærestes job.",
+    "en": "The reason I moved to Denmark was my partner's job."
+   }
+  },
+  {
+   "da": "årsagen til",
+   "pattern": "årsagen til noget",
+   "en": "the cause of",
+   "level": "B2",
+   "example": {
+    "da": "Politiet undersøger stadig årsagen til branden.",
+    "en": "The police are still investigating the cause of the fire."
+   }
+  },
+  {
+   "da": "interesse for",
+   "pattern": "interesse for noget",
+   "en": "interest in",
+   "level": "B2",
+   "example": {
+    "da": "Der er stigende interesse for at bo i andelsboliger.",
+    "en": "There is growing interest in living in housing cooperatives."
+   }
+  },
+  {
+   "da": "interesse i",
+   "pattern": "have (en) interesse i noget / i at …",
+   "en": "an interest (stake) in",
+   "level": "C1",
+   "example": {
+    "da": "Bankerne har en klar interesse i at holde renten høj.",
+    "en": "The banks have a clear interest in keeping interest rates high."
+   }
+  },
+  {
+   "da": "ansvar for",
+   "pattern": "ansvar for noget/nogen",
+   "en": "responsibility for",
+   "level": "B2",
+   "example": {
+    "da": "Kommunen har ansvaret for de ældres hjemmepleje.",
+    "en": "The municipality has responsibility for home care for the elderly."
+   }
+  },
+  {
+   "da": "adgang til",
+   "pattern": "adgang til noget",
+   "en": "access to",
+   "level": "B2",
+   "example": {
+    "da": "Alle borgere har gratis adgang til lægehjælp.",
+    "en": "All citizens have free access to medical care."
+   }
+  },
+  {
+   "da": "mangel på",
+   "pattern": "mangel på noget",
+   "en": "shortage of, lack of",
+   "level": "B2",
+   "example": {
+    "da": "Der er stor mangel på sygeplejersker i hele landet.",
+    "en": "There is a great shortage of nurses throughout the country."
+   }
+  },
+  {
+   "da": "behov for",
+   "pattern": "behov for noget / for at …",
+   "en": "need for",
+   "level": "B2",
+   "example": {
+    "da": "Der er behov for flere billige boliger i de store byer.",
+    "en": "There is a need for more affordable housing in the big cities."
+   }
+  },
+  {
+   "da": "indflydelse på",
+   "pattern": "indflydelse på noget",
+   "en": "influence on",
+   "level": "B2",
+   "example": {
+    "da": "Medarbejderne ønsker mere indflydelse på deres egen arbejdstid.",
+    "en": "Employees want more influence on their own working hours."
+   }
+  },
+  {
+   "da": "forskel på",
+   "pattern": "forskel på A og B",
+   "en": "difference between",
+   "level": "B2",
+   "example": {
+    "da": "Der er stor forskel på at bo på landet og i byen.",
+    "en": "There is a big difference between living in the countryside and in the city."
+   }
+  },
+  {
+   "da": "forskellen mellem",
+   "pattern": "forskellen mellem A og B",
+   "en": "the difference between (formal)",
+   "level": "C1",
+   "example": {
+    "da": "Forskellen mellem rige og fattige er vokset de seneste år.",
+    "en": "The gap between rich and poor has grown in recent years."
+   }
+  },
+  {
+   "da": "eksempel på",
+   "pattern": "et eksempel på noget",
+   "en": "example of",
+   "level": "B2",
+   "example": {
+    "da": "Delebiler er et godt eksempel på en grøn løsning i byerne.",
+    "en": "Car sharing is a good example of a green solution in cities."
+   }
+  },
+  {
+   "da": "mulighed for",
+   "pattern": "mulighed for noget / for at …",
+   "en": "opportunity for, possibility of",
+   "level": "B2",
+   "example": {
+    "da": "Mange virksomheder giver mulighed for at arbejde hjemme en dag om ugen.",
+    "en": "Many companies offer the possibility of working from home one day a week."
+   }
+  },
+  {
+   "da": "risiko for",
+   "pattern": "risiko for noget",
+   "en": "risk of",
+   "level": "B2",
+   "example": {
+    "da": "Overvægt øger risikoen for diabetes og hjertesygdomme.",
+    "en": "Obesity increases the risk of diabetes and heart disease."
+   }
+  },
+  {
+   "da": "fare for",
+   "pattern": "fare for noget",
+   "en": "danger of, risk of",
+   "level": "B2",
+   "example": {
+    "da": "Der er fare for glatte veje i hele Jylland i nat.",
+    "en": "There is a risk of slippery roads throughout Jutland tonight."
+   }
+  },
+  {
+   "da": "chance for",
+   "pattern": "chance for noget / for at …",
+   "en": "chance of",
+   "level": "B2",
+   "example": {
+    "da": "Med en uddannelse har du større chance for at få fast arbejde.",
+    "en": "With an education you have a better chance of getting permanent work."
+   }
+  },
+  {
+   "da": "ret til",
+   "pattern": "ret til noget / til at …",
+   "en": "right to",
+   "level": "B2",
+   "example": {
+    "da": "Alle lønmodtagere har ret til fem ugers ferie om året.",
+    "en": "All employees have the right to five weeks' holiday a year."
+   }
+  },
+  {
+   "da": "pligt til",
+   "pattern": "pligt til noget / til at …",
+   "en": "duty to, obligation to",
+   "level": "C1",
+   "example": {
+    "da": "Lærere har pligt til at reagere, hvis de er bekymrede for et barn.",
+    "en": "Teachers have a duty to act if they are worried about a child."
+   }
+  },
+  {
+   "da": "krav om",
+   "pattern": "krav om noget / om, at …",
+   "en": "demand for",
+   "level": "C1",
+   "example": {
+    "da": "Fagforeningen har stillet krav om højere løn til de laveste grupper.",
+    "en": "The union has demanded higher pay for the lowest-paid groups."
+   }
+  },
+  {
+   "da": "krav til",
+   "pattern": "krav til noget/nogen",
+   "en": "requirements for/of",
+   "level": "C1",
+   "example": {
+    "da": "Der er skrappe krav til isolering i nye boliger.",
+    "en": "There are strict requirements for insulation in new homes."
+   }
+  },
+  {
+   "da": "krav på",
+   "pattern": "have krav på noget",
+   "en": "entitlement to, claim to",
+   "level": "C1",
+   "example": {
+    "da": "Som forælder har du krav på barselsorlov.",
+    "en": "As a parent you are entitled to parental leave."
+   }
+  },
+  {
+   "da": "ønske om",
+   "pattern": "ønske om noget / om at …",
+   "en": "wish for, desire for",
+   "level": "C1",
+   "example": {
+    "da": "Mange ældre har et ønske om at blive boende i eget hjem.",
+    "en": "Many elderly people wish to stay in their own home."
+   }
+  },
+  {
+   "da": "håb om",
+   "pattern": "håb om noget / om, at …",
+   "en": "hope of, hope for",
+   "level": "C1",
+   "example": {
+    "da": "Mange flygtninge lever i håb om at blive genforenet med familien.",
+    "en": "Many refugees live in hope of being reunited with their family."
+   }
+  },
+  {
+   "da": "drøm om",
+   "pattern": "en drøm om noget / om at …",
+   "en": "dream of",
+   "level": "B2",
+   "example": {
+    "da": "Mange unge har en drøm om at eje deres egen bolig.",
+    "en": "Many young people dream of owning their own home."
+   }
+  },
+  {
+   "da": "tillid til",
+   "pattern": "tillid til noget/nogen",
+   "en": "trust in, confidence in",
+   "level": "B2",
+   "example": {
+    "da": "Danskerne har generelt stor tillid til hinanden og til myndighederne.",
+    "en": "Danes generally have great trust in each other and in the authorities."
+   }
+  },
+  {
+   "da": "mistillid til",
+   "pattern": "mistillid til noget/nogen",
+   "en": "distrust of",
+   "level": "C1",
+   "example": {
+    "da": "Skandalen har skabt mistillid til hele systemet.",
+    "en": "The scandal has created distrust of the whole system."
+   }
+  },
+  {
+   "da": "respekt for",
+   "pattern": "respekt for noget/nogen",
+   "en": "respect for",
+   "level": "B2",
+   "example": {
+    "da": "I Danmark er der stor respekt for den enkeltes privatliv.",
+    "en": "In Denmark there is great respect for individual privacy."
+   }
+  },
+  {
+   "da": "forståelse for",
+   "pattern": "forståelse for noget/nogen",
+   "en": "understanding of, sympathy for",
+   "level": "C1",
+   "example": {
+    "da": "Chefen viste stor forståelse for min situation.",
+    "en": "The boss showed great understanding of my situation."
+   }
+  },
+  {
+   "da": "sympati for",
+   "pattern": "sympati for noget/nogen",
+   "en": "sympathy for",
+   "level": "C1",
+   "example": {
+    "da": "Mange har sympati for sygeplejerskernes krav om højere løn.",
+    "en": "Many people have sympathy for the nurses' demand for higher pay."
+   }
+  },
+  {
+   "da": "solidaritet med",
+   "pattern": "solidaritet med nogen",
+   "en": "solidarity with",
+   "level": "C1",
+   "example": {
+    "da": "Strejken var et udtryk for solidaritet med de lavtlønnede.",
+    "en": "The strike was an expression of solidarity with the low-paid."
+   }
+  },
+  {
+   "da": "omsorg for",
+   "pattern": "omsorg for nogen/noget",
+   "en": "care for",
+   "level": "C1",
+   "example": {
+    "da": "Pædagogerne viser stor omsorg for børnene.",
+    "en": "The childcare workers show great care for the children."
+   }
+  },
+  {
+   "da": "kærlighed til",
+   "pattern": "kærlighed til nogen/noget",
+   "en": "love of, love for",
+   "level": "B2",
+   "example": {
+    "da": "Hendes kærlighed til naturen fik hende til at læse biologi.",
+    "en": "Her love of nature made her study biology."
+   }
+  },
+  {
+   "da": "angst for",
+   "pattern": "angst for noget",
+   "en": "fear of, anxiety about",
+   "level": "C1",
+   "example": {
+    "da": "Mange unge lider af angst for at fejle til eksamen.",
+    "en": "Many young people suffer from anxiety about failing exams."
+   }
+  },
+  {
+   "da": "frygt for",
+   "pattern": "frygt for noget / for at …",
+   "en": "fear of",
+   "level": "C1",
+   "example": {
+    "da": "Frygten for at miste jobbet får mange til at gå syge på arbejde.",
+    "en": "The fear of losing their job makes many people go to work sick."
+   }
+  },
+  {
+   "da": "bekymring for",
+   "pattern": "bekymring for noget/nogen",
+   "en": "concern about, worry about",
+   "level": "C1",
+   "example": {
+    "da": "Der er stor bekymring for de unges mentale sundhed.",
+    "en": "There is great concern about young people's mental health."
+   }
+  },
+  {
+   "da": "evne til",
+   "pattern": "evne til noget / til at …",
+   "en": "ability to",
+   "level": "C1",
+   "example": {
+    "da": "Evnen til at samarbejde er vigtig på det danske arbejdsmarked.",
+    "en": "The ability to cooperate is important in the Danish labour market."
+   }
+  },
+  {
+   "da": "forudsætning for",
+   "pattern": "en forudsætning for noget",
+   "en": "prerequisite for, condition for",
+   "level": "C1",
+   "example": {
+    "da": "Gode danskkundskaber er en forudsætning for at blive optaget.",
+    "en": "Good Danish skills are a prerequisite for being admitted."
+   }
+  },
+  {
+   "da": "betingelse for",
+   "pattern": "en betingelse for noget",
+   "en": "condition for",
+   "level": "C1",
+   "example": {
+    "da": "Det er en betingelse for at få lånet, at du har en fast indtægt.",
+    "en": "It is a condition for getting the loan that you have a fixed income."
+   }
+  },
+  {
+   "da": "grundlag for",
+   "pattern": "grundlag for noget",
+   "en": "basis for, grounds for",
+   "level": "C1",
+   "example": {
+    "da": "Undersøgelsen danner grundlag for den nye sundhedsplan.",
+    "en": "The survey forms the basis for the new health plan."
+   }
+  },
+  {
+   "da": "baggrunden for",
+   "pattern": "baggrunden for noget",
+   "en": "the background to, reason for",
+   "level": "C1",
+   "example": {
+    "da": "Baggrunden for lovforslaget er de mange klager fra borgerne.",
+    "en": "The reason for the bill is the many complaints from citizens."
+   }
+  },
+  {
+   "da": "anledning til",
+   "pattern": "anledning til noget",
+   "en": "occasion for, cause for",
+   "level": "C1",
+   "example": {
+    "da": "Sagen gav anledning til en lang debat i Folketinget.",
+    "en": "The case gave rise to a long debate in Parliament."
+   }
+  },
+  {
+   "da": "motivation for",
+   "pattern": "motivation for noget / for at …",
+   "en": "motivation for",
+   "level": "C1",
+   "example": {
+    "da": "Hendes motivation for at lære dansk er at kunne hjælpe sine børn med lektierne.",
+    "en": "Her motivation for learning Danish is to be able to help her children with homework."
+   }
+  },
+  {
+   "da": "konsekvenser af",
+   "pattern": "konsekvenserne af noget",
+   "en": "consequences of",
+   "level": "B2",
+   "example": {
+    "da": "Vi kender endnu ikke de fulde konsekvenser af klimaforandringerne.",
+    "en": "We do not yet know the full consequences of climate change."
+   }
+  },
+  {
+   "da": "konsekvenser for",
+   "pattern": "konsekvenser for nogen/noget",
+   "en": "consequences for",
+   "level": "B2",
+   "example": {
+    "da": "Nedskæringerne får store konsekvenser for de svageste borgere.",
+    "en": "The cuts will have serious consequences for the most vulnerable citizens."
+   }
+  },
+  {
+   "da": "effekt på",
+   "pattern": "effekt på noget",
+   "en": "effect on",
+   "level": "C1",
+   "example": {
+    "da": "Afgiften har haft en tydelig effekt på salget af sukkerholdige drikke.",
+    "en": "The tax has had a clear effect on sales of sugary drinks."
+   }
+  },
+  {
+   "da": "indvirkning på",
+   "pattern": "indvirkning på noget",
+   "en": "impact on",
+   "level": "C1",
+   "example": {
+    "da": "Hjemmearbejde har haft stor indvirkning på trafikken i myldretiden.",
+    "en": "Working from home has had a big impact on rush-hour traffic."
+   }
+  },
+  {
+   "da": "betydning for",
+   "pattern": "betydning for noget/nogen",
+   "en": "significance for, importance to",
+   "level": "C1",
+   "example": {
+    "da": "Turismen har stor betydning for økonomien på Bornholm.",
+    "en": "Tourism is of great importance to the economy of Bornholm."
+   }
+  },
+  {
+   "da": "resultatet af",
+   "pattern": "resultatet af noget",
+   "en": "the result of",
+   "level": "B2",
+   "example": {
+    "da": "Resultatet af folkeafstemningen var et klart ja.",
+    "en": "The result of the referendum was a clear yes."
+   }
+  },
+  {
+   "da": "fokus på",
+   "pattern": "fokus på noget",
+   "en": "focus on",
+   "level": "B2",
+   "example": {
+    "da": "Der er kommet mere fokus på psykisk arbejdsmiljø.",
+    "en": "There is now more focus on the psychosocial work environment."
+   }
+  },
+  {
+   "da": "pres på",
+   "pattern": "pres på noget/nogen",
+   "en": "pressure on",
+   "level": "C1",
+   "example": {
+    "da": "Der er et voldsomt pres på akutmodtagelserne i vinterhalvåret.",
+    "en": "There is enormous pressure on emergency departments in the winter."
+   }
+  },
+  {
+   "da": "modstand mod",
+   "pattern": "modstand mod noget",
+   "en": "opposition to, resistance to",
+   "level": "C1",
+   "example": {
+    "da": "Der er stor lokal modstand mod den nye motorvej.",
+    "en": "There is strong local opposition to the new motorway."
+   }
+  },
+  {
+   "da": "kritik af",
+   "pattern": "kritik af noget/nogen",
+   "en": "criticism of",
+   "level": "B2",
+   "example": {
+    "da": "Der har været hård kritik af ventetiderne i psykiatrien.",
+    "en": "There has been harsh criticism of waiting times in psychiatry."
+   }
+  },
+  {
+   "da": "protest mod",
+   "pattern": "protest mod noget",
+   "en": "protest against",
+   "level": "B2",
+   "example": {
+    "da": "Tusindvis af studerende demonstrerede i protest mod nedskæringerne.",
+    "en": "Thousands of students demonstrated in protest against the cuts."
+   }
+  },
+  {
+   "da": "kamp mod",
+   "pattern": "kampen mod noget",
+   "en": "fight against",
+   "level": "B2",
+   "example": {
+    "da": "Kampen mod ungdomskriminalitet kræver samarbejde mellem skole og politi.",
+    "en": "The fight against youth crime requires cooperation between school and police."
+   }
+  },
+  {
+   "da": "kamp for",
+   "pattern": "kampen for noget",
+   "en": "fight for, struggle for",
+   "level": "B2",
+   "example": {
+    "da": "Kvindernes kamp for stemmeret blev vundet i 1915.",
+    "en": "Women's struggle for the vote was won in 1915."
+   }
+  },
+  {
+   "da": "støtte til",
+   "pattern": "støtte til noget/nogen",
+   "en": "support for",
+   "level": "B2",
+   "example": {
+    "da": "Regeringen har afsat penge til støtte til ensomme ældre.",
+    "en": "The government has set aside money for support for lonely elderly people."
+   }
+  },
+  {
+   "da": "opbakning til",
+   "pattern": "opbakning til noget/nogen",
+   "en": "backing for, support for",
+   "level": "C1",
+   "example": {
+    "da": "Der er bred opbakning til forslaget i befolkningen.",
+    "en": "There is broad support for the proposal among the public."
+   }
+  },
+  {
+   "da": "tilskud til",
+   "pattern": "tilskud til noget",
+   "en": "subsidy towards, grant for",
+   "level": "C1",
+   "example": {
+    "da": "Du kan få tilskud til medicin, hvis du har store udgifter.",
+    "en": "You can get a subsidy towards medicine if you have high expenses."
+   }
+  },
+  {
+   "da": "bidrag til",
+   "pattern": "et bidrag til noget",
+   "en": "contribution to",
+   "level": "C1",
+   "example": {
+    "da": "Frivillige yder et vigtigt bidrag til foreningslivet.",
+    "en": "Volunteers make an important contribution to local clubs and societies."
+   }
+  },
+  {
+   "da": "investering i",
+   "pattern": "investering i noget",
+   "en": "investment in",
+   "level": "C1",
+   "example": {
+    "da": "Investeringer i uddannelse betaler sig på lang sigt.",
+    "en": "Investments in education pay off in the long run."
+   }
+  },
+  {
+   "da": "efterspørgsel efter",
+   "pattern": "efterspørgsel efter noget",
+   "en": "demand for",
+   "level": "C1",
+   "example": {
+    "da": "Efterspørgslen efter faglært arbejdskraft er stor.",
+    "en": "The demand for skilled labour is high."
+   }
+  },
+  {
+   "da": "stigning i",
+   "pattern": "en stigning i noget",
+   "en": "increase in, rise in",
+   "level": "B2",
+   "example": {
+    "da": "Der har været en markant stigning i antallet af elbiler.",
+    "en": "There has been a marked increase in the number of electric cars."
+   }
+  },
+  {
+   "da": "fald i",
+   "pattern": "et fald i noget",
+   "en": "fall in, decrease in",
+   "level": "B2",
+   "example": {
+    "da": "Statistikken viser et fald i arbejdsløsheden.",
+    "en": "The statistics show a fall in unemployment."
+   }
+  },
+  {
+   "da": "ændring i",
+   "pattern": "en ændring i noget",
+   "en": "change in",
+   "level": "C1",
+   "example": {
+    "da": "Forskerne har registreret en ændring i danskernes madvaner.",
+    "en": "Researchers have recorded a change in Danes' eating habits."
+   }
+  },
+  {
+   "da": "udviklingen i",
+   "pattern": "udviklingen i noget",
+   "en": "the trend in, development of",
+   "level": "C1",
+   "example": {
+    "da": "Regeringen følger udviklingen i boligpriserne nøje.",
+    "en": "The government is following the trend in house prices closely."
+   }
+  },
+  {
+   "da": "overgang til",
+   "pattern": "overgangen til noget",
+   "en": "transition to",
+   "level": "C1",
+   "example": {
+    "da": "Overgangen fra skole til uddannelse er svær for nogle unge.",
+    "en": "The transition from school to further education is hard for some young people."
+   }
+  },
+  {
+   "da": "omstilling til",
+   "pattern": "omstillingen til noget",
+   "en": "transition to, switch to",
+   "level": "C1",
+   "example": {
+    "da": "Omstillingen til vedvarende energi kræver store investeringer.",
+    "en": "The switch to renewable energy requires large investments."
+   }
+  },
+  {
+   "da": "afhængighed af",
+   "pattern": "afhængighed af noget",
+   "en": "dependence on, addiction to",
+   "level": "C1",
+   "example": {
+    "da": "Europa vil mindske sin afhængighed af russisk gas.",
+    "en": "Europe wants to reduce its dependence on Russian gas."
+   }
+  },
+  {
+   "da": "deltagelse i",
+   "pattern": "deltagelse i noget",
+   "en": "participation in",
+   "level": "C1",
+   "example": {
+    "da": "Deltagelse i kurset er gratis for medlemmer.",
+    "en": "Participation in the course is free for members."
+   }
+  },
+  {
+   "da": "medlem af",
+   "pattern": "medlem af noget",
+   "en": "member of",
+   "level": "B2",
+   "example": {
+    "da": "Over halvdelen af lønmodtagerne er medlem af en fagforening.",
+    "en": "More than half of employees are members of a trade union."
+   }
+  },
+  {
+   "da": "medlemskab af",
+   "pattern": "medlemskab af noget",
+   "en": "membership of",
+   "level": "C1",
+   "example": {
+    "da": "Danmarks medlemskab af EU har været til debat mange gange.",
+    "en": "Denmark's membership of the EU has been debated many times."
+   }
+  },
+  {
+   "da": "del af",
+   "pattern": "en del af noget",
+   "en": "part of",
+   "level": "B2",
+   "example": {
+    "da": "Praktikken er en vigtig del af uddannelsen.",
+    "en": "The work placement is an important part of the programme."
+   }
+  },
+  {
+   "da": "andel af",
+   "pattern": "andelen af noget/nogen",
+   "en": "proportion of, share of",
+   "level": "C1",
+   "example": {
+    "da": "Andelen af ældre i befolkningen stiger år for år.",
+    "en": "The proportion of elderly people in the population rises year by year."
+   }
+  },
+  {
+   "da": "flertal for",
+   "pattern": "flertal for noget",
+   "en": "majority for",
+   "level": "C1",
+   "example": {
+    "da": "Der er nu flertal for forslaget i Folketinget.",
+    "en": "There is now a majority in Parliament for the proposal."
+   }
+  },
+  {
+   "da": "en form for",
+   "pattern": "en form for noget",
+   "en": "a kind of, a form of",
+   "level": "B2",
+   "example": {
+    "da": "Fleksjob er en form for ansættelse for folk med nedsat arbejdsevne.",
+    "en": "A flex job is a form of employment for people with reduced working capacity."
+   }
+  },
+  {
+   "da": "forhold til",
+   "pattern": "et (godt/dårligt) forhold til nogen/noget",
+   "en": "relationship with; attitude to",
+   "level": "B2",
+   "example": {
+    "da": "Jeg har et rigtig godt forhold til mine svigerforældre.",
+    "en": "I have a really good relationship with my parents-in-law."
+   }
+  },
+  {
+   "da": "holdning til",
+   "pattern": "en holdning til noget",
+   "en": "attitude to, opinion on",
+   "level": "B2",
+   "example": {
+    "da": "Hvad er din holdning til at sænke valgretsalderen til 16 år?",
+    "en": "What is your opinion on lowering the voting age to 16?"
+   }
+  },
+  {
+   "da": "syn på",
+   "pattern": "et syn på noget",
+   "en": "view of, outlook on",
+   "level": "C1",
+   "example": {
+    "da": "Danskernes syn på arbejde og fritid har ændret sig.",
+    "en": "Danes' view of work and leisure has changed."
+   }
+  },
+  {
+   "da": "mening om",
+   "pattern": "en mening om noget",
+   "en": "opinion about",
+   "level": "B2",
+   "example": {
+    "da": "Alle har en mening om, hvordan skolen skal drives.",
+    "en": "Everyone has an opinion about how the school should be run."
+   }
+  },
+  {
+   "da": "opfattelse af",
+   "pattern": "en opfattelse af noget",
+   "en": "perception of, view of",
+   "level": "C1",
+   "example": {
+    "da": "Forskellige kulturer har forskellige opfattelser af punktlighed.",
+    "en": "Different cultures have different perceptions of punctuality."
+   }
+  },
+  {
+   "da": "indtryk af",
+   "pattern": "et indtryk af noget",
+   "en": "impression of",
+   "level": "C1",
+   "example": {
+    "da": "Besøget gav mig et godt indtryk af arbejdspladsen.",
+    "en": "The visit gave me a good impression of the workplace."
+   }
+  },
+  {
+   "da": "overblik over",
+   "pattern": "overblik over noget",
+   "en": "overview of",
+   "level": "B2",
+   "example": {
+    "da": "På borger.dk kan du få overblik over dine ydelser.",
+    "en": "On borger.dk you can get an overview of your benefits."
+   }
+  },
+  {
+   "da": "oversigt over",
+   "pattern": "en oversigt over noget",
+   "en": "list of, summary of",
+   "level": "B2",
+   "example": {
+    "da": "Her er en oversigt over de vigtigste frister i år.",
+    "en": "Here is a summary of the most important deadlines this year."
+   }
+  },
+  {
+   "da": "indblik i",
+   "pattern": "indblik i noget",
+   "en": "insight into, glimpse of",
+   "level": "C1",
+   "example": {
+    "da": "Praktikken giver de studerende indblik i hverdagen på et hospital.",
+    "en": "The placement gives students an insight into everyday life in a hospital."
+   }
+  },
+  {
+   "da": "indsigt i",
+   "pattern": "indsigt i noget",
+   "en": "insight into",
+   "level": "C1",
+   "example": {
+    "da": "Undersøgelsen giver ny indsigt i unges brug af sociale medier.",
+    "en": "The study provides new insight into young people's use of social media."
+   }
+  },
+  {
+   "da": "kendskab til",
+   "pattern": "kendskab til noget",
+   "en": "knowledge of, familiarity with",
+   "level": "C1",
+   "example": {
+    "da": "Kendskab til Excel er en fordel i stillingen.",
+    "en": "Knowledge of Excel is an advantage in the position."
+   }
+  },
+  {
+   "da": "viden om",
+   "pattern": "viden om noget",
+   "en": "knowledge about",
+   "level": "B2",
+   "example": {
+    "da": "Vi har brug for mere viden om langtidsfølger efter covid-19.",
+    "en": "We need more knowledge about the long-term effects of covid-19."
+   }
+  },
+  {
+   "da": "erfaring med",
+   "pattern": "erfaring med noget",
+   "en": "experience of/with",
+   "level": "B2",
+   "example": {
+    "da": "Har du erfaring med at arbejde med børn med særlige behov?",
+    "en": "Do you have experience of working with children with special needs?"
+   }
+  },
+  {
+   "da": "kontrol over",
+   "pattern": "kontrol over noget/nogen",
+   "en": "control over",
+   "level": "C1",
+   "example": {
+    "da": "Mange føler, at de har mistet kontrollen over deres egen økonomi.",
+    "en": "Many feel that they have lost control over their own finances."
+   }
+  },
+  {
+   "da": "klage over",
+   "pattern": "en klage over noget/nogen",
+   "en": "complaint about",
+   "level": "B2",
+   "example": {
+    "da": "Kommunen har modtaget flere klager over støj fra byggepladsen.",
+    "en": "The municipality has received several complaints about noise from the building site."
+   }
+  },
+  {
+   "da": "skuffelse over",
+   "pattern": "skuffelse over noget",
+   "en": "disappointment at/with",
+   "level": "C1",
+   "example": {
+    "da": "Formanden lagde ikke skjul på sin skuffelse over valgresultatet.",
+    "en": "The chairman made no secret of his disappointment at the election result."
+   }
+  },
+  {
+   "da": "frustration over",
+   "pattern": "frustration over noget",
+   "en": "frustration at/with",
+   "level": "C1",
+   "example": {
+    "da": "Der er stor frustration over de lange sagsbehandlingstider.",
+    "en": "There is great frustration at the long processing times."
+   }
+  },
+  {
+   "da": "tilfredshed med",
+   "pattern": "tilfredshed med noget",
+   "en": "satisfaction with",
+   "level": "C1",
+   "example": {
+    "da": "Undersøgelsen viser høj tilfredshed med folkebibliotekerne.",
+    "en": "The survey shows high satisfaction with the public libraries."
+   }
+  },
+  {
+   "da": "utilfredshed med",
+   "pattern": "utilfredshed med noget",
+   "en": "dissatisfaction with",
+   "level": "C1",
+   "example": {
+    "da": "Utilfredsheden med lønnen fik sygeplejerskerne til at strejke.",
+    "en": "Dissatisfaction with pay made the nurses go on strike."
+   }
+  },
+  {
+   "da": "tvivl om",
+   "pattern": "tvivl om noget",
+   "en": "doubt about",
+   "level": "B2",
+   "example": {
+    "da": "Der er ingen tvivl om, at flere skal arbejde længere.",
+    "en": "There is no doubt that more people will have to work longer."
+   }
+  },
+  {
+   "da": "usikkerhed om",
+   "pattern": "usikkerhed om noget",
+   "en": "uncertainty about",
+   "level": "C1",
+   "example": {
+    "da": "Der er stor usikkerhed om, hvordan økonomien udvikler sig.",
+    "en": "There is great uncertainty about how the economy will develop."
+   }
+  },
+  {
+   "da": "enighed om",
+   "pattern": "enighed om noget",
+   "en": "agreement on, consensus on",
+   "level": "C1",
+   "example": {
+    "da": "Der er bred enighed om, at psykiatrien skal styrkes.",
+    "en": "There is broad agreement that psychiatry must be strengthened."
+   }
+  },
+  {
+   "da": "uenighed om",
+   "pattern": "uenighed om noget",
+   "en": "disagreement about",
+   "level": "C1",
+   "example": {
+    "da": "Der er stadig uenighed om, hvem der skal betale for projektet.",
+    "en": "There is still disagreement about who should pay for the project."
+   }
+  },
+  {
+   "da": "debat om",
+   "pattern": "en debat om noget",
+   "en": "debate about",
+   "level": "B2",
+   "example": {
+    "da": "Der er en livlig debat om, hvorvidt mobiltelefoner skal forbydes i skolen.",
+    "en": "There is a lively debate about whether mobile phones should be banned in school."
+   }
+  },
+  {
+   "da": "diskussion om",
+   "pattern": "en diskussion om noget",
+   "en": "discussion about",
+   "level": "B2",
+   "example": {
+    "da": "Mødet endte i en lang diskussion om arbejdstider.",
+    "en": "The meeting ended in a long discussion about working hours."
+   }
+  },
+  {
+   "da": "forhandlinger om",
+   "pattern": "forhandlinger om noget",
+   "en": "negotiations on",
+   "level": "C1",
+   "example": {
+    "da": "Forhandlingerne om finansloven fortsætter i næste uge.",
+    "en": "Negotiations on the budget will continue next week."
+   }
+  },
+  {
+   "da": "aftale om",
+   "pattern": "en aftale om noget",
+   "en": "agreement on",
+   "level": "B2",
+   "example": {
+    "da": "Partierne har indgået en aftale om en ny skattereform.",
+    "en": "The parties have reached an agreement on a new tax reform."
+   }
+  },
+  {
+   "da": "beslutning om",
+   "pattern": "en beslutning om noget / om at …",
+   "en": "decision on/to",
+   "level": "B2",
+   "example": {
+    "da": "Byrådets beslutning om at lukke svømmehallen har vakt vrede.",
+    "en": "The city council's decision to close the swimming baths has caused anger."
+   }
+  },
+  {
+   "da": "folkeafstemning om",
+   "pattern": "en folkeafstemning om noget",
+   "en": "referendum on",
+   "level": "C1",
+   "example": {
+    "da": "I 2022 var der folkeafstemning om forsvarsforbeholdet.",
+    "en": "In 2022 there was a referendum on the defence opt-out."
+   }
+  },
+  {
+   "da": "forslag om",
+   "pattern": "et forslag om noget / om at …",
+   "en": "proposal to, proposal on",
+   "level": "C1",
+   "example": {
+    "da": "I 2023 blev der vedtaget et forslag om at afskaffe store bededag.",
+    "en": "In 2023 a proposal to abolish Great Prayer Day was adopted."
+   }
+  },
+  {
+   "da": "forslag til",
+   "pattern": "et forslag til noget",
+   "en": "draft of; suggestion for",
+   "level": "C1",
+   "example": {
+    "da": "Regeringen præsenterer i august sit forslag til næste års finanslov.",
+    "en": "In August the government presents its draft budget for next year."
+   }
+  },
+  {
+   "da": "lov om",
+   "pattern": "en lov om noget",
+   "en": "act on, law on",
+   "level": "C1",
+   "example": {
+    "da": "Arbejdsgiverens pligter er beskrevet i lov om arbejdsmiljø.",
+    "en": "The employer's duties are described in the Working Environment Act."
+   }
+  },
+  {
+   "da": "regler for",
+   "pattern": "reglerne for noget",
+   "en": "rules for",
+   "level": "B2",
+   "example": {
+    "da": "Reglerne for at få dansk statsborgerskab er blevet strammet.",
+    "en": "The rules for obtaining Danish citizenship have been tightened."
+   }
+  },
+  {
+   "da": "vilkår for",
+   "pattern": "vilkårene for nogen/noget",
+   "en": "conditions for, terms of",
+   "level": "C1",
+   "example": {
+    "da": "Vilkårene for selvstændige er dårligere end for lønmodtagere.",
+    "en": "Conditions for the self-employed are worse than for employees."
+   }
+  },
+  {
+   "da": "rammerne for",
+   "pattern": "rammerne for noget",
+   "en": "the framework for",
+   "level": "C1",
+   "example": {
+    "da": "Overenskomsten fastlægger rammerne for løn og arbejdstid.",
+    "en": "The collective agreement sets the framework for pay and working hours."
+   }
+  },
+  {
+   "da": "retningslinjer for",
+   "pattern": "retningslinjer for noget",
+   "en": "guidelines for",
+   "level": "C1",
+   "example": {
+    "da": "Skolen har fået nye retningslinjer for brug af mobiltelefoner i timerne.",
+    "en": "The school has got new guidelines for using mobile phones in lessons."
+   }
+  },
+  {
+   "da": "tilladelse til",
+   "pattern": "tilladelse til noget / til at …",
+   "en": "permission for, permit to",
+   "level": "B2",
+   "example": {
+    "da": "Man skal have tilladelse fra kommunen til at bygge en carport.",
+    "en": "You need permission from the municipality to build a carport."
+   }
+  },
+  {
+   "da": "forbud mod",
+   "pattern": "et forbud mod noget",
+   "en": "ban on",
+   "level": "C1",
+   "example": {
+    "da": "EU har indført et forbud mod visse engangsprodukter af plastik.",
+    "en": "The EU has introduced a ban on certain single-use plastic products."
+   }
+  },
+  {
+   "da": "undtagelse fra",
+   "pattern": "en undtagelse fra noget",
+   "en": "exception to",
+   "level": "C1",
+   "example": {
+    "da": "Der gælder en undtagelse fra reglen for personer over 65 år.",
+    "en": "An exception to the rule applies to people over 65."
+   }
+  },
+  {
+   "da": "afslag på",
+   "pattern": "afslag på noget",
+   "en": "refusal of, rejection of",
+   "level": "C1",
+   "example": {
+    "da": "Hun har fået afslag på sin ansøgning om boligstøtte.",
+    "en": "Her application for housing benefit has been rejected."
+   }
+  },
+  {
+   "da": "ansøgning om",
+   "pattern": "en ansøgning om noget",
+   "en": "application for",
+   "level": "B2",
+   "example": {
+    "da": "Ansøgningen om forlængelse skal sendes, før tilladelsen udløber.",
+    "en": "The application for extension must be sent before the permit expires."
+   }
+  },
+  {
+   "da": "henvendelse til",
+   "pattern": "en henvendelse til nogen",
+   "en": "inquiry to, approach to",
+   "level": "C1",
+   "example": {
+    "da": "Alle henvendelser til kommunen skal ske via Digital Post.",
+    "en": "All inquiries to the municipality must be made via Digital Post."
+   }
+  },
+  {
+   "da": "tilmelding til",
+   "pattern": "tilmelding til noget",
+   "en": "registration for, sign-up for",
+   "level": "B2",
+   "example": {
+    "da": "Tilmelding til aftenskolens kurser sker på hjemmesiden.",
+    "en": "Registration for the evening school's courses is done on the website."
+   }
+  },
+  {
+   "da": "invitation til",
+   "pattern": "en invitation til noget",
+   "en": "invitation to",
+   "level": "B2",
+   "example": {
+    "da": "Vi har fået en invitation til personalefesten i december.",
+    "en": "We have received an invitation to the staff party in December."
+   }
+  },
+  {
+   "da": "opfordring til",
+   "pattern": "en opfordring til noget / til at …",
+   "en": "call for, appeal to",
+   "level": "C1",
+   "example": {
+    "da": "Politiet kom med en opfordring til at holde sig inde under stormen.",
+    "en": "The police issued an appeal to stay indoors during the storm."
+   }
+  },
+  {
+   "da": "venteliste til",
+   "pattern": "en venteliste til noget",
+   "en": "waiting list for",
+   "level": "B2",
+   "example": {
+    "da": "Der er flere års venteliste til en almen bolig i København.",
+    "en": "There is a waiting list of several years for social housing in Copenhagen."
+   }
+  },
+  {
+   "da": "ventetid på",
+   "pattern": "ventetid på noget",
+   "en": "waiting time for",
+   "level": "B2",
+   "example": {
+    "da": "Ventetiden på en knæoperation er nu over et halvt år.",
+    "en": "The waiting time for a knee operation is now over six months."
+   }
+  },
+  {
+   "da": "tilbud om",
+   "pattern": "et tilbud om noget",
+   "en": "offer of",
+   "level": "B2",
+   "example": {
+    "da": "Mange kommuner giver ældre tilbud om et forebyggende hjemmebesøg.",
+    "en": "Many municipalities offer older people a preventive home visit."
+   }
+  },
+  {
+   "da": "tilbud på",
+   "pattern": "et tilbud på en vare",
+   "en": "special offer on",
+   "level": "B2",
+   "example": {
+    "da": "Supermarkedet har tilbud på kaffe hele ugen.",
+    "en": "The supermarket has a special offer on coffee all week."
+   }
+  },
+  {
+   "da": "prisen på",
+   "pattern": "prisen på noget",
+   "en": "the price of",
+   "level": "B2",
+   "example": {
+    "da": "Prisen på el er steget voldsomt det seneste år.",
+    "en": "The price of electricity has risen sharply in the past year."
+   }
+  },
+  {
+   "da": "rabat på",
+   "pattern": "rabat på noget",
+   "en": "discount on",
+   "level": "B2",
+   "example": {
+    "da": "Studerende får rabat på togbilletter med et ungdomskort.",
+    "en": "Students get a discount on train tickets with a youth card."
+   }
+  },
+  {
+   "da": "afgift på",
+   "pattern": "en afgift på noget",
+   "en": "duty on, tax on",
+   "level": "C1",
+   "example": {
+    "da": "Regeringen vil hæve afgiften på cigaretter.",
+    "en": "The government wants to raise the duty on cigarettes."
+   }
+  },
+  {
+   "da": "renten på",
+   "pattern": "renten på noget",
+   "en": "interest rate on",
+   "level": "C1",
+   "example": {
+    "da": "Renten på boliglån steg markant i løbet af 2022.",
+    "en": "The interest rate on mortgages rose sharply during 2022."
+   }
+  },
+  {
+   "da": "udgift til",
+   "pattern": "udgifter til noget",
+   "en": "expense for, spending on",
+   "level": "B2",
+   "example": {
+    "da": "Familiens udgifter til mad og transport er steget.",
+    "en": "The family's spending on food and transport has risen."
+   }
+  },
+  {
+   "da": "besparelser på",
+   "pattern": "besparelser på noget",
+   "en": "cuts in, savings on",
+   "level": "C1",
+   "example": {
+    "da": "Kommunen planlægger store besparelser på ældreområdet.",
+    "en": "The municipality is planning big cuts in care for the elderly."
+   }
+  },
+  {
+   "da": "svar på",
+   "pattern": "svar på noget",
+   "en": "answer to, reply to",
+   "level": "B2",
+   "example": {
+    "da": "Jeg har endnu ikke fået svar på min jobansøgning.",
+    "en": "I still haven't had a reply to my job application."
+   }
+  },
+  {
+   "da": "reaktion på",
+   "pattern": "en reaktion på noget",
+   "en": "reaction to",
+   "level": "B2",
+   "example": {
+    "da": "Demonstrationen var en reaktion på de nye besparelser.",
+    "en": "The demonstration was a reaction to the new cuts."
+   }
+  },
+  {
+   "da": "løsning på",
+   "pattern": "en løsning på noget",
+   "en": "solution to",
+   "level": "B2",
+   "example": {
+    "da": "Politikerne leder efter en løsning på manglen på pædagoger.",
+    "en": "Politicians are looking for a solution to the shortage of childcare workers."
+   }
+  },
+  {
+   "da": "forklaring på",
+   "pattern": "en forklaring på noget",
+   "en": "explanation of/for",
+   "level": "B2",
+   "example": {
+    "da": "Der findes ingen enkel forklaring på den stigende ulighed.",
+    "en": "There is no simple explanation for the growing inequality."
+   }
+  },
+  {
+   "da": "kommentar til",
+   "pattern": "en kommentar til noget",
+   "en": "comment on",
+   "level": "C1",
+   "example": {
+    "da": "Ministeren har ingen kommentarer til sagen.",
+    "en": "The minister has no comment on the case."
+   }
+  },
+  {
+   "da": "spørgsmål til",
+   "pattern": "et spørgsmål til nogen/noget",
+   "en": "question for; question about",
+   "level": "B2",
+   "example": {
+    "da": "Har I nogen spørgsmål til oplægget, før vi går videre?",
+    "en": "Do you have any questions about the presentation before we move on?"
+   }
+  },
+  {
+   "da": "spørgsmål om",
+   "pattern": "et spørgsmål om noget",
+   "en": "question of, matter of",
+   "level": "C1",
+   "example": {
+    "da": "Det er kun et spørgsmål om tid, før reglerne bliver ændret.",
+    "en": "It is only a matter of time before the rules are changed."
+   }
+  },
+  {
+   "da": "undskyldning for",
+   "pattern": "en undskyldning for noget",
+   "en": "apology for; excuse for",
+   "level": "B2",
+   "example": {
+    "da": "Togselskabet har givet en undskyldning for de mange aflysninger.",
+    "en": "The train company has apologised for the many cancellations."
+   }
+  },
+  {
+   "da": "information om",
+   "pattern": "information om noget",
+   "en": "information about",
+   "level": "B2",
+   "example": {
+    "da": "Du kan finde information om dine rettigheder på borger.dk.",
+    "en": "You can find information about your rights on borger.dk."
+   }
+  },
+  {
+   "da": "oplysninger om",
+   "pattern": "oplysninger om noget/nogen",
+   "en": "information about, details of",
+   "level": "C1",
+   "example": {
+    "da": "Kommunen må ikke videregive oplysninger om dit helbred.",
+    "en": "The municipality may not pass on information about your health."
+   }
+  },
+  {
+   "da": "undersøgelse af",
+   "pattern": "en undersøgelse af noget",
+   "en": "study of, investigation of",
+   "level": "C1",
+   "example": {
+    "da": "En ny undersøgelse af danskernes søvn viser, at mange sover for lidt.",
+    "en": "A new study of Danes' sleep shows that many sleep too little."
+   }
+  },
+  {
+   "da": "forskning i",
+   "pattern": "forskning i noget",
+   "en": "research into",
+   "level": "C1",
+   "example": {
+    "da": "Staten investerer mere i forskning i grøn teknologi.",
+    "en": "The state is investing more in research into green technology."
+   }
+  },
+  {
+   "da": "analyse af",
+   "pattern": "en analyse af noget",
+   "en": "analysis of",
+   "level": "C1",
+   "example": {
+    "da": "Rapporten indeholder en grundig analyse af boligmarkedet.",
+    "en": "The report contains a thorough analysis of the housing market."
+   }
+  },
+  {
+   "da": "stilling som",
+   "pattern": "en stilling som noget",
+   "en": "position as",
+   "level": "B2",
+   "example": {
+    "da": "Hun har søgt en stilling som projektleder i et energiselskab.",
+    "en": "She has applied for a position as project manager in an energy company."
+   }
+  },
+  {
+   "da": "hjælp til",
+   "pattern": "hjælp til noget",
+   "en": "help with",
+   "level": "B2",
+   "example": {
+    "da": "Mange forældre har brug for hjælp til at forstå skolens intranet.",
+    "en": "Many parents need help understanding the school's intranet."
+   }
+  },
+  {
+   "da": "rådgivning om",
+   "pattern": "rådgivning om noget",
+   "en": "advice on, counselling on",
+   "level": "C1",
+   "example": {
+    "da": "Du kan få gratis rådgivning om gæld hos flere frivillige organisationer.",
+    "en": "You can get free debt advice from several voluntary organisations."
+   }
+  },
+  {
+   "da": "problemer med",
+   "pattern": "problemer med noget/nogen",
+   "en": "problems with",
+   "level": "B2",
+   "example": {
+    "da": "Mange unge har problemer med at finde en studiebolig.",
+    "en": "Many young people have problems finding student accommodation."
+   }
+  },
+  {
+   "da": "besvær med",
+   "pattern": "besvær med noget / med at …",
+   "en": "trouble with, difficulty in",
+   "level": "C1",
+   "example": {
+    "da": "Ældre har ofte besvær med at bruge de digitale selvbetjeningsløsninger.",
+    "en": "Older people often have trouble using the digital self-service solutions."
+   }
+  },
+  {
+   "da": "tegn på",
+   "pattern": "et tegn på noget",
+   "en": "sign of",
+   "level": "B2",
+   "example": {
+    "da": "Træthed kan være et tegn på stress.",
+    "en": "Tiredness can be a sign of stress."
+   }
+  },
+  {
+   "da": "bevis på",
+   "pattern": "et bevis på noget",
+   "en": "proof of, evidence of",
+   "level": "C1",
+   "example": {
+    "da": "Den lave ledighed er et bevis på, at reformen virker.",
+    "en": "The low unemployment is proof that the reform is working."
+   }
+  },
+  {
+   "da": "symbol på",
+   "pattern": "et symbol på noget",
+   "en": "symbol of",
+   "level": "C1",
+   "example": {
+    "da": "Cyklen er blevet et symbol på den grønne omstilling.",
+    "en": "The bicycle has become a symbol of the green transition."
+   }
+  },
+  {
+   "da": "et udtryk for",
+   "pattern": "være et udtryk for noget",
+   "en": "an expression of, a sign of",
+   "level": "C1",
+   "example": {
+    "da": "Den høje valgdeltagelse er et udtryk for stor tillid til demokratiet.",
+    "en": "The high turnout is a sign of great trust in democracy."
+   }
+  },
+  {
+   "da": "garanti for",
+   "pattern": "en garanti for noget",
+   "en": "guarantee of",
+   "level": "C1",
+   "example": {
+    "da": "En lang uddannelse er ingen garanti for et godt job.",
+    "en": "A long education is no guarantee of a good job."
+   }
+  },
+  {
+   "da": "dokumentation for",
+   "pattern": "dokumentation for noget",
+   "en": "documentation of, proof of",
+   "level": "C1",
+   "example": {
+    "da": "Du skal sende dokumentation for din indkomst sammen med ansøgningen.",
+    "en": "You must send proof of your income with the application."
+   }
+  },
+  {
+   "da": "mistanke om",
+   "pattern": "mistanke om noget",
+   "en": "suspicion of",
+   "level": "C1",
+   "example": {
+    "da": "Politiet anholdt manden på grund af mistanke om narkohandel.",
+    "en": "The police arrested the man on suspicion of drug dealing."
+   }
+  },
+  {
+   "da": "skyld i",
+   "pattern": "være skyld i noget",
+   "en": "to blame for, the cause of",
+   "level": "B2",
+   "example": {
+    "da": "Det var en teknisk fejl, der var skyld i forsinkelsen.",
+    "en": "It was a technical fault that caused the delay."
+   }
+  },
+  {
+   "da": "afstand til",
+   "pattern": "afstand til noget",
+   "en": "distance to",
+   "level": "B2",
+   "example": {
+    "da": "Afstanden til det nærmeste hospital er over 50 kilometer.",
+    "en": "The distance to the nearest hospital is over 50 kilometres."
+   }
+  },
+  {
+   "da": "udsigt til",
+   "pattern": "udsigt til noget",
+   "en": "prospect of; view of",
+   "level": "C1",
+   "example": {
+    "da": "Der er udsigt til lavere renter i løbet af næste år.",
+    "en": "There is a prospect of lower interest rates during next year."
+   }
+  },
+  {
+   "da": "tendens til",
+   "pattern": "en tendens til noget / til at …",
+   "en": "tendency to",
+   "level": "C1",
+   "example": {
+    "da": "Der er en tendens til, at unge flytter hjemmefra senere end før.",
+    "en": "There is a tendency for young people to leave home later than before."
+   }
+  },
+  {
+   "da": "sammenhæng mellem",
+   "pattern": "en sammenhæng mellem A og B",
+   "en": "connection between, correlation",
+   "level": "C1",
+   "example": {
+    "da": "Der er en klar sammenhæng mellem uddannelse og indkomst.",
+    "en": "There is a clear connection between education and income."
+   }
+  },
+  {
+   "da": "balance mellem",
+   "pattern": "balance mellem A og B",
+   "en": "balance between",
+   "level": "C1",
+   "example": {
+    "da": "Mange kæmper for at finde balance mellem arbejde og familieliv.",
+    "en": "Many struggle to find a balance between work and family life."
+   }
+  },
+  {
+   "da": "konflikt mellem",
+   "pattern": "en konflikt mellem A og B",
+   "en": "conflict between",
+   "level": "C1",
+   "example": {
+    "da": "Der er opstået en konflikt mellem ledelsen og de ansatte.",
+    "en": "A conflict has arisen between management and the employees."
+   }
+  },
+  {
+   "da": "ligestilling mellem",
+   "pattern": "ligestilling mellem A og B",
+   "en": "equality between",
+   "level": "C1",
+   "example": {
+    "da": "Danmark er langt fra at have fuld ligestilling mellem kønnene i ledelsen.",
+    "en": "Denmark is far from having full gender equality in management."
+   }
+  },
+  {
+   "da": "samarbejde med",
+   "pattern": "et samarbejde med nogen",
+   "en": "cooperation with, partnership with",
+   "level": "B2",
+   "example": {
+    "da": "Projektet sker i samarbejde med lokale virksomheder.",
+    "en": "The project is being carried out in cooperation with local businesses."
+   }
+  },
+  {
+   "da": "trussel mod",
+   "pattern": "en trussel mod noget/nogen",
+   "en": "threat to",
+   "level": "C1",
+   "example": {
+    "da": "Misinformation er en trussel mod demokratiet.",
+    "en": "Misinformation is a threat to democracy."
+   }
+  },
+  {
+   "da": "vold mod",
+   "pattern": "vold mod nogen",
+   "en": "violence against",
+   "level": "C1",
+   "example": {
+    "da": "Antallet af anmeldelser om vold mod sundhedspersonale er steget.",
+    "en": "The number of reports of violence against healthcare staff has risen."
+   }
+  },
+  {
+   "da": "diskrimination af",
+   "pattern": "diskrimination af nogen",
+   "en": "discrimination against",
+   "level": "C1",
+   "example": {
+    "da": "Loven forbyder diskrimination af ansøgere på grund af etnicitet.",
+    "en": "The law prohibits discrimination against applicants on grounds of ethnicity."
+   }
+  },
+  {
+   "da": "fordomme over for",
+   "pattern": "fordomme over for nogen",
+   "en": "prejudice against",
+   "level": "C1",
+   "example": {
+    "da": "Mange indvandrere oplever fordomme over for deres navn, når de søger job.",
+    "en": "Many immigrants experience prejudice against their name when applying for jobs."
+   }
+  },
+  {
+   "da": "beskyttelse mod",
+   "pattern": "beskyttelse mod noget",
+   "en": "protection against",
+   "level": "C1",
+   "example": {
+    "da": "Vaccinen giver god beskyttelse mod alvorlig sygdom.",
+    "en": "The vaccine gives good protection against serious illness."
+   }
+  },
+  {
+   "da": "forsikring mod",
+   "pattern": "en forsikring mod noget",
+   "en": "insurance against",
+   "level": "C1",
+   "example": {
+    "da": "Det er en god idé at have en forsikring mod brand og tyveri.",
+    "en": "It is a good idea to have insurance against fire and theft."
+   }
+  },
+  {
+   "da": "medicin mod",
+   "pattern": "medicin mod en sygdom",
+   "en": "medicine for (an illness)",
+   "level": "B2",
+   "example": {
+    "da": "Han tager medicin mod forhøjet blodtryk hver morgen.",
+    "en": "He takes medicine for high blood pressure every morning."
+   }
+  },
+  {
+   "da": "konkurrence om",
+   "pattern": "konkurrence om noget",
+   "en": "competition for",
+   "level": "C1",
+   "example": {
+    "da": "Der er hård konkurrence om de dygtigste medarbejdere.",
+    "en": "There is fierce competition for the most skilled employees."
+   }
+  },
+  {
+   "da": "i forhold til",
+   "pattern": "i forhold til noget/nogen",
+   "en": "compared with; regarding",
+   "level": "B2",
+   "example": {
+    "da": "I forhold til sidste år er der kommet flere elever på skolen.",
+    "en": "Compared with last year, there are more pupils at the school."
+   }
+  },
+  {
+   "da": "på grund af",
+   "pattern": "på grund af noget",
+   "en": "because of, due to",
+   "level": "B2",
+   "example": {
+    "da": "Toget er forsinket på grund af nedfaldne træer på skinnerne.",
+    "en": "The train is delayed because of fallen trees on the tracks."
+   }
+  },
+  {
+   "da": "med henblik på",
+   "pattern": "med henblik på noget / på at …",
+   "en": "with a view to, for the purpose of",
+   "level": "C1",
+   "example": {
+    "da": "Kommunen har købt grunden med henblik på at bygge nye boliger.",
+    "en": "The municipality has bought the site with a view to building new homes."
+   }
+  },
+  {
+   "da": "i stedet for",
+   "pattern": "i stedet for noget / for at …",
+   "en": "instead of",
+   "level": "B2",
+   "example": {
+    "da": "Flere vælger at tage cyklen i stedet for bilen.",
+    "en": "More people choose to take the bike instead of the car."
+   }
+  },
+  {
+   "da": "i løbet af",
+   "pattern": "i løbet af en periode",
+   "en": "during, in the course of",
+   "level": "B2",
+   "example": {
+    "da": "Du vil modtage et svar i løbet af de næste fire uger.",
+    "en": "You will receive a reply within the next four weeks."
+   }
+  },
+  {
+   "da": "på trods af",
+   "pattern": "på trods af noget",
+   "en": "despite, in spite of",
+   "level": "B2",
+   "example": {
+    "da": "På trods af krisen har virksomheden ansat flere medarbejdere.",
+    "en": "Despite the crisis, the company has hired more employees."
+   }
+  },
+  {
+   "da": "til trods for",
+   "pattern": "til trods for noget / for, at …",
+   "en": "despite, in spite of",
+   "level": "C1",
+   "example": {
+    "da": "Til trods for de høje priser er der stadig mange købere.",
+    "en": "Despite the high prices, there are still many buyers."
+   }
+  },
+  {
+   "da": "ved hjælp af",
+   "pattern": "ved hjælp af noget",
+   "en": "by means of, using",
+   "level": "B2",
+   "example": {
+    "da": "Du kan logge ind ved hjælp af MitID.",
+    "en": "You can log in using MitID."
+   }
+  },
+  {
+   "da": "i tilfælde af",
+   "pattern": "i tilfælde af noget",
+   "en": "in case of, in the event of",
+   "level": "C1",
+   "example": {
+    "da": "I tilfælde af brand skal man forlade bygningen ad trappen.",
+    "en": "In the event of fire, you must leave the building by the stairs."
+   }
+  },
+  {
+   "da": "i overensstemmelse med",
+   "pattern": "i overensstemmelse med noget",
+   "en": "in accordance with",
+   "level": "C1",
+   "example": {
+    "da": "Lønnen er fastsat i overensstemmelse med overenskomsten.",
+    "en": "The pay is set in accordance with the collective agreement."
+   }
+  },
+  {
+   "da": "set i lyset af",
+   "pattern": "set i lyset af noget",
+   "en": "in light of, given",
+   "level": "C1",
+   "example": {
+    "da": "Set i lyset af de stigende priser er lønstigningen for lille.",
+    "en": "In light of the rising prices, the pay rise is too small."
+   }
+  },
+  {
+   "da": "i takt med",
+   "pattern": "i takt med noget / i takt med, at …",
+   "en": "as, in step with",
+   "level": "C1",
+   "example": {
+    "da": "Behovet for plejepersonale vokser i takt med, at befolkningen bliver ældre.",
+    "en": "The need for care staff grows as the population ages."
+   }
+  },
+  {
+   "da": "i form af",
+   "pattern": "i form af noget",
+   "en": "in the form of",
+   "level": "C1",
+   "example": {
+    "da": "Hjælpen kan gives i form af et engangsbeløb.",
+    "en": "The help can be given in the form of a one-off payment."
+   }
+  },
+  {
+   "da": "på baggrund af",
+   "pattern": "på baggrund af noget",
+   "en": "on the basis of",
+   "level": "C1",
+   "example": {
+    "da": "Beslutningen er truffet på baggrund af en ny rapport.",
+    "en": "The decision was made on the basis of a new report."
+   }
+  },
+  {
+   "da": "på den baggrund",
+   "pattern": "på den baggrund …",
+   "en": "on that basis, for that reason",
+   "level": "C1",
+   "example": {
+    "da": "Ventetiden er for lang, og på den baggrund ansætter regionen flere læger.",
+    "en": "The waiting time is too long, and for that reason the region is hiring more doctors."
+   }
+  },
+  {
+   "da": "med hensyn til",
+   "pattern": "med hensyn til noget",
+   "en": "with regard to, as for",
+   "level": "C1",
+   "example": {
+    "da": "Med hensyn til ferien skal du tale med din leder.",
+    "en": "With regard to your holiday, you must talk to your manager."
+   }
+  },
+  {
+   "da": "af hensyn til",
+   "pattern": "af hensyn til noget/nogen",
+   "en": "for the sake of, out of consideration for",
+   "level": "C1",
+   "example": {
+    "da": "Af hensyn til sikkerheden er broen lukket i dag.",
+    "en": "For safety reasons the bridge is closed today."
+   }
+  },
+  {
+   "da": "i forbindelse med",
+   "pattern": "i forbindelse med noget",
+   "en": "in connection with",
+   "level": "B2",
+   "example": {
+    "da": "I forbindelse med flytningen skal du huske at melde adresseændring.",
+    "en": "In connection with the move, remember to report your change of address."
+   }
+  },
+  {
+   "da": "i den forbindelse",
+   "pattern": "i den forbindelse …",
+   "en": "in this connection",
+   "level": "C1",
+   "example": {
+    "da": "Skolen skal renoveres, og i den forbindelse flytter eleverne i pavilloner.",
+    "en": "The school is to be renovated, and in this connection the pupils will move into temporary buildings."
+   }
+  },
+  {
+   "da": "i samarbejde med",
+   "pattern": "i samarbejde med nogen",
+   "en": "in cooperation with",
+   "level": "B2",
+   "example": {
+    "da": "Kampagnen er lavet i samarbejde med Kræftens Bekæmpelse.",
+    "en": "The campaign was made in cooperation with the Danish Cancer Society."
+   }
+  },
+  {
+   "da": "i modsætning til",
+   "pattern": "i modsætning til noget/nogen",
+   "en": "unlike, as opposed to",
+   "level": "B2",
+   "example": {
+    "da": "I modsætning til mange andre lande har Danmark ingen mindsteløn ved lov.",
+    "en": "Unlike many other countries, Denmark has no statutory minimum wage."
+   }
+  },
+  {
+   "da": "sammenlignet med",
+   "pattern": "sammenlignet med noget/nogen",
+   "en": "compared with",
+   "level": "B2",
+   "example": {
+    "da": "Sammenlignet med Sverige er boligpriserne høje i Danmark.",
+    "en": "Compared with Sweden, house prices are high in Denmark."
+   }
+  },
+  {
+   "da": "i tråd med",
+   "pattern": "i tråd med noget",
+   "en": "in line with",
+   "level": "C1",
+   "example": {
+    "da": "Forslaget er i tråd med regeringens klimamål.",
+    "en": "The proposal is in line with the government's climate targets."
+   }
+  },
+  {
+   "da": "i strid med",
+   "pattern": "i strid med noget",
+   "en": "contrary to, in breach of",
+   "level": "C1",
+   "example": {
+    "da": "Fyringen var i strid med funktionærloven.",
+    "en": "The dismissal was in breach of the Salaried Employees Act."
+   }
+  },
+  {
+   "da": "i henhold til",
+   "pattern": "i henhold til noget",
+   "en": "pursuant to, according to (formal)",
+   "level": "C2",
+   "example": {
+    "da": "I henhold til lejekontrakten skal lejligheden males ved fraflytning.",
+    "en": "According to the lease, the flat must be painted when you move out."
+   }
+  },
+  {
+   "da": "i medfør af",
+   "pattern": "i medfør af en lov/paragraf",
+   "en": "pursuant to, under (legal)",
+   "level": "C2",
+   "example": {
+    "da": "Afgørelsen er truffet i medfør af lovens paragraf 5.",
+    "en": "The decision has been made pursuant to section 5 of the act."
+   }
+  },
+  {
+   "da": "i kraft af",
+   "pattern": "i kraft af noget",
+   "en": "by virtue of",
+   "level": "C2",
+   "example": {
+    "da": "I kraft af sin erfaring blev hun valgt som tillidsrepræsentant.",
+    "en": "By virtue of her experience, she was elected as shop steward."
+   }
+  },
+  {
+   "da": "på vegne af",
+   "pattern": "på vegne af nogen",
+   "en": "on behalf of",
+   "level": "C1",
+   "example": {
+    "da": "Jeg skriver på vegne af beboerne i opgang 3.",
+    "en": "I am writing on behalf of the residents of stairwell 3."
+   }
+  },
+  {
+   "da": "i regi af",
+   "pattern": "i regi af en organisation",
+   "en": "under the auspices of, run by",
+   "level": "C2",
+   "example": {
+    "da": "Kurset foregår i regi af kommunens jobcenter.",
+    "en": "The course is run under the auspices of the municipal job centre."
+   }
+  },
+  {
+   "da": "med udgangspunkt i",
+   "pattern": "med udgangspunkt i noget",
+   "en": "based on, starting from",
+   "level": "C1",
+   "example": {
+    "da": "Undervisningen tilrettelægges med udgangspunkt i elevernes behov.",
+    "en": "Teaching is planned on the basis of the pupils' needs."
+   }
+  },
+  {
+   "da": "ud fra",
+   "pattern": "ud fra noget",
+   "en": "on the basis of, judging by",
+   "level": "C1",
+   "example": {
+    "da": "Ud fra et økonomisk synspunkt giver projektet god mening.",
+    "en": "From an economic point of view, the project makes good sense."
+   }
+  },
+  {
+   "da": "inden for rammerne af",
+   "pattern": "inden for rammerne af noget",
+   "en": "within the framework of",
+   "level": "C2",
+   "example": {
+    "da": "Projektet skal gennemføres inden for rammerne af det eksisterende budget.",
+    "en": "The project must be carried out within the existing budget."
+   }
+  },
+  {
+   "da": "på tværs af",
+   "pattern": "på tværs af noget",
+   "en": "across",
+   "level": "C1",
+   "example": {
+    "da": "Vi skal samarbejde bedre på tværs af afdelingerne.",
+    "en": "We must cooperate better across departments."
+   }
+  },
+  {
+   "da": "bortset fra",
+   "pattern": "bortset fra noget/nogen",
+   "en": "apart from, except for",
+   "level": "B2",
+   "example": {
+    "da": "Bortset fra et par små fejl var opgaven rigtig god.",
+    "en": "Apart from a few small mistakes, the assignment was really good."
+   }
+  },
+  {
+   "da": "ud over",
+   "pattern": "ud over noget",
+   "en": "in addition to, besides",
+   "level": "B2",
+   "example": {
+    "da": "Ud over lønnen får medarbejderne en sundhedsforsikring.",
+    "en": "In addition to their salary, employees get health insurance."
+   }
+  },
+  {
+   "da": "med undtagelse af",
+   "pattern": "med undtagelse af noget/nogen",
+   "en": "with the exception of",
+   "level": "C1",
+   "example": {
+    "da": "Alle butikker er åbne, med undtagelse af apoteket.",
+    "en": "All shops are open, with the exception of the pharmacy."
+   }
+  },
+  {
+   "da": "alt efter",
+   "pattern": "alt efter noget / alt efter, om …",
+   "en": "depending on",
+   "level": "C1",
+   "example": {
+    "da": "Prisen varierer alt efter, hvor i landet du bor.",
+    "en": "The price varies depending on where in the country you live."
+   }
+  },
+  {
+   "da": "afhængigt af",
+   "pattern": "afhængigt af noget",
+   "en": "depending on",
+   "level": "C1",
+   "example": {
+    "da": "Afhængigt af vejret holder vi mødet udendørs.",
+    "en": "Depending on the weather, we will hold the meeting outdoors."
+   }
+  },
+  {
+   "da": "takket være",
+   "pattern": "takket være noget/nogen",
+   "en": "thanks to",
+   "level": "B2",
+   "example": {
+    "da": "Takket være de frivillige kunne festivalen gennemføres.",
+    "en": "Thanks to the volunteers, the festival could go ahead."
+   }
+  },
+  {
+   "da": "som følge af",
+   "pattern": "som følge af noget",
+   "en": "as a result of",
+   "level": "C1",
+   "example": {
+    "da": "Som følge af stormen blev flere færgeafgange aflyst.",
+    "en": "As a result of the storm, several ferry departures were cancelled."
+   }
+  },
+  {
+   "da": "på bekostning af",
+   "pattern": "på bekostning af noget/nogen",
+   "en": "at the expense of",
+   "level": "C1",
+   "example": {
+    "da": "Besparelserne må ikke ske på bekostning af de ældres pleje.",
+    "en": "The savings must not come at the expense of care for the elderly."
+   }
+  },
+  {
+   "da": "til fordel for",
+   "pattern": "til fordel for noget/nogen",
+   "en": "in favour of; to the benefit of",
+   "level": "C1",
+   "example": {
+    "da": "Hun takkede nej til jobbet til fordel for en uddannelse.",
+    "en": "She turned down the job in favour of an education."
+   }
+  },
+  {
+   "da": "til gavn for",
+   "pattern": "til gavn for nogen/noget",
+   "en": "for the benefit of",
+   "level": "C1",
+   "example": {
+    "da": "De nye cykelstier er til gavn for både børn og pendlere.",
+    "en": "The new cycle paths benefit both children and commuters."
+   }
+  },
+  {
+   "da": "til skade for",
+   "pattern": "til skade for nogen/noget",
+   "en": "to the detriment of",
+   "level": "C1",
+   "example": {
+    "da": "Nedskæringerne er til skade for kvaliteten i undervisningen.",
+    "en": "The cuts are to the detriment of teaching quality."
+   }
+  },
+  {
+   "da": "til støtte for",
+   "pattern": "til støtte for noget/nogen",
+   "en": "in support of",
+   "level": "C1",
+   "example": {
+    "da": "Tusindvis gik på gaden til støtte for de strejkende.",
+    "en": "Thousands took to the streets in support of the strikers."
+   }
+  },
+  {
+   "da": "i anledning af",
+   "pattern": "i anledning af noget",
+   "en": "on the occasion of",
+   "level": "C1",
+   "example": {
+    "da": "Firmaet holder reception i anledning af sit 50-års jubilæum.",
+    "en": "The firm is holding a reception on the occasion of its 50th anniversary."
+   }
+  },
+  {
+   "da": "i forlængelse af",
+   "pattern": "i forlængelse af noget",
+   "en": "following on from, as a follow-up to",
+   "level": "C1",
+   "example": {
+    "da": "I forlængelse af mødet sender jeg referatet til alle deltagere.",
+    "en": "Following the meeting, I will send the minutes to all participants."
+   }
+  },
+  {
+   "da": "som opfølgning på",
+   "pattern": "som opfølgning på noget",
+   "en": "as a follow-up to",
+   "level": "C1",
+   "example": {
+    "da": "Som opfølgning på vores samtale sender jeg kontrakten i dag.",
+    "en": "As a follow-up to our conversation, I am sending the contract today."
+   }
+  },
+  {
+   "da": "som svar på",
+   "pattern": "som svar på noget",
+   "en": "in response to",
+   "level": "C1",
+   "example": {
+    "da": "Som svar på kritikken har ministeren lovet en undersøgelse.",
+    "en": "In response to the criticism, the minister has promised an inquiry."
+   }
+  },
+  {
+   "da": "i håb om",
+   "pattern": "i håb om noget / om at …",
+   "en": "in the hope of",
+   "level": "C1",
+   "example": {
+    "da": "Mange flytter til byen i håb om at finde arbejde.",
+    "en": "Many move to the city in the hope of finding work."
+   }
+  },
+  {
+   "da": "i et forsøg på",
+   "pattern": "i et forsøg på at gøre noget",
+   "en": "in an attempt to",
+   "level": "C1",
+   "example": {
+    "da": "Kommunen har sænket taksterne i et forsøg på at tiltrække børnefamilier.",
+    "en": "The municipality has cut its fees in an attempt to attract families with children."
+   }
+  },
+  {
+   "da": "med det formål at",
+   "pattern": "med det formål at gøre noget",
+   "en": "with the aim of",
+   "level": "C1",
+   "example": {
+    "da": "Loven blev ændret med det formål at gøre det lettere at få job.",
+    "en": "The law was changed with the aim of making it easier to get a job."
+   }
+  },
+  {
+   "da": "på betingelse af",
+   "pattern": "på betingelse af, at …",
+   "en": "on condition that",
+   "level": "C1",
+   "example": {
+    "da": "Du kan få lånet på betingelse af, at du betaler det tilbage inden et år.",
+    "en": "You can have the loan on condition that you repay it within a year."
+   }
+  },
+  {
+   "da": "under forudsætning af",
+   "pattern": "under forudsætning af noget / af, at …",
+   "en": "on the assumption that, provided that",
+   "level": "C2",
+   "example": {
+    "da": "Budgettet holder kun under forudsætning af, at renten ikke stiger.",
+    "en": "The budget only holds on the assumption that interest rates don't rise."
+   }
+  },
+  {
+   "da": "i og med at",
+   "pattern": "i og med at …",
+   "en": "since, given that",
+   "level": "C1",
+   "example": {
+    "da": "I og med at bussen er aflyst, må vi tage en taxa.",
+    "en": "Since the bus has been cancelled, we will have to take a taxi."
+   }
+  },
+  {
+   "da": "efterhånden som",
+   "pattern": "efterhånden som …",
+   "en": "as (gradually)",
+   "level": "C1",
+   "example": {
+    "da": "Efterhånden som børnene bliver ældre, får de mere ansvar.",
+    "en": "As the children get older, they are given more responsibility."
+   }
+  },
+  {
+   "da": "så vidt jeg ved",
+   "pattern": "så vidt jeg ved, …",
+   "en": "as far as I know",
+   "level": "B2",
+   "example": {
+    "da": "Så vidt jeg ved, er ansøgningsfristen den 15. marts.",
+    "en": "As far as I know, the application deadline is 15 March."
+   }
+  },
+  {
+   "da": "så vidt muligt",
+   "pattern": "så vidt muligt",
+   "en": "as far as possible",
+   "level": "C1",
+   "example": {
+    "da": "Vi forsøger så vidt muligt at undgå overarbejde.",
+    "en": "We try to avoid overtime as far as possible."
+   }
+  },
+  {
+   "da": "for så vidt angår",
+   "pattern": "for så vidt angår noget",
+   "en": "as far as … is concerned",
+   "level": "C2",
+   "example": {
+    "da": "For så vidt angår lønnen, henviser vi til overenskomsten.",
+    "en": "As far as pay is concerned, we refer to the collective agreement."
+   }
+  },
+  {
+   "da": "hvad angår",
+   "pattern": "hvad … angår / hvad angår noget",
+   "en": "as regards, as for",
+   "level": "C1",
+   "example": {
+    "da": "Hvad angår boligen, er der desværre lang venteliste.",
+    "en": "As regards housing, there is unfortunately a long waiting list."
+   }
+  },
+  {
+   "da": "når det gælder",
+   "pattern": "når det gælder noget",
+   "en": "when it comes to",
+   "level": "C1",
+   "example": {
+    "da": "Når det gælder digitalisering, er Danmark langt fremme.",
+    "en": "When it comes to digitalisation, Denmark is well ahead."
+   }
+  },
+  {
+   "da": "i det omfang",
+   "pattern": "i det omfang, (at) …",
+   "en": "to the extent that",
+   "level": "C2",
+   "example": {
+    "da": "Kommunen dækker udgiften i det omfang, den er nødvendig.",
+    "en": "The municipality covers the expense to the extent that it is necessary."
+   }
+  },
+  {
+   "da": "i det hele taget",
+   "pattern": "i det hele taget",
+   "en": "in general, on the whole; at all",
+   "level": "C1",
+   "example": {
+    "da": "Jeg er i det hele taget glad for at bo i Danmark.",
+    "en": "On the whole, I am happy living in Denmark."
+   }
+  },
+  {
+   "da": "i det store og hele",
+   "pattern": "i det store og hele",
+   "en": "on the whole, by and large",
+   "level": "C1",
+   "example": {
+    "da": "Projektet er i det store og hele forløbet som planlagt.",
+    "en": "By and large, the project has gone as planned."
+   }
+  },
+  {
+   "da": "for det første",
+   "pattern": "for det første …, for det andet …",
+   "en": "firstly, first of all",
+   "level": "B2",
+   "example": {
+    "da": "For det første er huslejen for høj, og for det andet er der støj.",
+    "en": "Firstly the rent is too high, and secondly there is noise."
+   }
+  },
+  {
+   "da": "for det andet",
+   "pattern": "for det andet …",
+   "en": "secondly",
+   "level": "B2",
+   "example": {
+    "da": "For det andet mangler kommunen kvalificerede medarbejdere.",
+    "en": "Secondly, the municipality lacks qualified staff."
+   }
+  },
+  {
+   "da": "først og fremmest",
+   "pattern": "først og fremmest",
+   "en": "first and foremost",
+   "level": "B2",
+   "example": {
+    "da": "Først og fremmest vil jeg takke alle for deres indsats.",
+    "en": "First and foremost, I would like to thank everyone for their efforts."
+   }
+  },
+  {
+   "da": "til sidst",
+   "pattern": "til sidst",
+   "en": "finally, in the end",
+   "level": "B2",
+   "example": {
+    "da": "Til sidst vil jeg sige, at vi har brug for flere hænder.",
+    "en": "Finally, I would like to say that we need more staff."
+   }
+  },
+  {
+   "da": "til gengæld",
+   "pattern": "til gengæld",
+   "en": "on the other hand; in return",
+   "level": "B2",
+   "example": {
+    "da": "Lønnen er ikke så høj, men til gengæld er arbejdstiden fleksibel.",
+    "en": "The pay isn't that high, but on the other hand the hours are flexible."
+   }
+  },
+  {
+   "da": "i øvrigt",
+   "pattern": "i øvrigt",
+   "en": "by the way; moreover, otherwise",
+   "level": "B2",
+   "example": {
+    "da": "Mødet er flyttet til torsdag, og i øvrigt er kantinen lukket.",
+    "en": "The meeting has been moved to Thursday, and by the way the canteen is closed."
+   }
+  },
+  {
+   "da": "frem for alt",
+   "pattern": "frem for alt",
+   "en": "above all",
+   "level": "C1",
+   "example": {
+    "da": "Børn har frem for alt brug for tryghed og omsorg.",
+    "en": "Above all, children need security and care."
+   }
+  },
+  {
+   "da": "frem for",
+   "pattern": "frem for noget / frem for at …",
+   "en": "rather than, instead of",
+   "level": "C1",
+   "example": {
+    "da": "Flere vælger at leje frem for at købe bolig.",
+    "en": "More people choose to rent rather than buy a home."
+   }
+  },
+  {
+   "da": "ikke mindst",
+   "pattern": "… og ikke mindst …",
+   "en": "not least",
+   "level": "C1",
+   "example": {
+    "da": "Reformen påvirker lærere, forældre og ikke mindst eleverne.",
+    "en": "The reform affects teachers, parents and, not least, the pupils."
+   }
+  },
+  {
+   "da": "efter min mening",
+   "pattern": "efter min mening …",
+   "en": "in my opinion",
+   "level": "B2",
+   "example": {
+    "da": "Efter min mening burde skolerne have mere idræt.",
+    "en": "In my opinion, schools should have more physical education."
+   }
+  },
+  {
+   "da": "efter min opfattelse",
+   "pattern": "efter min opfattelse …",
+   "en": "in my view (formal)",
+   "level": "C1",
+   "example": {
+    "da": "Efter min opfattelse er det et politisk og ikke et teknisk spørgsmål.",
+    "en": "In my view it is a political, not a technical, question."
+   }
+  },
+  {
+   "da": "for mit vedkommende",
+   "pattern": "for mit (dit/hans …) vedkommende",
+   "en": "as far as I am concerned, in my case",
+   "level": "C1",
+   "example": {
+    "da": "For mit vedkommende passer det fint at arbejde hjemme om fredagen.",
+    "en": "As far as I am concerned, working from home on Fridays suits me fine."
+   }
+  },
+  {
+   "da": "på den ene side",
+   "pattern": "på den ene side …, på den anden side …",
+   "en": "on the one hand",
+   "level": "B2",
+   "example": {
+    "da": "På den ene side er elbiler dyre, på den anden side er de billige i drift.",
+    "en": "On the one hand electric cars are expensive, on the other they are cheap to run."
+   }
+  },
+  {
+   "da": "på den anden side",
+   "pattern": "på den anden side …",
+   "en": "on the other hand",
+   "level": "B2",
+   "example": {
+    "da": "Jobbet er godt betalt, men på den anden side er der meget overarbejde.",
+    "en": "The job is well paid, but on the other hand there is a lot of overtime."
+   }
+  },
+  {
+   "da": "på samme måde",
+   "pattern": "på samme måde (som …)",
+   "en": "in the same way, likewise",
+   "level": "B2",
+   "example": {
+    "da": "Deltidsansatte skal behandles på samme måde som fuldtidsansatte.",
+    "en": "Part-time employees must be treated in the same way as full-time employees."
+   }
+  },
+  {
+   "da": "alt i alt",
+   "pattern": "alt i alt",
+   "en": "all in all",
+   "level": "B2",
+   "example": {
+    "da": "Alt i alt har det været et godt år for virksomheden.",
+    "en": "All in all, it has been a good year for the company."
+   }
+  },
+  {
+   "da": "kort sagt",
+   "pattern": "kort sagt",
+   "en": "in short",
+   "level": "B2",
+   "example": {
+    "da": "Kort sagt: Vi har brug for flere boliger til en rimelig pris.",
+    "en": "In short: we need more homes at a reasonable price."
+   }
+  },
+  {
+   "da": "med andre ord",
+   "pattern": "med andre ord",
+   "en": "in other words",
+   "level": "B2",
+   "example": {
+    "da": "Ansøgningen er ikke modtaget, så du må med andre ord sende den igen.",
+    "en": "The application has not been received, so in other words you must send it again."
+   }
+  },
+  {
+   "da": "blandt andet",
+   "pattern": "blandt andet",
+   "en": "among other things, including",
+   "level": "B2",
+   "example": {
+    "da": "Aftalen indeholder blandt andet flere penge til psykiatrien.",
+    "en": "The agreement includes, among other things, more money for psychiatry."
+   }
+  },
+  {
+   "da": "dels … dels",
+   "pattern": "dels …, dels …",
+   "en": "partly … partly",
+   "level": "C1",
+   "example": {
+    "da": "Ledigheden skyldes dels manglende uddannelse, dels dårligt helbred.",
+    "en": "The unemployment is due partly to lack of education, partly to poor health."
+   }
+  },
+  {
+   "da": "såvel … som",
+   "pattern": "såvel A som B",
+   "en": "both A and B, A as well as B",
+   "level": "C1",
+   "example": {
+    "da": "Tilbuddet gælder såvel børn som voksne.",
+    "en": "The offer applies to children as well as adults."
+   }
+  },
+  {
+   "da": "hverken … eller",
+   "pattern": "hverken A eller B",
+   "en": "neither … nor",
+   "level": "B2",
+   "example": {
+    "da": "Han har hverken tid eller råd til at tage på ferie i år.",
+    "en": "He has neither the time nor the money to go on holiday this year."
+   }
+  },
+  {
+   "da": "ikke kun … men også",
+   "pattern": "ikke kun A, men også B",
+   "en": "not only … but also",
+   "level": "B2",
+   "example": {
+    "da": "Klimaforandringer er ikke kun et miljøproblem, men også et økonomisk problem.",
+    "en": "Climate change is not only an environmental problem but also an economic one."
+   }
+  },
+  {
+   "da": "i høj grad",
+   "pattern": "i høj grad",
+   "en": "to a large extent, very much",
+   "level": "B2",
+   "example": {
+    "da": "Vores trivsel afhænger i høj grad af vores sociale relationer.",
+    "en": "Our well-being depends to a large extent on our social relationships."
+   }
+  },
+  {
+   "da": "til en vis grad",
+   "pattern": "til en vis grad",
+   "en": "to some extent",
+   "level": "C1",
+   "example": {
+    "da": "Jeg er til en vis grad enig i kritikken.",
+    "en": "I agree with the criticism to some extent."
+   }
+  },
+  {
+   "da": "i stigende grad",
+   "pattern": "i stigende grad",
+   "en": "increasingly",
+   "level": "C1",
+   "example": {
+    "da": "Danskerne handler i stigende grad på nettet.",
+    "en": "Danes are increasingly shopping online."
+   }
+  },
+  {
+   "da": "til dels",
+   "pattern": "til dels",
+   "en": "partly, in part",
+   "level": "C1",
+   "example": {
+    "da": "Kritikken er til dels berettiget.",
+    "en": "The criticism is partly justified."
+   }
+  },
+  {
+   "da": "i bund og grund",
+   "pattern": "i bund og grund",
+   "en": "basically, essentially",
+   "level": "C1",
+   "example": {
+    "da": "I bund og grund handler debatten om, hvem der skal betale.",
+    "en": "Essentially the debate is about who should pay."
+   }
+  },
+  {
+   "da": "i sidste ende",
+   "pattern": "i sidste ende",
+   "en": "in the end, ultimately",
+   "level": "B2",
+   "example": {
+    "da": "I sidste ende er det borgerne, der betaler regningen.",
+    "en": "Ultimately it is the citizens who pay the bill."
+   }
+  },
+  {
+   "da": "når alt kommer til alt",
+   "pattern": "når alt kommer til alt",
+   "en": "when all is said and done",
+   "level": "C1",
+   "example": {
+    "da": "Når alt kommer til alt, er helbredet det vigtigste.",
+    "en": "When all is said and done, health is what matters most."
+   }
+  },
+  {
+   "da": "trods alt",
+   "pattern": "trods alt",
+   "en": "after all, all the same",
+   "level": "B2",
+   "example": {
+    "da": "Det var en hård vinter, men vi klarede os trods alt.",
+    "en": "It was a hard winter, but we managed all the same."
+   }
+  },
+  {
+   "da": "under alle omstændigheder",
+   "pattern": "under alle omstændigheder",
+   "en": "in any case, whatever happens",
+   "level": "C1",
+   "example": {
+    "da": "Under alle omstændigheder skal du give besked, hvis du er syg.",
+    "en": "In any case, you must let us know if you are ill."
+   }
+  },
+  {
+   "da": "i hvert fald",
+   "pattern": "i hvert fald",
+   "en": "at least; in any case",
+   "level": "B2",
+   "example": {
+    "da": "Der kommer i hvert fald tyve gæster til mødet.",
+    "en": "At least twenty guests are coming to the meeting."
+   }
+  },
+  {
+   "da": "i det mindste",
+   "pattern": "i det mindste",
+   "en": "at least",
+   "level": "B2",
+   "example": {
+    "da": "Du kunne i det mindste have ringet og sagt, at du var syg.",
+    "en": "You could at least have called and said you were ill."
+   }
+  },
+  {
+   "da": "i så fald",
+   "pattern": "i så fald",
+   "en": "in that case",
+   "level": "B2",
+   "example": {
+    "da": "Hvis du ikke kan komme, så skriv i så fald til sekretariatet.",
+    "en": "If you can't come, then in that case write to the secretariat."
+   }
+  },
+  {
+   "da": "i givet fald",
+   "pattern": "i givet fald",
+   "en": "if so, should that be the case",
+   "level": "C1",
+   "example": {
+    "da": "Partiet overvejer at stille et mistillidsvotum og vil i givet fald gøre det i morgen.",
+    "en": "The party is considering a vote of no confidence and, if so, will table it tomorrow."
+   }
+  },
+  {
+   "da": "i modsat fald",
+   "pattern": "i modsat fald",
+   "en": "otherwise, if not",
+   "level": "C1",
+   "example": {
+    "da": "Ansøgningen skal være modtaget senest fredag, i modsat fald behandles den ikke.",
+    "en": "The application must be received by Friday; otherwise it will not be processed."
+   }
+  },
+  {
+   "da": "i bedste fald",
+   "pattern": "i bedste fald",
+   "en": "at best",
+   "level": "C1",
+   "example": {
+    "da": "Lønstigningen dækker i bedste fald inflationen.",
+    "en": "At best, the pay rise covers inflation."
+   }
+  },
+  {
+   "da": "i værste fald",
+   "pattern": "i værste fald",
+   "en": "at worst, in the worst case",
+   "level": "C1",
+   "example": {
+    "da": "I værste fald kan du miste din ret til dagpenge.",
+    "en": "In the worst case you can lose your right to unemployment benefit."
+   }
+  },
+  {
+   "da": "i princippet",
+   "pattern": "i princippet",
+   "en": "in principle",
+   "level": "B2",
+   "example": {
+    "da": "I princippet kan alle søge, men i praksis er det svært.",
+    "en": "In principle anyone can apply, but in practice it is difficult."
+   }
+  },
+  {
+   "da": "i praksis",
+   "pattern": "i praksis",
+   "en": "in practice",
+   "level": "B2",
+   "example": {
+    "da": "Reglerne er enkle, men i praksis er der mange undtagelser.",
+    "en": "The rules are simple, but in practice there are many exceptions."
+   }
+  },
+  {
+   "da": "i virkeligheden",
+   "pattern": "i virkeligheden",
+   "en": "in reality, actually",
+   "level": "B2",
+   "example": {
+    "da": "Opgaven var i virkeligheden meget større, end vi troede.",
+    "en": "The task was actually much bigger than we thought."
+   }
+  },
+  {
+   "da": "i realiteten",
+   "pattern": "i realiteten",
+   "en": "in reality, in effect",
+   "level": "C1",
+   "example": {
+    "da": "Aftalen betyder i realiteten en lønnedgang for mange.",
+    "en": "The agreement in effect means a pay cut for many."
+   }
+  },
+  {
+   "da": "på ingen måde",
+   "pattern": "på ingen måde",
+   "en": "in no way, by no means",
+   "level": "C1",
+   "example": {
+    "da": "Resultatet er på ingen måde tilfredsstillende.",
+    "en": "The result is by no means satisfactory."
+   }
+  },
+  {
+   "da": "på mange måder",
+   "pattern": "på mange måder",
+   "en": "in many ways",
+   "level": "B2",
+   "example": {
+    "da": "Coronakrisen ændrede på mange måder vores arbejdsliv.",
+    "en": "The coronavirus crisis changed our working lives in many ways."
+   }
+  },
+  {
+   "da": "i den sammenhæng",
+   "pattern": "i den sammenhæng",
+   "en": "in that context",
+   "level": "C1",
+   "example": {
+    "da": "I den sammenhæng er det vigtigt at huske de ældre borgere.",
+    "en": "In that context it is important to remember older citizens."
+   }
+  },
+  {
+   "da": "som regel",
+   "pattern": "som regel",
+   "en": "as a rule, usually",
+   "level": "B2",
+   "example": {
+    "da": "Som regel får man svar fra kommunen inden for to uger.",
+    "en": "As a rule, you get a reply from the municipality within two weeks."
+   }
+  },
+  {
+   "da": "for det meste",
+   "pattern": "for det meste",
+   "en": "mostly, for the most part",
+   "level": "B2",
+   "example": {
+    "da": "Jeg arbejder for det meste hjemmefra om fredagen.",
+    "en": "I mostly work from home on Fridays."
+   }
+  },
+  {
+   "da": "af den grund",
+   "pattern": "af den grund",
+   "en": "for that reason",
+   "level": "C1",
+   "example": {
+    "da": "Bussen kører sjældent, og af den grund tager mange bilen.",
+    "en": "The bus runs rarely, and for that reason many people take the car."
+   }
+  },
+  {
+   "da": "ikke desto mindre",
+   "pattern": "ikke desto mindre",
+   "en": "nevertheless",
+   "level": "C1",
+   "example": {
+    "da": "Opgaven var svær, men ikke desto mindre lykkedes det.",
+    "en": "The task was difficult, but nevertheless it succeeded."
+   }
+  },
+  {
+   "da": "for ikke at tale om",
+   "pattern": "…, for ikke at tale om …",
+   "en": "not to mention",
+   "level": "C1",
+   "example": {
+    "da": "Det er dyrt at have bil, for ikke at tale om at parkere i byen.",
+    "en": "It is expensive to have a car, not to mention parking in the city."
+   }
+  },
+  {
+   "da": "i stand til",
+   "pattern": "i stand til noget / til at …",
+   "en": "able to, capable of",
+   "level": "B2",
+   "example": {
+    "da": "Efter ulykken var han ikke i stand til at arbejde i et halvt år.",
+    "en": "After the accident he was unable to work for six months."
+   }
+  },
+  {
+   "da": "ude af stand til",
+   "pattern": "ude af stand til at gøre noget",
+   "en": "unable to, incapable of",
+   "level": "C1",
+   "example": {
+    "da": "Mange var ude af stand til at betale deres varmeregning.",
+    "en": "Many were unable to pay their heating bill."
+   }
+  },
+  {
+   "da": "i tvivl om",
+   "pattern": "i tvivl om noget / om, hvorvidt …",
+   "en": "in doubt about, unsure about",
+   "level": "B2",
+   "example": {
+    "da": "Hvis du er i tvivl om reglerne, kan du kontakte din a-kasse.",
+    "en": "If you are unsure about the rules, you can contact your unemployment fund."
+   }
+  },
+  {
+   "da": "i nærheden af",
+   "pattern": "i nærheden af noget",
+   "en": "near, close to",
+   "level": "B2",
+   "example": {
+    "da": "Vi leder efter en lejlighed i nærheden af en god skole.",
+    "en": "We are looking for a flat near a good school."
+   }
+  },
+  {
+   "da": "tæt på",
+   "pattern": "tæt på noget/nogen",
+   "en": "close to, near",
+   "level": "B2",
+   "example": {
+    "da": "Arbejdsløsheden er tæt på det laveste niveau i mange år.",
+    "en": "Unemployment is close to its lowest level in many years."
+   }
+  },
+  {
+   "da": "langt fra",
+   "pattern": "langt fra noget / langt fra alle",
+   "en": "far from; by no means",
+   "level": "B2",
+   "example": {
+    "da": "Det er langt fra alle, der har råd til at bo i de store byer.",
+    "en": "By no means everyone can afford to live in the big cities."
+   }
+  },
+  {
+   "da": "i familie med",
+   "pattern": "i familie med nogen",
+   "en": "related to (family)",
+   "level": "B2",
+   "example": {
+    "da": "Hun er i familie med borgmesteren, men det ved de færreste.",
+    "en": "She is related to the mayor, but few people know that."
+   }
+  },
+  {
+   "da": "på talefod med",
+   "pattern": "på talefod med nogen",
+   "en": "on speaking terms with",
+   "level": "C1",
+   "example": {
+    "da": "Efter konflikten er de to naboer ikke længere på talefod med hinanden.",
+    "en": "After the conflict the two neighbours are no longer on speaking terms."
+   }
+  },
+  {
+   "da": "på du med",
+   "pattern": "på du med nogen",
+   "en": "on first-name terms with",
+   "level": "C1",
+   "example": {
+    "da": "I Danmark er man som regel på du med både chefen og lægen.",
+    "en": "In Denmark you are usually on first-name terms with both your boss and your doctor."
+   }
+  },
+  {
+   "da": "uvenner med",
+   "pattern": "uvenner med nogen",
+   "en": "on bad terms with, fallen out with",
+   "level": "C1",
+   "example": {
+    "da": "Han blev uvenner med sin bror på grund af arven.",
+    "en": "He fell out with his brother over the inheritance."
+   }
+  },
+  {
+   "da": "i kontakt med",
+   "pattern": "i kontakt med nogen",
+   "en": "in contact with, in touch with",
+   "level": "B2",
+   "example": {
+    "da": "Jobcentret hjælper dig med at komme i kontakt med arbejdsgivere.",
+    "en": "The job centre helps you get in touch with employers."
+   }
+  },
+  {
+   "da": "på lige fod med",
+   "pattern": "på lige fod med nogen",
+   "en": "on an equal footing with",
+   "level": "C1",
+   "example": {
+    "da": "Flygtninge skal kunne deltage i samfundet på lige fod med alle andre.",
+    "en": "Refugees must be able to take part in society on an equal footing with everyone else."
+   }
+  },
+  {
+   "da": "på linje med",
+   "pattern": "på linje med noget/nogen",
+   "en": "on a par with, in line with",
+   "level": "C1",
+   "example": {
+    "da": "Lønnen skal ligge på linje med det, man får i nabokommunerne.",
+    "en": "The pay must be on a par with what you get in neighbouring municipalities."
+   }
+  },
+  {
+   "da": "i omegnen af",
+   "pattern": "i omegnen af + tal",
+   "en": "around, approximately",
+   "level": "C1",
+   "example": {
+    "da": "Renoveringen kommer til at koste i omegnen af 20 millioner kroner.",
+    "en": "The renovation will cost around 20 million kroner."
+   }
+  },
+  {
+   "da": "i størrelsesordenen",
+   "pattern": "i størrelsesordenen + tal",
+   "en": "in the order of, roughly",
+   "level": "C2",
+   "example": {
+    "da": "Underskuddet ligger i størrelsesordenen 3 milliarder kroner.",
+    "en": "The deficit is in the order of 3 billion kroner."
+   }
+  },
+  {
+   "da": "i alt",
+   "pattern": "i alt",
+   "en": "in total, altogether",
+   "level": "B2",
+   "example": {
+    "da": "I alt deltog over 2.000 borgere i undersøgelsen.",
+    "en": "In total, over 2,000 citizens took part in the survey."
+   }
+  },
+  {
+   "da": "i gennemsnit",
+   "pattern": "i gennemsnit",
+   "en": "on average",
+   "level": "B2",
+   "example": {
+    "da": "En dansker bruger i gennemsnit tre timer om dagen på sin telefon.",
+    "en": "A Dane spends on average three hours a day on their phone."
+   }
+  },
+  {
+   "da": "op til",
+   "pattern": "op til noget (tid) / op til + tal",
+   "en": "in the run-up to; up to",
+   "level": "C1",
+   "example": {
+    "da": "Op til valget lovede alle partier flere penge til de ældre.",
+    "en": "In the run-up to the election, all parties promised more money for the elderly."
+   }
+  },
+  {
+   "da": "på forhånd",
+   "pattern": "på forhånd",
+   "en": "in advance, beforehand",
+   "level": "B2",
+   "example": {
+    "da": "Du skal bestille tid på forhånd, hvis du vil tale med en sagsbehandler.",
+    "en": "You must book an appointment in advance if you want to talk to a caseworker."
+   }
+  },
+  {
+   "da": "i forvejen",
+   "pattern": "i forvejen",
+   "en": "already; beforehand",
+   "level": "C1",
+   "example": {
+    "da": "Mange familier har i forvejen svært ved at få økonomien til at hænge sammen.",
+    "en": "Many families already find it hard to make ends meet."
+   }
+  },
+  {
+   "da": "til tiden",
+   "pattern": "til tiden",
+   "en": "on time",
+   "level": "B2",
+   "example": {
+    "da": "Kun halvdelen af togene kom til tiden i januar.",
+    "en": "Only half of the trains arrived on time in January."
+   }
+  },
+  {
+   "da": "i tide",
+   "pattern": "i tide",
+   "en": "in time (before it is too late)",
+   "level": "B2",
+   "example": {
+    "da": "Det er vigtigt at opdage sygdommen i tide.",
+    "en": "It is important to detect the disease in time."
+   }
+  },
+  {
+   "da": "i god tid",
+   "pattern": "i god tid",
+   "en": "in good time, early",
+   "level": "B2",
+   "example": {
+    "da": "Husk at søge om forlængelse i god tid, før dit visum udløber.",
+    "en": "Remember to apply for an extension in good time before your visa expires."
+   }
+  },
+  {
+   "da": "med det samme",
+   "pattern": "med det samme",
+   "en": "immediately, at once",
+   "level": "B2",
+   "example": {
+    "da": "Hvis du får brev om fejl i din skat, skal du reagere med det samme.",
+    "en": "If you get a letter about an error in your tax, you must react immediately."
+   }
+  },
+  {
+   "da": "for tiden",
+   "pattern": "for tiden",
+   "en": "at present, these days",
+   "level": "B2",
+   "example": {
+    "da": "For tiden er der rigtig mange ledige stillinger i byggeriet.",
+    "en": "At present there are a great many vacancies in construction."
+   }
+  },
+  {
+   "da": "i øjeblikket",
+   "pattern": "i øjeblikket",
+   "en": "at the moment",
+   "level": "B2",
+   "example": {
+    "da": "Lægen har i øjeblikket lukket for nye patienter.",
+    "en": "The doctor is not accepting new patients at the moment."
+   }
+  },
+  {
+   "da": "nu om dage",
+   "pattern": "nu om dage",
+   "en": "nowadays",
+   "level": "B2",
+   "example": {
+    "da": "Nu om dage foregår næsten al kontakt med det offentlige digitalt.",
+    "en": "Nowadays almost all contact with the public sector happens digitally."
+   }
+  },
+  {
+   "da": "i disse år",
+   "pattern": "i disse år",
+   "en": "these years, currently",
+   "level": "C1",
+   "example": {
+    "da": "I disse år går mange af de store årgange på pension.",
+    "en": "These years many of the baby-boom generation are retiring."
+   }
+  },
+  {
+   "da": "i de senere år",
+   "pattern": "i de senere år",
+   "en": "in recent years",
+   "level": "C1",
+   "example": {
+    "da": "I de senere år er flere unge begyndt at læse til håndværker.",
+    "en": "In recent years more young people have started training as craftsmen."
+   }
+  },
+  {
+   "da": "på det seneste",
+   "pattern": "på det seneste",
+   "en": "lately, recently",
+   "level": "C1",
+   "example": {
+    "da": "På det seneste har der været mange indbrud i kvarteret.",
+    "en": "Lately there have been many burglaries in the neighbourhood."
+   }
+  },
+  {
+   "da": "for nylig",
+   "pattern": "for nylig",
+   "en": "recently",
+   "level": "B2",
+   "example": {
+    "da": "Regeringen har for nylig fremlagt en plan for psykiatrien.",
+    "en": "The government recently presented a plan for psychiatry."
+   }
+  },
+  {
+   "da": "indtil videre",
+   "pattern": "indtil videre",
+   "en": "so far; for the time being",
+   "level": "B2",
+   "example": {
+    "da": "Indtil videre har 300 borgere skrevet under på protesten.",
+    "en": "So far 300 citizens have signed the protest."
+   }
+  },
+  {
+   "da": "fra nu af",
+   "pattern": "fra nu af",
+   "en": "from now on",
+   "level": "B2",
+   "example": {
+    "da": "Fra nu af skal alle møder holdes på dansk.",
+    "en": "From now on all meetings must be held in Danish."
+   }
+  },
+  {
+   "da": "fra og med",
+   "pattern": "fra og med + tidspunkt",
+   "en": "from (and including)",
+   "level": "C1",
+   "example": {
+    "da": "Fra og med 1. januar stiger prisen på buskort.",
+    "en": "From 1 January the price of bus passes will go up."
+   }
+  },
+  {
+   "da": "til og med",
+   "pattern": "til og med + tidspunkt",
+   "en": "up to and including",
+   "level": "C1",
+   "example": {
+    "da": "Udstillingen kan ses til og med søndag den 12. maj.",
+    "en": "The exhibition can be seen up to and including Sunday 12 May."
+   }
+  },
+  {
+   "da": "på et tidspunkt",
+   "pattern": "på et tidspunkt",
+   "en": "at some point",
+   "level": "B2",
+   "example": {
+    "da": "Alle får på et tidspunkt brug for hjælp fra sundhedsvæsenet.",
+    "en": "Everyone needs help from the health service at some point."
+   }
+  },
+  {
+   "da": "på nuværende tidspunkt",
+   "pattern": "på nuværende tidspunkt",
+   "en": "at present, at this stage",
+   "level": "C1",
+   "example": {
+    "da": "På nuværende tidspunkt kan vi ikke sige, hvornår vejen åbner igen.",
+    "en": "At this stage we cannot say when the road will reopen."
+   }
+  },
+  {
+   "da": "på daværende tidspunkt",
+   "pattern": "på daværende tidspunkt",
+   "en": "at that time",
+   "level": "C1",
+   "example": {
+    "da": "På daværende tidspunkt var der ingen, der talte om klimaet.",
+    "en": "At that time nobody was talking about the climate."
+   }
+  },
+  {
+   "da": "af og til",
+   "pattern": "af og til",
+   "en": "now and then, occasionally",
+   "level": "B2",
+   "example": {
+    "da": "Af og til arbejder jeg over, når der er travlt.",
+    "en": "Now and then I work overtime when it is busy."
+   }
+  },
+  {
+   "da": "en gang imellem",
+   "pattern": "en gang imellem",
+   "en": "once in a while",
+   "level": "B2",
+   "example": {
+    "da": "En gang imellem tager vi toget til Hamborg for at handle.",
+    "en": "Once in a while we take the train to Hamburg to go shopping."
+   }
+  },
+  {
+   "da": "med jævne mellemrum",
+   "pattern": "med jævne mellemrum",
+   "en": "at regular intervals",
+   "level": "C1",
+   "example": {
+    "da": "Kommunen kontrollerer med jævne mellemrum vandkvaliteten.",
+    "en": "The municipality checks water quality at regular intervals."
+   }
+  },
+  {
+   "da": "for … siden",
+   "pattern": "for + tidsrum + siden",
+   "en": "… ago",
+   "level": "B2",
+   "example": {
+    "da": "Jeg kom til Danmark for syv år siden.",
+    "en": "I came to Denmark seven years ago."
+   }
+  },
+  {
+   "da": "lige siden",
+   "pattern": "lige siden (+ tidspunkt)",
+   "en": "ever since",
+   "level": "B2",
+   "example": {
+    "da": "Hun har arbejdet på hospitalet lige siden hun blev færdig som sygeplejerske.",
+    "en": "She has worked at the hospital ever since she qualified as a nurse."
+   }
+  },
+  {
+   "da": "om ugen",
+   "pattern": "+ antal + om ugen",
+   "en": "a week, per week",
+   "level": "B2",
+   "example": {
+    "da": "Jeg træner tre gange om ugen efter arbejde.",
+    "en": "I work out three times a week after work."
+   }
+  },
+  {
+   "da": "om året",
+   "pattern": "+ beløb/antal + om året",
+   "en": "a year, per year",
+   "level": "B2",
+   "example": {
+    "da": "Familien bruger omkring 20.000 kroner om året på strøm.",
+    "en": "The family spends about 20,000 kroner a year on electricity."
+   }
+  },
+  {
+   "da": "om morgenen",
+   "pattern": "om morgenen (vane)",
+   "en": "in the mornings",
+   "level": "B2",
+   "example": {
+    "da": "Om morgenen er der lange køer på motorvejen ind til byen.",
+    "en": "In the mornings there are long queues on the motorway into the city."
+   }
+  },
+  {
+   "da": "i morges",
+   "pattern": "i morges (fortid)",
+   "en": "this morning (earlier today)",
+   "level": "B2",
+   "example": {
+    "da": "Jeg ringede til lægen i morges, men der var optaget.",
+    "en": "I called the doctor this morning, but the line was busy."
+   }
+  },
+  {
+   "da": "til sommer",
+   "pattern": "til sommer / til jul (kommende)",
+   "en": "next summer, this coming summer",
+   "level": "B2",
+   "example": {
+    "da": "Til sommer bliver min datter færdig med gymnasiet.",
+    "en": "This coming summer my daughter will finish upper secondary school."
+   }
+  },
+  {
+   "da": "i weekenden",
+   "pattern": "i weekenden",
+   "en": "at the weekend",
+   "level": "B2",
+   "example": {
+    "da": "Mange butikker har udvidet åbningstid i weekenden.",
+    "en": "Many shops have extended opening hours at the weekend."
+   }
+  },
+  {
+   "da": "på hverdage",
+   "pattern": "på hverdage",
+   "en": "on weekdays",
+   "level": "B2",
+   "example": {
+    "da": "Borgerservice har åbent fra 10 til 15 på hverdage.",
+    "en": "Citizen services are open from 10 to 3 on weekdays."
+   }
+  },
+  {
+   "da": "i længden",
+   "pattern": "i længden",
+   "en": "in the long run",
+   "level": "C1",
+   "example": {
+    "da": "Det holder ikke i længden at arbejde 50 timer om ugen.",
+    "en": "Working 50 hours a week isn't sustainable in the long run."
+   }
+  },
+  {
+   "da": "på sigt",
+   "pattern": "på sigt / på længere sigt",
+   "en": "in the long term, eventually",
+   "level": "C1",
+   "example": {
+    "da": "På sigt skal alle busser i byen køre på el.",
+    "en": "In the long term all buses in the city will run on electricity."
+   }
+  },
+  {
+   "da": "på kort sigt",
+   "pattern": "på kort sigt",
+   "en": "in the short term",
+   "level": "C1",
+   "example": {
+    "da": "På kort sigt vil reformen koste penge.",
+    "en": "In the short term the reform will cost money."
+   }
+  },
+  {
+   "da": "i mellemtiden",
+   "pattern": "i mellemtiden",
+   "en": "in the meantime, meanwhile",
+   "level": "B2",
+   "example": {
+    "da": "Din sag bliver behandlet, og i mellemtiden kan du fortsætte i dit job.",
+    "en": "Your case is being processed, and in the meantime you can continue in your job."
+   }
+  },
+  {
+   "da": "hen ad vejen",
+   "pattern": "hen ad vejen",
+   "en": "along the way, as you go",
+   "level": "C1",
+   "example": {
+    "da": "Vi justerer planen hen ad vejen, når vi får mere erfaring.",
+    "en": "We will adjust the plan along the way as we gain more experience."
+   }
+  },
+  {
+   "da": "med tiden",
+   "pattern": "med tiden",
+   "en": "in time, eventually",
+   "level": "C1",
+   "example": {
+    "da": "Med tiden bliver det lettere at forstå jysk.",
+    "en": "In time it gets easier to understand the Jutland dialect."
+   }
+  },
+  {
+   "da": "i årevis",
+   "pattern": "i årevis",
+   "en": "for years",
+   "level": "C1",
+   "example": {
+    "da": "Lærerne har i årevis klaget over for store klasser.",
+    "en": "Teachers have complained about overly large classes for years."
+   }
+  },
+  {
+   "da": "i træk",
+   "pattern": "+ antal + i træk",
+   "en": "in a row, running",
+   "level": "B2",
+   "example": {
+    "da": "Virksomheden har haft overskud fem år i træk.",
+    "en": "The company has made a profit five years in a row."
+   }
+  },
+  {
+   "da": "ved udgangen af",
+   "pattern": "ved udgangen af en periode",
+   "en": "at the end of",
+   "level": "C1",
+   "example": {
+    "da": "Ved udgangen af året skal alle papirer være afleveret.",
+    "en": "By the end of the year all papers must be handed in."
+   }
+  },
+  {
+   "da": "i begyndelsen af",
+   "pattern": "i begyndelsen af en periode",
+   "en": "at the beginning of",
+   "level": "B2",
+   "example": {
+    "da": "I begyndelsen af marts kommer årsopgørelsen fra Skattestyrelsen.",
+    "en": "At the beginning of March the annual tax statement arrives from the Tax Agency."
+   }
+  },
+  {
+   "da": "på landet",
+   "pattern": "på landet (modsat i byen)",
+   "en": "in the countryside",
+   "level": "B2",
+   "example": {
+    "da": "Flere børnefamilier flytter ud på landet for at få mere plads.",
+    "en": "More families with children are moving to the countryside to get more space."
+   }
+  },
+  {
+   "da": "i udlandet",
+   "pattern": "i udlandet / til udlandet",
+   "en": "abroad",
+   "level": "B2",
+   "example": {
+    "da": "Hvert år tager mange studerende et semester i udlandet.",
+    "en": "Every year many students spend a semester abroad."
+   }
+  },
+  {
+   "da": "på Fyn",
+   "pattern": "på + ø: på Fyn, på Sjælland, på Bornholm",
+   "en": "on Funen (islands take på)",
+   "level": "B2",
+   "example": {
+    "da": "Vi bor på Fyn, men min mand arbejder på Sjælland.",
+    "en": "We live on Funen, but my husband works on Zealand."
+   }
+  },
+  {
+   "da": "i Jylland",
+   "pattern": "i Jylland (men på Fyn/Sjælland)",
+   "en": "in Jutland",
+   "level": "B2",
+   "example": {
+    "da": "Min mand er vokset op i Jylland, tæt på Herning.",
+    "en": "My husband grew up in Jutland, near Herning."
+   }
+  },
+  {
+   "da": "hos lægen",
+   "pattern": "hos + person/sted: hos lægen, hos tandlægen",
+   "en": "at the doctor's",
+   "level": "B2",
+   "example": {
+    "da": "Jeg har en tid hos lægen på torsdag på grund af min ryg.",
+    "en": "I have an appointment at the doctor's on Thursday because of my back."
+   }
+  },
+  {
+   "da": "på hospitalet",
+   "pattern": "ligge/være på hospitalet",
+   "en": "in hospital",
+   "level": "B2",
+   "example": {
+    "da": "Hun ligger på hospitalet efter en mindre operation.",
+    "en": "She is in hospital after a minor operation."
+   }
+  },
+  {
+   "da": "til stede",
+   "pattern": "være til stede",
+   "en": "present",
+   "level": "C1",
+   "example": {
+    "da": "Mindst halvdelen af medlemmerne skal være til stede, før man kan stemme.",
+    "en": "At least half of the members must be present before a vote can be held."
+   }
+  },
+  {
+   "da": "til rådighed",
+   "pattern": "stå/stille noget til rådighed",
+   "en": "available, at someone's disposal",
+   "level": "C1",
+   "example": {
+    "da": "Kommunen stiller en tolk til rådighed under samtalen.",
+    "en": "The municipality provides an interpreter during the interview."
+   }
+  },
+  {
+   "da": "til salg",
+   "pattern": "til salg",
+   "en": "for sale",
+   "level": "B2",
+   "example": {
+    "da": "Der er mange huse til salg i området, men priserne er høje.",
+    "en": "There are many houses for sale in the area, but prices are high."
+   }
+  },
+  {
+   "da": "til leje",
+   "pattern": "til leje",
+   "en": "for rent, to let",
+   "level": "B2",
+   "example": {
+    "da": "Lejligheden er til leje fra den 1. august.",
+    "en": "The flat is available to rent from 1 August."
+   }
+  },
+  {
+   "da": "til fods",
+   "pattern": "til fods",
+   "en": "on foot",
+   "level": "B2",
+   "example": {
+    "da": "Det tager kun ti minutter til fods fra stationen til jobcentret.",
+    "en": "It only takes ten minutes on foot from the station to the job centre."
+   }
+  },
+  {
+   "da": "i brug",
+   "pattern": "i brug",
+   "en": "in use",
+   "level": "C1",
+   "example": {
+    "da": "Det gamle it-system er stadig i brug på mange skoler.",
+    "en": "The old IT system is still in use at many schools."
+   }
+  },
+  {
+   "da": "ude af drift",
+   "pattern": "ude af drift",
+   "en": "out of order, out of service",
+   "level": "C1",
+   "example": {
+    "da": "Elevatoren er ude af drift, så beboerne må tage trappen.",
+    "en": "The lift is out of order, so the residents have to take the stairs."
+   }
+  },
+  {
+   "da": "i gang med",
+   "pattern": "være i gang med noget / med at …",
+   "en": "busy with, in the middle of",
+   "level": "B2",
+   "example": {
+    "da": "Kommunen er i gang med at renovere alle skolerne.",
+    "en": "The municipality is in the process of renovating all the schools."
+   }
+  },
+  {
+   "da": "i færd med",
+   "pattern": "være i færd med at gøre noget",
+   "en": "in the process of, busy doing",
+   "level": "C1",
+   "example": {
+    "da": "Politiet er i færd med at afspærre området omkring banegården.",
+    "en": "The police are in the process of cordoning off the area around the station."
+   }
+  },
+  {
+   "da": "under pres",
+   "pattern": "under pres",
+   "en": "under pressure",
+   "level": "C1",
+   "example": {
+    "da": "Sundhedsvæsenet er under stort pres på grund af manglen på personale.",
+    "en": "The health service is under great pressure due to staff shortages."
+   }
+  },
+  {
+   "da": "under behandling",
+   "pattern": "under behandling",
+   "en": "being processed; undergoing treatment",
+   "level": "C1",
+   "example": {
+    "da": "Din ansøgning om familiesammenføring er stadig under behandling.",
+    "en": "Your application for family reunification is still being processed."
+   }
+  },
+  {
+   "da": "på spil",
+   "pattern": "på spil",
+   "en": "at stake",
+   "level": "C1",
+   "example": {
+    "da": "Der er mange arbejdspladser på spil, hvis fabrikken lukker.",
+    "en": "Many jobs are at stake if the factory closes."
+   }
+  },
+  {
+   "da": "til debat",
+   "pattern": "til debat",
+   "en": "up for debate, under discussion",
+   "level": "C1",
+   "example": {
+    "da": "Pensionsalderen er igen til debat i Folketinget.",
+    "en": "The pension age is once again up for debate in Parliament."
+   }
+  },
+  {
+   "da": "på dagsordenen",
+   "pattern": "på dagsordenen",
+   "en": "on the agenda",
+   "level": "C1",
+   "example": {
+    "da": "Klimaet står højt på dagsordenen ved det kommende valg.",
+    "en": "Climate is high on the agenda at the coming election."
+   }
+  },
+  {
+   "da": "efter aftale",
+   "pattern": "efter aftale",
+   "en": "by appointment, by arrangement",
+   "level": "C1",
+   "example": {
+    "da": "Besøg uden for besøgstiden er muligt efter aftale med afdelingen.",
+    "en": "Visits outside visiting hours are possible by arrangement with the ward."
+   }
+  },
+  {
+   "da": "efter behov",
+   "pattern": "efter behov",
+   "en": "as needed, as required",
+   "level": "C1",
+   "example": {
+    "da": "Smertestillende medicin kan tages efter behov, dog højst fire gange dagligt.",
+    "en": "Painkillers can be taken as needed, but no more than four times a day."
+   }
+  },
+  {
+   "da": "på skift",
+   "pattern": "på skift",
+   "en": "in turns, taking turns",
+   "level": "C1",
+   "example": {
+    "da": "Forældrene kører på skift børnene til fodbold om lørdagen.",
+    "en": "The parents take turns driving the children to football on Saturdays."
+   }
+  },
+  {
+   "da": "på egen hånd",
+   "pattern": "på egen hånd",
+   "en": "on one's own, independently",
+   "level": "C1",
+   "example": {
+    "da": "Det kan være svært at finde en praktikplads på egen hånd.",
+    "en": "It can be hard to find a work placement on your own."
+   }
+  },
+  {
+   "da": "for egen regning",
+   "pattern": "for egen regning",
+   "en": "at one's own expense",
+   "level": "C1",
+   "example": {
+    "da": "Hvis du ønsker en enestue, er det for egen regning.",
+    "en": "If you want a single room, it is at your own expense."
+   }
+  },
+  {
+   "da": "uden beregning",
+   "pattern": "uden beregning",
+   "en": "free of charge",
+   "level": "C1",
+   "example": {
+    "da": "Rådgivningen er uden beregning for alle medlemmer af foreningen.",
+    "en": "The advice is free of charge for all members of the association."
+   }
+  },
+  {
+   "da": "mod betaling",
+   "pattern": "mod betaling",
+   "en": "for a fee, against payment",
+   "level": "C1",
+   "example": {
+    "da": "Man kan få ekstra rengøring mod betaling.",
+    "en": "You can get extra cleaning for a fee."
+   }
+  },
+  {
+   "da": "ved en fejl",
+   "pattern": "ved en fejl",
+   "en": "by mistake",
+   "level": "B2",
+   "example": {
+    "da": "Brevet blev ved en fejl sendt til den forkerte adresse.",
+    "en": "The letter was sent to the wrong address by mistake."
+   }
+  },
+  {
+   "da": "med vilje",
+   "pattern": "med vilje",
+   "en": "on purpose, deliberately",
+   "level": "B2",
+   "example": {
+    "da": "Ingen tror, at fejlen i lønudbetalingen blev lavet med vilje.",
+    "en": "Nobody believes the error in the salary payment was made on purpose."
+   }
+  },
+  {
+   "da": "i fællesskab",
+   "pattern": "i fællesskab",
+   "en": "jointly, together",
+   "level": "C1",
+   "example": {
+    "da": "Beboerne har i fællesskab anlagt en køkkenhave i gården.",
+    "en": "The residents have jointly created a vegetable garden in the courtyard."
+   }
+  },
+  {
+   "da": "hver for sig",
+   "pattern": "hver for sig",
+   "en": "separately, each on their own",
+   "level": "C1",
+   "example": {
+    "da": "Forældrene bor hver for sig, men deler forældremyndigheden.",
+    "en": "The parents live separately but share custody."
+   }
+  },
+  {
+   "da": "ansigt til ansigt",
+   "pattern": "ansigt til ansigt",
+   "en": "face to face",
+   "level": "B2",
+   "example": {
+    "da": "Nogle samtaler bør foregå ansigt til ansigt og ikke over telefonen.",
+    "en": "Some conversations should take place face to face and not over the phone."
+   }
+  },
+  {
+   "da": "i orden",
+   "pattern": "i orden",
+   "en": "in order, all right",
+   "level": "B2",
+   "example": {
+    "da": "Husk at få dine papirer i orden, før du søger om statsborgerskab.",
+    "en": "Remember to get your papers in order before applying for citizenship."
+   }
+  },
+  {
+   "da": "i sikkerhed",
+   "pattern": "i sikkerhed",
+   "en": "to safety, safe",
+   "level": "C1",
+   "example": {
+    "da": "Alle beboerne kom i sikkerhed, før branden spredte sig.",
+    "en": "All the residents got to safety before the fire spread."
+   }
+  },
+  {
+   "da": "under hensyntagen til",
+   "pattern": "under hensyntagen til noget",
+   "en": "taking into account, with due regard to",
+   "level": "C2",
+   "example": {
+    "da": "Planen skal udarbejdes under hensyntagen til naturen og de lokale beboere.",
+    "en": "The plan must be drawn up taking into account nature and the local residents."
+   }
+  },
+  {
+   "da": "på foranledning af",
+   "pattern": "på foranledning af nogen",
+   "en": "at the instigation of, at the request of",
+   "level": "C2",
+   "example": {
+    "da": "Sagen blev genoptaget på foranledning af Folketingets Ombudsmand.",
+    "en": "The case was reopened at the instigation of the Parliamentary Ombudsman."
+   }
+  },
+  {
+   "da": "i samspil med",
+   "pattern": "i samspil med noget/nogen",
+   "en": "in interaction with, together with",
+   "level": "C1",
+   "example": {
+    "da": "Skolen arbejder i tæt samspil med forældrene om elevernes trivsel.",
+    "en": "The school works closely together with parents on the pupils' well-being."
+   }
+  },
+  {
+   "da": "i samråd med",
+   "pattern": "i samråd med nogen",
+   "en": "in consultation with",
+   "level": "C2",
+   "example": {
+    "da": "Behandlingen planlægges i samråd med patienten og de pårørende.",
+    "en": "The treatment is planned in consultation with the patient and relatives."
+   }
+  },
+  {
+   "da": "i slutningen af",
+   "pattern": "i slutningen af en periode",
+   "en": "at the end of, towards the end of",
+   "level": "B2",
+   "example": {
+    "da": "I slutningen af måneden får de fleste lønmodtagere udbetalt løn.",
+    "en": "At the end of the month most employees get paid."
+   }
+  },
+  {
+   "da": "hen over",
+   "pattern": "hen over en periode",
+   "en": "over, during (a period)",
+   "level": "C1",
+   "example": {
+    "da": "Hen over sommeren bliver hovedvejen gennem byen gravet op.",
+    "en": "Over the summer the main road through the town will be dug up."
+   }
+  },
+  {
+   "da": "ved årsskiftet",
+   "pattern": "ved årsskiftet",
+   "en": "at the turn of the year",
+   "level": "C1",
+   "example": {
+    "da": "Ved årsskiftet træder de nye regler for boligstøtte i kraft.",
+    "en": "At the turn of the year the new rules for housing benefit take effect."
+   }
+  },
+  {
+   "da": "for alvor",
+   "pattern": "for alvor",
+   "en": "really, in earnest",
+   "level": "C1",
+   "example": {
+    "da": "Det var først efter krisen, at debatten om energiforbrug for alvor tog fart.",
+    "en": "It was only after the crisis that the debate on energy use really took off."
+   }
+  },
+  {
+   "da": "mod forevisning af",
+   "pattern": "mod forevisning af noget",
+   "en": "on presentation of, on showing",
+   "level": "C2",
+   "example": {
+    "da": "Pakken kan afhentes mod forevisning af gyldig billedlegitimation.",
+    "en": "The parcel can be collected on presentation of valid photo ID."
+   }
+  },
+  {
+   "da": "i stort omfang",
+   "pattern": "i stort omfang",
+   "en": "on a large scale, extensively",
+   "level": "C1",
+   "example": {
+    "da": "Kommunerne bruger i stort omfang vikarer i ældreplejen.",
+    "en": "The municipalities use temporary staff extensively in elderly care."
+   }
+  },
+  {
+   "da": "i konflikt med",
+   "pattern": "i konflikt med noget/nogen",
+   "en": "in conflict with",
+   "level": "C1",
+   "example": {
+    "da": "Nogle af reglerne er i konflikt med EU-retten.",
+    "en": "Some of the rules are in conflict with EU law."
+   }
+  },
+  {
+   "da": "ansvarlig over for",
+   "pattern": "ansvarlig over for nogen",
+   "en": "accountable to",
+   "level": "C1",
+   "example": {
+    "da": "Ministeren er ansvarlig over for Folketinget.",
+    "en": "The minister is accountable to Parliament."
+   }
+  },
+  {
+   "da": "afvisende over for",
+   "pattern": "afvisende over for noget/nogen",
+   "en": "dismissive of, opposed to",
+   "level": "C1",
+   "example": {
+    "da": "Regeringen er afvisende over for kravet om en ny undersøgelse.",
+    "en": "The government is opposed to the demand for a new inquiry."
+   }
+  },
+  {
+   "da": "imødekommende over for",
+   "pattern": "imødekommende over for nogen/noget",
+   "en": "accommodating towards, welcoming to",
+   "level": "C1",
+   "example": {
+    "da": "Arbejdsgiveren var meget imødekommende over for mit ønske om nedsat tid.",
+    "en": "The employer was very accommodating towards my wish for reduced hours."
+   }
+  },
+  {
+   "da": "tilbageholdende med",
+   "pattern": "tilbageholdende med noget / med at …",
+   "en": "reluctant to, cautious about",
+   "level": "C1",
+   "example": {
+    "da": "Mange familier er tilbageholdende med at bruge penge på grund af usikkerheden.",
+    "en": "Many families are reluctant to spend money because of the uncertainty."
+   }
+  },
+  {
+   "da": "tilbagemelding på",
+   "pattern": "en tilbagemelding på noget",
+   "en": "feedback on",
+   "level": "C1",
+   "example": {
+    "da": "Du får en skriftlig tilbagemelding på din opgave inden for to uger.",
+    "en": "You will get written feedback on your assignment within two weeks."
+   }
+  },
+  {
+   "da": "henvisning til",
+   "pattern": "en henvisning til noget/nogen",
+   "en": "referral to; reference to",
+   "level": "C1",
+   "example": {
+    "da": "Du skal have en henvisning fra din læge til en speciallæge.",
+    "en": "You need a referral from your doctor to a specialist."
+   }
+  },
+  {
+   "da": "erstatning for",
+   "pattern": "erstatning for noget",
+   "en": "compensation for",
+   "level": "C1",
+   "example": {
+    "da": "Passagerer kan få erstatning for forsinkede fly.",
+    "en": "Passengers can get compensation for delayed flights."
+   }
+  },
+  {
+   "da": "bøde for",
+   "pattern": "en bøde for noget",
+   "en": "fine for",
+   "level": "B2",
+   "example": {
+    "da": "Han fik en bøde for at cykle uden lys.",
+    "en": "He got a fine for cycling without lights."
+   }
+  },
+  {
+   "da": "opsigelse af",
+   "pattern": "opsigelse af noget",
+   "en": "termination of, notice to end",
+   "level": "C1",
+   "example": {
+    "da": "Opsigelse af lejemålet skal ske skriftligt med tre måneders varsel.",
+    "en": "Termination of the tenancy must be in writing with three months' notice."
+   }
+  },
+  {
+   "da": "gang på gang",
+   "pattern": "gang på gang",
+   "en": "time after time, repeatedly",
+   "level": "C1",
+   "example": {
+    "da": "Borgerne har gang på gang klaget over trafikken ved skolen.",
+    "en": "Residents have complained time after time about the traffic by the school."
+   }
+  },
+  {
+   "da": "en gang for alle",
+   "pattern": "en gang for alle",
+   "en": "once and for all",
+   "level": "C1",
+   "example": {
+    "da": "Politikerne må en gang for alle finde en løsning på trafikproblemet.",
+    "en": "The politicians must find a solution to the traffic problem once and for all."
+   }
+  },
+  {
+   "da": "for første gang",
+   "pattern": "for første gang",
+   "en": "for the first time",
+   "level": "B2",
+   "example": {
+    "da": "For første gang er der flere kvinder end mænd i byrådet.",
+    "en": "For the first time there are more women than men on the city council."
+   }
+  },
+  {
+   "da": "i mangel af",
+   "pattern": "i mangel af noget",
+   "en": "for lack of, in the absence of",
+   "level": "C1",
+   "example": {
+    "da": "I mangel af kvalificerede ansøgere har skolen ansat flere vikarer.",
+    "en": "For lack of qualified applicants, the school has hired more supply teachers."
+   }
+  },
+  {
+   "da": "ved siden af",
+   "pattern": "ved siden af noget/nogen",
+   "en": "next to; besides, alongside",
+   "level": "B2",
+   "example": {
+    "da": "Mange studerende har et fritidsjob ved siden af studiet.",
+    "en": "Many students have a part-time job alongside their studies."
+   }
+  }
+ ]
+}
